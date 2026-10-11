@@ -1,0 +1,84 @@
+{
+  "schema": "animation_element/v1",
+  "id": "pituitary_sagittal_layered_v1",
+  "title": "垂体瘤选题同源矢状解剖纸件",
+  "kind": "medical_cutout",
+  "tags": [
+    "paper_collage",
+    "sagittal-head-layered-v1"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "sagittal-head-layered-v1",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "透明手绘拼贴矢状位头部解剖教学纸片；用于颅底、鼻腔、蝶窦、蝶鞍与垂体的空间关系",
+    "must_not_imply": "不是患者影像，不作为个体诊断或手术导航",
+    "medical": true,
+    "medical_reference": "evidence/0-anatomy-reference.md",
+    "status": "review_candidate",
+    "generation_receipt": "evidence/1-sources-pituitary-v4.json",
+    "prompt_ref": "evidence/1-sources-pituitary-v4.json",
+    "visual_review": {
+      "status": "pending_scene_review",
+      "evidence_ref": "evidence/2-sagittal-head-layered-v1.json"
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/09_the_transnasal_route/v6",
+    "series": "pituitary_paper_theatre",
+    "episode": "09_the_transnasal_route",
+    "asset_id": "sagittal-head-layered-v1",
+    "original_manifest": {
+      "asset_id": "sagittal-head-layered-v1",
+      "path": "assets/season/sagittal-head-layered-v1.png",
+      "source_type": "imagegen",
+      "visual_meaning": "透明手绘拼贴矢状位头部解剖教学纸片；用于颅底、鼻腔、蝶窦、蝶鞍与垂体的空间关系",
+      "must_not_imply": "不是患者影像，不作为个体诊断或手术导航",
+      "medical": true,
+      "medical_reference": "preproduction/anatomy-reference.md",
+      "status": "review_candidate",
+      "generation_receipt": "preproduction/sources-pituitary-v4.json",
+      "prompt_ref": "preproduction/sources-pituitary-v4.json",
+      "visual_review": {
+        "status": "pending_scene_review",
+        "evidence_ref": "qa/asset-reviews/sagittal-head-layered-v1.json"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "topic",
+    "topic_id": "pituitary_tumor"
+  },
+  "quality_debt": [
+    "医学终审pending；禁止臆造经鼻手术轨迹"
+  ],
+  "usage_notes": "仅保存当前候选来源；使用同源全头和局部颅底有利于空间关系一致。不能当患者影像或手术导航",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b89887a0d3c1e2e1f835a5c997f4761197fa36af2fa84b5a7a6cd4f493b146f9",
+      "bytes": 2696504
+    },
+    {
+      "path": "evidence/0-anatomy-reference.md",
+      "role": "evidence",
+      "sha256": "4168db4eb8eeedd249776a6768df197a1d5b19a0097ce0b45d1d5875cfb7b270",
+      "bytes": 893
+    },
+    {
+      "path": "evidence/1-sources-pituitary-v4.json",
+      "role": "evidence",
+      "sha256": "64dfb3f023b88be5d2765a7cf011639dd54b23bd37577adc7303c7a20df50492",
+      "bytes": 356
+    },
+    {
+      "path": "evidence/2-sagittal-head-layered-v1.json",
+      "role": "evidence",
+      "sha256": "f8a2bb4793963607cc091d098625125ad5e284b3767cd30b9f48c8a4d719e084",
+      "bytes": 279
+    }
+  ],
+  "revision": "d0636987985387405ede"
+}

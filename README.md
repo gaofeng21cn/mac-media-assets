@@ -33,3 +33,12 @@ python3 tools/verify_catalog.py
 - 初稿质量与返修经验：[docs/first-draft-quality.md](docs/first-draft-quality.md)
 - 资产治理与 Review 边界：[docs/governance-and-review.md](docs/governance-and-review.md)
 - 与工作台的同步回执：[catalog/sync-readback.json](catalog/sync-readback.json)
+
+
+## MAC 安装与创作自由
+
+本库提供独立 Codex Skill/carrier 和 `contracts/opl_capability_package_manifest.json`，保持私有 Git 分发。MAC 标准工作台 setup 自动克隆或复用已有库；仅装插件载体不会运行 shell，工作台安装才准备媒体、依赖与本地制作入口。库无权限或离线时返回诊断，MAC 可继续本地素材和新创。
+
+普通查询默认排除其他作者的资产；用 `--author-id` 指定当前作者，`--include-author-assets` 仅供策展只读发现。48 个纸剧场版本包现包含独立原记录，可在没有旧工程的新工作区恢复原来源、注册与载荷映射。取用复用 MAC 的版本保管和 uses 机制，当前镜头审核重新 pending。
+
+现有素材、纸景、动作组件和 BGM 只是稳定起点；不设复用率，不规定故事、构图、比例、镜头数或风格。导演先看原件，再决定原件复用、适配、换材或新创。静帧不能当透明纸件，文件通过不能当动态、医学或听感通过。

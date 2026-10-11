@@ -1,0 +1,111 @@
+{
+  "schema": "animation_element/v1",
+  "id": "pituitary_anatomy_collage",
+  "title": "垂体与邻近结构纸剪贴",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "透明件",
+    "垂体",
+    "解剖",
+    "选题"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "anatomy",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "既有垂体和邻近结构纸剪贴示意",
+    "must_not_imply": "不是 MRI，位置不按比例",
+    "prompt_ref": "evidence/0-ASSETS.md",
+    "generation_receipt": "evidence/1-generation_receipt.json",
+    "status": "pending_review",
+    "medical": true,
+    "medical_reference": "evidence/2-02_fact_library.yaml",
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/3-anatomy.json"
+    },
+    "medical_review": {
+      "status": "pending"
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "series": "pituitary_paper_theatre",
+    "episode": "01_report_next_steps",
+    "asset_id": "anatomy",
+    "original_manifest": {
+      "asset_id": "anatomy",
+      "path": "assets/legacy/anatomy.png",
+      "source_type": "imagegen",
+      "visual_meaning": "既有垂体和邻近结构纸剪贴示意",
+      "must_not_imply": "不是 MRI，位置不按比例",
+      "prompt_ref": "preproduction/ASSETS.md",
+      "generation_receipt": "preproduction/generation_receipt.json",
+      "status": "pending_review",
+      "medical": true,
+      "medical_reference": "../../../../content/pituitary_tumor/02_fact_library.yaml",
+      "visual_review": {
+        "status": "passed",
+        "evidence_ref": "qa/asset-reviews/anatomy.json"
+      },
+      "medical_review": {
+        "status": "pending"
+      },
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "topic",
+    "id": "pituitary_tumor"
+  },
+  "quality_debt": [
+    "医学结构和新镜头含义仍需审核"
+  ],
+  "usage_notes": "仅为本选题的解剖候选。视觉清洁已检查，医学终审仍待完成；不作 MRI，不自动用于其他解剖主题。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "5a10c7725dae5f5ff9d7cb236638063d806ea4569ae2e4691e08508418625ea3",
+      "bytes": 1959334
+    },
+    {
+      "path": "evidence/0-ASSETS.md",
+      "role": "evidence",
+      "sha256": "eaf69ae126f9a5d7b75b6ccc789230c6bf5bf29a8ab510b42324578e2f256fbf",
+      "bytes": 954
+    },
+    {
+      "path": "evidence/1-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "c6469ba9922e7825d7bba613bfa3c031a4d2beacdad823774824044e0ea7f89c",
+      "bytes": 367
+    },
+    {
+      "path": "evidence/2-02_fact_library.yaml",
+      "role": "evidence",
+      "sha256": "6ffe8b18b88cfb07b02d32550d459a0ba9341a149d59057bbf62fc7d090f5070",
+      "bytes": 12204
+    },
+    {
+      "path": "evidence/3-anatomy.json",
+      "role": "evidence",
+      "sha256": "6558b5f9346dc532884036b08c765f1ba66855b66d4316545a709d42c1cc5acc",
+      "bytes": 648
+    }
+  ],
+  "revision": "816b2602da608b164b2a"
+}

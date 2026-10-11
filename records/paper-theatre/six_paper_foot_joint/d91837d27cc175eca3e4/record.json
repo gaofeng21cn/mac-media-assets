@@ -1,0 +1,116 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_foot_joint",
+  "title": "foot_joint 手绘拼贴纸件",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "foot_joint"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "foot_joint",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": true,
+    "visual_meaning": "专题纸件、位置关系依本集导演稿",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/foot_joint.png",
+    "source_sha256": "c1acc02af46dd37e4f14625b320b92f37ad2e2c32cc9c5682a245f673efded83",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json",
+    "medical_reference": "evidence/1-medical-source.yaml",
+    "medical_review": {
+      "status": "pending"
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/gout_paper_theatre/01_the_night_joint/v1",
+    "series": "gout_paper_theatre",
+    "episode": "01_the_night_joint",
+    "asset_id": "foot_joint",
+    "original_manifest": {
+      "asset_id": "foot_joint",
+      "path": "assets/foot_joint.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": true,
+      "visual_meaning": "专题纸件、位置关系依本集导演稿",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/foot_joint.png",
+      "source_sha256": "c1acc02af46dd37e4f14625b320b92f37ad2e2c32cc9c5682a245f673efded83",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json",
+      "medical_reference": "preproduction/medical-source.yaml",
+      "medical_review": {
+        "status": "pending"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "topic",
+    "topics": [
+      "gout_paper_theatre"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1204,
+    1285
+  ],
+  "alpha_range": [
+    0,
+    255
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "c1acc02af46dd37e4f14625b320b92f37ad2e2c32cc9c5682a245f673efded83",
+      "bytes": 2258756
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "fc70763b21e5a40a39e51ebb802ec273169ae430458fe056b99823808aae826e",
+      "bytes": 3095
+    },
+    {
+      "path": "evidence/1-medical-source.yaml",
+      "role": "evidence",
+      "sha256": "217ad777a0b2cc024d77463531e35322fcfa63fd61ae905e4c42f7a903e73ff7",
+      "bytes": 4414
+    }
+  ],
+  "revision": "d91837d27cc175eca3e4"
+}

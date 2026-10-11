@@ -1,0 +1,94 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_observation_window",
+  "title": "纸质观察窗",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "透明件",
+    "观察",
+    "视野",
+    "遮挡"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "vision",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "会被纸片遮挡的观察窗",
+    "must_not_imply": "不是视野检查结果",
+    "prompt_ref": "evidence/0-ASSETS.md",
+    "generation_receipt": "evidence/1-generation_receipt.json",
+    "status": "approved_direct_use",
+    "medical": false,
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/2-vision.json"
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "series": "pituitary_paper_theatre",
+    "episode": "01_report_next_steps",
+    "asset_id": "vision",
+    "original_manifest": {
+      "asset_id": "vision",
+      "path": "assets/cutouts/vision-window.png",
+      "source_type": "imagegen",
+      "visual_meaning": "会被纸片遮挡的观察窗",
+      "must_not_imply": "不是视野检查结果",
+      "prompt_ref": "preproduction/ASSETS.md",
+      "generation_receipt": "preproduction/generation_receipt.json",
+      "status": "approved_direct_use",
+      "medical": false,
+      "visual_review": {
+        "status": "passed",
+        "evidence_ref": "qa/asset-reviews/vision.json"
+      },
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "usage_notes": "框内装入景物并局部遮挡，可讲视野概念；不直接代表患者视野检测图。新的视野故事须重新做医学 Review。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b9588600eb747cee83e7815dff44020f4e57a29b3ff327e7ff6a79c51ab13cfa",
+      "bytes": 1793283
+    },
+    {
+      "path": "evidence/0-ASSETS.md",
+      "role": "evidence",
+      "sha256": "eaf69ae126f9a5d7b75b6ccc789230c6bf5bf29a8ab510b42324578e2f256fbf",
+      "bytes": 954
+    },
+    {
+      "path": "evidence/1-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "c6469ba9922e7825d7bba613bfa3c031a4d2beacdad823774824044e0ea7f89c",
+      "bytes": 367
+    },
+    {
+      "path": "evidence/2-vision.json",
+      "role": "evidence",
+      "sha256": "e4ef6bcba371797ed8d3d14ec7ba5c17880779a9e431a28df9c849180b8afd3f",
+      "bytes": 604
+    }
+  ],
+  "revision": "f4c3d1ce2752bcb77dfd"
+}

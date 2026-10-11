@@ -1,0 +1,102 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_kidney_stage",
+  "title": "kidney_stage 完整纸景",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "kidney_stage"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "kidney_stage",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": false,
+    "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/kidney_stage.png",
+    "source_sha256": "abf86178f11f77c30e66f12632874a3206cb4bbb3312731afb9ea67f23f3e714",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/ckd_paper_theatre/01_one_result_is_not_a_season/v1",
+    "series": "ckd_paper_theatre",
+    "episode": "01_one_result_is_not_a_season",
+    "asset_id": "kidney_stage",
+    "original_manifest": {
+      "asset_id": "kidney_stage",
+      "path": "assets/kidney_stage.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": false,
+      "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/kidney_stage.png",
+      "source_sha256": "abf86178f11f77c30e66f12632874a3206cb4bbb3312731afb9ea67f23f3e714",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general",
+    "topics": [
+      "ckd_paper_theatre"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1672,
+    941
+  ],
+  "alpha_range": [
+    255,
+    255
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "not_applicable"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "abf86178f11f77c30e66f12632874a3206cb4bbb3312731afb9ea67f23f3e714",
+      "bytes": 3282761
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "ed52604e8daa06781d2d1cb7536ede2c95d5bd64cc4179f4d627b62738e74f16",
+      "bytes": 2377
+    }
+  ],
+  "revision": "0dbd694e8e86c8939a08"
+}

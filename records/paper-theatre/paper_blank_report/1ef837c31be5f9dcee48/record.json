@@ -1,0 +1,94 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_blank_report",
+  "title": "毛边报告纸",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "透明件",
+    "报告",
+    "撕边",
+    "纸张"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "report",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "贯穿全片的无字报告毛边纸",
+    "must_not_imply": "不是患者真实检查报告",
+    "prompt_ref": "evidence/0-ASSETS.md",
+    "generation_receipt": "evidence/1-generation_receipt.json",
+    "status": "approved_direct_use",
+    "medical": false,
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/2-report.json"
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "series": "pituitary_paper_theatre",
+    "episode": "01_report_next_steps",
+    "asset_id": "report",
+    "original_manifest": {
+      "asset_id": "report",
+      "path": "assets/cutouts/report.png",
+      "source_type": "imagegen",
+      "visual_meaning": "贯穿全片的无字报告毛边纸",
+      "must_not_imply": "不是患者真实检查报告",
+      "prompt_ref": "preproduction/ASSETS.md",
+      "generation_receipt": "preproduction/generation_receipt.json",
+      "status": "approved_direct_use",
+      "medical": false,
+      "visual_review": {
+        "status": "passed",
+        "evidence_ref": "qa/asset-reviews/report.json"
+      },
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "usage_notes": "无字纸件，标题与内容由当前镜头单独排版；按可见纸面和动作判断比例，不能机械按 PNG 外框统一尺寸。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "f209f1c72ef6670ba05f830cedb9cc8086cc1f93dac4e72128ac713b3e2158dd",
+      "bytes": 808619
+    },
+    {
+      "path": "evidence/0-ASSETS.md",
+      "role": "evidence",
+      "sha256": "eaf69ae126f9a5d7b75b6ccc789230c6bf5bf29a8ab510b42324578e2f256fbf",
+      "bytes": 954
+    },
+    {
+      "path": "evidence/1-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "c6469ba9922e7825d7bba613bfa3c031a4d2beacdad823774824044e0ea7f89c",
+      "bytes": 367
+    },
+    {
+      "path": "evidence/2-report.json",
+      "role": "evidence",
+      "sha256": "feb726511a62dcd0dcf9cc91bedc177168e42d16d557b8222fe1292acbd42f5c",
+      "bytes": 615
+    }
+  ],
+  "revision": "1ef837c31be5f9dcee48"
+}

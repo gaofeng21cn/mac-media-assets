@@ -31,9 +31,22 @@ def main() -> int:
         if not rid or rid in ids:
             errors.append(f"duplicate_or_missing_id:{rid}")
         ids.add(rid)
+        if row.get('portable_record'):
+            record_path = (root / row['portable_record']).resolve()
+            if not record_path.is_relative_to(root) or not record_path.is_file():
+                errors.append(f"missing_or_outside_record:{rid}")
+            else:
+                record = json.loads(record_path.read_text())
+                if record.get('id') != row.get('source_id') or record.get('revision') != row.get('revision'):
+                    errors.append(f"record_identity:{rid}")
+                if digest(record_path) != row.get('portable_record_sha256'):
+                    errors.append(f"record_sha256:{rid}")
         for item in row.get("payload", []):
             payloads += 1
-            path = root / item.get("path", "")
+            path = (root / item.get("path", "")).resolve()
+            if not path.is_relative_to(root):
+                errors.append(f"payload_outside_root:{rid}")
+                continue
             if not path.is_file():
                 errors.append(f"missing:{item.get('path')}")
                 continue

@@ -1,0 +1,67 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_home_environment_v2",
+  "title": "居家纸舞台：纤维墙面、窗口与书架",
+  "kind": "environment_plate",
+  "tags": [
+    "paper_collage",
+    "home"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "home",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "家庭书桌、窗与阅读空间",
+    "must_not_imply": "背景中本子不能与活动物件重复；不是医学图",
+    "medical": false,
+    "status": "review_candidate",
+    "prompt_ref": "evidence/0-paper-stages-v6.json",
+    "generation_receipt": "evidence/0-paper-stages-v6.json",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/06_prolactin_not_one_number/v6",
+    "series": "pituitary_paper_theatre",
+    "episode": "06_prolactin_not_one_number",
+    "asset_id": "home",
+    "original_manifest": {
+      "asset_id": "home",
+      "path": "assets/season/home-paper-stage-v2.png",
+      "source_type": "imagegen",
+      "visual_meaning": "家庭书桌、窗与阅读空间",
+      "must_not_imply": "背景中本子不能与活动物件重复；不是医学图",
+      "medical": false,
+      "status": "review_candidate",
+      "prompt_ref": "preproduction/paper-stages-v6.json",
+      "generation_receipt": "preproduction/paper-stages-v6.json",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [
+    "连续动态仍按新镜头审看"
+  ],
+  "usage_notes": "低注意力环境层；主体另用透明纸件构建；本次只审实际全季合成的静帧",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "088debfe147b5deefdde825ea430f79d94d754a74c532d193f99d31f901a9918",
+      "bytes": 3025180
+    },
+    {
+      "path": "evidence/0-paper-stages-v6.json",
+      "role": "evidence",
+      "sha256": "ab9fd8186c40148c82599376bca9f285e8aea3e73b5b355c03b1eb59ce56827b",
+      "bytes": 1063
+    }
+  ],
+  "revision": "d14ea8056c2f185249b2"
+}

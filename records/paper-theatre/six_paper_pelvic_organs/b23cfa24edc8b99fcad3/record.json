@@ -1,0 +1,116 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_pelvic_organs",
+  "title": "pelvic_organs 手绘拼贴纸件",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "pelvic_organs"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "pelvic_organs",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": true,
+    "visual_meaning": "专题纸件、位置关系依本集导演稿",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/pelvic_organs.png",
+    "source_sha256": "cb59c7eb96f051ccb87fb040228835b841b649fd33d38d4ebec53cbff56a9558",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json",
+    "medical_reference": "evidence/1-medical-source.yaml",
+    "medical_review": {
+      "status": "pending"
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pcos_paper_theatre/01_more_than_an_ultrasound/v1",
+    "series": "pcos_paper_theatre",
+    "episode": "01_more_than_an_ultrasound",
+    "asset_id": "pelvic_organs",
+    "original_manifest": {
+      "asset_id": "pelvic_organs",
+      "path": "assets/pelvic_organs.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": true,
+      "visual_meaning": "专题纸件、位置关系依本集导演稿",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/pelvic_organs.png",
+      "source_sha256": "cb59c7eb96f051ccb87fb040228835b841b649fd33d38d4ebec53cbff56a9558",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json",
+      "medical_reference": "preproduction/medical-source.yaml",
+      "medical_review": {
+        "status": "pending"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "topic",
+    "topics": [
+      "pcos_paper_theatre"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    27,
+    47,
+    1361,
+    1152
+  ],
+  "alpha_range": [
+    0,
+    255
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "cb59c7eb96f051ccb87fb040228835b841b649fd33d38d4ebec53cbff56a9558",
+      "bytes": 1313026
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "8aa4dd654d7a1b7f751d3285ee5d66e1eea11e20b27c80be41c3029b49ad583d",
+      "bytes": 2155
+    },
+    {
+      "path": "evidence/1-medical-source.yaml",
+      "role": "evidence",
+      "sha256": "2c5e582a302cf2629f7e2dd2de0703ff50cd398da1c2c63c4edc3cc9eadc3792",
+      "bytes": 3384
+    }
+  ],
+  "revision": "b23cfa24edc8b99fcad3"
+}

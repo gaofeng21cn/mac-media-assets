@@ -1,0 +1,215 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac-filmcraft-kit-1-2",
+  "title": "代码动画媒介技法与七风格动作研究",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "tags": [
+    "canvas2d",
+    "paths",
+    "camera_track",
+    "paper_collage",
+    "watercolor_ink",
+    "risograph",
+    "paper_popup"
+  ],
+  "usage_notes": "冻结源码、8项动作测试与52秒可运行技法样片；按当前导演稿重写，不能当作医学资产或整片套用。",
+  "origin": {
+    "kind": "original_code",
+    "repo": "gaofeng21cn/med-autocast",
+    "commit": "b4e36a2"
+  },
+  "review": {
+    "technical": "passed",
+    "sampled_visual": "reviewed_as_material_study",
+    "full_motion": "pending",
+    "full_listening": "pending",
+    "medical": "not_applicable"
+  },
+  "files": [
+    {
+      "path": "tests/motion.test.ts",
+      "role": "source",
+      "sha256": "d8b02fef664dd65403bec0d5d1d6c40c6e7ee85eefc9620978d1528e8a6630fb",
+      "bytes": 2159
+    },
+    {
+      "path": "tests/scene.test.ts",
+      "role": "source",
+      "sha256": "e906dadd32b1ad7df88397faef9a2a5d37bea9b6552e76876996505694ce2950",
+      "bytes": 1395
+    },
+    {
+      "path": "tests/filmcraft.test.ts",
+      "role": "source",
+      "sha256": "daab137fdaea4480dd4c13f54bae19e1f4c97d67f6651252b912f4dd85ffcc8c",
+      "bytes": 1599
+    },
+    {
+      "path": "scripts/sound_materials.py",
+      "role": "source",
+      "sha256": "8f50d1bf6e5d0c0d36f9bca07dc0d04ec5a4a9c75e6c84e2a57e61267a8c0713",
+      "bytes": 1489
+    },
+    {
+      "path": "scripts/build.mjs",
+      "role": "source",
+      "sha256": "d696f86063f29df6e0fafc01141ca641495b3a2c49245554e9dfaa604a302d77",
+      "bytes": 183
+    },
+    {
+      "path": "scripts/mix_audio.py",
+      "role": "source",
+      "sha256": "be16b7a33b6aaaebd5358725f382d47bf8241e8e374824ac85bf9dd0ad811f1c",
+      "bytes": 8888
+    },
+    {
+      "path": "src/main.ts",
+      "role": "source",
+      "sha256": "568d5e2b84b335195fe126e6156f8a09ea4b636850d097d1adab54fef684e933",
+      "bytes": 12741
+    },
+    {
+      "path": "src/kit/stage.ts",
+      "role": "source",
+      "sha256": "d2de2b9b9efa15185e4f5bf97ceb4383f963adb3686dfb6052a4b8536837d6c7",
+      "bytes": 8762
+    },
+    {
+      "path": "src/kit/props.ts",
+      "role": "source",
+      "sha256": "74911bbf76faa60658c5c07accc77409ac736b2c040f72a9542d40823fafb2b0",
+      "bytes": 1881
+    },
+    {
+      "path": "src/kit/overlays.ts",
+      "role": "source",
+      "sha256": "1210bc99d14611f8d97d98aa6a9ba858fb63f17d9da0363de7483e1f2d600594",
+      "bytes": 1376
+    },
+    {
+      "path": "src/kit/player.ts",
+      "role": "source",
+      "sha256": "2d550175ef2f24c03086b658c0e2c7ade7e79d3108b65aa08cf379bdf56ee956",
+      "bytes": 5945
+    },
+    {
+      "path": "src/kit/motion.ts",
+      "role": "source",
+      "sha256": "3e73f75aee564886a239374c43a2a5ec4a1984176fa488cfa0da7126ba838179",
+      "bytes": 2159
+    },
+    {
+      "path": "src/kit/types.ts",
+      "role": "source",
+      "sha256": "1b6337a19634a50e918922ae4f04528aa2ff0dd232ea005907db92f3f797f1f7",
+      "bytes": 1919
+    },
+    {
+      "path": "src/kit/scene.ts",
+      "role": "source",
+      "sha256": "0684df068a00ba08214ac14e5fa0bfdb1c53dfa70b25f1bcfeaeb7310576c765",
+      "bytes": 978
+    },
+    {
+      "path": "src/kit/materials.ts",
+      "role": "source",
+      "sha256": "a19629c8f051e822bf1ff0335b242e27a688a7e7e7bc8d2caa633439913c6382",
+      "bytes": 3554
+    },
+    {
+      "path": "src/kit/tracks.ts",
+      "role": "source",
+      "sha256": "fe9374f59fe5309528cc37345aea9cc3fb4de84f88246ff92f528178677b52dd",
+      "bytes": 1871
+    },
+    {
+      "path": "src/kit/paths.ts",
+      "role": "source",
+      "sha256": "8f6e4259d5fd13917b23f14746a0bfddd9716ecf7201876c87683fd362206f92",
+      "bytes": 2577
+    },
+    {
+      "path": "index.html",
+      "role": "payload",
+      "sha256": "e9c5208dd1179f073bf637745ded97cc5512ebe32063fec49851a05424ddebce",
+      "bytes": 681
+    },
+    {
+      "path": "score.json",
+      "role": "payload",
+      "sha256": "e7e1407d12f7f19d6a2459eba5ee7cc527510590bd1adfb28fc51c7d0594c6e1",
+      "bytes": 2547
+    },
+    {
+      "path": "brand.json",
+      "role": "payload",
+      "sha256": "882e39175773953f7c5db31372b1cb7e046615d26086a18157f0537031f5f7fc",
+      "bytes": 102
+    },
+    {
+      "path": "asset_manifest.json",
+      "role": "payload",
+      "sha256": "bb43e196b6b90c5ec46d38d9215aca6c93e843fd77f982e50df089c8e3726f3a",
+      "bytes": 77
+    },
+    {
+      "path": "package.json",
+      "role": "payload",
+      "sha256": "d6648015ba14957bc9424f1f35568514741854cfc1a5ed53a20d503b64ce1a86",
+      "bytes": 319
+    },
+    {
+      "path": "package-lock.json",
+      "role": "payload",
+      "sha256": "69a13502725a17956083301e04e0e3d5fd2fb02cf6aee3a1b4b8e29ea4f4832d",
+      "bytes": 15045
+    },
+    {
+      "path": "tsconfig.json",
+      "role": "payload",
+      "sha256": "bf91fa8cd194bae8ff2abea8a5d6a43323560c33801804268a2fe28c3dbb8f87",
+      "bytes": 338
+    },
+    {
+      "path": "TREATMENT.md",
+      "role": "payload",
+      "sha256": "09a32af5e31c326f804fe26fab7ccce322847685e012e0b41060e73deae53be2",
+      "bytes": 1904
+    },
+    {
+      "path": "audio/study.wav",
+      "role": "payload",
+      "sha256": "282cd28d7f1ab29199cd6f2c02d3e306a3ec5910e67805381f983306c75f3d99",
+      "bytes": 4992044
+    },
+    {
+      "path": "audio/study-receipt.json",
+      "role": "payload",
+      "sha256": "23784816bac25fb4aecc904790e5d0991db8f3d18c1ffc54e7c36ef0d878081d",
+      "bytes": 1642
+    },
+    {
+      "path": "dist/film.js",
+      "role": "payload",
+      "sha256": "816257fef93078d815ca1971402dcc0a12863efcc30659386025060d20ee874b",
+      "bytes": 42357
+    },
+    {
+      "path": "sample.mp4",
+      "role": "sample",
+      "sha256": "6367fc9b78a67a29302b6c8672e2f0a4ab5c22c7e59c39b1010f863cdcadcac6",
+      "bytes": 1186734
+    },
+    {
+      "path": "poster.png",
+      "role": "poster",
+      "sha256": "e29f138dc98a9977411234ec7d094ee22438f2ade2bdea66500948c6223f9f04",
+      "bytes": 106408
+    }
+  ],
+  "revision": "888304ad3960c4bf9035"
+}

@@ -1,34 +1,59 @@
 #!/usr/bin/env python3
-import argparse,json
+"""Read-only discovery; author-owned material needs an explicit identity."""
+from __future__ import annotations
+import argparse
+import json
 from pathlib import Path
-root=Path(__file__).resolve().parents[1]
-p=root/'catalog/assets.jsonl'
-series_catalog=json.loads((root/'collections/series.json').read_text(encoding='utf-8'))
-aliases=series_catalog.get('aliases', {})
-ap=argparse.ArgumentParser();ap.add_argument('--query');ap.add_argument('--kind');ap.add_argument('--series');ap.add_argument('--scope');ap.add_argument('--usable-for');ap.add_argument('--json',action='store_true');a=ap.parse_args()
-rows=[json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x.strip()]
-def text(r):return json.dumps(r,ensure_ascii=False)
-def row_series(r):
-    values=set(r.get('series_ids', []))
-    value=r.get('canonical_series_id')
-    if value: values.add(value)
-    scope=r.get('reuse_scope', {}) or {}
-    for key in ('series_id', 'series'):
-        if scope.get(key): values.add(scope[key])
-    source=r.get('provenance', {}).get('source_ref', {}) or {}
-    for key in ('series_id', 'series'):
-        if source.get(key): values.add(source[key])
-    return {aliases.get(v, v) for v in values} | values
 
-out=[]
-for r in rows:
- if a.query and a.query.lower() not in text(r).lower():continue
- if a.kind and r.get('kind')!=a.kind:continue
- if a.series and aliases.get(a.series, a.series) not in row_series(r):continue
- if a.scope and r.get('reuse_scope',{}).get('kind')!=a.scope:continue
- if a.usable_for and a.usable_for.lower() not in text(r).lower():continue
- out.append(r)
-if a.json: print(json.dumps(out,ensure_ascii=False,indent=2))
-else:
- print('id\tkind\ttitle\tscope\tadmission')
- for r in out: print('\t'.join([r['id'],r['kind'],r['title'],r.get('reuse_scope',{}).get('kind',''),r.get('review_boundary',{}).get('admission','')]))
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
+          usable_for=None, author_id=None, include_author_assets=False):
+    aliases = json.loads((root / 'collections/series.json').read_text()).get('aliases', {})
+    rows = [json.loads(line) for line in (root / 'catalog/assets.jsonl').read_text().splitlines() if line.strip()]
+    out = []
+    for row in rows:
+        reuse = row.get('reuse_scope') or {}
+        if reuse.get('kind') == 'author' and not include_author_assets and reuse.get('id') != author_id:
+            continue
+        serialized = json.dumps(row, ensure_ascii=False).lower()
+        if text and text.lower() not in serialized:
+            continue
+        if kind and row.get('kind') != kind:
+            continue
+        if scope and reuse.get('kind') != scope:
+            continue
+        source = row.get('provenance', {}).get('source_ref') or {}
+        values = set(row.get('series_ids', []))
+        values.update(value for value in [row.get('canonical_series_id'), reuse.get('series_id'),
+                                          reuse.get('series'), source.get('series_id'), source.get('series')] if value)
+        if series and aliases.get(series, series) not in {aliases.get(value, value) for value in values}:
+            continue
+        if usable_for and usable_for.lower() not in serialized:
+            continue
+        out.append(row)
+    return out
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id'):
+        parser.add_argument('--' + name)
+    parser.add_argument('--include-author-assets', action='store_true', help='策展只读发现；不授予复用权限')
+    parser.add_argument('--json', action='store_true')
+    args = parser.parse_args()
+    rows = query(text=args.query, kind=args.kind, series=args.series, scope=args.scope,
+                 usable_for=args.usable_for, author_id=args.author_id,
+                 include_author_assets=args.include_author_assets)
+    if args.json:
+        print(json.dumps(rows, ensure_ascii=False, indent=2))
+    else:
+        print('id\tkind\ttitle\tscope\tadmission')
+        for row in rows:
+            print('\t'.join([row['id'], row['kind'], row['title'], row.get('reuse_scope', {}).get('kind', ''),
+                             row.get('review_boundary', {}).get('admission', '')]))
+
+
+if __name__ == '__main__':
+    main()

@@ -40,8 +40,11 @@ def paper_rows(workspace,out):
    rel=Path('payloads/paper-theatre')/rec['id']/rec.get('revision',item.get('revision','unknown'))/f['path']
    clone(src,out/rel)
    payload.append({'path':str(rel),'role':f.get('role','payload'),'sha256':f.get('sha256') or sha(src),'bytes':f.get('bytes',src.stat().st_size)})
+  record_rel=Path('records/paper-theatre')/rec['id']/rec.get('revision',item.get('revision','unknown'))/'record.json'
+  (out/record_rel).parent.mkdir(parents=True,exist_ok=True)
+  (out/record_rel).write_text(json.dumps(rec,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
   source=rec.get('source',{})
-  rows.append({'id':entry,'source_id':rec['id'],'revision':rec.get('revision',item.get('revision')),'kind':rec.get('kind','image'),'title':rec.get('title',rec['id']),'payload':payload,'provenance':{'source_type':(source.get('original_manifest') or {}).get('source_type',source.get('kind','workbench_registered')),'source_ref':source,'record_ref':str(recpath.relative_to(workspace))},'review_boundary':boundary(rec.get('kind'),rec),'reuse_scope':rec.get('reuse_scope',{'kind':'unclassified'}),'content_bounds':rec.get('content_bounds'),'tags':rec.get('tags',[]),'usage':rec.get('usage',[])})
+  rows.append({'id':entry,'portable_record':str(record_rel),'portable_record_sha256':sha(out/record_rel),'source_id':rec['id'],'revision':rec.get('revision',item.get('revision')),'kind':rec.get('kind','image'),'title':rec.get('title',rec['id']),'payload':payload,'provenance':{'source_type':(source.get('original_manifest') or {}).get('source_type',source.get('kind','workbench_registered')),'source_ref':source,'record_ref':str(recpath.relative_to(workspace))},'review_boundary':boundary(rec.get('kind'),rec),'reuse_scope':rec.get('reuse_scope',{'kind':'unclassified'}),'content_bounds':rec.get('content_bounds'),'tags':rec.get('tags',[]),'usage':rec.get('usage',[])})
  return rows
 
 def keyframe_rows(workspace,out):
@@ -75,5 +78,8 @@ def main():
   if key: summary['by_series'][key]=summary['by_series'].get(key,0)+1
  (out/'catalog/sync-readback.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  (out/'catalog/README.md').write_text('# 统一资产登记\n\n每行一个资产版本。`payload` 路径相对于外挂仓库根目录；`review_boundary` 明确静态参考、连续动作、医学与听感的边界。\n',encoding='utf-8')
+ if (out/'contracts/opl_capability_package_manifest.json').is_file():
+  from materialize_package import materialize
+  materialize(out)
  print(json.dumps(summary,ensure_ascii=False))
 if __name__=='__main__':main()
