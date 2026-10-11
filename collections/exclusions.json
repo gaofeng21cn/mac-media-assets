@@ -2,15 +2,15 @@
   "schema": "mac_media_asset_exclusions/v1",
   "policy": "记录淘汰原因，不保管被淘汰原件；同步时直接跳过这些来源。",
   "items": {
-    "paper_adult_body_study_v1": "固定正面姿态、整身一层，缺少可表演部件；不能作为通用人物动画母版。",
-    "paper_amber_medicine_bottle_v1": "整物件静态合图已由可独立操作的药瓶/瓶盖分层包替代。",
-    "paper_blood_specimens": "两支试管与支架烘焙成同一层，不能分别采样、交接或替换。",
-    "paper_desk_environment": "中央大色板和烘焙物件会把镜头推回文字卡片构图；已由独立桌沿、纸材和固定件替代。",
-    "paper_folder_stow_v1": "组件已有后续可用版本；旧版会造成动作版本混淆。",
-    "paper_glucometer_v1": "整物件静态合图已由可独立操作的血糖仪/试纸分层包替代。",
-    "paper_patient_journal": "本体、夹子、药片和记录格烘焙在同一层，不能翻页、移夹或换页。",
-    "paper_perimetry_patient_v5": "患者、椅子和机器合成，不能作为独立人物、仪器或检查动作部件。",
-    "paper_upper_arm_bp_monitor_v1": "整物件静态合图已由可独立操作的血压计/袖带分层包替代。",
-    "paper_ward_bed_v2": "人物和病床合成，外围光晕明显；已由独立床架、寝具和人物姿态替代。"
+    "paper:paper_adult_body_study_v1@794f791c0008955b88b1": "固定正面姿态、整身一层，缺乏纸件结构与可表演部件；不作为纸剧场人物动画母版。",
+    "paper:paper_amber_medicine_bottle_v1@825815a2bebaa45b914c": "整物件静态合图由可独立操作的同风格分层包替代；不再作为动画默认素材。",
+    "paper:paper_blood_specimens@aa0256cc0c97db43a124": "两支试管与支架烘焙成同一层，边缘浅底影响自由叠贴；不适合作为独立采样/交接部件。",
+    "paper:paper_desk_environment@f1898bce730ceedf0127": "中央青绿色整张底板容易恢复文字卡片构图，物件与固定件也已烘焙；需物理身份清楚的独立桌面/前景件。",
+    "paper:paper_folder_stow_v1@1f20ec5ddac6d31cd547": "同组件有后续已保管版本；旧版仅留恢复来源。",
+    "paper:paper_glucometer_v1@5394aaab47a56c9d0a24": "整物件静态合图由可独立操作的同风格分层包替代；不再作为动画默认素材。",
+    "paper:paper_patient_journal@f074bee18cef85b0bbfb": "本体、夹子、药片与格子纸合成，不能翻页、移夹子或更换记录；需要空白书页与独立固定件。",
+    "paper:paper_perimetry_patient_v5@ebd5532e2d0477980fec": "患者、椅子、机器合成；仅能表达固定检查姿态，不能作为可表演人物/仪器部件。",
+    "paper:paper_upper_arm_bp_monitor_v1@2723d7d33e2fb60b8be9": "整物件静态合图由可独立操作的同风格分层包替代；不再作为动画默认素材。",
+    "paper:paper_ward_bed_v2@7499f336a88f42b91f85": "人物和病床合成，周围烘焙浅色光晕明显；需重做无光晕病床与独立人物姿态。"
   }
 }
