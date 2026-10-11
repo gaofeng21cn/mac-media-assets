@@ -68,6 +68,15 @@ def main() -> int:
         for sid in row.get("series_ids", []):
             if sid not in series_ids:
                 errors.append(f"unknown_series:{sid}:{rid}")
+    # Optional collections guard resource identity, not creative field completion.
+    for filename, field in [('assemblies.json', 'assemblies'), ('event-kits.json', 'kits')]:
+        source = root / 'collections' / filename
+        if not source.is_file():
+            continue
+        for collection in json.loads(source.read_text()).get(field, []):
+            for part in collection.get('parts', []):
+                if part.get('asset_id') not in ids:
+                    errors.append(f"collection_resource:{filename}:{part.get('asset_id')}")
     result = {
         "schema": "medical_video_asset_verify/v1",
         "status": "passed" if not errors else "diagnostic",

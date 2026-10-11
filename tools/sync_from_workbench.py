@@ -50,7 +50,7 @@ def paper_rows(workspace,out):
   (out/record_rel).parent.mkdir(parents=True,exist_ok=True)
   (out/record_rel).write_text(json.dumps(rec,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
   source=rec.get('source',{})
-  rows.append({'id':entry,'portable_record':str(record_rel),'portable_record_sha256':sha(out/record_rel),'source_id':rec['id'],'revision':rec.get('revision',item.get('revision')),'kind':rec.get('kind','image'),'title':rec.get('title',rec['id']),'payload':payload,'provenance':{'source_type':(source.get('original_manifest') or {}).get('source_type',source.get('kind','workbench_registered')),'source_ref':source,'record_ref':str(recpath.relative_to(workspace))},'review_boundary':boundary(rec.get('kind'),rec),'reuse_scope':rec.get('reuse_scope',{'kind':'unclassified'}),'content_bounds':rec.get('content_bounds'),'content_bounds_format':rec.get('content_bounds_format'),'tags':rec.get('tags',[]),'usage':rec.get('usage',[]),'asset_bundle':rec.get('asset_bundle',[]),'assembly':rec.get('assembly')})
+  rows.append({'id':entry,'portable_record':str(record_rel),'portable_record_sha256':sha(out/record_rel),'source_id':rec['id'],'revision':rec.get('revision',item.get('revision')),'kind':rec.get('kind','image'),'title':rec.get('title',rec['id']),'payload':payload,'provenance':{'source_type':(source.get('original_manifest') or {}).get('source_type',source.get('kind','workbench_registered')),'source_ref':source,'record_ref':str(recpath.relative_to(workspace))},'review_boundary':boundary(rec.get('kind'),rec),'reuse_scope':rec.get('reuse_scope',{'kind':'unclassified'}),'content_bounds':rec.get('content_bounds'),'content_bounds_format':rec.get('content_bounds_format'),'tags':rec.get('tags',[]),'usage':rec.get('usage',[]),'asset_bundle':rec.get('asset_bundle',[]),'assembly':rec.get('assembly'),'discovery':rec.get('discovery',{})})
  return rows
 
 def main():
@@ -73,6 +73,21 @@ def main():
   if row['id'] in curation:
    row['curation']=curation[row['id']]
    if curation[row['id']].get('display_title'): row['title']=curation[row['id']]['display_title']
+ # Curated discovery is independent of immutable originals. Sync must preserve
+ # it without making classification or creative metadata an admission gate.
+ discovery_path=out/'collections/discovery.json'
+ discovery_config=read(discovery_path) if discovery_path.is_file() else {'schema':'mac_asset_discovery/v1','assets':{}}
+ discovery=discovery_config.get('assets',{})
+ for row in incoming:
+  if row.get('discovery') and row.get('source_id') not in discovery:
+   discovery[row['source_id']]=row['discovery']
+ discovery_config['assets']=discovery
+ if discovery:
+  discovery_path.parent.mkdir(parents=True,exist_ok=True)
+  discovery_path.write_text(json.dumps(discovery_config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ for row in rows:
+  if row.get('source_id') in discovery:
+   row['discovery']=discovery[row['source_id']]
  series_config=read(SERIES_FILE) if SERIES_FILE.is_file() else {}
  aliases=series_config.get('aliases',{})
  for row in rows:

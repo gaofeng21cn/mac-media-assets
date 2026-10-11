@@ -1,0 +1,424 @@
+{
+  "schema": "mac_event_kits/v1",
+  "kits": [
+    {
+      "id": "report_handoff",
+      "title": "报告交接与归档",
+      "parts": [
+        {
+          "source_id": "paper_blank_report",
+          "asset_id": "paper:paper_blank_report@1ef837c31be5f9dcee48",
+          "role": "故事候选物件",
+          "revision": "1ef837c31be5f9dcee48"
+        },
+        {
+          "source_id": "paper_open_envelope",
+          "asset_id": "paper:paper_open_envelope@1c861a6d24e164a13c83",
+          "role": "故事候选物件",
+          "revision": "1c861a6d24e164a13c83"
+        },
+        {
+          "source_id": "reserve_hand_pinch_v1",
+          "asset_id": "paper:reserve_hand_pinch_v1@4d1ab9c8a609c8633ac2",
+          "role": "故事候选物件",
+          "revision": "4d1ab9c8a609c8633ac2"
+        },
+        {
+          "source_id": "mac_sfx_paper_place_v1",
+          "asset_id": "paper:mac_sfx_paper_place_v1@04482eec92381f2ac809",
+          "role": "故事候选物件",
+          "revision": "04482eec92381f2ac809"
+        },
+        {
+          "source_id": "mac_sfx_folder_rustle_v1",
+          "asset_id": "paper:mac_sfx_folder_rustle_v1@85ee1eda83826151d089",
+          "role": "故事候选物件",
+          "revision": "85ee1eda83826151d089"
+        },
+        {
+          "source_id": "mac_left_receive_v1",
+          "asset_id": "paper:mac_left_receive_v1@080b943a5f9d2bb88bba",
+          "role": "接取手",
+          "revision": "080b943a5f9d2bb88bba"
+        },
+        {
+          "source_id": "mac_right_pinch_v1",
+          "asset_id": "paper:mac_right_pinch_v1@953208910f3f2afe0eaa",
+          "role": "交出手",
+          "revision": "953208910f3f2afe0eaa"
+        },
+        {
+          "source_id": "mac_person_receive_v1",
+          "asset_id": "paper:mac_person_receive_v1@bcd43c994018d84d76c0",
+          "role": "人物接取姿态",
+          "revision": "bcd43c994018d84d76c0"
+        }
+      ],
+      "story_roles": [
+        "发现线索",
+        "资料交接"
+      ],
+      "event_chain": "靠近→手纸接触→交接→袋口遮挡→落定",
+      "sample": "tools/preview-engine/index.html#report_handoff",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "followup",
+      "title": "翻页与连续随访",
+      "parts": [
+        {
+          "source_id": "reserve_calendar_base_v1",
+          "asset_id": "paper:reserve_calendar_base_v1@77cfb4ee5cc60dea4384",
+          "role": "故事候选物件",
+          "revision": "77cfb4ee5cc60dea4384"
+        },
+        {
+          "source_id": "reserve_calendar_leaf_v1",
+          "asset_id": "paper:reserve_calendar_leaf_v1@c6524f36e08bca4c5c43",
+          "role": "故事候选物件",
+          "revision": "c6524f36e08bca4c5c43"
+        },
+        {
+          "source_id": "reserve_notebook_cover_v1",
+          "asset_id": "paper:reserve_notebook_cover_v1@c3661384cb85dd44994a",
+          "role": "故事候选物件",
+          "revision": "c3661384cb85dd44994a"
+        },
+        {
+          "source_id": "reserve_notebook_page_v1",
+          "asset_id": "paper:reserve_notebook_page_v1@1f2278bcc87208c993c3",
+          "role": "故事候选物件",
+          "revision": "1f2278bcc87208c993c3"
+        },
+        {
+          "source_id": "mac_sfx_paper_turn_v1",
+          "asset_id": "paper:mac_sfx_paper_turn_v1@6d61879b29999519899d",
+          "role": "故事候选物件",
+          "revision": "6d61879b29999519899d"
+        },
+        {
+          "source_id": "mac_music_calm_v1",
+          "asset_id": "paper:mac_music_calm_v1@21f905ef927498d6178a",
+          "role": "故事候选物件",
+          "revision": "21f905ef927498d6178a"
+        }
+      ],
+      "story_roles": [
+        "记录随访"
+      ],
+      "event_chain": "前次记录留下→日期变化→新记录叠入→下一次复诊",
+      "sample": "tools/preview-engine/index.html#followup",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "evidence_compare",
+      "title": "检查资料汇入会诊",
+      "parts": [
+        {
+          "source_id": "paper_blank_report",
+          "asset_id": "paper:paper_blank_report@1ef837c31be5f9dcee48",
+          "role": "故事候选物件",
+          "revision": "1ef837c31be5f9dcee48"
+        },
+        {
+          "source_id": "reserve_mri_v1",
+          "asset_id": "paper:reserve_mri_v1@f28583afcfdb2df85844",
+          "role": "故事候选物件",
+          "revision": "f28583afcfdb2df85844"
+        },
+        {
+          "source_id": "reserve_tube_v1",
+          "asset_id": "paper:reserve_tube_v1@077336a1f8cccdfd9c1c",
+          "role": "故事候选物件",
+          "revision": "077336a1f8cccdfd9c1c"
+        },
+        {
+          "source_id": "reserve_folder_v1",
+          "asset_id": "paper:reserve_folder_v1@f0c51b2287b8630c50c4",
+          "role": "故事候选物件",
+          "revision": "f0c51b2287b8630c50c4"
+        },
+        {
+          "source_id": "mac_sfx_folder_rustle_v1",
+          "asset_id": "paper:mac_sfx_folder_rustle_v1@85ee1eda83826151d089",
+          "role": "故事候选物件",
+          "revision": "85ee1eda83826151d089"
+        },
+        {
+          "source_id": "mac_music_curious_v1",
+          "asset_id": "paper:mac_music_curious_v1@b28bfee7e65a9582fd16",
+          "role": "故事候选物件",
+          "revision": "b28bfee7e65a9582fd16"
+        }
+      ],
+      "story_roles": [
+        "对照检查",
+        "共同决策"
+      ],
+      "event_chain": "结构资料和功能资料分别取出→共同观察→汇入资料袋",
+      "sample": "tools/preview-engine/index.html#evidence_compare",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "pending",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "medicine_action",
+      "title": "药瓶开合与用药记录",
+      "parts": [
+        {
+          "source_id": "paper_medicine_bottle_parts_v1",
+          "asset_id": "paper:paper_medicine_bottle_parts_v1@571b02ee0f48cdaa44c3",
+          "role": "故事候选物件",
+          "revision": "571b02ee0f48cdaa44c3"
+        },
+        {
+          "source_id": "reserve_pillbox_v1",
+          "asset_id": "paper:reserve_pillbox_v1@1c38421cc21eb9771006",
+          "role": "故事候选物件",
+          "revision": "1c38421cc21eb9771006"
+        },
+        {
+          "source_id": "reserve_notebook_page_v1",
+          "asset_id": "paper:reserve_notebook_page_v1@1f2278bcc87208c993c3",
+          "role": "故事候选物件",
+          "revision": "1f2278bcc87208c993c3"
+        },
+        {
+          "source_id": "mac_sfx_bottle_cap_v1",
+          "asset_id": "paper:mac_sfx_bottle_cap_v1@ca5f5448bf2c6b98a437",
+          "role": "故事候选物件",
+          "revision": "ca5f5448bf2c6b98a437"
+        },
+        {
+          "source_id": "mac_music_relief_v1",
+          "asset_id": "paper:mac_music_relief_v1@acf9eed8c6e599cc2c85",
+          "role": "故事候选物件",
+          "revision": "acf9eed8c6e599cc2c85"
+        }
+      ],
+      "story_roles": [
+        "治疗过程"
+      ],
+      "event_chain": "接触→移盖→独立药盒进入→记录→收纳",
+      "sample": "tools/preview-engine/index.html#medicine_action",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "glucose_action",
+      "title": "试纸插入与测量记录",
+      "parts": [
+        {
+          "source_id": "paper_glucose_meter_parts_v1",
+          "asset_id": "paper:paper_glucose_meter_parts_v1@7d17997f1c1c10d70831",
+          "role": "故事候选物件",
+          "revision": "7d17997f1c1c10d70831"
+        },
+        {
+          "source_id": "reserve_notebook_page_v1",
+          "asset_id": "paper:reserve_notebook_page_v1@1f2278bcc87208c993c3",
+          "role": "故事候选物件",
+          "revision": "1f2278bcc87208c993c3"
+        },
+        {
+          "source_id": "mac_sfx_paper_place_v1",
+          "asset_id": "paper:mac_sfx_paper_place_v1@04482eec92381f2ac809",
+          "role": "故事候选物件",
+          "revision": "04482eec92381f2ac809"
+        }
+      ],
+      "story_roles": [
+        "收集线索"
+      ],
+      "event_chain": "持纸→对准→插入遮挡→等待→记录；屏幕不预设数值",
+      "sample": "tools/preview-engine/index.html#glucose_action",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "pending",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "daily_activity",
+      "title": "日常运动与休息",
+      "parts": [
+        {
+          "source_id": "reserve_person_walk_v1",
+          "asset_id": "paper:reserve_person_walk_v1@bfd14a6e821ae1093957",
+          "role": "故事候选物件",
+          "revision": "bfd14a6e821ae1093957"
+        },
+        {
+          "source_id": "reserve_shoe_v1",
+          "asset_id": "paper:reserve_shoe_v1@34ab4388fef5a442d9f0",
+          "role": "故事候选物件",
+          "revision": "34ab4388fef5a442d9f0"
+        },
+        {
+          "source_id": "reserve_bed_v1",
+          "asset_id": "paper:reserve_bed_v1@d4b8481a1d71ed758de0",
+          "role": "故事候选物件",
+          "revision": "d4b8481a1d71ed758de0"
+        },
+        {
+          "source_id": "reserve_blanket_v1",
+          "asset_id": "paper:reserve_blanket_v1@d85134f364f5fc010470",
+          "role": "故事候选物件",
+          "revision": "d85134f364f5fc010470"
+        },
+        {
+          "source_id": "mac_music_calm_v1",
+          "asset_id": "paper:mac_music_calm_v1@21f905ef927498d6178a",
+          "role": "故事候选物件",
+          "revision": "21f905ef927498d6178a"
+        }
+      ],
+      "story_roles": [
+        "日常行动"
+      ],
+      "event_chain": "物件出场→行走纸姿态承接→前景切换→寝具落定",
+      "sample": "tools/preview-engine/index.html#daily_activity",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "meal_action",
+      "title": "餐盘组合与食物夹取",
+      "parts": [
+        {
+          "source_id": "reserve_plate_v1",
+          "asset_id": "paper:reserve_plate_v1@5c367557ca816c92e0c7",
+          "role": "故事候选物件",
+          "revision": "5c367557ca816c92e0c7"
+        },
+        {
+          "source_id": "reserve_rice_v1",
+          "asset_id": "paper:reserve_rice_v1@696df860112a3a6e76d8",
+          "role": "故事候选物件",
+          "revision": "696df860112a3a6e76d8"
+        },
+        {
+          "source_id": "reserve_fish_v1",
+          "asset_id": "paper:reserve_fish_v1@2e4296abb2d19883ae2b",
+          "role": "故事候选物件",
+          "revision": "2e4296abb2d19883ae2b"
+        },
+        {
+          "source_id": "reserve_broccoli_v1",
+          "asset_id": "paper:reserve_broccoli_v1@2d45a995ce062004437e",
+          "role": "故事候选物件",
+          "revision": "2d45a995ce062004437e"
+        },
+        {
+          "source_id": "reserve_hand_pinch_v1",
+          "asset_id": "paper:reserve_hand_pinch_v1@4d1ab9c8a609c8633ac2",
+          "role": "故事候选物件",
+          "revision": "4d1ab9c8a609c8633ac2"
+        },
+        {
+          "source_id": "mac_sfx_paper_place_v1",
+          "asset_id": "paper:mac_sfx_paper_place_v1@04482eec92381f2ac809",
+          "role": "故事候选物件",
+          "revision": "04482eec92381f2ac809"
+        }
+      ],
+      "story_roles": [
+        "日常行动"
+      ],
+      "event_chain": "盘先落定→食物分别放入→手与食物接触→选择后落定",
+      "sample": "tools/preview-engine/index.html#meal_action",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "structure_focus",
+      "title": "器官定位与局部观察",
+      "parts": [
+        {
+          "source_id": "reserve_heart_v1",
+          "asset_id": "paper:reserve_heart_v1@6e009b5ce7fba2978c7b",
+          "role": "故事候选物件",
+          "revision": "6e009b5ce7fba2978c7b"
+        },
+        {
+          "source_id": "reserve_heart_cut_v1",
+          "asset_id": "paper:reserve_heart_cut_v1@1c3497611c82aa388489",
+          "role": "故事候选物件",
+          "revision": "1c3497611c82aa388489"
+        },
+        {
+          "source_id": "reserve_lungs_v1",
+          "asset_id": "paper:reserve_lungs_v1@dbfde62a985380b92220",
+          "role": "故事候选物件",
+          "revision": "dbfde62a985380b92220"
+        },
+        {
+          "source_id": "reserve_alveolus_v1",
+          "asset_id": "paper:reserve_alveolus_v1@95ebc2a8691ac43497f3",
+          "role": "故事候选物件",
+          "revision": "95ebc2a8691ac43497f3"
+        },
+        {
+          "source_id": "mac_music_curious_v1",
+          "asset_id": "paper:mac_music_curious_v1@b28bfee7e65a9582fd16",
+          "role": "故事候选物件",
+          "revision": "b28bfee7e65a9582fd16"
+        }
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "event_chain": "总览定位→有来源的局部放大→视图切换→回到整体",
+      "sample": "tools/preview-engine/index.html#structure_focus",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "pending",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    }
+  ]
+}

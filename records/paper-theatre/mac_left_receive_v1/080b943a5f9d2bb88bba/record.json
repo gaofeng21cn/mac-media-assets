@@ -1,0 +1,53 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_left_receive_v1",
+  "title": "左手接取独立纸件",
+  "kind": "image",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "人物",
+    "接触",
+    "交接"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "content_bounds": [
+    37,
+    210,
+    1402,
+    830
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "空手接取，报告另做独立层",
+  "source": {
+    "kind": "imagegen",
+    "generation": "builtin_edit",
+    "sample_has_brand": false
+  },
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b5eb0e4f2a101ae1e285eaafec8a8bf635a42465cc2b9b2862e6fea3f9f300f9",
+      "bytes": 1933335
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "cf469f0eaf4959edfb740901302138051b9cff4b3f4fd629a4a01c388728e293",
+      "bytes": 420
+    }
+  ],
+  "revision": "080b943a5f9d2bb88bba"
+}

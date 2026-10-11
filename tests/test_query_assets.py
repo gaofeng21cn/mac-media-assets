@@ -35,4 +35,32 @@ class DiscoveryTests(unittest.TestCase):
         self.assertFalse(any(row.get('curation', {}).get('status') in {'needs_rebuild','superseded'} for row in rows))
 
 
+
+class SemanticDiscoveryTests(unittest.TestCase):
+    def test_chinese_names_emotions_and_provenance_noise(self):
+        expected={'甲状腺':'six_paper_thyroid_neck','磁共振':'reserve_mri_v1',
+                  '探索':'mac_music_curious_v1','紧张':'mac_music_tension_v1'}
+        for word,identifier in expected.items():
+            self.assertIn(identifier,{r['source_id'] for r in query(text=word)})
+        self.assertNotIn('paper_clinic_environment',{r['source_id'] for r in query(text='MRI')})
+
+    def test_facets_and_collection_select_real_members(self):
+        self.assertTrue(query(category='配乐',text='探索'))
+        self.assertTrue(all(r['discovery']['category']=='characters' for r in query(category='characters')))
+        self.assertEqual({r['source_id'] for r in query(collection='door')},
+                         {'reserve_door_frame_v1','reserve_door_leaf_v1'})
+        self.assertEqual(query(collection='missing'),[])
+
+    def test_missing_and_scalar_facets_do_not_stop_discovery(self):
+        import tempfile,json
+        from unittest.mock import patch
+        import query_assets
+        original=query_assets.load
+        def imperfect(path,default):
+            if path.name=='discovery.json':return {'assets':{'reserve_mri_v1':{'aliases':'磁共振'}}}
+            return original(path,default)
+        with patch.object(query_assets,'load',side_effect=imperfect):
+            self.assertTrue(query(text='磁共振'))
+            self.assertTrue(query(text='独立MRI'))
+
 if __name__=='__main__':unittest.main()

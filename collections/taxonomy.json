@@ -1,0 +1,62 @@
+{
+  "schema": "mac_asset_taxonomy/v1",
+  "categories": [
+    {
+      "id": "stage",
+      "label": "环境与舞台"
+    },
+    {
+      "id": "anatomy",
+      "label": "医学结构"
+    },
+    {
+      "id": "monitoring",
+      "label": "检查与家庭监测"
+    },
+    {
+      "id": "lifestyle",
+      "label": "饮食与生活方式"
+    },
+    {
+      "id": "documents",
+      "label": "资料与时间"
+    },
+    {
+      "id": "characters",
+      "label": "人物与互动姿态"
+    },
+    {
+      "id": "paper",
+      "label": "纸材与固定件"
+    },
+    {
+      "id": "care",
+      "label": "治疗与照护"
+    },
+    {
+      "id": "motion",
+      "label": "动作与代码组件"
+    },
+    {
+      "id": "bgm",
+      "label": "配乐"
+    },
+    {
+      "id": "sfx",
+      "label": "事件拟音"
+    }
+  ],
+  "facets": [
+    "objects",
+    "aliases",
+    "topics",
+    "story_roles",
+    "actions",
+    "medium",
+    "renderers",
+    "view",
+    "material",
+    "compatibility"
+  ],
+  "policy": "标签辅助检索和创作，不作为入库或 Stage 启动门；新类、新技法可自由增加。"
+}

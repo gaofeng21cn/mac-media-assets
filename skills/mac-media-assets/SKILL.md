@@ -9,7 +9,7 @@ description: 检索和审看 Med Auto Cast 独立媒体库中的纸片、纸景�
 
 导演准备先按患者问题、视觉锚点和拟承担动作检索，再实际查看原件和动作样例。环境板、透明主体、纸材固定件、组件和声音各有职责；按内容 bounds、认知关系和当前构图决定比例。库里已有的故事、构图、镜头时码和颜色不成为新集模板。
 
-类别覆盖与储备批次见[覆盖评估](../../docs/asset-coverage.md)，现成候选见[资产清单](../../docs/asset-inventory.md)。当前库包含 120 个可复用版本包、484 个有效载荷文件，README 直接列出各类别数量。优先储备能跨主题独立操作的部件，不按成片截图或整场合图充数。库不完整时继续新创，不为补齐类别或复用率改变故事。
+类别覆盖与储备批次见[覆盖评估](../../docs/asset-coverage.md)，现成候选见[资产清单](../../docs/asset-inventory.md)。当前库存数量由 README 和分类清单列出。优先储备能跨主题独立操作的部件，不按成片截图或整场合图充数。库不完整时继续新创，不为补齐类别或复用率改变故事。
 
 ```sh
 python3 tools/query_assets.py --query 垂体 --json
@@ -28,3 +28,11 @@ python3 tools/query_assets.py --kind audio --author-id <当前作者档案ID> --
 实际取用保留精确 ID、版本、来源与许可、真实文件及原审核范围；当前镜头的视觉、医学和听感重新审查。文件、哈希和入库不签发任何质量或发布批准。
 
 交付后的精选新创可从工作台同步：`python3 tools/sync_from_workbench.py --workspace <目录> --root <本库>`。保存独立载荷、原记录与证据、适用/失败条件；被替代或不可复用版本按精确ID清理；先执行 `tools/verify_catalog.py`，再由模型审看复用价值。同步和推送属于明确写操作，查询不隐式更新库。
+
+## 按对象、用途和动作发现
+
+`query_assets.py --category 配乐 --query 探索 --json` 以中文别名发现情绪配乐；`--action 翻页 --story-role 记录随访` 按可执行动作与叙事用途筛选；`--collection door` 返回组合内精确原件。优先搜索名称、别名、标签与用途；需要追溯才启用 `--include-provenance`，避免来源文本污染物件搜索。标签欠项不限制标题发现，也不限制新创。
+
+装配与事件集合见 `collections/assemblies.json`、`event-kits.json`；声音见 `audio.json`。通过库根本地HTTP服务打开 `tools/preview-engine/index.html` 看可拖动时间轴的实际组合小样，`audio.html` 分别试听BGM/拟音、分轨和变体。复制组合使用MAC的 `use-collection`，保留精确成员、成功导入与欠项，不把多个物件烘焙成新合图。
+
+几何候选bounds不等于艺术通过，每个部件独立取bounds、接触点和遮挡职责。静态、组合、连续动作、医学、听感及当前镜头分别登记证据。医学外观与切面未经配准不能宣称剖开；音乐BPM与MIDI密度不替代完整试听。组合只提供动作下限，不固定构图、镜头、台词、时码或风格上限。

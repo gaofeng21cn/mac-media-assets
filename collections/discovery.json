@@ -1,0 +1,5877 @@
+{
+  "schema": "mac_asset_discovery/v1",
+  "assets": {
+    "mac-filmcraft-kit-1-2": {
+      "category": "motion",
+      "display_title": "代码动画媒介技法与七风格动作研究",
+      "aliases": [
+        "镜头",
+        "路径",
+        "运镜",
+        "水彩",
+        "孔版",
+        "纸弹出",
+        "风格"
+      ],
+      "objects": [
+        "代码动画媒介技法与七风格动作研究",
+        "镜头",
+        "路径",
+        "运镜",
+        "水彩",
+        "孔版",
+        "纸弹出",
+        "风格"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "冻结源码、8项动作测试与52秒可运行技法样片；按当前导演稿重写，不能当作医学资产或整片套用。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_motion_reserve_v1": {
+      "category": "motion",
+      "display_title": "纸剧场动作下限：接触/铰接/插入/翻页/姿态/遮挡",
+      "aliases": [
+        "铰接",
+        "插入",
+        "翻页",
+        "姿态交换",
+        "前景遮挡"
+      ],
+      "objects": [
+        "纸剧场动作下限：接触/铰接/插入/翻页/姿态/遮挡",
+        "铰接",
+        "插入",
+        "翻页",
+        "姿态交换",
+        "前景遮挡"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "动作函数提供下限，镜头仍需重写和连续审看",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_music_calm_v1": {
+      "category": "bgm",
+      "display_title": "情绪配乐：平静",
+      "aliases": [
+        "平静",
+        "安静",
+        "温和",
+        "calm"
+      ],
+      "objects": [
+        "情绪配乐：平静",
+        "平静",
+        "安静",
+        "温和",
+        "calm"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_music_curious_v1": {
+      "category": "bgm",
+      "display_title": "情绪配乐：探索",
+      "aliases": [
+        "探索",
+        "好奇",
+        "调查",
+        "curious"
+      ],
+      "objects": [
+        "情绪配乐：探索",
+        "探索",
+        "好奇",
+        "调查",
+        "curious"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_music_relief_v1": {
+      "category": "bgm",
+      "display_title": "情绪配乐：释然",
+      "aliases": [
+        "释然",
+        "缓解",
+        "希望",
+        "relief"
+      ],
+      "objects": [
+        "情绪配乐：释然",
+        "释然",
+        "缓解",
+        "希望",
+        "relief"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_music_tension_v1": {
+      "category": "bgm",
+      "display_title": "情绪配乐：紧张",
+      "aliases": [
+        "紧张",
+        "悬念",
+        "警觉",
+        "tension"
+      ],
+      "objects": [
+        "情绪配乐：紧张",
+        "紧张",
+        "悬念",
+        "警觉",
+        "tension"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_bottle_cap_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：旋盖",
+      "aliases": [
+        "旋盖",
+        "瓶盖",
+        "开瓶",
+        "bottle cap"
+      ],
+      "objects": [
+        "事件拟音：旋盖",
+        "旋盖",
+        "瓶盖",
+        "开瓶",
+        "bottle cap"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_cc0_reference_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：翻页",
+      "aliases": [
+        "翻页",
+        "旋盖",
+        "实录",
+        "CC0"
+      ],
+      "objects": [
+        "事件拟音：翻页",
+        "翻页",
+        "旋盖",
+        "实录",
+        "CC0"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "来源可追溯，进入当前混音前仍需听感审查",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_clip_click_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：夹子",
+      "aliases": [
+        "夹子",
+        "夹持",
+        "咔哒",
+        "clip"
+      ],
+      "objects": [
+        "事件拟音：夹子",
+        "夹子",
+        "夹持",
+        "咔哒",
+        "clip"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_drawer_slide_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：抽屉",
+      "aliases": [
+        "抽屉",
+        "滑动",
+        "drawer"
+      ],
+      "objects": [
+        "事件拟音：抽屉",
+        "抽屉",
+        "滑动",
+        "drawer"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_folder_rustle_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：资料袋",
+      "aliases": [
+        "资料袋",
+        "收纳",
+        "纸袋摩擦",
+        "folder"
+      ],
+      "objects": [
+        "事件拟音：资料袋",
+        "资料袋",
+        "收纳",
+        "纸袋摩擦",
+        "folder"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_paper_fold_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：折纸",
+      "aliases": [
+        "折纸",
+        "折叠",
+        "paper fold"
+      ],
+      "objects": [
+        "事件拟音：折纸",
+        "折纸",
+        "折叠",
+        "paper fold"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_paper_place_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：落纸",
+      "aliases": [
+        "落纸",
+        "放下",
+        "纸张接触",
+        "paper place"
+      ],
+      "objects": [
+        "事件拟音：落纸",
+        "落纸",
+        "放下",
+        "纸张接触",
+        "paper place"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_paper_turn_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：翻页",
+      "aliases": [
+        "翻页",
+        "纸张",
+        "page turn"
+      ],
+      "objects": [
+        "事件拟音：翻页",
+        "翻页",
+        "纸张",
+        "page turn"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "mac_sfx_tape_peel_v1": {
+      "category": "sfx",
+      "display_title": "事件拟音：揭胶带",
+      "aliases": [
+        "揭胶带",
+        "撕胶带",
+        "胶带",
+        "tape peel"
+      ],
+      "objects": [
+        "事件拟音：揭胶带",
+        "揭胶带",
+        "撕胶带",
+        "胶带",
+        "tape peel"
+      ],
+      "topics": [],
+      "story_roles": [
+        "接触回应"
+      ],
+      "actions": [],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_blank_report": {
+      "category": "documents",
+      "display_title": "毛边报告纸",
+      "aliases": [
+        "报告",
+        "检查结果",
+        "报告单"
+      ],
+      "objects": [
+        "毛边报告纸",
+        "报告",
+        "检查结果",
+        "报告单"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "记录随访",
+        "资料交接"
+      ],
+      "actions": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "无字纸件，标题与内容由当前镜头单独排版；按可见纸面和动作判断比例，不能机械按 PNG 外框统一尺寸。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        19,
+        27,
+        669,
+        695
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        690,
+        700
+      ],
+      "geometry_revision": "1ef837c31be5f9dcee48"
+    },
+    "paper_clinic_environment": {
+      "category": "stage",
+      "display_title": "医院入口纸面环境板",
+      "aliases": [],
+      "objects": [
+        "医院入口纸面环境板"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "geometry_revision": "c87ee54ad989185ce55e"
+    },
+    "paper_contact_stamp": {
+      "category": "motion",
+      "display_title": "印章接触、落印与抬起",
+      "aliases": [
+        "盖章",
+        "落印",
+        "接触"
+      ],
+      "objects": [
+        "印章接触、落印与抬起",
+        "盖章",
+        "落印",
+        "接触"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_field_landscape": {
+      "category": "stage",
+      "display_title": "树与房屋景物纸件",
+      "aliases": [],
+      "objects": [
+        "树与房屋景物纸件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "完整景物带作为中/远景"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "用于观察窗和局部遮挡的纸景；不是独立全幅环境板，拼入窗口需校对裁切、遮挡关系和主次。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        118,
+        131,
+        1960,
+        633
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        2079,
+        756
+      ],
+      "geometry_revision": "86a289d3a56c57835e85"
+    },
+    "paper_folder_stow_v1": {
+      "category": "motion",
+      "display_title": "无品牌纸夹打开、收纳与夹持组件",
+      "aliases": [
+        "纸夹",
+        "收纳",
+        "夹持"
+      ],
+      "objects": [
+        "无品牌纸夹打开、收纳与夹持组件",
+        "纸夹",
+        "收纳",
+        "夹持"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "源码冻结并附6秒可看样例。重新使用时按本镜头内容设计位置和大小。完整打开封面退到书脊，夹子只在接触资料时落定。无疾病、医生或品牌。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_glucose_meter_parts_v1": {
+      "category": "monitoring",
+      "display_title": "血糖仪与独立试纸部件包",
+      "aliases": [
+        "血糖",
+        "血糖仪",
+        "试纸",
+        "家庭监测",
+        "glucose"
+      ],
+      "objects": [
+        "血糖仪与独立试纸部件包",
+        "血糖",
+        "血糖仪",
+        "试纸",
+        "家庭监测",
+        "glucose"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "仪器取放",
+        "试纸独立移动/插入/取出"
+      ],
+      "medium": "layered_bundle",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "按实际内容和镜头平衡调整比例，先看装配说明。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        229,
+        89,
+        915,
+        1064
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1145,
+        1374
+      ],
+      "geometry_revision": "7d17997f1c1c10d70831"
+    },
+    "paper_head_silhouette": {
+      "category": "characters",
+      "display_title": "侧面头部纸剪影",
+      "aliases": [
+        "头部",
+        "患者",
+        "头部定位",
+        "head"
+      ],
+      "objects": [
+        "侧面头部纸剪影",
+        "头部",
+        "患者",
+        "头部定位",
+        "head"
+      ],
+      "topics": [
+        "头部",
+        "患者",
+        "头部定位",
+        "head"
+      ],
+      "story_roles": [
+        "人物定位"
+      ],
+      "actions": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "情境人物轮廓，非医生品牌母版，也非解剖证据。头部和纸质症状标记可相互连接。",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        202,
+        129,
+        1013,
+        1201
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1214,
+        1295
+      ],
+      "geometry_revision": "68cc61f0a7115c6a8782"
+    },
+    "paper_home_environment_v2": {
+      "category": "stage",
+      "display_title": "居家纸舞台：纤维墙面、窗口与书架",
+      "aliases": [],
+      "objects": [
+        "居家纸舞台：纤维墙面、窗口与书架"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "低注意力环境层；主体另用透明纸件构建；本次只审实际全季合成的静帧",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        940
+      ],
+      "geometry_revision": "d14ea8056c2f185249b2"
+    },
+    "paper_lab_environment": {
+      "category": "stage",
+      "display_title": "实验台纸面环境板",
+      "aliases": [],
+      "objects": [
+        "实验台纸面环境板"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "geometry_revision": "7d13eec2eb92d526a783"
+    },
+    "paper_lab_environment_v2": {
+      "category": "stage",
+      "display_title": "实验室纸舞台：撕边工作面与固定件",
+      "aliases": [],
+      "objects": [
+        "实验室纸舞台：撕边工作面与固定件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "环境而非检查报告；不承载诊断内容",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "geometry_revision": "32860c04564f2998c4a2"
+    },
+    "paper_medicine_bottle_parts_v1": {
+      "category": "care",
+      "display_title": "无标签药瓶与独立瓶盖部件包",
+      "aliases": [],
+      "objects": [
+        "无标签药瓶与独立瓶盖部件包"
+      ],
+      "topics": [],
+      "story_roles": [
+        "治疗过程",
+        "自我照护"
+      ],
+      "actions": [
+        "瓶身取放",
+        "瓶盖独立提起/转动/移开"
+      ],
+      "medium": "layered_bundle",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "按实际内容和镜头平衡调整比例，先看装配说明。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        294,
+        157,
+        814,
+        1280
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1109,
+        1418
+      ],
+      "geometry_revision": "571b02ee0f48cdaa44c3"
+    },
+    "paper_music_bed": {
+      "category": "bgm",
+      "display_title": "纸上下一步 · 氛围分轨",
+      "aliases": [
+        "氛围",
+        "配乐",
+        "安静",
+        "bed"
+      ],
+      "objects": [
+        "纸上下一步 · 氛围分轨",
+        "氛围",
+        "配乐",
+        "安静",
+        "bed"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_music_pulse": {
+      "category": "bgm",
+      "display_title": "纸上下一步 · 节奏分轨",
+      "aliases": [
+        "节奏",
+        "配乐",
+        "拨弦",
+        "pulse"
+      ],
+      "objects": [
+        "纸上下一步 · 节奏分轨",
+        "节奏",
+        "配乐",
+        "拨弦",
+        "pulse"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_object_handoff": {
+      "category": "motion",
+      "display_title": "纸件跨镜交接",
+      "aliases": [
+        "交接",
+        "跨镜承接",
+        "过渡"
+      ],
+      "objects": [
+        "纸件跨镜交接",
+        "交接",
+        "跨镜承接",
+        "过渡"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_observation_window": {
+      "category": "monitoring",
+      "display_title": "纸质观察窗",
+      "aliases": [
+        "遮挡",
+        "观察窗",
+        "纸框"
+      ],
+      "objects": [
+        "纸质观察窗",
+        "遮挡",
+        "观察窗",
+        "纸框"
+      ],
+      "topics": [],
+      "story_roles": [
+        "观察遮挡"
+      ],
+      "actions": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "框内装入景物并局部遮挡，可讲视野概念；不直接代表患者视野检测图。新的视野故事须重新做医学 Review。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        84,
+        234,
+        1451,
+        819
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "geometry_revision": "f4c3d1ce2752bcb77dfd"
+    },
+    "paper_open_envelope": {
+      "category": "documents",
+      "display_title": "可收纳资料的纸信封",
+      "aliases": [
+        "信封",
+        "收纳",
+        "资料"
+      ],
+      "objects": [
+        "可收纳资料的纸信封",
+        "信封",
+        "收纳",
+        "资料"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "记录随访",
+        "资料交接"
+      ],
+      "actions": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "保留 mouth / seal 连接点和 front 前袋轮廓。资料插入后由 front 遮挡，不能仅把图片叠在信封上方。品牌印记由作者档案另绘。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        245,
+        38,
+        1324,
+        969
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "geometry_revision": "1c861a6d24e164a13c83"
+    },
+    "paper_pocket_stow": {
+      "category": "motion",
+      "display_title": "纸口袋收纳与真实前景遮挡",
+      "aliases": [
+        "收纳",
+        "口袋",
+        "遮挡"
+      ],
+      "objects": [
+        "纸口袋收纳与真实前景遮挡",
+        "收纳",
+        "口袋",
+        "遮挡"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_theatre_kit_1_1_0": {
+      "category": "motion",
+      "display_title": "纸剧场 1.1.0 冻结组件与无品牌样本",
+      "aliases": [
+        "组件",
+        "纸材",
+        "局部坐标",
+        "相机"
+      ],
+      "objects": [
+        "纸剧场 1.1.0 冻结组件与无品牌样本",
+        "组件",
+        "纸材",
+        "局部坐标",
+        "相机"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "冻结完整通用模块与离线动作样本；不含疾病、医生或品牌。源文件可在新工程中独立构建，不保存 node_modules。模块稳定时间、遮挡和连接点，故事与逐镜构图仍自由设计。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "paper_torn_masking_tape_v1": {
+      "category": "paper",
+      "display_title": "手撕纤维纸胶带固定件",
+      "aliases": [],
+      "objects": [
+        "手撕纤维纸胶带固定件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "固定纸件",
+        "揭示遮挡"
+      ],
+      "actions": [
+        "局部贴合固定",
+        "揭开/压下的整体纸件动作"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "实物为偏不透明的纸胶带效果，并非透明胶膜；不声明可看穿底层。；只用于有真实连接关系的局部固定，不拉伸为大色带或文字底板。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        382,
+        252,
+        1647,
+        493
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        2039,
+        771
+      ],
+      "geometry_revision": "f196e7540ba21c9827dc"
+    },
+    "paper_upper_arm_monitor_parts_v1": {
+      "category": "monitoring",
+      "display_title": "上臂式血压计独立部件包",
+      "aliases": [
+        "血压",
+        "血压计",
+        "袖带",
+        "家庭监测",
+        "blood pressure"
+      ],
+      "objects": [
+        "上臂式血压计独立部件包",
+        "血压",
+        "血压计",
+        "袖带",
+        "家庭监测",
+        "blood pressure"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "主机取放",
+        "袖带取放",
+        "部件分别交接"
+      ],
+      "medium": "layered_bundle",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "按实际内容和镜头平衡调整比例，先看装配说明。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        161,
+        128,
+        1233,
+        1107
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1337,
+        1176
+      ],
+      "geometry_revision": "595c101839647592b1a8"
+    },
+    "paper_wood_stamp": {
+      "category": "paper",
+      "display_title": "木柄印章纸件",
+      "aliases": [],
+      "objects": [
+        "木柄印章纸件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "固定纸件",
+        "揭示遮挡"
+      ],
+      "actions": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "印章接触点来自本件 registration。盖章动作可通用复用，实际印文由作者或系列档案提供，不写死具体品牌，也不表示医学审核通过。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        146,
+        184,
+        949,
+        1306
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1086,
+        1448
+      ],
+      "geometry_revision": "cc591cd5afaedc22686b"
+    },
+    "pituitary_anatomy_collage": {
+      "category": "anatomy",
+      "display_title": "垂体与邻近结构纸剪贴",
+      "aliases": [
+        "垂体",
+        "垂体瘤",
+        "鞍区",
+        "pituitary"
+      ],
+      "objects": [
+        "垂体与邻近结构纸剪贴",
+        "垂体",
+        "垂体瘤",
+        "鞍区",
+        "pituitary"
+      ],
+      "topics": [
+        "垂体",
+        "垂体瘤",
+        "鞍区",
+        "pituitary"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "仅为本选题的解剖候选。视觉清洁已检查，医学终审仍待完成；不作 MRI，不自动用于其他解剖主题。",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        137,
+        33,
+        1257,
+        1115
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1374,
+        1145
+      ],
+      "geometry_revision": "816b2602da608b164b2a"
+    },
+    "pituitary_sagittal_layered_v1": {
+      "category": "anatomy",
+      "display_title": "头部矢状位完整解剖纸图（单层）",
+      "aliases": [
+        "头部",
+        "矢状位",
+        "鼻腔",
+        "蝶窦",
+        "蝶鞍",
+        "垂体",
+        "sagittal"
+      ],
+      "objects": [
+        "头部矢状位完整解剖纸图（单层）",
+        "头部",
+        "矢状位",
+        "鼻腔",
+        "蝶窦",
+        "蝶鞍",
+        "垂体",
+        "sagittal"
+      ],
+      "topics": [
+        "头部",
+        "矢状位",
+        "鼻腔",
+        "蝶窦",
+        "蝶鞍",
+        "垂体",
+        "sagittal"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "仅保存当前候选来源；使用同源全头和局部颅底有利于空间关系一致。不能当患者影像或手术导航",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        29,
+        14,
+        1208,
+        1266
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1224,
+        1285
+      ],
+      "geometry_revision": "d0636987985387405ede"
+    },
+    "reserve_alveolus_v1": {
+      "category": "anatomy",
+      "display_title": "肺泡局部",
+      "aliases": [
+        "肺泡",
+        "呼吸",
+        "alveolus",
+        "alveolus"
+      ],
+      "objects": [
+        "肺泡局部",
+        "肺泡",
+        "呼吸",
+        "alveolus"
+      ],
+      "topics": [
+        "肺泡",
+        "呼吸",
+        "alveolus",
+        "alveolus"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "局部放大转换；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "局部放大转换；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        204,
+        145,
+        819,
+        805
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1024,
+        1024
+      ],
+      "geometry_revision": "95ebc2a8691ac43497f3"
+    },
+    "reserve_apple_v1": {
+      "category": "lifestyle",
+      "display_title": "独立水果纸件",
+      "aliases": [
+        "apple"
+      ],
+      "objects": [
+        "独立水果纸件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "食物拿取；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "食物拿取；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        231,
+        122,
+        1048,
+        1117
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "d16ec119a05b878eb6b0"
+    },
+    "reserve_bed_v1": {
+      "category": "stage",
+      "display_title": "无寝具床架",
+      "aliases": [
+        "bed"
+      ],
+      "objects": [
+        "无寝具床架"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "睡眠场景底层；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "睡眠场景底层；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        55,
+        200,
+        1213,
+        1079
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "d4b8481a1d71ed758de0"
+    },
+    "reserve_blanket_v1": {
+      "category": "stage",
+      "display_title": "独立折叠被褥",
+      "aliases": [
+        "blanket"
+      ],
+      "objects": [
+        "独立折叠被褥"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "覆盖/收纳；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "覆盖/收纳；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        30,
+        201,
+        1224,
+        1072
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "d85134f364f5fc010470"
+    },
+    "reserve_blister_v1": {
+      "category": "care",
+      "display_title": "独立药片包装",
+      "aliases": [
+        "blister"
+      ],
+      "objects": [
+        "独立药片包装"
+      ],
+      "topics": [],
+      "story_roles": [
+        "治疗过程",
+        "自我照护"
+      ],
+      "actions": [
+        "取放；实际剂型按题目确认；不承诺药品/用法/剂量；按当前故事医学审查"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "取放；实际剂型按题目确认；不承诺药品/用法/剂量；按当前故事医学审查",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        297,
+        143,
+        997,
+        1103
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "f61a6a92294e34ba50c7"
+    },
+    "reserve_blood_cell_v1": {
+      "category": "anatomy",
+      "display_title": "独立红细胞",
+      "aliases": [
+        "红细胞",
+        "血液",
+        "blood cell",
+        "blood cell"
+      ],
+      "objects": [
+        "独立红细胞",
+        "红细胞",
+        "血液",
+        "blood cell"
+      ],
+      "topics": [
+        "红细胞",
+        "血液",
+        "blood cell",
+        "blood cell"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "独立沿血流轨道运动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "独立沿血流轨道运动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        124,
+        146,
+        1267,
+        975
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1402,
+        1122
+      ],
+      "geometry_revision": "df4a3d00397046b3b7a6"
+    },
+    "reserve_bowl_v1": {
+      "category": "lifestyle",
+      "display_title": "独立空碗",
+      "aliases": [
+        "bowl"
+      ],
+      "objects": [
+        "独立空碗"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "收纳与遮挡；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "收纳与遮挡；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        101,
+        253,
+        1153,
+        1013
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "d3aa5f47ca2b4c059d61"
+    },
+    "reserve_broccoli_v1": {
+      "category": "lifestyle",
+      "display_title": "独立蔬菜纸件",
+      "aliases": [
+        "broccoli"
+      ],
+      "objects": [
+        "独立蔬菜纸件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "餐盘组合；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "餐盘组合；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        179,
+        94,
+        1075,
+        1164
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "2d45a995ce062004437e"
+    },
+    "reserve_calendar_base_v1": {
+      "category": "documents",
+      "display_title": "独立台历支座",
+      "aliases": [
+        "calendar base"
+      ],
+      "objects": [
+        "独立台历支座"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "记录随访",
+        "资料交接"
+      ],
+      "actions": [
+        "与空白历页组合；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "与空白历页组合；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        119,
+        167,
+        1146,
+        1118
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "77cfb4ee5cc60dea4384"
+    },
+    "reserve_calendar_leaf_v1": {
+      "category": "documents",
+      "display_title": "独立空白台历页",
+      "aliases": [
+        "calendar leaf"
+      ],
+      "objects": [
+        "独立空白台历页"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "记录随访",
+        "资料交接"
+      ],
+      "actions": [
+        "独立翻页/日期代码写入；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "独立翻页/日期代码写入；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        228,
+        126,
+        1025,
+        1127
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "c6524f36e08bca4c5c43"
+    },
+    "reserve_chair_v1": {
+      "category": "stage",
+      "display_title": "独立木椅",
+      "aliases": [
+        "chair"
+      ],
+      "objects": [
+        "独立木椅"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "坐姿支撑；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "坐姿支撑；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        277,
+        35,
+        978,
+        1219
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "f1812703aa41360f72fc"
+    },
+    "reserve_clip_v1": {
+      "category": "paper",
+      "display_title": "独立金属纸夹",
+      "aliases": [
+        "clip"
+      ],
+      "objects": [
+        "独立金属纸夹"
+      ],
+      "topics": [],
+      "story_roles": [
+        "固定纸件",
+        "揭示遮挡"
+      ],
+      "actions": [
+        "局部固定/揭开/叠贴；影子由舞台产生；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "局部固定/揭开/叠贴；影子由舞台产生；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        187,
+        22,
+        1076,
+        1173
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "94b724e1617d868d2630"
+    },
+    "reserve_couch_v1": {
+      "category": "monitoring",
+      "display_title": "独立检查床",
+      "aliases": [
+        "couch"
+      ],
+      "objects": [
+        "独立检查床"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "检查床推进；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "检查床推进；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        34,
+        169,
+        1223,
+        1082
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "fcb92b9f59156d0156f9"
+    },
+    "reserve_cup_v1": {
+      "category": "lifestyle",
+      "display_title": "独立水杯",
+      "aliases": [
+        "cup"
+      ],
+      "objects": [
+        "独立水杯"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "补水动作可代码添液体；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "补水动作可代码添液体；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        291,
+        144,
+        962,
+        1108
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "5e179e538433e510c646"
+    },
+    "reserve_curtain_v1": {
+      "category": "stage",
+      "display_title": "独立窗帘",
+      "aliases": [
+        "curtain"
+      ],
+      "objects": [
+        "独立窗帘"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "前景揭幕；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "前景揭幕；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        263,
+        91,
+        988,
+        1148
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "8eca611dbb6b9296e5ec"
+    },
+    "reserve_door_frame_v1": {
+      "category": "stage",
+      "display_title": "门框",
+      "aliases": [
+        "door frame"
+      ],
+      "objects": [
+        "门框"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "与独立门扇装配；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "与独立门扇装配；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        306,
+        66,
+        949,
+        1194
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "4f3f3cec89b9d6c25abf"
+    },
+    "reserve_door_leaf_v1": {
+      "category": "stage",
+      "display_title": "独立门扇",
+      "aliases": [
+        "door leaf"
+      ],
+      "objects": [
+        "独立门扇"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "铰接开合；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "铰接开合；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        384,
+        64,
+        869,
+        1191
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "21662e3a0a60c83b4663"
+    },
+    "reserve_dressing_v1": {
+      "category": "care",
+      "display_title": "独立敷料",
+      "aliases": [
+        "dressing"
+      ],
+      "objects": [
+        "独立敷料"
+      ],
+      "topics": [],
+      "story_roles": [
+        "治疗过程",
+        "自我照护"
+      ],
+      "actions": [
+        "局部覆盖提示；不承诺药品/用法/剂量；按当前故事医学审查"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "局部覆盖提示；不承诺药品/用法/剂量；按当前故事医学审查",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        193,
+        190,
+        1091,
+        1091
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "8f9b28d110b9489470ed"
+    },
+    "reserve_fibre_v1": {
+      "category": "paper",
+      "display_title": "棉纤维纸材",
+      "aliases": [
+        "fibre"
+      ],
+      "objects": [
+        "棉纤维纸材"
+      ],
+      "topics": [],
+      "story_roles": [
+        "固定纸件",
+        "揭示遮挡"
+      ],
+      "actions": [
+        "局部固定/揭开/叠贴；影子由舞台产生；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "局部固定/揭开/叠贴；影子由舞台产生；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        110,
+        134,
+        916,
+        1402
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "geometry_revision": "dad8aea055f230a31da5"
+    },
+    "reserve_fish_v1": {
+      "category": "lifestyle",
+      "display_title": "独立鱼肉纸件",
+      "aliases": [
+        "fish"
+      ],
+      "objects": [
+        "独立鱼肉纸件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "餐盘组合；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "餐盘组合；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        47,
+        152,
+        1205,
+        1084
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "2e4296abb2d19883ae2b"
+    },
+    "reserve_floor_v1": {
+      "category": "stage",
+      "display_title": "木纹纸地板",
+      "aliases": [
+        "floor"
+      ],
+      "objects": [
+        "木纹纸地板"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "地面承接家具接触；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "地面承接家具接触；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        29,
+        239,
+        1494,
+        772
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "geometry_revision": "6f84137492f8621ea7bb"
+    },
+    "reserve_folder_v1": {
+      "category": "documents",
+      "display_title": "独立开口资料袋",
+      "aliases": [
+        "folder"
+      ],
+      "objects": [
+        "独立开口资料袋"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "记录随访",
+        "资料交接"
+      ],
+      "actions": [
+        "收纳；前片遮挡由当前代码裁切；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "收纳；前片遮挡由当前代码裁切；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        117,
+        139,
+        1140,
+        1110
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "f0c51b2287b8630c50c4"
+    },
+    "reserve_gallbladder_v1": {
+      "category": "anatomy",
+      "display_title": "独立胆囊",
+      "aliases": [
+        "胆囊",
+        "消化",
+        "gallbladder",
+        "gallbladder"
+      ],
+      "objects": [
+        "独立胆囊",
+        "胆囊",
+        "消化",
+        "gallbladder"
+      ],
+      "topics": [
+        "胆囊",
+        "消化",
+        "gallbladder",
+        "gallbladder"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "放置于肝下，当前医学位置另审；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "放置于肝下，当前医学位置另审；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        293,
+        110,
+        1033,
+        1131
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "f39efa7a626c82ecb592"
+    },
+    "reserve_hand_pinch_v1": {
+      "category": "characters",
+      "display_title": "独立捏持手部",
+      "aliases": [
+        "手",
+        "捏持",
+        "握持",
+        "交接",
+        "pinch",
+        "hand pinch"
+      ],
+      "objects": [
+        "独立捏持手部",
+        "手",
+        "捏持",
+        "握持",
+        "交接",
+        "pinch"
+      ],
+      "topics": [],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        66,
+        258,
+        996,
+        788
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1024,
+        1024
+      ],
+      "geometry_revision": "4d1ab9c8a609c8633ac2"
+    },
+    "reserve_heart_cut_v1": {
+      "category": "anatomy",
+      "display_title": "心脏四腔切面",
+      "aliases": [
+        "心脏",
+        "心腔",
+        "心血管",
+        "heart section",
+        "heart cut"
+      ],
+      "objects": [
+        "心脏四腔切面",
+        "心脏",
+        "心腔",
+        "心血管",
+        "heart section"
+      ],
+      "topics": [
+        "心脏",
+        "心腔",
+        "心血管",
+        "heart section",
+        "heart cut"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "切面替换揭示，不与外观强行像素配准；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "切面替换揭示，不与外观强行像素配准；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        185,
+        81,
+        1056,
+        1178
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "1c3497611c82aa388489"
+    },
+    "reserve_heart_v1": {
+      "category": "anatomy",
+      "display_title": "心脏外观",
+      "aliases": [
+        "心脏",
+        "心血管",
+        "heart",
+        "heart"
+      ],
+      "objects": [
+        "心脏外观",
+        "心脏",
+        "心血管",
+        "heart"
+      ],
+      "topics": [
+        "心脏",
+        "心血管",
+        "heart",
+        "heart"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体定位与搏动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体定位与搏动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        202,
+        16,
+        1032,
+        1218
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "6e009b5ce7fba2978c7b"
+    },
+    "reserve_inhaler_v1": {
+      "category": "care",
+      "display_title": "独立吸入装置",
+      "aliases": [
+        "inhaler"
+      ],
+      "objects": [
+        "独立吸入装置"
+      ],
+      "topics": [],
+      "story_roles": [
+        "治疗过程",
+        "自我照护"
+      ],
+      "actions": [
+        "整体拿取；具体操作需另校对；不承诺药品/用法/剂量；按当前故事医学审查"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体拿取；具体操作需另校对；不承诺药品/用法/剂量；按当前故事医学审查",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        306,
+        132,
+        961,
+        1091
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "deb3537c664b4d077f62"
+    },
+    "reserve_intestine_v1": {
+      "category": "anatomy",
+      "display_title": "肠道总览",
+      "aliases": [
+        "肠道",
+        "消化",
+        "intestine",
+        "intestine"
+      ],
+      "objects": [
+        "肠道总览",
+        "肠道",
+        "消化",
+        "intestine"
+      ],
+      "topics": [
+        "肠道",
+        "消化",
+        "intestine",
+        "intestine"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "完整单层肠道总览；内袢不能分别运动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "完整单层肠道总览；内袢不能分别运动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        123,
+        12,
+        1145,
+        1230
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "8323133881fe6bdeb91e"
+    },
+    "reserve_islet_v1": {
+      "category": "anatomy",
+      "display_title": "胰岛局部",
+      "aliases": [
+        "胰岛",
+        "胰岛素",
+        "糖尿病",
+        "islet",
+        "islet"
+      ],
+      "objects": [
+        "胰岛局部",
+        "胰岛",
+        "胰岛素",
+        "糖尿病",
+        "islet"
+      ],
+      "topics": [
+        "胰岛",
+        "胰岛素",
+        "糖尿病",
+        "islet",
+        "islet"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "微观镜头，非肉眼结构；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "微观镜头，非肉眼结构；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        116,
+        115,
+        1163,
+        1130
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "1796dcf00ad980856b21"
+    },
+    "reserve_kraft_v1": {
+      "category": "paper",
+      "display_title": "牛皮纸材",
+      "aliases": [
+        "kraft"
+      ],
+      "objects": [
+        "牛皮纸材"
+      ],
+      "topics": [],
+      "story_roles": [
+        "固定纸件",
+        "揭示遮挡"
+      ],
+      "actions": [
+        "局部固定/揭开/叠贴；影子由舞台产生；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "局部固定/揭开/叠贴；影子由舞台产生；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        141,
+        70,
+        1401,
+        950
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "geometry_revision": "fd4b73f9cf381087483e"
+    },
+    "reserve_liver_v1": {
+      "category": "anatomy",
+      "display_title": "肝脏总览",
+      "aliases": [
+        "肝脏",
+        "消化",
+        "脂肪肝",
+        "liver",
+        "liver"
+      ],
+      "objects": [
+        "肝脏总览",
+        "肝脏",
+        "消化",
+        "脂肪肝",
+        "liver"
+      ],
+      "topics": [
+        "肝脏",
+        "消化",
+        "脂肪肝",
+        "liver",
+        "liver"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "总览/与独立胆囊位置校对；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "总览/与独立胆囊位置校对；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        90,
+        108,
+        1415,
+        1013
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1454,
+        1082
+      ],
+      "geometry_revision": "f2c83bbca2a24b3e5dfa"
+    },
+    "reserve_lungs_v1": {
+      "category": "anatomy",
+      "display_title": "肺与气管总览",
+      "aliases": [
+        "肺",
+        "呼吸",
+        "气管",
+        "lungs",
+        "lungs"
+      ],
+      "objects": [
+        "肺与气管总览",
+        "肺",
+        "呼吸",
+        "气管",
+        "lungs"
+      ],
+      "topics": [
+        "肺",
+        "呼吸",
+        "气管",
+        "lungs",
+        "lungs"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "总览/整体摆放；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "总览/整体摆放；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        97,
+        23,
+        1157,
+        1228
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "dbfde62a985380b92220"
+    },
+    "reserve_mri_v1": {
+      "category": "monitoring",
+      "display_title": "独立MRI扫描机",
+      "aliases": [
+        "磁共振",
+        "核磁共振",
+        "MRI",
+        "影像检查",
+        "mri"
+      ],
+      "objects": [
+        "独立MRI扫描机",
+        "磁共振",
+        "核磁共振",
+        "MRI",
+        "影像检查"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "独立检查床进入孔洞；遮挡需当前镜头裁切；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "独立检查床进入孔洞；遮挡需当前镜头裁切；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        63,
+        120,
+        1174,
+        1135
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "f28583afcfdb2df85844"
+    },
+    "reserve_notebook_cover_v1": {
+      "category": "documents",
+      "display_title": "空白记录本封皮",
+      "aliases": [
+        "notebook cover"
+      ],
+      "objects": [
+        "空白记录本封皮"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "记录随访",
+        "资料交接"
+      ],
+      "actions": [
+        "与独立页装配；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "与独立页装配；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        119,
+        240,
+        1129,
+        1031
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "c3661384cb85dd44994a"
+    },
+    "reserve_notebook_page_v1": {
+      "category": "documents",
+      "display_title": "独立空白记录页",
+      "aliases": [
+        "notebook page"
+      ],
+      "objects": [
+        "独立空白记录页"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "记录随访",
+        "资料交接"
+      ],
+      "actions": [
+        "翻页/写入/叠放；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "翻页/写入/叠放；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        183,
+        58,
+        1079,
+        1175
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "1f2278bcc87208c993c3"
+    },
+    "reserve_oil_v1": {
+      "category": "lifestyle",
+      "display_title": "无标签油容器",
+      "aliases": [
+        "oil"
+      ],
+      "objects": [
+        "无标签油容器"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "整体拿取，开盖需单独新层；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体拿取，开盖需单独新层；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        486,
+        144,
+        762,
+        1095
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "3825f2cb267e08b1ae84"
+    },
+    "reserve_oximeter_v1": {
+      "category": "monitoring",
+      "display_title": "独立脉氧仪",
+      "aliases": [
+        "oximeter"
+      ],
+      "objects": [
+        "独立脉氧仪"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "单件提示，开合需新层；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "单件提示，开合需新层；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        202,
+        191,
+        1030,
+        1074
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "69c807ea73b6b7982970"
+    },
+    "reserve_pancreas_v1": {
+      "category": "anatomy",
+      "display_title": "胰腺总览",
+      "aliases": [
+        "胰腺",
+        "糖尿病",
+        "pancreas",
+        "pancreas"
+      ],
+      "objects": [
+        "胰腺总览",
+        "胰腺",
+        "糖尿病",
+        "pancreas"
+      ],
+      "topics": [
+        "胰腺",
+        "糖尿病",
+        "pancreas",
+        "pancreas"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "总览/独立胰岛局部；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "总览/独立胰岛局部；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        89,
+        164,
+        1466,
+        855
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "geometry_revision": "0d1ea9719816e248ad1c"
+    },
+    "reserve_person_reach_v1": {
+      "category": "characters",
+      "display_title": "通用人物接触姿态",
+      "aliases": [
+        "人物",
+        "伸手",
+        "接触",
+        "拿取",
+        "reach",
+        "person reach"
+      ],
+      "objects": [
+        "通用人物接触姿态",
+        "人物",
+        "伸手",
+        "接触",
+        "拿取",
+        "reach"
+      ],
+      "topics": [],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        277,
+        20,
+        851,
+        1514
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "geometry_revision": "06699488519265d1f09e"
+    },
+    "reserve_person_seated_v1": {
+      "category": "characters",
+      "display_title": "通用人物坐姿",
+      "aliases": [
+        "人物",
+        "患者",
+        "坐姿",
+        "坐下",
+        "seated",
+        "person seated"
+      ],
+      "objects": [
+        "通用人物坐姿",
+        "人物",
+        "患者",
+        "坐姿",
+        "坐下",
+        "seated"
+      ],
+      "topics": [],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        164,
+        42,
+        881,
+        1489
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "geometry_revision": "0d8717db010fff199181"
+    },
+    "reserve_person_side_v1": {
+      "category": "characters",
+      "display_title": "通用人物侧面站姿",
+      "aliases": [
+        "人物",
+        "侧面",
+        "side view",
+        "person side"
+      ],
+      "objects": [
+        "通用人物侧面站姿",
+        "人物",
+        "侧面",
+        "side view"
+      ],
+      "topics": [],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        517,
+        33,
+        727,
+        1216
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "b0c0805e327702792c91"
+    },
+    "reserve_person_stand_v1": {
+      "category": "characters",
+      "display_title": "通用人物正面站姿",
+      "aliases": [
+        "人物",
+        "患者",
+        "站立",
+        "standing",
+        "person stand"
+      ],
+      "objects": [
+        "通用人物正面站姿",
+        "人物",
+        "患者",
+        "站立",
+        "standing"
+      ],
+      "topics": [],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "actions": [
+        "整体定位/角色母版；通用虚构角色，非医生品牌"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体定位/角色母版；通用虚构角色，非医生品牌",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        331,
+        29,
+        695,
+        1507
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "geometry_revision": "e84a56ed2a70394297d2"
+    },
+    "reserve_person_walk_v1": {
+      "category": "characters",
+      "display_title": "通用人物步行姿态",
+      "aliases": [
+        "人物",
+        "行走",
+        "运动",
+        "walk",
+        "person walk"
+      ],
+      "objects": [
+        "通用人物步行姿态",
+        "人物",
+        "行走",
+        "运动",
+        "walk"
+      ],
+      "topics": [],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        254,
+        24,
+        1003,
+        1218
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "bfd14a6e821ae1093957"
+    },
+    "reserve_pillbox_v1": {
+      "category": "care",
+      "display_title": "独立无字药盒",
+      "aliases": [
+        "pillbox"
+      ],
+      "objects": [
+        "独立无字药盒"
+      ],
+      "topics": [],
+      "story_roles": [
+        "治疗过程",
+        "自我照护"
+      ],
+      "actions": [
+        "整体取放；逐格开盖需新层；不承诺药品/用法/剂量；按当前故事医学审查"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体取放；逐格开盖需新层；不承诺药品/用法/剂量；按当前故事医学审查",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        46,
+        415,
+        1212,
+        811
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "1c38421cc21eb9771006"
+    },
+    "reserve_pillow_v1": {
+      "category": "stage",
+      "display_title": "独立枕头",
+      "aliases": [
+        "pillow"
+      ],
+      "objects": [
+        "独立枕头"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "独立调整枕头；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "独立调整枕头；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        92,
+        167,
+        1198,
+        1085
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "96e35f791a7cbd333e0e"
+    },
+    "reserve_pin_v1": {
+      "category": "paper",
+      "display_title": "独立软木图钉",
+      "aliases": [
+        "pin"
+      ],
+      "objects": [
+        "独立软木图钉"
+      ],
+      "topics": [],
+      "story_roles": [
+        "固定纸件",
+        "揭示遮挡"
+      ],
+      "actions": [
+        "局部固定/揭开/叠贴；影子由舞台产生；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "局部固定/揭开/叠贴；影子由舞台产生；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        339,
+        144,
+        1024,
+        1092
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "da09994ef6dc1a20c026"
+    },
+    "reserve_plate_v1": {
+      "category": "lifestyle",
+      "display_title": "独立空餐盘",
+      "aliases": [
+        "plate"
+      ],
+      "objects": [
+        "独立空餐盘"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "独立装配食物；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "独立装配食物；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        141,
+        125,
+        1107,
+        1108
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "5c367557ca816c92e0c7"
+    },
+    "reserve_probe_v1": {
+      "category": "monitoring",
+      "display_title": "独立超声探头",
+      "aliases": [
+        "probe"
+      ],
+      "objects": [
+        "独立超声探头"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "独立探查接触；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "独立探查接触；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        165,
+        144,
+        1110,
+        1092
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "3870d3fa8696e4b13a89"
+    },
+    "reserve_rice_v1": {
+      "category": "lifestyle",
+      "display_title": "独立主食纸件",
+      "aliases": [
+        "rice"
+      ],
+      "objects": [
+        "独立主食纸件"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "餐盘组合，份量当前故事确定；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "餐盘组合，份量当前故事确定；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        211,
+        194,
+        1056,
+        1058
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "696df860112a3a6e76d8"
+    },
+    "reserve_salt_v1": {
+      "category": "lifestyle",
+      "display_title": "无标签盐容器",
+      "aliases": [
+        "salt"
+      ],
+      "objects": [
+        "无标签盐容器"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "控盐物件，内盐不独立运动；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "控盐物件，内盐不独立运动；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        328,
+        130,
+        935,
+        1163
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "a430abd3d6a8c308acfc"
+    },
+    "reserve_scale_v1": {
+      "category": "monitoring",
+      "display_title": "独立体重秤",
+      "aliases": [
+        "scale"
+      ],
+      "objects": [
+        "独立体重秤"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "称重承接；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "称重承接；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        35,
+        109,
+        1221,
+        1133
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "79b44108cc1546b52cbe"
+    },
+    "reserve_shelf_v1": {
+      "category": "stage",
+      "display_title": "空柜架",
+      "aliases": [
+        "shelf"
+      ],
+      "objects": [
+        "空柜架"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "物件收纳；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "物件收纳；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        241,
+        138,
+        1013,
+        1129
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "d91a585a45dd7e4804ee"
+    },
+    "reserve_shoe_v1": {
+      "category": "lifestyle",
+      "display_title": "独立运动鞋",
+      "aliases": [
+        "shoe"
+      ],
+      "objects": [
+        "独立运动鞋"
+      ],
+      "topics": [],
+      "story_roles": [
+        "日常行动"
+      ],
+      "actions": [
+        "运动物件锚点；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "运动物件锚点；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        27,
+        317,
+        1226,
+        951
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "34ab4388fef5a442d9f0"
+    },
+    "reserve_stomach_v1": {
+      "category": "anatomy",
+      "display_title": "独立胃",
+      "aliases": [
+        "胃",
+        "消化",
+        "stomach",
+        "stomach"
+      ],
+      "objects": [
+        "独立胃",
+        "胃",
+        "消化",
+        "stomach"
+      ],
+      "topics": [
+        "胃",
+        "消化",
+        "stomach",
+        "stomach"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "与消化道分件装配；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "与消化道分件装配；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        147,
+        13,
+        1022,
+        1241
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "893afaba9489f9ce250f"
+    },
+    "reserve_table_v1": {
+      "category": "stage",
+      "display_title": "独立桌沿与桌面",
+      "aliases": [
+        "table"
+      ],
+      "objects": [
+        "独立桌沿与桌面"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "前景遮挡/物件承接；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "前景遮挡/物件承接；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        53,
+        300,
+        1201,
+        1006
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "525e0546b294640f672f"
+    },
+    "reserve_thermometer_v1": {
+      "category": "monitoring",
+      "display_title": "独立体温计",
+      "aliases": [
+        "thermometer"
+      ],
+      "objects": [
+        "独立体温计"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "拿取/测量提示；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "拿取/测量提示；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        155,
+        109,
+        1193,
+        1140
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "867d60951653966b638d"
+    },
+    "reserve_tracing_v1": {
+      "category": "paper",
+      "display_title": "半透明描图纸",
+      "aliases": [
+        "tracing"
+      ],
+      "objects": [
+        "半透明描图纸"
+      ],
+      "topics": [],
+      "story_roles": [
+        "固定纸件",
+        "揭示遮挡"
+      ],
+      "actions": [
+        "局部固定/揭开/叠贴；影子由舞台产生；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "局部固定/揭开/叠贴；影子由舞台产生；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        124,
+        59,
+        1138,
+        1191
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "c25c085bd9f6abacb549"
+    },
+    "reserve_tube_cap_v1": {
+      "category": "monitoring",
+      "display_title": "独立标本管盖",
+      "aliases": [
+        "tube cap"
+      ],
+      "objects": [
+        "独立标本管盖"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "封管动作；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "封管动作；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        274,
+        257,
+        939,
+        1004
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "581b64e76627a24d6f3e"
+    },
+    "reserve_tube_rack_v1": {
+      "category": "monitoring",
+      "display_title": "空标本管架",
+      "aliases": [
+        "tube rack"
+      ],
+      "objects": [
+        "空标本管架"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "插入与收纳；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "插入与收纳；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        166,
+        243,
+        1106,
+        1033
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "8390994fe5121728874a"
+    },
+    "reserve_tube_v1": {
+      "category": "monitoring",
+      "display_title": "独立标本管",
+      "aliases": [
+        "tube"
+      ],
+      "objects": [
+        "独立标本管"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "与盖/支架独立操作；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "与盖/支架独立操作；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        504,
+        44,
+        748,
+        1210
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "077336a1f8cccdfd9c1c"
+    },
+    "reserve_ultrasound_v1": {
+      "category": "monitoring",
+      "display_title": "独立超声设备",
+      "aliases": [
+        "ultrasound"
+      ],
+      "objects": [
+        "独立超声设备"
+      ],
+      "topics": [],
+      "story_roles": [
+        "收集线索",
+        "对照检查"
+      ],
+      "actions": [
+        "设备层/另配探头；无示例读数；不能宣称具体品牌操作教学"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "设备层/另配探头；无示例读数；不能宣称具体品牌操作教学",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        327,
+        26,
+        956,
+        1224
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "ed031ce83f0d69fe96a8"
+    },
+    "reserve_vessel_v1": {
+      "category": "anatomy",
+      "display_title": "血管纵向壁层",
+      "aliases": [
+        "血管",
+        "动脉",
+        "心血管",
+        "血脂",
+        "vessel",
+        "vessel"
+      ],
+      "objects": [
+        "血管纵向壁层",
+        "血管",
+        "动脉",
+        "心血管",
+        "血脂",
+        "vessel"
+      ],
+      "topics": [
+        "血管",
+        "动脉",
+        "心血管",
+        "血脂",
+        "vessel",
+        "vessel"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "壁层/管腔总览；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "壁层/管腔总览；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        39,
+        128,
+        1217,
+        1089
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "9ba9b427374b43fa6a61"
+    },
+    "reserve_wall_v1": {
+      "category": "stage",
+      "display_title": "无家具墙面",
+      "aliases": [
+        "wall"
+      ],
+      "objects": [
+        "无家具墙面"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "后景，可叠放独立门窗；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "后景，可叠放独立门窗；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        63,
+        109,
+        1476,
+        915
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "geometry_revision": "2288eeec5f06127d1ed8"
+    },
+    "reserve_window_v1": {
+      "category": "stage",
+      "display_title": "独立窗框",
+      "aliases": [
+        "window"
+      ],
+      "objects": [
+        "独立窗框"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "后景透视/揭示；"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "后景透视/揭示；",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        54,
+        17,
+        1255,
+        1176
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1312,
+        1199
+      ],
+      "geometry_revision": "ff85733cb6f2431414e1"
+    },
+    "six_paper_breast_section": {
+      "category": "anatomy",
+      "display_title": "乳腺手绘拼贴纸件",
+      "aliases": [
+        "乳腺",
+        "乳房",
+        "乳腺结节",
+        "breast"
+      ],
+      "objects": [
+        "乳腺手绘拼贴纸件",
+        "乳腺",
+        "乳房",
+        "乳腺结节",
+        "breast"
+      ],
+      "topics": [
+        "乳腺",
+        "乳房",
+        "乳腺结节",
+        "breast"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体取放\n结构总览\n局部相机观察",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        254,
+        19,
+        1028,
+        1233
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "geometry_revision": "efe620b059dfc91db173"
+    },
+    "six_paper_breast_stage": {
+      "category": "stage",
+      "display_title": "breast_stage 完整纸景",
+      "aliases": [],
+      "objects": [
+        "breast_stage 完整纸景"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "作为完整后景\n相机推进/平移",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "geometry_revision": "c0c36462bf2b38e0d662"
+    },
+    "six_paper_foot_joint": {
+      "category": "anatomy",
+      "display_title": "足部手绘拼贴纸件",
+      "aliases": [
+        "足部",
+        "关节",
+        "痛风",
+        "尿酸",
+        "gout"
+      ],
+      "objects": [
+        "足部手绘拼贴纸件",
+        "足部",
+        "关节",
+        "痛风",
+        "尿酸",
+        "gout"
+      ],
+      "topics": [
+        "足部",
+        "关节",
+        "痛风",
+        "尿酸",
+        "gout"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体取放\n结构总览\n局部相机观察",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        10,
+        11,
+        1169,
+        1237
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1224,
+        1285
+      ],
+      "geometry_revision": "d91837d27cc175eca3e4"
+    },
+    "six_paper_gout_stage": {
+      "category": "stage",
+      "display_title": "gout_stage 完整纸景",
+      "aliases": [],
+      "objects": [
+        "gout_stage 完整纸景"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "作为完整后景\n相机推进/平移",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "geometry_revision": "c263234c5f6b4a89c17b"
+    },
+    "six_paper_graves_stage": {
+      "category": "stage",
+      "display_title": "graves_stage 完整纸景",
+      "aliases": [],
+      "objects": [
+        "graves_stage 完整纸景"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "作为完整后景\n相机推进/平移",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "geometry_revision": "1f9f90b7d36ee34c604c"
+    },
+    "six_paper_hashimoto_stage": {
+      "category": "stage",
+      "display_title": "hashimoto_stage 完整纸景",
+      "aliases": [],
+      "objects": [
+        "hashimoto_stage 完整纸景"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "作为完整后景\n相机推进/平移",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        940
+      ],
+      "geometry_revision": "f60b10a9fad8a9b0a3ee"
+    },
+    "six_paper_kidney_stage": {
+      "category": "stage",
+      "display_title": "kidney_stage 完整纸景",
+      "aliases": [],
+      "objects": [
+        "kidney_stage 完整纸景"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "作为完整后景\n相机推进/平移",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "geometry_revision": "0dbd694e8e86c8939a08"
+    },
+    "six_paper_kidneys_alpha": {
+      "category": "anatomy",
+      "display_title": "肾脏手绘拼贴纸件",
+      "aliases": [
+        "肾脏",
+        "泌尿",
+        "慢性肾病",
+        "CKD",
+        "kidney"
+      ],
+      "objects": [
+        "肾脏手绘拼贴纸件",
+        "肾脏",
+        "泌尿",
+        "慢性肾病",
+        "CKD",
+        "kidney"
+      ],
+      "topics": [
+        "肾脏",
+        "泌尿",
+        "慢性肾病",
+        "CKD",
+        "kidney"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体取放\n结构总览\n局部相机观察",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        43,
+        49,
+        997,
+        1485
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "geometry_revision": "4596444fbc641ceea029"
+    },
+    "six_paper_music_breast_nodules_paper_theatre": {
+      "category": "bgm",
+      "display_title": "breast_nodules_paper_theatre 原创纸剧场分轨配乐",
+      "aliases": [],
+      "objects": [
+        "breast_nodules_paper_theatre 原创纸剧场分轨配乐"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "按情绪试听选择\n按来源范围剪辑/混音",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "six_paper_music_ckd_paper_theatre": {
+      "category": "bgm",
+      "display_title": "ckd_paper_theatre 原创纸剧场分轨配乐",
+      "aliases": [],
+      "objects": [
+        "ckd_paper_theatre 原创纸剧场分轨配乐"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "按情绪试听选择\n按来源范围剪辑/混音",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "six_paper_music_gout_paper_theatre": {
+      "category": "bgm",
+      "display_title": "gout_paper_theatre 原创纸剧场分轨配乐",
+      "aliases": [],
+      "objects": [
+        "gout_paper_theatre 原创纸剧场分轨配乐"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "按情绪试听选择\n按来源范围剪辑/混音",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "six_paper_music_graves_paper_theatre": {
+      "category": "bgm",
+      "display_title": "graves_paper_theatre 原创纸剧场分轨配乐",
+      "aliases": [],
+      "objects": [
+        "graves_paper_theatre 原创纸剧场分轨配乐"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "按情绪试听选择\n按来源范围剪辑/混音",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "six_paper_music_hashimoto_paper_theatre": {
+      "category": "bgm",
+      "display_title": "hashimoto_paper_theatre 原创纸剧场分轨配乐",
+      "aliases": [],
+      "objects": [
+        "hashimoto_paper_theatre 原创纸剧场分轨配乐"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "按情绪试听选择\n按来源范围剪辑/混音",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "six_paper_music_pcos_paper_theatre": {
+      "category": "bgm",
+      "display_title": "pcos_paper_theatre 原创纸剧场分轨配乐",
+      "aliases": [],
+      "objects": [
+        "pcos_paper_theatre 原创纸剧场分轨配乐"
+      ],
+      "topics": [],
+      "story_roles": [
+        "情绪铺垫",
+        "情绪转折"
+      ],
+      "actions": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "medium": "audio",
+      "style": [],
+      "material": null,
+      "renderers": [],
+      "usage_notes": "按情绪试听选择\n按来源范围剪辑/混音",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "six_paper_pcos_stage": {
+      "category": "stage",
+      "display_title": "pcos_stage 完整纸景",
+      "aliases": [],
+      "objects": [
+        "pcos_stage 完整纸景"
+      ],
+      "topics": [],
+      "story_roles": [
+        "建立空间",
+        "前景遮挡"
+      ],
+      "actions": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "medium": "whole_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "作为完整后景\n相机推进/平移",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1672,
+        940
+      ],
+      "geometry_revision": "b14e073941d64eff2575"
+    },
+    "six_paper_pelvic_organs": {
+      "category": "anatomy",
+      "display_title": "盆腔手绘拼贴纸件",
+      "aliases": [
+        "盆腔",
+        "卵巢",
+        "子宫",
+        "多囊卵巢",
+        "PCOS"
+      ],
+      "objects": [
+        "盆腔手绘拼贴纸件",
+        "盆腔",
+        "卵巢",
+        "子宫",
+        "多囊卵巢",
+        "PCOS"
+      ],
+      "topics": [
+        "盆腔",
+        "卵巢",
+        "子宫",
+        "多囊卵巢",
+        "PCOS"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体取放\n结构总览\n局部相机观察",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        39,
+        125,
+        1324,
+        1067
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1366,
+        1152
+      ],
+      "geometry_revision": "b23cfa24edc8b99fcad3"
+    },
+    "six_paper_staging_modules": {
+      "category": "motion",
+      "display_title": "六主题纸剧场：物件身份、翻面、归档与舞台模块",
+      "aliases": [
+        "归档",
+        "翻面",
+        "舞台"
+      ],
+      "objects": [
+        "六主题纸剧场：物件身份、翻面、归档与舞台模块",
+        "归档",
+        "翻面",
+        "舞台"
+      ],
+      "topics": [],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "material": null,
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "学习/接入冻结组件\n局部适配命名动作",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      }
+    },
+    "six_paper_thyroid_neck": {
+      "category": "anatomy",
+      "display_title": "甲状腺手绘拼贴纸件",
+      "aliases": [
+        "甲状腺",
+        "颈部",
+        "thyroid",
+        "桥本",
+        "甲亢",
+        "Graves"
+      ],
+      "objects": [
+        "甲状腺手绘拼贴纸件",
+        "甲状腺",
+        "颈部",
+        "thyroid",
+        "桥本",
+        "甲亢",
+        "Graves"
+      ],
+      "topics": [
+        "甲状腺",
+        "颈部",
+        "thyroid",
+        "桥本",
+        "甲亢",
+        "Graves"
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "actions": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom",
+        "webgl-three"
+      ],
+      "usage_notes": "整体取放\n结构总览\n局部相机观察",
+      "view": "按原件观察，不能自动镜像医学侧别",
+      "compatibility": {
+        "params": "可调整；content bounds 与接触点不固定画面构图",
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
+      },
+      "visible_bounds": [
+        23,
+        23,
+        1199,
+        1249
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "original_image_size": [
+        1224,
+        1285
+      ],
+      "geometry_revision": "01644949a5fe8bd8e3c6"
+    },
+    "mac_left_receive_v1": {
+      "category": "characters",
+      "display_title": "左手接取独立纸件",
+      "aliases": [
+        "左手",
+        "接取",
+        "交接"
+      ],
+      "objects": [
+        "左手",
+        "接取",
+        "交接"
+      ],
+      "story_roles": [
+        "人物与物件接触"
+      ],
+      "actions": [
+        "空手接取，报告另做独立层"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "compatibility": {
+        "params": "当前镜头调整接触点、比例和位置，医学侧别不自动镜像"
+      },
+      "visible_bounds": [
+        37,
+        210,
+        1402,
+        830
+      ],
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "geometry_revision": "080b943a5f9d2bb88bba"
+    },
+    "mac_person_receive_v1": {
+      "category": "characters",
+      "display_title": "通用人物双手接取姿态",
+      "aliases": [
+        "人物",
+        "接取报告",
+        "接触"
+      ],
+      "objects": [
+        "人物",
+        "接取报告",
+        "接触"
+      ],
+      "story_roles": [
+        "人物与物件接触"
+      ],
+      "actions": [
+        "与独立报告试装；角色非品牌医生"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "compatibility": {
+        "params": "当前镜头调整接触点、比例和位置，医学侧别不自动镜像"
+      },
+      "visible_bounds": [
+        353,
+        29,
+        784,
+        1506
+      ],
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "geometry_revision": "bcd43c994018d84d76c0"
+    },
+    "mac_right_pinch_v1": {
+      "category": "characters",
+      "display_title": "右手捏持与交接纸件",
+      "aliases": [
+        "右手",
+        "捏持",
+        "交接"
+      ],
+      "objects": [
+        "右手",
+        "捏持",
+        "交接"
+      ],
+      "story_roles": [
+        "人物与物件接触"
+      ],
+      "actions": [
+        "指间空隙匹配当前纸件边缘；不烘焙持物"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "compatibility": {
+        "params": "当前镜头调整接触点、比例和位置，医学侧别不自动镜像"
+      },
+      "visible_bounds": [
+        142,
+        203,
+        1490,
+        882
+      ],
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "geometry_revision": "953208910f3f2afe0eaa"
+    },
+    "mac_bare_arm_v1": {
+      "category": "characters",
+      "display_title": "独立裸露上臂与屈肘接触姿态",
+      "aliases": [
+        "手臂",
+        "上臂",
+        "屈肘",
+        "接触",
+        "穿戴"
+      ],
+      "objects": [
+        "手臂",
+        "上臂",
+        "屈肘",
+        "接触",
+        "穿戴"
+      ],
+      "story_roles": [
+        "人物与物件接触"
+      ],
+      "actions": [
+        "袖带另作独立层；当前穿戴镜头需医学 Review"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "compatibility": {
+        "params": "当前镜头调整接触点、比例和位置，医学侧别不自动镜像"
+      },
+      "visible_bounds": [
+        122,
+        89,
+        1432,
+        860
+      ],
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "geometry_revision": "199031b83fe2420d595b"
+    },
+    "mac_open_cuff_v1": {
+      "category": "monitoring",
+      "display_title": "独立展开式上臂袖带",
+      "aliases": [
+        "袖带",
+        "血压",
+        "佩戴",
+        "展开"
+      ],
+      "objects": [
+        "袖带",
+        "血压",
+        "佩戴",
+        "展开"
+      ],
+      "story_roles": [
+        "人物与物件接触"
+      ],
+      "actions": [
+        "与独立手臂试装；不含主机与读数"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "compatibility": {
+        "params": "当前镜头调整接触点、比例和位置，医学侧别不自动镜像"
+      },
+      "visible_bounds": [
+        323,
+        151,
+        1203,
+        901
+      ],
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "geometry_revision": "ed384b40d3d5dc3de162"
+    },
+    "mac_contact_runtime_v1": {
+      "category": "motion",
+      "display_title": "纸件接触、内容边界与姿态运行模块",
+      "aliases": [
+        "接触",
+        "局部坐标",
+        "内容边界",
+        "轨迹",
+        "姿态"
+      ],
+      "objects": [
+        "纸件"
+      ],
+      "story_roles": [
+        "连续动作",
+        "镜头承接"
+      ],
+      "actions": [
+        "接触",
+        "交接",
+        "姿态切换"
+      ],
+      "medium": "code",
+      "style": [
+        "paper_collage"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "compatibility": {
+        "dependencies": [
+          "CanvasRenderingContext2D",
+          "ES modules"
+        ],
+        "other_backends": "轨迹数学可适配，实际绘制器示例仅 Canvas 2D"
+      }
+    }
+  },
+  "policy": "人工策展的发现层；不改原资产版本，不替代当前镜头审查，不限制新创。"
+}

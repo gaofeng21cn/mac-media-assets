@@ -1,0 +1,53 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_bare_arm_v1",
+  "title": "独立裸露上臂与屈肘接触姿态",
+  "kind": "image",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "人物",
+    "接触",
+    "交接"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "content_bounds": [
+    122,
+    89,
+    1432,
+    860
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "袖带另作独立层；当前穿戴镜头需医学 Review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "builtin_edit",
+    "sample_has_brand": false
+  },
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+      "bytes": 1585005
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "bcb4ae99af266596e50661cbd5e308c93a5b484dbeb6d8fc101445d38bd80e9b",
+      "bytes": 442
+    }
+  ],
+  "revision": "199031b83fe2420d595b"
+}

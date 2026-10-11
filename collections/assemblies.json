@@ -1,0 +1,520 @@
+{
+  "schema": "mac_asset_assemblies/v1",
+  "assemblies": [
+    {
+      "id": "door",
+      "title": "纸门铰接",
+      "parts": [
+        {
+          "source_id": "reserve_door_frame_v1",
+          "asset_id": "paper:reserve_door_frame_v1@4f3f3cec89b9d6c25abf",
+          "role": "固定框",
+          "revision": "4f3f3cec89b9d6c25abf"
+        },
+        {
+          "source_id": "reserve_door_leaf_v1",
+          "asset_id": "paper:reserve_door_leaf_v1@21662e3a0a60c83b4663",
+          "role": "运动门扇",
+          "revision": "21662e3a0a60c83b4663"
+        }
+      ],
+      "operations": [
+        "开门",
+        "关门"
+      ],
+      "relationship": "门扇绕自身边缘转动；框和扇分开调尺寸，非整图横向缩放。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#door",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "calendar",
+      "title": "随访台历",
+      "parts": [
+        {
+          "source_id": "reserve_calendar_base_v1",
+          "asset_id": "paper:reserve_calendar_base_v1@77cfb4ee5cc60dea4384",
+          "role": "底座",
+          "revision": "77cfb4ee5cc60dea4384"
+        },
+        {
+          "source_id": "reserve_calendar_leaf_v1",
+          "asset_id": "paper:reserve_calendar_leaf_v1@c6524f36e08bca4c5c43",
+          "role": "翻动纸页",
+          "revision": "c6524f36e08bca4c5c43"
+        }
+      ],
+      "operations": [
+        "翻页",
+        "随访"
+      ],
+      "relationship": "页在底座前方；日期由故事写入，换页时保留底座。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#calendar",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "notebook",
+      "title": "连续记录本",
+      "parts": [
+        {
+          "source_id": "reserve_notebook_cover_v1",
+          "asset_id": "paper:reserve_notebook_cover_v1@c3661384cb85dd44994a",
+          "role": "封皮",
+          "revision": "c3661384cb85dd44994a"
+        },
+        {
+          "source_id": "reserve_notebook_page_v1",
+          "asset_id": "paper:reserve_notebook_page_v1@1f2278bcc87208c993c3",
+          "role": "内页",
+          "revision": "1f2278bcc87208c993c3"
+        }
+      ],
+      "operations": [
+        "记录",
+        "翻页"
+      ],
+      "relationship": "封皮与内页相对铰接；不能把空白页面当主要医学信息。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#notebook",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "specimen",
+      "title": "标本管操作",
+      "parts": [
+        {
+          "source_id": "reserve_tube_v1",
+          "asset_id": "paper:reserve_tube_v1@077336a1f8cccdfd9c1c",
+          "role": "管身",
+          "revision": "077336a1f8cccdfd9c1c"
+        },
+        {
+          "source_id": "reserve_tube_cap_v1",
+          "asset_id": "paper:reserve_tube_cap_v1@581b64e76627a24d6f3e",
+          "role": "管盖",
+          "revision": "581b64e76627a24d6f3e"
+        },
+        {
+          "source_id": "reserve_tube_rack_v1",
+          "asset_id": "paper:reserve_tube_rack_v1@8390994fe5121728874a",
+          "role": "管架",
+          "revision": "8390994fe5121728874a"
+        }
+      ],
+      "operations": [
+        "封管",
+        "放入",
+        "取出"
+      ],
+      "relationship": "盖对齐管口，管架前缘遮挡管身；不表现采血操作。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#specimen",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "bed",
+      "title": "病房与寝具",
+      "parts": [
+        {
+          "source_id": "reserve_bed_v1",
+          "asset_id": "paper:reserve_bed_v1@d4b8481a1d71ed758de0",
+          "role": "床架",
+          "revision": "d4b8481a1d71ed758de0"
+        },
+        {
+          "source_id": "reserve_pillow_v1",
+          "asset_id": "paper:reserve_pillow_v1@96e35f791a7cbd333e0e",
+          "role": "枕头",
+          "revision": "96e35f791a7cbd333e0e"
+        },
+        {
+          "source_id": "reserve_blanket_v1",
+          "asset_id": "paper:reserve_blanket_v1@d85134f364f5fc010470",
+          "role": "被褥",
+          "revision": "d85134f364f5fc010470"
+        }
+      ],
+      "operations": [
+        "布置",
+        "遮挡",
+        "休息"
+      ],
+      "relationship": "床架定位，枕头和折叠被褥分别叠放；折叠被褥不冒充展开盖被。人物睡姿和展开寝具按镜头另做。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#bed",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "room",
+      "title": "可重组诊室",
+      "parts": [
+        {
+          "source_id": "reserve_wall_v1",
+          "asset_id": "paper:reserve_wall_v1@2288eeec5f06127d1ed8",
+          "role": "后墙",
+          "revision": "2288eeec5f06127d1ed8"
+        },
+        {
+          "source_id": "reserve_floor_v1",
+          "asset_id": "paper:reserve_floor_v1@6f84137492f8621ea7bb",
+          "role": "地面",
+          "revision": "6f84137492f8621ea7bb"
+        },
+        {
+          "source_id": "reserve_table_v1",
+          "asset_id": "paper:reserve_table_v1@525e0546b294640f672f",
+          "role": "桌面",
+          "revision": "525e0546b294640f672f"
+        },
+        {
+          "source_id": "reserve_chair_v1",
+          "asset_id": "paper:reserve_chair_v1@f1812703aa41360f72fc",
+          "role": "座椅",
+          "revision": "f1812703aa41360f72fc"
+        },
+        {
+          "source_id": "reserve_shelf_v1",
+          "asset_id": "paper:reserve_shelf_v1@d91a585a45dd7e4804ee",
+          "role": "储物架",
+          "revision": "d91a585a45dd7e4804ee"
+        }
+      ],
+      "operations": [
+        "建立空间",
+        "对照检查"
+      ],
+      "relationship": "只给相对前后层次，家具位置与比例不固定。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#room",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "meal",
+      "title": "餐盘与夹取",
+      "parts": [
+        {
+          "source_id": "reserve_plate_v1",
+          "asset_id": "paper:reserve_plate_v1@5c367557ca816c92e0c7",
+          "role": "餐盘",
+          "revision": "5c367557ca816c92e0c7"
+        },
+        {
+          "source_id": "reserve_rice_v1",
+          "asset_id": "paper:reserve_rice_v1@696df860112a3a6e76d8",
+          "role": "主食",
+          "revision": "696df860112a3a6e76d8"
+        },
+        {
+          "source_id": "reserve_fish_v1",
+          "asset_id": "paper:reserve_fish_v1@2e4296abb2d19883ae2b",
+          "role": "鱼肉",
+          "revision": "2e4296abb2d19883ae2b"
+        },
+        {
+          "source_id": "reserve_broccoli_v1",
+          "asset_id": "paper:reserve_broccoli_v1@2d45a995ce062004437e",
+          "role": "蔬菜",
+          "revision": "2d45a995ce062004437e"
+        },
+        {
+          "source_id": "reserve_cup_v1",
+          "asset_id": "paper:reserve_cup_v1@5e179e538433e510c646",
+          "role": "水杯",
+          "revision": "5e179e538433e510c646"
+        }
+      ],
+      "operations": [
+        "放入",
+        "拿取",
+        "饮食选择"
+      ],
+      "relationship": "食物按餐盘面积调整，数量不是营养处方。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#meal",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "pose",
+      "title": "人物坐站与接触",
+      "parts": [
+        {
+          "source_id": "reserve_person_stand_v1",
+          "asset_id": "paper:reserve_person_stand_v1@e84a56ed2a70394297d2",
+          "role": "站姿",
+          "revision": "e84a56ed2a70394297d2"
+        },
+        {
+          "source_id": "reserve_person_seated_v1",
+          "asset_id": "paper:reserve_person_seated_v1@0d8717db010fff199181",
+          "role": "坐姿",
+          "revision": "0d8717db010fff199181"
+        },
+        {
+          "source_id": "reserve_person_reach_v1",
+          "asset_id": "paper:reserve_person_reach_v1@06699488519265d1f09e",
+          "role": "伸手姿态",
+          "revision": "06699488519265d1f09e"
+        },
+        {
+          "source_id": "reserve_hand_pinch_v1",
+          "asset_id": "paper:reserve_hand_pinch_v1@4d1ab9c8a609c8633ac2",
+          "role": "独立捏持手",
+          "revision": "4d1ab9c8a609c8633ac2"
+        }
+      ],
+      "operations": [
+        "坐下",
+        "站起",
+        "交接"
+      ],
+      "relationship": "姿态在接触或前景遮挡时换位；不把单张步行姿态宣称步态循环。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#pose",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "anatomy_focus",
+      "title": "医学结构与局部观察",
+      "parts": [
+        {
+          "source_id": "reserve_heart_v1",
+          "asset_id": "paper:reserve_heart_v1@6e009b5ce7fba2978c7b",
+          "role": "外观",
+          "revision": "6e009b5ce7fba2978c7b"
+        },
+        {
+          "source_id": "reserve_heart_cut_v1",
+          "asset_id": "paper:reserve_heart_cut_v1@1c3497611c82aa388489",
+          "role": "切面",
+          "revision": "1c3497611c82aa388489"
+        },
+        {
+          "source_id": "reserve_lungs_v1",
+          "asset_id": "paper:reserve_lungs_v1@dbfde62a985380b92220",
+          "role": "肺总览",
+          "revision": "dbfde62a985380b92220"
+        },
+        {
+          "source_id": "reserve_alveolus_v1",
+          "asset_id": "paper:reserve_alveolus_v1@95ebc2a8691ac43497f3",
+          "role": "肺泡局部",
+          "revision": "95ebc2a8691ac43497f3"
+        }
+      ],
+      "operations": [
+        "定位结构",
+        "局部放大",
+        "视图切换"
+      ],
+      "relationship": "局部来源说明与视角区分；外观/切面切换不冒充配准剖开；新医学镜头重新审核。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#anatomy_focus",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "glucose",
+      "title": "血糖仪试纸插入",
+      "parts": [
+        {
+          "source_id": "paper_glucose_meter_parts_v1",
+          "asset_id": "paper:paper_glucose_meter_parts_v1@7d17997f1c1c10d70831",
+          "role": "原分层包",
+          "revision": "7d17997f1c1c10d70831"
+        }
+      ],
+      "operations": [
+        "仪器取放",
+        "试纸独立移动/插入/取出"
+      ],
+      "relationship": "试纸接触端朝向主机下缘插槽；主机位于试纸前方形成插入遮挡",
+      "limits": [
+        "无采血动作、读数和诊断阈值，具体结果由当前故事准备。"
+      ],
+      "parameters": {
+        "all": "可调整，沿用原件接触点作为试装起点"
+      },
+      "sample": "tools/preview-engine/index.html#glucose",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "pressure",
+      "title": "血压主机与袖带",
+      "parts": [
+        {
+          "source_id": "paper_upper_arm_monitor_parts_v1",
+          "asset_id": "paper:paper_upper_arm_monitor_parts_v1@595c101839647592b1a8",
+          "role": "原分层包",
+          "revision": "595c101839647592b1a8"
+        }
+      ],
+      "operations": [
+        "主机取放",
+        "袖带取放",
+        "部件分别交接"
+      ],
+      "relationship": "主机与空袖带分别摆放；软管按当前镜头的真实连接关系另做",
+      "limits": [
+        "没有展开/佩戴袖带姿态，不把卷起空袖带当佩戴教学。"
+      ],
+      "parameters": {
+        "all": "可调整，沿用原件接触点作为试装起点"
+      },
+      "sample": "tools/preview-engine/index.html#pressure",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "medicine",
+      "title": "药瓶开盖",
+      "parts": [
+        {
+          "source_id": "paper_medicine_bottle_parts_v1",
+          "asset_id": "paper:paper_medicine_bottle_parts_v1@571b02ee0f48cdaa44c3",
+          "role": "原分层包",
+          "revision": "571b02ee0f48cdaa44c3"
+        }
+      ],
+      "operations": [
+        "瓶身取放",
+        "瓶盖独立提起/转动/移开"
+      ],
+      "relationship": "瓶盖相对瓶口取放；纸件当前样例为开盖分离状态",
+      "limits": [
+        "瓶盖闭合时的透视、遮挡和压盖位置由当前镜头检查；此静态小样不批准完整旋盖动作。",
+        "无药名、剂量与数量，不用外观指定药物。"
+      ],
+      "parameters": {
+        "all": "可调整，沿用原件接触点作为试装起点"
+      },
+      "sample": "tools/preview-engine/index.html#medicine",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "cuff_contact",
+      "title": "手臂与独立袖带试装",
+      "parts": [
+        {
+          "source_id": "mac_bare_arm_v1",
+          "asset_id": "paper:mac_bare_arm_v1@199031b83fe2420d595b",
+          "role": "独立手臂",
+          "revision": "199031b83fe2420d595b"
+        },
+        {
+          "source_id": "mac_open_cuff_v1",
+          "asset_id": "paper:mac_open_cuff_v1@ed384b40d3d5dc3de162",
+          "role": "袖带",
+          "revision": "ed384b40d3d5dc3de162"
+        }
+      ],
+      "operations": [
+        "接触",
+        "试装"
+      ],
+      "relationship": "袖带相对裸露上臂试装；软管和主机按镜头另接，不将静态试装当佩戴教学。",
+      "sample": "tools/preview-engine/index.html#cuff_contact",
+      "review": {
+        "assembly": "sample_prepared",
+        "medical": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    }
+  ],
+  "policy": "只保管组合关系和小样，取用原精确版本，不复制成固定合图；医学边界随原件保留。"
+}
