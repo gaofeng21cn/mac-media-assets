@@ -21,12 +21,14 @@ def main() -> int:
     catalog = root / "catalog/assets.jsonl"
     collections = root / "collections/series.json"
     rows = [json.loads(line) for line in catalog.read_text(encoding="utf-8").splitlines() if line.strip()]
+    reference_path = root / 'catalog/reference-assets.jsonl'
+    references = [json.loads(line) for line in reference_path.read_text(encoding='utf-8').splitlines() if line.strip()] if reference_path.is_file() else []
     known = json.loads(collections.read_text(encoding="utf-8"))
     series_ids = set(known.get("series", {})) | set(known.get("aliases", {}))
     errors: list[str] = []
     ids: set[str] = set()
     payloads = 0
-    for row in rows:
+    for row in rows + references:
         rid = row.get("id")
         if not rid or rid in ids:
             errors.append(f"duplicate_or_missing_id:{rid}")
@@ -41,6 +43,14 @@ def main() -> int:
                     errors.append(f"record_identity:{rid}")
                 if digest(record_path) != row.get('portable_record_sha256'):
                     errors.append(f"record_sha256:{rid}")
+                for original in record.get('files', []):
+                    mapped = [item for item in row.get('payload', []) if item['path'].endswith('/' + original['path'])]
+                    if len(mapped) != 1 or mapped[0]['sha256'] != original['sha256'] or mapped[0]['bytes'] != original['bytes']:
+                        errors.append(f"record_payload_mapping:{rid}:{original['path']}")
+                paths = {item['path'] for item in record.get('files', [])}
+                for part in record.get('asset_bundle', []):
+                    if part.get('path') not in paths:
+                        errors.append(f"missing_bundle_part:{rid}:{part.get('asset_id')}")
         for item in row.get("payload", []):
             payloads += 1
             path = (root / item.get("path", "")).resolve()
@@ -61,7 +71,7 @@ def main() -> int:
     result = {
         "schema": "medical_video_asset_verify/v1",
         "status": "passed" if not errors else "diagnostic",
-        "assets": len(rows), "payload_files": payloads,
+        "assets": len(rows), "reference_versions": len(references), "payload_files": payloads,
         "errors": errors,
         "note": "仅证明登记、载荷和哈希一致；不证明艺术、连续动作、听感、医学或发布质量",
     }

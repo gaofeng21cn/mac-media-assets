@@ -23,5 +23,13 @@ class DiscoveryTests(unittest.TestCase):
         self.assertTrue(refs)
         self.assertTrue(all(row['review_boundary']['admission']=='reference_only' for row in refs))
 
+    def test_default_discovery_excludes_reference_and_withdrawn_versions(self):
+        rows = query()
+        self.assertFalse(any(row['review_boundary']['admission']=='reference_only' for row in rows))
+        self.assertFalse(any(row.get('curation', {}).get('status') in {'needs_rebuild','superseded'} for row in rows))
+        preserved = query(include_reference=True)
+        self.assertTrue(any(row['review_boundary']['admission']=='reference_only' for row in preserved))
+        self.assertTrue(any(row.get('curation', {}).get('status')=='needs_rebuild' for row in preserved))
+
 
 if __name__=='__main__':unittest.main()

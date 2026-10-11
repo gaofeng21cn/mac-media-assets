@@ -1,0 +1,238 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_upper_arm_monitor_parts_v1",
+  "title": "上臂式血压计独立部件包",
+  "kind": "image",
+  "entry": "files/body.png",
+  "status": "review_candidate",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "collection": "common-medical-paper-parts"
+  },
+  "tags": [
+    "paper_collage",
+    "可拆部件",
+    "透明纸件",
+    "检查与家庭监测",
+    "血压计",
+    "家庭监测",
+    "主机",
+    "袖带"
+  ],
+  "content_bounds": [
+    161,
+    127,
+    1234,
+    1109
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "asset": {
+    "asset_id": "body",
+    "bundle_part_id": "body",
+    "path": "files/body.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "content_bounds": [
+      161,
+      127,
+      1234,
+      1109
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "prompt_ref": "evidence/body-prompt.md",
+    "generation_receipt": "evidence/body-receipt.json",
+    "visual_review": {
+      "status": "static_candidate_reviewed",
+      "evidence_ref": "evidence/static-review.json"
+    },
+    "registration": {
+      "coordinate_space": "normalized_original_image",
+      "pivot": {
+        "x": 0.5216903515332835,
+        "y": 0.5255102040816326
+      },
+      "contact_points": {
+        "story_contact": {
+          "x": 0.5216903515332835,
+          "y": 0.9430272108843537
+        }
+      },
+      "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+    }
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "body",
+      "bundle_part_id": "body",
+      "path": "files/body.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "content_bounds": [
+        161,
+        127,
+        1234,
+        1109
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "prompt_ref": "evidence/body-prompt.md",
+      "generation_receipt": "evidence/body-receipt.json",
+      "visual_review": {
+        "status": "static_candidate_reviewed",
+        "evidence_ref": "evidence/static-review.json"
+      },
+      "registration": {
+        "coordinate_space": "normalized_original_image",
+        "pivot": {
+          "x": 0.5216903515332835,
+          "y": 0.5255102040816326
+        },
+        "contact_points": {
+          "story_contact": {
+            "x": 0.5216903515332835,
+            "y": 0.9430272108843537
+          }
+        },
+        "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+      }
+    },
+    {
+      "asset_id": "cuff",
+      "bundle_part_id": "cuff",
+      "path": "files/cuff.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "content_bounds": [
+        66,
+        164,
+        1236,
+        1079
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "prompt_ref": "evidence/cuff-prompt.md",
+      "generation_receipt": "evidence/cuff-receipt.json",
+      "visual_review": {
+        "status": "static_candidate_reviewed",
+        "evidence_ref": "evidence/static-review.json"
+      },
+      "registration": {
+        "coordinate_space": "normalized_original_image",
+        "pivot": {
+          "x": 0.5019275250578258,
+          "y": 0.5127887788778878
+        },
+        "contact_points": {
+          "story_contact": {
+            "x": 0.5019275250578258,
+            "y": 0.8902640264026402
+          }
+        },
+        "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+      }
+    }
+  ],
+  "assembly": {
+    "relationship": "主机与空袖带分别摆放；软管按当前镜头的真实连接关系另做",
+    "operations": [
+      "主机取放",
+      "袖带取放",
+      "部件分别交接"
+    ],
+    "suggested_content_width_ratio": {
+      "cuff_to_body": 0.9
+    },
+    "limits": [
+      "没有展开/佩戴袖带姿态，不把卷起空袖带当佩戴教学。"
+    ],
+    "part_ids": [
+      "body",
+      "cuff"
+    ],
+    "registration": "normalized_original_image",
+    "bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "parameters_are_adaptable": true
+  },
+  "review": {
+    "static_visual": "candidate_reviewed",
+    "full_motion": "pending"
+  },
+  "medical_review": {
+    "status": "pending_current_story"
+  },
+  "usage": [
+    {
+      "family": "检查与家庭监测",
+      "operations": [
+        "主机取放",
+        "袖带取放",
+        "部件分别交接"
+      ],
+      "limits": [
+        "没有展开/佩戴袖带姿态，不把卷起空袖带当佩戴教学。"
+      ]
+    }
+  ],
+  "usage_notes": "按实际内容和镜头平衡调整比例，先看装配说明。",
+  "quality_debt": [
+    "具体镜头的连续动作与医学语境仍待审查"
+  ],
+  "files": [
+    {
+      "path": "files/body.png",
+      "role": "payload",
+      "sha256": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b",
+      "bytes": 1951379
+    },
+    {
+      "path": "evidence/body-prompt.md",
+      "role": "evidence",
+      "sha256": "f69ce7c5324efd53cc2135b4ee2a43e6e0bbcb7b71f49948715a0d3a0fb2bd84",
+      "bytes": 560
+    },
+    {
+      "path": "evidence/body-receipt.json",
+      "role": "evidence",
+      "sha256": "254291fc5d1386d34ee547d2943166d3d70c1155697e713036c5ce0342695776",
+      "bytes": 428
+    },
+    {
+      "path": "files/cuff.png",
+      "role": "payload",
+      "sha256": "c932df4d172fd791c3d85a5e34dad7a2c06d3a4e0e341cdc66c6e6c783a6b598",
+      "bytes": 1971962
+    },
+    {
+      "path": "evidence/cuff-prompt.md",
+      "role": "evidence",
+      "sha256": "ab6aa02b29b2260ad78d3d6c9cdd818f42a009db01e4d3f078233c7cce016b96",
+      "bytes": 285
+    },
+    {
+      "path": "evidence/cuff-receipt.json",
+      "role": "evidence",
+      "sha256": "a82153e5a8e4bd23a901c9466980608eeb02e187c33e7095b983a52aa6ecd80d",
+      "bytes": 428
+    },
+    {
+      "path": "assembly.json",
+      "role": "payload",
+      "sha256": "bc36fdd5592fe023d01e48ea75835f9831f10756dd540ad920f2acc62526ffe7",
+      "bytes": 542
+    },
+    {
+      "path": "evidence/static-review.json",
+      "role": "evidence",
+      "sha256": "a32e122b78a20e4f93c33f2444c18a2806421beaa60bf60d06e9f869f9bcab16",
+      "bytes": 1268
+    },
+    {
+      "path": "samples/assembly-review.jpg",
+      "role": "poster",
+      "sha256": "48830acf83abe66c49da096532067b82f7b48c833d536902060d31640d9d8fdf",
+      "bytes": 25418
+    }
+  ],
+  "revision": "595c101839647592b1a8"
+}

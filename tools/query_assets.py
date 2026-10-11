@@ -9,13 +9,21 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
-          usable_for=None, author_id=None, include_author_assets=False):
+          usable_for=None, author_id=None, include_author_assets=False,
+          include_reference=False):
     aliases = json.loads((root / 'collections/series.json').read_text()).get('aliases', {})
     rows = [json.loads(line) for line in (root / 'catalog/assets.jsonl').read_text().splitlines() if line.strip()]
+    references = root / 'catalog/reference-assets.jsonl'
+    if (include_reference or kind == 'reference_frame') and references.is_file():
+        rows.extend(json.loads(line) for line in references.read_text().splitlines() if line.strip())
     out = []
     for row in rows:
         reuse = row.get('reuse_scope') or {}
         if reuse.get('kind') == 'author' and not include_author_assets and reuse.get('id') != author_id:
+            continue
+        if not include_reference and kind != 'reference_frame' and (
+                row.get('review_boundary', {}).get('admission') == 'reference_only'
+                or row.get('curation', {}).get('status') in {'needs_rebuild', 'superseded'}):
             continue
         serialized = json.dumps(row, ensure_ascii=False).lower()
         if text and text.lower() not in serialized:
@@ -41,11 +49,13 @@ def main():
     for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id'):
         parser.add_argument('--' + name)
     parser.add_argument('--include-author-assets', action='store_true', help='策展只读发现；不授予复用权限')
+    parser.add_argument('--include-reference', action='store_true', help='显式查看历史参考和退出推荐的版本；不作为可用素材')
     parser.add_argument('--json', action='store_true')
     args = parser.parse_args()
     rows = query(text=args.query, kind=args.kind, series=args.series, scope=args.scope,
                  usable_for=args.usable_for, author_id=args.author_id,
-                 include_author_assets=args.include_author_assets)
+                 include_author_assets=args.include_author_assets,
+                 include_reference=args.include_reference)
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
     else:

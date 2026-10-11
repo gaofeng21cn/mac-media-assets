@@ -1,0 +1,236 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_glucose_meter_parts_v1",
+  "title": "血糖仪与独立试纸部件包",
+  "kind": "image",
+  "entry": "files/body.png",
+  "status": "review_candidate",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "collection": "common-medical-paper-parts"
+  },
+  "tags": [
+    "paper_collage",
+    "可拆部件",
+    "透明纸件",
+    "检查与家庭监测",
+    "血糖仪",
+    "试纸",
+    "家庭监测"
+  ],
+  "content_bounds": [
+    229,
+    89,
+    916,
+    1064
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "asset": {
+    "asset_id": "body",
+    "bundle_part_id": "body",
+    "path": "files/body.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "content_bounds": [
+      229,
+      89,
+      916,
+      1064
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "prompt_ref": "evidence/body-prompt.md",
+    "generation_receipt": "evidence/body-receipt.json",
+    "visual_review": {
+      "status": "static_candidate_reviewed",
+      "evidence_ref": "evidence/static-review.json"
+    },
+    "registration": {
+      "coordinate_space": "normalized_original_image",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.4195778748180495
+      },
+      "contact_points": {
+        "story_contact": {
+          "x": 0.545,
+          "y": 0.762
+        }
+      },
+      "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+    }
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "body",
+      "bundle_part_id": "body",
+      "path": "files/body.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "content_bounds": [
+        229,
+        89,
+        916,
+        1064
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "prompt_ref": "evidence/body-prompt.md",
+      "generation_receipt": "evidence/body-receipt.json",
+      "visual_review": {
+        "status": "static_candidate_reviewed",
+        "evidence_ref": "evidence/static-review.json"
+      },
+      "registration": {
+        "coordinate_space": "normalized_original_image",
+        "pivot": {
+          "x": 0.5,
+          "y": 0.4195778748180495
+        },
+        "contact_points": {
+          "story_contact": {
+            "x": 0.545,
+            "y": 0.762
+          }
+        },
+        "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+      }
+    },
+    {
+      "asset_id": "strip",
+      "bundle_part_id": "strip",
+      "path": "files/strip.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "content_bounds": [
+        374,
+        133,
+        514,
+        1586
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "prompt_ref": "evidence/strip-prompt.md",
+      "generation_receipt": "evidence/strip-receipt.json",
+      "visual_review": {
+        "status": "static_candidate_reviewed",
+        "evidence_ref": "evidence/static-review.json"
+      },
+      "registration": {
+        "coordinate_space": "normalized_original_image",
+        "pivot": {
+          "x": 0.5005636978579482,
+          "y": 0.48449830890642615
+        },
+        "contact_points": {
+          "story_contact": {
+            "x": 0.5005636978579482,
+            "y": 0.8940248027057497
+          }
+        },
+        "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+      }
+    }
+  ],
+  "assembly": {
+    "relationship": "试纸接触端朝向主机下缘插槽；主机位于试纸前方形成插入遮挡",
+    "operations": [
+      "仪器取放",
+      "试纸独立移动/插入/取出"
+    ],
+    "suggested_content_height_ratio": {
+      "strip_to_body": 0.4
+    },
+    "strip_rotation_for_contact_end": 180,
+    "limits": [
+      "无采血动作、读数和诊断阈值，具体结果由当前故事准备。"
+    ],
+    "part_ids": [
+      "body",
+      "strip"
+    ],
+    "registration": "normalized_original_image",
+    "bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "parameters_are_adaptable": true
+  },
+  "review": {
+    "static_visual": "candidate_reviewed",
+    "full_motion": "pending"
+  },
+  "medical_review": {
+    "status": "pending_current_story"
+  },
+  "usage": [
+    {
+      "family": "检查与家庭监测",
+      "operations": [
+        "仪器取放",
+        "试纸独立移动/插入/取出"
+      ],
+      "limits": [
+        "无采血动作、读数和诊断阈值，具体结果由当前故事准备。"
+      ]
+    }
+  ],
+  "usage_notes": "按实际内容和镜头平衡调整比例，先看装配说明。",
+  "quality_debt": [
+    "具体镜头的连续动作与医学语境仍待审查"
+  ],
+  "files": [
+    {
+      "path": "files/body.png",
+      "role": "payload",
+      "sha256": "bd6d14da33867213ae79eea07914cb303a39a04b9e3709dcf8bc85a0257c44a8",
+      "bytes": 1282671
+    },
+    {
+      "path": "evidence/body-prompt.md",
+      "role": "evidence",
+      "sha256": "db6a2645fcb89b6c86aac5a51c61bc6b0f12b329718756a8163417c7d5d0c97b",
+      "bytes": 289
+    },
+    {
+      "path": "evidence/body-receipt.json",
+      "role": "evidence",
+      "sha256": "e7a006a57f1d57110db41f607ab62c7a8c02f83ecf94eec1887395f6048a97c5",
+      "bytes": 428
+    },
+    {
+      "path": "files/strip.png",
+      "role": "payload",
+      "sha256": "3fd43fa5cc61b6b2dca48155816efeb58ecf829a1d98d7794855a9abb0aaef76",
+      "bytes": 567494
+    },
+    {
+      "path": "evidence/strip-prompt.md",
+      "role": "evidence",
+      "sha256": "559a5f148ada724240002242aeff8090ebee5156ead2884d5976e89e8063a9e7",
+      "bytes": 756
+    },
+    {
+      "path": "evidence/strip-receipt.json",
+      "role": "evidence",
+      "sha256": "58efec6c912aaf95723b28385c94e89fb1b1be78d00de0f950e5524b9cfe474b",
+      "bytes": 428
+    },
+    {
+      "path": "assembly.json",
+      "role": "payload",
+      "sha256": "a2248253813c2729f895e78c3f52934aa38494a759918b4757c8e5d245dbcdce",
+      "bytes": 588
+    },
+    {
+      "path": "evidence/static-review.json",
+      "role": "evidence",
+      "sha256": "734e6852bac3b23537ef92ac13bb50de3a82f9c440b3ade4268b3a37e271e8cd",
+      "bytes": 1266
+    },
+    {
+      "path": "samples/assembly-review.jpg",
+      "role": "poster",
+      "sha256": "cae4f1920e94cb1421f5f4188d01147d063583647ea12d44edbe81fdfc762e9e",
+      "bytes": 27966
+    }
+  ],
+  "revision": "7d17997f1c1c10d70831"
+}

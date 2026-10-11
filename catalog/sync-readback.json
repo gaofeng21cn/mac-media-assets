@@ -1,28 +1,24 @@
 {
   "schema": "medical_video_asset_sync/v1",
-  "generated_at": "2026-10-10T11:29:43.215241+00:00",
+  "generated_at": "2026-10-11T02:02:10.144212+00:00",
   "workspace": "/Users/gaofeng/workspace/科普视频",
-  "asset_count": 120,
+  "asset_count": 45,
+  "reference_count": 82,
+  "registered_versions": 127,
   "by_kind": {
-    "reference_frame": 72,
     "audio": 9,
     "brand": 1,
-    "code_component": 4,
-    "transparent_subject": 2,
-    "image": 20,
-    "environment": 3,
+    "code_component": 3,
+    "image": 22,
+    "environment": 2,
     "motion_recipe": 3,
     "environment_plate": 2,
-    "medical_cutout": 2,
     "music_score": 1,
+    "medical_cutout": 1,
     "component": 1
   },
   "by_series": {
-    "diabetes_s01": 8,
-    "hypertension_s01": 11,
-    "lipids_s01": 25,
-    "pituitary_paper_theatre": 26,
-    "weight_management_s01": 20,
+    "pituitary_paper_theatre": 12,
     "breast_nodules_paper_theatre": 3,
     "gout_paper_theatre": 3,
     "graves_paper_theatre": 3,
@@ -30,6 +26,7 @@
     "ckd_paper_theatre": 3,
     "pcos_paper_theatre": 3
   },
-  "payload_files": 403,
+  "payload_files": 316,
+  "preserved_reference_payload_files": 130,
   "repo": "/Users/gaofeng/workspace/mac-media-assets"
 }

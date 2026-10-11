@@ -1,0 +1,237 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_medicine_bottle_parts_v1",
+  "title": "无标签药瓶与独立瓶盖部件包",
+  "kind": "image",
+  "entry": "files/body.png",
+  "status": "review_candidate",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "collection": "common-medical-paper-parts"
+  },
+  "tags": [
+    "paper_collage",
+    "可拆部件",
+    "透明纸件",
+    "治疗与自我照护",
+    "药瓶",
+    "瓶盖",
+    "用药"
+  ],
+  "content_bounds": [
+    294,
+    156,
+    815,
+    1281
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "asset": {
+    "asset_id": "body",
+    "bundle_part_id": "body",
+    "path": "files/body.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "content_bounds": [
+      294,
+      156,
+      815,
+      1281
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "prompt_ref": "evidence/body-prompt.md",
+    "generation_receipt": "evidence/body-receipt.json",
+    "visual_review": {
+      "status": "static_candidate_reviewed",
+      "evidence_ref": "evidence/static-review.json"
+    },
+    "registration": {
+      "coordinate_space": "normalized_original_image",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5066995768688294
+      },
+      "contact_points": {
+        "story_contact": {
+          "x": 0.5,
+          "y": 0.12
+        }
+      },
+      "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+    }
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "body",
+      "bundle_part_id": "body",
+      "path": "files/body.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "content_bounds": [
+        294,
+        156,
+        815,
+        1281
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "prompt_ref": "evidence/body-prompt.md",
+      "generation_receipt": "evidence/body-receipt.json",
+      "visual_review": {
+        "status": "static_candidate_reviewed",
+        "evidence_ref": "evidence/static-review.json"
+      },
+      "registration": {
+        "coordinate_space": "normalized_original_image",
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5066995768688294
+        },
+        "contact_points": {
+          "story_contact": {
+            "x": 0.5,
+            "y": 0.12
+          }
+        },
+        "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+      }
+    },
+    {
+      "asset_id": "cap",
+      "bundle_part_id": "cap",
+      "path": "files/cap.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "content_bounds": [
+        238,
+        271,
+        1018,
+        963
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "prompt_ref": "evidence/cap-prompt.md",
+      "generation_receipt": "evidence/cap-receipt.json",
+      "visual_review": {
+        "status": "static_candidate_reviewed",
+        "evidence_ref": "evidence/static-review.json"
+      },
+      "registration": {
+        "coordinate_space": "normalized_original_image",
+        "pivot": {
+          "x": 0.5007974481658692,
+          "y": 0.4920255183413078
+        },
+        "contact_points": {
+          "story_contact": {
+            "x": 0.5007974481658692,
+            "y": 0.7679425837320574
+          }
+        },
+        "contact_point_status": "adaptable_visual_hint_not_approved_motion"
+      }
+    }
+  ],
+  "assembly": {
+    "relationship": "瓶盖相对瓶口取放；纸件当前样例为开盖分离状态",
+    "operations": [
+      "瓶身取放",
+      "瓶盖独立提起/转动/移开"
+    ],
+    "suggested_content_width_ratio": {
+      "cap_to_body": 0.66
+    },
+    "limits": [
+      "瓶盖闭合时的透视、遮挡和压盖位置由当前镜头检查；此静态小样不批准完整旋盖动作。",
+      "无药名、剂量与数量，不用外观指定药物。"
+    ],
+    "part_ids": [
+      "body",
+      "cap"
+    ],
+    "registration": "normalized_original_image",
+    "bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "parameters_are_adaptable": true
+  },
+  "review": {
+    "static_visual": "candidate_reviewed",
+    "full_motion": "pending"
+  },
+  "medical_review": {
+    "status": "pending_current_story"
+  },
+  "usage": [
+    {
+      "family": "治疗与自我照护",
+      "operations": [
+        "瓶身取放",
+        "瓶盖独立提起/转动/移开"
+      ],
+      "limits": [
+        "瓶盖闭合时的透视、遮挡和压盖位置由当前镜头检查；此静态小样不批准完整旋盖动作。",
+        "无药名、剂量与数量，不用外观指定药物。"
+      ]
+    }
+  ],
+  "usage_notes": "按实际内容和镜头平衡调整比例，先看装配说明。",
+  "quality_debt": [
+    "具体镜头的连续动作与医学语境仍待审查"
+  ],
+  "files": [
+    {
+      "path": "files/body.png",
+      "role": "payload",
+      "sha256": "aaf7fc9494375b7f7d020310d7bd313aa00f639e1c60144b714577473952c1a9",
+      "bytes": 1286549
+    },
+    {
+      "path": "evidence/body-prompt.md",
+      "role": "evidence",
+      "sha256": "929b4fa6b6f0875d2f6e365b2290d3f6f845c34c4abceed7fab2aea07189643c",
+      "bytes": 762
+    },
+    {
+      "path": "evidence/body-receipt.json",
+      "role": "evidence",
+      "sha256": "243b8f905b218f24ad9b71804781eabce421b00b08d56bdf64f0d547be8743ba",
+      "bytes": 428
+    },
+    {
+      "path": "files/cap.png",
+      "role": "payload",
+      "sha256": "6b3a61f00ec67597514510296a5f7e38609c219430e64ebadafef595fdfe290f",
+      "bytes": 1094023
+    },
+    {
+      "path": "evidence/cap-prompt.md",
+      "role": "evidence",
+      "sha256": "50e04f634637f04359806d892ef5406c58f17ce8cdb4f5f2a5e935823eb598c9",
+      "bytes": 634
+    },
+    {
+      "path": "evidence/cap-receipt.json",
+      "role": "evidence",
+      "sha256": "baa3f2719c8b6367df3caad56a6faf4690a50a1e5d57b212a16b9f3a10a700f1",
+      "bytes": 428
+    },
+    {
+      "path": "assembly.json",
+      "role": "payload",
+      "sha256": "77d34363b80651c3358b584c58f61c0ae175d47d24fa0d1183c440d494e5491c",
+      "bytes": 629
+    },
+    {
+      "path": "evidence/static-review.json",
+      "role": "evidence",
+      "sha256": "b550444aac051c4505e9f6b13f81f4f0439b1f6b3150d5ac42cef6b56cfdbdc5",
+      "bytes": 1266
+    },
+    {
+      "path": "samples/assembly-review.jpg",
+      "role": "poster",
+      "sha256": "a6b9a2a9513fe600115916d398a27ab860ba0d0e3aa29ffabe6f7d08c52d375d",
+      "bytes": 21680
+    }
+  ],
+  "revision": "571b02ee0f48cdaa44c3"
+}

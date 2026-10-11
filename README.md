@@ -1,44 +1,45 @@
-# MAC Media Assets · Med Auto Cast 医学科普媒体资产库
+# MAC Media Assets · 医学科普纸剧场资产库
 
-`mac-media-assets` 是 [Med Auto Cast（MAC）](https://github.com/gaofeng21cn/med-autocast) 的外挂医学科普媒体资产库，负责统一保管可复用的纸片拼贴、环境板、透明主体、医学纸件、固定件、动作组件、关键帧参考和原创音乐分轨。它与具体系列、作者品牌和单集制作解耦，供内容策划、视觉导演、动画制作和 Review 共同查询。
+这是 [Med Auto Cast（MAC）](https://github.com/gaofeng21cn/med-autocast) 的独立媒体库：为医学科普动画保存可拿起、摆放、交接和拼贴的纸件，以及纸景、动作组件和配乐。用户把选题和创意交给 MAC，MAC 自动检索原件，按故事选择、适配或新创。
 
-索引、来源记录和真实载荷都保存在 Git 中。克隆私有仓库后可以直接运行查询与校验，不需要另外从原制作工作台搬素材。具体素材的复用权限仍以来源与作者范围登记为准。
+## 有哪些资产
 
-当前由工作台 `/Users/gaofeng/workspace/科普视频` 同步建立，覆盖 11 个系列：科学减重、血脂管理、高血压、糖尿病、垂体瘤、高尿酸与痛风、Graves 病、桥本甲状腺炎、乳腺结节、多囊卵巢综合征、慢性肾病。首版登记包含 48 个纸剧场版本包和 72 张静态关键帧参考。
+| 类别 | 代表素材 | 可以怎样使用 |
+| --- | --- | --- |
+| 医学结构纸件 | 垂体与邻近结构、头部矢状位、甲状腺、肾脏与泌尿系统、乳腺切面、足关节、盆腔器官 | 整体取放、结构总览、局部观察；内部运动另准备分层 |
+| 检查与家庭监测 | 上臂式血压计主机与袖带、血糖仪主机与独立试纸 | 部件分别摆放，试纸独立进入仪器；屏幕保持空白 |
+| 用药与自我照护 | 无标签琥珀药瓶、独立白色瓶盖 | 瓶盖与瓶身分别运动，适配不同故事 |
+| 纸材与固定件 | 手撕纤维纸胶带、毛边报告纸、纸质观察窗、木印章 | 局部固定、揭开、落印与纸面叠贴 |
+| 资料与随访物件 | 纸信封、可开合与收纳的无品牌纸夹组件 | 资料交接、归档、前景遮挡与跨镜承接 |
+| 完整纸景 | 医院入口、实验室、居家墙面，以及卧室、客厅、诊室和桌面场景 | 作为完整后景组织纸剧场；烘焙在图内的家具不独立运动 |
+| 动作与代码组件 | 印章接触、纸件交接、纸口袋收纳、纸夹打开与夹持、舞台及媒介技法样例 | 为新镜头提供可适配的动作与实现起点 |
+| 音乐与声音源 | 通用氛围与节奏分轨、六主题原创配乐、垂体瘤配乐工程 | 按情绪试听、剪辑和混音；保留原声、分轨及可编辑来源 |
 
-## 使用
+具体原件、版本与操作范围见[资产清单](docs/asset-inventory.md)。[覆盖评估与储备计划](docs/asset-coverage.md)说明各类别已有什么、还缺什么。
 
-```sh
-python3 tools/query_assets.py --query 纸景
-python3 tools/query_assets.py --kind transparent_subject --json
-python3 tools/query_assets.py --series gout_paper_theatre
-python3 tools/query_assets.py --usable-for 透明主体
-python3 tools/sync_from_workbench.py --workspace /Users/gaofeng/workspace/科普视频 --root .
-python3 tools/verify_catalog.py
-```
+## 部件预览
 
-查询只读；同步是幂等的，会保留已有登记和载荷指纹。新资产先在工作台或本库登记真实文件、来源/许可或生成回执、内容 bounds、透明度、连接点、适用范围、拒用原因和审看边界，再进入推荐集合。
+以下是用于独立操作的分层原件，不是扁平化的场景插画。每套带部件来源、实际内容边界、接触位置与装配说明。
 
-`collections/series.json` 维护系列别名；垂体瘤的 `pituitary_tumor_s01` 与 `pituitary_paper_theatre` 会被查询为同一系列。`verify_catalog.py` 只校验登记、文件存在和 SHA-256，不把机器通过解释成医学或发布通过。
+<table>
+<tr><th>血压计：主机 / 袖带</th><th>血糖仪：主机 / 试纸</th><th>药瓶：瓶身 / 瓶盖</th></tr>
+<tr><td><img src="payloads/paper-theatre/paper_upper_arm_monitor_parts_v1/595c101839647592b1a8/samples/assembly-review.jpg" width="260" alt="上臂式血压计独立部件包独立部件摆放预览"></td><td><img src="payloads/paper-theatre/paper_glucose_meter_parts_v1/7d17997f1c1c10d70831/samples/assembly-review.jpg" width="260" alt="血糖仪与独立试纸部件包独立部件摆放预览"></td><td><img src="payloads/paper-theatre/paper_medicine_bottle_parts_v1/571b02ee0f48cdaa44c3/samples/assembly-review.jpg" width="260" alt="无标签药瓶与独立瓶盖部件包独立部件摆放预览"></td></tr>
+</table>
 
-## 资产状态边界
+各图为静态装配审看样例；真实部件分别保存，当前镜头可重新设计比例、位置和动作。
 
-`reference_only` 只能帮助导演找构图和物件关系；`review_candidate` 可以进入候选镜头但仍需当前镜头审看；`approved_direct_use` 也只表示原件在登记范围内可直接取用。静态关键帧不证明连续动作，纸片入库不证明医学含义，配乐分轨入库不证明完整听感。医生形象、授权声线和品牌基线由 MAC 作者/系列档案持有；历史登记中的两项作者范围音乐/图形快照仅供对应作者使用，不进入通用推荐。
+## 素材来自哪些系列
 
-库按 `kind`、系列、复用范围和审看边界组织；每次真正使用还要在单集 `asset_manifest.json` 和 `uses.json` 登记。资产库提供稳定下限，导演仍要为每集重新决定故事、比例、接触、遮挡、节奏和声音落点。
+积累来自 11 个系列：垂体瘤、糖尿病、高血压、科学减重、血脂管理、高尿酸与痛风、Graves 病、桥本甲状腺炎、乳腺结节、多囊卵巢综合征、慢性肾病。这是素材的来源覆盖，不代表每个主题都已有完整可拆素材包。
 
-- 统一索引：[catalog/assets.jsonl](catalog/assets.jsonl)
-- 系列集合：[collections/series.json](collections/series.json)
-- 资产合同：[schemas/asset.schema.json](schemas/asset.schema.json)
-- 初稿质量与返修经验：[docs/first-draft-quality.md](docs/first-draft-quality.md)
-- 资产治理与 Review 边界：[docs/governance-and-review.md](docs/governance-and-review.md)
-- 与工作台的同步回执：[catalog/sync-readback.json](catalog/sync-readback.json)
+当前可复用候选为 **45 个版本包、316 个载荷文件**，包括：10 张完整后景、14 个单件/完整图件、3 套分层包（6 个独立透明部件）、7 个代码/动作版本包、10 个声音/音乐版本包，以及1个作者品牌快照。参考区另保留72张历史关键帧与10个退出推荐版本。
 
+历史关键帧、存在复用缺陷的原件和被替代版本保留在参考区，供恢复与追溯，**不进入默认素材推荐，也不计入可用库存**。完整纸景与整幅医学结构图按其整体用途保管，不能冒充可拆层。
 
-## MAC 安装与创作自由
+## 提供起点，保留创作空间
 
-本库提供独立 Codex Skill/carrier 和 `contracts/opl_capability_package_manifest.json`，保持私有 Git 分发。MAC 标准工作台 setup 自动克隆或复用已有库；仅装插件载体不会运行 shell，工作台安装才准备媒体、依赖与本地制作入口。库无权限或离线时返回诊断，MAC 可继续本地素材和新创。
+MAC 先看原件，再决定是否适合当前故事。库不规定镜头数、构图、比例、颜色或复用率；没有合适素材时，继续寻找或生成新素材。分层、透明与文件完整性提供制作基础，当前镜头的叙事、动态、医学表达和声音仍由实际审看判断。
 
-普通查询默认排除其他作者的资产；用 `--author-id` 指定当前作者，`--include-author-assets` 仅供策展只读发现。48 个纸剧场版本包现包含独立原记录，可在没有旧工程的新工作区恢复原来源、注册与载荷映射。取用复用 MAC 的版本保管和 uses 机制，当前镜头审核重新 pending。
+作者专属的品牌与音乐快照只供对应作者使用；医生形象、授权声线和品牌基线由作者档案管理。
 
-现有素材、纸景、动作组件和 BGM 只是稳定起点；不设复用率，不规定故事、构图、比例、镜头数或风格。导演先看原件，再决定原件复用、适配、换材或新创。静帧不能当透明纸件，文件通过不能当动态、医学或听感通过。
+维护与调用说明：[库 Skill](skills/mac-media-assets/SKILL.md) · [资产治理](docs/governance-and-review.md) · [初稿质量](docs/first-draft-quality.md)。
