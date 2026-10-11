@@ -21,14 +21,12 @@ def main() -> int:
     catalog = root / "catalog/assets.jsonl"
     collections = root / "collections/series.json"
     rows = [json.loads(line) for line in catalog.read_text(encoding="utf-8").splitlines() if line.strip()]
-    reference_path = root / 'catalog/reference-assets.jsonl'
-    references = [json.loads(line) for line in reference_path.read_text(encoding='utf-8').splitlines() if line.strip()] if reference_path.is_file() else []
     known = json.loads(collections.read_text(encoding="utf-8"))
     series_ids = set(known.get("series", {})) | set(known.get("aliases", {}))
     errors: list[str] = []
     ids: set[str] = set()
     payloads = 0
-    for row in rows + references:
+    for row in rows:
         rid = row.get("id")
         if not rid or rid in ids:
             errors.append(f"duplicate_or_missing_id:{rid}")
@@ -71,7 +69,7 @@ def main() -> int:
     result = {
         "schema": "medical_video_asset_verify/v1",
         "status": "passed" if not errors else "diagnostic",
-        "assets": len(rows), "reference_versions": len(references), "payload_files": payloads,
+        "assets": len(rows), "reference_versions": 0, "payload_files": payloads,
         "errors": errors,
         "note": "仅证明登记、载荷和哈希一致；不证明艺术、连续动作、听感、医学或发布质量",
     }

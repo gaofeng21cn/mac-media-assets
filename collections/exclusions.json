@@ -1,0 +1,16 @@
+{
+  "schema": "mac_media_asset_exclusions/v1",
+  "policy": "记录淘汰原因，不保管被淘汰原件；同步时直接跳过这些来源。",
+  "items": {
+    "paper_adult_body_study_v1": "固定正面姿态、整身一层，缺少可表演部件；不能作为通用人物动画母版。",
+    "paper_amber_medicine_bottle_v1": "整物件静态合图已由可独立操作的药瓶/瓶盖分层包替代。",
+    "paper_blood_specimens": "两支试管与支架烘焙成同一层，不能分别采样、交接或替换。",
+    "paper_desk_environment": "中央大色板和烘焙物件会把镜头推回文字卡片构图；已由独立桌沿、纸材和固定件替代。",
+    "paper_folder_stow_v1": "组件已有后续可用版本；旧版会造成动作版本混淆。",
+    "paper_glucometer_v1": "整物件静态合图已由可独立操作的血糖仪/试纸分层包替代。",
+    "paper_patient_journal": "本体、夹子、药片和记录格烘焙在同一层，不能翻页、移夹或换页。",
+    "paper_perimetry_patient_v5": "患者、椅子和机器合成，不能作为独立人物、仪器或检查动作部件。",
+    "paper_upper_arm_bp_monitor_v1": "整物件静态合图已由可独立操作的血压计/袖带分层包替代。",
+    "paper_ward_bed_v2": "人物和病床合成，外围光晕明显；已由独立床架、寝具和人物姿态替代。"
+  }
+}
