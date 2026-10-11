@@ -4,6 +4,7 @@ from pathlib import Path
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'tools'))
 from query_assets import query
+from sync_from_workbench import public_reusable
 
 
 class DiscoveryTests(unittest.TestCase):
@@ -11,8 +12,14 @@ class DiscoveryTests(unittest.TestCase):
         rows=query()
         self.assertTrue(rows)
         self.assertFalse(any(row['reuse_scope'].get('kind')=='author' for row in rows))
-        owned=query(author_id='dr_mie')
-        self.assertTrue(any(row['reuse_scope'].get('kind')=='author' for row in owned))
+        owned=query(author_id='example_author',include_author_assets=True)
+        self.assertFalse(any(row['reuse_scope'].get('kind')=='author' for row in owned))
+
+    def test_public_sync_excludes_author_content_and_branded_samples(self):
+        self.assertFalse(public_reusable({'kind':'image','reuse_scope':{'kind':'author'}}))
+        self.assertFalse(public_reusable({'kind':'brand','reuse_scope':{'kind':'general'}}))
+        self.assertFalse(public_reusable({'kind':'motion_recipe','source':{'sample_has_brand':True}}))
+        self.assertTrue(public_reusable({'kind':'image','reuse_scope':{'kind':'general'}}))
 
     def test_aliases_find_same_series_and_catalog_contains_only_usable_candidates(self):
         a=query(series='pituitary_paper_theatre')

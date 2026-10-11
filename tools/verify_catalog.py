@@ -28,6 +28,8 @@ def main() -> int:
     payloads = 0
     for row in rows:
         rid = row.get("id")
+        if row.get("kind") == "brand" or (row.get("reuse_scope") or {}).get("kind") == "author":
+            errors.append(f"private_author_asset:{rid}")
         if not rid or rid in ids:
             errors.append(f"duplicate_or_missing_id:{rid}")
         ids.add(rid)

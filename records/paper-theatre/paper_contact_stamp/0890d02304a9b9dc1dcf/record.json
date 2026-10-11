@@ -1,0 +1,48 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_contact_stamp",
+  "title": "印章接触、落印与抬起",
+  "kind": "motion_recipe",
+  "entry": "src/kit/motion.ts",
+  "tags": [
+    "paper_collage",
+    "印章",
+    "接触",
+    "事件",
+    "片尾"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+  "dependencies": [
+    "paper_theatre_kit_1_1_0",
+    "纸件 contact / seal 连接点"
+  ],
+  "review_status": "静帧与姿态已查；连续动态仍待审",
+  "source": {
+    "project": "productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "sample_has_brand": false
+  },
+  "files": [
+    {
+      "path": "src/kit/motion.ts",
+      "role": "payload",
+      "sha256": "3e73f75aee564886a239374c43a2a5ec4a1984176fa488cfa0da7126ba838179",
+      "bytes": 2159
+    },
+    {
+      "path": "src/kit/overlays.ts",
+      "role": "payload",
+      "sha256": "e57abae8837cddd46d94c18d49f7e149e477b160931f5dabe71def2552923537",
+      "bytes": 1230
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "ddc5bf84fa64f2b09fa11a22420f653406ed5a5d836797348f20c2882733cf0e",
+      "bytes": 263
+    }
+  ],
+  "revision": "0890d02304a9b9dc1dcf"
+}

@@ -1,0 +1,42 @@
+{
+  "mode": "built_in",
+  "assets": [
+    {
+      "id": "desk",
+      "prompt": "Use case: illustration-story. Asset: full-bleed landscape background plate for a hand-drawn paper-collage medical explainer animation, an overhead patient preparation desk built entirely from cut and torn paper. Widescreen 16:9 composition. Beautiful art-directed editorial collage, tactile colored craft paper, ragged fiber edges, graphite hatching, real newsprint fragments with no readable writing, soft offset print dots, layered paper thickness and cast contact shadows. A cool pale blue recycled-paper tabletop fills the frame; a sea-green cut-paper desk mat is under the central working area. On the far left a layered navy and ivory MRI film envelope partly exits the frame, a small brass binder clip holds it; at upper right an open coral and charcoal paper folder with a blank interior, tucked paper tabs; far lower right a red-orange wooden pencil and a small piece of masking tape on actual paper edges. Central 65 percent must be a usable quiet tabletop with rich subtle paper texture but NO central objects; movable report, anatomy, laboratory tubes and envelope will be composited by code in that area. Foreground paper edges partly leave the bottom corners, giving depth. Natural warm studio side-light from upper-left. Restrained mixed palette: light icy blue, ivory, petrol green, muted coral and a little ochre, not monochrome sepia. Handmade collage, NOT clean vector icons, NOT an infographic, NOT digital gradient, NOT a rectangle card, NOT a vignette. No people, hands, medical anatomy, text, letters, numbers, arrows, diagrams, badges, or logos. This is an environmental background layer, not a finished frame.",
+      "tool": "image_gen.imagegen",
+      "created": "2026-09-30"
+    },
+    {
+      "id": "desk_clean",
+      "prompt": "Edit this background plate only: remove all printed MRI/brain images from the far-left dark film sleeve. Replace those images with plain unmarked translucent smoky grey film, with faint paper fibers and blank rectangular film borders only. Keep all existing composition, torn blue and sea-green tabletop, craft paper material, binder clip, coral folder, light and shadows exactly the same. Absolutely no medical diagrams, patient data, readable letters or numbers. Full-bleed landscape 16:9. This is an environmental background, not a diagnostic image.",
+      "tool": "image_gen.imagegen",
+      "created": "2026-09-30"
+    },
+    {
+      "id": "lab",
+      "prompt": "Use case: illustration-story. Asset: full-bleed widescreen 16:9 background plate for a handmade paper theatre science animation. An imaginative miniature laboratory workbench made entirely from layered cut and torn paper, drawn in graphite, colored pencil and risograph dots. Three-quarter shallow overhead angle, wide cinematic framing. Backdrop: very pale aqua paper wall with a narrow shelf at upper edge: a few paper bottles, a small blank clock and folded graph-paper books, all tactile collaged objects. Workbench surface is light ivory linen paper, rich subtle fibres. At far left a low terracotta cardboard sample tray, an empty blue paper test-tube sleeve, small overlapping masking tape; at far right a cut-paper glass flask with a blue liquid and a folded paper worksheet, graphite print grain. A large quiet working arena occupies center 70 percent so an animated paper balance and tube rack can be placed there by code. Bench front lip and paper notches partially exit the bottom corners, dimensional paper shadows from upper-left. Composition should feel like a real stage with visible depth, not an empty UI panel. Same material language as an editorial cut-paper desk: light pale aqua, ivory, muted coral, petrol green, small mustard accents. No people, hands, medical structures, readable text, letters, numbers, arrow lines, labels, badges, large colored rectangular cards, pictograms, gradient, or smooth digital vector drawing. Do not paint a balance or central test-tube rack; these are animated assets added later.",
+      "tool": "image_gen.imagegen",
+      "created": "2026-09-30"
+    },
+    {
+      "id": "clinic",
+      "prompt": "Use case: illustration-story. Asset: full-bleed widescreen 16:9 background plate for a hand-drawn paper-collage medical animation. A sophisticated miniature paper theatre hospital entrance, human eye-level wide shot. ALL environment made from torn colored paper, newsprint without readable words, pencil outlines, charcoal hatching and lightly misregistered ink. Left half: pale blue paper sky, a layered leafy tree, low cut-paper bench and slate path, a few overlapping facade planes. Right half: hospital facade of light ivory textured paper with teal window shutters and a large dark rectangular doorway recess centered at 77 percent of width and 51 percent height. Doorway dark recess from approximately x68 to 86 percent, y25 to 75 percent; no door leaf, no text signs. It will be overlaid by an animated paper door by code. A small muted coral medical cross mounted above the entrance identifies the place, never an ambulance icon. Paper path with real torn edges leads diagonally from lower left to that entrance, subtle shadows and dimensional paper layers. Bottom 14 percent is light pale paper pavement for subtitles. Distinct storytelling composition with lush side-detail, usable quiet space at center-left for animated head/eye cutouts. Calm, serious, reassuring, not cute childish, not horror. Palette pale sky blue, sage, petrol green, ivory, restrained coral warning accent. No people, hands, letters, numbers, arrows, badges, UI cards, graphic panels, gradients, photorealism or smooth vectors.",
+      "tool": "image_gen.imagegen",
+      "created": "2026-09-30"
+    },
+    {
+      "id": "journal",
+      "prompt": "Use case: illustration-story. Asset: a SINGLE isolated open personal symptom-and-medication notebook prop on a genuinely transparent background for cut-paper animation. Shallow overhead three-quarter view. Beautiful handmade paper-collage miniature: two open pale ivory textured rag-paper pages, irregular torn fibers and slightly bent corners, slim petrol-green cardboard cover, red woven bookmark draped down off the bottom spine. On the left page is a small hand-cut coral paper pill blister with just three round tablets, and on the right page a small torn blue diary tab with graphite calendar grid marks (unmarked, no dates or text). A modest brass binder clip fastens the upper-left corner to the cover. All parts form ONE physically connected prop, no loose objects floating separately. Rich collage material, pencil hatch outlines, risograph imperfections, soft contact shadows only inside the prop. Most of the canvas outside the object MUST be actual alpha transparency, not black/white/checkerboard background or glow. Muted blue-green, ivory, coral and brass gold. No text, letters, words, numbers, logo, human hands, people, medical values or arrows. No extra paper panels or asset sheet. Object centered with clear padding. Not vector illustration, not UI, not 3D CGI.",
+      "tool": "image_gen.imagegen",
+      "created": "2026-09-30"
+    }
+  ],
+  "files": {
+    "desk": "assets/stages/desk.png",
+    "lab": "assets/stages/lab.png",
+    "clinic": "assets/stages/clinic.png",
+    "journal": "assets/cutouts/journal.png"
+  },
+  "medical_use": "Scenes are illustrative environments. No synthetic MRI is used. Journal has no prescription or patient data."
+}

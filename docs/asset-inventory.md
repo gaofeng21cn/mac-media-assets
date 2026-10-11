@@ -59,10 +59,10 @@
 
 | 资产 | 原件/来源 | 已明确的复用用途 | 范围 |
 | --- | --- | --- | --- |
-| 医院入口纸面环境板 | [原件与来源](../records/paper-theatre/paper_clinic_environment/15a77908c195980545fc/record.json) | 作为完整后景、相机推进/平移 | 通用 |
+| 医院入口纸面环境板 | [原件与来源](../records/paper-theatre/paper_clinic_environment/c87ee54ad989185ce55e/record.json) | 作为完整后景、相机推进/平移 | 通用 |
 | 树与房屋景物纸件 | [原件与来源](../records/paper-theatre/paper_field_landscape/86a289d3a56c57835e85/record.json) | 完整景物带作为中/远景 | 通用 |
 | 居家纸舞台：纤维墙面、窗口与书架 | [原件与来源](../records/paper-theatre/paper_home_environment_v2/d14ea8056c2f185249b2/record.json) | 作为完整后景、相机推进/平移 | 通用 |
-| 实验台纸面环境板 | [原件与来源](../records/paper-theatre/paper_lab_environment/20efba884187008e22d4/record.json) | 作为完整后景、相机推进/平移 | 通用 |
+| 实验台纸面环境板 | [原件与来源](../records/paper-theatre/paper_lab_environment/7d13eec2eb92d526a783/record.json) | 作为完整后景、相机推进/平移 | 通用 |
 | 实验室纸舞台：撕边工作面与固定件 | [原件与来源](../records/paper-theatre/paper_lab_environment_v2/32860c04564f2998c4a2/record.json) | 作为完整后景、相机推进/平移 | 通用 |
 | 纸拼贴诊室完整后景 | [原件与来源](../records/paper-theatre/six_paper_breast_stage/c0c36462bf2b38e0d662/record.json) | 作为完整后景、相机推进/平移 | 通用 |
 | 纸拼贴夜间卧室完整后景 | [原件与来源](../records/paper-theatre/six_paper_gout_stage/c263234c5f6b4a89c17b/record.json) | 作为完整后景、相机推进/平移 | 通用 |
@@ -76,10 +76,10 @@
 | 资产 | 原件/来源 | 已明确的复用用途 | 范围 |
 | --- | --- | --- | --- |
 | 代码动画媒介技法与七风格动作研究 | [原件与来源](../records/paper-theatre/mac-filmcraft-kit-1-2/888304ad3960c4bf9035/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
-| 印章接触、落印与抬起 | [原件与来源](../records/paper-theatre/paper_contact_stamp/91b166aa489f13f478bc/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
+| 印章接触、落印与抬起 | [原件与来源](../records/paper-theatre/paper_contact_stamp/0890d02304a9b9dc1dcf/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
 | 无品牌纸夹打开、收纳与夹持组件 | [原件与来源](../records/paper-theatre/paper_folder_stow_v1/4cbc20ffc34c5e2348b7/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
-| 纸件跨镜交接 | [原件与来源](../records/paper-theatre/paper_object_handoff/ba24f4a7b4e0c65855aa/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
-| 纸口袋收纳与真实前景遮挡 | [原件与来源](../records/paper-theatre/paper_pocket_stow/a22bc164b79ff9148e21/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
+| 纸件跨镜交接 | [原件与来源](../records/paper-theatre/paper_object_handoff/59f2e1b570dea41b5d6c/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
+| 纸口袋收纳与真实前景遮挡 | [原件与来源](../records/paper-theatre/paper_pocket_stow/dfb301e16fe825840757/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
 | 纸剧场 1.1.0 冻结组件与无品牌样本 | [原件与来源](../records/paper-theatre/paper_theatre_kit_1_1_0/1a56b5ce9d17d7e59e63/record.json) | 学习/接入冻结组件、局部适配命名动作 | 通用 |
 | 六主题纸剧场：物件身份、翻面、归档与舞台模块 | [原件与来源](../records/paper-theatre/six_paper_staging_modules/0276c523f08372574608/record.json) | 学习/接入冻结组件、局部适配命名动作 | 选题范围 |
 
@@ -87,10 +87,8 @@
 
 | 资产 | 原件/来源 | 已明确的复用用途 | 范围 |
 | --- | --- | --- | --- |
-| Dr.咩 · 纸上音乐动机候选 | [原件与来源](../records/paper-theatre/dr_mie_music_motif/18d7b0be5b3313f7a604/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 对应作者专用 |
-| 纸上下一步 · 氛围分轨 | [原件与来源](../records/paper-theatre/paper_music_bed/a678c8562bc5098f6070/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 通用 |
-| 纸上下一步 · 节奏分轨 | [原件与来源](../records/paper-theatre/paper_music_pulse/27635de50db29821009e/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 通用 |
-| 垂体瘤首集 · 原创配乐工程 | [原件与来源](../records/paper-theatre/pituitary_paper_original_score/2042c23e4d6c2fc9cc6c/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 系列范围 |
+| 纸上下一步 · 氛围分轨 | [原件与来源](../records/paper-theatre/paper_music_bed/8d06f775933caa49ca12/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 通用 |
+| 纸上下一步 · 节奏分轨 | [原件与来源](../records/paper-theatre/paper_music_pulse/54e93eb67de56f3a3cb8/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 通用 |
 | 乳腺结节原创配乐分轨 | [原件与来源](../records/paper-theatre/six_paper_music_breast_nodules_paper_theatre/f813477c6b01dfc55b69/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 系列范围 |
 | 慢性肾病原创配乐分轨 | [原件与来源](../records/paper-theatre/six_paper_music_ckd_paper_theatre/03b7d18348a43ead8e0a/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 系列范围 |
 | 高尿酸与痛风原创配乐分轨 | [原件与来源](../records/paper-theatre/six_paper_music_gout_paper_theatre/3029370dbff3f3fceaa7/record.json) | 按情绪试听选择、按来源范围剪辑/混音 | 系列范围 |
@@ -102,6 +100,5 @@
 
 | 资产 | 原件/来源 | 已明确的复用用途 | 范围 |
 | --- | --- | --- | --- |
-| Dr.咩 · 纸章品牌参数快照 | [原件与来源](../records/paper-theatre/dr_mie_paper_brand_v1/b21d0d1ae935e08807a0/record.json) | 对应作者范围的品牌基线 | 对应作者专用 |
 
 完整后景不含可操作家具分层，完整医学图不含器官内部运动层；需要这些动作时 MAC 另做部件。音乐源保存不表示完整听感通过。作者专属资产由对应档案决定是否取用。缺口及下一批储备见[覆盖评估](asset-coverage.md)。

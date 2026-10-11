@@ -2,33 +2,6 @@
   "schema": "mac_asset_curation/v1",
   "note": "依据实际原件的模型策展判断；不是按关键词/像素算法评定艺术质量。active只表示有清楚复用用途，不表示当前镜头或医学通过。",
   "assets": {
-    "paper:dr_mie_music_motif@18d7b0be5b3313f7a604": {
-      "status": "active",
-      "role": "music_or_audio_source",
-      "operations": [
-        "按情绪试听选择",
-        "按来源范围剪辑/混音"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "素材保存不证明听感，最终混音重新审听。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:dr_mie_paper_brand_v1@b21d0d1ae935e08807a0": {
-      "status": "active",
-      "role": "author_brand",
-      "operations": [
-        "对应作者范围的品牌基线"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "不进入其他作者的推荐。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
     "paper:mac-filmcraft-kit-1-2@888304ad3960c4bf9035": {
       "status": "active",
       "role": "code_or_motion",
@@ -53,34 +26,6 @@
       ],
       "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
       "limitations": [],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:paper_clinic_environment@15a77908c195980545fc": {
-      "status": "active",
-      "role": "backdrop",
-      "operations": [
-        "作为完整后景",
-        "相机推进/平移"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:paper_contact_stamp@91b166aa489f13f478bc": {
-      "status": "active",
-      "role": "code_or_motion",
-      "operations": [
-        "学习/接入冻结组件",
-        "局部适配命名动作"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "查依赖与实际样例，不复刻原故事、时间码或风格。"
-      ],
       "reviewed_on": "2026-10-11",
       "evidence_ref": "docs/asset-coverage.md"
     },
@@ -138,20 +83,6 @@
       "reviewed_on": "2026-10-11",
       "evidence_ref": "docs/asset-coverage.md"
     },
-    "paper:paper_lab_environment@20efba884187008e22d4": {
-      "status": "active",
-      "role": "backdrop",
-      "operations": [
-        "作为完整后景",
-        "相机推进/平移"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
     "paper:paper_lab_environment_v2@32860c04564f2998c4a2": {
       "status": "active",
       "role": "backdrop",
@@ -162,48 +93,6 @@
       "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
       "limitations": [
         "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:paper_music_bed@a678c8562bc5098f6070": {
-      "status": "active",
-      "role": "music_or_audio_source",
-      "operations": [
-        "按情绪试听选择",
-        "按来源范围剪辑/混音"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "素材保存不证明听感，最终混音重新审听。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:paper_music_pulse@27635de50db29821009e": {
-      "status": "active",
-      "role": "music_or_audio_source",
-      "operations": [
-        "按情绪试听选择",
-        "按来源范围剪辑/混音"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "素材保存不证明听感，最终混音重新审听。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:paper_object_handoff@ba24f4a7b4e0c65855aa": {
-      "status": "active",
-      "role": "code_or_motion",
-      "operations": [
-        "学习/接入冻结组件",
-        "局部适配命名动作"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "查依赖与实际样例，不复刻原故事、时间码或风格。"
       ],
       "reviewed_on": "2026-10-11",
       "evidence_ref": "docs/asset-coverage.md"
@@ -231,20 +120,6 @@
       ],
       "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
       "limitations": [],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:paper_pocket_stow@a22bc164b79ff9148e21": {
-      "status": "active",
-      "role": "code_or_motion",
-      "operations": [
-        "学习/接入冻结组件",
-        "局部适配命名动作"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "查依赖与实际样例，不复刻原故事、时间码或风格。"
-      ],
       "reviewed_on": "2026-10-11",
       "evidence_ref": "docs/asset-coverage.md"
     },
@@ -301,20 +176,6 @@
       "limitations": [
         "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
         "使用前复核当前医学语境，不继承原集医学批准。"
-      ],
-      "reviewed_on": "2026-10-11",
-      "evidence_ref": "docs/asset-coverage.md"
-    },
-    "paper:pituitary_paper_original_score@2042c23e4d6c2fc9cc6c": {
-      "status": "active",
-      "role": "music_or_audio_source",
-      "operations": [
-        "按情绪试听选择",
-        "按来源范围剪辑/混音"
-      ],
-      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
-      "limitations": [
-        "素材保存不证明听感，最终混音重新审听。"
       ],
       "reviewed_on": "2026-10-11",
       "evidence_ref": "docs/asset-coverage.md"
@@ -638,6 +499,104 @@
       "limitations": [
         "瓶盖闭合时的透视、遮挡和压盖位置由当前镜头检查；此静态小样不批准完整旋盖动作。",
         "无药名、剂量与数量，不用外观指定药物。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_clinic_environment@c87ee54ad989185ce55e": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_contact_stamp@0890d02304a9b9dc1dcf": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_lab_environment@7d13eec2eb92d526a783": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_music_bed@8d06f775933caa49ca12": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_music_pulse@54e93eb67de56f3a3cb8": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_object_handoff@59f2e1b570dea41b5d6c": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_pocket_stow@dfb301e16fe825840757": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
       ],
       "reviewed_on": "2026-10-11",
       "evidence_ref": "docs/asset-coverage.md"

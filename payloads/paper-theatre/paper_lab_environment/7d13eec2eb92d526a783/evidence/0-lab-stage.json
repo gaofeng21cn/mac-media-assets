@@ -1,0 +1,16 @@
+{
+  "asset_id": "lab-stage",
+  "asset_ref": "assets/stages/lab.png",
+  "asset_sha256": "3ee435ac737328df6aed245165dec7928dc9f082d17aca4f422145dd1b4319f4",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "环境建立实验台和纸材空间；纸天平为独立方向类比，不呈现真实检验数值。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_lab_environment",
+  "title": "实验台纸面环境板",
+  "kind": "environment",
+  "tags": [
+    "paper_collage",
+    "环境",
+    "实验台",
+    "纸纹"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "lab-stage",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "承载功能方向比喻的纸做实验台",
+    "must_not_imply": "天平不是激素测量设备，纸粒不是检验数值",
+    "medical": false,
+    "status": "approved_direct_use",
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/0-lab-stage.json"
+    },
+    "generation_receipt": "evidence/1-v18-generation-receipts.json",
+    "prompt_ref": "evidence/2-DIRECTOR-v18.md"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "series": "pituitary_paper_theatre",
+    "episode": "01_report_next_steps",
+    "asset_id": "lab-stage",
+    "original_manifest": {
+      "asset_id": "lab-stage",
+      "path": "assets/stages/lab.png",
+      "source_type": "imagegen",
+      "visual_meaning": "承载功能方向比喻的纸做实验台",
+      "must_not_imply": "天平不是激素测量设备，纸粒不是检验数值",
+      "medical": false,
+      "status": "approved_direct_use",
+      "visual_review": {
+        "status": "passed",
+        "evidence_ref": "qa/asset-reviews/lab-stage.json"
+      },
+      "generation_receipt": "preproduction/v18-generation-receipts.json",
+      "prompt_ref": "preproduction/DIRECTOR-v18.md"
+    },
+    "sample_has_brand": false
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "3ee435ac737328df6aed245165dec7928dc9f082d17aca4f422145dd1b4319f4",
+      "bytes": 2428354
+    },
+    {
+      "path": "evidence/0-lab-stage.json",
+      "role": "evidence",
+      "sha256": "61e703ec9bcccf9f8efa28ff33dec2a88c3b5eb2e6d199edea4acfe5f74469b4",
+      "bytes": 599
+    },
+    {
+      "path": "evidence/1-v18-generation-receipts.json",
+      "role": "evidence",
+      "sha256": "a5e07bb97420d8291b22a80f8bbd81eb764ce38b03b3e7f585cd8eae0d8fbd47",
+      "bytes": 7471
+    }
+  ],
+  "revision": "7d13eec2eb92d526a783"
+}

@@ -27,6 +27,9 @@ def boundary(kind,record=None):
  debt=record.get('quality_debt',[])
  review=record.get('review',{}) or record.get('visual_review',{}) or {}
  return {'admission':record.get('status','review_candidate'),'motion':review.get('full_motion','pending') if isinstance(review,dict) else 'pending','medical':(record.get('medical_review') or {}).get('status','pending') if isinstance(record.get('medical_review'),dict) else record.get('medical_review','pending'),'listening':'pending' if kind in ('audio','music_score') else 'not_applicable','quality_debt':debt}
+def public_reusable(record):
+ return record.get('kind') != 'brand' and (record.get('reuse_scope') or {}).get('kind') != 'author' and not (record.get('source') or {}).get('sample_has_brand')
+
 def paper_rows(workspace,out):
  root=workspace/'assets/paper-theatre';cat=read(root/'catalog.json');rows=[]
  exclusions_path=out/'collections/exclusions.json'
@@ -35,7 +38,7 @@ def paper_rows(workspace,out):
  assessments=read(local_curation).get('assets',{}) if local_curation.is_file() else {}
  for item in cat.get('items',[]):
   recpath=root/item['record'];rec=read(recpath);entry=f"paper:{rec['id']}@{rec.get('revision',item.get('revision','unknown'))}"
-  if entry in exclusions or assessments.get(entry,{}).get('status') in {'needs_rebuild','superseded'} or rec.get('status')=='reference_only': continue
+  if not public_reusable(rec) or entry in exclusions or assessments.get(entry,{}).get('status') in {'needs_rebuild','superseded'} or rec.get('status')=='reference_only': continue
   payload=[]
   for f in rec.get('files',[]):
    src=recpath.parent/f['path']
@@ -84,7 +87,7 @@ def main():
  # This repository is a usable catalog, not an archive. Withdrawn, superseded,
  # and reference-only material is omitted instead of being written to a second
  # catalog that future callers might accidentally discover.
- active=[row for row in rows if row.get('id') not in exclusions and row.get('review_boundary',{}).get('admission')!='reference_only' and row.get('curation',{}).get('status') not in {'needs_rebuild','superseded'}]
+ active=[row for row in rows if public_reusable({**row, 'source':row.get('provenance',{}).get('source_ref',{})}) and row.get('id') not in exclusions and row.get('review_boundary',{}).get('admission')!='reference_only' and row.get('curation',{}).get('status') not in {'needs_rebuild','superseded'}]
  (out/'catalog/assets.jsonl').write_text(''.join(json.dumps(x,ensure_ascii=False,sort_keys=True)+'\n' for x in active),encoding='utf-8')
  stale_reference=out/'catalog/reference-assets.jsonl'
  if stale_reference.exists(): stale_reference.unlink()
