@@ -1,0 +1,11 @@
+{
+  "method": "built-in ImageGen",
+  "date": "2026-10-08",
+  "assets": [{
+    "asset_id": "sagittal-head-layered-v1",
+    "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-a7d3a105-a96f-4113-9a6f-e5c9874ada2d.png",
+    "medical_review": "pending",
+    "scene_review": "pending",
+    "alpha_preserved": true
+  }]
+}

@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "foot_joint",
+      "prompt": "Use case: scientific-educational. Asset type: a single transparent cut-paper object for a medical hand-drawn collage animated short. Handmade tactile collage, genuinely layered torn rag paper, charcoal edge drawing, colored-pencil shading, old-print halftone scraps, subtle paper fibers. Warm cream, muted ochre, dusty coral, muted teal. Soft irregular cut edges, narrow natural contact shadows within the object. NOT a flat cartoon, NOT a rectangular illustration card, NOT a page, NOT an infographic. No text, no labels, no arrows, no tape outside object, no extra objects, no detached atlas panels, no background. One coherent object occupies most canvas with 6% clear margin, true transparent alpha. A human forefoot medial oblique view including great toe, correct big-toe metatarsophalangeal articulation, cutaway window showing two opposing bone ends capped by cartilage with a plausible joint gap. All five toes should be coherent; no injury, no needles, no crystals (crystals will be animated later in code). The foot is a crafted collage cutout with a gently layered removable-looking outer skin border, not realistic photographic flesh. Anatomical relationships simple and readable, no grotesque distortion.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-189d7d2d-fde6-4df9-a8f3-46a607c240c7.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/foot_joint.png"
+    },
+    {
+      "id": "gout_stage",
+      "prompt": "Use case: illustration-story. Asset: full-frame 16:9 1280x720 landscape paper-theatre stage background for imaginative medical hand-drawn collage animation. Every visible surface and room object built from layered torn real paper, magazine scraps, printed textures, graphite hatching, tiny sewing marks and natural contact shadows. Handmade stop-motion cutout craft aesthetic with abundant tactile detail across the entire frame. Avoid large plain color cards, UI panels, infographic, PPT slide, decorative floating lines, gradients, glossy 3D or photorealism. No readable text, no letters, no logo. Natural paper environment depth, leave lower 18% low-contrast textured floor/table edge for subtitles; leave upper left small unobtrusive area for brand. A night-time bedside room, a real paper bed with visible handmade layered quilt filling lower left half and a bedside lamp on right, slippers under bed, stitched fabric paper, window with moon in upper right. Low three-quarter perspective. Keep central bed-foot area (x .28-.62, y .25-.63) uncluttered so an animated forefoot cutout can rest on quilt. No person, no feet.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-9e4b03d1-661d-4f59-8463-22c4efe53211.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/gout_stage.png"
+    }
+  ],
+  "prompt_scope": "器官透明件与完整纸景分别生成"
+}

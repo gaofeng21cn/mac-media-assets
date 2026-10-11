@@ -1,0 +1,73 @@
+{
+  "score_sha256": "e7e1407d12f7f19d6a2459eba5ee7cc527510590bd1adfb28fc51c7d0594c6e1",
+  "events": [
+    {
+      "shot": "collage",
+      "event": "plant",
+      "kind": "tap",
+      "gain": 0.75,
+      "time": 3.1,
+      "source_type": "procedural_material_study"
+    },
+    {
+      "shot": "collage",
+      "event": "bloom",
+      "kind": "paper",
+      "gain": 0.8,
+      "time": 6.7,
+      "source_type": "procedural_material_study"
+    },
+    {
+      "shot": "watercolor",
+      "event": "wash",
+      "kind": "brush",
+      "gain": 0.7,
+      "time": 11.5,
+      "source_type": "procedural_material_study"
+    },
+    {
+      "shot": "line_art",
+      "event": "draw",
+      "kind": "pencil",
+      "gain": 0.5,
+      "time": 17.4,
+      "source_type": "procedural_material_study"
+    },
+    {
+      "shot": "whiteboard",
+      "event": "circle",
+      "kind": "marker",
+      "gain": 0.5,
+      "time": 34.8,
+      "source_type": "procedural_material_study"
+    },
+    {
+      "shot": "whiteboard",
+      "event": "wipe",
+      "kind": "wipe",
+      "gain": 0.55,
+      "time": 36.5,
+      "source_type": "procedural_material_study"
+    },
+    {
+      "shot": "risograph",
+      "event": "red",
+      "kind": "print",
+      "gain": 0.6,
+      "time": 40.3,
+      "source_type": "procedural_material_study"
+    },
+    {
+      "shot": "paper_popup",
+      "event": "open",
+      "kind": "fold",
+      "gain": 0.7,
+      "time": 45.5,
+      "source_type": "procedural_paper_foley"
+    }
+  ],
+  "narration": null,
+  "music": null,
+  "full_listening": "pending",
+  "purpose": "procedural material accents; no TTS or author voice changed"
+}

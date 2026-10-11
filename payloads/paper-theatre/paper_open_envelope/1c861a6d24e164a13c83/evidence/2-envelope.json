@@ -1,0 +1,16 @@
+{
+  "asset_id": "envelope",
+  "asset_ref": "assets/legacy/envelope.png",
+  "asset_sha256": "e21d061f2576b89846a89197dadf8694c16becb9370d9459ec87f387568612a3",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "前后袋口、透明边缘与纸质一致；前袋轮廓已登记，收纳后的内容可跨镜保留。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

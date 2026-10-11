@@ -1,0 +1,31 @@
+{
+  "brief": "温暖克制的纸面生活；解释段留出中频空间，用药和急症减薄脉冲，结尾完整收束。",
+  "tracks": [
+    {
+      "id": "bed",
+      "path": "audio/music/bed.wav",
+      "gain": 0.4,
+      "loop": false
+    },
+    {
+      "id": "pulse",
+      "path": "audio/music/pulse.wav",
+      "gain": 0.5,
+      "loop": false
+    },
+    {
+      "id": "motif",
+      "path": "audio/music/motif.wav",
+      "gain": 0.3,
+      "loop": false
+    }
+  ],
+  "bus_lufs": -32,
+  "ducking": {
+    "threshold": 0.025,
+    "ratio": 8,
+    "attack_ms": 25,
+    "release_ms": 300
+  },
+  "full_listening": "pending"
+}

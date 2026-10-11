@@ -1,0 +1,16 @@
+{
+  "asset_id": "stamp",
+  "asset_ref": "assets/cutouts/stamp.png",
+  "asset_sha256": "6ea19d5c5bb987e6962f089029a336bef10346bc5b02c7145198fd0294213ff6",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "木柄纸印章底部可确定接触点；印迹为系列署名，不表示医学审核。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

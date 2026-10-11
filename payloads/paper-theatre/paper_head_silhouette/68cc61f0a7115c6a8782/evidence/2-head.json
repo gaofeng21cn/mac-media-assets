@@ -1,0 +1,16 @@
+{
+  "asset_id": "head",
+  "asset_ref": "assets/cutouts/head-single.png",
+  "asset_sha256": "4f9b0c0e959024424b9d78b6166fd6f8af7c65f729bc45e6a423693439205cf2",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "独立侧面剪影用于急症场景，不是医生品牌肖像；没有多余手部或重复人物残片。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

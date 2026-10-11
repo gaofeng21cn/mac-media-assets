@@ -1,0 +1,24 @@
+{
+  "fps": 24,
+  "duration": 6,
+  "style": {
+    "styleId": "paper_collage",
+    "appliedStyleId": "paper_collage",
+    "renderer": "canvas2d"
+  },
+  "shots": [
+    {
+      "id": "folder",
+      "title": "打开、收入、夹住",
+      "start": 0,
+      "end": 6,
+      "events": {
+        "coverOpens": 2,
+        "recordsLand": 3.4,
+        "clipContacts": 4.1
+      }
+    }
+  ],
+  "cues": [],
+  "sounds": []
+}

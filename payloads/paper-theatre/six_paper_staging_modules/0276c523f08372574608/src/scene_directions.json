@@ -1,0 +1,3660 @@
+{
+  "night_joint": {
+    "kind": "night",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "深蓝纸卧室；袜子退开，足部纸件被局部灯光照亮，镜头推向关节，不能凭外形确诊。",
+    "camera": "locked"
+  },
+  "joint_open": {
+    "kind": "anatomy",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "关节沿真实剖面翻开，少量细针纸件显露；避免大量晶体塞住骨腔或形象化为玻璃碎片割肉。",
+    "camera": "close"
+  },
+  "joint_clues": {
+    "kind": "compare",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "发作记录",
+      "检查资料"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "夜间记录落进就诊资料袋，化验与关节液杯独立到场；三者汇入医生判断，不并排答案卡。",
+    "camera": "follow"
+  },
+  "joint_urgent": {
+    "kind": "call",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "发热或不适",
+      "及时就医"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "温度计与电话进入同一个床旁场景，夜间灯扩大照明；不渲染夸张闪烁。",
+    "camera": "locked"
+  },
+  "visit_joint": {
+    "kind": "bag",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "发作与用药"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "足部退为资料袋外的锚点；记录、化验和药物清单逐次收纳，落点接向下集。",
+    "camera": "follow"
+  },
+  "joint_flare": {
+    "kind": "flare",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "上一集足部仍在桌面；红色炎症薄纸退开，内部结晶保持，温和转折。",
+    "camera": "locked"
+  },
+  "flare_care": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "发作处理",
+      "肾功能与用药"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "三类药物装在独立包装，处方夹仅取出当前选择；不演示自行选药、剂量和服用动作。",
+    "camera": "locked"
+  },
+  "urate_path": {
+    "kind": "timeline",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "治疗记录",
+      "下次复查"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "复诊日历展成跨月纸册，药物与化验按时间归档；结晶没有被瞬间擦掉。",
+    "camera": "locked"
+  },
+  "keep_urate": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "长期治疗",
+      "发作处理"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "药盒保留原位，急性处方夹叠在旁边；动作是两份安排协调而非相互替换。",
+    "camera": "locked"
+  },
+  "joint_plan": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "发作处理",
+      "长期达标"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "记录本有真实两项时间职责，两个夹签落到不同页；保留足部与纸册共场。",
+    "camera": "locked"
+  },
+  "quiet_joint": {
+    "kind": "anatomy",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "白昼关节同一剖面，炎症薄层不出现；镜头仍能看到少量内部结晶。",
+    "camera": "close"
+  },
+  "crystal_time": {
+    "kind": "flare",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "多月纸册翻过，结晶分阶段减少；首尾间留时间物件，不能一颗药清空。",
+    "camera": "locked"
+  },
+  "target_joint": {
+    "kind": "timeline",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "尿酸目标",
+      "连续复查"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "化验纸与长期记录对照，仅一个必要目标命名靠近读数；不把目标直接套给所有高尿酸人群。",
+    "camera": "locked"
+  },
+  "early_flare": {
+    "kind": "flare",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "早期月份炎症层短暂出现，长期曲线与用药安排继续；不画药物产生伤害的因果箭头。",
+    "camera": "locked"
+  },
+  "keep_record": {
+    "kind": "timeline",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "发作与用药",
+      "复查时间"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "关节落回复诊纸册侧边；每次记录沿同一时间装订，不生成悬空装饰线。",
+    "camera": "locked"
+  },
+  "gout_table": {
+    "kind": "table",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "食物独立纸片从完整餐桌被错误撤走；镜头保持餐盘，不用文字划叉替代事件。",
+    "camera": "locked"
+  },
+  "plant_returns": {
+    "kind": "table",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "豆腐与蔬菜恢复餐盘，保留适量主食；纸片比例按实际食物和份量调整。",
+    "camera": "locked"
+  },
+  "meat_portion": {
+    "kind": "table",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "内脏盘退场，较小肉份与植物蛋白替换接触；不把所有海鲜画成绝对禁止。",
+    "camera": "locked"
+  },
+  "gout_water": {
+    "kind": "drink",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "水杯在个体日程中停住，肾脏/心脏记录出现决定权；不显示统一公升数。",
+    "camera": "locked"
+  },
+  "table_stays": {
+    "kind": "table",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "餐盘仍丰富，药物安排归入一旁资料册；两者同场，结尾不让药盒替代餐盘。",
+    "camera": "locked"
+  },
+  "gout_drinks": {
+    "kind": "drink",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "啤酒、白酒、甜饮独立瓶罐沿日常桌面出现；玻璃纸与包装材质不同。",
+    "camera": "locked"
+  },
+  "alcohol_stow": {
+    "kind": "drink",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "酒瓶被收进餐桌侧柜，杯子留空等待真正替换；不只撤啤酒。",
+    "camera": "locked"
+  },
+  "sweet_turn": {
+    "kind": "drink",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "瓶身沿自身轴翻面，实际包装上保留简短糖信息；没有巨大解释卡。",
+    "camera": "locked"
+  },
+  "water_replace": {
+    "kind": "drink",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "甜饮从杯旁移开，水杯在相同落点落下，果汁不被塑造成药物。",
+    "camera": "locked"
+  },
+  "drink_record": {
+    "kind": "drink",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "日程里真实一杯改变，复诊纸册收下饮品记录；餐桌与白昼照明连续。",
+    "camera": "locked"
+  },
+  "urate_report": {
+    "kind": "report",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "尿酸",
+      "既往检查"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "单份化验从信封取出；关节纸件是无炎症状态，不自动落下痛风标签。",
+    "camera": "locked"
+  },
+  "urate_context": {
+    "kind": "report",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "肾功能",
+      "结石与病史"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "报告进入就诊册，结石史和肾功能资料逐次对照，判断开放。",
+    "camera": "locked"
+  },
+  "urate_decision": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "个人风险",
+      "治疗判断"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "两本不同患者资料保持分开；医生夹取当前资料，不复制另一册处方。",
+    "camera": "locked"
+  },
+  "urate_recheck": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "正常餐盘与原药物清单保留，复查标本与报告完成交接。",
+    "camera": "locked"
+  },
+  "urate_follow": {
+    "kind": "bag",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "连续报告装订，结尾落在下次预约，避免一个数字盖诊断章。",
+    "camera": "follow"
+  },
+  "urate_prescription": {
+    "kind": "bag",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "他人处方退回自己的袋，当前患者肾功能与药物清单被取出。",
+    "camera": "follow"
+  },
+  "urate_start": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "处方沿复查纸册逐步调整，药物包装始终闭合；不演示剂量。",
+    "camera": "locked"
+  },
+  "rash_call": {
+    "kind": "call",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "皮疹与不适",
+      "及时联系"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "药物清单与电话床旁相接，症状薄纸仅为定位，不用恐怖全身红斑。",
+    "camera": "locked"
+  },
+  "urate_review": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "报告逐次落在处方旁；药盒不被拖成变大的剂量图。",
+    "camera": "locked"
+  },
+  "medicine_questions": {
+    "kind": "plan",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "自己的计划归档，别人的处方保持在另册外；纸夹确有夹持落点。",
+    "camera": "locked"
+  },
+  "joint_return": {
+    "kind": "flare",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "足部、餐桌与复诊册从夜间切到白昼，不清空每个镜头。",
+    "camera": "locked"
+  },
+  "gout_activity": {
+    "kind": "life",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "鞋子落地再迈步，水杯保持，软尺缓慢归位；不以秤骤降表示成功。",
+    "camera": "locked"
+  },
+  "gout_followup": {
+    "kind": "timeline",
+    "topic": "gout",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "达标以后",
+      "继续复查"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "好结果并入旧报告，下次日历仍留在台面。",
+    "camera": "locked"
+  },
+  "gout_flare_plan": {
+    "kind": "bag",
+    "topic": "gout",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "发作预案装进日常资料袋；电话与药物清单具有明确用途。",
+    "camera": "follow"
+  },
+  "gout_close": {
+    "kind": "flare",
+    "topic": "gout",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "夜间足部回到完整日间纸景；餐盘、鞋子、纸册形成生活终景，镜头缓慢拉远。",
+    "camera": "pullback"
+  },
+  "fast_day": {
+    "kind": "life",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "卧室到日间生活连续；钟表偏快但不夸张抖动，患者保持完整头部。",
+    "camera": "locked"
+  },
+  "thyroid_reveal": {
+    "kind": "anatomy",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "完整颈部纸件翻开表层露出甲状腺，大小适合器官位置，不悬浮巨大蝴蝶。",
+    "camera": "close"
+  },
+  "thyroid_lab": {
+    "kind": "compare",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲状腺功能",
+      "病因线索"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "功能报告先到，病因资料随后翻出；不把两个名词盖到同一标签。",
+    "camera": "follow"
+  },
+  "graves_clues": {
+    "kind": "compare",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "相关抗体"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "抗体与甲功分别装在资料夹，甲状腺保留原位；不做病原入侵形象。",
+    "camera": "follow"
+  },
+  "thyroid_visit": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功与症状",
+      "正在用药"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "生活记录穿过颈部纸景回到诊室袋，开场钟表稳下来但不暗示治愈。",
+    "camera": "follow"
+  },
+  "thyroid_options": {
+    "kind": "plan",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "诊室圆桌实际三类治疗资料从袋中取出；不是菜单按钮或固定阶梯。",
+    "camera": "locked"
+  },
+  "thyroid_medicine": {
+    "kind": "timeline",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "规律用药",
+      "甲功复查"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "药物安排进入跨月纸册，化验推动处方变化；不瞬间清除甲状腺。",
+    "camera": "locked"
+  },
+  "thyroid_radio": {
+    "kind": "plan",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "治疗资料旁先放个人生育/眼科背景，核医学资料保持独立；不画放射线穿体。",
+    "camera": "locked"
+  },
+  "thyroid_surgery": {
+    "kind": "plan",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "手术路线以闭合的术前资料承接，后续甲功纸册持续；不编造手术操作。",
+    "camera": "locked"
+  },
+  "thyroid_choice": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "个人目标",
+      "治疗计划"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "三类资料最终只收纳个人选择，其余归回资料袋；生活日历与方案同场。",
+    "camera": "follow"
+  },
+  "medicine_evening": {
+    "kind": "night",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "夜间床旁药盒已在场，体温计从收纳袋取出；语气克制。",
+    "camera": "locked"
+  },
+  "fever_throat": {
+    "kind": "call",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "血样与血常规报告成为核心，症状不直接变成诊断章。",
+    "camera": "locked"
+  },
+  "antithyroid_call": {
+    "kind": "call",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "暂停抗甲状腺药",
+      "及时查血常规"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "同一药盒闭合并暂停移入当日安排，电话拨向医疗团队，血常规资料立刻接上。",
+    "camera": "locked"
+  },
+  "liver_call": {
+    "kind": "call",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "症状记录与药名一同交接诊室，不演示自行恢复用药。",
+    "camera": "locked"
+  },
+  "medicine_safety": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "小型安全页夹在实际药物安排里，电话联系方式为动作落点，不做大红警告卡。",
+    "camera": "follow"
+  },
+  "eye_day": {
+    "kind": "eye",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "完整生活阅读场景，眼部纸件通过独立特写揭示，避免卡通眼球弹出。",
+    "camera": "close"
+  },
+  "eye_review": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "眼科检查资料汇入同一记录，镜头从眼结构拉回诊室判断。",
+    "camera": "follow"
+  },
+  "eye_smoke": {
+    "kind": "eye",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "烟盒被明确收纳出日常区，甲功与眼科资料在同一袋交接，非悬浮图标。",
+    "camera": "close"
+  },
+  "eye_urgent": {
+    "kind": "call",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "日常读页被真实动作中断，电话成为前景焦点，视野不被夸张永久黑幕。",
+    "camera": "locked"
+  },
+  "eye_follow": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "眼科记录夹在甲功复诊册旁，结尾回到清晰完整阅读空间。",
+    "camera": "follow"
+  },
+  "thyroid_table": {
+    "kind": "table",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "完整纸餐桌连接门外活动空间，食物没有被统一划掉。",
+    "camera": "locked"
+  },
+  "iodine_check": {
+    "kind": "bottle",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "浓缩补充剂独立瓶被转面核对后退出，普通餐盘保留；不暗示彻底无碘。",
+    "camera": "close"
+  },
+  "thyroid_rest": {
+    "kind": "life",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "鞋子先停在床边，坐休后才落地，夜间灯与白昼节奏切换有原因。",
+    "camera": "locked"
+  },
+  "thyroid_return": {
+    "kind": "life",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "睡眠记录、体重和化验按日常顺序归档，药盒留在原位。",
+    "camera": "locked"
+  },
+  "thyroid_living": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "餐桌、鞋子与复诊日历形成真实生活全景，甲状腺退为低注意力锚点。",
+    "camera": "follow"
+  },
+  "thyroid_pregnancy": {
+    "kind": "pregnancy",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "生活日历与治疗纸册同桌，不画必然不能生育的巨大叉。",
+    "camera": "locked"
+  },
+  "pregnancy_team": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "不同阶段预约页由医疗团队交接，原药盒闭合、未演示换药。",
+    "camera": "follow"
+  },
+  "pregnancy_notify": {
+    "kind": "call",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "电话连接两份科室资料，妊娠确认页先到再有治疗调整。",
+    "camera": "locked"
+  },
+  "pregnancy_radio": {
+    "kind": "pregnancy",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "核医学资料归档而非当前安排，既往信息与抗体记录交到产科袋。",
+    "camera": "locked"
+  },
+  "pregnancy_next": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "预约纸册翻到下一次，资料夹保持完整，两科资料同袋结尾。",
+    "camera": "follow"
+  },
+  "thyroid_better": {
+    "kind": "timeline",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "甲功好结果落到历次记录上，钟表自然节奏回归。",
+    "camera": "locked"
+  },
+  "thyroid_retime": {
+    "kind": "compare",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "本次甲功",
+      "治疗记录"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "同页甲功资料按读取次序揭开，单指标不变成控制钮。",
+    "camera": "follow"
+  },
+  "thyroid_remission": {
+    "kind": "timeline",
+    "topic": "graves",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "疗程评估",
+      "后续随访"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "医疗团队调整后纸册留下一页随访，不以药盒离场代表永久治愈。",
+    "camera": "locked"
+  },
+  "thyroid_new": {
+    "kind": "call",
+    "topic": "graves",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "日常生活记录回到诊室，快慢两种状态靠具体钟表与衣物呈现，不二分标签。",
+    "camera": "locked"
+  },
+  "thyroid_close": {
+    "kind": "bag",
+    "topic": "graves",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "颈部纸件、日常物件与资料册在同一白昼纸景收束，品牌固定印记。",
+    "camera": "pullback"
+  },
+  "hashimoto_report": {
+    "kind": "compare",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲状腺抗体",
+      "甲状腺功能"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "同一信封取出抗体与甲功两个不同纸页，身份明确，非大标题卡。",
+    "camera": "follow"
+  },
+  "hashimoto_gland": {
+    "kind": "anatomy",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "颈部层揭示完整腺体，时间纸册翻动后甲功资料出现；不画必然破坏过程。",
+    "camera": "close"
+  },
+  "hashimoto_function": {
+    "kind": "compare",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲状腺功能",
+      "实际症状"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "结构、功能与症状放入同一判断册，保留不同来源，而非相等三卡。",
+    "camera": "follow"
+  },
+  "hashimoto_notreat": {
+    "kind": "plan",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲状腺功能",
+      "随访安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "甲功页先被夹住，药盒保持在诊室而未交给患者，不显示百分比保证。",
+    "camera": "locked"
+  },
+  "hashimoto_next": {
+    "kind": "bag",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "完整资料收纳到自身袋，日历落点接下次复诊。",
+    "camera": "follow"
+  },
+  "antibody_stack": {
+    "kind": "archive",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "抗体纸页堆叠遮住生活物件，随后移开归档，生活焦点重新可见。",
+    "camera": "locked"
+  },
+  "antibody_function": {
+    "kind": "compare",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲状腺功能",
+      "生活变化"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "功能记录与实际睡眠物件接到同一册，抗体退为低注意力来源。",
+    "camera": "follow"
+  },
+  "selenium_bottle": {
+    "kind": "bottle",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "补充剂瓶翻到成分面，留在评估区，不能化成甲状腺修复胶水。",
+    "camera": "close"
+  },
+  "iodine_balance": {
+    "kind": "bottle",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "普通盐罐与浓缩碘补充剂分开，正常餐盘保留，避免全盘删食物。",
+    "camera": "close"
+  },
+  "antibody_goal": {
+    "kind": "archive",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "报告真实收进抽屉，生活餐桌留开，复诊页仍可见。",
+    "camera": "locked"
+  },
+  "thyroxine_morning": {
+    "kind": "plan",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "晨光餐桌、闭合药盒与早餐独立摆放，动作先后有真实空间。",
+    "camera": "locked"
+  },
+  "thyroxine_timing": {
+    "kind": "plan",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "时钟先行，水杯与药物安排到场，早餐在之后的时间落点，不用统一时间适用所有人。",
+    "camera": "locked"
+  },
+  "thyroxine_spacing": {
+    "kind": "plan",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "钙铁瓶放在当日晚些位置，与早餐安排沿日程分开，非同时吞服。",
+    "camera": "locked"
+  },
+  "thyroxine_recheck": {
+    "kind": "timeline",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "调整记录进入多周日历，单日疲劳纸片不移动剂量。",
+    "camera": "locked"
+  },
+  "breakfast_stays": {
+    "kind": "plan",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "早餐最终完整出现，固定日程夹在药盒旁，非满屏表格。",
+    "camera": "locked"
+  },
+  "hashimoto_tired": {
+    "kind": "life",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "完整人物日常工作场景，眼镜/书页动作缓慢，不用故障机器比喻。",
+    "camera": "locked"
+  },
+  "symptom_journal": {
+    "kind": "timeline",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "真实一天的钟表、床头与用药记录汇入同一纸册。",
+    "camera": "locked"
+  },
+  "fatigue_review": {
+    "kind": "life",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "甲功资料留场，其他评估资料依次带来，不画一条万能免疫因果线。",
+    "camera": "locked"
+  },
+  "fatigue_nodose": {
+    "kind": "plan",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "药盒保持闭合、处方原位，生活记录进入医生侧，非增加药片。",
+    "camera": "locked"
+  },
+  "fatigue_support": {
+    "kind": "life",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "人物回到有支持的诊室纸景，记录被接住，结尾温和。",
+    "camera": "locked"
+  },
+  "hashimoto_pregnancy": {
+    "kind": "pregnancy",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "备孕日历和甲功纸册同桌，非结局未知的婴儿图。",
+    "camera": "locked"
+  },
+  "hashimoto_preconception": {
+    "kind": "pregnancy",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "平时预约页翻到妊娠阶段，不复制普通目标数值。",
+    "camera": "locked"
+  },
+  "hashimoto_notify": {
+    "kind": "call",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "确认页落到两科资料之间，电话动作推动更新，药盒原位保持。",
+    "camera": "locked"
+  },
+  "hashimoto_supplements": {
+    "kind": "bottle",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "钙铁实际瓶与早餐日程按间隔排放，身份名称仅必要命名。",
+    "camera": "close"
+  },
+  "pregnancy_record": {
+    "kind": "bag",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "两科预约纸册交接后装订，生活日历保留，品牌收束。",
+    "camera": "follow"
+  },
+  "hashimoto_day": {
+    "kind": "life",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "报告归档，白昼完整餐桌与日常书页重获空间。",
+    "camera": "locked"
+  },
+  "hashimoto_schedule": {
+    "kind": "timeline",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功复查",
+      "生活变化"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "稳定日历向前推进，新变化通过便签插入真实预约处。",
+    "camera": "locked"
+  },
+  "hashimoto_food": {
+    "kind": "table",
+    "topic": "hashimoto",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "甲功",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "完整不同食物与鞋子、睡眠灯形成生活纸景，补充剂退为可评估项。",
+    "camera": "locked"
+  },
+  "hashimoto_nodule": {
+    "kind": "bag",
+    "topic": "hashimoto",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "结构超声单独取出放到判断册，抗体页不覆盖结节资料。",
+    "camera": "follow"
+  },
+  "hashimoto_close": {
+    "kind": "bag",
+    "topic": "hashimoto",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "甲功",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "纸册收好仍可访问，餐桌与门外活动空间拉远，不用疗愈口号卡。",
+    "camera": "pullback"
+  },
+  "breast_report": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "影像报告",
+      "下一步"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "影像纸从信封取出，不自动显示恶性红章；保留胸部位置插画为低注意力参照。",
+    "camera": "locked"
+  },
+  "breast_context": {
+    "kind": "compare",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "影像特征",
+      "个人病史"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "局部放大影像窗口，轮廓细节在自身范围显现；不凭画出的特征诊断观众。",
+    "camera": "follow"
+  },
+  "breast_category": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "影像分级",
+      "行动安排"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "分级报告被指向实际行动页，不做彩色楼梯、相同病灶长大序列。",
+    "camera": "locked"
+  },
+  "breast_old": {
+    "kind": "compare",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "既往影像",
+      "本次影像"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "旧片与新片在同一灯箱位置对位，保留时间夹签，不凭不同外框放大。",
+    "camera": "follow"
+  },
+  "breast_visit": {
+    "kind": "bag",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "影像与病史",
+      "具体建议"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "医生夹取当前行动安排，报告收进袋，复诊日历接上落点。",
+    "camera": "follow"
+  },
+  "birads_zero": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "补充评估",
+      "既往影像"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "报告缺页由旧片真实补入，动作是补齐信息，不变换病灶颜色。",
+    "camera": "locked"
+  },
+  "birads_three": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "短期随访",
+      "约六个月"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "六个月日历翻动，病灶保持原位；时间跨度明确，不表示六个月后必然变化。",
+    "camera": "locked"
+  },
+  "birads_four": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "取样评估",
+      "病理待查"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "影像报告交接到取样资料，病理页尚未出现答案，避免恶性盖章。",
+    "camera": "locked"
+  },
+  "birads_five": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "尽快评估",
+      "病理待查"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "预约从等待区前移到近期安排，病理资料独立到场，非红色巨大警报。",
+    "camera": "locked"
+  },
+  "birads_action": {
+    "kind": "archive",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "本人报告与预约一起装进资料袋，他人报告归还另一袋。",
+    "camera": "locked"
+  },
+  "breast_ultrasound": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "当前问题",
+      "影像选择"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "诊室袋打开不同设备资料，灯箱与检查床建立空间，不把设备当菜单。",
+    "camera": "locked"
+  },
+  "breast_sono": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "超声",
+      "检查资料"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "探头纸件沿胸部示图表面接触，屏幕是抽象纹理非虚构真实病灶。",
+    "camera": "locked"
+  },
+  "breast_mammo": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "乳腺摄影",
+      "检查资料"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "钼靶影像页从设备出口进入资料袋，图像点状细节不演变成癌细胞。",
+    "camera": "locked"
+  },
+  "breast_mri": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "特定问题",
+      "磁共振"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "磁共振资料仅在当前问题夹下取出，其余归档，不把昂贵设备做金奖。",
+    "camera": "locked"
+  },
+  "breast_images_keep": {
+    "kind": "bag",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "不同影像归入同一袋，保留实际介质、日期和同侧位置。",
+    "camera": "follow"
+  },
+  "biopsy_question": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "取样计划",
+      "既往影像"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "问题报告交到取样夹；胸部纸件退为参照，核心是资料如何获得。",
+    "camera": "locked"
+  },
+  "biopsy_guided": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "影像引导",
+      "用药核对"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "影像窗口与取样区域对应，取样动作只在独立放大窗，不示范扎针路径。",
+    "camera": "locked"
+  },
+  "biopsy_pathology": {
+    "kind": "report",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "组织样本",
+      "病理"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "密封样本盒接触病理托盘后，病理纸页出现；保持医学身份顺序。",
+    "camera": "locked"
+  },
+  "biopsy_agreement": {
+    "kind": "compare",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "影像",
+      "病理"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "病理页与原影像在灯箱旁对照，未一致时纸夹不闭合，不用自动通过章。",
+    "camera": "follow"
+  },
+  "biopsy_next": {
+    "kind": "bag",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "密封样本已归流程，患者带走的是预约与资料袋，镜头向外拉。",
+    "camera": "follow"
+  },
+  "breast_followup": {
+    "kind": "life",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "旧片保持灯箱位置，新日历页到场，取代空白等待画面。",
+    "camera": "locked"
+  },
+  "breast_same_place": {
+    "kind": "compare",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "既往影像",
+      "同侧同位置"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "同侧位置标记沿同一影像窗口注册，尺寸不随外框变化。",
+    "camera": "follow"
+  },
+  "breast_changes": {
+    "kind": "life",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "原日期被新的就诊便签替换，电话接诊室，具体症状用日常记录不猎奇。",
+    "camera": "locked"
+  },
+  "breast_not_squeeze": {
+    "kind": "life",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "手不触碰胸部，笔记仅记录自然变化；不做家中自检教学。",
+    "camera": "locked"
+  },
+  "breast_follow_close": {
+    "kind": "bag",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "预约、旧片与记录归同袋，完整生活场景留下，不以结节消失为保证。",
+    "camera": "pullback"
+  },
+  "breast_treatment": {
+    "kind": "plan",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "同一报告沿当前判断进入对应资料夹，不能三张选择卡。",
+    "camera": "locked"
+  },
+  "breast_benign": {
+    "kind": "plan",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "稳定记录保留，新增症状推动预约，病灶不自动变黑。",
+    "camera": "locked"
+  },
+  "breast_malignant": {
+    "kind": "plan",
+    "topic": "breast_nodules",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "确诊病理页先到再进入专门团队袋，影像大小不成为唯一杠杆。",
+    "camera": "locked"
+  },
+  "breast_no_remedy": {
+    "kind": "bottle",
+    "topic": "breast_nodules",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "保健品包装从医嘱位置取走，合法治疗资料不被替换，餐桌生活保留。",
+    "camera": "close"
+  },
+  "breast_close": {
+    "kind": "bag",
+    "topic": "breast_nodules",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "资料归档，灯箱关闭，纸窗白昼展开，纸章固定收束。",
+    "camera": "pullback"
+  },
+  "pcos_ultrasound": {
+    "kind": "compare",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "超声",
+      "月经与症状"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "超声纸页从袋中取出，卵巢图只是辅助结构，不落确诊章。",
+    "camera": "follow"
+  },
+  "pcos_calendar": {
+    "kind": "anatomy",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "月经日历先到、皮肤记录后到、影像保持第三类资料，按顺序归诊室夹。",
+    "camera": "close"
+  },
+  "pcos_adult": {
+    "kind": "compare",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "月经",
+      "高雄激素"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "两项临床资料进入判断册，超声在未需要时归回袋，不强调三项必须齐全。",
+    "camera": "follow"
+  },
+  "pcos_teen": {
+    "kind": "bag",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "成人资料与青春期资料分开，超声页不复制到青少年册，不把正常青春期贴病名。",
+    "camera": "follow"
+  },
+  "pcos_visit": {
+    "kind": "bag",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "月经记录",
+      "症状与用药"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "完整生活日历归袋，未来计划保持开放，非婴儿禁用符号。",
+    "camera": "follow"
+  },
+  "cycle_gap": {
+    "kind": "timeline",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "月经记录",
+      "评估时间"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "实际日历连续翻过多月未记录月经，随后停止等待并拿起预约页。",
+    "camera": "locked"
+  },
+  "cycle_causes": {
+    "kind": "compare",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "不同原因资料在医生判断册依次核对，不做排除后必剩多囊的推理。",
+    "camera": "follow"
+  },
+  "endometrium_care": {
+    "kind": "anatomy",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "子宫纸层局部揭开，内膜在自身边界呈现；不画必然增厚转癌序列。",
+    "camera": "close"
+  },
+  "cycle_treatment": {
+    "kind": "plan",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "个人目标便签先入夹，治疗资料随后到场，处方保持闭合。",
+    "camera": "locked"
+  },
+  "cycle_next": {
+    "kind": "call",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "日历记录与联系方式同袋，电话在异常时成为行动焦点。",
+    "camera": "locked"
+  },
+  "pcos_mirror": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "完整镜前人物与皮肤记录，面部保持尊重，没有夸张丑化毛发。",
+    "camera": "locked"
+  },
+  "androgen_review": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "症状时间册改变预约先后，影像/化验不自动解释所有皮肤表现。",
+    "camera": "locked"
+  },
+  "skin_options": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "个人生活计划与皮肤治疗资料同场，器材不作为所有人的标准处方。",
+    "camera": "locked"
+  },
+  "skin_time": {
+    "kind": "timeline",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "跨月记录形成真实时间跨度，未知产品退出日常区，安全核对先于使用。",
+    "camera": "locked"
+  },
+  "skin_support": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "镜子退为普通生活物件，当前目标落入个人资料册，结尾不展示完美换脸。",
+    "camera": "locked"
+  },
+  "pcos_person": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "不同普通人物纸件在同一生活空间，不以胖瘦分诊断。",
+    "camera": "locked"
+  },
+  "pcos_metabolic": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "化验、血压与生活资料逐次归档，各设备按认知比例，不摆成三个按钮。",
+    "camera": "locked"
+  },
+  "pcos_meal": {
+    "kind": "table",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "丰富餐盘保持，食物真实替换而非全部删除；活动空间与餐桌相接。",
+    "camera": "locked"
+  },
+  "pcos_movement": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "鞋子先落地再步行，秤退为辅助物件，不因数字不动停止活动。",
+    "camera": "locked"
+  },
+  "pcos_health": {
+    "kind": "bag",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "生活日程和必要预约一起收束，身体图退为参照不覆盖餐盘。",
+    "camera": "follow"
+  },
+  "pcos_future": {
+    "kind": "pregnancy",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "未来日历保持开放，卵巢纸件局部出现，避免封路、坏卵子比喻。",
+    "camera": "locked"
+  },
+  "ovulation_story": {
+    "kind": "anatomy",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "日历与双方评估资料进入同一判断册，卵泡运动不演示特定人的周期。",
+    "camera": "close"
+  },
+  "fertility_treatment": {
+    "kind": "plan",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "治疗资料由医生交给当前计划，药盒闭合，不给具体剂量或网上自行启动。",
+    "camera": "locked"
+  },
+  "fertility_preparation": {
+    "kind": "pregnancy",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "备孕与未备孕日程明确不同，药物核对在两册均有位置，不混为必然怀孕。",
+    "camera": "locked"
+  },
+  "fertility_next": {
+    "kind": "bag",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "具体预约页落到开放日历，纸景回生活，非成功怀孕保证。",
+    "camera": "follow"
+  },
+  "pcos_goals": {
+    "kind": "plan",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "同一生活空间里的日历、镜子与计划册分别被取用，不成并排菜单卡。",
+    "camera": "locked"
+  },
+  "pcos_prescription": {
+    "kind": "plan",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "他人处方归回另一袋，当前资料由医生核对，保留闭合药盒。",
+    "camera": "locked"
+  },
+  "metformin_context": {
+    "kind": "plan",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "代谢评估",
+      "个人目标"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "药物身份仅必要命名，代谢报告推动评估，不能药盒变婴儿。",
+    "camera": "locked"
+  },
+  "pcos_monitor": {
+    "kind": "plan",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "复查夹收下新的目标便签，再调整日历，非自主换药动作。",
+    "camera": "locked"
+  },
+  "pcos_question": {
+    "kind": "plan",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "治疗职责页与个人目标在同一册对照，最后收纳而非盖通过章。",
+    "camera": "locked"
+  },
+  "pcos_emotion": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "生活物件堆叠造成视觉负担，随后通过真实收纳留下当前任务，不大字责备。",
+    "camera": "locked"
+  },
+  "pcos_support": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "有人接住记录册，阅读空间恢复，非情绪图标一键消失。",
+    "camera": "locked"
+  },
+  "pcos_no_cure": {
+    "kind": "bottle",
+    "topic": "pcos",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "宣传包装翻面后退出治疗区，真实日程留场，文本不抢画面。",
+    "camera": "close"
+  },
+  "pcos_review": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "当前目标夹到纸册前页，其他任务完整归档，减轻注意力负担。",
+    "camera": "locked"
+  },
+  "pcos_close": {
+    "kind": "life",
+    "topic": "pcos",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "完整生活纸景拉远，日历、镜子、餐桌各有位置，品牌固定收束。",
+    "camera": "pullback"
+  },
+  "kidney_report": {
+    "kind": "report",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "肾功能",
+      "既往检查"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "单份血液报告从袋中取出，肾脏纸件不自动变损坏；历史页随后到场。",
+    "camera": "locked"
+  },
+  "kidney_duration": {
+    "kind": "timeline",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "既往记录",
+      "至少三个月"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "旧资料穿过三个月纸册到当前页，已有证据与新复查同场。",
+    "camera": "locked"
+  },
+  "kidney_blood_urine": {
+    "kind": "compare",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "滤过功能",
+      "尿白蛋白"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "血管/尿路在肾脏纸件两侧分别对应血样与尿杯，比例自然、各自归档。",
+    "camera": "follow"
+  },
+  "kidney_acute": {
+    "kind": "call",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "突然变化",
+      "及时就医"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "长期日历被急诊电话动作中断，资料袋就绪，不暗示观察三个月才治。",
+    "camera": "locked"
+  },
+  "kidney_visit": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "历次化验",
+      "完整用药"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "历次资料收进袋，血样尿杯保持在检查区，不随袋携带。",
+    "camera": "follow"
+  },
+  "kidney_two": {
+    "kind": "compare",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "血液检查",
+      "尿液检查"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "肾脏主视觉比小试管大，两种报告落在不同近侧位置。",
+    "camera": "follow"
+  },
+  "kidney_filtration": {
+    "kind": "anatomy",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "cover_lift": 1.1,
+      "structure_revealed": 2.9,
+      "read_hold": 5.1
+    },
+    "intent": "血样与功能报告交接，滤过在明确肾小球放大窗中表现，非整体厨房滤网。",
+    "camera": "close"
+  },
+  "kidney_albumin": {
+    "kind": "compare",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "尿白蛋白",
+      "复查确认"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "尿标本杯接检查托盘，再生成确认页，运动/感染记录进入背景资料。",
+    "camera": "follow"
+  },
+  "kidney_risk": {
+    "kind": "compare",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "功能与病因",
+      "尿白蛋白"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "三类资料汇入同一纸册，不画风险必然上升楼梯。",
+    "camera": "follow"
+  },
+  "kidney_checks_next": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "两类报告一同收纳，样本留在检验空间，预约回到患者日历。",
+    "camera": "follow"
+  },
+  "kidney_stage": {
+    "kind": "report",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "病因与分期",
+      "个人风险"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "两本个人资料打开不同历史页，分期数字不成为唯一大视觉。",
+    "camera": "locked"
+  },
+  "kidney_history": {
+    "kind": "compare",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "既往记录",
+      "本次检查"
+    ],
+    "events": {
+      "page_contact": 1.6,
+      "second_page_contact": 3.7,
+      "read_hold": 5.1
+    },
+    "intent": "时间资料沿同一装订线展开，肾脏纸件保持稳定不随数字碎裂。",
+    "camera": "follow"
+  },
+  "kidney_protect": {
+    "kind": "plan",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "血压与血糖",
+      "保护性治疗"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "血压/血糖记录接医疗方案，小设备退辅助，非全部患者统一三药。",
+    "camera": "locked"
+  },
+  "kidney_not_dialysis": {
+    "kind": "dialysis",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "透析资料留在远处未启用档案，当前治疗与生活物件占焦点。",
+    "camera": "locked"
+  },
+  "kidney_stage_next": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "当前行动夹到个人纸册首页，日历向未来开放而非递减计时。",
+    "camera": "follow"
+  },
+  "kidney_meds": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "真实药袋逐件取出，包装大小各异；不会一袋等大图标。",
+    "camera": "follow"
+  },
+  "kidney_protection": {
+    "kind": "plan",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "个人适应背景先落在诊室夹，保护性处方随后进入，不演示自购。",
+    "camera": "locked"
+  },
+  "kidney_painkillers": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "购药清单送到药师侧，止痛包装留待核对，不所有止痛药统一禁止。",
+    "camera": "follow"
+  },
+  "kidney_sickday": {
+    "kind": "plan",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "日常计划",
+      "生病时联系"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "日常计划翻到生病页，电话联系后才出现调整；没有全部药物划叉。",
+    "camera": "locked"
+  },
+  "kidney_med_review": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "核对好的清单回到患者资料袋，药品保留真实闭合包装，非通过标记。",
+    "camera": "follow"
+  },
+  "kidney_table": {
+    "kind": "table",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "丰富餐桌被误删后恢复主体，饮食不化成空白卡片。",
+    "camera": "locked"
+  },
+  "kidney_salt": {
+    "kind": "table",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "盐罐、酱料与包装轮流翻面，真实份量替换，调味线段不满屏。",
+    "camera": "locked"
+  },
+  "kidney_protein": {
+    "kind": "table",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "蛋白食物按当前餐盘替换，补剂退出未评估区，份量不设所有人统一数。",
+    "camera": "locked"
+  },
+  "kidney_potassium": {
+    "kind": "table",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "化验先到餐桌，低钠盐包装翻面核对，水杯在个人计划停住。",
+    "camera": "locked"
+  },
+  "kidney_diet_next": {
+    "kind": "table",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "replacement_contact": 3.4,
+      "read_hold": 5.4
+    },
+    "intent": "完整餐盘、检查纸与实际食物同场，日常餐桌收束而非处方菜单。",
+    "camera": "locked"
+  },
+  "kidney_journal": {
+    "kind": "life",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "家庭测量角与记录本，肾脏退为背景参照，非每日器官损伤动画。",
+    "camera": "locked"
+  },
+  "kidney_swelling": {
+    "kind": "life",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "鞋与秤、尿量记录各自进入时间册，不以水肿直接显示肾衰竭。",
+    "camera": "locked"
+  },
+  "kidney_urgent": {
+    "kind": "call",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "明显不适",
+      "及时就医"
+    ],
+    "events": {
+      "symptom_record": 1.1,
+      "phone_contact": 3.2,
+      "read_hold": 4.4
+    },
+    "intent": "常规日历被电话和就医资料动作中断，稳定镜头严肃但不激动。",
+    "camera": "locked"
+  },
+  "kidney_monitor": {
+    "kind": "timeline",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "page_turn": 2.4,
+      "next_visit": 5.7
+    },
+    "intent": "实际多次报告叠入纸册，变化沿时间读出，不画未经核对的病人曲线。",
+    "camera": "locked"
+  },
+  "kidney_follow": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "明确预约与联系方式夹在家中记录本，灯光回日常纸景。",
+    "camera": "follow"
+  },
+  "kidney_long": {
+    "kind": "life",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "肾脏资料归档，餐桌、书页、活动空间重新展开完整纸世界。",
+    "camera": "locked"
+  },
+  "kidney_move": {
+    "kind": "life",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "鞋子落地后步行，烟盒退出日常区，活动不以体重下降为唯一结果。",
+    "camera": "locked"
+  },
+  "kidney_progress": {
+    "kind": "plan",
+    "topic": "ckd",
+    "axis": "right",
+    "x": 868,
+    "y": 300,
+    "labels": [
+      "检查资料",
+      "生活记录"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "未来资料在有需要时被取出，患者计划册保持开放；不透析倒计时。",
+    "camera": "locked"
+  },
+  "kidney_family": {
+    "kind": "life",
+    "topic": "ckd",
+    "axis": "left",
+    "x": 410,
+    "y": 305,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "prepare": 0.7,
+      "contact": 3.1,
+      "read_hold": 5.3
+    },
+    "intent": "另一位普通人物接资料袋，完整餐桌保留，人物有实际合作职责。",
+    "camera": "locked"
+  },
+  "kidney_close": {
+    "kind": "bag",
+    "topic": "ckd",
+    "axis": "center",
+    "x": 640,
+    "y": 290,
+    "labels": [
+      "检查资料",
+      "下一次安排"
+    ],
+    "events": {
+      "folder_open": 1.8,
+      "stow": 3.6,
+      "read_hold": 5.3
+    },
+    "intent": "两路检查归同册，药袋与日历接回白昼生活；固定品牌印记收束。",
+    "camera": "pullback"
+  }
+}

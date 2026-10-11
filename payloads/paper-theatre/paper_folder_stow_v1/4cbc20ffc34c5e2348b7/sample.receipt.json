@@ -1,0 +1,58 @@
+{
+  "status": "rendered",
+  "backend": "javascript_animation",
+  "output": "/Users/gaofeng/workspace/科普视频/work/component-examples/paper-folder-v1/sample.mp4",
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video"
+      },
+      {
+        "codec_type": "audio"
+      }
+    ],
+    "format": {
+      "duration": "6.000000"
+    }
+  },
+  "asset_admission": {
+    "schema": "medical_animation_asset_check/v1",
+    "status": "blocked",
+    "manifest": "/Users/gaofeng/workspace/科普视频/work/component-examples/paper-folder-v1/asset_manifest.json",
+    "assets": 1,
+    "shots": 1,
+    "pending": [
+      "authored-paper-folder:direct_use_pending",
+      "authored-paper-folder:visual_review_pending"
+    ],
+    "domain_quality_approved": false,
+    "note": "Checks declared coverage and review references only; inspect actual artwork and rendered frames.",
+    "render_mode": "review_candidate",
+    "release_eligible": false
+  },
+  "renderer_selection": {
+    "requested_style_id": "paper_collage",
+    "actual_style_id": "paper_collage",
+    "style_match": true,
+    "style_realization_reported": true,
+    "requested_renderer_id": null,
+    "actual_renderer_id": "canvas2d",
+    "renderer_match": null,
+    "quality_debt": []
+  },
+  "quality_debt": [
+    {
+      "code": "asset_review_pending",
+      "owner_stage": "visual-review",
+      "blocks_stage_progress": false,
+      "blocks_quality_export": true,
+      "details": [
+        "authored-paper-folder:direct_use_pending",
+        "authored-paper-folder:visual_review_pending"
+      ]
+    }
+  ],
+  "release_eligible": false
+}

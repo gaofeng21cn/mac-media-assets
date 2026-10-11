@@ -1,0 +1,67 @@
+schema: medical_video_fact_library/v1
+topic_id: breast_nodules
+review_status: AI_editorial_candidate_clinical_review_pending
+facts:
+- fact_id: B01
+  claim: 结节/肿块描述不等于恶性诊断，大小之外需综合影像临床。
+  source_refs:
+  - breast_nodules
+  - ACRbreast
+  - ACR2013
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: B02
+  claim: BI-RADS是影像评估和管理建议，不是必然进程；0补评估、3常短期随访、4/5需按建议取样评估。
+  source_refs:
+  - breast_nodules
+  - ACRbreast
+  - ACR2013
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: B03
+  claim: 随访有明确时间/同位置比较，保存原始影像，异常新变化可提前评估。
+  source_refs:
+  - breast_nodules
+  - ACRbreast
+  - ACR2013
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: B04
+  claim: 超声、乳腺X线、MRI角色不同，按年龄风险与临床问题选择，MRI非人人必需。
+  source_refs:
+  - breast_nodules
+  - ACRbreast
+  - ACR2013
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: B05
+  claim: 影像引导组织取样支持病理判断，需影像病理一致性核对；不是穿刺即确诊癌。
+  source_refs:
+  - breast_nodules
+  - ACRbreast
+  - ACR2013
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: B06
+  claim: 新肿块/皮肤乳头变化/血性溢液等及时评估，不反复挤压自检。
+  source_refs:
+  - breast_nodules
+  - ACRbreast
+  - ACR2013
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: B07
+  claim: 观察与治疗依诊断症状风险，恶性专门评估，保健散结品不替代诊疗。
+  source_refs:
+  - breast_nodules
+  - ACRbreast
+  - ACR2013
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。

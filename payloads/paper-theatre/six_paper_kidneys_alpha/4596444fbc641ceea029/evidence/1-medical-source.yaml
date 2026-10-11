@@ -1,0 +1,68 @@
+schema: medical_video_fact_library/v1
+topic_id: ckd
+review_status: AI_editorial_candidate_clinical_review_pending
+facts:
+- fact_id: K01
+  claim: 结构功能异常≥3个月定义慢性；以既往资料/重复检查等证实，突变/急症不等三个月。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: K02
+  claim: eGFR与尿白蛋白职责不同，单次异常需合适确认，必要时精确估算。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: K03
+  claim: CGA/趋势合并风险，不以分期判固定未来，早期非立即透析。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: K04
+  claim: 血压血糖及适应人群保护性药物依个人情况；部分非糖尿病患者适用肾保护治疗。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: K05
+  claim: 核对全药袋，NSAIDs等风险；病假日计划由团队事先约定，不自行全停。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: K06
+  claim: 钠/蛋白质/钾磷/水依病期结果营养治疗安排，低钠盐含钾需警惕。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: K07
+  claim: 家庭监测个体化，少尿呼吸困难等急症及时就医，保存趋势。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: K08
+  claim: 长期综合管理与生活支持，未来治疗准备非必然恶化。
+  source_refs:
+  - ckd
+  - KDIGO2024
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。

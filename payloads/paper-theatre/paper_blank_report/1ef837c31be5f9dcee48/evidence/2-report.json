@@ -1,0 +1,16 @@
+{
+  "asset_id": "report",
+  "asset_ref": "assets/cutouts/report.png",
+  "asset_sha256": "f209f1c72ef6670ba05f830cedb9cc8086cc1f93dac4e72128ac713b3e2158dd",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "毛边报告纸透明边界完整，文字由代码排版；不是患者报告。三底色未见多余图册残片。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

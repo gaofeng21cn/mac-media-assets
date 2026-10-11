@@ -1,0 +1,257 @@
+schema: medical_fact_library/v0
+topic_id: pituitary_tumor
+version: 0.1.0
+review_status: planning_ready_clinical_review_required_before_publish
+last_updated: 2026-09-02
+
+facts:
+  - fact_id: PIT-001
+    claim: 垂体位于颅底蝶鞍区，邻近视交叉，并参与调节多种重要激素。
+    source_refs: [SRC-001, SRC-004]
+    certainty: established
+    allowed_wording:
+      - 垂体很小，但既邻近视路，也参与调节多种重要激素。
+    forbidden_wording:
+      - 垂体控制人体所有激素。
+    visual_boundary:
+      - 画清垂体与视交叉邻近，但不能画成两者正常情况下互相挤压。
+
+  - fact_id: PIT-002
+    claim: 绝大多数垂体肿瘤为非癌性病变，不会像恶性肿瘤那样向远处转移。
+    source_refs: [SRC-004]
+    certainty: established
+    allowed_wording:
+      - 看到“瘤”先别自动等同于脑癌，绝大多数垂体瘤不是恶性肿瘤。
+    forbidden_wording:
+      - 垂体瘤都没有危险。
+      - 垂体瘤一定不会复发或生长。
+    visual_boundary:
+      - 可解除“癌症扩散”的误解，但必须保留激素异常和局部压迫风险。
+
+  - fact_id: PIT-003
+    claim: 垂体病灶的临床影响可来自激素分泌过多、正常垂体功能不足和邻近结构受压。
+    source_refs: [SRC-001, SRC-003, SRC-004, SRC-008]
+    certainty: established
+    allowed_wording:
+      - 关键不只看大小，还要看激素有没有乱、正常垂体够不够用、视路等邻近结构有没有受影响。
+    forbidden_wording:
+      - 小肿瘤一定没事。
+      - 大肿瘤一定有症状。
+    visual_boundary:
+      - 三条影响路径要并列呈现，不能只画肿瘤体积。
+
+  - fact_id: PIT-004
+    claim: 初次发现垂体病灶后，通常需要结合病史、激素评估和针对垂体的影像判断，而不是只看报告中的一个尺寸。
+    source_refs: [SRC-001, SRC-003]
+    certainty: established
+    allowed_wording:
+      - 一张报告只是起点，医生还要把症状、激素和垂体 MRI 放在一起看。
+    forbidden_wording:
+      - 只要做一次 MRI 就能决定治疗。
+      - 所有人都需要完全相同的一组检查。
+    visual_boundary:
+      - 用信息汇流表达综合判断，不显示虚构化验数值。
+
+  - fact_id: PIT-005
+    claim: 当病灶接触或压迫视神经、视交叉，或患者有相应视觉症状时，正式视野评估具有重要价值。
+    source_refs: [SRC-001, SRC-003, SRC-008]
+    certainty: established
+    allowed_wording:
+      - 如果病灶靠近视路或已经有视觉异常，医生常会安排正规的视野检查。
+    forbidden_wording:
+      - 所有垂体瘤都会导致双颞侧偏盲。
+      - 自己遮一只眼测试就能排除视野损害。
+    visual_boundary:
+      - 典型视野缺损只能作为示意，不能表现为每位患者都相同。
+
+  - fact_id: PIT-006
+    claim: 是否观察、用药、手术或放疗取决于肿瘤类型、激素状态、症状、位置、变化和患者具体情况。
+    source_refs: [SRC-001, SRC-003, SRC-005, SRC-006, SRC-007, SRC-008, SRC-009]
+    certainty: established
+    allowed_wording:
+      - 垂体瘤没有统一的治疗顺序，关键是先分清类型和它造成的影响。
+    forbidden_wording:
+      - 垂体瘤都要手术。
+      - 药物永远优于手术。
+      - 放疗是所有复发患者的下一步。
+    visual_boundary:
+      - 各治疗路径从同一评估节点分支，不画成固定升级阶梯。
+
+  - fact_id: PIT-007
+    claim: 突发剧烈头痛合并视力下降、复视、眼球活动异常、意识改变或明显恶心呕吐，需警惕垂体卒中及其他神经急症并立即就医。
+    source_refs: [SRC-001, SRC-010]
+    certainty: established
+    allowed_wording:
+      - 突发剧烈头痛又出现视力或眼球活动异常，不要等普通复诊，应立即急诊评估。
+    forbidden_wording:
+      - 有剧烈头痛就是垂体卒中。
+      - 没有视力下降就能排除垂体卒中。
+    visual_boundary:
+      - 画“急诊红旗组合”，不做自测诊断流程。
+
+  - fact_id: PIT-008
+    claim: 高泌乳素血症可引起月经改变、溢乳、性功能或生育相关问题，但药物、妊娠、甲状腺功能和垂体柄受压等也可使泌乳素升高。
+    source_refs: [SRC-001, SRC-005]
+    certainty: established
+    allowed_wording:
+      - 泌乳素升高不等于一定有泌乳素瘤，需要排除药物和其他原因。
+    forbidden_wording:
+      - 月经不规律就是泌乳素瘤。
+      - 男性不会得泌乳素瘤。
+    visual_boundary:
+      - 症状线索与鉴别原因并列，不用单一化验箭头直达诊断。
+
+  - fact_id: PIT-009
+    claim: 多巴胺激动剂是多数泌乳素瘤的重要一线治疗，但治疗选择需结合耐受、肿瘤特征和个人计划共同决定。
+    source_refs: [SRC-001, SRC-005]
+    certainty: established
+    allowed_wording:
+      - 很多泌乳素瘤首先考虑药物，而不是一发现就手术。
+    forbidden_wording:
+      - 所有泌乳素瘤吃药都能治愈。
+      - 患者可根据视频自行停药或调整剂量。
+    visual_boundary:
+      - 药物是常见路径，不画成唯一出口。
+
+  - fact_id: PIT-010
+    claim: 成人肢端肥大症常缓慢出现手足、面容和代谢变化，戒指变紧、鞋码改变可成为生活化线索。
+    source_refs: [SRC-001, SRC-006]
+    certainty: established
+    allowed_wording:
+      - 多年间戒指、鞋码和面容都在变化，值得把肢端肥大症纳入评估。
+    forbidden_wording:
+      - 手大脚大就是肢端肥大症。
+      - 用旧照片即可确诊。
+    visual_boundary:
+      - 用时间对照表现缓慢变化，避免夸张怪物化面容。
+
+  - fact_id: PIT-011
+    claim: 肢端肥大症的诊断需要生化证据，通常以年龄校正的 IGF-1 为核心，并按情况进一步评估 GH；影像用于寻找病灶而非替代生化诊断。
+    source_refs: [SRC-001, SRC-006]
+    certainty: established
+    allowed_wording:
+      - 怀疑肢端肥大症时，先用规范激素检查确认，再结合垂体 MRI 定位。
+    forbidden_wording:
+      - MRI 看到小结节就能解释外貌变化。
+    visual_boundary:
+      - 先化验确认、再影像定位，时间顺序不能倒置成“看片确诊”。
+
+  - fact_id: PIT-012
+    claim: 库欣病特指垂体 ACTH 分泌肿瘤导致的内源性皮质醇增多症，只是库欣综合征的一种病因。
+    source_refs: [SRC-001, SRC-007]
+    certainty: established
+    allowed_wording:
+      - 库欣病是库欣综合征的一种，而且病因在垂体。
+    forbidden_wording:
+      - 库欣综合征都由垂体瘤引起。
+      - 满月脸等于库欣病。
+    visual_boundary:
+      - 先画“皮质醇过多”，再画多种病因中的垂体分支。
+
+  - fact_id: PIT-013
+    claim: 库欣病的诊断需先证实内源性皮质醇过多，再判断 ACTH 依赖性及来源；部分垂体病灶在常规 MRI 上可能不明显。
+    source_refs: [SRC-001, SRC-007]
+    certainty: established
+    allowed_wording:
+      - 这是一条先证实激素异常、再追查来源的诊断链，MRI 阴性也不能单独结束判断。
+    forbidden_wording:
+      - MRI 没看到肿瘤就能排除库欣病。
+      - 单次皮质醇异常即可确诊。
+    visual_boundary:
+      - 用逐步排查表现诊断链，不显示近似 100% 的虚假确定性。
+
+  - fact_id: PIT-014
+    claim: 临床无功能性垂体瘤虽没有明显激素过多综合征，仍可因占位效应或正常垂体功能受损造成问题。
+    source_refs: [SRC-001, SRC-008]
+    certainty: established
+    allowed_wording:
+      - “无功能”只是没有典型的激素过多表现，不等于对身体没有影响。
+    forbidden_wording:
+      - 无功能性垂体瘤不用管。
+      - 没有激素过多症状就不需要查垂体功能。
+    visual_boundary:
+      - 把“不额外分泌”与“压迫/功能不足”分开画。
+
+  - fact_id: PIT-015
+    claim: 游离甲状腺激素升高而 TSH 未被抑制是需要进一步鉴别的少见模式，TSH 瘤只是可能原因之一。
+    source_refs: [SRC-001, SRC-009]
+    certainty: established
+    allowed_wording:
+      - 甲状腺激素高但 TSH 没有被压低，需要内分泌专科继续查原因。
+    forbidden_wording:
+      - TSH 不低就是垂体瘤。
+      - 甲亢患者都应做垂体 MRI。
+    visual_boundary:
+      - 异常反馈模式通向“进一步鉴别”，不能直接通向肿瘤图标。
+
+  - fact_id: PIT-016
+    claim: 垂体 MRI、激素检查和视野检查分别回答结构、功能和视觉通路问题，三者不能互相替代。
+    source_refs: [SRC-001, SRC-003, SRC-005, SRC-008]
+    certainty: established
+    allowed_wording:
+      - MRI 看结构，激素检查功能，视野检查视路影响，它们各有分工。
+    forbidden_wording:
+      - MRI 正常就说明垂体功能正常。
+      - 激素正常就说明病灶不会压迫视路。
+    visual_boundary:
+      - 三项检查以并列透镜观察同一问题，避免串成固定先后。
+
+  - fact_id: PIT-017
+    claim: 泌乳素瘤常以药物为重要一线方案，而肢端肥大症、库欣病和部分有压迫的无功能性肿瘤常更多考虑手术；具体方案仍需个体化。
+    source_refs: [SRC-001, SRC-005, SRC-006, SRC-007, SRC-008]
+    certainty: established
+    allowed_wording:
+      - 同样叫垂体瘤，不同类型的首选治疗可能完全不同。
+    forbidden_wording:
+      - 任何一种治疗路径适用于全部垂体瘤。
+    visual_boundary:
+      - 用类型到路径的多分支图，不用单一治疗漏斗。
+
+  - fact_id: PIT-018
+    claim: 多数垂体手术采用经鼻经蝶入路，目标和可切除程度取决于病灶位置、侵袭性及团队经验。
+    source_refs: [SRC-001]
+    certainty: established
+    allowed_wording:
+      - 很多垂体手术从鼻腔进入蝶窦到达垂体区，并不等于传统意义上的开颅。
+    forbidden_wording:
+      - 经鼻手术没有风险。
+      - 经鼻手术一定能完整切除。
+    visual_boundary:
+      - 路径示意不展示器械穿过脑组织，也不能把手术画成简单取出小球。
+
+  - fact_id: PIT-019
+    claim: 垂体手术后近期常需监测视力、尿量和水盐平衡，以及皮质醇等垂体相关功能。
+    source_refs: [SRC-001, SRC-011]
+    certainty: established
+    allowed_wording:
+      - 术后最初几天，医护团队会特别关注视力、尿量、水盐平衡和关键激素。
+    forbidden_wording:
+      - 出现多尿一定是永久性尿崩症。
+      - 术后感觉良好就可以自行停止监测或药物。
+    visual_boundary:
+      - 监测项目围绕患者并列出现，不把正常波动画成并发症诊断。
+
+  - fact_id: PIT-020
+    claim: 垂体瘤治疗后仍可能需要按类型复查激素、MRI 和视功能，部分患者需要长期激素替代。
+    source_refs: [SRC-001, SRC-005, SRC-006, SRC-007, SRC-008, SRC-011]
+    certainty: established
+    allowed_wording:
+      - 治疗结束不等于随访结束，复查内容和频率要按类型与治疗结果来定。
+    forbidden_wording:
+      - 所有人都按同一时间表终身复查。
+      - 激素替代意味着肿瘤治疗失败。
+    visual_boundary:
+      - 用个体化时间线，不显示统一固定月份作为通用医嘱。
+
+global_forbidden_claims:
+  - 仅凭症状、单次化验或一张 MRI 给个体下诊断。
+  - 将“良性”解释为无需评估、随访或治疗。
+  - 将某一亚型的治疗路径套用于所有垂体瘤。
+  - 承诺治愈率、复发率或无风险结果。
+  - 建议观众自行开始、调整或停止处方药及激素替代。
+  - 用生成画面中的文字、数值或解剖细节作为医学证据。
+
+known_gaps:
+  - 各亚型单篇制作前需复核最新指南版本和中国临床语境。
+  - 具体复查周期、药物剂量和手术获益风险不在系列级事实库冻结。
+  - 所有面向发布的成片仍需具备垂体诊疗经验的临床医生复核。

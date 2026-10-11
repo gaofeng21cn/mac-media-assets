@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-09",
+  "generator": "built-in image_gen",
+  "scope": "environment plates; subject layers remain separate",
+  "assets": [
+    {
+      "asset_id": "lab-stage",
+      "source_file": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-aac2957b-0f6e-4653-a81d-5ff0a0720940.png",
+      "prompt": "handmade laboratory paper-stage; torn paper work surface, peripheral empty tube rack and cardboard cabinet; no text/characters/results",
+      "local_path": "assets/season/lab-stage-paper-stage-v2.png",
+      "visual_review": "pending_current_scene_review"
+    },
+    {
+      "asset_id": "home",
+      "source_file": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-da2846c2-3139-4497-bc66-b8fabdf197e9.png",
+      "prompt": "handmade home paper-stage; torn fibres, cloth curtain, tissue window, small peripheral book shelf; no text/characters/medical claims",
+      "local_path": "assets/season/home-paper-stage-v2.png",
+      "visual_review": "pending_current_scene_review"
+    }
+  ]
+}

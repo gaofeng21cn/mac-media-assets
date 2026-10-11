@@ -1,0 +1,32 @@
+{
+  "schema": "medical_video_asset_collections/v1",
+  "series": {
+    "weight_management_s01": "科学减重",
+    "lipids_s01": "血脂管理",
+    "hypertension_s01": "高血压",
+    "diabetes_s01": "糖尿病",
+    "pituitary_tumor_s01": "垂体瘤",
+    "gout_paper_theatre": "高尿酸与痛风",
+    "graves_paper_theatre": "Graves病",
+    "hashimoto_paper_theatre": "桥本甲状腺炎",
+    "breast_nodules_paper_theatre": "乳腺结节",
+    "pcos_paper_theatre": "多囊卵巢综合征",
+    "ckd_paper_theatre": "慢性肾病"
+  },
+  "aliases": {
+    "pituitary_tumor_s01": "pituitary_paper_theatre",
+    "pituitary_paper_theatre": "pituitary_paper_theatre"
+  },
+  "kinds": {
+    "environment": "环境板",
+    "environment_plate": "纸剧场环境板",
+    "transparent_subject": "透明手绘主体",
+    "medical_cutout": "医学纸件",
+    "image": "普通纸件",
+    "reference_frame": "静态构图参考",
+    "motion_recipe": "动作配方",
+    "component": "可复用组件",
+    "audio": "声音或配乐分轨",
+    "music_score": "可编辑配乐工程"
+  }
+}

@@ -1,0 +1,68 @@
+schema: medical_video_fact_library/v1
+topic_id: pcos
+review_status: AI_editorial_candidate_clinical_review_pending
+facts:
+- fact_id: P01
+  claim: 成人排除其他病因后按排卵/雄激素/适用影像或AMH条件评估，单独多囊样形态不确诊。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: P02
+  claim: 青少年要求持续月经异常与高雄激素，超声/AMH不按成人诊断使用。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: P03
+  claim: 稀发停经查妊娠及其他原因，持续无排卵要内膜保护，不孕与非孕目标不同。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: P04
+  claim: 多毛痤疮需尊重并评估其他原因，快速变化需及时评估，药物考虑生育计划。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: P05
+  claim: 体型不是诊断门，代谢评估与生活方式适用于不同体型；无唯一最佳饮食。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: P06
+  claim: 排卵异常不等于必然不孕；多因素生育评估，适用人群促排，未备孕仍需避孕。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: P07
+  claim: 治疗按周期皮肤代谢生育目标及禁忌；二甲双胍非所有人必用或保证生育。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: P08
+  claim: 心理支持为整体照护，警惕治愈/排毒承诺，持续随访可调整。
+  source_refs:
+  - pcos
+  - PCOS2023
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。

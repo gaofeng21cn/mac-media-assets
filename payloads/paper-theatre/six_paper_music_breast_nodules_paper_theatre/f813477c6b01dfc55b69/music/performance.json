@@ -1,0 +1,824 @@
+{
+  "title": "把生活接起来",
+  "source": "original MIDI, locally performed with FluidSynth",
+  "series": "breast_nodules_paper_theatre",
+  "tonic": 48,
+  "tempo": 64,
+  "duration": 56.485082,
+  "soundfont": "/Users/gaofeng/workspace/科普视频/assets/audio/instruments/FluidR3/FluidR3_GM.sf2",
+  "soundfont_sha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0",
+  "license_ref": "assets/audio/instruments/FluidR3/LICENSE.txt",
+  "tracks": [
+    {
+      "id": "bed",
+      "program": 48,
+      "notes": [
+        {
+          "time": 0.35,
+          "pitch": 55,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 0.39,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 0.43,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 3.1625,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 3.2025,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 3.2425,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 5.975,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 6.015,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 6.055,
+          "pitch": 72,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 8.7875,
+          "pitch": 62,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 8.8275,
+          "pitch": 66,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 8.8675,
+          "pitch": 69,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 11.6,
+          "pitch": 55,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 11.64,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 11.68,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 14.4125,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 14.4525,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 14.4925,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 17.225,
+          "pitch": 55,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 17.265,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 17.305,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 20.0375,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 20.0775,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 20.1175,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 22.85,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 22.89,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 22.93,
+          "pitch": 72,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 25.6625,
+          "pitch": 62,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 25.7025,
+          "pitch": 66,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 25.7425,
+          "pitch": 69,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 28.475,
+          "pitch": 55,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 28.515,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 28.555,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 31.2875,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 31.3275,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 31.3675,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 34.1,
+          "pitch": 55,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 34.14,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 34.18,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 36.9125,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 36.9525,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 36.9925,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 39.725,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 39.765,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 39.805,
+          "pitch": 72,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 42.5375,
+          "pitch": 62,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 42.5775,
+          "pitch": 66,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 42.6175,
+          "pitch": 69,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 45.35,
+          "pitch": 55,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 45.39,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 45.43,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 48.1625,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 48.2025,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 48.2425,
+          "pitch": 67,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 50.975,
+          "pitch": 55,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 51.015,
+          "pitch": 60,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 51.055,
+          "pitch": 64,
+          "duration": 2.9531,
+          "velocity": 27
+        },
+        {
+          "time": 53.7875,
+          "pitch": 60,
+          "duration": 1.8976,
+          "velocity": 27
+        },
+        {
+          "time": 53.8275,
+          "pitch": 64,
+          "duration": 1.8576,
+          "velocity": 27
+        },
+        {
+          "time": 53.8675,
+          "pitch": 67,
+          "duration": 1.8176,
+          "velocity": 27
+        },
+        {
+          "time": 53.6851,
+          "pitch": 55,
+          "duration": 2.0,
+          "velocity": 24
+        },
+        {
+          "time": 53.7451,
+          "pitch": 60,
+          "duration": 1.94,
+          "velocity": 24
+        },
+        {
+          "time": 53.8051,
+          "pitch": 64,
+          "duration": 1.88,
+          "velocity": 24
+        },
+        {
+          "time": 53.8651,
+          "pitch": 67,
+          "duration": 1.82,
+          "velocity": 24
+        }
+      ],
+      "midi": "audio/music/bed.mid",
+      "wave": "audio/music/bed.wav"
+    },
+    {
+      "id": "pulse",
+      "program": 24,
+      "notes": [
+        {
+          "time": 0.35,
+          "pitch": 48,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 1.3125,
+          "pitch": 60,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 2.209,
+          "pitch": 67,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 3.1625,
+          "pitch": 53,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 4.125,
+          "pitch": 64,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 5.0215,
+          "pitch": 72,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 5.975,
+          "pitch": 57,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 6.9375,
+          "pitch": 67,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 7.834,
+          "pitch": 76,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 8.7875,
+          "pitch": 55,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 9.75,
+          "pitch": 66,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 11.6,
+          "pitch": 48,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 12.5625,
+          "pitch": 60,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 13.459,
+          "pitch": 69,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 14.4125,
+          "pitch": 53,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 15.375,
+          "pitch": 64,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 16.2715,
+          "pitch": 72,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 17.225,
+          "pitch": 48,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 18.1875,
+          "pitch": 60,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 19.084,
+          "pitch": 67,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 20.0375,
+          "pitch": 53,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 21.0,
+          "pitch": 64,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 22.85,
+          "pitch": 57,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 23.8125,
+          "pitch": 67,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 24.709,
+          "pitch": 76,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 25.6625,
+          "pitch": 55,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 26.625,
+          "pitch": 66,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 27.5215,
+          "pitch": 74,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 28.475,
+          "pitch": 48,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 29.4375,
+          "pitch": 60,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 30.334,
+          "pitch": 69,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 31.2875,
+          "pitch": 53,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 32.25,
+          "pitch": 64,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 34.1,
+          "pitch": 48,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 35.0625,
+          "pitch": 60,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 35.959,
+          "pitch": 67,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 36.9125,
+          "pitch": 53,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 37.875,
+          "pitch": 64,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 38.7715,
+          "pitch": 72,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 39.725,
+          "pitch": 57,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 40.6875,
+          "pitch": 67,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 41.584,
+          "pitch": 76,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 42.5375,
+          "pitch": 55,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 43.5,
+          "pitch": 66,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 45.35,
+          "pitch": 48,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 46.3125,
+          "pitch": 60,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 47.209,
+          "pitch": 69,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 48.1625,
+          "pitch": 53,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 49.125,
+          "pitch": 64,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 50.0215,
+          "pitch": 72,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 50.975,
+          "pitch": 48,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 51.9375,
+          "pitch": 60,
+          "duration": 0.675,
+          "velocity": 30
+        },
+        {
+          "time": 52.834,
+          "pitch": 67,
+          "duration": 0.675,
+          "velocity": 33
+        },
+        {
+          "time": 53.7875,
+          "pitch": 53,
+          "duration": 0.675,
+          "velocity": 37
+        },
+        {
+          "time": 54.75,
+          "pitch": 64,
+          "duration": 0.675,
+          "velocity": 30
+        }
+      ],
+      "midi": "audio/music/pulse.mid",
+      "wave": "audio/music/pulse.wav"
+    },
+    {
+      "id": "motif",
+      "program": 11,
+      "notes": [
+        {
+          "time": 0.6,
+          "pitch": 72,
+          "duration": 0.7,
+          "velocity": 33
+        },
+        {
+          "time": 1.14,
+          "pitch": 76,
+          "duration": 0.7,
+          "velocity": 29
+        },
+        {
+          "time": 1.68,
+          "pitch": 79,
+          "duration": 0.7,
+          "velocity": 30
+        },
+        {
+          "time": 2.22,
+          "pitch": 74,
+          "duration": 1.1,
+          "velocity": 25
+        },
+        {
+          "time": 22.5077,
+          "pitch": 72,
+          "duration": 0.7,
+          "velocity": 33
+        },
+        {
+          "time": 23.0477,
+          "pitch": 76,
+          "duration": 0.7,
+          "velocity": 29
+        },
+        {
+          "time": 23.5877,
+          "pitch": 79,
+          "duration": 0.7,
+          "velocity": 30
+        },
+        {
+          "time": 24.1277,
+          "pitch": 74,
+          "duration": 1.1,
+          "velocity": 25
+        },
+        {
+          "time": 44.3457,
+          "pitch": 72,
+          "duration": 0.7,
+          "velocity": 33
+        },
+        {
+          "time": 44.8857,
+          "pitch": 76,
+          "duration": 0.7,
+          "velocity": 29
+        },
+        {
+          "time": 45.4257,
+          "pitch": 79,
+          "duration": 0.7,
+          "velocity": 30
+        },
+        {
+          "time": 45.9657,
+          "pitch": 74,
+          "duration": 1.1,
+          "velocity": 25
+        }
+      ],
+      "midi": "audio/music/motif.mid",
+      "wave": "audio/music/motif.wav"
+    }
+  ],
+  "listening_review": "pending"
+}
