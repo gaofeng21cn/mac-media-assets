@@ -94,7 +94,7 @@ def main():
   key=x.get('canonical_series_id')
   if key: summary['by_series'][key]=summary['by_series'].get(key,0)+1
  (out/'catalog/sync-readback.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- (out/'catalog/README.md').write_text('# 统一资产登记\n\n`assets.jsonl` 只收录当前可复用候选。历史关键帧、烘焙合图、错误透明、无法独立运动或被替代的版本不进入本仓库；原因写入 README 与覆盖文档，原件不作为库存保留。每行一个资产版本，载荷相对于仓库根；文件校验不签发质量批准。\n',encoding='utf-8')
+ (out/'catalog/README.md').write_text('# 统一资产登记\n\n`assets.jsonl` 登记当前可复用元素，每行一个精确资产版本。真实载荷路径相对于仓库根；来源、许可、部件用途与当前审查范围随记录保管。\n',encoding='utf-8')
  if (out/'contracts/opl_capability_package_manifest.json').is_file():
   from materialize_package import materialize
   materialize(out)

@@ -11,9 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 def materialize(root=ROOT, check=False):
     manifest_path = root / 'contracts/opl_capability_package_manifest.json'
     manifest = json.loads(manifest_path.read_text())
-    paths = sorted(str(path.relative_to(root)) for folder in
-                   ['skills','tools','catalog','collections','schemas','records','payloads','docs']
-                   for path in (root/folder).rglob('*') if path.is_file() and '__pycache__' not in path.parts)
+    paths = sorted(['plugin.json', '.codex-plugin/plugin.json'] +
+                   [str(path.relative_to(root)) for folder in
+                    ['skills','tools','catalog','collections','schemas','records','payloads','docs']
+                    for path in (root/folder).rglob('*') if path.is_file() and '__pycache__' not in path.parts])
     digest = hashlib.sha256()
     for relative in paths:
         encoded = relative.encode()

@@ -3,11 +3,11 @@
   "package_id": "mac-media-assets",
   "display_name": "MAC Media Assets",
   "publisher": "one-person-lab",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "source": "first_party_repo_local",
   "source_repo": "https://github.com/gaofeng21cn/mac-media-assets.git",
   "package_role": "capability_package",
-  "publication_channel_admission": "development_only",
+  "publication_channel_admission": "admitted",
   "schema_ref": "one-person-lab/contracts/opl-framework/capability-package-manifest.schema.json",
   "capability_abi": {
     "id": "mac-media-assets.v1",
@@ -34,7 +34,7 @@
       "kind": "codex_plugin_manager",
       "plugin_selector": "mac-media-assets@mac-media-assets",
       "marketplace_source": "gaofeng21cn/mac-media-assets",
-      "publication_ref": null,
+      "publication_ref": "ghcr.io/gaofeng21cn/one-person-lab-packages/mac-media-assets:latest-stable",
       "executor_route": "codex_cli"
     }
   },
@@ -49,6 +49,7 @@
     "algorithm": "sha256",
     "canonicalization": "ordered_path_length_file_length_bytes",
     "paths": [
+      ".codex-plugin/plugin.json",
       "catalog/README.md",
       "catalog/assets.jsonl",
       "catalog/sync-readback.json",
@@ -577,6 +578,7 @@
       "payloads/paper-theatre/six_paper_thyroid_neck/01644949a5fe8bd8e3c6/evidence/0-generation-receipt.json",
       "payloads/paper-theatre/six_paper_thyroid_neck/01644949a5fe8bd8e3c6/evidence/1-medical-source.yaml",
       "payloads/paper-theatre/six_paper_thyroid_neck/01644949a5fe8bd8e3c6/files/payload.png",
+      "plugin.json",
       "records/paper-theatre/dr_mie_music_motif/18d7b0be5b3313f7a604/record.json",
       "records/paper-theatre/dr_mie_paper_brand_v1/b21d0d1ae935e08807a0/record.json",
       "records/paper-theatre/mac-filmcraft-kit-1-2/888304ad3960c4bf9035/record.json",
@@ -707,6 +709,6 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:3ead12d5fbf83bed7f2f222f36526eb6a67757c15a297dd1e348781a5668b805"
+    "digest": "sha256:6b4f8a9afbb91f715e823729058fbbc876db16f2e42f21a7f9658f04a6ef2813"
   }
 }
