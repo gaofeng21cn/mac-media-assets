@@ -50,6 +50,8 @@ class SemanticDiscoveryTests(unittest.TestCase):
         self.assertEqual({r['source_id'] for r in query(collection='door')},
                          {'reserve_door_frame_v1','reserve_door_leaf_v1'})
         self.assertEqual(query(collection='missing'),[])
+        self.assertIn('mac_sfx_bottle_cap_v1',
+                      {r['source_id'] for r in query(category='sfx',action='旋盖')})
 
     def test_missing_and_scalar_facets_do_not_stop_discovery(self):
         import tempfile,json

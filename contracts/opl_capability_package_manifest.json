@@ -3,7 +3,7 @@
   "package_id": "mac-media-assets",
   "display_name": "MAC Media Assets",
   "publisher": "one-person-lab",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "source": "first_party_repo_local",
   "source_repo": "https://github.com/gaofeng21cn/mac-media-assets.git",
   "package_role": "capability_package",
@@ -728,6 +728,6 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:69ebf8a10217aadbe207f395d99e29bba10d5374224711065314b866d63ca45f"
+    "digest": "sha256:d0ea7e1fedb1514f37f63ceb9d85599340dfa745a95060180eacb57718f0faf3"
   }
 }

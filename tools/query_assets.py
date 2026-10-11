@@ -85,7 +85,8 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
         if category and fields.get('category') != category:
             continue
         for desired, key in [(action, 'actions'), (story_role, 'story_roles')]:
-            if desired and not any(desired.casefold() in str(value).casefold() for value in seq(fields.get(key))):
+            candidates = seq(fields.get(key)) + (seq(fields.get('aliases')) if key == 'actions' else [])
+            if desired and not any(desired.casefold() in str(value).casefold() for value in candidates):
                 break
         else:
             if medium and fields.get('medium') != medium:
