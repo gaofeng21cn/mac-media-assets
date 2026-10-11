@@ -1,0 +1,9 @@
+{
+  "id": "blood_cell",
+  "category": "anatomy",
+  "prompt": "Isolated solid biconcave red blood cell, oblique view, central shallow depression, red paper cutout, no hole. Genuine transparent PNG, no background, no glow, no text. One object.",
+  "path": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-3f88e7fd-b937-4189-8a94-bd76e9e4aa2a.png",
+  "tool": "built_in_imagegen",
+  "medical_review": "pending",
+  "previous_candidate": "rejected_as_donut"
+}

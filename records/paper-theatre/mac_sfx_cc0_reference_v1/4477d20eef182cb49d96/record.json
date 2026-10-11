@@ -1,0 +1,45 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_cc0_reference_v1",
+  "title": "CC0实录：翻页与旋盖",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "cc0"
+  ],
+  "entry": "audio/page-turn-cc0.mp3",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "来源可追溯，进入当前混音前仍需听感审查",
+  "source": {
+    "kind": "external_cc0",
+    "license": "CC0 1.0 per source pages"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/page-turn-cc0.mp3",
+      "role": "payload",
+      "sha256": "41f51725007894483999812091faf74d0d341092c0a24c55c0778fe245ea45f4",
+      "bytes": 15603
+    },
+    {
+      "path": "audio/bottle-cap-cc0.mp3",
+      "role": "payload",
+      "sha256": "41e3e5acff55f6b26ff6a5f1e76d7df4733f1897d1712b1981fac4409add1ca1",
+      "bytes": 71424
+    },
+    {
+      "path": "evidence/sources.json",
+      "role": "evidence",
+      "sha256": "dedf82a51ee61ff9b4e6cd67458e02cd3eb17030d39f7262fbb520605c6f4dcc",
+      "bytes": 558
+    }
+  ],
+  "revision": "4477d20eef182cb49d96"
+}

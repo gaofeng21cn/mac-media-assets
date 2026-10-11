@@ -1,0 +1,44 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_motion_reserve_v1",
+  "title": "纸剧场动作下限：接触/铰接/插入/翻页/姿态/遮挡",
+  "kind": "motion_recipe",
+  "tags": [
+    "reserve_2026_10_11",
+    "motion",
+    "paper_collage"
+  ],
+  "entry": "files/recipes.ts",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作函数提供下限，镜头仍需重写和连续审看",
+  "source": {
+    "kind": "workbench_authored"
+  },
+  "quality_debt": [
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/recipes.ts",
+      "role": "payload",
+      "sha256": "cd09534383e8d5f1bdcc97be7ea4833bf12b0b79305d06955098ac067b20e9be",
+      "bytes": 928
+    },
+    {
+      "path": "files/recipes.json",
+      "role": "evidence",
+      "sha256": "881dbdd7e8882da427d2335b91d80f8d5584a8fd60f29e61b8bd09ff1cc1046e",
+      "bytes": 1370
+    },
+    {
+      "path": "files/README.md",
+      "role": "evidence",
+      "sha256": "5d5c40d54308ee05fea804afd57c336850c77bcdd4f7dabe96a793e91ef2bb28",
+      "bytes": 302
+    }
+  ],
+  "revision": "58d8c39c393df397fa4b"
+}

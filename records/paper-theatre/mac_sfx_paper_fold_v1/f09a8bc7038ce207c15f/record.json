@@ -1,0 +1,51 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_paper_fold_v1",
+  "title": "拟音：paper_fold",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "paper_fold"
+  ],
+  "entry": "audio/paper_fold-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/paper_fold-1.wav",
+      "role": "payload",
+      "sha256": "c02f2a80ad712214bfefa21009cfd35a4dc6683957572e97c09b8930748d0fd2",
+      "bytes": 62444
+    },
+    {
+      "path": "audio/paper_fold-2.wav",
+      "role": "payload",
+      "sha256": "66c157b4b54847bdd8520b180039763a2329a442c5dce63b96e08a7daaa677fc",
+      "bytes": 62444
+    },
+    {
+      "path": "audio/paper_fold-3.wav",
+      "role": "payload",
+      "sha256": "a6417b3217ddefd6ebcb95330f1eeea0290331d62e0989f35cf6892bc5e62e5b",
+      "bytes": 62444
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "ae1366769b21bfd4bd7a352204befb86a319f97224aaca26fd7d614a2eb3d895",
+      "bytes": 349
+    }
+  ],
+  "revision": "f09a8bc7038ce207c15f"
+}

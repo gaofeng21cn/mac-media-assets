@@ -1,0 +1,56 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_liver_v1",
+  "title": "肝脏总览",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "liver"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "总览/与独立胆囊位置校对；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "liver",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    58,
+    1430,
+    1058
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "3c1b387468f97c411bd765c1fcd4a3c86fa64549ddae24da50fac9122e55ebdb",
+      "bytes": 1762339
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "ce8cec307483ea46757704d4a465758a42074ddbbb99f028bfd3d5f71630ff97",
+      "bytes": 1506
+    }
+  ],
+  "revision": "f2c83bbca2a24b3e5dfa"
+}

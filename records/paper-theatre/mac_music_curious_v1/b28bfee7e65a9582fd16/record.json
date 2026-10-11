@@ -1,0 +1,76 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_music_curious_v1",
+  "title": "配乐情绪：curious",
+  "kind": "music_score",
+  "tags": [
+    "reserve_2026_10_11",
+    "music",
+    "curious",
+    "stems"
+  ],
+  "entry": "music/audition.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+  "source": {
+    "kind": "original_midi_fluidsynth",
+    "license": "MIT soundfont; original MIDI"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "music/audition.wav",
+      "role": "payload",
+      "sha256": "51e536d46bc846a563688d20acbf3bb9d2574a063d8bbcdf0cc5effd1028fecd",
+      "bytes": 4964650
+    },
+    {
+      "path": "music/bed.mid",
+      "role": "payload",
+      "sha256": "9856bd6c7786a3c13bbdd9db7f62c68a280d076f83e6b4e1ed2318b09e051cc8",
+      "bytes": 296
+    },
+    {
+      "path": "music/bed.wav",
+      "role": "payload",
+      "sha256": "159538ad7f35b46d8335778f0dfd0a91f3e44a1606cdfd26016eb68ef2db13ee",
+      "bytes": 4964650
+    },
+    {
+      "path": "music/motif.mid",
+      "role": "payload",
+      "sha256": "8338123410e73f723360034884546bbad360acea5fec26275551166ccc83a0a6",
+      "bytes": 149
+    },
+    {
+      "path": "music/motif.wav",
+      "role": "payload",
+      "sha256": "94b30bb867c5ff02e1bfbd25c7a4ea0398499bf0b0e0cadb28b50a18d41955b3",
+      "bytes": 4964650
+    },
+    {
+      "path": "music/performance.json",
+      "role": "evidence",
+      "sha256": "5440f3a7232952eb8b6d8b397e82d9ebb93f062a9864ac648ec8cf44355c92e6",
+      "bytes": 8432
+    },
+    {
+      "path": "music/pulse.mid",
+      "role": "payload",
+      "sha256": "3faf0a37988baef7a85eac5936597bfe23e29398d3fc48e0c6f99b081d367fcd",
+      "bytes": 357
+    },
+    {
+      "path": "music/pulse.wav",
+      "role": "payload",
+      "sha256": "002b5db94f116f56dbcd227cf7201177486cb003465b28f61925a59f8543b664",
+      "bytes": 4964650
+    }
+  ],
+  "revision": "b28bfee7e65a9582fd16"
+}

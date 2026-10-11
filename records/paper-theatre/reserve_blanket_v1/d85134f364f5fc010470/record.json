@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_blanket_v1",
+  "title": "独立折叠被褥",
+  "kind": "environment",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "environment",
+    "blanket"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "覆盖/收纳；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "blanket",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1236,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "e79b92d6263f77be6dffa5952caad065d0f14f4ba8ab975334a2e0364c71a0ef",
+      "bytes": 1973882
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "28f0dfc06b2f6129efc045fdbe5d8b532a435939a43d2b64d0ea2bf3c2e35e86",
+      "bytes": 1235
+    }
+  ],
+  "revision": "d85134f364f5fc010470"
+}

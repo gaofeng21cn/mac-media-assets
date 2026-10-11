@@ -1,0 +1,56 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_islet_v1",
+  "title": "胰岛局部",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "islet"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "微观镜头，非肉眼结构；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "islet",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    23,
+    1238,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "f906a56b2e5721e9ea9df54232e33789546ff319e982f925ef133bed6cdeaf74",
+      "bytes": 2115805
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "5a5438fdd54fd93793bcaeacb566d07938351b744d35e191c49a757ad78ced9f",
+      "bytes": 1536
+    }
+  ],
+  "revision": "1796dcf00ad980856b21"
+}

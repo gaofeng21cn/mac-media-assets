@@ -1,19 +1,19 @@
 {
   "schema": "medical_video_asset_sync/v1",
-  "generated_at": "2026-10-11T02:02:10.144212+00:00",
+  "generated_at": "2026-10-11T08:11:35.771692+00:00",
   "workspace": "/Users/gaofeng/workspace/科普视频",
-  "asset_count": 45,
+  "asset_count": 123,
   "reference_count": 82,
-  "registered_versions": 127,
+  "registered_versions": 205,
   "by_kind": {
-    "audio": 9,
+    "audio": 18,
     "brand": 1,
     "code_component": 3,
-    "image": 22,
-    "environment": 2,
-    "motion_recipe": 3,
+    "motion_recipe": 4,
+    "music_score": 5,
+    "image": 74,
+    "environment": 14,
     "environment_plate": 2,
-    "music_score": 1,
     "medical_cutout": 1,
     "component": 1
   },
@@ -26,7 +26,7 @@
     "ckd_paper_theatre": 3,
     "pcos_paper_theatre": 3
   },
-  "payload_files": 316,
+  "payload_files": 514,
   "preserved_reference_payload_files": 130,
   "repo": "/Users/gaofeng/workspace/mac-media-assets"
 }

@@ -1,0 +1,56 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_blood_cell_v1",
+  "title": "独立红细胞",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "blood_cell"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "独立沿血流轨道运动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "blood_cell",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    23,
+    1236,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "70d1fb624b598f3bd27129a85ddc8485631a7fa448d6d2346af8cb3adb9bd49d",
+      "bytes": 1468440
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "f422966e9b1acb6dcd02404c49cccbebb8dd3c5908dfce7d15cc121532bae4c0",
+      "bytes": 487
+    }
+  ],
+  "revision": "df4a3d00397046b3b7a6"
+}

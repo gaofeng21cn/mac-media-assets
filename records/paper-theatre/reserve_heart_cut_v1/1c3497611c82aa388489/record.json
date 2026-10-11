@@ -1,0 +1,56 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_heart_cut_v1",
+  "title": "心脏四腔切面",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "heart_cut"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "切面替换揭示，不与外观强行像素配准；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "heart_cut",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    33,
+    1238,
+    1231
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "3ae6731c69eaeccb8774e4c8a7e6169b2f9628ced45412a465962032d39526f0",
+      "bytes": 1688856
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "28bdddf80eb9291e35e327ef7ba991bd1f333b889448cd7c951b784b0d45b9e3",
+      "bytes": 1746
+    }
+  ],
+  "revision": "1c3497611c82aa388489"
+}

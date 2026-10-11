@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_notebook_page_v1",
+  "title": "独立空白记录页",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "records",
+    "notebook_page"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "翻页/写入/叠放；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "notebook_page",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    15,
+    1246,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "87d8f6a07417fa70ead60aaecd18e9d7bb572176ba6877e90922fa7d80cd8c59",
+      "bytes": 1990886
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "b2a406f72613fe0e5ccc94df7280ea3b741ebf726bcf9dcfc63f4e390e7825da",
+      "bytes": 1469
+    }
+  ],
+  "revision": "1f2278bcc87208c993c3"
+}

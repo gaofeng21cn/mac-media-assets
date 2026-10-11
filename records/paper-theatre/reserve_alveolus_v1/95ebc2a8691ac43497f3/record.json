@@ -1,0 +1,56 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_alveolus_v1",
+  "title": "肺泡局部",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "alveolus"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "局部放大转换；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "alveolus",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    202,
+    144,
+    821,
+    808
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "48d47aa4b94d26462f5aa88f6f8ab84be4262584b0000015d4be8e88ca9cdc0a",
+      "bytes": 1470380
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "c8db9be2536c5a36153b5854dd0ccb6f2cf5edc6a1127f0143094d07defdfabb",
+      "bytes": 1527
+    }
+  ],
+  "revision": "95ebc2a8691ac43497f3"
+}

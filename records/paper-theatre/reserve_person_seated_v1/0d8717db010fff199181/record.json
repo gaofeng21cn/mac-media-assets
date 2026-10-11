@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_person_seated_v1",
+  "title": "通用人物坐姿",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "character",
+    "person_seated"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "person_seated",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    41,
+    38,
+    996,
+    1492
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "03bbd34bb54d0e7bf598a107fde3c468d9c8d4707b985a3f4e5267d2f1f8820a",
+      "bytes": 1827777
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "f60ba541d0329de3415cbeed9af8b6e758b85bd7c053c7823d2dee652b9eedbc",
+      "bytes": 1691
+    }
+  ],
+  "revision": "0d8717db010fff199181"
+}

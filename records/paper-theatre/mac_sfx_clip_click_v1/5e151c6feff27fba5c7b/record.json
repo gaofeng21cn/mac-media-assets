@@ -1,0 +1,51 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_clip_click_v1",
+  "title": "拟音：clip_click",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "clip_click"
+  ],
+  "entry": "audio/clip_click-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/clip_click-1.wav",
+      "role": "payload",
+      "sha256": "d0f89cf269471f60ba17b1236b635581771f215e5656e0a923d71514bdb191ff",
+      "bytes": 28844
+    },
+    {
+      "path": "audio/clip_click-2.wav",
+      "role": "payload",
+      "sha256": "e46cacff5b2f5e264eceeb560b14fd381b1317c4e9e1409f5652b93e0078c9ab",
+      "bytes": 28844
+    },
+    {
+      "path": "audio/clip_click-3.wav",
+      "role": "payload",
+      "sha256": "a7a0868a9b85c38ca1e6547d01717ee40c6fdccf1cf362688462e6bb23cccac6",
+      "bytes": 28844
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "6f705ffdcd39edc20aec1874b62a60d86c8cffd35ca5700de79b86320676869c",
+      "bytes": 348
+    }
+  ],
+  "revision": "5e151c6feff27fba5c7b"
+}

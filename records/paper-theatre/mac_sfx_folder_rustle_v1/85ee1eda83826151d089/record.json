@@ -1,0 +1,51 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_folder_rustle_v1",
+  "title": "拟音：folder_rustle",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "folder_rustle"
+  ],
+  "entry": "audio/folder_rustle-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/folder_rustle-1.wav",
+      "role": "payload",
+      "sha256": "414aa4c7a8e9a1224bd94cfb4697070a06285c9cb9b6889f0f61dd9b93cd736c",
+      "bytes": 91244
+    },
+    {
+      "path": "audio/folder_rustle-2.wav",
+      "role": "payload",
+      "sha256": "7821556556d22f7cc6fa6a95c95b128d422ef001fc59a0cff3e0e3fa6f1d6399",
+      "bytes": 91244
+    },
+    {
+      "path": "audio/folder_rustle-3.wav",
+      "role": "payload",
+      "sha256": "b914e28acaa1a2f379bc908c76e6bbd78d5292a7f354ecc5fcb88c8c3f3523ff",
+      "bytes": 91244
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "c6a20013bf9d8195e5f1b97c6c7cfa6f372fa3a0a0268d2a72ab069845cb3e69",
+      "bytes": 352
+    }
+  ],
+  "revision": "85ee1eda83826151d089"
+}

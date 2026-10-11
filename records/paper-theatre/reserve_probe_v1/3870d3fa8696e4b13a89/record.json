@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_probe_v1",
+  "title": "独立超声探头",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "monitoring",
+    "probe"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "独立探查接触；无示例读数；不能宣称具体品牌操作教学",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "probe",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    19,
+    1232,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "be03ec3c2cc695aadd485dd5fc705e4f39e2458d05cb01adedf5c4d671310ac2",
+      "bytes": 892487
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "20e64cfa645a0cfdbfd38d2b49d49130bc5380228387f66940446b66a150e729",
+      "bytes": 1475
+    }
+  ],
+  "revision": "3870d3fa8696e4b13a89"
+}

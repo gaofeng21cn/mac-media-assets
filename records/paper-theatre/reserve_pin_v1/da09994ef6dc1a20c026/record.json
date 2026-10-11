@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pin_v1",
+  "title": "独立软木图钉",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "paper",
+    "pin"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "局部固定/揭开/叠贴；影子由舞台产生；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "pin",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    47,
+    25,
+    1234,
+    1240
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "3c57ab6f7a20e9c1b39700c15b43c7dc4bb952bb6df83bd43292225a301eb8ac",
+      "bytes": 887390
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "c562a5a76a1d115cad7f23f7e645673083e70d4c9125762895786565df5276e3",
+      "bytes": 1321
+    }
+  ],
+  "revision": "da09994ef6dc1a20c026"
+}

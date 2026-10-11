@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_chair_v1",
+  "title": "独立木椅",
+  "kind": "environment",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "environment",
+    "chair"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "坐姿支撑；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "chair",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    23,
+    29,
+    1236,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "c8365d28bf1404db216ac1521a502cfa5705c669a0d55c8b53eb067285de1c08",
+      "bytes": 1130714
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "ee2f0aabec2aafcfc9a2f107669b2953587bfe414b84108858db4e2bdb5ef884",
+      "bytes": 1253
+    }
+  ],
+  "revision": "f1812703aa41360f72fc"
+}

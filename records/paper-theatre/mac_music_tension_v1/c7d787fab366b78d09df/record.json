@@ -1,0 +1,76 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_music_tension_v1",
+  "title": "配乐情绪：tension",
+  "kind": "music_score",
+  "tags": [
+    "reserve_2026_10_11",
+    "music",
+    "tension",
+    "stems"
+  ],
+  "entry": "music/audition.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+  "source": {
+    "kind": "original_midi_fluidsynth",
+    "license": "MIT soundfont; original MIDI"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "music/audition.wav",
+      "role": "payload",
+      "sha256": "1bbd626bb9e07ea0cd7406cf4c52f4cbe84fedafa85061ab88b0d7ecc1b6cc37",
+      "bytes": 5842362
+    },
+    {
+      "path": "music/bed.mid",
+      "role": "payload",
+      "sha256": "33ead3e4a565c0a2684a980fb5a3182b6e2e8f1a4881e9dddd41ceede04f5cba",
+      "bytes": 295
+    },
+    {
+      "path": "music/bed.wav",
+      "role": "payload",
+      "sha256": "64904a01ab4db9c05cbdf7f3facf24577e98d76d96e35aacc26e74a80dbf886d",
+      "bytes": 5842362
+    },
+    {
+      "path": "music/motif.mid",
+      "role": "payload",
+      "sha256": "0a870331a3ebe20f2d43439b96efb939ef88e41faade80f8cce864aba8f274f6",
+      "bytes": 148
+    },
+    {
+      "path": "music/motif.wav",
+      "role": "payload",
+      "sha256": "0a25c32072c0cffb65dd88b38475a2195f7586001fd8706ddd51f27be0121c6f",
+      "bytes": 5842362
+    },
+    {
+      "path": "music/performance.json",
+      "role": "evidence",
+      "sha256": "3f39e43a931031ecb3e5ea5e03ad063d5c4bbd7318ae7962568fe80e5a0b5d63",
+      "bytes": 7039
+    },
+    {
+      "path": "music/pulse.mid",
+      "role": "payload",
+      "sha256": "d8dc4ca0944c0c0e9ee57c408948d0e9319a67243f357b900e13f8b1c7e9c3e0",
+      "bytes": 196
+    },
+    {
+      "path": "music/pulse.wav",
+      "role": "payload",
+      "sha256": "3be04d19d95d447632abfc50258cebe092f999da358ba0fce61366194003fdcf",
+      "bytes": 5842362
+    }
+  ],
+  "revision": "c7d787fab366b78d09df"
+}
