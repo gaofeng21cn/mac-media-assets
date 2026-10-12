@@ -742,6 +742,6 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:4981b118b72190c24c3dca2a836e117423f9a445797fb0cb23274dedbda6bead"
+    "digest": "sha256:d3e0a086df391e8b57549f50339631c3d1d3d0183caff857e6e7e5ca0f445902"
   }
 }
