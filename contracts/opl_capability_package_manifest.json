@@ -59,6 +59,7 @@
       "collections/discovery.json",
       "collections/event-kits.json",
       "collections/exclusions.json",
+      "collections/layer-contracts.json",
       "collections/series.json",
       "collections/taxonomy.json",
       "docs/asset-coverage.md",
@@ -123,6 +124,18 @@
       "payloads/paper-theatre/mac-filmcraft-kit-1-2/888304ad3960c4bf9035/tests/motion.test.ts",
       "payloads/paper-theatre/mac-filmcraft-kit-1-2/888304ad3960c4bf9035/tests/scene.test.ts",
       "payloads/paper-theatre/mac-filmcraft-kit-1-2/888304ad3960c4bf9035/tsconfig.json",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/examples/action_gallery/dist/film.js",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/examples/action_gallery/index.html",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/examples/action_gallery/main.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/examples/action_gallery/score.json",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/src/kit/actions.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/src/kit/materials.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/src/kit/motion.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/src/kit/paths.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/src/kit/stage.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/src/kit/tracks.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/src/kit/types.ts",
+      "payloads/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/tests/actions.test.ts",
       "payloads/paper-theatre/mac_bare_arm_v1/199031b83fe2420d595b/evidence/generation-receipt.json",
       "payloads/paper-theatre/mac_bare_arm_v1/199031b83fe2420d595b/files/payload.png",
       "payloads/paper-theatre/mac_contact_runtime_v1/d13fb43bde45ba4ab7c6/USAGE.md",
@@ -591,6 +604,7 @@
       "payloads/paper-theatre/six_paper_thyroid_neck/01644949a5fe8bd8e3c6/files/payload.png",
       "plugin.json",
       "records/paper-theatre/mac-filmcraft-kit-1-2/888304ad3960c4bf9035/record.json",
+      "records/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/record.json",
       "records/paper-theatre/mac_bare_arm_v1/199031b83fe2420d595b/record.json",
       "records/paper-theatre/mac_contact_runtime_v1/d13fb43bde45ba4ab7c6/record.json",
       "records/paper-theatre/mac_left_receive_v1/080b943a5f9d2bb88bba/record.json",
@@ -728,6 +742,6 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:d0ea7e1fedb1514f37f63ceb9d85599340dfa745a95060180eacb57718f0faf3"
+    "digest": "sha256:4981b118b72190c24c3dca2a836e117423f9a445797fb0cb23274dedbda6bead"
   }
 }

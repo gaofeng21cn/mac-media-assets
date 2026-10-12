@@ -40,10 +40,12 @@ def maturity(root, row):
 def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
           usable_for=None, author_id=None, include_author_assets=False,
           category=None, action=None, story_role=None, medium=None,
-          collection=None, maturity_stage=None, include_provenance=False, limit=None):
+          collection=None, maturity_stage=None, layering=None,
+          include_provenance=False, limit=None):
     root = Path(root)
     aliases = load(root / 'collections/series.json', {}).get('aliases', {})
     discovery = load(root / 'collections/discovery.json', {}).get('assets', {})
+    layer_contracts = load(root / 'collections/layer-contracts.json', {}).get('contracts', {})
     taxonomy = load(root / 'collections/taxonomy.json', {}).get('categories', [])
     category_ids = {item['label']: item['id'] for item in taxonomy}
     categories = {item['id']: item['label'] for item in taxonomy}
@@ -78,6 +80,15 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
         if members is not None and row.get('source_id') not in members:
             continue
         fields = dict(mapping(discovery.get(row.get('source_id'), row.get('discovery', {}))))
+        contract = mapping(layer_contracts.get(row.get('source_id')))
+        if contract:
+            fields['layer_contract'] = contract
+            fields['layering'] = contract.get('layering')
+            facets_layer = seq(contract.get('movable_layers')) + seq(contract.get('anchors'))
+            if facets_layer:
+                fields['actions'] = list(dict.fromkeys(seq(fields.get('actions')) + facets_layer))
+        if layering and mapping(layer_contracts.get(row.get('source_id'))).get('layering') != layering:
+            continue
         # Semantic tags can survive a revision; measured geometry cannot.
         if fields.get('geometry_revision') and fields['geometry_revision'] != row.get('revision'):
             fields.pop('visible_bounds', None)
@@ -95,6 +106,9 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
             names = [row.get('title', ''), row.get('source_id', ''), fields.get('display_title', '')] + seq(fields.get('aliases'))
             facets = (seq(row.get('tags')) + seq(fields.get('objects')) + seq(fields.get('topics')) +
                       seq(fields.get('story_roles')) + seq(fields.get('actions')) +
+                      seq(fields.get('layer_contract', {}).get('movable_layers')) +
+                      seq(fields.get('layer_contract', {}).get('anchors')) +
+                      [fields.get('layering', '')] +
                       [categories.get(fields.get('category'), ''), fields.get('usage_notes', ''), record.get('usage_notes', '')])
             primary = '\n'.join(map(str, names)).casefold()
             secondary = '\n'.join(map(str, facets)).casefold()
@@ -126,7 +140,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
 
 def main():
     parser = argparse.ArgumentParser()
-    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id', 'category', 'action', 'story-role', 'medium', 'collection', 'maturity'):
+    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id', 'category', 'action', 'story-role', 'medium', 'collection', 'maturity', 'layering'):
         parser.add_argument('--' + name)
     parser.add_argument('--limit', type=int)
     parser.add_argument('--include-provenance', action='store_true')
@@ -137,13 +151,16 @@ def main():
     rows = query(text=args.query, kind=args.kind, series=args.series, scope=args.scope,
                  usable_for=args.usable_for, author_id=args.author_id, include_author_assets=args.include_author_assets,
                  category=args.category, action=args.action, story_role=args.story_role, medium=args.medium,
-                 collection=args.collection, maturity_stage=args.maturity, include_provenance=args.include_provenance, limit=args.limit)
+                 collection=args.collection, maturity_stage=args.maturity, layering=args.layering,
+                 include_provenance=args.include_provenance, limit=args.limit)
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
     else:
-        print('id\tcategory\ttitle\tmedium\tcurrent_shot')
+        print('id\tcategory\ttitle\tmedium\tlayering\tcurrent_shot')
         for row in rows:
-            print('\t'.join([row['id'], row['discovery'].get('category', '待策展'), row['display_title'], row['discovery'].get('medium', ''), row['maturity']['current_shot']]))
+            print('\t'.join([row['id'], row['discovery'].get('category', '待策展'), row['display_title'],
+                             row['discovery'].get('medium', ''), row['discovery'].get('layering', ''),
+                             row['maturity']['current_shot']]))
 
 
 if __name__ == '__main__':
