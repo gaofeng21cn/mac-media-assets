@@ -2,6 +2,31 @@
   "schema": "mac_event_kits/v1",
   "kits": [
     {
+      "id": "attention_handoff",
+      "title": "注意力交接（指认人物 → 视觉锚点）",
+      "parts": [
+        {
+          "source_id": "reserve_person_pointing_v1",
+          "asset_id": "paper:reserve_person_pointing_v1@fdce21068b193126c246",
+          "role": "指认姿态人物",
+          "revision": "fdce21068b193126c246"
+        }
+      ],
+      "partner": "任意医学结构、监测物件或资料纸件，由当前故事决定",
+      "operations": [
+        "指向旁侧物件",
+        "抬手强调",
+        "锚点接手画面注意力"
+      ],
+      "relationship": "人物与被指物件是两个独立部件；指向端可登记为接触锚点。被指对象不是固定部件，因此这是事件组合而不是部件装配。",
+      "review": {
+        "assembly": "parts_available",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
       "id": "report_handoff",
       "title": "报告交接与归档",
       "parts": [

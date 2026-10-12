@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "empty paper collage kitchen wall and counter",
+  "source_path": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-82cd62b9-d54f-42d1-9596-bf35f0a480a7.png",
+  "measured": {
+    "width": 1448,
+    "height": 1086,
+    "corners": [
+      236,
+      240,
+      241,
+      239
+    ],
+    "bbox": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "opaque_ratio": 0.0024,
+    "translucent_ratio": 0.9976,
+    "is_cutout": false,
+    "halo_suspected": true
+  },
+  "registered_at": "2026-10-12T03:37:24.708904+00:00"
+}

@@ -167,6 +167,13 @@
       "movable_layers": ["floor"],
       "anchors": ["wall_contact", "furniture_contact"],
       "note": "木纹地板，定义家具接地与人物站位；不可用漂浮阴影替代接地。"
+    },
+    "reserve_kitchen_counter_v2": {
+      "layering": "static_backdrop",
+      "static_layers": ["kitchen_wall", "counter_surface"],
+      "movable_layers": [],
+      "anchors": ["counter_front_edge", "counter_surface"],
+      "note": "空白厨房墙面与台面。台面是餐盘、药瓶、量杯的真实接触面，物件落点应对齐此面；不含烘焙道具，可承接独立纸件。需要开合的橱门或窗扇另取单件。"
     }
   }
 }

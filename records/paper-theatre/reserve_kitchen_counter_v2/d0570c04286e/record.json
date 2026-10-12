@@ -1,0 +1,77 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_kitchen_counter_v2",
+  "title": "厨房台面纸景（空工作面）",
+  "kind": "environment_plate",
+  "tags": [
+    "reserve_2026_10_12",
+    "paper_collage",
+    "environment",
+    "kitchen",
+    "counter",
+    "work_surface"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "空白厨房墙面与台面。台面是可承托餐盘、药瓶、量杯的真实接触面；不含烘焙道具，可承接独立纸件。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "reserve_kitchen_counter_v2",
+    "prompt": "empty paper collage kitchen wall and counter"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1448,
+    1086
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1448,
+    "height": 1086,
+    "corners": [
+      236,
+      240,
+      241,
+      239
+    ],
+    "bbox": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "opaque_ratio": 0.0024,
+    "translucent_ratio": 0.9976,
+    "is_cutout": false,
+    "halo_suspected": true
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "revision": "d0570c04286e",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "177c6e862982a6e5c9ade2ede0bc047b01ec82e96f847f301cf0513612fe195d",
+      "bytes": 3165703
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "979da6c1bb300be7f7e33a65c6a72fd14bb3a6e713310072314e243dfab6d15c",
+      "bytes": 592
+    }
+  ]
+}

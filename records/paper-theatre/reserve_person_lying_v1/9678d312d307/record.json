@@ -1,0 +1,77 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_person_lying_v1",
+  "title": "通用人物侧卧姿态（含独立枕头）",
+  "kind": "transparent_subject",
+  "tags": [
+    "reserve_2026_10_12",
+    "paper_collage",
+    "character",
+    "person_lying",
+    "bed_scene",
+    "sleep"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "卧姿纸件自带独立枕头，可与 reserve_bed_v1、reserve_blanket_v1、reserve_pillow_v1 组合完成床上动作。此前 86 集因缺少卧姿而无法实现任何床上动作。通用虚构角色，非品牌医生形象。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "reserve_person_lying_v1",
+    "prompt": "hand-cut paper collage figure lying on her side with pillow; flat white studio background removed by border flood fill"
+  },
+  "content_bounds": [
+    29,
+    318,
+    1417,
+    787
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1448,
+    "height": 1086,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      29,
+      318,
+      1417,
+      787
+    ],
+    "opaque_ratio": 0.2396,
+    "translucent_ratio": 0.0,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "revision": "9678d312d307",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "0c21f2cfa4821b3a50b77fc110ab0a9e8954ab3f875037163cfde3f9e8e60bd8",
+      "bytes": 627611
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "cb97a9e4c593f97a9132886dae1f034a56108fbdf9fc80cda1d9b5b897c07c39",
+      "bytes": 562
+    }
+  ]
+}

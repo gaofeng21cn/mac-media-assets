@@ -2,6 +2,66 @@
   "schema": "mac_asset_assemblies/v1",
   "assemblies": [
     {
+      "id": "kitchen_meal",
+      "title": "厨房备餐（台面 + 餐具与药物）",
+      "parts": [
+        {
+          "source_id": "reserve_kitchen_counter_v2",
+          "role": "空白工作面",
+          "revision": "7e89239e364e80d7af82",
+          "asset_id": "paper:reserve_kitchen_counter_v2@7e89239e364e80d7af82"
+        },
+        {
+          "source_id": "reserve_plate_v1",
+          "role": "餐盘",
+          "revision": "5c367557ca816c92e0c7",
+          "asset_id": "paper:reserve_plate_v1@5c367557ca816c92e0c7"
+        },
+        {
+          "source_id": "reserve_bowl_v1",
+          "role": "碗",
+          "revision": "d3aa5f47ca2b4c059d61",
+          "asset_id": "paper:reserve_bowl_v1@d3aa5f47ca2b4c059d61"
+        },
+        {
+          "source_id": "reserve_cup_v1",
+          "role": "水杯",
+          "revision": "5e179e538433e510c646",
+          "asset_id": "paper:reserve_cup_v1@5e179e538433e510c646"
+        },
+        {
+          "source_id": "reserve_oil_v1",
+          "role": "油容器",
+          "revision": "3825f2cb267e08b1ae84",
+          "asset_id": "paper:reserve_oil_v1@3825f2cb267e08b1ae84"
+        },
+        {
+          "source_id": "reserve_salt_v1",
+          "role": "盐容器",
+          "revision": "a430abd3d6a8c308acfc",
+          "asset_id": "paper:reserve_salt_v1@a430abd3d6a8c308acfc"
+        }
+      ],
+      "operations": [
+        "放置餐盘",
+        "夹取食物",
+        "倒水",
+        "收纳",
+        "推开台面"
+      ],
+      "relationship": "台面是唯一接触面，所有物件底边应对齐台面上沿；容器与餐具不按同一外框缩放。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "timing": "由本集导演决定"
+      },
+      "review": {
+        "assembly": "parts_available",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
       "id": "door",
       "title": "纸门铰接",
       "parts": [
@@ -150,8 +210,14 @@
     },
     {
       "id": "bed",
-      "title": "病房与寝具",
+      "title": "床上情境（卧姿 + 床架 + 寝具）",
       "parts": [
+        {
+          "source_id": "reserve_person_lying_v1",
+          "asset_id": "paper:reserve_person_lying_v1@d2bac5b6b57519f51f5a",
+          "role": "卧姿人物（含枕头）",
+          "revision": "d2bac5b6b57519f51f5a"
+        },
         {
           "source_id": "reserve_bed_v1",
           "asset_id": "paper:reserve_bed_v1@d4b8481a1d71ed758de0",
@@ -169,14 +235,22 @@
           "asset_id": "paper:reserve_blanket_v1@d85134f364f5fc010470",
           "role": "被褥",
           "revision": "d85134f364f5fc010470"
+        },
+        {
+          "source_id": "reserve_curtain_v1",
+          "role": "可拉合揭示的窗帘",
+          "revision": "8eca611dbb6b9296e5ec",
+          "asset_id": "paper:reserve_curtain_v1@8eca611dbb6b9296e5ec"
         }
       ],
       "operations": [
-        "布置",
-        "遮挡",
-        "休息"
+        "躺卧",
+        "盖被",
+        "掀被起身",
+        "拉合窗帘",
+        "枕头移位"
       ],
-      "relationship": "床架定位，枕头和折叠被褥分别叠放；折叠被褥不冒充展开盖被。人物睡姿和展开寝具按镜头另做。",
+      "relationship": "卧姿纸件自带枕头，与备用枕头的比例需统一；被褥覆盖人物时人物层仍需可见。床架定义接地高度。",
       "parameters": {
         "positions": "按当前构图调整",
         "content_scale": "按可见内容和画面重量调整",
@@ -188,7 +262,8 @@
         "continuous_motion": "pending",
         "current_shot": "pending"
       },
-      "locks_story": false
+      "locks_story": false,
+      "note": "此前库存缺少卧姿，床上镜头只能画空床；此组合补上该断点。"
     },
     {
       "id": "room",

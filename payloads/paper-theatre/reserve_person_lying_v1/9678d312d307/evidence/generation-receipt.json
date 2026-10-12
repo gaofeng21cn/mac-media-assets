@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "hand-cut paper collage figure lying on her side with pillow; flat white studio background removed by border flood fill",
+  "source_path": "/private/tmp/cut/lying.png",
+  "measured": {
+    "width": 1448,
+    "height": 1086,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      29,
+      318,
+      1417,
+      787
+    ],
+    "opaque_ratio": 0.2396,
+    "translucent_ratio": 0.0,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-12T03:37:24.663869+00:00"
+}
