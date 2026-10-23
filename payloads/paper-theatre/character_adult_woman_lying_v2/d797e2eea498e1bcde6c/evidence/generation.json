@@ -1,0 +1,61 @@
+{
+  "id": "character_adult_woman_lying_v2",
+  "prompt": "Use case: identity-preserve. Reference 1 is the EXACT identity master. SAME Chinese adult woman with short wavy dark bob, mustard cardigan, cream shirt, teal trousers and cream sneakers. Preserve face, age, hair, garments and paper-collage style. Change only to a COMPLETE horizontal resting supine full-body pose, head at screen LEFT, feet RIGHT, side/three-quarter view, eyes open and calm, both arms visible resting alongside torso, legs extended relaxed, all hair and both shoes within generous margins. Torso, pelvis, back of head and legs share a horizontal support line. NO bed, chair, pillow, blanket or surrounding scene; isolated coherent complete figure on genuine transparent alpha, clean opaque paper interior; no shadow/halo/glow/floor/text/logo/checkerboard. Keep short bob, do not substitute long-haired woman.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "4e20d6cce8c044d253e283ac311ed4a9a01ab4b640b87e9b6a30fcd13b854edc",
+  "measurements": {
+    "size": [
+      1774,
+      887
+    ],
+    "bounds": [
+      43,
+      285,
+      1744,
+      690
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "33d86e60a5478f62c1b86c150a4e244da67d1cfcb9c23f280689efd333b23311",
+  "review": {
+    "selected": true,
+    "role": "adult_woman",
+    "pose": "lying",
+    "aliases": [
+      "成年女性",
+      "短发女性",
+      "同身份卧姿",
+      "仰卧"
+    ],
+    "identity_family": "adult_woman_baseline",
+    "anchors": {
+      "head": {
+        "x": 0.085,
+        "y": 0.46
+      },
+      "body": {
+        "x": 0.5,
+        "y": 0.58
+      },
+      "feet": {
+        "x": 0.94,
+        "y": 0.58
+      },
+      "hand_left": {
+        "x": 0.55,
+        "y": 0.645
+      },
+      "hand_right": {
+        "x": 0.49,
+        "y": 0.445
+      }
+    },
+    "note": "沿原短发、芥黄开衫、奶白内搭和青绿裤母版补仰卧；与长发侧卧为不同人物。整件仰卧无床，需按背部承托线配床；不表示昏迷或病情。"
+  }
+}

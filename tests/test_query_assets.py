@@ -1,10 +1,12 @@
 """Check actual discovery boundaries against the independently stored catalog."""
 import sys
+import json
 from pathlib import Path
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'tools'))
-from query_assets import query
+from query_assets import query, all_catalog_rows
 from sync_from_workbench import public_reusable
+from apply_character_anchors import canonical_revision, apply as apply_anchors
 
 
 class DiscoveryTests(unittest.TestCase):
@@ -53,6 +55,18 @@ class SemanticDiscoveryTests(unittest.TestCase):
         self.assertIn('mac_sfx_bottle_cap_v1',
                       {r['source_id'] for r in query(category='sfx',action='旋盖')})
 
+    def test_cooking_collection_exposes_all_independent_parts(self):
+        self.assertEqual(
+            {r['source_id'] for r in query(collection='cooking_prep')},
+            {
+                'reserve_kitchen_counter_v2', 'reserve_chopping_board_v1',
+                'reserve_kitchen_knife_v1', 'reserve_induction_cooktop_v1',
+                'reserve_frying_pan_v1', 'reserve_wooden_spatula_v1',
+                'reserve_broccoli_v1', 'reserve_oil_v1',
+            },
+        )
+        self.assertEqual(query(asset_id='reserve_thyroid_simple_v1'), [])
+
     def test_missing_and_scalar_facets_do_not_stop_discovery(self):
         import tempfile,json
         from unittest.mock import patch
@@ -64,5 +78,72 @@ class SemanticDiscoveryTests(unittest.TestCase):
         with patch.object(query_assets,'load',side_effect=imperfect):
             self.assertTrue(query(text='磁共振'))
             self.assertTrue(query(text='独立MRI'))
+
+
+class CharacterDiscoveryTests(unittest.TestCase):
+    def test_chinese_pose_alias_and_text_cli_accept_list_medium(self):
+        import subprocess
+        self.assertEqual({r['id'] for r in query(character_role='医生', pose='伸手')},
+                         {r['id'] for r in query(character_role='医生', pose='reach')})
+        root = Path(__file__).resolve().parents[1]
+        result = subprocess.run([sys.executable, str(root/'tools/query_assets.py'),
+                                 '--character-role', '女性医生', '--pose', '坐姿问诊'],
+                                text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn('paper_collage', result.stdout)
+
+    def test_specific_age_roles_do_not_match_substring_aliases(self):
+        adult = query(character_role='成年男性', pose='stand')
+        young = query(character_role='年轻成年男性', pose='stand')
+        self.assertEqual([row['source_id'] for row in adult], ['character_adult_man_stand_v1'])
+        self.assertEqual([row['source_id'] for row in young], ['character_young_man_stand_v1'])
+
+    def test_character_filters_return_one_reviewed_version(self):
+        rows = query(character_role='老年男性', pose='walk')
+        self.assertEqual([row['source_id'] for row in rows], ['character_older_man_walk_v1'])
+        self.assertEqual(len(rows), 1)
+        self.assertTrue(rows[0]['discovery'])
+
+    def test_missing_pose_is_explicitly_empty(self):
+        self.assertEqual(query(character_role='儿童', pose='kneeling'), [])
+
+    def test_default_discovery_prefers_coverage_version_and_exact_history_stays_visible(self):
+        current = query(character_role='成年男性', pose='stand')
+        self.assertEqual(len(current), 1)
+        root = Path(__file__).resolve().parents[1]
+        expected = json.loads((root / 'collections/character-coverage.json').read_text())['roles']['adult_man']['current_assets']['stand']
+        self.assertEqual(current[0]['id'], expected)
+        old = query(asset_id='paper:character_adult_man_stand_v1@0a95ce7392f358c8ed6d')
+        self.assertEqual(len(old), 1)
+        self.assertNotEqual(old[0]['id'], current[0]['id'])
+        by_source = query(asset_id='character_adult_man_stand_v1')
+        self.assertEqual([row['id'] for row in by_source], [current[0]['id']])
+
+    def test_generic_adult_woman_has_complete_contact_anchors(self):
+        rows = query(character_role='成年女性')
+        self.assertTrue(rows)
+        root = Path(__file__).resolve().parents[1]
+        coverage = json.loads((root / 'collections/character-coverage.json').read_text())
+        expected = {asset_id for asset_id in coverage['roles']['adult_woman']['current_assets'].values() if asset_id}
+        self.assertEqual({row['id'] for row in rows}, expected)
+        by_id = {row['id']: row for row in rows}
+        selected = coverage['roles']['adult_woman']['current_assets']
+        for pose in coverage['roles']['adult_woman']['required_poses']:
+            anchors = by_id[selected[pose]]['registration']['anchors']
+            self.assertIn('head', anchors)
+            if pose == 'reach':
+                self.assertTrue(any(key == 'hand' or key.startswith('hand_') for key in anchors))
+
+    def test_current_characters_use_reconstructable_revisions_and_idempotent_anchors(self):
+        root = Path(__file__).resolve().parents[1]
+        targets = json.loads((root / 'collections/character-anchors.json').read_text())['assets']
+        result = apply_anchors(root, check=True)
+        self.assertEqual(result['status'], 'passed')
+        rows = {row['id']: row for row in all_catalog_rows(root)}
+        for source_id, expected in targets.items():
+            row = rows[result['current'][source_id]]
+            record = json.loads((root / row['portable_record']).read_text())
+            self.assertEqual(row['revision'], canonical_revision(record))
+            self.assertEqual(record['registration'], expected)
 
 if __name__=='__main__':unittest.main()

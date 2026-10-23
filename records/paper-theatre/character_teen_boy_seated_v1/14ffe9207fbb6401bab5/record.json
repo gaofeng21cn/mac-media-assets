@@ -1,0 +1,124 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_teen_boy_seated_v1",
+  "title": "男性青少年·坐姿",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "generation_receipt": "evidence/generation.json",
+    "prompt": "Create a normal family-friendly patient education illustration. Reference image shows the same fully clothed fictional Chinese teenage boy. Keep his face, hair, clothes, shoes, age and hand-cut paper illustration style unchanged. Show him sitting upright comfortably on a plain wooden chair, looking attentively toward screen right, hands resting on his trouser-clad knees, both shoes visible on the floor level. The complete person and chair are a single coherent static cutout with generous margins. Entire figure fully clothed exactly as the reference. Transparent alpha background; no surrounding room, words, logos, shadows, glow, other people or multiple poses.",
+    "identity_reference": "evidence/identity-master.png",
+    "identity_reference_sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e"
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    153,
+    27,
+    945,
+    1462
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "Chinese",
+    "expansion_20261023",
+    "teen_boy",
+    "seated"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "男性青少年",
+      "坐姿"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "actions": [
+      "seated"
+    ],
+    "character_role": "teen_boy",
+    "pose": "seated",
+    "identity_family": "teen_boy_cn_20261023",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      153,
+      27,
+      945,
+      1462
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.1
+      },
+      "feet": {
+        "x": 0.71,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.52,
+        "y": 0.54
+      },
+      "hand_right": {
+        "x": 0.76,
+        "y": 0.54
+      },
+      "seat": {
+        "x": 0.335,
+        "y": 0.585
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "reviewed",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "人物与木椅为不可拆静态整件，已核对臀部承托、双手及双鞋；不能去椅、分别运动或冒充连续坐立。",
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "7b7b35c124ab727970e75a1e7fa345897faa66cd9c44570bf42e7db4ee016f3c",
+      "bytes": 2099209
+    },
+    {
+      "path": "evidence/identity-master.png",
+      "role": "evidence",
+      "sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e",
+      "bytes": 1677294
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "d36f3f76803be3f9a1d16c3341687329d55beb2382489ae101c71121d0632566",
+      "bytes": 1875
+    }
+  ],
+  "revision": "14ffe9207fbb6401bab5"
+}

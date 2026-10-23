@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>素材与装配试看</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#ede8de;color:#253b37;font:16px/1.6 system-ui,sans-serif}main{max-width:1040px;margin:auto;padding:28px}h1{font-size:28px;margin:0 0 5px}p{margin:5px 0 18px;color:#53645d}.tools{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}select,button{font:inherit;padding:8px;border:1px solid #b3bcb0;border-radius:6px;background:#faf7ef;color:#253b37}canvas{display:block;width:100%;height:auto;background:#f3eddf;border:1px solid #c4c4b3}input[type=range]{width:min(600px,100%)}#note{min-height:3em}.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:14px;margin-top:24px}.card{font-size:13px;text-align:left;padding:8px;background:#f5f0e5;border:1px solid #d3d1c3;cursor:pointer}.card img{display:block;width:100%;height:155px;object-fit:contain}.phone canvas{max-width:390px;margin:auto}.status{font-size:13px;color:#68736b}button[aria-pressed=true]{background:#2b6358;color:white}a{color:#286354}
+</style>
+<main><h1>素材与装配试看</h1><p>查看同身份姿态、座面接触、报告靠近和结构分层。选择素材后拖动进度；初始静止。</p>
+<div class="tools"><select id="scene" aria-label="素材"></select><select id="mode" aria-label="查看方式"><option value="original">原件</option><option value="seat">椅面试装</option><option value="reach">报告接取试装</option><option value="layers">逐层揭示</option><option value="distant">远景阅读</option></select><button id="phone" aria-pressed="false">手机宽预览</button><button id="dark" aria-pressed="false">深色底</button></div>
+<div id="stage"><canvas id="canvas" width="1280" height="720"></canvas></div>
+<label>装配进度 <input id="progress" type="range" min="0" max="1" step=".001" value="1"></label><span id="position"></span>
+<p id="note"></p><p class="status" id="status"></p><div class="gallery" id="gallery"></div></main>
+<script type="module">
+const $=id=>document.getElementById(id), ctx=$('canvas').getContext('2d');
+const data=await fetch(new URLSearchParams(location.search).get('data')||'reserve-20261023.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
+const cache=new Map();async function load(url){if(!cache.has(url))cache.set(url,new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>reject(Error(url));img.src=url}));return cache.get(url)}
+let selected=data.scenes[0],dark=false;
+for(const scene of data.scenes){const opt=document.createElement('option');opt.value=scene.id;opt.textContent=scene.title;$('scene').append(opt);const card=document.createElement('button');card.className='card';const img=document.createElement('img');img.src=scene.entry;img.alt=scene.title;const title=document.createElement('span');title.textContent=scene.title;card.append(img,title);card.onclick=()=>setScene(scene.id);$('gallery').append(card)}
+function fit(img,bounds,height,center=640,ground=615){const b=bounds||[0,0,img.width,img.height],s=height/(b[3]-b[1]);return {s,x:center-(b[0]+b[2])*.5*s,y:ground-b[3]*s}}
+function draw(img,t){ctx.drawImage(img,t.x,t.y,img.width*t.s,img.height*t.s)}
+async function render(){const scene=selected,mode=$('mode').value,p=+$('progress').value,img=await load(scene.entry);ctx.fillStyle=dark?'#1d514b':'#f1eadb';ctx.fillRect(0,0,1280,720);ctx.save();ctx.strokeStyle=dark?'#65877c':'#c6c6af';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(100,615);ctx.lineTo(1180,615);ctx.stroke();
+if(mode==='layers'&&scene.parts?.length){const size=580,x=350,y=55;for(let i=0;i<scene.parts.length;i++){const part=scene.parts[i],im=await load(part.url);ctx.globalAlpha=Math.max(0,Math.min(1,p*scene.parts.length-i));ctx.drawImage(im,x,y,size,size)}ctx.globalAlpha=1}
+else if(mode==='seat'&&scene.anchors?.seat&&!scene.inseparable){const t=fit(img,scene.bounds,510,635),a=scene.anchors,seat={x:t.x+a.seat.x*img.width*t.s,y:t.y+a.seat.y*img.height*t.s};const chair=await load(data.chair.url),feetY=t.y+(a.feet?.y||.95)*img.height*t.s;
+ const s=(feetY-seat.y)/(chair.height*(data.chair.feet.y-data.chair.seat.y));draw(chair,{s,x:seat.x-data.chair.seat.x*chair.width*s,y:seat.y-data.chair.seat.y*chair.height*s});draw(img,t)}
+else if(mode==='reach'&&scene.anchors?.hand_right){const t=fit(img,scene.bounds,520,500),a=scene.anchors.hand_right;const x=t.x+a.x*img.width*t.s,y=t.y+a.y*img.height*t.s;const paper=await load(data.report.url);const b=data.report.bounds,w=150,s=w/(b[2]-b[0]);ctx.save();ctx.translate(x+180*(1-p),y);ctx.rotate(-.08);ctx.drawImage(paper,-b[0]*s-45,-b[3]*s,paper.width*s,paper.height*s);ctx.restore();draw(img,t)}
+else {const h=mode==='distant'?150:scene.opaque?540:530;const t=fit(img,scene.bounds,h);draw(img,t)}
+ctx.restore();$('note').textContent=scene.note;$('position').textContent=Math.round(p*100)+'%';$('status').textContent=scene.id+' · '+scene.revision+' · '+(mode==='layers'?'共同原点叠层':'按实际内容边界试装');return {scene:scene.id,mode,parts:scene.parts?.length||1}}
+async function setScene(id){selected=data.scenes.find(x=>x.id===id);if(!selected)throw Error('unknown scene');$('scene').value=id;return render()}
+$('scene').onchange=()=>setScene($('scene').value);$('mode').onchange=render;$('progress').oninput=render;$('phone').onclick=()=>{$('stage').classList.toggle('phone');$('phone').setAttribute('aria-pressed',$('stage').classList.contains('phone'));};$('dark').onclick=()=>{dark=!dark;$('dark').setAttribute('aria-pressed',dark);render()};
+window.sampleApi={setScene,setMode:async mode=>{$('mode').value=mode;return render()},seek:async p=>{$('progress').value=p;return render()},data,render};await render();window.sampleReady=true;
+</script></html>

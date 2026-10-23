@@ -2,52 +2,159 @@
   "schema": "mac_asset_discovery/v1",
   "assets": {
     "reserve_person_lying_v1": {
-     "category": "characters",
-     "display_title": "通用人物侧卧姿态（含枕头）",
-     "aliases": ["卧姿", "躺姿", "侧卧", "睡姿", "床上", "休息", "睡眠", "recovery", "lying", "rest", "bed"],
-     "objects": ["通用人物侧卧姿态", "枕头", "卧姿", "床上人物"],
-     "topics": ["睡眠", "术后恢复", "居家休息"],
-     "story_roles": ["床上情境承接", "症状时间跨度", "休息与恢复"],
-     "actions": ["躺卧", "侧卧", "枕靠", "盖被", "起身前的准备"],
-     "medium": "cutout",
-     "style": ["paper_collage"],
-     "material": "纤维纸/手绘剪贴",
-     "renderers": ["canvas2d", "svg", "remotion-dom"],
-     "usage_notes": "与床架、被褥、枕头组合完成床上动作；此前库存缺少卧姿导致床上镜头无法实现。通用虚构角色，非品牌医生形象。",
-     "view": "与 reserve_bed_v1 / reserve_blanket_v1 / reserve_pillow_v1 组合后按当前镜头选择",
-     "compatibility": {"params": "可调整；content bounds 与接触点不固定画面构图", "dependencies": "透明纸件，可供多种后端使用"}
+      "actions": [
+        "躺卧",
+        "侧卧",
+        "枕靠",
+        "盖被",
+        "起身前的准备"
+      ],
+      "aliases": [
+        "卧姿",
+        "躺姿",
+        "侧卧",
+        "睡姿",
+        "床上",
+        "休息",
+        "睡眠",
+        "recovery",
+        "lying",
+        "rest",
+        "bed"
+      ],
+      "category": "characters",
+      "compatibility": {
+        "dependencies": "透明纸件，可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      },
+      "display_title": "通用人物侧卧姿态（含枕头）",
+      "material": "纤维纸/手绘剪贴",
+      "medium": "cutout",
+      "objects": [
+        "通用人物侧卧姿态",
+        "枕头",
+        "卧姿",
+        "床上人物"
+      ],
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom"
+      ],
+      "story_roles": [
+        "床上情境承接",
+        "症状时间跨度",
+        "休息与恢复"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "topics": [
+        "睡眠",
+        "术后恢复",
+        "居家休息"
+      ],
+      "usage_notes": "与床架、被褥、枕头组合完成床上动作；此前库存缺少卧姿导致床上镜头无法实现。通用虚构角色，非品牌医生形象。",
+      "view": "与 reserve_bed_v1 / reserve_blanket_v1 / reserve_pillow_v1 组合后按当前镜头选择"
     },
     "reserve_person_pointing_v1": {
-     "category": "characters",
-     "display_title": "通用人物指认讲解姿态",
-     "aliases": ["指认", "指向", "讲解", "说明", "指示", "pointing", "explaining", "gesture"],
-     "objects": ["通用人物指认姿态", "指向的手", "讲解人物"],
-     "topics": ["患者教育", "说明与指认"],
-     "story_roles": ["把注意力交给视觉锚点", "讲解与强调"],
-     "actions": ["指向旁侧物件", "抬手强调", "引导视线"],
-     "medium": "cutout",
-     "style": ["paper_collage"],
-     "material": "纤维纸/手绘剪贴",
-     "renderers": ["canvas2d", "svg", "remotion-dom"],
-     "usage_notes": "指向一个具体纸件，把观众视线交给它；不是抽象讲解姿势。通用虚构角色，非品牌医生形象。",
-     "view": "与任意视觉锚点配对，按当前镜头选择",
-     "compatibility": {"params": "可调整；指向端可登记为接触锚点", "dependencies": "透明纸件，可供多种后端使用"}
+      "category": "characters",
+      "display_title": "通用人物指认讲解姿态",
+      "aliases": [
+        "指认",
+        "指向",
+        "讲解",
+        "说明",
+        "指示",
+        "pointing",
+        "explaining",
+        "gesture"
+      ],
+      "objects": [
+        "通用人物指认姿态",
+        "指向的手",
+        "讲解人物"
+      ],
+      "topics": [
+        "患者教育",
+        "说明与指认"
+      ],
+      "story_roles": [
+        "把注意力交给视觉锚点",
+        "讲解与强调"
+      ],
+      "actions": [
+        "指向旁侧物件",
+        "抬手强调",
+        "引导视线"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "svg",
+        "remotion-dom"
+      ],
+      "usage_notes": "指向一个具体纸件，把观众视线交给它；不是抽象讲解姿势。通用虚构角色，非品牌医生形象。",
+      "view": "与任意视觉锚点配对，按当前镜头选择",
+      "compatibility": {
+        "params": "可调整；指向端可登记为接触锚点",
+        "dependencies": "透明纸件，可供多种后端使用"
+      }
     },
     "reserve_kitchen_counter_v2": {
-     "category": "stage",
-     "display_title": "厨房台面纸景（空工作面）",
-     "aliases": ["厨房", "台面", "灶台边", "操作台", "备餐", "kitchen", "counter", "worktop", "备餐台"],
-     "objects": ["厨房墙面", "台面", "工作面"],
-     "topics": ["饮食与用药", "家庭厨房", "备餐"],
-     "story_roles": ["生活方式承接", "餐盘与药瓶的真实承托面"],
-     "actions": ["放置餐盘", "摆出药瓶", "倒水", "夹取食物", "收纳"],
-     "medium": "paper_scene",
-     "style": ["paper_collage"],
-     "material": "纤维纸/手绘剪贴",
-     "renderers": ["canvas2d", "remotion-dom"],
-     "usage_notes": "空白台面，不含烘焙道具，可承接独立纸件；台面高度即物件接触面。",
-     "view": "与餐盘、食物、药瓶、量杯组合，按当前镜头选择",
-     "compatibility": {"params": "整幅环境板不计入主体包围盒", "dependencies": "静态舞台层；需要开合的物件另取单件"}
+      "category": "stage",
+      "display_title": "厨房台面纸景（空工作面）",
+      "aliases": [
+        "厨房",
+        "台面",
+        "灶台边",
+        "操作台",
+        "备餐",
+        "kitchen",
+        "counter",
+        "worktop",
+        "备餐台"
+      ],
+      "objects": [
+        "厨房墙面",
+        "台面",
+        "工作面"
+      ],
+      "topics": [
+        "饮食与用药",
+        "家庭厨房",
+        "备餐"
+      ],
+      "story_roles": [
+        "生活方式承接",
+        "餐盘与药瓶的真实承托面"
+      ],
+      "actions": [
+        "放置餐盘",
+        "摆出药瓶",
+        "倒水",
+        "夹取食物",
+        "收纳"
+      ],
+      "medium": "paper_scene",
+      "style": [
+        "paper_collage"
+      ],
+      "material": "纤维纸/手绘剪贴",
+      "renderers": [
+        "canvas2d",
+        "remotion-dom"
+      ],
+      "usage_notes": "空白台面，不含烘焙道具，可承接独立纸件；台面高度即物件接触面。",
+      "view": "与餐盘、食物、药瓶、量杯组合，按当前镜头选择",
+      "compatibility": {
+        "params": "整幅环境板不计入主体包围盒",
+        "dependencies": "静态舞台层；需要开合的物件另取单件"
+      }
     },
     "mac-filmcraft-kit-1-2": {
       "category": "motion",
@@ -3596,8 +3703,9 @@
       "geometry_revision": "0d1ea9719816e248ad1c"
     },
     "reserve_person_reach_v1": {
-      "category": "characters",
-      "display_title": "通用人物接触姿态",
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
       "aliases": [
         "人物",
         "伸手",
@@ -3606,6 +3714,16 @@
         "reach",
         "person reach"
       ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "category": "characters",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      },
+      "display_title": "通用人物接触姿态",
+      "geometry_revision": "06699488519265d1f09e",
+      "material": "纤维纸/手绘剪贴",
+      "medium": "cutout",
       "objects": [
         "通用人物接触姿态",
         "人物",
@@ -3614,47 +3732,37 @@
         "拿取",
         "reach"
       ],
-      "topics": [],
-      "story_roles": [
-        "人物反应",
-        "接触物件"
+      "original_image_size": [
+        1024,
+        1536
       ],
-      "actions": [
-        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
-      ],
-      "medium": "cutout",
-      "style": [
-        "paper_collage"
-      ],
-      "material": "纤维纸/手绘剪贴",
       "renderers": [
         "canvas2d",
         "svg",
         "remotion-dom",
         "webgl-three"
       ],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "topics": [],
       "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
       "view": "按当前镜头选择",
-      "compatibility": {
-        "params": "可调整；content bounds 与接触点不固定画面构图",
-        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      },
       "visible_bounds": [
         277,
         20,
         851,
         1514
-      ],
-      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "original_image_size": [
-        1024,
-        1536
-      ],
-      "geometry_revision": "06699488519265d1f09e"
+      ]
     },
     "reserve_person_seated_v1": {
-      "category": "characters",
-      "display_title": "通用人物坐姿",
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
       "aliases": [
         "人物",
         "患者",
@@ -3663,6 +3771,16 @@
         "seated",
         "person seated"
       ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "category": "characters",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      },
+      "display_title": "通用人物坐姿",
+      "geometry_revision": "0d8717db010fff199181",
+      "material": "纤维纸/手绘剪贴",
+      "medium": "cutout",
       "objects": [
         "通用人物坐姿",
         "人物",
@@ -3671,43 +3789,32 @@
         "坐下",
         "seated"
       ],
-      "topics": [],
-      "story_roles": [
-        "人物反应",
-        "接触物件"
+      "original_image_size": [
+        1024,
+        1536
       ],
-      "actions": [
-        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
-      ],
-      "medium": "cutout",
-      "style": [
-        "paper_collage"
-      ],
-      "material": "纤维纸/手绘剪贴",
       "renderers": [
         "canvas2d",
         "svg",
         "remotion-dom",
         "webgl-three"
       ],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "topics": [],
       "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
       "view": "按当前镜头选择",
-      "compatibility": {
-        "params": "可调整；content bounds 与接触点不固定画面构图",
-        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      },
       "visible_bounds": [
         164,
         42,
         881,
         1489
-      ],
-      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "original_image_size": [
-        1024,
-        1536
-      ],
-      "geometry_revision": "0d8717db010fff199181"
+      ]
     },
     "reserve_person_side_v1": {
       "category": "characters",
@@ -3763,8 +3870,9 @@
       "geometry_revision": "b0c0805e327702792c91"
     },
     "reserve_person_stand_v1": {
-      "category": "characters",
-      "display_title": "通用人物正面站姿",
+      "actions": [
+        "整体定位/角色母版；通用虚构角色，非医生品牌"
+      ],
       "aliases": [
         "人物",
         "患者",
@@ -3772,6 +3880,16 @@
         "standing",
         "person stand"
       ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "category": "characters",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      },
+      "display_title": "通用人物正面站姿",
+      "geometry_revision": "e84a56ed2a70394297d2",
+      "material": "纤维纸/手绘剪贴",
+      "medium": "cutout",
       "objects": [
         "通用人物正面站姿",
         "人物",
@@ -3779,47 +3897,37 @@
         "站立",
         "standing"
       ],
-      "topics": [],
-      "story_roles": [
-        "人物反应",
-        "接触物件"
+      "original_image_size": [
+        1024,
+        1536
       ],
-      "actions": [
-        "整体定位/角色母版；通用虚构角色，非医生品牌"
-      ],
-      "medium": "cutout",
-      "style": [
-        "paper_collage"
-      ],
-      "material": "纤维纸/手绘剪贴",
       "renderers": [
         "canvas2d",
         "svg",
         "remotion-dom",
         "webgl-three"
       ],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "topics": [],
       "usage_notes": "整体定位/角色母版；通用虚构角色，非医生品牌",
       "view": "按当前镜头选择",
-      "compatibility": {
-        "params": "可调整；content bounds 与接触点不固定画面构图",
-        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      },
       "visible_bounds": [
         331,
         29,
         695,
         1507
-      ],
-      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "original_image_size": [
-        1024,
-        1536
-      ],
-      "geometry_revision": "e84a56ed2a70394297d2"
+      ]
     },
     "reserve_person_walk_v1": {
-      "category": "characters",
-      "display_title": "通用人物步行姿态",
+      "actions": [
+        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
+      ],
       "aliases": [
         "人物",
         "行走",
@@ -3827,6 +3935,16 @@
         "walk",
         "person walk"
       ],
+      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
+      "category": "characters",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      },
+      "display_title": "通用人物步行姿态",
+      "geometry_revision": "bfd14a6e821ae1093957",
+      "material": "纤维纸/手绘剪贴",
+      "medium": "cutout",
       "objects": [
         "通用人物步行姿态",
         "人物",
@@ -3834,43 +3952,32 @@
         "运动",
         "walk"
       ],
-      "topics": [],
-      "story_roles": [
-        "人物反应",
-        "接触物件"
+      "original_image_size": [
+        1254,
+        1254
       ],
-      "actions": [
-        "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆"
-      ],
-      "medium": "cutout",
-      "style": [
-        "paper_collage"
-      ],
-      "material": "纤维纸/手绘剪贴",
       "renderers": [
         "canvas2d",
         "svg",
         "remotion-dom",
         "webgl-three"
       ],
+      "story_roles": [
+        "人物反应",
+        "接触物件"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "topics": [],
       "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
       "view": "按当前镜头选择",
-      "compatibility": {
-        "params": "可调整；content bounds 与接触点不固定画面构图",
-        "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      },
       "visible_bounds": [
         254,
         24,
         1003,
         1218
-      ],
-      "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "original_image_size": [
-        1254,
-        1254
-      ],
-      "geometry_revision": "bfd14a6e821ae1093957"
+      ]
     },
     "reserve_pillbox_v1": {
       "category": "care",
@@ -5978,6 +6085,2161 @@
         "params": "动作参数由单集导演稿决定；纯函数解算器支持随机 seek"
       },
       "usage_notes": "提供动作下限，不固定构图、故事或镜头数。"
+    },
+    "character_pregnant_woman_stand_v1": {
+      "actions": [
+        "站立",
+        "倾听",
+        "轻扶腹部"
+      ],
+      "aliases": [
+        "孕妇",
+        "怀孕",
+        "孕期",
+        "产妇",
+        "备孕",
+        "pregnant",
+        "pregnancy"
+      ],
+      "category": "characters",
+      "display_title": "孕妇完整站姿",
+      "medium": "cutout",
+      "objects": [
+        "完整孕妇人物"
+      ],
+      "story_roles": [
+        "孕期沟通",
+        "备孕咨询",
+        "产科衔接"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整全身孕妇，不做几何拼人；当前镜头仍需核对身份、尺度和遮挡。"
+    },
+    "character_pregnant_woman_seated_v1": {
+      "actions": [
+        "坐下",
+        "倾听",
+        "轻扶腹部"
+      ],
+      "aliases": [
+        "孕妇",
+        "怀孕",
+        "孕期",
+        "坐姿",
+        "产检",
+        "pregnant seated"
+      ],
+      "category": "characters",
+      "display_title": "孕妇完整坐姿",
+      "medium": "cutout",
+      "objects": [
+        "完整孕妇人物"
+      ],
+      "story_roles": [
+        "产检沟通",
+        "坐姿休息",
+        "孕期计划"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整全身孕妇，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。"
+    },
+    "character_older_woman_stand_v1": {
+      "actions": [
+        "站立",
+        "倾听",
+        "查看资料"
+      ],
+      "aliases": [
+        "老人",
+        "老年",
+        "老年女性",
+        "老太太",
+        "银发",
+        "older woman",
+        "elderly"
+      ],
+      "category": "characters",
+      "display_title": "老年女性完整站姿",
+      "medium": "cutout",
+      "objects": [
+        "完整老年女性人物"
+      ],
+      "story_roles": [
+        "老年患者",
+        "家庭支持者",
+        "长期管理"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整老年女性，年龄表达靠面部与发型，不做脆弱化漫画。"
+    },
+    "character_older_man_walk_v1": {
+      "actions": [
+        "步行",
+        "活动",
+        "停留"
+      ],
+      "aliases": [
+        "老人",
+        "老年",
+        "老年男性",
+        "老年步行",
+        "银发",
+        "older man",
+        "walk"
+      ],
+      "category": "characters",
+      "display_title": "老年男性完整步行姿态",
+      "medium": "cutout",
+      "objects": [
+        "完整老年男性人物"
+      ],
+      "story_roles": [
+        "老年患者",
+        "日常活动",
+        "长期管理"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整老年男性步行姿态，可整体位移；当前镜头仍需核对脚底接触。"
+    },
+    "character_child_girl_stand_v1": {
+      "actions": [
+        "站立",
+        "倾听",
+        "伸手"
+      ],
+      "aliases": [
+        "儿童",
+        "小孩",
+        "孩子",
+        "女童",
+        "小女孩",
+        "child",
+        "girl"
+      ],
+      "category": "characters",
+      "display_title": "儿童女性完整站姿",
+      "medium": "cutout",
+      "objects": [
+        "完整儿童人物"
+      ],
+      "story_roles": [
+        "儿童患者",
+        "家庭情境",
+        "年龄差异"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整儿童女性，采用儿童比例；不能把成人素材等比缩小冒充儿童。"
+    },
+    "character_clinician_woman_stand_v1": {
+      "actions": [
+        "讲解",
+        "邀请观看",
+        "侧身指向"
+      ],
+      "aliases": [
+        "医生",
+        "女医生",
+        "医生讲解",
+        "门诊",
+        "会诊",
+        "physician",
+        "clinician"
+      ],
+      "category": "characters",
+      "display_title": "女性医生完整讲解站姿",
+      "medium": "cutout",
+      "objects": [
+        "完整女性医生人物"
+      ],
+      "story_roles": [
+        "门诊沟通",
+        "解释医学关系",
+        "共同决策"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。"
+    },
+    "character_clinician_man_stand_v1": {
+      "actions": [
+        "讲解",
+        "邀请观看",
+        "侧身指向"
+      ],
+      "aliases": [
+        "医生",
+        "男医生",
+        "医生讲解",
+        "门诊",
+        "会诊",
+        "physician",
+        "clinician"
+      ],
+      "category": "characters",
+      "display_title": "男性医生完整讲解站姿",
+      "medium": "cutout",
+      "objects": [
+        "完整男性医生人物"
+      ],
+      "story_roles": [
+        "门诊沟通",
+        "解释医学关系",
+        "共同决策"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。"
+    },
+    "character_adult_man_seated_v1": {
+      "actions": [
+        "坐下",
+        "倾听",
+        "双手放膝"
+      ],
+      "aliases": [
+        "患者",
+        "男患者",
+        "成年男性",
+        "坐姿",
+        "门诊",
+        "patient seated",
+        "adult man"
+      ],
+      "category": "characters",
+      "display_title": "成年男性患者完整坐姿",
+      "medium": "cutout",
+      "objects": [
+        "完整成年男性患者人物"
+      ],
+      "story_roles": [
+        "门诊患者",
+        "坐姿沟通",
+        "检查准备"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整男性患者，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。"
+    },
+    "character_teen_girl_stand_v1": {
+      "actions": [
+        "站立",
+        "倾听",
+        "交叠双手"
+      ],
+      "aliases": [
+        "青少年",
+        "少女",
+        "青春期",
+        "未成年患者",
+        "teen",
+        "adolescent",
+        "teenage girl"
+      ],
+      "category": "characters",
+      "display_title": "青少年女性完整站姿",
+      "medium": "cutout",
+      "objects": [
+        "完整青少年女性人物"
+      ],
+      "story_roles": [
+        "青少年患者",
+        "青春期沟通",
+        "年龄差异"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整青少年女性，儿童与成人之间的年龄比例；当前镜头仍需复核身份、尺度、遮挡和接触。"
+    },
+    "character_adult_man_stand_v1": {
+      "actions": [
+        "站立",
+        "倾听",
+        "等待"
+      ],
+      "aliases": [
+        "男性患者",
+        "成年男性",
+        "男患者",
+        "男性",
+        "adult man",
+        "male patient"
+      ],
+      "category": "characters",
+      "display_title": "成年男性完整站姿",
+      "medium": "cutout",
+      "objects": [
+        "完整成年男性人物"
+      ],
+      "story_roles": [
+        "男性患者",
+        "男性家属",
+        "成人情境"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整成年男性纸剪贴人物；来源为既有项目已使用素材，当前镜头仍需复核身份、尺度、接触和遮挡。"
+    },
+    "male_patient_walk_20261023": {
+      "category": "characters",
+      "display_title": "中年男性完整行走姿态（绿衬衫、锈红裤，单幅）",
+      "aliases": [
+        "male_patient_walk_20261023",
+        "男性步行",
+        "中年男性",
+        "男性患者",
+        "绿衬衫",
+        "锈红长裤",
+        "male walking",
+        "行走姿态"
+      ],
+      "objects": [
+        "中年男性完整行走姿态（绿衬衫、锈红裤，单幅）"
+      ],
+      "actions": [
+        "整件移动",
+        "行走姿态切换"
+      ],
+      "story_roles": [
+        "日常活动",
+        "步行情境",
+        "生活方式"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "只有一幅行走中间姿态，不是连续步态或可独立活动的肢体。；整件平移须保持鞋底、地面与投影一致；跨姿态需另审身份和体量。；不从外貌判断疾病或活动能力。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        219,
+        35,
+        895,
+        1464
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_man",
+      "pose": "walk",
+      "master_id": "character_adult_man_stand_v1"
+    },
+    "character_adult_man_upper_abdomen_stool_v1": {
+      "category": "characters",
+      "display_title": "成年男性扶上腹完整坐姿与木凳整件",
+      "aliases": [
+        "character_adult_man_upper_abdomen_stool_v1",
+        "上腹不适",
+        "扶上腹",
+        "扶肚子",
+        "双手上腹",
+        "男性坐姿",
+        "木凳整件",
+        "upper abdomen seated"
+      ],
+      "objects": [
+        "成年男性扶上腹完整坐姿与木凳整件"
+      ],
+      "actions": [
+        "整体摆放",
+        "不适情境呈现"
+      ],
+      "story_roles": [
+        "表达上腹不适",
+        "就医情境"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "人物、双手与木凳烘焙为单层整件，不可独立移动木凳或拆手。；两手已在上腹，不能再叠第三只手；凳脚与鞋底有透视前后，不强行压成一条线。；上腹不适不是特定疾病诊断，不表示胰腺炎。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        143,
+        42,
+        945,
+        1490
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_man",
+      "pose": "seated_upper_abdomen_stool",
+      "master_id": "character_adult_man_seated_v1"
+    },
+    "character_older_brother_stand_v1": {
+      "category": "characters",
+      "display_title": "中老年男性家属完整站姿（眼镜、蓝衬衫）",
+      "aliases": [
+        "character_older_brother_stand_v1",
+        "男性家属",
+        "兄长",
+        "哥哥",
+        "中老年男性",
+        "蓝衬衫",
+        "眼镜男性",
+        "older brother"
+      ],
+      "objects": [
+        "中老年男性家属完整站姿（眼镜、蓝衬衫）"
+      ],
+      "actions": [
+        "整体站立",
+        "倾听情境"
+      ],
+      "story_roles": [
+        "家庭关系",
+        "家族史",
+        "家属陪同"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "这是不同于绿衬衫患者的独立人物，不作为其换装或同人新姿态。；中老年外观只作普通家属角色，不用来推定疾病、遗传关系或固定年龄。；双手自然下垂，未准备接取或持物姿态；只是一幅站姿。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        273,
+        25,
+        753,
+        1510
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_man",
+      "pose": "stand_family",
+      "master_id": "character_older_brother_stand_v1"
+    },
+    "abpm_patient_20261023": {
+      "category": "characters",
+      "display_title": "女性动态血压监测完整站姿（已佩戴状态）",
+      "aliases": [
+        "abpm_patient_20261023",
+        "动态血压",
+        "日夜监测",
+        "上臂袖带",
+        "腰侧记录器",
+        "ABPM",
+        "已佩戴",
+        "女性站姿"
+      ],
+      "objects": [
+        "女性动态血压监测完整站姿（已佩戴状态）"
+      ],
+      "actions": [
+        "完整人物呈现",
+        "同源局部近景"
+      ],
+      "story_roles": [
+        "动态血压监测",
+        "日夜记录",
+        "检查佩戴状态"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "人物与袖带、软管、记录器烘焙为单层，只呈现已佩戴状态，不演示穿戴步骤。；不示范按钮操作、具体设备型号或屏幕数字诊断；需要独立操作时另备部件。；局部近景须保留袖带—软管—腰夹的真实连续关系；全身小图只作佩戴身份提示。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        277,
+        12,
+        805,
+        1512
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_woman",
+      "pose": "stand_abpm",
+      "master_id": "beige_sweater_bun_patient"
+    },
+    "male_patient_seated_identity_20261023": {
+      "category": "characters",
+      "display_title": "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）",
+      "aliases": [
+        "male_patient_seated_identity_20261023",
+        "男性坐姿",
+        "同身份坐姿",
+        "浅绿衬衫",
+        "砖红裤",
+        "男性患者",
+        "male seated"
+      ],
+      "objects": [
+        "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）"
+      ],
+      "actions": [
+        "坐姿摆放",
+        "完整姿态切换"
+      ],
+      "story_roles": [
+        "坐姿沟通",
+        "运动准备",
+        "坐下休息"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "原件朝画面左侧；镜像时头、手、臀部及脚底锚点须一起变换。；本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。；单幅坐姿不提供坐下起身过渡帧或连续动作。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        133,
+        38,
+        870,
+        1477
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_man",
+      "pose": "seated",
+      "master_id": "character_adult_man_stand_v1"
+    },
+    "reserve_thyroid_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "甲状腺",
+        "远景简化"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_thyroid_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "甲状腺",
+        "配准分层"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_kidney_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肾脏",
+        "远景简化"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_kidney_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肾脏",
+        "配准分层"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_artery_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "动脉壁",
+        "远景简化"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_artery_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "动脉壁",
+        "配准分层"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "character_adult_man_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "成年男性",
+        "步行"
+      ],
+      "actions": [
+        "walk",
+        "步行"
+      ],
+      "character_role": "adult_man",
+      "identity_family": "adult_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_adult_man_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "成年男性",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "adult_man",
+      "identity_family": "adult_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_clinician_man_seated_consult_v1": {
+      "category": "characters",
+      "aliases": [
+        "男性医生",
+        "坐姿问诊"
+      ],
+      "actions": [
+        "seated_consult",
+        "坐姿问诊"
+      ],
+      "character_role": "clinician_man",
+      "identity_family": "clinician_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_clinician_woman_stand_v2": {
+      "category": "characters",
+      "aliases": [
+        "女性医生",
+        "站立"
+      ],
+      "actions": [
+        "stand",
+        "站立"
+      ],
+      "character_role": "clinician_woman",
+      "identity_family": "clinician_woman_cn_20261023",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_clinician_man_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "男性医生",
+        "步行"
+      ],
+      "actions": [
+        "walk",
+        "步行"
+      ],
+      "character_role": "clinician_man",
+      "identity_family": "clinician_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_clinician_man_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "男性医生",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "clinician_man",
+      "identity_family": "clinician_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_child_girl_seated_v1": {
+      "category": "characters",
+      "aliases": [
+        "儿童女性",
+        "坐姿"
+      ],
+      "actions": [
+        "seated",
+        "坐姿"
+      ],
+      "character_role": "child_girl",
+      "identity_family": "child_girl_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_child_girl_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "儿童女性",
+        "步行"
+      ],
+      "actions": [
+        "walk",
+        "步行"
+      ],
+      "character_role": "child_girl",
+      "identity_family": "child_girl_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_child_girl_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "儿童女性",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "child_girl",
+      "identity_family": "child_girl_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_teen_girl_seated_v1": {
+      "category": "characters",
+      "aliases": [
+        "青少年女性",
+        "坐姿"
+      ],
+      "actions": [
+        "seated",
+        "坐姿"
+      ],
+      "character_role": "teen_girl",
+      "identity_family": "teen_girl_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_teen_girl_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "青少年女性",
+        "步行"
+      ],
+      "actions": [
+        "walk",
+        "步行"
+      ],
+      "character_role": "teen_girl",
+      "identity_family": "teen_girl_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_teen_girl_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "青少年女性",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "teen_girl",
+      "identity_family": "teen_girl_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_clinician_woman_seated_consult_v2": {
+      "category": "characters",
+      "aliases": [
+        "女性医生",
+        "坐姿问诊"
+      ],
+      "actions": [
+        "seated_consult",
+        "坐姿问诊"
+      ],
+      "character_role": "clinician_woman",
+      "identity_family": "clinician_woman_cn_20261023",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_clinician_woman_walk_v2": {
+      "category": "characters",
+      "aliases": [
+        "女性医生",
+        "步行"
+      ],
+      "actions": [
+        "walk",
+        "步行"
+      ],
+      "character_role": "clinician_woman",
+      "identity_family": "clinician_woman_cn_20261023",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_clinician_woman_reach_v2": {
+      "category": "characters",
+      "aliases": [
+        "女性医生",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "clinician_woman",
+      "identity_family": "clinician_woman_cn_20261023",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_man_stand_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年男性",
+        "站立"
+      ],
+      "actions": [
+        "stand",
+        "站立"
+      ],
+      "character_role": "older_man",
+      "identity_family": "older_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_man_seated_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年男性",
+        "坐姿"
+      ],
+      "actions": [
+        "seated",
+        "坐姿"
+      ],
+      "character_role": "older_man",
+      "identity_family": "older_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_man_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年男性",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "older_man",
+      "identity_family": "older_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_woman_seated_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年女性",
+        "坐姿"
+      ],
+      "actions": [
+        "seated",
+        "坐姿"
+      ],
+      "character_role": "older_woman",
+      "identity_family": "older_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_woman_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年女性",
+        "步行"
+      ],
+      "actions": [
+        "walk",
+        "步行"
+      ],
+      "character_role": "older_woman",
+      "identity_family": "older_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_woman_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年女性",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "older_woman",
+      "identity_family": "older_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_pregnant_woman_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "孕妇",
+        "步行"
+      ],
+      "actions": [
+        "walk",
+        "步行"
+      ],
+      "character_role": "pregnant_woman",
+      "identity_family": "pregnant_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_pregnant_woman_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "孕妇",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "pregnant_woman",
+      "identity_family": "pregnant_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_man_sit_transition_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年男性",
+        "站坐转换中间姿态"
+      ],
+      "actions": [
+        "sit_transition",
+        "站坐转换中间姿态"
+      ],
+      "character_role": "older_man",
+      "identity_family": "older_man_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_woman_sit_transition_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年女性",
+        "站坐转换中间姿态"
+      ],
+      "actions": [
+        "sit_transition",
+        "站坐转换中间姿态"
+      ],
+      "character_role": "older_woman",
+      "identity_family": "older_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_adult_woman_care_reach_v2": {
+      "category": "characters",
+      "aliases": [
+        "成年女性",
+        "照护伸手"
+      ],
+      "actions": [
+        "care_reach",
+        "照护伸手"
+      ],
+      "character_role": "adult_woman",
+      "identity_family": "adult_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_adult_woman_reach_v2": {
+      "category": "characters",
+      "aliases": [
+        "成年女性",
+        "伸手接取"
+      ],
+      "actions": [
+        "reach",
+        "伸手接取"
+      ],
+      "character_role": "adult_woman",
+      "identity_family": "adult_woman_baseline",
+      "story_roles": [
+        "人物操作",
+        "问诊与照护"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_man_alert_armchair_v1": {
+      "category": "characters",
+      "display_title": "男性睁眼坐直与扶手椅完整整件",
+      "aliases": [
+        "character_man_alert_armchair_v1",
+        "睁眼坐直",
+        "扶手椅患者",
+        "清醒坐姿",
+        "蓝椅绿衫男性",
+        "alert armchair"
+      ],
+      "objects": [
+        "男性睁眼坐直与扶手椅完整整件"
+      ],
+      "actions": [
+        "完整状态摆放",
+        "同人状态切换"
+      ],
+      "story_roles": [
+        "观察反应",
+        "患者照护"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "人物和扶手椅烘焙为单层，不可拆椅子或独立摆手。；睁眼坐直仅是可见状态，不能仅凭外观判定安全吞咽、血糖或意识。；两幅椅子轮廓非逐像素相同，切换时按各自脚底与椅脚重排，不按PNG外框硬对齐。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        39,
+        48,
+        1001,
+        1496
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_man",
+      "pose": "seated_alert_armchair",
+      "master_id": "character_adult_man_seated_v1"
+    },
+    "character_man_unresponsive_armchair_v1": {
+      "category": "characters",
+      "display_title": "男性闭眼低头与扶手椅完整整件",
+      "aliases": [
+        "character_man_unresponsive_armchair_v1",
+        "闭眼低头",
+        "无力坐姿",
+        "扶手椅患者",
+        "观察反应",
+        "head down armchair"
+      ],
+      "objects": [
+        "男性闭眼低头与扶手椅完整整件"
+      ],
+      "actions": [
+        "完整状态摆放",
+        "同人状态切换"
+      ],
+      "story_roles": [
+        "观察反应",
+        "急症照护情境"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "静图只确认闭眼、低头与身体由椅子承托，不据此诊断昏迷或低血糖。；不是恢复体位、气道开放、喂食或急救操作示范。；人物与椅子不可拆；没有从清醒到低头或后续恢复的连续过渡帧。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        54,
+        78,
+        977,
+        1465
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_man",
+      "pose": "seated_head_down_armchair",
+      "master_id": "character_adult_man_seated_v1"
+    },
+    "character_carer_calling_v1": {
+      "category": "characters",
+      "display_title": "女性照护者持手机贴耳完整呼叫姿态",
+      "aliases": [
+        "character_carer_calling_v1",
+        "照护者呼叫",
+        "家属打电话",
+        "呼救",
+        "持手机",
+        "贴耳通话",
+        "calling carer"
+      ],
+      "objects": [
+        "女性照护者持手机贴耳完整呼叫姿态"
+      ],
+      "actions": [
+        "持机通话状态",
+        "整体人物调度"
+      ],
+      "story_roles": [
+        "急症联系",
+        "家属照护",
+        "联系医生"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "电话、持机手与身体为单层整件，不能另叠浮空手机、再造持握手或独立拨号。；现有自由手自然下垂，不表示可以接取任意道具。；只有贴耳通话状态，不提供拿起、拨号、放下的连续过渡。",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        260,
+        16,
+        725,
+        1513
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "character_role": "adult_woman",
+      "pose": "calling",
+      "master_id": "reserve_person_stand_v1"
+    },
+    "exercise_grip": {
+      "category": "lifestyle",
+      "display_title": "黄色袖口手握哑铃局部整体单元",
+      "aliases": [
+        "exercise_grip",
+        "握哑铃",
+        "抗阻练习",
+        "举哑铃",
+        "握持手",
+        "黄色袖口",
+        "dumbbell grip"
+      ],
+      "objects": [
+        "黄色袖口手握哑铃局部整体单元"
+      ],
+      "actions": [
+        "整件举落",
+        "局部近景"
+      ],
+      "story_roles": [
+        "抗阻练习",
+        "实际握持关系"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "usage_notes": "局部手/前臂与哑铃为不可拆整体，不能当完整人物或拼成新人物。；未使用人物母版，只能称黄色袖口风格兼容，不声明同一角色身份。；前臂在右侧画布边缘有意截出，构图需让切边从画外连续进入，不悬放成断臂。；不推断哑铃重量、运动剂量或个体处方，不当作注射或其他器械操作。",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        65,
+        91,
+        1536,
+        1001
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "detail_level": "对象局部近景；手、器械、前臂连续，右侧切边从画外伸入",
+      "character_role": null,
+      "pose": "grip_dumbbell",
+      "master_id": null
+    },
+    "reserve_thyroid_simple_v2": {
+      "category": "anatomy",
+      "aliases": [
+        "甲状腺",
+        "远景简化"
+      ],
+      "detail_level": "simplified",
+      "actions": [
+        "整体定位"
+      ],
+      "medium": "editable_vector",
+      "story_roles": [
+        "结构定位",
+        "结构解释"
+      ]
+    },
+    "reserve_pituitary_relations_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "垂体邻近关系",
+        "远景简化"
+      ],
+      "detail_level": "simplified",
+      "actions": [
+        "整体定位"
+      ],
+      "medium": "editable_vector",
+      "story_roles": [
+        "结构定位",
+        "结构解释"
+      ]
+    },
+    "reserve_pituitary_relations_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "垂体邻近关系",
+        "配准分层"
+      ],
+      "detail_level": "registered_relations",
+      "actions": [
+        "逐层揭示",
+        "位置关系"
+      ],
+      "medium": "editable_vector",
+      "story_roles": [
+        "结构定位",
+        "结构解释"
+      ]
+    },
+    "reserve_pancreas_relations_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胰腺与胰管",
+        "远景简化"
+      ],
+      "detail_level": "simplified",
+      "actions": [
+        "整体定位"
+      ],
+      "medium": "editable_vector",
+      "story_roles": [
+        "结构定位",
+        "结构解释"
+      ]
+    },
+    "reserve_pancreas_relations_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胰腺与胰管",
+        "配准分层"
+      ],
+      "detail_level": "registered_relations",
+      "actions": [
+        "逐层揭示",
+        "位置关系"
+      ],
+      "medium": "editable_vector",
+      "story_roles": [
+        "结构定位",
+        "结构解释"
+      ]
+    },
+    "character_child_boy_stand_v1": {
+      "category": "characters",
+      "aliases": [
+        "男童",
+        "站立"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "stand"
+      ],
+      "character_role": "child_boy",
+      "pose": "stand",
+      "identity_family": "child_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        324,
+        28,
+        738,
+        1506
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_child_boy_seated_v1": {
+      "category": "characters",
+      "aliases": [
+        "男童",
+        "坐姿"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "seated"
+      ],
+      "character_role": "child_boy",
+      "pose": "seated",
+      "identity_family": "child_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        167,
+        21,
+        940,
+        1466
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_child_boy_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "男童",
+        "步行"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "walk"
+      ],
+      "character_role": "child_boy",
+      "pose": "walk",
+      "identity_family": "child_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        107,
+        29,
+        947,
+        1473
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_child_boy_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "男童",
+        "伸手接取"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "reach"
+      ],
+      "character_role": "child_boy",
+      "pose": "reach",
+      "identity_family": "child_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        273,
+        14,
+        933,
+        1512
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_teen_boy_stand_v1": {
+      "category": "characters",
+      "aliases": [
+        "男性青少年",
+        "站立"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "stand"
+      ],
+      "character_role": "teen_boy",
+      "pose": "stand",
+      "identity_family": "teen_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        306,
+        21,
+        722,
+        1515
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_teen_boy_seated_v1": {
+      "category": "characters",
+      "aliases": [
+        "男性青少年",
+        "坐姿"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "seated"
+      ],
+      "character_role": "teen_boy",
+      "pose": "seated",
+      "identity_family": "teen_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        153,
+        27,
+        945,
+        1462
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_teen_boy_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "男性青少年",
+        "步行"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "walk"
+      ],
+      "character_role": "teen_boy",
+      "pose": "walk",
+      "identity_family": "teen_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        113,
+        20,
+        932,
+        1447
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_teen_boy_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "男性青少年",
+        "伸手接取"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "reach"
+      ],
+      "character_role": "teen_boy",
+      "pose": "reach",
+      "identity_family": "teen_boy_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        282,
+        11,
+        848,
+        1520
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_young_man_stand_v1": {
+      "category": "characters",
+      "aliases": [
+        "年轻成年男性",
+        "站立"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "stand"
+      ],
+      "character_role": "young_man",
+      "pose": "stand",
+      "identity_family": "young_man_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        264,
+        12,
+        735,
+        1508
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_young_man_seated_v1": {
+      "category": "characters",
+      "aliases": [
+        "年轻成年男性",
+        "坐姿"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "seated"
+      ],
+      "character_role": "young_man",
+      "pose": "seated",
+      "identity_family": "young_man_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        188,
+        32,
+        964,
+        1449
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_young_man_walk_v1": {
+      "category": "characters",
+      "aliases": [
+        "年轻成年男性",
+        "步行"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "walk"
+      ],
+      "character_role": "young_man",
+      "pose": "walk",
+      "identity_family": "young_man_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        153,
+        13,
+        894,
+        1426
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_young_man_reach_v1": {
+      "category": "characters",
+      "aliases": [
+        "年轻成年男性",
+        "伸手接取"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "reach"
+      ],
+      "character_role": "young_man",
+      "pose": "reach",
+      "identity_family": "young_man_cn_20261023",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        215,
+        12,
+        977,
+        1498
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_adult_woman_lying_v2": {
+      "category": "characters",
+      "aliases": [
+        "成年女性",
+        "短发女性",
+        "同身份卧姿",
+        "仰卧"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "lying"
+      ],
+      "character_role": "adult_woman",
+      "pose": "lying",
+      "identity_family": "adult_woman_baseline",
+      "original_image_size": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        43,
+        285,
+        1744,
+        690
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "reserve_waiting_room_v1": {
+      "category": "environments",
+      "aliases": [
+        "候诊区",
+        "等候区",
+        "空场",
+        "门诊"
+      ],
+      "medium": "background_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [],
+      "character_role": null,
+      "pose": null,
+      "identity_family": null,
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "reserve_bathroom_v1": {
+      "category": "environments",
+      "aliases": [
+        "洗手间",
+        "卫生间",
+        "家庭浴室",
+        "空场"
+      ],
+      "medium": "background_plate",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [],
+      "character_role": null,
+      "pose": null,
+      "identity_family": null,
+      "original_image_size": [
+        1672,
+        941
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_man_cane_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年男性",
+        "扶杖站立",
+        "行动辅助"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "cane"
+      ],
+      "character_role": "older_man",
+      "pose": "cane",
+      "identity_family": "older_man_baseline",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        228,
+        26,
+        829,
+        1468
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "character_older_man_wheelchair_v1": {
+      "category": "characters",
+      "aliases": [
+        "老年男性",
+        "轮椅静坐",
+        "行动辅助"
+      ],
+      "medium": "cutout",
+      "style": [
+        "paper_collage"
+      ],
+      "actions": [
+        "wheelchair"
+      ],
+      "character_role": "older_man",
+      "pose": "wheelchair",
+      "identity_family": "older_man_baseline",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "visible_bounds": [
+        41,
+        30,
+        1000,
+        1411
+      ],
+      "ethnicity": "Chinese",
+      "locale": "zh-CN"
+    },
+    "reserve_chopping_board_v1": {
+      "category": "lifestyle",
+      "aliases": [
+        "砧板",
+        "切菜板",
+        "备餐"
+      ],
+      "objects": [
+        "木质砧板"
+      ],
+      "actions": [
+        "切配",
+        "承托食材"
+      ],
+      "story_roles": [
+        "烹饪准备",
+        "日常饮食"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "usage_notes": "独立承托层；食材和刀具另取，不能把它当作完整烹饪场景。",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        37,
+        73,
+        1503,
+        984
+      ]
+    },
+    "reserve_kitchen_knife_v1": {
+      "category": "lifestyle",
+      "aliases": [
+        "厨刀",
+        "菜刀",
+        "切配"
+      ],
+      "objects": [
+        "家用厨刀"
+      ],
+      "actions": [
+        "切配",
+        "放下"
+      ],
+      "story_roles": [
+        "烹饪准备",
+        "日常饮食"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "usage_notes": "独立道具层；不含手、不含食材、不表达具体切割结果。",
+      "original_image_size": [
+        1451,
+        1084
+      ],
+      "visible_bounds": [
+        142,
+        48,
+        1332,
+        985
+      ]
+    },
+    "reserve_induction_cooktop_v1": {
+      "category": "lifestyle",
+      "aliases": [
+        "电磁炉",
+        "炉台",
+        "加热"
+      ],
+      "objects": [
+        "电磁炉"
+      ],
+      "actions": [
+        "承托锅具",
+        "加热"
+      ],
+      "story_roles": [
+        "烹饪过程",
+        "日常饮食"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "usage_notes": "独立静态设备层；不含火焰、烟雾或数值显示。",
+      "original_image_size": [
+        1448,
+        1086
+      ],
+      "visible_bounds": [
+        185,
+        214,
+        1266,
+        913
+      ]
+    },
+    "reserve_frying_pan_v1": {
+      "category": "lifestyle",
+      "aliases": [
+        "炒锅",
+        "平底锅",
+        "锅具"
+      ],
+      "objects": [
+        "浅口炒锅"
+      ],
+      "actions": [
+        "承托食材",
+        "翻炒"
+      ],
+      "story_roles": [
+        "烹饪过程",
+        "日常饮食"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "usage_notes": "空锅独立层；锅铲、食材和加热状态另取，不含锅内结果。",
+      "original_image_size": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        97,
+        229,
+        1503,
+        810
+      ]
+    },
+    "reserve_wooden_spatula_v1": {
+      "category": "lifestyle",
+      "aliases": [
+        "锅铲",
+        "铲子",
+        "翻炒"
+      ],
+      "objects": [
+        "木质锅铲"
+      ],
+      "actions": [
+        "翻炒",
+        "搅拌",
+        "放下"
+      ],
+      "story_roles": [
+        "烹饪过程",
+        "日常饮食"
+      ],
+      "medium": [
+        "paper_collage"
+      ],
+      "usage_notes": "独立接触道具层；不含手和锅内食物。",
+      "original_image_size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        151,
+        146,
+        1169,
+        1107
+      ]
     }
   },
   "policy": "人工策展的发现层；不改原资产版本，不替代当前镜头审查，不限制新创。"

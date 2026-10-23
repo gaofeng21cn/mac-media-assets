@@ -1,0 +1,37 @@
+{
+  "id": "reserve_bathroom_v1",
+  "prompt": "Use case: illustration-story. Reusable EMPTY home bathroom background for Chinese patient education paper-theatre animation, wide landscape 16:9 view. Restrained realistic hand-cut paper collage and subtle watercolor, warm cream and pale sage. Sink and mirror on left side, accessible-looking western toilet at far right, small window high on back wall; no shower glass clutter. Central foreground has generous open floor space for separately added full-body characters. No person or body parts, no water flow, no text, labels, brands, medical symbols or numbers. Correct simple perspective, dry clean ordinary environment, opaque background. Static scenic plate, fixtures not separately movable.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "d4d8bca7374ac7dc8cab52f61dd116d72ff45020da246da17c5dfec2a17be4f5",
+  "measurements": {
+    "size": [
+      1672,
+      941
+    ],
+    "bounds": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "corners": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "opaque": true
+  },
+  "identity_reference_sha256": null,
+  "review": {
+    "selected": true,
+    "title": "家庭洗手间空场背景板",
+    "aliases": [
+      "洗手间",
+      "卫生间",
+      "家庭浴室",
+      "空场"
+    ],
+    "note": "已看洗手台、座便器和中央空场；整幅不透明背景，洁具不可独立操作，不代表无障碍规范审定。"
+  }
+}

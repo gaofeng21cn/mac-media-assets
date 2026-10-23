@@ -1,0 +1,170 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_man_alert_armchair_v1",
+  "title": "男性睁眼坐直与扶手椅完整整件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "complete_figure",
+    "composition_repair_20261023",
+    "adult_man",
+    "seated_alert_armchair"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "original_asset_id": "character_man_alert_armchair_v1",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "identity_relationship": "same_character_supported_pose_variant",
+    "master_id": "character_adult_man_seated_v1",
+    "source_project": "/Users/gaofeng/workspace/科普视频/productions/diabetes_paper_theatre/e00_low_glucose/v2",
+    "source_path": "assets/imported/character_man_alert_armchair_v1.png",
+    "prompt": "Use case: identity-preserve. Edit target: reference image 1, the complete Chinese man seated on a muted teal armchair. Create the ALERT UPRIGHT alternate state of this exact same man-and-chair cutout. Preserve exact identity, face, age, short salt-and-pepper hair, sage-green rolled-sleeve button shirt, dark navy trousers, brown lace-up shoes, the exact teal armchair design, camera angle, scale, framing, paper collage medium and transparent silhouette. Change only his bodily state: eyes fully open and attentive, head upright, looking slightly toward screen right, shoulders upright and supported by chair, calm neutral expression with no smile. Two hands rest naturally on his thighs; hips correctly seated on the actual cushion. Both shoes remain on the shared floor baseline below the cushion and chair legs. His whole head, both hands, both shoes and all visible chair legs must remain complete. This is an alternate complete pose, not a split layout and not a before/after sheet. Actual transparent alpha background outside the complete man-and-chair group; no room or floor, no text, no labels, no food, no device, no caregiver, no extra limbs. Keep the chair and man a single coherent complete asset with real support.",
+    "sample_has_brand": false,
+    "identity_reference": "evidence/identity-reference.png",
+    "identity_reference_sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+    "identity_reference_asset_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454"
+  },
+  "registered_at": "2026-10-23",
+  "content_bounds": [
+    39,
+    48,
+    1001,
+    1496
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_alpha_threshold": 24,
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      35,
+      46,
+      1012,
+      1505
+    ],
+    "opaque_ratio": 0.5419,
+    "translucent_ratio": 0.0103,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.9733072917
+    },
+    "anchors": {
+      "head": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "feet": {
+        "x": 0.56,
+        "y": 0.9733072917
+      },
+      "support_zone": {
+        "x": 0.3,
+        "y": 0.58
+      }
+    },
+    "notes": "人物与椅子整件；support_zone只标内部可见坐垫承托区域，不是可拆臀后seat锚点。"
+  },
+  "discovery": {
+    "category": "characters",
+    "display_title": "男性睁眼坐直与扶手椅完整整件",
+    "aliases": [
+      "character_man_alert_armchair_v1",
+      "睁眼坐直",
+      "扶手椅患者",
+      "清醒坐姿",
+      "蓝椅绿衫男性",
+      "alert armchair"
+    ],
+    "objects": [
+      "男性睁眼坐直与扶手椅完整整件"
+    ],
+    "actions": [
+      "完整状态摆放",
+      "同人状态切换"
+    ],
+    "story_roles": [
+      "观察反应",
+      "患者照护"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "view": "按完整原件观察；镜像后重核朝向和装配",
+    "usage_notes": "人物和扶手椅烘焙为单层，不可拆椅子或独立摆手。；睁眼坐直仅是可见状态，不能仅凭外观判定安全吞咽、血糖或意识。；两幅椅子轮廓非逐像素相同，切换时按各自脚底与椅脚重排，不按PNG外框硬对齐。",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      39,
+      48,
+      1001,
+      1496
+    ],
+    "visible_bounds_alpha_threshold": 24,
+    "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+    "character_role": "adult_man",
+    "pose": "seated_alert_armchair",
+    "master_id": "character_adult_man_seated_v1"
+  },
+  "usage_notes": "人物与扶手椅整体摆放；与同身份低头姿态按当前画面切换；人物和扶手椅烘焙为单层，不可拆椅子或独立摆手。；睁眼坐直仅是可见状态，不能仅凭外观判定安全吞咽、血糖或意识。；两幅椅子轮廓非逐像素相同，切换时按各自脚底与椅脚重排，不按PNG外框硬对齐。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "static_source": "reviewed_2026-10-23",
+    "observed": "同一短灰黑发绿衫蓝裤男性睁眼坐直，双手在大腿，臀腿受座垫承托；全头、双鞋与扶手椅完整。",
+    "landmark_scope": "原图归一化可见部位；头为安全定位点，脚为共同地面基准；手部位置不表示可持握任意道具。",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "release": "not_approved"
+  },
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_scene_scale_contact_pending",
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "f578e116b8da15dfac85ea8131492e542a668832ea35a2e50ace13d48db7e684",
+      "bytes": 2475376
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "da66cfc8fb107d6f9026eff3690785ebc62999361b4ca46debd12dd531a9056e",
+      "bytes": 4409
+    },
+    {
+      "path": "evidence/identity-reference.png",
+      "role": "evidence",
+      "sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+      "bytes": 1784795
+    },
+    {
+      "path": "evidence/source-composites.jpg",
+      "role": "evidence",
+      "sha256": "71270962e1596e9ae84b037f4ed1b1c5623b31ca65f3bbcb16544507d597f50a",
+      "bytes": 20229
+    }
+  ],
+  "revision": "9de53c9827f7ef4ef901"
+}

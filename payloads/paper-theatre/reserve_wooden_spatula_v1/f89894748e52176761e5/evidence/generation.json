@@ -1,0 +1,18 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone wooden cooking spatula for a Chinese home cooking preparation scene. Subject: single flat wooden spatula with a broad rounded paddle and short handle, shown diagonally, no hand, no pan, no food. Style/medium: refined tactile cut-paper collage with subtle paper fiber, warm natural wood, crisp silhouette. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: ordinary kitchen utensil only; no person, no background card, no cast shadow, no glow, no text, no logo, no watermark.",
+  "source_sha256": "1dcaea4006959ef9c21dfc4d6a6bbb6f520f6ef60e5abbfa4785e4eae26bc553",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "visible_bounds_alpha_ge_25": [
+    151,
+    146,
+    1169,
+    1107
+  ],
+  "review": "static_original_and_composite_checked",
+  "anchors_scope": "approximate_visible_contact_regions",
+  "full_motion": "pending"
+}

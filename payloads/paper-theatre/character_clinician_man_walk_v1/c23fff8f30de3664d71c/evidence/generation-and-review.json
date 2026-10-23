@@ -1,0 +1,57 @@
+{
+  "id": "character_clinician_man_walk_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_clinician_man_stand_v1/e3d6196ad0b8ca4dd44e/files/payload.png",
+  "prompt": "Use case: illustration-story. Asset type: complete reusable paper-theatre character pose. Input 1 is identity and paper-style reference. Create exactly SAME Chinese male doctor, same face, black hairstyle, white plain lab coat, blue shirt, charcoal trousers, brown shoes. NEW POSE walking naturally to screen right, modest stride, foot contacts a shared ground baseline, arms counter-swing, visible hands, natural anatomy. Full body hair through shoes, generous margin, textured opaque cut paper interior. Single isolated person on genuine transparent alpha background. No props, chair, floor marks, cast shadow, aura, glow, blur, checkerboard, typography or background.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-7855805c-8761-439f-912f-2ddd7ff3378a.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "d690a657767ac4804e0582bffcae1af0e5dab2383c1a275f22a62a13e98e240a",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      25,
+      29,
+      1010,
+      1501
+    ],
+    "opaque_ratio": 0.271,
+    "translucent_ratio": 0.0111,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      128,
+      32,
+      948,
+      1484
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.48,
+        "y": 0.095
+      },
+      "feet": {
+        "x": 0.52,
+        "y": 0.96
+      },
+      "hand_left": {
+        "x": 0.23,
+        "y": 0.535
+      },
+      "hand_right": {
+        "x": 0.79,
+        "y": 0.47
+      }
+    },
+    "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_child_girl_seated_v1",
+  "title": "儿童女性·坐姿·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "child_girl",
+    "seated",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "儿童女性",
+      "坐姿"
+    ],
+    "actions": [
+      "seated",
+      "坐姿"
+    ],
+    "character_role": "child_girl",
+    "identity_family": "child_girl_baseline",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_child_girl_stand_v1/ec63ad5c3eae8f16d019/files/payload.png",
+    "prompt": "Use case: illustration-story. Reusable complete paper-theatre character pose for Chinese patient education. Input 1 is exact identity and style reference: same Chinese girl of primary-school age, straight dark bob and bangs, mustard sweater, blue trousers, pale sneakers; preserve child head/body proportions and age. Create exactly same person, changing only pose to seated naturally facing three-quarter screen right, thighs horizontal, lower legs vertical and both feet flat, hands resting loosely on thighs; no chair, clear rear buttock support edge for a separate chair layer. Preserve face, hairstyle, clothing and footwear colors, paper-cut illustration style, connected natural anatomy. Full body including all hair, visible hands and both shoes, generous transparent margin. Opaque paper interior with subtle texture. One isolated person on GENUINE transparent alpha background; no chair, furniture, props, floor, shadow, aura, glow, vignette, blur, text, watermark or checkerboard. Not a multi-pose sheet."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.12
+      },
+      "seat": {
+        "x": 0.28,
+        "y": 0.59
+      },
+      "feet": {
+        "x": 0.66,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.5,
+        "y": 0.56
+      },
+      "hand_right": {
+        "x": 0.7,
+        "y": 0.555
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    215,
+    36,
+    906,
+    1477
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      19,
+      1002,
+      1536
+    ],
+    "opaque_ratio": 0.3167,
+    "translucent_ratio": 0.0113,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      215,
+      36,
+      906,
+      1477
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "a245eaedf2c6fabdf5b04fd993f27c47090f884bc9e572aa8895fd4cfeb2fd79",
+      "bytes": 2027100
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "20cd5263539242338d86c810655643b01ac9c20ec313e3af10e806420e8b56b9",
+      "bytes": 2365
+    }
+  ],
+  "revision": "239b0a6c03f7f6afe073"
+}

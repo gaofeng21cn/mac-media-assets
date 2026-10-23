@@ -1,0 +1,102 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_chopping_board_v1",
+  "title": "独立木质砧板",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone rectangular wooden chopping board, for a Chinese home kitchen preparation scene. Subject: single flat beech-wood cutting board with softly rounded corners and one small handle notch, seen from a gentle top-down three-quarter angle; no food, no knife, no towel, no hands. Style/medium: refined tactile cut-paper collage with subtle paper grain and warm natural wood fibers, crisp silhouette, simple educational illustration. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: no background card, counter, cast shadow, glow, labels, logo, text, extra objects or watermark.",
+    "generation_receipt": "evidence/generation.json"
+  },
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "prep"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "砧板",
+      "切菜板",
+      "备餐"
+    ],
+    "objects": [
+      "木质砧板"
+    ],
+    "actions": [
+      "切配",
+      "承托食材"
+    ],
+    "story_roles": [
+      "烹饪准备",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "独立承托层；食材和刀具另取，不能把它当作完整烹饪场景。",
+    "original_image_size": [
+      1536,
+      1024
+    ],
+    "visible_bounds": [
+      37,
+      73,
+      1503,
+      984
+    ]
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    37,
+    73,
+    1503,
+    984
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "work_surface": {
+        "x": 0.5,
+        "y": 0.46
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "可与现有蔬菜、鱼肉和厨刀组合；只提供承托关系，切配动作仍需当前镜头试装。",
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4",
+      "bytes": 2376608
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "e02a656f0a96fe6cd62b1406d9cdf7548869fea5276d92c84d8482bc8db4f43f",
+      "bytes": 1185
+    }
+  ],
+  "revision": "c53a30403294f8af8b73"
+}

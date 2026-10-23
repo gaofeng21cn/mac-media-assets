@@ -1,0 +1,93 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_bathroom_v1",
+  "title": "家庭洗手间空场背景板",
+  "kind": "environment_plate",
+  "entry": "files/payload.png",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "generation_receipt": "evidence/generation.json",
+    "prompt": "Use case: illustration-story. Reusable EMPTY home bathroom background for Chinese patient education paper-theatre animation, wide landscape 16:9 view. Restrained realistic hand-cut paper collage and subtle watercolor, warm cream and pale sage. Sink and mirror on left side, accessible-looking western toilet at far right, small window high on back wall; no shower glass clutter. Central foreground has generous open floor space for separately added full-body characters. No person or body parts, no water flow, no text, labels, brands, medical symbols or numbers. Correct simple perspective, dry clean ordinary environment, opaque background. Static scenic plate, fixtures not separately movable."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    0,
+    0,
+    1672,
+    941
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "Chinese",
+    "expansion_20261023"
+  ],
+  "discovery": {
+    "category": "environments",
+    "aliases": [
+      "洗手间",
+      "卫生间",
+      "家庭浴室",
+      "空场"
+    ],
+    "medium": "background_plate",
+    "style": [
+      "paper_collage"
+    ],
+    "actions": [],
+    "character_role": null,
+    "pose": null,
+    "identity_family": null,
+    "original_image_size": [
+      1672,
+      941
+    ],
+    "visible_bounds": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {},
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "not_applicable",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "已看洗手台、座便器和中央空场；整幅不透明背景，洁具不可独立操作，不代表无障碍规范审定。",
+  "quality_debt": [
+    "static_backdrop_only",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "d4d8bca7374ac7dc8cab52f61dd116d72ff45020da246da17c5dfec2a17be4f5",
+      "bytes": 2477728
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "74758370495669478fb995a9831e03518eea749d249c976d2bdb1dd8989a4170",
+      "bytes": 1449
+    }
+  ],
+  "revision": "3981b6761afb7f147235"
+}

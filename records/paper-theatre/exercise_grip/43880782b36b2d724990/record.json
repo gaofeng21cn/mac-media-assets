@@ -1,0 +1,161 @@
+{
+  "schema": "animation_element/v1",
+  "id": "exercise_grip",
+  "title": "黄色袖口手握哑铃局部整体单元",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "hand_object_unit",
+    "composition_repair_20261023",
+    "grip_dumbbell"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "original_asset_id": "exercise_grip",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "identity_relationship": "not_character_identity",
+    "master_id": null,
+    "source_project": "/Users/gaofeng/workspace/科普视频/productions/diabetes_paper_theatre/06_move_with_a_plan/v1",
+    "source_path": "assets/imported/exercise_grip.png",
+    "prompt": "One transparent paper collage cutout of an adult woman's hand and forearm in a mustard cardigan sleeve, naturally gripping one small muted teal dumbbell; fingers wrap around handle, thumb closes across fingers, entire coherent grip and sleeve visible, forearm extends from lower right. Fine fiber paper, anatomically plausible wrist and hand. Genuine transparent alpha; no face, body, duplicate hands, text, labels or other objects.",
+    "sample_has_brand": false
+  },
+  "registered_at": "2026-10-23",
+  "content_bounds": [
+    65,
+    91,
+    1536,
+    1001
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_alpha_threshold": 24,
+  "alpha_measurement": {
+    "width": 1536,
+    "height": 1024,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      25,
+      17,
+      1536,
+      1024
+    ],
+    "opaque_ratio": 0.3045,
+    "translucent_ratio": 0.0076,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.99,
+      "y": 0.83
+    },
+    "anchors": {
+      "grip": {
+        "x": 0.29,
+        "y": 0.27
+      },
+      "wrist": {
+        "x": 0.38,
+        "y": 0.43
+      },
+      "forearm_edge": {
+        "x": 0.99,
+        "y": 0.83
+      }
+    },
+    "notes": "forearm_edge是画布右下切边定位，不是原件中可见的肘部；手、器械与前臂只能整体运动。"
+  },
+  "discovery": {
+    "category": "lifestyle",
+    "display_title": "黄色袖口手握哑铃局部整体单元",
+    "aliases": [
+      "exercise_grip",
+      "握哑铃",
+      "抗阻练习",
+      "举哑铃",
+      "握持手",
+      "黄色袖口",
+      "dumbbell grip"
+    ],
+    "objects": [
+      "黄色袖口手握哑铃局部整体单元"
+    ],
+    "actions": [
+      "整件举落",
+      "局部近景"
+    ],
+    "story_roles": [
+      "抗阻练习",
+      "实际握持关系"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "view": "按完整原件观察；镜像后重核朝向和装配",
+    "usage_notes": "局部手/前臂与哑铃为不可拆整体，不能当完整人物或拼成新人物。；未使用人物母版，只能称黄色袖口风格兼容，不声明同一角色身份。；前臂在右侧画布边缘有意截出，构图需让切边从画外连续进入，不悬放成断臂。；不推断哑铃重量、运动剂量或个体处方，不当作注射或其他器械操作。",
+    "original_image_size": [
+      1536,
+      1024
+    ],
+    "visible_bounds": [
+      65,
+      91,
+      1536,
+      1001
+    ],
+    "visible_bounds_alpha_threshold": 24,
+    "detail_level": "对象局部近景；手、器械、前臂连续，右侧切边从画外伸入",
+    "character_role": null,
+    "pose": "grip_dumbbell",
+    "master_id": null
+  },
+  "usage_notes": "以对象近景呈现真实握持；保持前臂从画外连续伸入的整体举落；局部手/前臂与哑铃为不可拆整体，不能当完整人物或拼成新人物。；未使用人物母版，只能称黄色袖口风格兼容，不声明同一角色身份。；前臂在右侧画布边缘有意截出，构图需让切边从画外连续进入，不悬放成断臂。；不推断哑铃重量、运动剂量或个体处方，不当作注射或其他器械操作。",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "static_source": "reviewed_2026-10-23",
+    "observed": "一只手和连续前臂自然包握青色哑铃，黄色袖口从右下方进入；没有头或躯干，属于有意的纯对象局部。",
+    "landmark_scope": "原图归一化可见部位；头为安全定位点，脚为共同地面基准；手部位置不表示可持握任意道具。",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "release": "not_approved"
+  },
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_scene_scale_contact_pending",
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "2e8a29cc1ed28816a468b77f925f22129b97b43403dfb02ee093434e1e7e1504",
+      "bytes": 1914820
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "1639e87492346c53cc146d9cff2d0cf78b7a796f025ce2aaa84f8d8411277608",
+      "bytes": 862
+    },
+    {
+      "path": "evidence/source-composites.jpg",
+      "role": "evidence",
+      "sha256": "be72e8c96abe737eee80a0168fb06172c7478a8d2ef793dee31ef60db03ea74f",
+      "bytes": 19162
+    }
+  ],
+  "revision": "43880782b36b2d724990"
+}

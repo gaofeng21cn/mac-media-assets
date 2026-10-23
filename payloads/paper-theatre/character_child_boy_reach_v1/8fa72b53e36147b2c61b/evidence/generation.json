@@ -1,0 +1,56 @@
+{
+  "id": "character_child_boy_reach_v1",
+  "prompt": "Use case: identity-preserve. Reference 1 is the exact identity MASTER, not a background. A Chinese boy age 8, natural child head/body ratio, straight black short hair, round gentle face, muted terracotta long-sleeve sweatshirt, navy blue trousers, white sneakers. Keep this EXACT SAME person, face, age, hair, clothing and shoe colors, body proportions and textured cut-paper style. Change only pose to: standing facing screen right, image-right arm extended at waist-to-chest level with an OPEN upward palm ready to receive a separate report, other hand visible and relaxed. No held object. Natural connected anatomy, complete hair to both shoes with generous margin. One isolated complete person on genuine transparent alpha; clean opaque paper interior. No backdrop, furniture, floor mark, cast shadow, halo, glow, gradient, checkerboard, text, logo, cropping, separate limbs, additional people or pose sheets.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "28e61eac9e58ebd5147218601a595e5fb2e6edde2a4706b51c0f636bc585c678",
+  "measurements": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      273,
+      14,
+      933,
+      1512
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "4717b00fe4ba1d690d416e56c57ebce6da2c21a015a4757117688e8e15a8eaf1",
+  "review": {
+    "selected": true,
+    "role": "child_boy",
+    "pose": "reach",
+    "aliases": [
+      "男童",
+      "伸手接取"
+    ],
+    "identity_family": "child_boy_cn_20261023",
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "hand_left": {
+        "x": 0.4,
+        "y": 0.59
+      },
+      "hand_right": {
+        "x": 0.83,
+        "y": 0.345
+      }
+    },
+    "inseparable": false,
+    "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。"
+  }
+}

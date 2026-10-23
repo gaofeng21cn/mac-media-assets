@@ -1,0 +1,134 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pituitary_relations_simple_v1",
+  "title": "垂体邻近关系·远景轮廓简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "whole",
+      "path": "files/whole.png",
+      "source_type": "original_vector",
+      "visual_meaning": "垂体邻近关系·whole",
+      "medical": true,
+      "content_bounds": [
+        367,
+        192,
+        653,
+        650
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "license": "original_work",
+    "generator": "source/anatomy.py"
+  },
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "垂体邻近关系",
+      "远景简化"
+    ],
+    "detail_level": "simplified",
+    "actions": [
+      "整体定位"
+    ],
+    "medium": "editable_vector",
+    "story_roles": [
+      "结构定位",
+      "结构解释"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "whole"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    367,
+    192,
+    653,
+    650
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "概念性相对位置示意：垂体经柄连接上方下丘脑，视交叉在上方偏前，蝶窦在鞍底下方。它不是患者影像或精确矢状断面；不含颈内动脉、神经束或手术通道，不能用作入路示教。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/whole.svg",
+      "role": "source",
+      "sha256": "f9cc2871b974951785224bfb235a30819c4d24572975f23e01346c6b57381105",
+      "bytes": 438
+    },
+    {
+      "path": "files/whole.png",
+      "role": "payload",
+      "sha256": "edbfd84710d9168246b44249d0ee21c0f521054d70c379e23d6d818904ed21e5",
+      "bytes": 24620
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "05df2556ba91b9f8d9ff0dd0776b57a207ed2c23c2de9cc20ae883d0820d08b1",
+      "bytes": 23735
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "9ac0724b2b40a9084e2b5e4fe2e959cc62af8277c0a945259c1dd4b5a9e06909",
+      "bytes": 464
+    },
+    {
+      "path": "source/anatomy.py",
+      "role": "source",
+      "sha256": "92d530ab6abd5ef949dc58ac748bbcb0732bd6a13acac8d2333b6c4e4dee9d91",
+      "bytes": 7424
+    }
+  ],
+  "revision": "62c6685efa32cfa48273"
+}

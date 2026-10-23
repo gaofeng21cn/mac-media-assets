@@ -1,0 +1,110 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_frying_pan_v1",
+  "title": "独立浅口炒锅",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone shallow Chinese frying pan for a home cooking explainer. Subject: single medium round carbon-steel skillet with low sloped sides, pale wood handle extending to the right, empty clean interior seen from a gentle elevated three-quarter angle; no food, no lid, no stove, no hand. Style/medium: refined tactile cut-paper collage, charcoal-gray pan with subtle paper grain and restrained warm wood handle, crisp edge. Composition/framing: one object centered and fully visible, handle not cropped, generous transparent margin. Background: genuinely transparent alpha. Constraints: no background card, counter, burner, flame, steam, cast shadow, glow, labels, logo, text or watermark.",
+    "generation_receipt": "evidence/generation.json"
+  },
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "pan"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "炒锅",
+      "平底锅",
+      "锅具"
+    ],
+    "objects": [
+      "浅口炒锅"
+    ],
+    "actions": [
+      "承托食材",
+      "翻炒"
+    ],
+    "story_roles": [
+      "烹饪过程",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "空锅独立层；锅铲、食材和加热状态另取，不含锅内结果。",
+    "original_image_size": [
+      1536,
+      1024
+    ],
+    "visible_bounds": [
+      97,
+      229,
+      1503,
+      810
+    ]
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    97,
+    229,
+    1503,
+    810
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "interior": {
+        "x": 0.36,
+        "y": 0.54
+      },
+      "base": {
+        "x": 0.36,
+        "y": 0.77
+      },
+      "handle": {
+        "x": 0.83,
+        "y": 0.33
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "可与电磁炉、锅铲和现有蔬菜/鱼肉组合；翻炒轨迹仍需当前镜头实现。",
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_contact_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08",
+      "bytes": 1766764
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "09dddef4e44592b3cb8823336813963f2c6395669d84ae264fa8600fd8fafe1a",
+      "bytes": 1198
+    }
+  ],
+  "revision": "660885106d5ef2393566"
+}

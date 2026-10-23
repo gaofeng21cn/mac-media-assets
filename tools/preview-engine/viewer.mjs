@@ -1,14 +1,24 @@
 import {PaperStage,phase,arc,lerp} from './paper-runtime.mjs';
 const root=new URL('../../',location.href);
-const [rows,assemblies,kits,discovery] = await Promise.all(['catalog/assets.jsonl','collections/assemblies.json','collections/event-kits.json','collections/discovery.json'].map(async p=>{const text=await(await fetch(new URL(p,root))).text();return p.endsWith('jsonl')?text.trim().split('\n').map(JSON.parse):JSON.parse(text);}));
-const catalog=Object.fromEntries(rows.map(r=>[r.source_id,r]));
+const [rows,assemblies,kits,discovery,coverage] = await Promise.all(['catalog/assets.jsonl','collections/assemblies.json','collections/event-kits.json','collections/discovery.json','collections/character-coverage.json'].map(async p=>{const text=await(await fetch(new URL(p,root))).text();return p.endsWith('jsonl')?text.trim().split('\n').map(JSON.parse):JSON.parse(text);}));
+const preferred=new Set(Object.values(coverage.roles||{}).flatMap(role=>Object.values(role.current_assets||{})));
+const catalog={};
+for(const row of rows){
+ if(['superseded','needs_rebuild'].includes(row.curation?.status))continue;
+ if(!preferred.has(catalog[row.source_id]?.id)||preferred.has(row.id))catalog[row.source_id]=row;
+}
 const config=[...assemblies.assemblies,...kits.kits];const select=document.querySelector('#shot');
 for(const item of config) {const o=document.createElement('option');o.value=item.id;o.textContent=item.title;select.append(o);}
 const assets={};const recordCache={};
-for(const row of rows){if(!row.payload.some(p=>p.path.endsWith('.png')))continue;const rec=await(await fetch(new URL(row.portable_record,root))).json();recordCache[row.source_id]=rec; const parts=rec.asset_bundle?.length?rec.asset_bundle:[{asset_id:'whole',path:rec.entry,content_bounds:rec.content_bounds}];
+for(const row of Object.values(catalog)){if(!row.payload.some(p=>p.path.endsWith('.png')))continue;const rec=await(await fetch(new URL(row.portable_record,root))).json();recordCache[row.source_id]=rec; const parts=rec.asset_bundle?.length?rec.asset_bundle:[{asset_id:'whole',path:rec.entry,content_bounds:rec.content_bounds}];
  for(const p of parts){if(!p.path?.endsWith('.png'))continue;const file=row.payload.find(f=>f.path.endsWith('/'+p.path));if(!file)continue;const image=new Image();image.src=new URL(file.path,root);await image.decode();const id=p.asset_id==='whole'?row.source_id:row.source_id+':'+p.asset_id;assets[id]={image,bounds:(p.asset_id==='whole'?(discovery.assets[row.source_id]?.geometry_revision===row.revision?discovery.assets[row.source_id]?.visible_bounds:null):null)||p.content_bounds};}}
 const stage=new PaperStage(document.querySelector('#stage'),assets);
 const r=n=>'reserve_'+n+'_v1';const draw=(id,x,y,w,o={})=>stage.piece(id,{x,y,w,...o});
+function atAnchor(id,name,target,w,options={}){
+ const a=assets[id],b=a.bounds,point=recordCache[id].registration.anchors[name],scale=w/(b[2]-b[0]);
+ const dx=(point.x*a.image.width-(b[0]+b[2])/2)*scale,dy=(point.y*a.image.height-(b[1]+b[3])/2)*scale,angle=options.angle||0;
+ draw(id,target.x-dx*Math.cos(angle)+dy*Math.sin(angle),target.y-dx*Math.sin(angle)-dy*Math.cos(angle),w,options);
+}
 const move=(id,a,b,w,t,start=0,end=2,options={})=>{const p=arc(a,b,phase(t,start,end),options.lift||35);draw(id,p.x,p.y,w,options);};
 function scene(id,t){stage.begin(t); const u=phase(t,.5,2),v=phase(t,3,4.5),p=phase(t,1,3);
  const base=(name,x,y,w)=>draw(r(name),x,y,w);
@@ -29,6 +39,19 @@ function scene(id,t){stage.begin(t); const u=phase(t,.5,2),v=phase(t,3,4.5),p=ph
  }else if(id==='meal'||id==='meal_action'){
   base('table',640,510,1100);base('plate',640,395,620);move(r('rice'),{x:250,y:-150},{x:530,y:360},190,t,.2,1.6);move(r('fish'),{x:1040,y:-150},{x:740,y:390},180,t,1,2.4);move(r('broccoli'),{x:640,y:-180},{x:640,y:295},120,t,1.8,3);base('cup',1020,385,130);
   if(id==='meal_action'){draw(r('hand_pinch'),925-230*v,300,300);draw(r('fish'),740+v*130,390-v*160,180);}
+ }else if(id==='cooking_prep'||id==='meal_preparation'){
+  // An explicit crop of the empty worktop gives the utensils a shared surface.
+  draw('reserve_kitchen_counter_v2',640,420,1160,{crop:[0,780,1448,900],h:500,shadow:0});
+  const prep=phase(t,.3,1.5),heat=phase(t,1.4,2.8),stir=phase(t,3.6,5.1),burner={x:865,y:460};
+  atAnchor('reserve_chopping_board_v1','work_surface',{x:355,y:455},400);
+  atAnchor('reserve_kitchen_knife_v1','blade_edge',{x:355,y:lerp(240,455,prep)},190,{angle:-.2});
+  atAnchor('reserve_induction_cooktop_v1','burner',burner,380,{opacity:heat});
+  atAnchor('reserve_frying_pan_v1','base',burner,440,{opacity:heat});
+  const interior={x:865,y:460-(.77-.54)*1024*440/(1503-97)};
+  if(t>=2.8)move('reserve_broccoli_v1',{x:1010,y:200},interior,60,t,2.8,3.6,{lift:35});
+  if(t>=3.6)atAnchor('reserve_wooden_spatula_v1','paddle',{x:interior.x+Math.sin(stir*Math.PI)*20,y:interior.y+7},190,{angle:lerp(-.2,.25,stir)});
+  draw('reserve_oil_v1',130,480,70);
+  stage.contact('knife_board_contact',1.5,{x:355,y:455});stage.contact('pan_spatula_contact',4.1,interior);
  }else if(id==='pose'){
   base('chair',750,470,320);const seated=t>3.05;const y=lerp(320,385,phase(t,1.5,3.05));draw(r(seated?'person_seated':'person_stand'),640,y,seated?300:230);draw(r('table'),490,490,700,{angle:.01});
  }else if(id==='anatomy_focus'||id==='structure_focus'){

@@ -9,171 +9,296 @@
   "contracts": {
     "paper_clinic_environment": {
       "layering": "static_backdrop",
-      "static_layers": ["hospital_entrance_facade", "approach_path"],
+      "static_layers": [
+        "hospital_entrance_facade",
+        "approach_path"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "医院入口整体用途成立；门扇、指示牌、等候椅未拆层，不能在该板上执行开门、指示或接送动作。"
     },
     "paper_field_landscape": {
       "layering": "static_backdrop",
-      "static_layers": ["trees_and_houses"],
+      "static_layers": [
+        "trees_and_houses"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "户外景物作为舞台层使用；人物行走需另取人物纸件，不能依赖板内人物。"
     },
     "paper_home_environment_v2": {
       "layering": "static_backdrop",
-      "static_layers": ["fiber_wall", "window", "bookshelf"],
+      "static_layers": [
+        "fiber_wall",
+        "window",
+        "bookshelf"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "居家环境已统一纸面语言，但床、人物、镜面均烘焙在整图内；床上动作与镜前动作必须改用可拆层储备件重搭。"
     },
     "paper_lab_environment": {
       "layering": "static_backdrop",
-      "static_layers": ["lab_bench_environment"],
+      "static_layers": [
+        "lab_bench_environment"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "实验台环境板仅作舞台层；试管、标本、显微镜须使用独立透明单件。"
     },
     "paper_lab_environment_v2": {
       "layering": "static_backdrop",
-      "static_layers": ["torn_work_surface", "fixed_papers"],
+      "static_layers": [
+        "torn_work_surface",
+        "fixed_papers"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "撕边工作面与固定件已统一；需要开合、抽取、倾倒的器材仍需独立层。"
     },
     "six_paper_breast_stage": {
       "layering": "static_backdrop",
-      "static_layers": ["breast_clinic_stage"],
+      "static_layers": [
+        "breast_clinic_stage"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "诊室环境整体用途成立；人物、器械与资料为烘焙内容，动作层须另取。"
     },
     "six_paper_gout_stage": {
       "layering": "static_backdrop",
-      "static_layers": ["gout_clinic_stage"],
+      "static_layers": [
+        "gout_clinic_stage"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "诊室环境整体用途成立；人物与检查动作不在可拆层内。"
     },
     "six_paper_graves_stage": {
       "layering": "static_backdrop",
-      "static_layers": ["graves_clinic_stage"],
+      "static_layers": [
+        "graves_clinic_stage"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "诊室环境整体用途成立；人物与检查动作不在可拆层内。"
     },
     "six_paper_hashimoto_stage": {
       "layering": "static_backdrop",
-      "static_layers": ["hashimoto_clinic_stage"],
+      "static_layers": [
+        "hashimoto_clinic_stage"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "诊室环境整体用途成立；人物与检查动作不在可拆层内。"
     },
     "six_paper_kidney_stage": {
       "layering": "static_backdrop",
-      "static_layers": ["kidney_clinic_stage"],
+      "static_layers": [
+        "kidney_clinic_stage"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "诊室环境整体用途成立；人物、试管架与资料为烘焙内容，动作层须另取。"
     },
     "six_paper_pcos_stage": {
       "layering": "static_backdrop",
-      "static_layers": ["pcos_home_stage"],
+      "static_layers": [
+        "pcos_home_stage"
+      ],
       "movable_layers": [],
       "anchors": [],
       "note": "居家环境整体用途成立；床、人物与镜面烘焙在整图内，床上与镜前动作须重搭。"
     },
     "reserve_wall_v1": {
       "layering": "action_capable",
-      "static_layers": ["wall_panel"],
-      "movable_layers": ["wall_panel"],
-      "anchors": ["floor_contact", "top_edge"],
+      "static_layers": [
+        "wall_panel"
+      ],
+      "movable_layers": [
+        "wall_panel"
+      ],
+      "anchors": [
+        "floor_contact",
+        "top_edge"
+      ],
       "note": "独立墙板，可作为前景遮挡、翻下或推入的纸层。"
     },
     "reserve_window_v1": {
       "layering": "action_capable",
-      "static_layers": ["window_frame"],
-      "movable_layers": ["window_frame"],
-      "anchors": ["sill", "wall_mount"],
+      "static_layers": [
+        "window_frame"
+      ],
+      "movable_layers": [
+        "window_frame"
+      ],
+      "anchors": [
+        "sill",
+        "wall_mount"
+      ],
       "note": "独立窗框；窗扇如需开合应另取单件，不要在框上伪造透视。"
     },
     "reserve_door_frame_v1": {
       "layering": "action_capable",
-      "static_layers": ["door_frame"],
-      "movable_layers": ["door_frame"],
-      "anchors": ["hinge_side", "threshold"],
+      "static_layers": [
+        "door_frame"
+      ],
+      "movable_layers": [
+        "door_frame"
+      ],
+      "anchors": [
+        "hinge_side",
+        "threshold"
+      ],
       "note": "独立门框；真实门轴开合需与 reserve_door_leaf_v1 的 hinge 锚点配准。"
     },
     "reserve_door_leaf_v1": {
       "layering": "action_capable",
       "static_layers": [],
-      "movable_layers": ["door_leaf"],
-      "anchors": ["hinge"],
+      "movable_layers": [
+        "door_leaf"
+      ],
+      "anchors": [
+        "hinge"
+      ],
       "note": "独立门扇，hinge 锚点用于真实开合；与门框配准后才成立，不作装饰门。"
     },
     "reserve_bed_v1": {
       "layering": "action_capable",
-      "static_layers": ["bed_frame"],
-      "movable_layers": ["bed_frame"],
-      "anchors": ["floor_contact", "mattress_top"],
+      "static_layers": [
+        "bed_frame"
+      ],
+      "movable_layers": [
+        "bed_frame"
+      ],
+      "anchors": [
+        "floor_contact",
+        "mattress_top"
+      ],
       "note": "独立床架，可承载卧姿、起坐与被褥铺设；人物另取。"
     },
     "reserve_blanket_v1": {
       "layering": "action_capable",
       "static_layers": [],
-      "movable_layers": ["blanket"],
-      "anchors": ["fold_edge", "drape_over"],
+      "movable_layers": [
+        "blanket"
+      ],
+      "anchors": [
+        "fold_edge",
+        "drape_over"
+      ],
       "note": "独立被褥，可折叠、拉起、盖覆；覆盖人物时须保持人物层可见。"
     },
     "reserve_pillow_v1": {
       "layering": "action_capable",
       "static_layers": [],
-      "movable_layers": ["pillow"],
-      "anchors": ["head_end"],
+      "movable_layers": [
+        "pillow"
+      ],
+      "anchors": [
+        "head_end"
+      ],
       "note": "独立枕头，可拍平、翻面或被压住。"
     },
     "reserve_chair_v1": {
       "layering": "action_capable",
-      "static_layers": ["chair"],
-      "movable_layers": ["chair"],
-      "anchors": ["seat_top", "floor_contact", "back_top"],
+      "static_layers": [
+        "chair"
+      ],
+      "movable_layers": [
+        "chair"
+      ],
+      "anchors": [
+        "seat_top",
+        "floor_contact",
+        "back_top"
+      ],
       "note": "独立木椅，可承载坐姿、扶靠与前后挪动；人物另取。"
     },
     "reserve_table_v1": {
       "layering": "action_capable",
-      "static_layers": ["table_top"],
-      "movable_layers": ["table_top"],
-      "anchors": ["front_edge", "surface_center"],
+      "static_layers": [
+        "table_top"
+      ],
+      "movable_layers": [
+        "table_top"
+      ],
+      "anchors": [
+        "front_edge",
+        "surface_center"
+      ],
       "note": "独立桌面，是资料、餐盘与药瓶的真实承托面；物件接触点应对齐此面。"
     },
     "reserve_shelf_v1": {
       "layering": "action_capable",
-      "static_layers": ["shelf"],
-      "movable_layers": ["shelf"],
-      "anchors": ["shelf_levels", "wall_mount"],
+      "static_layers": [
+        "shelf"
+      ],
+      "movable_layers": [
+        "shelf"
+      ],
+      "anchors": [
+        "shelf_levels",
+        "wall_mount"
+      ],
       "note": "空柜架，可放取资料、药盒与量杯；层高决定物件落点。"
     },
     "reserve_curtain_v1": {
       "layering": "action_capable",
       "static_layers": [],
-      "movable_layers": ["curtain"],
-      "anchors": ["rod", "tie_back"],
+      "movable_layers": [
+        "curtain"
+      ],
+      "anchors": [
+        "rod",
+        "tie_back"
+      ],
       "note": "独立窗帘，可拉合、掀起或束起，用于揭示窗与床。"
     },
     "reserve_floor_v1": {
       "layering": "action_capable",
-      "static_layers": ["floor"],
-      "movable_layers": ["floor"],
-      "anchors": ["wall_contact", "furniture_contact"],
+      "static_layers": [
+        "floor"
+      ],
+      "movable_layers": [
+        "floor"
+      ],
+      "anchors": [
+        "wall_contact",
+        "furniture_contact"
+      ],
       "note": "木纹地板，定义家具接地与人物站位；不可用漂浮阴影替代接地。"
     },
     "reserve_kitchen_counter_v2": {
       "layering": "static_backdrop",
-      "static_layers": ["kitchen_wall", "counter_surface"],
+      "static_layers": [
+        "kitchen_wall",
+        "counter_surface"
+      ],
       "movable_layers": [],
-      "anchors": ["counter_front_edge", "counter_surface"],
+      "anchors": [
+        "counter_front_edge",
+        "counter_surface"
+      ],
       "note": "空白厨房墙面与台面。台面是餐盘、药瓶、量杯的真实接触面，物件落点应对齐此面；不含烘焙道具，可承接独立纸件。需要开合的橱门或窗扇另取单件。"
+    },
+    "reserve_waiting_room_v1": {
+      "layering": "static_backdrop",
+      "static_layers": [
+        "whole_plate"
+      ],
+      "movable_layers": [],
+      "anchors": [],
+      "note": "空场背景板；家具与洁具为烘焙背景，操作时另取独立部件。"
+    },
+    "reserve_bathroom_v1": {
+      "layering": "static_backdrop",
+      "static_layers": [
+        "whole_plate"
+      ],
+      "movable_layers": [],
+      "anchors": [],
+      "note": "空场背景板；家具与洁具为烘焙背景，操作时另取独立部件。"
     }
   }
 }

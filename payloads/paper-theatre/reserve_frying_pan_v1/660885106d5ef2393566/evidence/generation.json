@@ -1,0 +1,18 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone shallow Chinese frying pan for a home cooking explainer. Subject: single medium round carbon-steel skillet with low sloped sides, pale wood handle extending to the right, empty clean interior seen from a gentle elevated three-quarter angle; no food, no lid, no stove, no hand. Style/medium: refined tactile cut-paper collage, charcoal-gray pan with subtle paper grain and restrained warm wood handle, crisp edge. Composition/framing: one object centered and fully visible, handle not cropped, generous transparent margin. Background: genuinely transparent alpha. Constraints: no background card, counter, burner, flame, steam, cast shadow, glow, labels, logo, text or watermark.",
+  "source_sha256": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "visible_bounds_alpha_ge_25": [
+    97,
+    229,
+    1503,
+    810
+  ],
+  "review": "static_original_and_composite_checked",
+  "anchors_scope": "approximate_visible_contact_regions",
+  "full_motion": "pending"
+}

@@ -106,7 +106,7 @@ def main():
  (out/'catalog/assets.jsonl').write_text(''.join(json.dumps(x,ensure_ascii=False,sort_keys=True)+'\n' for x in active),encoding='utf-8')
  stale_reference=out/'catalog/reference-assets.jsonl'
  if stale_reference.exists(): stale_reference.unlink()
- summary={'schema':'medical_video_asset_sync/v1','generated_at':datetime.now(timezone.utc).isoformat(),'workspace':str(workspace),'asset_count':len(active),'reference_count':0,'registered_versions':len(active),'by_kind':{},'by_series':{},'payload_files':sum(len(x['payload']) for x in active),'repo':str(out)}
+ summary={'schema':'medical_video_asset_sync/v1','generated_at':datetime.now(timezone.utc).isoformat(),'workspace':str(workspace),'asset_count':len({x['source_id'] for x in active}),'reference_count':0,'registered_versions':len(active),'by_kind':{},'by_series':{},'payload_files':sum(len(x['payload']) for x in active),'repo':str(out)}
  for x in active:
   summary['by_kind'][x['kind']]=summary['by_kind'].get(x['kind'],0)+1
   key=x.get('canonical_series_id')

@@ -1,0 +1,183 @@
+{
+  "schema": "animation_element/v1",
+  "id": "male_patient_seated_identity_20261023",
+  "title": "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "complete_figure",
+    "composition_repair_20261023",
+    "adult_man",
+    "seated"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "original_asset_id": "male_patient_seated_identity_20261023",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "identity_reference": "evidence/identity-reference.png",
+    "identity_reference_sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+    "identity_relationship": "same_character_pose_variant",
+    "master_id": "character_adult_man_stand_v1",
+    "source_project": "/Users/gaofeng/workspace/科普视频/productions/weight_management_paper_theatre/05_move_and_recover/v1",
+    "source_path": "assets/imported/male_patient_seated_identity_20261023.png",
+    "prompt": "Use case: identity-preserve. Asset type: a complete transparent paper-collage character pose for an animated medical explainer. Reference image is the ONLY identity master: the same East Asian older adult man, same facial structure, short salt-and-pepper hair, age, gentle expression, sage/light olive green button-up shirt with rolled sleeves, rust/brick-red trousers, grey-brown lace-up shoes, identical tactile cut-paper illustration texture. Change ONLY his body pose into a natural seated three-quarter view facing right: upright relaxed torso, hips realistically supported at an implied chair-seat level, thighs approximately horizontal, both knees bent about 90 degrees, both feet fully visible and resting on one common ground line, both hands visible and naturally resting separately on his own thighs. Preserve the exact face, hair, clothing colors and details, body proportions and age from the reference. Single complete connected figure with full uncut head, both arms/hands, both legs and both shoes. Do NOT include a chair, stool, table, ground, background, cast shadow, fog, halo, text, props, extra hands or detached parts. Chair will be constructed later under the actual hip edge. Generous transparent margin around every body extremity. Genuine RGBA transparent background. Portrait canvas, high quality identity matching.",
+    "sample_has_brand": false,
+    "identity_reference_asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7"
+  },
+  "registered_at": "2026-10-23",
+  "content_bounds": [
+    133,
+    38,
+    870,
+    1477
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_alpha_threshold": 24,
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      35,
+      34,
+      1006,
+      1511
+    ],
+    "opaque_ratio": 0.3297,
+    "translucent_ratio": 0.01,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.55,
+        "y": 0.11
+      },
+      "head_top": {
+        "x": 0.55,
+        "y": 0.0266927083
+      },
+      "seat": {
+        "x": 0.76171875,
+        "y": 0.5859375
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.9602864583
+      },
+      "hand_left": {
+        "x": 0.302734375,
+        "y": 0.5260416667
+      },
+      "hand_right": {
+        "x": 0.626953125,
+        "y": 0.5319010417
+      }
+    }
+  },
+  "discovery": {
+    "category": "characters",
+    "display_title": "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）",
+    "aliases": [
+      "male_patient_seated_identity_20261023",
+      "男性坐姿",
+      "同身份坐姿",
+      "浅绿衬衫",
+      "砖红裤",
+      "男性患者",
+      "male seated"
+    ],
+    "objects": [
+      "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）"
+    ],
+    "actions": [
+      "坐姿摆放",
+      "完整姿态切换"
+    ],
+    "story_roles": [
+      "坐姿沟通",
+      "运动准备",
+      "坐下休息"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "view": "按完整原件观察；镜像后重核朝向和装配",
+    "usage_notes": "原件朝画面左侧；镜像时头、手、臀部及脚底锚点须一起变换。；本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。；单幅坐姿不提供坐下起身过渡帧或连续动作。",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      133,
+      38,
+      870,
+      1477
+    ],
+    "visible_bounds_alpha_threshold": 24,
+    "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+    "character_role": "adult_man",
+    "pose": "seated",
+    "master_id": "character_adult_man_stand_v1"
+  },
+  "usage_notes": "按真实臀后承托点试装椅面；同母版站坐走姿态选择；原件朝画面左侧；镜像时头、手、臀部及脚底锚点须一起变换。；本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。；单幅坐姿不提供坐下起身过渡帧或连续动作。",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "static_source": "reviewed_2026-10-23",
+    "observed": "脸型、盐灰短发、浅绿衬衫、砖红裤和灰棕鞋与站姿母版及新行走姿态一致；头、双手、两鞋完整。",
+    "landmark_scope": "原图归一化可见部位；头为安全定位点，脚为共同地面基准；手部位置不表示可持握任意道具。",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "release": "not_approved"
+  },
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_scene_scale_contact_pending",
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "338a28ebafa54c5127ff836e285c36289b72d039dda961ccf2f37c52117fa4f4",
+      "bytes": 2136469
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "9e4643161ea11333cc0db750ac32d21ec3408f43598d3470052afad09e7e41fb",
+      "bytes": 2300
+    },
+    {
+      "path": "evidence/identity-reference.png",
+      "role": "evidence",
+      "sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+      "bytes": 1898958
+    },
+    {
+      "path": "evidence/source-composites.jpg",
+      "role": "evidence",
+      "sha256": "8a947d9ec1b6acae1dd7988ff337fc44e0cb60bf8d0d03879e848ed7bcef62f3",
+      "bytes": 17229
+    }
+  ],
+  "revision": "b84a668552591dd1d885"
+}

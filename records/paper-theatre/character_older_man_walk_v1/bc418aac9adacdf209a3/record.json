@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_older_man_walk_v1",
+  "title": "老年男性完整步行姿态",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "older_adult",
+    "man",
+    "walk",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "老年男性完整步行姿态",
+    "aliases": [
+      "老人",
+      "老年",
+      "老年男性",
+      "老年步行",
+      "银发",
+      "older man",
+      "walk"
+    ],
+    "objects": [
+      "完整老年男性人物"
+    ],
+    "story_roles": [
+      "老年患者",
+      "日常活动",
+      "长期管理"
+    ],
+    "actions": [
+      "步行",
+      "活动",
+      "停留"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整老年男性步行姿态，可整体位移；当前镜头仍需核对脚底接触。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "完整老年男性步行姿态；可做全身位移和轻微姿态切换，不拆成四肢色块。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_older_man_walk_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    33,
+    39,
+    994,
+    1501
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      33,
+      39,
+      994,
+      1501
+    ],
+    "opaque_ratio": 0.2446,
+    "translucent_ratio": 0.0176,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "87c3bb690282073304100079889967f2a247a3acc7e7c88daa6f1a635a760fd5",
+      "bytes": 1884566
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "01bcb40ba7ae0b5a9ae7282739da982b4b5c3bb50b410ca0f98910070e3bc9f4",
+      "bytes": 500
+    }
+  ],
+  "revision": "bc418aac9adacdf209a3"
+}

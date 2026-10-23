@@ -52,3 +52,31 @@ After changing catalog or payload files, run `python3 tools/materialize_package.
 capability descriptor's content lock, then repeat these checks. The existing Framework
 `publish-package.yml` publishes an exact owner version and source commit with a checked OCI
 predecessor. This repository does not maintain a parallel publisher or channel pointer.
+
+## Current inventory
+
+The public catalog currently contains **207 asset identities, 221 registered revisions, and 787
+payload references**. All 207 identities are available to default discovery. The collection layer
+contains 17 assemblies and 10 event kits. Character coverage provides 49 baseline role/pose slots;
+registration and required anchor gaps are checked separately from motion, medical, listening, and
+current-shot review.
+
+The library includes generic Chinese male and female clinician assets. Private author identities,
+licensed voices, personal branding, and branded episode samples remain outside this repository.
+On a local author workspace, a generic clinician import receives identity context stating that it is
+not the current author presenter; that context does not block production. Static walking poses do not
+prove a continuous gait, and an imported asset does not prove medical or publication approval.
+
+## Documentation
+
+- [Documentation index](docs/README.md)
+- [Asset inventory](docs/asset-inventory.md)
+- [Coverage and reserves](docs/asset-coverage.md)
+- [Governance and review boundaries](docs/governance-and-review.md)
+- [First-draft quality baseline](docs/first-draft-quality.md)
+
+## License
+
+Original tool code and documentation are licensed under [Apache-2.0](LICENSE). Media files and
+third-party content retain their recorded licenses, attribution, and reuse scope; [NOTICE](NOTICE)
+does not relicense them.

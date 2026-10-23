@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_child_girl_reach_v1",
+  "title": "儿童女性·伸手接取·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "child_girl",
+    "reach",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "儿童女性",
+      "伸手接取"
+    ],
+    "actions": [
+      "reach",
+      "伸手接取"
+    ],
+    "character_role": "child_girl",
+    "identity_family": "child_girl_baseline",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_child_girl_stand_v1/ec63ad5c3eae8f16d019/files/payload.png",
+    "prompt": "Use case: illustration-story. Reusable complete paper-theatre character pose for Chinese patient education. Input 1 is exact identity and style reference: same Chinese girl of primary-school age, straight dark bob and bangs, mustard sweater, blue trousers, pale sneakers; preserve child head/body proportions and age. Create exactly same person, changing only pose to standing grounded facing three-quarter screen right, extending the screen-right forearm with open palm at comfortable lower chest height ready to receive a separate report, other hand relaxed and visible; no object drawn. Preserve face, hairstyle, clothing and footwear colors, paper-cut illustration style, connected natural anatomy. Full body including all hair, visible hands and both shoes, generous transparent margin. Opaque paper interior with subtle texture. One isolated person on GENUINE transparent alpha background; no chair, furniture, props, floor, shadow, aura, glow, vignette, blur, text, watermark or checkerboard. Not a multi-pose sheet."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.46,
+        "y": 0.11
+      },
+      "feet": {
+        "x": 0.49,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.33,
+        "y": 0.54
+      },
+      "hand_right": {
+        "x": 0.88,
+        "y": 0.325
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    282,
+    51,
+    957,
+    1469
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      31,
+      29,
+      1010,
+      1473
+    ],
+    "opaque_ratio": 0.2621,
+    "translucent_ratio": 0.0113,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      282,
+      51,
+      957,
+      1469
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "96c33f09d9f83e1953d6c357ee0c4b947fa11197e4f2b66e07a49a171d3f5264",
+      "bytes": 1886316
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "162fe8c453b8d32108279393505f70669c5b20b0ce9a7a4c598fb6b65e3fd4db",
+      "bytes": 2283
+    }
+  ],
+  "revision": "90c42ad4fb3b07730164"
+}

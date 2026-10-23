@@ -1,0 +1,109 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_adult_man_seated_v1",
+  "title": "成年男性患者完整坐姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "adult",
+    "man",
+    "patient",
+    "seated",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "成年男性患者完整坐姿",
+    "aliases": [
+      "患者",
+      "男患者",
+      "成年男性",
+      "坐姿",
+      "门诊",
+      "patient seated",
+      "adult man"
+    ],
+    "objects": [
+      "完整成年男性患者人物"
+    ],
+    "story_roles": [
+      "门诊患者",
+      "坐姿沟通",
+      "检查准备"
+    ],
+    "actions": [
+      "坐下",
+      "倾听",
+      "双手放膝"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整男性患者，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "成年男性患者完整坐姿；无烘焙座椅，可放入独立椅子与环境。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_adult_man_seated_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    87,
+    25,
+    1010,
+    1472
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      87,
+      25,
+      1010,
+      1472
+    ],
+    "opaque_ratio": 0.2788,
+    "translucent_ratio": 0.0098,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+      "bytes": 1784795
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "f613c4e7fa6407026399d1253c17ddd69ae85eced46fe0e3634d1d661bc1c8d1",
+      "bytes": 503
+    }
+  ],
+  "revision": "01dc044f8da64299170b"
+}

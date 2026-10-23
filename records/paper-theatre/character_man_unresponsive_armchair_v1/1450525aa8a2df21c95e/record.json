@@ -1,0 +1,170 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_man_unresponsive_armchair_v1",
+  "title": "男性闭眼低头与扶手椅完整整件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "complete_figure",
+    "composition_repair_20261023",
+    "adult_man",
+    "seated_head_down_armchair"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "original_asset_id": "character_man_unresponsive_armchair_v1",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "identity_relationship": "same_character_supported_pose_variant",
+    "master_id": "character_adult_man_seated_v1",
+    "source_project": "/Users/gaofeng/workspace/科普视频/productions/diabetes_paper_theatre/e00_low_glucose/v2",
+    "source_path": "assets/imported/character_man_unresponsive_armchair_v1.png",
+    "prompt": "Use case: identity-preserve. Asset type: reusable transparent paper-collage full-body medical-education character with his supporting chair. Reference image 1 is the identity, face, body proportions, exact clothing and art-style reference. Create the same middle-aged Chinese man, short salt-and-pepper dark hair, muted sage-green long-sleeved button shirt with rolled sleeves, dark navy-blue trousers and brown leather lace-up shoes. Change his pose and expression: he is unresponsive, eyes visibly fully closed, mouth gently closed, head slack and tilted down to his right, shoulders and arms relaxed, torso leaning against the back and arm of a supportive upholstered armchair. His hips must clearly rest on the actual cushion; back and head physically supported; both shoes reach one common floor baseline below the chair cushion. Natural coherent anatomy, two continuous arms and two hands, five natural fingers on each visible hand, two legs and shoes. Include the entire simple muted teal upholstered armchair with continuous seat/back/arm supports and four short wooden legs. The chair and patient are one coherent complete cutout designed together, three-quarter front view facing slightly toward screen right. Render a careful hand-cut textured paper collage with natural illustrative shading matching the reference, crisp hand-cut silhouette and subtle paper fiber. Actual transparent alpha background everywhere outside the complete man-and-chair group. Full head, shoes and chair legs safely within image with a small transparent margin. No room, floor, cast oval shadow, caregiver, text, device, food, cup, extra arms or detachable limbs. Do not exaggerate distress or portray graphic injury. The posture should clearly differ from the alert upright reference; do not depict a smiling or alert face.",
+    "sample_has_brand": false,
+    "identity_reference": "evidence/identity-reference.png",
+    "identity_reference_sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+    "identity_reference_asset_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454"
+  },
+  "registered_at": "2026-10-23",
+  "content_bounds": [
+    54,
+    78,
+    977,
+    1465
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_alpha_threshold": 24,
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "bbox": [
+      0,
+      72,
+      1006,
+      1536
+    ],
+    "opaque_ratio": 0.5016,
+    "translucent_ratio": 0.01,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.953125
+    },
+    "anchors": {
+      "head": {
+        "x": 0.6,
+        "y": 0.15
+      },
+      "feet": {
+        "x": 0.56,
+        "y": 0.953125
+      },
+      "support_zone": {
+        "x": 0.3,
+        "y": 0.58
+      }
+    },
+    "notes": "人物与椅子整件；support_zone只标内部可见坐垫承托区域，不是可拆臀后seat锚点。"
+  },
+  "discovery": {
+    "category": "characters",
+    "display_title": "男性闭眼低头与扶手椅完整整件",
+    "aliases": [
+      "character_man_unresponsive_armchair_v1",
+      "闭眼低头",
+      "无力坐姿",
+      "扶手椅患者",
+      "观察反应",
+      "head down armchair"
+    ],
+    "objects": [
+      "男性闭眼低头与扶手椅完整整件"
+    ],
+    "actions": [
+      "完整状态摆放",
+      "同人状态切换"
+    ],
+    "story_roles": [
+      "观察反应",
+      "急症照护情境"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "view": "按完整原件观察；镜像后重核朝向和装配",
+    "usage_notes": "静图只确认闭眼、低头与身体由椅子承托，不据此诊断昏迷或低血糖。；不是恢复体位、气道开放、喂食或急救操作示范。；人物与椅子不可拆；没有从清醒到低头或后续恢复的连续过渡帧。",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      54,
+      78,
+      977,
+      1465
+    ],
+    "visible_bounds_alpha_threshold": 24,
+    "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+    "character_role": "adult_man",
+    "pose": "seated_head_down_armchair",
+    "master_id": "character_adult_man_seated_v1"
+  },
+  "usage_notes": "人物与扶手椅整体摆放；在医学语境核对后呈现需要帮助的状态；静图只确认闭眼、低头与身体由椅子承托，不据此诊断昏迷或低血糖。；不是恢复体位、气道开放、喂食或急救操作示范。；人物与椅子不可拆；没有从清醒到低头或后续恢复的连续过渡帧。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "static_source": "reviewed_2026-10-23",
+    "observed": "与睁眼图脸型、灰黑发、绿衫蓝裤棕鞋和蓝椅一致；头低垂且眼闭，背部、臀腿及手臂有椅背/座垫/扶手支持。",
+    "landmark_scope": "原图归一化可见部位；头为安全定位点，脚为共同地面基准；手部位置不表示可持握任意道具。",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "release": "not_approved"
+  },
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_scene_scale_contact_pending",
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "ab73e40c921f34955da82b5dac10811f261df15cb35ab9809719079a331f5309",
+      "bytes": 2398694
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "da66cfc8fb107d6f9026eff3690785ebc62999361b4ca46debd12dd531a9056e",
+      "bytes": 4409
+    },
+    {
+      "path": "evidence/identity-reference.png",
+      "role": "evidence",
+      "sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+      "bytes": 1784795
+    },
+    {
+      "path": "evidence/source-composites.jpg",
+      "role": "evidence",
+      "sha256": "c605e001ec8626b667599af7506e117b99301abb0624d123ebeadc18ab37b71f",
+      "bytes": 19040
+    }
+  ],
+  "revision": "1450525aa8a2df21c95e"
+}

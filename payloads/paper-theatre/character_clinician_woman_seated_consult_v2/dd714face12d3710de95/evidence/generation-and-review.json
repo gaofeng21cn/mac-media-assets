@@ -1,0 +1,61 @@
+{
+  "id": "character_clinician_woman_seated_consult_v2",
+  "ref": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-080f2397-28b0-4aa0-b134-4a627ead6f84.png",
+  "prompt": "Use case: identity-preserve. Asset type: one complete reusable medical animation character pose. Reference 1 is the identity MASTER. Keep the EXACT same Chinese female doctor with black low ponytail, no glasses, white lab coat, sage green shirt, gray trousers and brown flats; same facial likeness and paper-collage style. Change only pose: seated attentively in three-quarter view facing screen right, slightly leaning forward, both hands relaxed on the thighs, thighs nearly horizontal and calves vertical, feet flat on shared ground level. No chair or desk; visible rear buttock support edge for separate chair. Preserve age, physique, face, clothing colors and footwear exactly. Complete head, hair, face, hands, both legs and shoes in frame, generous margin, natural connected anatomy. Single isolated figure with opaque paper interior on GENUINE transparent alpha background. No aura, glow, cast shadow, gradient, checkerboard, text/logo, background or furniture. No geometric stick-person construction. One pose only.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-1b422f82-889f-44cd-9bf0-4ae18a104c99.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "da424768b5eff2a1bd3e660e498b27d75b5d39b0e18d615626ead6404ce158bf",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      14,
+      994,
+      1488
+    ],
+    "opaque_ratio": 0.3008,
+    "translucent_ratio": 0.0112,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      162,
+      16,
+      960,
+      1483
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.48,
+        "y": 0.09
+      },
+      "seat": {
+        "x": 0.337,
+        "y": 0.6
+      },
+      "feet": {
+        "x": 0.66,
+        "y": 0.94
+      },
+      "hand_left": {
+        "x": 0.565,
+        "y": 0.54
+      },
+      "hand_right": {
+        "x": 0.74,
+        "y": 0.542
+      }
+    },
+    "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面"
+  }
+}

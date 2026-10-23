@@ -1,0 +1,107 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_wooden_spatula_v1",
+  "title": "独立木质锅铲",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone wooden cooking spatula for a Chinese home cooking preparation scene. Subject: single flat wooden spatula with a broad rounded paddle and short handle, shown diagonally, no hand, no pan, no food. Style/medium: refined tactile cut-paper collage with subtle paper fiber, warm natural wood, crisp silhouette. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: ordinary kitchen utensil only; no person, no background card, no cast shadow, no glow, no text, no logo, no watermark.",
+    "generation_receipt": "evidence/generation.json"
+  },
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "stir"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "锅铲",
+      "铲子",
+      "翻炒"
+    ],
+    "objects": [
+      "木质锅铲"
+    ],
+    "actions": [
+      "翻炒",
+      "搅拌",
+      "放下"
+    ],
+    "story_roles": [
+      "烹饪过程",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "独立接触道具层；不含手和锅内食物。",
+    "original_image_size": [
+      1254,
+      1254
+    ],
+    "visible_bounds": [
+      151,
+      146,
+      1169,
+      1107
+    ]
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    151,
+    146,
+    1169,
+    1107
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "paddle": {
+        "x": 0.32,
+        "y": 0.68
+      },
+      "grip": {
+        "x": 0.8,
+        "y": 0.23
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "与炒锅独立叠放；可作为翻炒动作的接触道具，仍需命名事件和落定审看。",
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_contact_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "1dcaea4006959ef9c21dfc4d6a6bbb6f520f6ef60e5abbfa4785e4eae26bc553",
+      "bytes": 769525
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "ec896a5fe67c0218ad8f2e46afabfcf1d1b64673dd592fc594dc95a3f1474d2a",
+      "bytes": 1092
+    }
+  ],
+  "revision": "f89894748e52176761e5"
+}

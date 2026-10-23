@@ -1,0 +1,1967 @@
+{
+  "schema": "mac_asset_trials/v1",
+  "scenes": [
+    {
+      "id": "paper:reserve_thyroid_simple_v2@72cad923d36490b2dcc9",
+      "source_id": "reserve_thyroid_simple_v2",
+      "revision": "72cad923d36490b2dcc9",
+      "title": "甲状腺·远景轮廓简化版",
+      "entry": "../../payloads/paper-theatre/reserve_thyroid_simple_v2/72cad923d36490b2dcc9/samples/preview.png",
+      "bounds": [
+        256,
+        263,
+        768,
+        721
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "whole",
+          "url": "../../payloads/paper-theatre/reserve_thyroid_simple_v2/72cad923d36490b2dcc9/files/whole.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "前面观双叶与峡部轮廓；远景仅辨认甲状腺，不显示气管环、内部组织或手术关系。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_pituitary_relations_simple_v1@62c6685efa32cfa48273",
+      "source_id": "reserve_pituitary_relations_simple_v1",
+      "revision": "62c6685efa32cfa48273",
+      "title": "垂体邻近关系·远景轮廓简化版",
+      "entry": "../../payloads/paper-theatre/reserve_pituitary_relations_simple_v1/62c6685efa32cfa48273/samples/preview.png",
+      "bounds": [
+        367,
+        192,
+        653,
+        650
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "whole",
+          "url": "../../payloads/paper-theatre/reserve_pituitary_relations_simple_v1/62c6685efa32cfa48273/files/whole.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "概念性相对位置示意：垂体经柄连接上方下丘脑，视交叉在上方偏前，蝶窦在鞍底下方。它不是患者影像或精确矢状断面；不含颈内动脉、神经束或手术通道，不能用作入路示教。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_pituitary_relations_layers_v1@453935452a85019762f8",
+      "source_id": "reserve_pituitary_relations_layers_v1",
+      "revision": "453935452a85019762f8",
+      "title": "垂体邻近关系·同视角关系分层版",
+      "entry": "../../payloads/paper-theatre/reserve_pituitary_relations_layers_v1/453935452a85019762f8/samples/preview.png",
+      "bounds": [
+        265,
+        192,
+        727,
+        866
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "sinus",
+          "url": "../../payloads/paper-theatre/reserve_pituitary_relations_layers_v1/453935452a85019762f8/files/sinus.png"
+        },
+        {
+          "id": "sella",
+          "url": "../../payloads/paper-theatre/reserve_pituitary_relations_layers_v1/453935452a85019762f8/files/sella.png"
+        },
+        {
+          "id": "gland",
+          "url": "../../payloads/paper-theatre/reserve_pituitary_relations_layers_v1/453935452a85019762f8/files/gland.png"
+        },
+        {
+          "id": "stalk",
+          "url": "../../payloads/paper-theatre/reserve_pituitary_relations_layers_v1/453935452a85019762f8/files/stalk.png"
+        },
+        {
+          "id": "hypothalamus",
+          "url": "../../payloads/paper-theatre/reserve_pituitary_relations_layers_v1/453935452a85019762f8/files/hypothalamus.png"
+        },
+        {
+          "id": "chiasm",
+          "url": "../../payloads/paper-theatre/reserve_pituitary_relations_layers_v1/453935452a85019762f8/files/chiasm.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "概念性相对位置示意：垂体经柄连接上方下丘脑，视交叉在上方偏前，蝶窦在鞍底下方。它不是患者影像或精确矢状断面；不含颈内动脉、神经束或手术通道，不能用作入路示教。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_pancreas_relations_simple_v1@906dc55e1fb31205a800",
+      "source_id": "reserve_pancreas_relations_simple_v1",
+      "revision": "906dc55e1fb31205a800",
+      "title": "胰腺与胰管·远景轮廓简化版",
+      "entry": "../../payloads/paper-theatre/reserve_pancreas_relations_simple_v1/906dc55e1fb31205a800/samples/preview.png",
+      "bounds": [
+        150,
+        299,
+        856,
+        616
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "whole",
+          "url": "../../payloads/paper-theatre/reserve_pancreas_relations_simple_v1/906dc55e1fb31205a800/files/whole.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "概念性胰腺外形与主胰管示意，画面左侧为胰头、右侧为胰尾；并非患者影像。胰管分支只表达汇流关系，不表达精确分支数；不包含胆管、十二指肠、胰岛或微观细胞，不能演示手术、病灶或内分泌细胞比例。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_pancreas_relations_layers_v1@fb8e5808d6bc5662575c",
+      "source_id": "reserve_pancreas_relations_layers_v1",
+      "revision": "fb8e5808d6bc5662575c",
+      "title": "胰腺与胰管·同视角关系分层版",
+      "entry": "../../payloads/paper-theatre/reserve_pancreas_relations_layers_v1/fb8e5808d6bc5662575c/samples/preview.png",
+      "bounds": [
+        150,
+        299,
+        856,
+        616
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "organ",
+          "url": "../../payloads/paper-theatre/reserve_pancreas_relations_layers_v1/fb8e5808d6bc5662575c/files/organ.png"
+        },
+        {
+          "id": "duct",
+          "url": "../../payloads/paper-theatre/reserve_pancreas_relations_layers_v1/fb8e5808d6bc5662575c/files/duct.png"
+        },
+        {
+          "id": "branches",
+          "url": "../../payloads/paper-theatre/reserve_pancreas_relations_layers_v1/fb8e5808d6bc5662575c/files/branches.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "概念性胰腺外形与主胰管示意，画面左侧为胰头、右侧为胰尾；并非患者影像。胰管分支只表达汇流关系，不表达精确分支数；不包含胆管、十二指肠、胰岛或微观细胞，不能演示手术、病灶或内分泌细胞比例。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_child_boy_stand_v1@d901483f1841ad102f40",
+      "source_id": "character_child_boy_stand_v1",
+      "revision": "d901483f1841ad102f40",
+      "title": "男童·站立",
+      "entry": "../../payloads/paper-theatre/character_child_boy_stand_v1/d901483f1841ad102f40/files/payload.png",
+      "bounds": [
+        324,
+        28,
+        738,
+        1506
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.095
+        },
+        "feet": {
+          "x": 0.53,
+          "y": 0.977
+        },
+        "hand_left": {
+          "x": 0.4,
+          "y": 0.6
+        },
+        "hand_right": {
+          "x": 0.68,
+          "y": 0.59
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_child_boy_seated_v1@0e2b211ef70c802defaa",
+      "source_id": "character_child_boy_seated_v1",
+      "revision": "0e2b211ef70c802defaa",
+      "title": "男童·坐姿",
+      "entry": "../../payloads/paper-theatre/character_child_boy_seated_v1/0e2b211ef70c802defaa/files/payload.png",
+      "bounds": [
+        167,
+        21,
+        940,
+        1466
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.1
+        },
+        "feet": {
+          "x": 0.69,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.565,
+          "y": 0.55
+        },
+        "hand_right": {
+          "x": 0.75,
+          "y": 0.548
+        },
+        "seat": {
+          "x": 0.326,
+          "y": 0.584
+        }
+      },
+      "parts": [],
+      "inseparable": true,
+      "opaque": false,
+      "note": "人物与木椅为不可拆静态整件，已核对臀部承托、双手及双鞋；不能去椅、分别运动或冒充连续坐立。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_child_boy_walk_v1@24ffc90514896625460c",
+      "source_id": "character_child_boy_walk_v1",
+      "revision": "24ffc90514896625460c",
+      "title": "男童·行走关键姿态",
+      "entry": "../../payloads/paper-theatre/character_child_boy_walk_v1/24ffc90514896625460c/files/payload.png",
+      "bounds": [
+        107,
+        29,
+        947,
+        1473
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.1
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.285,
+          "y": 0.578
+        },
+        "hand_right": {
+          "x": 0.82,
+          "y": 0.515
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_child_boy_reach_v1@8fa72b53e36147b2c61b",
+      "source_id": "character_child_boy_reach_v1",
+      "revision": "8fa72b53e36147b2c61b",
+      "title": "男童·伸手接取",
+      "entry": "../../payloads/paper-theatre/character_child_boy_reach_v1/8fa72b53e36147b2c61b/files/payload.png",
+      "bounds": [
+        273,
+        14,
+        933,
+        1512
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.5,
+          "y": 0.97
+        },
+        "hand_left": {
+          "x": 0.4,
+          "y": 0.59
+        },
+        "hand_right": {
+          "x": 0.83,
+          "y": 0.345
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582",
+      "source_id": "character_teen_boy_stand_v1",
+      "revision": "b6bd3358407ee1c1b582",
+      "title": "男性青少年·站立",
+      "entry": "../../payloads/paper-theatre/character_teen_boy_stand_v1/b6bd3358407ee1c1b582/files/payload.png",
+      "bounds": [
+        306,
+        21,
+        722,
+        1515
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.98
+        },
+        "hand_left": {
+          "x": 0.42,
+          "y": 0.56
+        },
+        "hand_right": {
+          "x": 0.68,
+          "y": 0.56
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_teen_boy_seated_v1@14ffe9207fbb6401bab5",
+      "source_id": "character_teen_boy_seated_v1",
+      "revision": "14ffe9207fbb6401bab5",
+      "title": "男性青少年·坐姿",
+      "entry": "../../payloads/paper-theatre/character_teen_boy_seated_v1/14ffe9207fbb6401bab5/files/payload.png",
+      "bounds": [
+        153,
+        27,
+        945,
+        1462
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.1
+        },
+        "feet": {
+          "x": 0.71,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.52,
+          "y": 0.54
+        },
+        "hand_right": {
+          "x": 0.76,
+          "y": 0.54
+        },
+        "seat": {
+          "x": 0.335,
+          "y": 0.585
+        }
+      },
+      "parts": [],
+      "inseparable": true,
+      "opaque": false,
+      "note": "人物与木椅为不可拆静态整件，已核对臀部承托、双手及双鞋；不能去椅、分别运动或冒充连续坐立。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_teen_boy_walk_v1@5c1ef5a58ad9fd5f4dd9",
+      "source_id": "character_teen_boy_walk_v1",
+      "revision": "5c1ef5a58ad9fd5f4dd9",
+      "title": "男性青少年·行走关键姿态",
+      "entry": "../../payloads/paper-theatre/character_teen_boy_walk_v1/5c1ef5a58ad9fd5f4dd9/files/payload.png",
+      "bounds": [
+        113,
+        20,
+        932,
+        1447
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.52,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.31,
+          "y": 0.555
+        },
+        "hand_right": {
+          "x": 0.78,
+          "y": 0.477
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_teen_boy_reach_v1@1d129d0c53d3b59a0932",
+      "source_id": "character_teen_boy_reach_v1",
+      "revision": "1d129d0c53d3b59a0932",
+      "title": "男性青少年·伸手接取",
+      "entry": "../../payloads/paper-theatre/character_teen_boy_reach_v1/1d129d0c53d3b59a0932/files/payload.png",
+      "bounds": [
+        282,
+        11,
+        848,
+        1520
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.49,
+          "y": 0.98
+        },
+        "hand_left": {
+          "x": 0.625,
+          "y": 0.54
+        },
+        "hand_right": {
+          "x": 0.76,
+          "y": 0.34
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5",
+      "source_id": "character_young_man_stand_v1",
+      "revision": "c6ac515b2a0e4b3824c5",
+      "title": "年轻成年男性·站立",
+      "entry": "../../payloads/paper-theatre/character_young_man_stand_v1/c6ac515b2a0e4b3824c5/files/payload.png",
+      "bounds": [
+        264,
+        12,
+        735,
+        1508
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.5,
+          "y": 0.975
+        },
+        "hand_left": {
+          "x": 0.36,
+          "y": 0.56
+        },
+        "hand_right": {
+          "x": 0.665,
+          "y": 0.55
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_young_man_seated_v1@6c24351380ba3d7b42ec",
+      "source_id": "character_young_man_seated_v1",
+      "revision": "6c24351380ba3d7b42ec",
+      "title": "年轻成年男性·坐姿",
+      "entry": "../../payloads/paper-theatre/character_young_man_seated_v1/6c24351380ba3d7b42ec/files/payload.png",
+      "bounds": [
+        188,
+        32,
+        964,
+        1449
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.11
+        },
+        "feet": {
+          "x": 0.66,
+          "y": 0.94
+        },
+        "hand_left": {
+          "x": 0.51,
+          "y": 0.54
+        },
+        "hand_right": {
+          "x": 0.77,
+          "y": 0.55
+        },
+        "seat": {
+          "x": 0.3,
+          "y": 0.58
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_young_man_walk_v1@5dc00110903e0c383201",
+      "source_id": "character_young_man_walk_v1",
+      "revision": "5dc00110903e0c383201",
+      "title": "年轻成年男性·行走关键姿态",
+      "entry": "../../payloads/paper-theatre/character_young_man_walk_v1/5dc00110903e0c383201/files/payload.png",
+      "bounds": [
+        153,
+        13,
+        894,
+        1426
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.085
+        },
+        "feet": {
+          "x": 0.52,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.29,
+          "y": 0.555
+        },
+        "hand_right": {
+          "x": 0.79,
+          "y": 0.49
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_young_man_reach_v1@e54ee8868155b2cabbe8",
+      "source_id": "character_young_man_reach_v1",
+      "revision": "e54ee8868155b2cabbe8",
+      "title": "年轻成年男性·伸手接取",
+      "entry": "../../payloads/paper-theatre/character_young_man_reach_v1/e54ee8868155b2cabbe8/files/payload.png",
+      "bounds": [
+        215,
+        12,
+        977,
+        1498
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.5,
+          "y": 0.98
+        },
+        "hand_left": {
+          "x": 0.33,
+          "y": 0.56
+        },
+        "hand_right": {
+          "x": 0.85,
+          "y": 0.315
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_adult_woman_lying_v2@d797e2eea498e1bcde6c",
+      "source_id": "character_adult_woman_lying_v2",
+      "revision": "d797e2eea498e1bcde6c",
+      "title": "成年女性·同身份仰卧",
+      "entry": "../../payloads/paper-theatre/character_adult_woman_lying_v2/d797e2eea498e1bcde6c/files/payload.png",
+      "bounds": [
+        43,
+        285,
+        1744,
+        690
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.085,
+          "y": 0.46
+        },
+        "body": {
+          "x": 0.5,
+          "y": 0.58
+        },
+        "feet": {
+          "x": 0.94,
+          "y": 0.58
+        },
+        "hand_left": {
+          "x": 0.55,
+          "y": 0.645
+        },
+        "hand_right": {
+          "x": 0.49,
+          "y": 0.445
+        }
+      },
+      "parts": [],
+      "inseparable": true,
+      "opaque": false,
+      "note": "沿原短发、芥黄开衫、奶白内搭和青绿裤母版补仰卧；与长发侧卧为不同人物。整件仰卧无床，需按背部承托线配床；不表示昏迷或病情。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_waiting_room_v1@82a7f8c6f9e90964b2db",
+      "source_id": "reserve_waiting_room_v1",
+      "revision": "82a7f8c6f9e90964b2db",
+      "title": "候诊区空场背景板",
+      "entry": "../../payloads/paper-theatre/reserve_waiting_room_v1/82a7f8c6f9e90964b2db/files/payload.png",
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "anchors": {},
+      "parts": [],
+      "inseparable": false,
+      "opaque": true,
+      "note": "已看空场、中央留白与透视；整幅不透明背景，家具、门窗和接待台不可独立操作。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_bathroom_v1@3981b6761afb7f147235",
+      "source_id": "reserve_bathroom_v1",
+      "revision": "3981b6761afb7f147235",
+      "title": "家庭洗手间空场背景板",
+      "entry": "../../payloads/paper-theatre/reserve_bathroom_v1/3981b6761afb7f147235/files/payload.png",
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "anchors": {},
+      "parts": [],
+      "inseparable": false,
+      "opaque": true,
+      "note": "已看洗手台、座便器和中央空场；整幅不透明背景，洁具不可独立操作，不代表无障碍规范审定。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_man_cane_v1@6858cfca3d92926852c9",
+      "source_id": "character_older_man_cane_v1",
+      "revision": "6858cfca3d92926852c9",
+      "title": "老年男性·扶杖站立整件",
+      "entry": "../../payloads/paper-theatre/character_older_man_cane_v1/6858cfca3d92926852c9/files/payload.png",
+      "bounds": [
+        228,
+        26,
+        829,
+        1468
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.5,
+          "y": 0.085
+        },
+        "feet": {
+          "x": 0.53,
+          "y": 0.948
+        },
+        "hand_left": {
+          "x": 0.335,
+          "y": 0.485
+        },
+        "hand_right": {
+          "x": 0.77,
+          "y": 0.52
+        },
+        "cane_tip": {
+          "x": 0.25,
+          "y": 0.948
+        }
+      },
+      "parts": [],
+      "inseparable": true,
+      "opaque": false,
+      "note": "同身份老人扶杖静态整件，手杖在画面左侧；不可拆出手杖独立运动，不作为步态训练或左右手用杖规范示教。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_man_wheelchair_v1@d281630ee35eb59fc601",
+      "source_id": "character_older_man_wheelchair_v1",
+      "revision": "d281630ee35eb59fc601",
+      "title": "老年男性·轮椅静坐整件",
+      "entry": "../../payloads/paper-theatre/character_older_man_wheelchair_v1/d281630ee35eb59fc601/files/payload.png",
+      "bounds": [
+        41,
+        30,
+        1000,
+        1411
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.54,
+          "y": 0.105
+        },
+        "seat": {
+          "x": 0.4,
+          "y": 0.59
+        },
+        "feet": {
+          "x": 0.71,
+          "y": 0.85
+        },
+        "hand_left": {
+          "x": 0.52,
+          "y": 0.5
+        },
+        "hand_right": {
+          "x": 0.73,
+          "y": 0.5
+        },
+        "ground": {
+          "x": 0.5,
+          "y": 0.915
+        }
+      },
+      "parts": [],
+      "inseparable": true,
+      "opaque": false,
+      "note": "同身份老人和轮椅为不可拆静态整件；鞋放脚踏，接地基准取轮胎；不表示推动、转移、刹车或完整照护过程。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_thyroid_simple_v1@f23e768de6e8ae054137",
+      "source_id": "reserve_thyroid_simple_v1",
+      "revision": "f23e768de6e8ae054137",
+      "title": "甲状腺·远景简化版",
+      "entry": "../../payloads/paper-theatre/reserve_thyroid_simple_v1/f23e768de6e8ae054137/samples/preview.png",
+      "bounds": [
+        223,
+        109,
+        801,
+        869
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "payload",
+          "url": "../../payloads/paper-theatre/reserve_thyroid_simple_v1/f23e768de6e8ae054137/files/payload.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "正面甲状腺与后方气管的简化空间关系；不含甲状软骨、血管、神经或病灶。左右为画面左右，不能据此判断手术层次。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_thyroid_detailed_layers_v1@23e8d91b061c24c05036",
+      "source_id": "reserve_thyroid_detailed_layers_v1",
+      "revision": "23e8d91b061c24c05036",
+      "title": "甲状腺·近景配准分层版",
+      "entry": "../../payloads/paper-theatre/reserve_thyroid_detailed_layers_v1/23e8d91b061c24c05036/samples/preview.png",
+      "bounds": [
+        223,
+        109,
+        801,
+        869
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "trachea",
+          "url": "../../payloads/paper-theatre/reserve_thyroid_detailed_layers_v1/23e8d91b061c24c05036/files/trachea.png"
+        },
+        {
+          "id": "lobe_left",
+          "url": "../../payloads/paper-theatre/reserve_thyroid_detailed_layers_v1/23e8d91b061c24c05036/files/lobe_left.png"
+        },
+        {
+          "id": "lobe_right",
+          "url": "../../payloads/paper-theatre/reserve_thyroid_detailed_layers_v1/23e8d91b061c24c05036/files/lobe_right.png"
+        },
+        {
+          "id": "isthmus",
+          "url": "../../payloads/paper-theatre/reserve_thyroid_detailed_layers_v1/23e8d91b061c24c05036/files/isthmus.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "正面甲状腺与后方气管的简化空间关系；不含甲状软骨、血管、神经或病灶。左右为画面左右，不能据此判断手术层次。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_kidney_simple_v1@ff689258aa63c36b4333",
+      "source_id": "reserve_kidney_simple_v1",
+      "revision": "ff689258aa63c36b4333",
+      "title": "肾脏·远景简化版",
+      "entry": "../../payloads/paper-theatre/reserve_kidney_simple_v1/ff689258aa63c36b4333/samples/preview.png",
+      "bounds": [
+        198,
+        136,
+        675,
+        887
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "payload",
+          "url": "../../payloads/paper-theatre/reserve_kidney_simple_v1/ff689258aa63c36b4333/files/payload.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单肾冠状切面，分开皮质背景、髓质锥体和肾盂/肾盏/输尿管；不表示肾单位微观滤过、血管或精确肾盏数。远景版仅表达肾与输尿管身份。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_kidney_detailed_layers_v1@9dfee405d6cc61e25bbc",
+      "source_id": "reserve_kidney_detailed_layers_v1",
+      "revision": "9dfee405d6cc61e25bbc",
+      "title": "肾脏·近景配准分层版",
+      "entry": "../../payloads/paper-theatre/reserve_kidney_detailed_layers_v1/9dfee405d6cc61e25bbc/samples/preview.png",
+      "bounds": [
+        198,
+        136,
+        675,
+        886
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "cortex",
+          "url": "../../payloads/paper-theatre/reserve_kidney_detailed_layers_v1/9dfee405d6cc61e25bbc/files/cortex.png"
+        },
+        {
+          "id": "medulla",
+          "url": "../../payloads/paper-theatre/reserve_kidney_detailed_layers_v1/9dfee405d6cc61e25bbc/files/medulla.png"
+        },
+        {
+          "id": "collecting_system",
+          "url": "../../payloads/paper-theatre/reserve_kidney_detailed_layers_v1/9dfee405d6cc61e25bbc/files/collecting_system.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单肾冠状切面，分开皮质背景、髓质锥体和肾盂/肾盏/输尿管；不表示肾单位微观滤过、血管或精确肾盏数。远景版仅表达肾与输尿管身份。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_artery_simple_v1@27465952400de22b2f29",
+      "source_id": "reserve_artery_simple_v1",
+      "revision": "27465952400de22b2f29",
+      "title": "动脉壁·远景简化版",
+      "entry": "../../payloads/paper-theatre/reserve_artery_simple_v1/27465952400de22b2f29/samples/preview.png",
+      "bounds": [
+        145,
+        190,
+        879,
+        834
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "payload",
+          "url": "../../payloads/paper-theatre/reserve_artery_simple_v1/27465952400de22b2f29/files/payload.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "动脉横断面三层壁与管腔，外膜、中膜、内膜逐层套叠；层厚只为可读性，无狭窄/斑块或病理含义，不能用于厚度测量。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_artery_detailed_layers_v1@80bb1a5208afeb48a63c",
+      "source_id": "reserve_artery_detailed_layers_v1",
+      "revision": "80bb1a5208afeb48a63c",
+      "title": "动脉壁·近景配准分层版",
+      "entry": "../../payloads/paper-theatre/reserve_artery_detailed_layers_v1/80bb1a5208afeb48a63c/samples/preview.png",
+      "bounds": [
+        145,
+        190,
+        879,
+        834
+      ],
+      "anchors": {},
+      "parts": [
+        {
+          "id": "adventitia",
+          "url": "../../payloads/paper-theatre/reserve_artery_detailed_layers_v1/80bb1a5208afeb48a63c/files/adventitia.png"
+        },
+        {
+          "id": "media",
+          "url": "../../payloads/paper-theatre/reserve_artery_detailed_layers_v1/80bb1a5208afeb48a63c/files/media.png"
+        },
+        {
+          "id": "intima",
+          "url": "../../payloads/paper-theatre/reserve_artery_detailed_layers_v1/80bb1a5208afeb48a63c/files/intima.png"
+        },
+        {
+          "id": "lumen",
+          "url": "../../payloads/paper-theatre/reserve_artery_detailed_layers_v1/80bb1a5208afeb48a63c/files/lumen.png"
+        }
+      ],
+      "inseparable": false,
+      "opaque": false,
+      "note": "动脉横断面三层壁与管腔，外膜、中膜、内膜逐层套叠；层厚只为可读性，无狭窄/斑块或病理含义，不能用于厚度测量。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_adult_man_walk_v1@8f657fb158c5f96fd776",
+      "source_id": "character_adult_man_walk_v1",
+      "revision": "8f657fb158c5f96fd776",
+      "title": "成年男性·步行·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_adult_man_walk_v1/8f657fb158c5f96fd776/files/payload.png",
+      "bounds": [
+        183,
+        37,
+        861,
+        1481
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.96
+        },
+        "hand_left": {
+          "x": 0.22,
+          "y": 0.51
+        },
+        "hand_right": {
+          "x": 0.78,
+          "y": 0.49
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_adult_man_reach_v1@56ac1028ab1507772026",
+      "source_id": "character_adult_man_reach_v1",
+      "revision": "56ac1028ab1507772026",
+      "title": "成年男性·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_adult_man_reach_v1/56ac1028ab1507772026/files/payload.png",
+      "bounds": [
+        234,
+        34,
+        912,
+        1456
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.47,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.31,
+          "y": 0.51
+        },
+        "hand_right": {
+          "x": 0.81,
+          "y": 0.36
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_man_seated_consult_v1@1e7c4789c9d5699062e6",
+      "source_id": "character_clinician_man_seated_consult_v1",
+      "revision": "1e7c4789c9d5699062e6",
+      "title": "男性医生·坐姿问诊·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_clinician_man_seated_consult_v1/1e7c4789c9d5699062e6/files/payload.png",
+      "bounds": [
+        154,
+        44,
+        936,
+        1426
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.11
+        },
+        "seat": {
+          "x": 0.328,
+          "y": 0.595
+        },
+        "feet": {
+          "x": 0.66,
+          "y": 0.925
+        },
+        "hand_left": {
+          "x": 0.55,
+          "y": 0.5
+        },
+        "hand_right": {
+          "x": 0.78,
+          "y": 0.48
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4",
+      "source_id": "character_clinician_woman_stand_v2",
+      "revision": "ccfad54a4e7ecc453ae4",
+      "title": "女性医生·站立·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_clinician_woman_stand_v2/ccfad54a4e7ecc453ae4/files/payload.png",
+      "bounds": [
+        266,
+        10,
+        877,
+        1514
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.48,
+          "y": 0.08
+        },
+        "feet": {
+          "x": 0.5,
+          "y": 0.975
+        },
+        "hand_left": {
+          "x": 0.355,
+          "y": 0.52
+        },
+        "hand_right": {
+          "x": 0.8,
+          "y": 0.28
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_man_walk_v1@c23fff8f30de3664d71c",
+      "source_id": "character_clinician_man_walk_v1",
+      "revision": "c23fff8f30de3664d71c",
+      "title": "男性医生·步行·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_clinician_man_walk_v1/c23fff8f30de3664d71c/files/payload.png",
+      "bounds": [
+        128,
+        32,
+        948,
+        1484
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.48,
+          "y": 0.095
+        },
+        "feet": {
+          "x": 0.52,
+          "y": 0.96
+        },
+        "hand_left": {
+          "x": 0.23,
+          "y": 0.535
+        },
+        "hand_right": {
+          "x": 0.79,
+          "y": 0.47
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_man_reach_v1@cbdeda9c62cdc10dd444",
+      "source_id": "character_clinician_man_reach_v1",
+      "revision": "cbdeda9c62cdc10dd444",
+      "title": "男性医生·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_clinician_man_reach_v1/cbdeda9c62cdc10dd444/files/payload.png",
+      "bounds": [
+        263,
+        21,
+        885,
+        1505
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.5,
+          "y": 0.977
+        },
+        "hand_left": {
+          "x": 0.5,
+          "y": 0.355
+        },
+        "hand_right": {
+          "x": 0.81,
+          "y": 0.35
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_child_girl_seated_v1@239b0a6c03f7f6afe073",
+      "source_id": "character_child_girl_seated_v1",
+      "revision": "239b0a6c03f7f6afe073",
+      "title": "儿童女性·坐姿·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_child_girl_seated_v1/239b0a6c03f7f6afe073/files/payload.png",
+      "bounds": [
+        215,
+        36,
+        906,
+        1477
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.12
+        },
+        "seat": {
+          "x": 0.28,
+          "y": 0.59
+        },
+        "feet": {
+          "x": 0.66,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.5,
+          "y": 0.56
+        },
+        "hand_right": {
+          "x": 0.7,
+          "y": 0.555
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_child_girl_walk_v1@429a205cc02b6c8dd048",
+      "source_id": "character_child_girl_walk_v1",
+      "revision": "429a205cc02b6c8dd048",
+      "title": "儿童女性·步行·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_child_girl_walk_v1/429a205cc02b6c8dd048/files/payload.png",
+      "bounds": [
+        162,
+        57,
+        932,
+        1459
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.47,
+          "y": 0.1
+        },
+        "feet": {
+          "x": 0.52,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.23,
+          "y": 0.56
+        },
+        "hand_right": {
+          "x": 0.81,
+          "y": 0.525
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_child_girl_reach_v1@90c42ad4fb3b07730164",
+      "source_id": "character_child_girl_reach_v1",
+      "revision": "90c42ad4fb3b07730164",
+      "title": "儿童女性·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_child_girl_reach_v1/90c42ad4fb3b07730164/files/payload.png",
+      "bounds": [
+        282,
+        51,
+        957,
+        1469
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.46,
+          "y": 0.11
+        },
+        "feet": {
+          "x": 0.49,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.33,
+          "y": 0.54
+        },
+        "hand_right": {
+          "x": 0.88,
+          "y": 0.325
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_teen_girl_seated_v1@1e0754921bf1e7259bda",
+      "source_id": "character_teen_girl_seated_v1",
+      "revision": "1e0754921bf1e7259bda",
+      "title": "青少年女性·坐姿·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_teen_girl_seated_v1/1e0754921bf1e7259bda/files/payload.png",
+      "bounds": [
+        232,
+        39,
+        966,
+        1456
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.47,
+          "y": 0.1
+        },
+        "seat": {
+          "x": 0.3,
+          "y": 0.6
+        },
+        "feet": {
+          "x": 0.68,
+          "y": 0.93
+        },
+        "hand_left": {
+          "x": 0.58,
+          "y": 0.52
+        },
+        "hand_right": {
+          "x": 0.685,
+          "y": 0.505
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_teen_girl_walk_v1@885c531b3cdf94109327",
+      "source_id": "character_teen_girl_walk_v1",
+      "revision": "885c531b3cdf94109327",
+      "title": "青少年女性·步行·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_teen_girl_walk_v1/885c531b3cdf94109327/files/payload.png",
+      "bounds": [
+        119,
+        18,
+        966,
+        1470
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.47,
+          "y": 0.08
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.28,
+          "y": 0.52
+        },
+        "hand_right": {
+          "x": 0.79,
+          "y": 0.47
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_teen_girl_reach_v1@e08a0e42da339f30dd5a",
+      "source_id": "character_teen_girl_reach_v1",
+      "revision": "e08a0e42da339f30dd5a",
+      "title": "青少年女性·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_teen_girl_reach_v1/e08a0e42da339f30dd5a/files/payload.png",
+      "bounds": [
+        284,
+        18,
+        913,
+        1524
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.47,
+          "y": 0.085
+        },
+        "feet": {
+          "x": 0.5,
+          "y": 0.975
+        },
+        "hand_left": {
+          "x": 0.55,
+          "y": 0.495
+        },
+        "hand_right": {
+          "x": 0.83,
+          "y": 0.315
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_woman_seated_consult_v2@dd714face12d3710de95",
+      "source_id": "character_clinician_woman_seated_consult_v2",
+      "revision": "dd714face12d3710de95",
+      "title": "女性医生·坐姿问诊·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_clinician_woman_seated_consult_v2/dd714face12d3710de95/files/payload.png",
+      "bounds": [
+        162,
+        16,
+        960,
+        1483
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.48,
+          "y": 0.09
+        },
+        "seat": {
+          "x": 0.337,
+          "y": 0.6
+        },
+        "feet": {
+          "x": 0.66,
+          "y": 0.94
+        },
+        "hand_left": {
+          "x": 0.565,
+          "y": 0.54
+        },
+        "hand_right": {
+          "x": 0.74,
+          "y": 0.542
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_woman_walk_v2@e6d58c25dcef6d5aa7c5",
+      "source_id": "character_clinician_woman_walk_v2",
+      "revision": "e6d58c25dcef6d5aa7c5",
+      "title": "女性医生·步行·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_clinician_woman_walk_v2/e6d58c25dcef6d5aa7c5/files/payload.png",
+      "bounds": [
+        172,
+        11,
+        877,
+        1459
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.08
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.27,
+          "y": 0.51
+        },
+        "hand_right": {
+          "x": 0.77,
+          "y": 0.46
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_woman_reach_v2@5f3388c282262124ba0a",
+      "source_id": "character_clinician_woman_reach_v2",
+      "revision": "5f3388c282262124ba0a",
+      "title": "女性医生·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_clinician_woman_reach_v2/5f3388c282262124ba0a/files/payload.png",
+      "bounds": [
+        243,
+        11,
+        936,
+        1511
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.46,
+          "y": 0.085
+        },
+        "feet": {
+          "x": 0.49,
+          "y": 0.97
+        },
+        "hand_left": {
+          "x": 0.5,
+          "y": 0.36
+        },
+        "hand_right": {
+          "x": 0.85,
+          "y": 0.31
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_man_stand_v1@8a52278239c0688e0b6c",
+      "source_id": "character_older_man_stand_v1",
+      "revision": "8a52278239c0688e0b6c",
+      "title": "老年男性·站立·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_man_stand_v1/8a52278239c0688e0b6c/files/payload.png",
+      "bounds": [
+        240,
+        25,
+        769,
+        1473
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.075
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.955
+        },
+        "hand_left": {
+          "x": 0.3,
+          "y": 0.52
+        },
+        "hand_right": {
+          "x": 0.7,
+          "y": 0.52
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_man_seated_v1@466de326d81bf8a1ee61",
+      "source_id": "character_older_man_seated_v1",
+      "revision": "466de326d81bf8a1ee61",
+      "title": "老年男性·坐姿·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_man_seated_v1/466de326d81bf8a1ee61/files/payload.png",
+      "bounds": [
+        154,
+        32,
+        955,
+        1480
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.47,
+          "y": 0.09
+        },
+        "seat": {
+          "x": 0.23,
+          "y": 0.61
+        },
+        "feet": {
+          "x": 0.65,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.47,
+          "y": 0.535
+        },
+        "hand_right": {
+          "x": 0.77,
+          "y": 0.54
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_man_reach_v1@954bd84705afbe295740",
+      "source_id": "character_older_man_reach_v1",
+      "revision": "954bd84705afbe295740",
+      "title": "老年男性·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_man_reach_v1/954bd84705afbe295740/files/payload.png",
+      "bounds": [
+        234,
+        46,
+        945,
+        1470
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.46,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.48,
+          "y": 0.96
+        },
+        "hand_left": {
+          "x": 0.3,
+          "y": 0.55
+        },
+        "hand_right": {
+          "x": 0.82,
+          "y": 0.355
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_woman_seated_v1@3a8b87ed39e8271800e8",
+      "source_id": "character_older_woman_seated_v1",
+      "revision": "3a8b87ed39e8271800e8",
+      "title": "老年女性·坐姿·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_woman_seated_v1/3a8b87ed39e8271800e8/files/payload.png",
+      "bounds": [
+        198,
+        22,
+        938,
+        1461
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.46,
+          "y": 0.09
+        },
+        "seat": {
+          "x": 0.28,
+          "y": 0.6
+        },
+        "feet": {
+          "x": 0.63,
+          "y": 0.96
+        },
+        "hand_left": {
+          "x": 0.56,
+          "y": 0.555
+        },
+        "hand_right": {
+          "x": 0.73,
+          "y": 0.55
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_woman_walk_v1@309e90e14bda7862598e",
+      "source_id": "character_older_woman_walk_v1",
+      "revision": "309e90e14bda7862598e",
+      "title": "老年女性·步行·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_woman_walk_v1/309e90e14bda7862598e/files/payload.png",
+      "bounds": [
+        177,
+        50,
+        876,
+        1447
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.1
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.94
+        },
+        "hand_left": {
+          "x": 0.24,
+          "y": 0.55
+        },
+        "hand_right": {
+          "x": 0.8,
+          "y": 0.49
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_woman_reach_v1@c27a1da4695926287cc1",
+      "source_id": "character_older_woman_reach_v1",
+      "revision": "c27a1da4695926287cc1",
+      "title": "老年女性·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_woman_reach_v1/c27a1da4695926287cc1/files/payload.png",
+      "bounds": [
+        303,
+        33,
+        940,
+        1500
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.46,
+          "y": 0.085
+        },
+        "feet": {
+          "x": 0.48,
+          "y": 0.97
+        },
+        "hand_left": {
+          "x": 0.38,
+          "y": 0.54
+        },
+        "hand_right": {
+          "x": 0.81,
+          "y": 0.35
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_pregnant_woman_walk_v1@04d5693954b22423a6c9",
+      "source_id": "character_pregnant_woman_walk_v1",
+      "revision": "04d5693954b22423a6c9",
+      "title": "孕妇·步行·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_pregnant_woman_walk_v1/04d5693954b22423a6c9/files/payload.png",
+      "bounds": [
+        194,
+        34,
+        903,
+        1441
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.49,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.94
+        },
+        "hand_left": {
+          "x": 0.28,
+          "y": 0.51
+        },
+        "hand_right": {
+          "x": 0.84,
+          "y": 0.445
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_pregnant_woman_reach_v1@860f8ed8a85f80e5c721",
+      "source_id": "character_pregnant_woman_reach_v1",
+      "revision": "860f8ed8a85f80e5c721",
+      "title": "孕妇·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_pregnant_woman_reach_v1/860f8ed8a85f80e5c721/files/payload.png",
+      "bounds": [
+        276,
+        25,
+        917,
+        1504
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.44,
+          "y": 0.09
+        },
+        "feet": {
+          "x": 0.46,
+          "y": 0.97
+        },
+        "hand_left": {
+          "x": 0.52,
+          "y": 0.465
+        },
+        "hand_right": {
+          "x": 0.83,
+          "y": 0.27
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_man_sit_transition_v1@d553bbe1c0f192aa6a14",
+      "source_id": "character_older_man_sit_transition_v1",
+      "revision": "d553bbe1c0f192aa6a14",
+      "title": "老年男性·站坐转换中间姿态·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_man_sit_transition_v1/d553bbe1c0f192aa6a14/files/payload.png",
+      "bounds": [
+        242,
+        44,
+        832,
+        1459
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.5,
+          "y": 0.11
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.95
+        },
+        "hand_left": {
+          "x": 0.43,
+          "y": 0.55
+        },
+        "hand_right": {
+          "x": 0.71,
+          "y": 0.56
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "站坐转换的单个中间姿态，不是可循环步态或已完成坐姿；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_older_woman_sit_transition_v1@85149c7d1f2e0d06b853",
+      "source_id": "character_older_woman_sit_transition_v1",
+      "revision": "85149c7d1f2e0d06b853",
+      "title": "老年女性·站坐转换中间姿态·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_older_woman_sit_transition_v1/85149c7d1f2e0d06b853/files/payload.png",
+      "bounds": [
+        233,
+        52,
+        801,
+        1454
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.48,
+          "y": 0.1
+        },
+        "feet": {
+          "x": 0.51,
+          "y": 0.955
+        },
+        "hand_left": {
+          "x": 0.43,
+          "y": 0.55
+        },
+        "hand_right": {
+          "x": 0.68,
+          "y": 0.555
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "站坐转换的单个中间姿态，不是可循环步态或已完成坐姿；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_adult_woman_care_reach_v2@b94644c99ac58e2cd0d8",
+      "source_id": "character_adult_woman_care_reach_v2",
+      "revision": "b94644c99ac58e2cd0d8",
+      "title": "成年女性·照护伸手·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_adult_woman_care_reach_v2/b94644c99ac58e2cd0d8/files/payload.png",
+      "bounds": [
+        257,
+        28,
+        890,
+        1513
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.47,
+          "y": 0.1
+        },
+        "feet": {
+          "x": 0.48,
+          "y": 0.965
+        },
+        "hand_left": {
+          "x": 0.64,
+          "y": 0.44
+        },
+        "hand_right": {
+          "x": 0.8,
+          "y": 0.415
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "照护准备姿态，手势用于接触试装，不代表已完成扶起/转移；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_adult_woman_reach_v2@fd6d9e040165a718b8be",
+      "source_id": "character_adult_woman_reach_v2",
+      "revision": "fd6d9e040165a718b8be",
+      "title": "成年女性·伸手接取·同身份完整纸件",
+      "entry": "../../payloads/paper-theatre/character_adult_woman_reach_v2/fd6d9e040165a718b8be/files/payload.png",
+      "bounds": [
+        301,
+        25,
+        942,
+        1511
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.46,
+          "y": 0.095
+        },
+        "feet": {
+          "x": 0.48,
+          "y": 0.97
+        },
+        "hand_left": {
+          "x": 0.367,
+          "y": 0.53
+        },
+        "hand_right": {
+          "x": 0.83,
+          "y": 0.325
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。；当前镜头待审。"
+    },
+    {
+      "id": "paper:reserve_chair_v1@f1812703aa41360f72fc",
+      "source_id": "reserve_chair_v1",
+      "revision": "f1812703aa41360f72fc",
+      "title": "独立木椅",
+      "entry": "../../payloads/paper-theatre/reserve_chair_v1/f1812703aa41360f72fc/files/payload.png",
+      "bounds": [
+        23,
+        29,
+        1236,
+        1254
+      ],
+      "anchors": {},
+      "parts": [],
+      "inseparable": false,
+      "opaque": true,
+      "note": "坐姿支撑；；当前镜头待审。"
+    },
+    {
+      "id": "paper:paper_blank_report@1ef837c31be5f9dcee48",
+      "source_id": "paper_blank_report",
+      "revision": "1ef837c31be5f9dcee48",
+      "title": "毛边报告纸",
+      "entry": "../../payloads/paper-theatre/paper_blank_report/1ef837c31be5f9dcee48/files/payload.png",
+      "bounds": [
+        18,
+        26,
+        670,
+        696
+      ],
+      "anchors": {},
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "无字纸件，标题与内容由当前镜头单独排版；按可见纸面和动作判断比例，不能机械按 PNG 外框统一尺寸。；当前镜头待审。"
+    },
+    {
+      "id": "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e",
+      "source_id": "character_clinician_man_stand_v1",
+      "revision": "e3d6196ad0b8ca4dd44e",
+      "title": "男性医生完整讲解站姿",
+      "entry": "../../payloads/paper-theatre/character_clinician_man_stand_v1/e3d6196ad0b8ca4dd44e/files/payload.png",
+      "bounds": [
+        0,
+        27,
+        1000,
+        1512
+      ],
+      "anchors": {
+        "head": {
+          "x": 0.45,
+          "y": 0.08
+        },
+        "feet": {
+          "x": 0.5,
+          "y": 0.974
+        },
+        "hand_left": {
+          "x": 0.315,
+          "y": 0.532
+        },
+        "hand_right": {
+          "x": 0.804,
+          "y": 0.294
+        }
+      },
+      "parts": [],
+      "inseparable": false,
+      "opaque": false,
+      "note": "通用虚构男性医生完整站姿，不是作者品牌人物；可用于会诊讲解。；当前镜头待审。"
+    }
+  ],
+  "chair": {
+    "url": "../../payloads/paper-theatre/reserve_chair_v1/f1812703aa41360f72fc/files/payload.png",
+    "seat": {
+      "x": 0.35,
+      "y": 0.43
+    },
+    "feet": {
+      "x": 0.5,
+      "y": 0.94
+    }
+  },
+  "report": {
+    "url": "../../payloads/paper-theatre/paper_blank_report/1ef837c31be5f9dcee48/files/payload.png",
+    "bounds": [
+      18,
+      26,
+      670,
+      696
+    ]
+  }
+}

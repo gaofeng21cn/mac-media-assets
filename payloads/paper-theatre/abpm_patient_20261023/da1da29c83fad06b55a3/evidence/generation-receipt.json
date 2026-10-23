@@ -1,0 +1,17 @@
+{
+  "schema": "local_image_generation_evidence/v1",
+  "tool": "image_gen.imagegen",
+  "created": "2026-10-23",
+  "source_image": "assets/seated_measurement.png",
+  "source_image_role": "同一位盘发女性的身份、衣着及纸拼贴材质参考",
+  "generated_image": "/Users/gaofeng/.codex/generated_images/01a16736-b5b5-77a3-bfc5-046b9bc4bd92/exec-7e3e2952-f3f7-4c19-8093-ba8ba3bacb92.png",
+  "prompt": "Use case: identity-preserve. Asset type: a single transparent full-body patient cutout for a Chinese patient-education paper-collage animation. Reference image: preserve this exact adult East Asian woman's face, brown hair in a low bun, warm beige textured sweater, blue trousers and beige sneakers. Change the seated pose to a calm natural standing pose in a slight three-quarter view facing right; arms relaxed and hands fully visible. She wears an ambulatory upper-arm blood pressure monitor: one broad blue cuff wraps around her visible upper arm (not wrist), a single soft dark-blue air tube exits the cuff and follows the side of her torso down to a small rectangular recorder in a protective pouch clipped securely to the side of her waistband. Recorder is at waist/hip, visibly attached, not held by the hand. Show realistic continuous tube with both endpoints clearly connected; no desktop monitor, no table, no chair, no phone, no watch. The cuff and recorder must remain clearly distinguishable against clothing. The device screen is blank muted light green, no generated numbers, labels or text. Keep full uninterrupted anatomy: complete head, hair, neck, torso, arms, both hands, legs and both shoes, with space around all edges. Same handcrafted painted torn-paper collage texture and realistic human proportions as reference. Only one person and attached monitor, transparent background, no ground or shadow, no extra accessories, no typography. This is an explanatory wearing view, not an operation demonstration.",
+  "transparent_background_requested": true,
+  "observed": {
+    "mode": "RGBA",
+    "size": [1024, 1536],
+    "alpha_extrema": [0, 254],
+    "structure": "完整人物；可见上臂蓝色袖带、连续软管与裤腰侧固定记录器；双手未持设备；未生成文字",
+    "current_scene_review": "pending"
+  }
+}

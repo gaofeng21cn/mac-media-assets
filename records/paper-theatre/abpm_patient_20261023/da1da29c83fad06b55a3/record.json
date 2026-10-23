@@ -1,0 +1,190 @@
+{
+  "schema": "animation_element/v1",
+  "id": "abpm_patient_20261023",
+  "title": "女性动态血压监测完整站姿（已佩戴状态）",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "complete_figure",
+    "composition_repair_20261023",
+    "adult_woman",
+    "stand_abpm"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "original_asset_id": "abpm_patient_20261023",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "identity_reference": "evidence/identity-reference.png",
+    "identity_reference_sha256": "2ed10a1658e4bf075d87503a80fcdb6628629fc7f1a05cb643583be45c1bb7a2",
+    "identity_relationship": "same_character_pose_variant",
+    "master_id": "beige_sweater_bun_patient",
+    "source_project": "/Users/gaofeng/workspace/科普视频/productions/hypertension_paper_theatre/03_two_places/v1",
+    "source_path": "assets/imported/abpm_patient_20261023.png",
+    "prompt": "Use case: identity-preserve. Asset type: a single transparent full-body patient cutout for a Chinese patient-education paper-collage animation. Reference image: preserve this exact adult East Asian woman's face, brown hair in a low bun, warm beige textured sweater, blue trousers and beige sneakers. Change the seated pose to a calm natural standing pose in a slight three-quarter view facing right; arms relaxed and hands fully visible. She wears an ambulatory upper-arm blood pressure monitor: one broad blue cuff wraps around her visible upper arm (not wrist), a single soft dark-blue air tube exits the cuff and follows the side of her torso down to a small rectangular recorder in a protective pouch clipped securely to the side of her waistband. Recorder is at waist/hip, visibly attached, not held by the hand. Show realistic continuous tube with both endpoints clearly connected; no desktop monitor, no table, no chair, no phone, no watch. The cuff and recorder must remain clearly distinguishable against clothing. The device screen is blank muted light green, no generated numbers, labels or text. Keep full uninterrupted anatomy: complete head, hair, neck, torso, arms, both hands, legs and both shoes, with space around all edges. Same handcrafted painted torn-paper collage texture and realistic human proportions as reference. Only one person and attached monitor, transparent background, no ground or shadow, no extra accessories, no typography. This is an explanatory wearing view, not an operation demonstration.",
+    "sample_has_brand": false,
+    "medical_reference": "evidence/medical-reference.yaml"
+  },
+  "registered_at": "2026-10-23",
+  "content_bounds": [
+    277,
+    12,
+    805,
+    1512
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_alpha_threshold": 24,
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "bbox": [
+      0,
+      1,
+      1012,
+      1536
+    ],
+    "opaque_ratio": 0.2568,
+    "translucent_ratio": 0.013,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.455,
+        "y": 0.075
+      },
+      "feet": {
+        "x": 0.56,
+        "y": 0.978
+      },
+      "upper_arm_cuff": {
+        "x": 0.619,
+        "y": 0.302
+      },
+      "tube_at_cuff": {
+        "x": 0.63,
+        "y": 0.333
+      },
+      "waist_recorder": {
+        "x": 0.592,
+        "y": 0.43
+      },
+      "waist_clip": {
+        "x": 0.566,
+        "y": 0.398
+      }
+    }
+  },
+  "discovery": {
+    "category": "characters",
+    "display_title": "女性动态血压监测完整站姿（已佩戴状态）",
+    "aliases": [
+      "abpm_patient_20261023",
+      "动态血压",
+      "日夜监测",
+      "上臂袖带",
+      "腰侧记录器",
+      "ABPM",
+      "已佩戴",
+      "女性站姿"
+    ],
+    "objects": [
+      "女性动态血压监测完整站姿（已佩戴状态）"
+    ],
+    "actions": [
+      "完整人物呈现",
+      "同源局部近景"
+    ],
+    "story_roles": [
+      "动态血压监测",
+      "日夜记录",
+      "检查佩戴状态"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "view": "按完整原件观察；镜像后重核朝向和装配",
+    "usage_notes": "人物与袖带、软管、记录器烘焙为单层，只呈现已佩戴状态，不演示穿戴步骤。；不示范按钮操作、具体设备型号或屏幕数字诊断；需要独立操作时另备部件。；局部近景须保留袖带—软管—腰夹的真实连续关系；全身小图只作佩戴身份提示。",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      277,
+      12,
+      805,
+      1512
+    ],
+    "visible_bounds_alpha_threshold": 24,
+    "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+    "character_role": "adult_woman",
+    "pose": "stand_abpm",
+    "master_id": "beige_sweater_bun_patient"
+  },
+  "usage_notes": "完整站姿解释已佩戴状态；同源局部近景看袖带、软管和腰侧固定；人物与袖带、软管、记录器烘焙为单层，只呈现已佩戴状态，不演示穿戴步骤。；不示范按钮操作、具体设备型号或屏幕数字诊断；需要独立操作时另备部件。；局部近景须保留袖带—软管—腰夹的真实连续关系；全身小图只作佩戴身份提示。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "static_source": "reviewed_2026-10-23",
+    "observed": "盘发女性全身完整；上臂袖带、连续蓝色软管与腰侧固定记录器可辨，双手未持设备，屏幕无数字。",
+    "landmark_scope": "原图归一化可见部位；头为安全定位点，脚为共同地面基准；手部位置不表示可持握任意道具。",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "release": "not_approved"
+  },
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_scene_scale_contact_pending",
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26",
+      "bytes": 1848596
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "d4a6fe39e13679edbc255c5986e2dd8ce05da7c4b93cb55d58f7c37b829ee831",
+      "bytes": 2265
+    },
+    {
+      "path": "evidence/identity-reference.png",
+      "role": "evidence",
+      "sha256": "2ed10a1658e4bf075d87503a80fcdb6628629fc7f1a05cb643583be45c1bb7a2",
+      "bytes": 1563129
+    },
+    {
+      "path": "evidence/source-composites.jpg",
+      "role": "evidence",
+      "sha256": "62aa18a10db21be0fe2ea892d7859bd23bff06f1b6430046bd20aaae6494b918",
+      "bytes": 14800
+    },
+    {
+      "path": "evidence/medical-reference.yaml",
+      "role": "evidence",
+      "sha256": "f0da25906be3d2dd4897c42ac96bd005220d670fee537d8409fd678b5980ecf8",
+      "bytes": 4115
+    }
+  ],
+  "revision": "da1da29c83fad06b55a3"
+}

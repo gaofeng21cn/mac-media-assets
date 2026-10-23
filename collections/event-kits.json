@@ -297,7 +297,7 @@
       "parts": [
         {
           "source_id": "reserve_person_walk_v1",
-          "asset_id": "paper:reserve_person_walk_v1@bfd14a6e821ae1093957",
+          "asset_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
           "role": "故事候选物件",
           "revision": "bfd14a6e821ae1093957"
         },
@@ -444,6 +444,79 @@
         "assembly": "sample_prepared"
       },
       "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "meal_preparation",
+      "title": "家庭备餐与翻炒",
+      "parts": [
+        {
+          "source_id": "reserve_kitchen_counter_v2",
+          "asset_id": "paper:reserve_kitchen_counter_v2@7e89239e364e80d7af82",
+          "role": "空白工作面",
+          "revision": "7e89239e364e80d7af82"
+        },
+        {
+          "source_id": "reserve_chopping_board_v1",
+          "asset_id": "paper:reserve_chopping_board_v1@c53a30403294f8af8b73",
+          "role": "砧板",
+          "revision": "c53a30403294f8af8b73"
+        },
+        {
+          "source_id": "reserve_kitchen_knife_v1",
+          "asset_id": "paper:reserve_kitchen_knife_v1@dd728203f4639fca6804",
+          "role": "厨刀",
+          "revision": "dd728203f4639fca6804"
+        },
+        {
+          "source_id": "reserve_induction_cooktop_v1",
+          "asset_id": "paper:reserve_induction_cooktop_v1@4b704626d82433ec47db",
+          "role": "电磁炉",
+          "revision": "4b704626d82433ec47db"
+        },
+        {
+          "source_id": "reserve_frying_pan_v1",
+          "asset_id": "paper:reserve_frying_pan_v1@660885106d5ef2393566",
+          "role": "炒锅",
+          "revision": "660885106d5ef2393566"
+        },
+        {
+          "source_id": "reserve_wooden_spatula_v1",
+          "asset_id": "paper:reserve_wooden_spatula_v1@f89894748e52176761e5",
+          "role": "锅铲",
+          "revision": "f89894748e52176761e5"
+        },
+        {
+          "source_id": "reserve_broccoli_v1",
+          "asset_id": "paper:reserve_broccoli_v1@2d45a995ce062004437e",
+          "role": "食材",
+          "revision": "2d45a995ce062004437e"
+        },
+        {
+          "source_id": "reserve_oil_v1",
+          "asset_id": "paper:reserve_oil_v1@3825f2cb267e08b1ae84",
+          "role": "烹饪物件",
+          "revision": "3825f2cb267e08b1ae84"
+        }
+      ],
+      "story_roles": [
+        "日常饮食",
+        "生活方式"
+      ],
+      "event_chain": "厨具摆放→砧板/厨刀准备→锅具落位→食材转入→锅铲接触并翻动→结果停顿",
+      "sample": "tools/preview-engine/index.html#cooking_prep",
+      "timeline": "仅装配小样；不表示完整切配、加热时长、熟度或食品安全指导",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sample_prepared"
+      },
+      "limitations": [
+        "不含人物手部或完整烹饪动作序列",
+        "不包含真实温度、火力、熟度或营养判断",
+        "当前镜头仍需重新看接触、尺度、遮挡和手机宽可读性"
+      ],
+      "adaptation": "可删改部件、改料理主题和镜头，不沿用固定构图或故事。"
     }
   ]
 }

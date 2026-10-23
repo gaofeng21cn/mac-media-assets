@@ -1,0 +1,57 @@
+{
+  "id": "character_clinician_woman_reach_v2",
+  "ref": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-080f2397-28b0-4aa0-b134-4a627ead6f84.png",
+  "prompt": "Use case: identity-preserve. Asset type: one complete reusable medical animation character pose. Reference 1 is the identity MASTER. Keep the EXACT same Chinese female doctor with black low ponytail, no glasses, white lab coat, sage green shirt, gray trousers and brown flats; same facial likeness and paper-collage style. Change only pose: standing grounded three-quarter view screen right, extending image-right forearm at waist level with open palm and gently curved fingers ready to receive a separate report; other hand near torso. No report or other object in image. Preserve age, physique, face, clothing colors and footwear exactly. Complete head, hair, face, hands, both legs and shoes in frame, generous margin, natural connected anatomy. Single isolated figure with opaque paper interior on GENUINE transparent alpha background. No aura, glow, cast shadow, gradient, checkerboard, text/logo, background or furniture. No geometric stick-person construction. One pose only.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-f7638e77-f1ff-492c-a010-9d41bc8a31f6.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "d873fc23b389fe3601c2d081d596ef0e1ceba0f0ac220d4f05e41c68273be78e",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      73,
+      1,
+      1004,
+      1518
+    ],
+    "opaque_ratio": 0.2435,
+    "translucent_ratio": 0.0103,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      243,
+      11,
+      936,
+      1511
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.46,
+        "y": 0.085
+      },
+      "feet": {
+        "x": 0.49,
+        "y": 0.97
+      },
+      "hand_left": {
+        "x": 0.5,
+        "y": 0.36
+      },
+      "hand_right": {
+        "x": 0.85,
+        "y": 0.31
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

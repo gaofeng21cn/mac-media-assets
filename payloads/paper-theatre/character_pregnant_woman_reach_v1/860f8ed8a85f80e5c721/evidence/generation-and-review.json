@@ -1,0 +1,57 @@
+{
+  "id": "character_pregnant_woman_reach_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_pregnant_woman_stand_v1/5d532fdeb77505763bc5/files/payload.png",
+  "prompt": "Use case: illustration-story. One complete reusable paper-theatre pose. Reference is exact identity and style master. Keep same Chinese pregnant woman, dark hair in bun, mustard cardigan, off-white maternity shirt over clearly coherent pregnant belly, teal trousers, cream flat shoes, same pregnancy stage and natural balance; preserve face, age, hairstyle, body proportions, garments and shoes. Change only pose to standing balanced three-quarter facing screen right; image-right hand extended at waist height with open upward palm ready to receive a separate document; other hand relaxed, or resting under pregnant belly where relevant; no document or prop. Natural connected complete anatomy, same tactile paper-cut illustration, opaque interior and clean edges. Entire hair/head, visible hands, legs and shoes in frame with generous margin. Single isolated figure, GENUINE transparent background. No chair, environment, floor mark, cast shadow, glow/aura, gradient/vignette, checkerboard, text/logo or props. Do not infantilize older adults or shrink adult anatomy into a child.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-58541b5c-2962-460f-9ba3-e1b232cd50c1.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "600090b44059af0a0fbd9a69512401273e60e33c55a08f734888a4ede72362b3",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      19,
+      984,
+      1512
+    ],
+    "opaque_ratio": 0.2157,
+    "translucent_ratio": 0.0097,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      276,
+      25,
+      917,
+      1504
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.44,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.46,
+        "y": 0.97
+      },
+      "hand_left": {
+        "x": 0.52,
+        "y": 0.465
+      },
+      "hand_right": {
+        "x": 0.83,
+        "y": 0.27
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

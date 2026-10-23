@@ -1,0 +1,58 @@
+{
+  "id": "character_adult_man_reach_v1",
+  "ref": "character_adult_man_stand_v1/6792f8b338fba0fae4b7/files/payload.png",
+  "pose": "standing grounded, torso angled toward screen right, right-side-in-the-image arm extending slightly forward with open palm at waist height ready to receive a document; other hand naturally relaxed and visible; no held object",
+  "prompt": "Use case: illustration-story. Asset type: reusable complete character pose for medical paper-theatre animation. Input image 1: identity and style reference only. Create exactly the SAME person in a new pose: standing grounded, torso angled toward screen right, right-side-in-the-image arm extending slightly forward with open palm at waist height ready to receive a document; other hand naturally relaxed and visible; no held object. Preserve reference face, age, ethnicity, hairstyle, body proportions, clothing colors, sleeve length, footwear and textured paper-collage illustration style. Full body from hair to both shoes, complete connected anatomy, generous clean margin all sides, crisp opaque colored-paper interior, subtle printed paper texture, natural hands and expression. Single isolated person on genuinely transparent alpha background. No chair, props, typography, floor mark, cast shadow, aura, vignette, blur, glow, checkerboard or background. Avoid assembly from basic geometric shapes. This is one pose, not a sheet or sequence.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-fcc08851-22ab-4a39-b28f-93ef39b8497f.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "20b94e379038682e82c67d535a76e39ad51f9b67baf094a836c7f8a7faa99f1c",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      31,
+      992,
+      1478
+    ],
+    "opaque_ratio": 0.2581,
+    "translucent_ratio": 0.0094,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      234,
+      34,
+      912,
+      1456
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.47,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.31,
+        "y": 0.51
+      },
+      "hand_right": {
+        "x": 0.81,
+        "y": 0.36
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

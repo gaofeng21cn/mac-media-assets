@@ -1,0 +1,137 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_clinician_woman_seated_consult_v2",
+  "title": "女性医生·坐姿问诊·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "clinician_woman",
+    "seated_consult",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "女性医生",
+      "坐姿问诊"
+    ],
+    "actions": [
+      "seated_consult",
+      "坐姿问诊"
+    ],
+    "character_role": "clinician_woman",
+    "identity_family": "clinician_woman_cn_20261023",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-080f2397-28b0-4aa0-b134-4a627ead6f84.png",
+    "prompt": "Use case: identity-preserve. Asset type: one complete reusable medical animation character pose. Reference 1 is the identity MASTER. Keep the EXACT same Chinese female doctor with black low ponytail, no glasses, white lab coat, sage green shirt, gray trousers and brown flats; same facial likeness and paper-collage style. Change only pose: seated attentively in three-quarter view facing screen right, slightly leaning forward, both hands relaxed on the thighs, thighs nearly horizontal and calves vertical, feet flat on shared ground level. No chair or desk; visible rear buttock support edge for separate chair. Preserve age, physique, face, clothing colors and footwear exactly. Complete head, hair, face, hands, both legs and shoes in frame, generous margin, natural connected anatomy. Single isolated figure with opaque paper interior on GENUINE transparent alpha background. No aura, glow, cast shadow, gradient, checkerboard, text/logo, background or furniture. No geometric stick-person construction. One pose only."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.48,
+        "y": 0.09
+      },
+      "seat": {
+        "x": 0.337,
+        "y": 0.6
+      },
+      "feet": {
+        "x": 0.66,
+        "y": 0.94
+      },
+      "hand_left": {
+        "x": 0.565,
+        "y": 0.54
+      },
+      "hand_right": {
+        "x": 0.74,
+        "y": 0.542
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    162,
+    16,
+    960,
+    1483
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      14,
+      994,
+      1488
+    ],
+    "opaque_ratio": 0.3008,
+    "translucent_ratio": 0.0112,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      162,
+      16,
+      960,
+      1483
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "da424768b5eff2a1bd3e660e498b27d75b5d39b0e18d615626ead6404ce158bf",
+      "bytes": 1828254
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "f402b2ad256593177a97bbd8b93ac792d5625d2fbf7c2857f6da077946c93bbd",
+      "bytes": 2377
+    }
+  ],
+  "revision": "dd714face12d3710de95"
+}

@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_clinician_woman_stand_v2",
+  "title": "女性医生·站立·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "clinician_woman",
+    "stand",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "女性医生",
+      "站立"
+    ],
+    "actions": [
+      "stand",
+      "站立"
+    ],
+    "character_role": "clinician_woman",
+    "identity_family": "clinician_woman_cn_20261023",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_clinician_woman_stand_v1/161804ebe9c3db80578e/files/payload.png",
+    "prompt": "Use case: illustration-story. Asset type: reusable generic Chinese female doctor for Chinese patient education paper theatre. Reference is for paper texture, full-body proportions and clothing style ONLY; REPLACE the person's identity. Create a clearly Chinese East Asian woman about 35-45 years old, natural dark eyes, straight black hair neatly tied in a low ponytail, no glasses, calm kind professional face, no Caucasian facial features, no brown wavy bob. Plain white unlettered lab coat over muted sage green collared shirt, dark gray trousers, comfortable brown flat shoes. Standing in relaxed grounded three-quarter view facing slightly right, both hands OUTSIDE pockets and visible, screen-right hand open gently explaining at waist height, other arm resting naturally. Complete body hair through shoes with clear connected natural anatomy, subtle tactile cut paper texture. Single person centered with generous margins. GENUINE transparent alpha background; crisp opaque interior and clean cutout edges, no glow/shadow/aura/vignette/floor/checkerboard, no props or text. Distinct person from Dr.咩: no glasses, no black blunt bob or bangs."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.48,
+        "y": 0.08
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.975
+      },
+      "hand_left": {
+        "x": 0.355,
+        "y": 0.52
+      },
+      "hand_right": {
+        "x": 0.8,
+        "y": 0.28
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    266,
+    10,
+    877,
+    1514
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      0,
+      1010,
+      1520
+    ],
+    "opaque_ratio": 0.2424,
+    "translucent_ratio": 0.0098,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      266,
+      10,
+      877,
+      1514
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "57fccddb65ca3beb0e392f086d716b32e31571be70321cb456ec71db80f76daf",
+      "bytes": 1656156
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "0f7a87fb7b8cbd63fdf53ca02bd3c1993a5d29de11d5e0c3e28aa4e30c147f3a",
+      "bytes": 2417
+    }
+  ],
+  "revision": "ccfad54a4e7ecc453ae4"
+}

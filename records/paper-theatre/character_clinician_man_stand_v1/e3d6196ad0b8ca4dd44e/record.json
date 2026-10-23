@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_clinician_man_stand_v1",
+  "title": "男性医生完整讲解站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "clinician",
+    "man",
+    "stand",
+    "explain",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "男性医生完整讲解站姿",
+    "aliases": [
+      "医生",
+      "男医生",
+      "医生讲解",
+      "门诊",
+      "会诊",
+      "physician",
+      "clinician"
+    ],
+    "objects": [
+      "完整男性医生人物"
+    ],
+    "story_roles": [
+      "门诊沟通",
+      "解释医学关系",
+      "共同决策"
+    ],
+    "actions": [
+      "讲解",
+      "邀请观看",
+      "侧身指向"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "通用虚构男性医生完整站姿，不是作者品牌人物；可用于会诊讲解。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_clinician_man_stand_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    0,
+    27,
+    1000,
+    1512
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      27,
+      1000,
+      1512
+    ],
+    "opaque_ratio": 0.239,
+    "translucent_ratio": 0.0121,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "61f9aa2a4241be602eb576b123ffc005ef31caf18ff85b6e28ff2051e432492a",
+      "bytes": 1661401
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "dca6d7971139e8835b4467379699cc4c5f5a989145f037e6046e7e009fd0d707",
+      "bytes": 504
+    }
+  ],
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.08
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.974
+      },
+      "hand_left": {
+        "x": 0.315,
+        "y": 0.532
+      },
+      "hand_right": {
+        "x": 0.804,
+        "y": 0.294
+      }
+    }
+  },
+  "revision": "e3d6196ad0b8ca4dd44e"
+}

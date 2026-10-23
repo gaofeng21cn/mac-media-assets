@@ -1,0 +1,57 @@
+{
+  "id": "character_older_woman_sit_transition_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_woman_stand_v1/533448a63caf5fd9b120/files/payload.png",
+  "prompt": "Use case: identity-preserve. Asset type: complete reusable paper theatre pose. Input 1 exact identity and clothing reference. Create same elderly Chinese woman in sage blouse and charcoal trousers, mid transition from standing to sitting: feet flat shoulder-width, knees comfortably bent, hips moving backward at above-knee level, torso leaning slightly forward, both hands resting naturally on the fronts of thighs for balance. Not deep squat and not fully seated; no chair. Preserve reference face, age, hairstyle, body proportions, clothes and footwear, tactile paper illustration. Complete connected natural anatomy, entire hair, all visible hands and both shoes in frame with margin all sides. Single isolated full person on genuine transparent alpha, opaque paper interior, crisp edge. No environment, furniture, floor, cast shadow, glow, aura, vignette, checkerboard, typography or watermark. One pose only.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-139a4e93-69e3-4c72-8059-3bf153d45ac1.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "6fbe97cabb0f91c13a6cc01cf1f219c6acc2d7fb87ba62e28e6bb1517885f5ce",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      33,
+      35,
+      1010,
+      1478
+    ],
+    "opaque_ratio": 0.2655,
+    "translucent_ratio": 0.0087,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      233,
+      52,
+      801,
+      1454
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.48,
+        "y": 0.1
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.955
+      },
+      "hand_left": {
+        "x": 0.43,
+        "y": 0.55
+      },
+      "hand_right": {
+        "x": 0.68,
+        "y": 0.555
+      }
+    },
+    "note": "站坐转换的单个中间姿态，不是可循环步态或已完成坐姿"
+  }
+}

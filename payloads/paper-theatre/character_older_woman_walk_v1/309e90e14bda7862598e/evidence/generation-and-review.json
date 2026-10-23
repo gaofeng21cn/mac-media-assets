@@ -1,0 +1,57 @@
+{
+  "id": "character_older_woman_walk_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_woman_stand_v1/533448a63caf5fd9b120/files/payload.png",
+  "prompt": "Use case: illustration-story. One complete reusable paper-theatre pose. Reference is exact identity and style master. Keep same Chinese elderly woman, short soft silver hair, sage collared blouse, charcoal trousers and brown shoes; preserve face, age, hairstyle, body proportions, garments and shoes. Change only pose to walking gently toward screen right with comfortable short stride, arms counter-swing, both hands visible, one shoe grounded on baseline; natural balance appropriate to age and pregnancy where applicable. Natural connected complete anatomy, same tactile paper-cut illustration, opaque interior and clean edges. Entire hair/head, visible hands, legs and shoes in frame with generous margin. Single isolated figure, GENUINE transparent background. No chair, environment, floor mark, cast shadow, glow/aura, gradient/vignette, checkerboard, text/logo or props. Do not infantilize older adults or shrink adult anatomy into a child.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-6ed583be-5754-45d1-bc77-be87b528feca.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "e15aafe510d3d543b5aa6f37c8903f9fbb2d07dabaa7af72c29a83ae17a2cf70",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      47,
+      1002,
+      1496
+    ],
+    "opaque_ratio": 0.2553,
+    "translucent_ratio": 0.01,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      177,
+      50,
+      876,
+      1447
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.1
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.94
+      },
+      "hand_left": {
+        "x": 0.24,
+        "y": 0.55
+      },
+      "hand_right": {
+        "x": 0.8,
+        "y": 0.49
+      }
+    },
+    "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环"
+  }
+}

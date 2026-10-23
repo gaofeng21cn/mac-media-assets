@@ -1,0 +1,906 @@
+{
+  "schema": "mac_character_coverage_audit/v1",
+  "roles_checked": 12,
+  "required_pose_slots": 49,
+  "available_pose_slots": 49,
+  "missing_pose_slots": 0,
+  "registered_pose_slots_without_required_anchors": 0,
+  "roles": [
+    {
+      "role_id": "adult_man",
+      "role": "成年男性",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+          "source_id": "character_adult_man_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "6792f8b338fba0fae4b7",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885",
+          "source_id": "male_patient_seated_identity_20261023",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "b84a668552591dd1d885",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "head_top",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:male_patient_walk_20261023@694f4aa5318814a765ca",
+          "source_id": "male_patient_walk_20261023",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "694f4aa5318814a765ca",
+          "anchors": [
+            "feet",
+            "head",
+            "head_top"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_adult_man_reach_v1@56ac1028ab1507772026",
+          "source_id": "character_adult_man_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "56ac1028ab1507772026",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "adult_woman",
+      "role": "成年女性",
+      "required_pose_count": 5,
+      "available_pose_count": 5,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
+          "source_id": "reserve_person_stand_v1",
+          "registered": true,
+          "kind": "image",
+          "revision": "4b5293ee4731114cfac1",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:reserve_person_seated_v1@6663ae862534a6af39a1",
+          "source_id": "reserve_person_seated_v1",
+          "registered": true,
+          "kind": "image",
+          "revision": "6663ae862534a6af39a1",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
+          "source_id": "reserve_person_walk_v1",
+          "registered": true,
+          "kind": "image",
+          "revision": "64f9cb0a08e0312dbd4d",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_adult_woman_reach_v2@fd6d9e040165a718b8be",
+          "source_id": "character_adult_woman_reach_v2",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "fd6d9e040165a718b8be",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "lying",
+          "label": "卧姿",
+          "asset_id": "paper:character_adult_woman_lying_v2@d797e2eea498e1bcde6c",
+          "source_id": "character_adult_woman_lying_v2",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "d797e2eea498e1bcde6c",
+          "anchors": [
+            "body",
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "teen_girl",
+      "role": "青少年女性",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_teen_girl_stand_v1@699014f2978da454f37e",
+          "source_id": "character_teen_girl_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "699014f2978da454f37e",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_teen_girl_seated_v1@1e0754921bf1e7259bda",
+          "source_id": "character_teen_girl_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "1e0754921bf1e7259bda",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_teen_girl_walk_v1@885c531b3cdf94109327",
+          "source_id": "character_teen_girl_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "885c531b3cdf94109327",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_teen_girl_reach_v1@e08a0e42da339f30dd5a",
+          "source_id": "character_teen_girl_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "e08a0e42da339f30dd5a",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "child_girl",
+      "role": "儿童女性",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019",
+          "source_id": "character_child_girl_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "ec63ad5c3eae8f16d019",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_child_girl_seated_v1@239b0a6c03f7f6afe073",
+          "source_id": "character_child_girl_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "239b0a6c03f7f6afe073",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_child_girl_walk_v1@429a205cc02b6c8dd048",
+          "source_id": "character_child_girl_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "429a205cc02b6c8dd048",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_child_girl_reach_v1@90c42ad4fb3b07730164",
+          "source_id": "character_child_girl_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "90c42ad4fb3b07730164",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "older_man",
+      "role": "老年男性",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_older_man_stand_v1@8a52278239c0688e0b6c",
+          "source_id": "character_older_man_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "8a52278239c0688e0b6c",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_older_man_seated_v1@466de326d81bf8a1ee61",
+          "source_id": "character_older_man_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "466de326d81bf8a1ee61",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_older_man_walk_v1@b82355ff8645f0304efb",
+          "source_id": "character_older_man_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "b82355ff8645f0304efb",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_older_man_reach_v1@954bd84705afbe295740",
+          "source_id": "character_older_man_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "954bd84705afbe295740",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "older_woman",
+      "role": "老年女性",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+          "source_id": "character_older_woman_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "533448a63caf5fd9b120",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_older_woman_seated_v1@3a8b87ed39e8271800e8",
+          "source_id": "character_older_woman_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "3a8b87ed39e8271800e8",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_older_woman_walk_v1@309e90e14bda7862598e",
+          "source_id": "character_older_woman_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "309e90e14bda7862598e",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_older_woman_reach_v1@c27a1da4695926287cc1",
+          "source_id": "character_older_woman_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "c27a1da4695926287cc1",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "pregnant_woman",
+      "role": "孕妇",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+          "source_id": "character_pregnant_woman_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "5d532fdeb77505763bc5",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9",
+          "source_id": "character_pregnant_woman_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "ced63033f84f410b65e9",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_pregnant_woman_walk_v1@04d5693954b22423a6c9",
+          "source_id": "character_pregnant_woman_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "04d5693954b22423a6c9",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_pregnant_woman_reach_v1@860f8ed8a85f80e5c721",
+          "source_id": "character_pregnant_woman_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "860f8ed8a85f80e5c721",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "clinician_man",
+      "role": "男性医生",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand_explain",
+          "label": "站立讲解",
+          "asset_id": "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e",
+          "source_id": "character_clinician_man_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "e3d6196ad0b8ca4dd44e",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated_consult",
+          "label": "坐姿问诊",
+          "asset_id": "paper:character_clinician_man_seated_consult_v1@1e7c4789c9d5699062e6",
+          "source_id": "character_clinician_man_seated_consult_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "1e7c4789c9d5699062e6",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_clinician_man_walk_v1@c23fff8f30de3664d71c",
+          "source_id": "character_clinician_man_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "c23fff8f30de3664d71c",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_clinician_man_reach_v1@cbdeda9c62cdc10dd444",
+          "source_id": "character_clinician_man_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "cbdeda9c62cdc10dd444",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "clinician_woman",
+      "role": "女性医生",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand_explain",
+          "label": "站立讲解",
+          "asset_id": "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4",
+          "source_id": "character_clinician_woman_stand_v2",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "ccfad54a4e7ecc453ae4",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated_consult",
+          "label": "坐姿问诊",
+          "asset_id": "paper:character_clinician_woman_seated_consult_v2@dd714face12d3710de95",
+          "source_id": "character_clinician_woman_seated_consult_v2",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "dd714face12d3710de95",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_clinician_woman_walk_v2@e6d58c25dcef6d5aa7c5",
+          "source_id": "character_clinician_woman_walk_v2",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "e6d58c25dcef6d5aa7c5",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_clinician_woman_reach_v2@5f3388c282262124ba0a",
+          "source_id": "character_clinician_woman_reach_v2",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "5f3388c282262124ba0a",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "child_boy",
+      "role": "男童",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_child_boy_stand_v1@d901483f1841ad102f40",
+          "source_id": "character_child_boy_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "d901483f1841ad102f40",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_child_boy_seated_v1@0e2b211ef70c802defaa",
+          "source_id": "character_child_boy_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "0e2b211ef70c802defaa",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_child_boy_walk_v1@24ffc90514896625460c",
+          "source_id": "character_child_boy_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "24ffc90514896625460c",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_child_boy_reach_v1@8fa72b53e36147b2c61b",
+          "source_id": "character_child_boy_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "8fa72b53e36147b2c61b",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "teen_boy",
+      "role": "男性青少年",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582",
+          "source_id": "character_teen_boy_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "b6bd3358407ee1c1b582",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_teen_boy_seated_v1@14ffe9207fbb6401bab5",
+          "source_id": "character_teen_boy_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "14ffe9207fbb6401bab5",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_teen_boy_walk_v1@5c1ef5a58ad9fd5f4dd9",
+          "source_id": "character_teen_boy_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "5c1ef5a58ad9fd5f4dd9",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_teen_boy_reach_v1@1d129d0c53d3b59a0932",
+          "source_id": "character_teen_boy_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "1d129d0c53d3b59a0932",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    },
+    {
+      "role_id": "young_man",
+      "role": "年轻成年男性",
+      "required_pose_count": 4,
+      "available_pose_count": 4,
+      "poses": [
+        {
+          "pose": "stand",
+          "label": "站立",
+          "asset_id": "paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5",
+          "source_id": "character_young_man_stand_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "c6ac515b2a0e4b3824c5",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "seated",
+          "label": "坐姿",
+          "asset_id": "paper:character_young_man_seated_v1@6c24351380ba3d7b42ec",
+          "source_id": "character_young_man_seated_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "6c24351380ba3d7b42ec",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head",
+            "seat"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "walk",
+          "label": "步行",
+          "asset_id": "paper:character_young_man_walk_v1@5dc00110903e0c383201",
+          "source_id": "character_young_man_walk_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "5dc00110903e0c383201",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        },
+        {
+          "pose": "reach",
+          "label": "伸手或接取",
+          "asset_id": "paper:character_young_man_reach_v1@e54ee8868155b2cabbe8",
+          "source_id": "character_young_man_reach_v1",
+          "registered": true,
+          "kind": "transparent_subject",
+          "revision": "e54ee8868155b2cabbe8",
+          "anchors": [
+            "feet",
+            "hand_left",
+            "hand_right",
+            "head"
+          ],
+          "missing_anchors": []
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "contact_anchor_gaps": [],
+  "note": "覆盖表只定位素材缺口；姿态和接触仍需查看原件与当前镜头。"
+}

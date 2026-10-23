@@ -214,7 +214,7 @@
       "parts": [
         {
           "source_id": "reserve_person_lying_v1",
-          "asset_id": "paper:reserve_person_lying_v1@d2bac5b6b57519f51f5a",
+          "asset_id": "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2",
           "role": "卧姿人物（含枕头）",
           "revision": "d2bac5b6b57519f51f5a"
         },
@@ -378,19 +378,19 @@
       "parts": [
         {
           "source_id": "reserve_person_stand_v1",
-          "asset_id": "paper:reserve_person_stand_v1@e84a56ed2a70394297d2",
+          "asset_id": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
           "role": "站姿",
           "revision": "e84a56ed2a70394297d2"
         },
         {
           "source_id": "reserve_person_seated_v1",
-          "asset_id": "paper:reserve_person_seated_v1@0d8717db010fff199181",
+          "asset_id": "paper:reserve_person_seated_v1@6663ae862534a6af39a1",
           "role": "坐姿",
           "revision": "0d8717db010fff199181"
         },
         {
           "source_id": "reserve_person_reach_v1",
-          "asset_id": "paper:reserve_person_reach_v1@06699488519265d1f09e",
+          "asset_id": "paper:reserve_person_reach_v1@e160c989f583b79e7503",
           "role": "伸手姿态",
           "revision": "06699488519265d1f09e"
         },
@@ -588,6 +588,177 @@
         "medical": "pending",
         "current_shot": "pending"
       },
+      "locks_story": false
+    },
+    {
+      "id": "adult_man_green_red_postures",
+      "title": "浅绿衫红裤男性同身份站坐走姿态",
+      "parts": [
+        {
+          "source_id": "character_adult_man_stand_v1",
+          "asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+          "revision": "6792f8b338fba0fae4b7",
+          "role": "同母版完整站姿"
+        },
+        {
+          "source_id": "male_patient_seated_identity_20261023",
+          "asset_id": "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885",
+          "revision": "b84a668552591dd1d885",
+          "role": "同母版完整坐姿（原图朝左）"
+        },
+        {
+          "source_id": "male_patient_walk_20261023",
+          "asset_id": "paper:male_patient_walk_20261023@694f4aa5318814a765ca",
+          "revision": "694f4aa5318814a765ca",
+          "role": "同母版行走中间姿态"
+        }
+      ],
+      "operations": [
+        "选择完整姿态",
+        "按实际镜头切换姿态"
+      ],
+      "relationship": "三件与同一站姿母版身份和衣着相连，按需选择，不同时叠加；坐姿原图朝左，镜像时共同变换锚点。",
+      "parameters": {
+        "positions": "按当前构图与实际接触重新排",
+        "content_scale": "按真实内容保持体量",
+        "timing": "由本集导演决定"
+      },
+      "review": {
+        "source_static": "reviewed_2026-10-23",
+        "assembly": "pending_current_scene",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "limitations": [
+        "不含坐立过渡帧或完整步态",
+        "无椅坐姿须按真实臀部试装承托面",
+        "非固定构图或故事模板"
+      ],
+      "locks_story": false
+    },
+    {
+      "id": "supported_patient_calling",
+      "title": "扶手椅患者状态与完整呼叫照护者",
+      "parts": [
+        {
+          "source_id": "character_man_alert_armchair_v1",
+          "asset_id": "paper:character_man_alert_armchair_v1@9de53c9827f7ef4ef901",
+          "revision": "9de53c9827f7ef4ef901",
+          "role": "睁眼坐直状态"
+        },
+        {
+          "source_id": "character_man_unresponsive_armchair_v1",
+          "asset_id": "paper:character_man_unresponsive_armchair_v1@1450525aa8a2df21c95e",
+          "revision": "1450525aa8a2df21c95e",
+          "role": "闭眼低头状态"
+        },
+        {
+          "source_id": "character_carer_calling_v1",
+          "asset_id": "paper:character_carer_calling_v1@8edf24b872eebe205841",
+          "revision": "8edf24b872eebe205841",
+          "role": "完整贴耳通话状态"
+        }
+      ],
+      "operations": [
+        "选择同人完整状态",
+        "与照护者共同排景"
+      ],
+      "relationship": "两种患者状态为替换选择，不同时叠加。人物与各自椅子不可拆，照护者独立排景；可见状态不独自诊断意识或吞咽能力。",
+      "parameters": {
+        "positions": "按各自鞋底/椅脚与当前地面共同排",
+        "content_scale": "按可见体量重排，不能以相同外框硬对齐",
+        "timing": "跟随当前叙事与医学条件"
+      },
+      "review": {
+        "source_static": "reviewed_2026-10-23",
+        "assembly": "pending_current_scene",
+        "continuous_motion": "pending",
+        "medical": "pending"
+      },
+      "limitations": [
+        "不含状态切换、拿机拨号或实际急救的连续动作",
+        "两幅椅子轮廓不完全相同，不能逐像素套位",
+        "不提供固定低血糖或其他诊断故事"
+      ],
+      "locks_story": false
+    },
+    {
+      "id": "cooking_prep",
+      "title": "备餐、加热与翻炒部件",
+      "parts": [
+        {
+          "source_id": "reserve_kitchen_counter_v2",
+          "asset_id": "paper:reserve_kitchen_counter_v2@7e89239e364e80d7af82",
+          "role": "空白厨房工作面",
+          "revision": "7e89239e364e80d7af82"
+        },
+        {
+          "source_id": "reserve_chopping_board_v1",
+          "asset_id": "paper:reserve_chopping_board_v1@c53a30403294f8af8b73",
+          "role": "切配承托",
+          "revision": "c53a30403294f8af8b73"
+        },
+        {
+          "source_id": "reserve_kitchen_knife_v1",
+          "asset_id": "paper:reserve_kitchen_knife_v1@dd728203f4639fca6804",
+          "role": "切配道具",
+          "revision": "dd728203f4639fca6804"
+        },
+        {
+          "source_id": "reserve_induction_cooktop_v1",
+          "asset_id": "paper:reserve_induction_cooktop_v1@4b704626d82433ec47db",
+          "role": "加热设备",
+          "revision": "4b704626d82433ec47db"
+        },
+        {
+          "source_id": "reserve_frying_pan_v1",
+          "asset_id": "paper:reserve_frying_pan_v1@660885106d5ef2393566",
+          "role": "空锅",
+          "revision": "660885106d5ef2393566"
+        },
+        {
+          "source_id": "reserve_wooden_spatula_v1",
+          "asset_id": "paper:reserve_wooden_spatula_v1@f89894748e52176761e5",
+          "role": "翻炒道具",
+          "revision": "f89894748e52176761e5"
+        },
+        {
+          "source_id": "reserve_broccoli_v1",
+          "asset_id": "paper:reserve_broccoli_v1@2d45a995ce062004437e",
+          "role": "可选食材",
+          "revision": "2d45a995ce062004437e"
+        },
+        {
+          "source_id": "reserve_oil_v1",
+          "asset_id": "paper:reserve_oil_v1@3825f2cb267e08b1ae84",
+          "role": "可选调味/烹饪物件",
+          "revision": "3825f2cb267e08b1ae84"
+        }
+      ],
+      "operations": [
+        "切配准备",
+        "锅具落定",
+        "食材进入",
+        "翻炒接触",
+        "结果停顿"
+      ],
+      "relationship": "各部件保持独立；砧板承托切配，电磁炉承托炒锅，锅铲只作为接触道具。组合只提供动作下限，不表示已经加热、熟制或完成营养判断。",
+      "parameters": {
+        "positions": "按台面内容边界和接触点重新排",
+        "timing": "由当前镜头决定"
+      },
+      "sample": "tools/preview-engine/index.html#cooking_prep",
+      "review": {
+        "assembly": "sample_prepared",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "medical": "not_applicable"
+      },
+      "limitations": [
+        "不含人物手部或完整烹饪动作序列",
+        "静态器具不证明火力、温度、熟度或食品安全",
+        "当前镜头仍需看接触、尺度、遮挡和手机宽可读性"
+      ],
       "locks_story": false
     }
   ],

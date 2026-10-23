@@ -1,0 +1,57 @@
+{
+  "id": "character_clinician_woman_stand_v2",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_clinician_woman_stand_v1/161804ebe9c3db80578e/files/payload.png",
+  "prompt": "Use case: illustration-story. Asset type: reusable generic Chinese female doctor for Chinese patient education paper theatre. Reference is for paper texture, full-body proportions and clothing style ONLY; REPLACE the person's identity. Create a clearly Chinese East Asian woman about 35-45 years old, natural dark eyes, straight black hair neatly tied in a low ponytail, no glasses, calm kind professional face, no Caucasian facial features, no brown wavy bob. Plain white unlettered lab coat over muted sage green collared shirt, dark gray trousers, comfortable brown flat shoes. Standing in relaxed grounded three-quarter view facing slightly right, both hands OUTSIDE pockets and visible, screen-right hand open gently explaining at waist height, other arm resting naturally. Complete body hair through shoes with clear connected natural anatomy, subtle tactile cut paper texture. Single person centered with generous margins. GENUINE transparent alpha background; crisp opaque interior and clean cutout edges, no glow/shadow/aura/vignette/floor/checkerboard, no props or text. Distinct person from Dr.咩: no glasses, no black blunt bob or bangs.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-080f2397-28b0-4aa0-b134-4a627ead6f84.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "57fccddb65ca3beb0e392f086d716b32e31571be70321cb456ec71db80f76daf",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      0,
+      1010,
+      1520
+    ],
+    "opaque_ratio": 0.2424,
+    "translucent_ratio": 0.0098,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      266,
+      10,
+      877,
+      1514
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.48,
+        "y": 0.08
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.975
+      },
+      "hand_left": {
+        "x": 0.355,
+        "y": 0.52
+      },
+      "hand_right": {
+        "x": 0.8,
+        "y": 0.28
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

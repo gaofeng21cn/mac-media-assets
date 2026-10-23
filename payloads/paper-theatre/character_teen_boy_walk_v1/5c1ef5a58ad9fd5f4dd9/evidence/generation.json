@@ -1,0 +1,56 @@
+{
+  "id": "character_teen_boy_walk_v1",
+  "prompt": "Use case: identity-preserve. Reference 1 is the exact identity MASTER, not a background. A Chinese teenage boy age 15, adolescent proportions distinctly older than a child, straight black short side-swept hair, clean-shaven youthful face, muted denim-blue overshirt over cream T-shirt, dark charcoal trousers, off-white low sneakers. Keep this EXACT SAME person, face, age, hair, clothing and shoe colors, body proportions and textured cut-paper style. Change only pose to: walking calmly to screen right with a modest stride, arms counter-swing, front foot at ground contact and rear foot slightly lifted, both hands visible. Natural connected anatomy, complete hair to both shoes with generous margin. One isolated complete person on genuine transparent alpha; clean opaque paper interior. No backdrop, furniture, floor mark, cast shadow, halo, glow, gradient, checkerboard, text, logo, cropping, separate limbs, additional people or pose sheets.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "b05503dc77d1d063717c484744f5162cdb5e77e59edf41e3b45b53551a3063be",
+  "measurements": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      113,
+      20,
+      932,
+      1447
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e",
+  "review": {
+    "selected": true,
+    "role": "teen_boy",
+    "pose": "walk",
+    "aliases": [
+      "男性青少年",
+      "步行"
+    ],
+    "identity_family": "teen_boy_cn_20261023",
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.52,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.31,
+        "y": 0.555
+      },
+      "hand_right": {
+        "x": 0.78,
+        "y": 0.477
+      }
+    },
+    "inseparable": false,
+    "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。"
+  }
+}

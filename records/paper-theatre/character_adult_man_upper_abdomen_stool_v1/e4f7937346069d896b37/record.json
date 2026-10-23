@@ -1,0 +1,191 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_adult_man_upper_abdomen_stool_v1",
+  "title": "成年男性扶上腹完整坐姿与木凳整件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "complete_figure",
+    "composition_repair_20261023",
+    "adult_man",
+    "seated_upper_abdomen_stool"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "original_asset_id": "character_adult_man_upper_abdomen_stool_v1",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "identity_reference": "evidence/identity-reference.png",
+    "identity_reference_sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+    "identity_relationship": "same_character_pose_variant",
+    "master_id": "character_adult_man_seated_v1",
+    "source_project": "/Users/gaofeng/workspace/科普视频/productions/lipids_paper_theatre/04_triglyceride_clues/v1",
+    "source_path": "assets/imported/character_adult_man_upper_abdomen_stool_v1.png",
+    "prompt": "Use case: identity-preserve. Asset type: complete reusable transparent paper-theatre patient pose for a Chinese medical explainer. Image 1 is the EDIT TARGET and identity/style reference. Preserve exactly the same middle-aged East Asian man's face, short black-and-gray hair, muted green button shirt with rolled sleeves, navy trousers, brown lace shoes, handmade textured torn-paper collage style, three-quarter front view facing slightly toward image right, and full head-to-shoes framing. Change the pose to a man sitting naturally on a clearly visible simple low wooden stool, leaning slightly forward with a mildly pained concerned expression. His left forearm crosses his torso and his left palm rests firmly on his UPPER ABDOMEN directly below the sternum and ABOVE THE NAVEL, not chest, groin or thigh. His right palm supports/overlaps the left hand at the same upper-abdomen location. Exactly two anatomically coherent arms and two intact hands, connected continuously to their sleeves. Both thighs are physically supported on the stool seat; stool seat and at least two stool legs remain visibly readable behind/beside the seated body, with both shoes resting on the same ground baseline as stool feet. Preserve a complete coherent character including head, neck, shoulders, torso, elbows, hands, knees, ankles, and shoes; no cropping. Use authentic transparent background alpha with no black/white rectangle, no ambient glow, no ground shadow halo. No pain spot, no red mark, no organ drawing, no extra props, no text, no border, no watermark. Deliver one single integrated full-body patient-plus-stool cutout with generous transparent padding around all edges.",
+    "sample_has_brand": false,
+    "identity_reference_asset_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454"
+  },
+  "registered_at": "2026-10-23",
+  "content_bounds": [
+    143,
+    42,
+    945,
+    1490
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_alpha_threshold": 24,
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      93,
+      33,
+      984,
+      1504
+    ],
+    "opaque_ratio": 0.3766,
+    "translucent_ratio": 0.0136,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.52,
+      "y": 0.965
+    },
+    "anchors": {
+      "head": {
+        "x": 0.47,
+        "y": 0.1
+      },
+      "feet": {
+        "x": 0.52,
+        "y": 0.965
+      },
+      "ground_baseline": {
+        "x": 0.52,
+        "y": 0.965
+      },
+      "seat": {
+        "x": 0.29,
+        "y": 0.58
+      },
+      "seat_contact": {
+        "x": 0.29,
+        "y": 0.58
+      },
+      "upper_abdomen": {
+        "x": 0.515,
+        "y": 0.358
+      },
+      "upper_palm": {
+        "x": 0.49,
+        "y": 0.402
+      },
+      "supporting_palm": {
+        "x": 0.53,
+        "y": 0.447
+      }
+    }
+  },
+  "discovery": {
+    "category": "characters",
+    "display_title": "成年男性扶上腹完整坐姿与木凳整件",
+    "aliases": [
+      "character_adult_man_upper_abdomen_stool_v1",
+      "上腹不适",
+      "扶上腹",
+      "扶肚子",
+      "双手上腹",
+      "男性坐姿",
+      "木凳整件",
+      "upper abdomen seated"
+    ],
+    "objects": [
+      "成年男性扶上腹完整坐姿与木凳整件"
+    ],
+    "actions": [
+      "整体摆放",
+      "不适情境呈现"
+    ],
+    "story_roles": [
+      "表达上腹不适",
+      "就医情境"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "view": "按完整原件观察；镜像后重核朝向和装配",
+    "usage_notes": "人物、双手与木凳烘焙为单层整件，不可独立移动木凳或拆手。；两手已在上腹，不能再叠第三只手；凳脚与鞋底有透视前后，不强行压成一条线。；上腹不适不是特定疾病诊断，不表示胰腺炎。",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      143,
+      42,
+      945,
+      1490
+    ],
+    "visible_bounds_alpha_threshold": 24,
+    "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+    "character_role": "adult_man",
+    "pose": "seated_upper_abdomen_stool",
+    "master_id": "character_adult_man_seated_v1"
+  },
+  "usage_notes": "人物与木凳整体摆放；按真实上腹位置添加局部反馈；人物、双手与木凳烘焙为单层整件，不可独立移动木凳或拆手。；两手已在上腹，不能再叠第三只手；凳脚与鞋底有透视前后，不强行压成一条线。；上腹不适不是特定疾病诊断，不表示胰腺炎。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "static_source": "reviewed_2026-10-23",
+    "observed": "完整头和两鞋、连续两臂两手及可见木凳成立；双手叠在上腹而非大腿，臀部由木凳承托。",
+    "landmark_scope": "原图归一化可见部位；头为安全定位点，脚为共同地面基准；手部位置不表示可持握任意道具。",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "release": "not_approved"
+  },
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_scene_scale_contact_pending",
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b25eb9f60b3af6d0179c049073bc047ade2b39379ffd8b3f2d38a2a934b83003",
+      "bytes": 2188536
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "920fc85d0818ca41a857b835492280d5e83f72faa131891d25a4110b1944c92f",
+      "bytes": 2497
+    },
+    {
+      "path": "evidence/identity-reference.png",
+      "role": "evidence",
+      "sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+      "bytes": 1784795
+    },
+    {
+      "path": "evidence/source-composites.jpg",
+      "role": "evidence",
+      "sha256": "f1720496bca5928b825be082c05f44c7d28118a56bbb8a19bfb0a6f207dacf04",
+      "bytes": 18992
+    }
+  ],
+  "revision": "e4f7937346069d896b37"
+}

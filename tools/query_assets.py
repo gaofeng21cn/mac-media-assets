@@ -24,6 +24,12 @@ def mapping(value):
     return value if isinstance(value, dict) else {}
 
 
+def all_catalog_rows(root):
+    return [json.loads(line) for line in
+            (Path(root) / 'catalog/assets.jsonl').read_text(encoding='utf-8').splitlines()
+            if line.strip()]
+
+
 def maturity(root, row):
     record = load(root / row.get('portable_record', '__missing__'), {})
     review = record.get('review') or {}
@@ -41,10 +47,15 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
           usable_for=None, author_id=None, include_author_assets=False,
           category=None, action=None, story_role=None, medium=None,
           collection=None, maturity_stage=None, layering=None,
-          include_provenance=False, limit=None):
+          include_provenance=False, limit=None, character_role=None,
+          pose=None, asset_id=None, all_versions=False):
     root = Path(root)
+    pose = {'伸手': 'reach', '接取': 'reach', '递接': 'reach', '伸手接取': 'reach',
+            '行走': 'walk', '坐下': 'seated', '躺卧': 'lying', '躺姿': 'lying',
+            '问诊': 'seated_consult'}.get(pose, pose)
     aliases = load(root / 'collections/series.json', {}).get('aliases', {})
     discovery = load(root / 'collections/discovery.json', {}).get('assets', {})
+    coverage = load(root / 'collections/character-coverage.json', {})
     layer_contracts = load(root / 'collections/layer-contracts.json', {}).get('contracts', {})
     taxonomy = load(root / 'collections/taxonomy.json', {}).get('categories', [])
     category_ids = {item['label']: item['id'] for item in taxonomy}
@@ -57,10 +68,38 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
         if not selected:
             return []
         members = {part['source_id'] for part in selected.get('parts', [])}
-    rows = [json.loads(line) for line in (root / 'catalog/assets.jsonl').read_text().splitlines() if line.strip()]
+    catalog_rows = all_catalog_rows(root)
+    rows = select_versions(root, catalog_rows, all_versions=all_versions)
+    if asset_id:
+        exact = [row for row in catalog_rows if row.get('id') == asset_id]
+        if exact:
+            rows = exact
+        else:
+            # A stable source ID means "the reviewed current version"; the
+            # full paper:ID@revision form remains an exact historical lookup.
+            rows = select_versions(
+                root,
+                [row for row in catalog_rows if row.get('source_id') == asset_id],
+                all_versions=False,
+            )
+    role_asset_ids = None
+    if character_role or pose:
+        role_asset_ids = set()
+        for role_id, role in (coverage.get('roles') or {}).items():
+            if character_role:
+                requested = character_role.strip().casefold()
+                role_names = {str(value).strip().casefold() for value in
+                              [role_id, role.get('label', ''), *(role.get('aliases') or [])]}
+                if requested not in role_names:
+                    continue
+            for pose_id, selected_asset_id in (role.get('current_assets') or {}).items():
+                if selected_asset_id and (not pose or pose in {pose_id, coverage.get('pose_labels', {}).get(pose_id)}):
+                    role_asset_ids.add(selected_asset_id)
     out = []
     for original in rows:
         row = dict(original)
+        if role_asset_ids is not None and row.get('id') not in role_asset_ids and row.get('source_id') not in role_asset_ids:
+            continue
         reuse = row.get('reuse_scope') or {}
         if reuse.get('kind') == 'author' and not include_author_assets and reuse.get('id') != author_id:
             continue
@@ -100,7 +139,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
             if desired and not any(desired.casefold() in str(value).casefold() for value in candidates):
                 break
         else:
-            if medium and fields.get('medium') != medium:
+            if medium and medium not in seq(fields.get('medium')):
                 continue
             record = load(root / row.get('portable_record', '__missing__'), {})
             names = [row.get('title', ''), row.get('source_id', ''), fields.get('display_title', '')] + seq(fields.get('aliases'))
@@ -127,6 +166,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                 if usable_for and usable_for.casefold() not in primary + '\n' + secondary:
                     continue
                 row['discovery'] = fields
+                row['registration'] = record.get('registration') or (record.get('asset') or {}).get('registration') or {}
                 row['display_title'] = fields.get('display_title', row['title'])
                 row['maturity'] = maturity(root, row)
                 if maturity_stage and row['maturity'].get(maturity_stage) != 'reviewed':
@@ -135,31 +175,73 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                 out.append(row)
     if text:
         out.sort(key=lambda row: (-row['search_match']['score'], row['display_title']))
+    else:
+        out.sort(key=lambda row: row.get('display_title', row.get('title', '')))
     return out[:limit] if limit is not None else out
+
+
+def select_versions(root, rows, *, all_versions=False):
+    """Select one current version per asset identity without discarding history."""
+    if all_versions:
+        return rows
+    anchors = load(Path(root) / 'collections/character-anchors.json', {}).get('assets', {})
+    coverage = load(Path(root) / 'collections/character-coverage.json', {})
+    coverage_ids = {
+        asset_id
+        for role in (coverage.get('roles') or {}).values()
+        for asset_id in (role.get('current_assets') or {}).values()
+        if asset_id
+    }
+    grouped = {}
+    for row in rows:
+        grouped.setdefault(row.get('source_id'), []).append(row)
+    selected = []
+    for source_id, candidates in grouped.items():
+        exact = [row for row in candidates if row.get('id') in coverage_ids]
+        if exact:
+            selected.append(exact[-1])
+            continue
+        wanted = anchors.get(source_id)
+        matching = []
+        if wanted:
+            for row in candidates:
+                record = load(Path(root) / row.get('portable_record', '__missing__'), {})
+                registration = record.get('registration') or (record.get('asset') or {}).get('registration') or {}
+                if registration == wanted:
+                    matching.append(row)
+        if matching:
+            selected.append(matching[-1])
+        else:
+            selected.append(candidates[-1])
+    order = {row.get('id'): index for index, row in enumerate(rows)}
+    return sorted(selected, key=lambda row: order.get(row.get('id'), len(order)))
 
 
 def main():
     parser = argparse.ArgumentParser()
-    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id', 'category', 'action', 'story-role', 'medium', 'collection', 'maturity', 'layering'):
+    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id', 'category', 'action', 'story-role', 'medium', 'collection', 'maturity', 'layering', 'character-role', 'pose', 'id'):
         parser.add_argument('--' + name)
     parser.add_argument('--limit', type=int)
     parser.add_argument('--include-provenance', action='store_true')
     parser.add_argument('--include-author-assets', action='store_true', help='策展只读发现；不授予复用权限')
     parser.add_argument('--include-reference', action='store_true', help='公共库不包含参考区；兼容旧调用，不扩大结果')
+    parser.add_argument('--all-versions', action='store_true', help='显式查看历史修订，不用于默认制作选择')
     parser.add_argument('--json', action='store_true')
     args = parser.parse_args()
     rows = query(text=args.query, kind=args.kind, series=args.series, scope=args.scope,
                  usable_for=args.usable_for, author_id=args.author_id, include_author_assets=args.include_author_assets,
                  category=args.category, action=args.action, story_role=args.story_role, medium=args.medium,
                  collection=args.collection, maturity_stage=args.maturity, layering=args.layering,
-                 include_provenance=args.include_provenance, limit=args.limit)
+                 include_provenance=args.include_provenance, limit=args.limit,
+                 character_role=getattr(args, 'character_role'), pose=args.pose,
+                 asset_id=getattr(args, 'id'), all_versions=args.all_versions)
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
     else:
         print('id\tcategory\ttitle\tmedium\tlayering\tcurrent_shot')
         for row in rows:
             print('\t'.join([row['id'], row['discovery'].get('category', '待策展'), row['display_title'],
-                             row['discovery'].get('medium', ''), row['discovery'].get('layering', ''),
+                             ', '.join(map(str, seq(row['discovery'].get('medium')))), row['discovery'].get('layering', ''),
                              row['maturity']['current_shot']]))
 
 

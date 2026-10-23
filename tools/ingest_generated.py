@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
@@ -38,7 +39,7 @@ def measure(path: Path) -> dict:
     histogram = alpha.histogram()
     opaque = sum(histogram[250:])
     translucent = sum(histogram[25:250])
-    box = alpha.getbbox()
+    box = alpha.point(lambda value: 255 if value >= 25 else 0).getbbox()
     return {
         "width": width,
         "height": height,
@@ -60,40 +61,56 @@ def ingest(root: Path, spec: Path) -> dict:
     items = value.get("assets", [value])
     results, rejected = [], []
     for item in items:
-        source = Path(item["source"]).expanduser().resolve()
+        source = Path(item["source"]).expanduser()
+        source = (source if source.is_absolute() else spec.parent / source).resolve()
         identifier = item["id"]
+        if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]*', identifier):
+            rejected.append({"id": identifier, "reason": "invalid asset id"})
+            continue
         if not source.is_file():
             rejected.append({"id": identifier, "reason": "missing source %s" % source})
             continue
         measurement = measure(source)
-        if item.get("kind") == "transparent_subject" and not measurement["is_cutout"]:
+        if not measurement['bbox']:
+            rejected.append({"id": identifier, "reason": "no visible content", "measurement": measurement})
+            continue
+        if item.get("kind", "transparent_subject") == "transparent_subject" and not measurement["is_cutout"]:
             rejected.append({"id": identifier, "reason": "corners are opaque; baked background cannot be a movable layer", "measurement": measurement})
             continue
         if measurement["halo_suspected"] and item.get("allow_halo") is not True:
             rejected.append({"id": identifier, "reason": "translucent halo above threshold", "measurement": measurement})
             continue
-        revision = hashlib.sha256(source.read_bytes() + identifier.encode()).hexdigest()[:12]
-        base = root / "payloads" / "paper-theatre" / identifier / revision
-        payload = base / "files" / "payload.png"
-        payload.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(source, payload)
-        receipt = base / "evidence" / "generation-receipt.json"
-        receipt.parent.mkdir(parents=True, exist_ok=True)
-        receipt.write_text(json.dumps({
+        registered_at = item.get("registered_at") or datetime.fromtimestamp(
+            source.stat().st_mtime, timezone.utc
+        ).isoformat()
+        receipt_value = {
             "tool": item.get("tool", "built_in_imagegen"),
             "prompt": item.get("prompt", ""),
             "source_path": str(source),
             "measured": measurement,
-            "registered_at": datetime.now(timezone.utc).isoformat(),
-        }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        record_dir = root / "records" / "paper-theatre" / identifier / revision
-        record_dir.mkdir(parents=True, exist_ok=True)
-        record = {
-            "schema": "animation_element/v1",
+            "registered_at": registered_at,
+        }
+        receipt_text = json.dumps(receipt_value, ensure_ascii=False, indent=2) + "\n"
+        descriptors = [
+            {
+                "path": "files/payload.png",
+                "role": "payload",
+                "sha256": sha(source),
+                "bytes": source.stat().st_size,
+            },
+            {
+                "path": "evidence/generation-receipt.json",
+                "role": "evidence",
+                "sha256": hashlib.sha256(receipt_text.encode("utf-8")).hexdigest(),
+                "bytes": len(receipt_text.encode("utf-8")),
+            },
+        ]
+        metadata = {
             "id": identifier,
             "title": item["title"],
             "kind": item.get("kind", "transparent_subject"),
             "tags": item.get("tags", []),
+            "discovery": item.get("discovery", {}),
             "entry": "files/payload.png",
             "reuse_scope": {"kind": item.get("reuse_scope", "general")},
             "status": "pending_review",
@@ -102,16 +119,24 @@ def ingest(root: Path, spec: Path) -> dict:
                        "plan_id": identifier, "prompt": item.get("prompt", "")},
             "content_bounds": measurement["bbox"],
             "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+            **({"registration": item["registration"]} if item.get("registration") else {}),
             "alpha_measurement": measurement,
             "quality_debt": item.get("quality_debt", ["static_candidate_only", "continuous_motion_pending"]),
             "medical_review": item.get("medical_review", "pending" if item.get("category") == "anatomy" else "not_applicable"),
             "review": {"static_alpha": "measured_on_ingest", "full_motion": "pending"},
-            "revision": revision,
-            "files": [
-                {"path": "files/payload.png", "role": "payload", "sha256": sha(payload), "bytes": payload.stat().st_size},
-                {"path": "evidence/generation-receipt.json", "role": "evidence", "sha256": sha(receipt), "bytes": receipt.stat().st_size},
-            ],
         }
+        body = {**metadata, "files": descriptors}
+        revision = hashlib.sha256(
+            json.dumps(body, ensure_ascii=False, sort_keys=True).encode("utf-8")
+        ).hexdigest()[:20]
+        record_dir = root / "entries" / identifier / revision
+        payload = record_dir / "files" / "payload.png"
+        payload.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, payload)
+        receipt = record_dir / "evidence" / "generation-receipt.json"
+        receipt.parent.mkdir(parents=True, exist_ok=True)
+        receipt.write_text(receipt_text, encoding="utf-8")
+        record = {"schema": "animation_element/v1", **body, "revision": revision}
         record_path = record_dir / "record.json"
         record_path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         catalog_path = root / "catalog.json"

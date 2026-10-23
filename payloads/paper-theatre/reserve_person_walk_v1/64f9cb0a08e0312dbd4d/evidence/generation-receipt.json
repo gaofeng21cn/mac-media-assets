@@ -1,0 +1,10 @@
+{
+  "id": "person_walk",
+  "title": "通用人物步行姿态",
+  "category": "character",
+  "prompt": "Generate a square transparent PNG. PRIMARY AND ONLY SUBJECT: The SAME woman as reference, same face/clothes, full-body right-facing mid-stride walking pose, one foot forward, opposite arm forward, both feet complete, no ground or objects. Handmade tactile hand-cut paper collage for a medical paper theatre, fibrous dyed paper, rough crisp edges, layered gouache and pencil details, consistent restrained palette. Complete isolated part with generous margin, true RGBA alpha outside. NO outer glow, haze, gradients, ground shadow, background or checkerboard pattern. NO text, numbers, logos, extra objects or scenery. Keep the same generic adult East Asian woman: short dark bob, ochre cardigan, cream shirt, teal trousers, cream trainers; no doctor identity or brand. ",
+  "attempt": 1,
+  "path": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-cb89fc8b-6676-4c13-b8db-13ac01cecf3a.png",
+  "output_hint": "Generated images are saved to /Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856 as /Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-cb89fc8b-6676-4c13-b8db-13ac01cecf3a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "tool": "built_in_imagegen"
+}

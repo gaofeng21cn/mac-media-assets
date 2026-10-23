@@ -1,0 +1,60 @@
+{
+  "id": "character_young_man_seated_v1",
+  "prompt": "Use case: identity-preserve. Reference 1 is the exact identity MASTER, not a background. A Chinese young adult man age 27, adult proportions, clean-shaven face, short tidy black hair, muted slate-blue crewneck sweater, beige chinos, dark brown casual shoes. Keep this EXACT SAME person, face, age, hair, clothing and shoe colors, body proportions and textured cut-paper style. Change only pose to: seated in a consultation listening pose, facing screen right, thighs near horizontal, knees bent, feet flat, both hands visible resting separately on thighs. NO chair or desk; preserve a clearly visible rear buttock support edge so a separate chair can be assembled. Natural connected anatomy, complete hair to both shoes with generous margin. One isolated complete person on genuine transparent alpha; clean opaque paper interior. No backdrop, furniture, floor mark, cast shadow, halo, glow, gradient, checkerboard, text, logo, cropping, separate limbs, additional people or pose sheets.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "5b574948c83b7fba80b30efd3f62981bf908a3b3b72d11c93ba6bec69381bfa6",
+  "measurements": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      188,
+      32,
+      964,
+      1449
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88",
+  "review": {
+    "selected": true,
+    "role": "young_man",
+    "pose": "seated",
+    "aliases": [
+      "年轻成年男性",
+      "坐姿"
+    ],
+    "identity_family": "young_man_cn_20261023",
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.11
+      },
+      "feet": {
+        "x": 0.66,
+        "y": 0.94
+      },
+      "hand_left": {
+        "x": 0.51,
+        "y": 0.54
+      },
+      "hand_right": {
+        "x": 0.77,
+        "y": 0.55
+      },
+      "seat": {
+        "x": 0.3,
+        "y": 0.58
+      }
+    },
+    "inseparable": false,
+    "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。"
+  }
+}

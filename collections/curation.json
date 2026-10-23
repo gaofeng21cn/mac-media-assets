@@ -600,6 +600,282 @@
       ],
       "reviewed_on": "2026-10-11",
       "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:character_adult_man_seated_v1@2e7239aa53a9b65dac36": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454"
+    },
+    "paper:character_adult_man_stand_v1@9ee5f27fd660bed6423a": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7"
+    },
+    "paper:character_child_girl_stand_v1@cfb23ae39c876a2eda2e": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019"
+    },
+    "paper:character_clinician_man_stand_v1@5b1ee13b4714179c028b": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e"
+    },
+    "paper:character_clinician_woman_stand_v1@2b60f95b391dd2cec8df": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4",
+      "reason": "用户确认主要受众为国内用户；旧女医生形象偏欧美，改用同身份中国女性医生姿态包。"
+    },
+    "paper:character_older_man_walk_v1@44ece7c39427842499a8": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_older_man_walk_v1@b82355ff8645f0304efb"
+    },
+    "paper:character_older_woman_stand_v1@6451b3727af85d3ff8b6": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120"
+    },
+    "paper:character_pregnant_woman_seated_v1@365ed3eb06f9152e5b72": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9"
+    },
+    "paper:character_pregnant_woman_stand_v1@77e10ca2ab07b1b6e0c6": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5"
+    },
+    "paper:character_teen_girl_stand_v1@8a63fa4f83c1bbf53a86": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_teen_girl_stand_v1@699014f2978da454f37e"
+    },
+    "paper:character_adult_man_seated_v1@abaa8dd722fa6beb112f": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454"
+    },
+    "paper:reserve_person_stand_v1@305ae80fb0bed58e7b70": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1"
+    },
+    "paper:reserve_person_seated_v1@5510a16791829f3ec4dc": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_seated_v1@6663ae862534a6af39a1"
+    },
+    "paper:reserve_person_walk_v1@6579b0eb921fd44eeb90": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d"
+    },
+    "paper:reserve_person_reach_v1@513e7e26a2d567f82a90": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_reach_v1@e160c989f583b79e7503"
+    },
+    "paper:reserve_person_lying_v1@700b6ad127664279668a": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2"
+    },
+    "paper:character_pregnant_woman_seated_v1@b90781bfec4f119c5474": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9"
+    },
+    "paper:male_patient_walk_20261023@694f4aa5318814a765ca": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "完整头颈、双手和两鞋可见；灰黑短发、绿衬衫、锈红裤与参考站姿连续，左右脚处在不同步相。",
+      "operations": [
+        "完整人物按真实脚底落地",
+        "整件调度",
+        "与同身份姿态有意切换"
+      ],
+      "limitations": [
+        "只有一幅行走中间姿态，不是连续步态或可独立活动的肢体。",
+        "整件平移须保持鞋底、地面与投影一致；跨姿态需另审身份和体量。",
+        "不从外貌判断疾病或活动能力。"
+      ],
+      "evidence_ref": "records/paper-theatre/male_patient_walk_20261023/694f4aa5318814a765ca/record.json"
+    },
+    "paper:character_adult_man_upper_abdomen_stool_v1@d9332801d4be8a8e1083": {
+      "status": "superseded",
+      "replacement_id": "paper:character_adult_man_upper_abdomen_stool_v1@e4f7937346069d896b37",
+      "reason": "本轮静态复核修正坐面锚点为真实臀部后侧承托边缘；旧原件字节保留，不作为当前推荐。"
+    },
+    "paper:character_older_brother_stand_v1@0555292d623befaa0c77": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "眼镜、较窄脸、蓝衬衫、米色裤及棕鞋清楚；完整双手两鞋，朝画面左侧，未见作者品牌或医生标识。",
+      "operations": [
+        "完整人物落地",
+        "与其他身份人物并置"
+      ],
+      "limitations": [
+        "这是不同于绿衬衫患者的独立人物，不作为其换装或同人新姿态。",
+        "中老年外观只作普通家属角色，不用来推定疾病、遗传关系或固定年龄。",
+        "双手自然下垂，未准备接取或持物姿态；只是一幅站姿。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_older_brother_stand_v1/0555292d623befaa0c77/record.json"
+    },
+    "paper:abpm_patient_20261023@da1da29c83fad06b55a3": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "盘发女性全身完整；上臂袖带、连续蓝色软管与腰侧固定记录器可辨，双手未持设备，屏幕无数字。",
+      "operations": [
+        "完整站姿解释已佩戴状态",
+        "同源局部近景看袖带、软管和腰侧固定"
+      ],
+      "limitations": [
+        "人物与袖带、软管、记录器烘焙为单层，只呈现已佩戴状态，不演示穿戴步骤。",
+        "不示范按钮操作、具体设备型号或屏幕数字诊断；需要独立操作时另备部件。",
+        "局部近景须保留袖带—软管—腰夹的真实连续关系；全身小图只作佩戴身份提示。"
+      ],
+      "evidence_ref": "records/paper-theatre/abpm_patient_20261023/da1da29c83fad06b55a3/record.json"
+    },
+    "paper:character_adult_man_upper_abdomen_stool_v1@e4f7937346069d896b37": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "完整头和两鞋、连续两臂两手及可见木凳成立；双手叠在上腹而非大腿，臀部由木凳承托。",
+      "operations": [
+        "人物与木凳整体摆放",
+        "按真实上腹位置添加局部反馈"
+      ],
+      "limitations": [
+        "人物、双手与木凳烘焙为单层整件，不可独立移动木凳或拆手。",
+        "两手已在上腹，不能再叠第三只手；凳脚与鞋底有透视前后，不强行压成一条线。",
+        "上腹不适不是特定疾病诊断，不表示胰腺炎。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_adult_man_upper_abdomen_stool_v1/e4f7937346069d896b37/record.json"
+    },
+    "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "脸型、盐灰短发、浅绿衬衫、砖红裤和灰棕鞋与站姿母版及新行走姿态一致；头、双手、两鞋完整。",
+      "operations": [
+        "按真实臀后承托点试装椅面",
+        "同母版站坐走姿态选择"
+      ],
+      "limitations": [
+        "原件朝画面左侧；镜像时头、手、臀部及脚底锚点须一起变换。",
+        "本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。",
+        "单幅坐姿不提供坐下起身过渡帧或连续动作。"
+      ],
+      "evidence_ref": "records/paper-theatre/male_patient_seated_identity_20261023/b84a668552591dd1d885/record.json"
+    },
+    "paper:character_clinician_woman_stand_v1@161804ebe9c3db80578e": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4",
+      "reason": "用户确认主要受众为国内用户；旧女医生形象偏欧美，改用同身份中国女性医生姿态包。"
+    },
+    "paper:character_clinician_woman_stand_v1@aa709f8be9b996bb84df": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4",
+      "reason": "用户确认主要受众为国内用户；旧女医生形象偏欧美，改用同身份中国女性医生姿态包。"
+    },
+    "paper:character_man_alert_armchair_v1@9de53c9827f7ef4ef901": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "同一短灰黑发绿衫蓝裤男性睁眼坐直，双手在大腿，臀腿受座垫承托；全头、双鞋与扶手椅完整。",
+      "operations": [
+        "人物与扶手椅整体摆放",
+        "与同身份低头姿态按当前画面切换"
+      ],
+      "limitations": [
+        "人物和扶手椅烘焙为单层，不可拆椅子或独立摆手。",
+        "睁眼坐直仅是可见状态，不能仅凭外观判定安全吞咽、血糖或意识。",
+        "两幅椅子轮廓非逐像素相同，切换时按各自脚底与椅脚重排，不按PNG外框硬对齐。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_man_alert_armchair_v1/9de53c9827f7ef4ef901/record.json"
+    },
+    "paper:character_man_unresponsive_armchair_v1@1450525aa8a2df21c95e": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "与睁眼图脸型、灰黑发、绿衫蓝裤棕鞋和蓝椅一致；头低垂且眼闭，背部、臀腿及手臂有椅背/座垫/扶手支持。",
+      "operations": [
+        "人物与扶手椅整体摆放",
+        "在医学语境核对后呈现需要帮助的状态"
+      ],
+      "limitations": [
+        "静图只确认闭眼、低头与身体由椅子承托，不据此诊断昏迷或低血糖。",
+        "不是恢复体位、气道开放、喂食或急救操作示范。",
+        "人物与椅子不可拆；没有从清醒到低头或后续恢复的连续过渡帧。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_man_unresponsive_armchair_v1/1450525aa8a2df21c95e/record.json"
+    },
+    "paper:character_carer_calling_v1@8edf24b872eebe205841": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "芥黄开衫、短深发、白内搭、蓝绿阔腿裤和白鞋与参考一致；电话贴耳颊，手腕前臂连续，另一手完整下垂，未见多肢。",
+      "operations": [
+        "完整人物与电话整体摆放",
+        "向患者或画面留白方向通话"
+      ],
+      "limitations": [
+        "电话、持机手与身体为单层整件，不能另叠浮空手机、再造持握手或独立拨号。",
+        "现有自由手自然下垂，不表示可以接取任意道具。",
+        "只有贴耳通话状态，不提供拿起、拨号、放下的连续过渡。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_carer_calling_v1/8edf24b872eebe205841/record.json"
+    },
+    "paper:reserve_thyroid_simple_v1@f23e768de6e8ae054137": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_thyroid_simple_v2@72cad923d36490b2dcc9",
+      "reason": "旧远景图与近景分层包外观相同；由真正的轮廓简化版本替代，旧版本只保留来源恢复。"
+    },
+    "paper:exercise_grip@43880782b36b2d724990": {
+      "status": "active",
+      "role": "hand_object_unit",
+      "reviewed_on": "2026-10-23",
+      "reason": "一只手和连续前臂自然包握青色哑铃，黄色袖口从右下方进入；没有头或躯干，属于有意的纯对象局部。",
+      "operations": [
+        "以对象近景呈现真实握持",
+        "保持前臂从画外连续伸入的整体举落"
+      ],
+      "limitations": [
+        "局部手/前臂与哑铃为不可拆整体，不能当完整人物或拼成新人物。",
+        "未使用人物母版，只能称黄色袖口风格兼容，不声明同一角色身份。",
+        "前臂在右侧画布边缘有意截出，构图需让切边从画外连续进入，不悬放成断臂。",
+        "不推断哑铃重量、运动剂量或个体处方，不当作注射或其他器械操作。"
+      ],
+      "evidence_ref": "records/paper-theatre/exercise_grip/43880782b36b2d724990/record.json"
+    },
+    "paper:reserve_chopping_board_v1@bf29e73c60c0b2eba40f": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_chopping_board_v1@c53a30403294f8af8b73",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_frying_pan_v1@eb4136429496a26ab577": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_frying_pan_v1@660885106d5ef2393566",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_induction_cooktop_v1@4f0122a030f379bb0e14": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_induction_cooktop_v1@4b704626d82433ec47db",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_kitchen_knife_v1@12bce77da279a7f6e766": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_kitchen_knife_v1@dd728203f4639fca6804",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_wooden_spatula_v1@4fdcfdb98f8a59a9f26e": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_wooden_spatula_v1@f89894748e52176761e5",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
     }
   }
 }

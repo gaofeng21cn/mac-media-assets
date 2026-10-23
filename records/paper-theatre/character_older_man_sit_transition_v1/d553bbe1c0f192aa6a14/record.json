@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_older_man_sit_transition_v1",
+  "title": "老年男性·站坐转换中间姿态·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "older_man",
+    "sit_transition",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "老年男性",
+      "站坐转换中间姿态"
+    ],
+    "actions": [
+      "sit_transition",
+      "站坐转换中间姿态"
+    ],
+    "character_role": "older_man",
+    "identity_family": "older_man_baseline",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_man_walk_v1/b82355ff8645f0304efb/files/payload.png",
+    "prompt": "Use case: identity-preserve. Asset type: complete reusable paper theatre pose. Input 1 exact identity and clothing reference. Create same elderly Chinese man in olive shirt and charcoal trousers, mid transition from standing to sitting: feet flat shoulder-width, knees comfortably bent, hips moving backward at above-knee level, torso leaning slightly forward, both hands resting naturally on the fronts of thighs for balance. Not deep squat and not fully seated; no chair. Preserve reference face, age, hairstyle, body proportions, clothes and footwear, tactile paper illustration. Complete connected natural anatomy, entire hair, all visible hands and both shoes in frame with margin all sides. Single isolated full person on genuine transparent alpha, opaque paper interior, crisp edge. No environment, furniture, floor, cast shadow, glow, aura, vignette, checkerboard, typography or watermark. One pose only."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.5,
+        "y": 0.11
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.43,
+        "y": 0.55
+      },
+      "hand_right": {
+        "x": 0.71,
+        "y": 0.56
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    242,
+    44,
+    832,
+    1459
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      38,
+      1000,
+      1498
+    ],
+    "opaque_ratio": 0.2982,
+    "translucent_ratio": 0.0093,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      242,
+      44,
+      832,
+      1459
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "站坐转换的单个中间姿态，不是可循环步态或已完成坐姿；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "485a22e8b4ff6d300fc0b96c23d6673aa5808436e333dc6c628f25ca4ad9eee7",
+      "bytes": 2019066
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "73c44445548711968cccc6df59dea93b6d9b76c72633a1f0d3a89ca9612856a2",
+      "bytes": 2190
+    }
+  ],
+  "revision": "d553bbe1c0f192aa6a14"
+}
