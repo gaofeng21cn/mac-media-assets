@@ -1,6 +1,45 @@
+[中文](README.md) · [English](README.en.md)
+
 # MAC Media Assets · 医学科普纸剧场资产库
 
 这是 [Med Auto Cast（MAC）](https://github.com/gaofeng21cn/med-autocast) 的公开媒体资产库。MAC 安装或准备工作台时自动获取，制作时按故事需要检索、查看并选择复用、适配或新创。
+
+## 安装与使用
+
+MAC 将本库声明为必需能力包；通过 OPL Framework 安装 MAC 时，Framework 一并安装素材库，
+并通过 installed descriptor 提供检索与媒体路径。OPL App 的首次安装和显式恢复 Official
+Profile 使用同一安装链；库本身不运行安装器、不保存账户或项目状态。
+
+也可克隆本仓库，直接离线查询与验证：
+
+```bash
+git clone https://github.com/gaofeng21cn/mac-media-assets.git
+cd mac-media-assets
+python3 tools/query_assets.py --help
+python3 tools/verify_catalog.py
+```
+
+原件位于 `payloads/`，登记与相对引用位于 `catalog/`、`records/` 和 `collections/`。
+`records/` 内的历史工作台路径仅记录来源，不是可执行安装路径；消费者使用本次安装的根目录。
+
+## 授权与来源
+
+原创工具代码及文档采用 [Apache-2.0](LICENSE)。媒体原件与第三方材料保留各自登记的来源、
+授权与复用范围，不因仓库代码许可证而被重新授权。使用媒体前读取对应 `records/` 的来源和
+约束；CC0 实录等第三方来源保留原始链接及声明。人物母版、授权声线、私人品牌包与带品牌样片
+不纳入公共库。素材的视觉、动作、听感及医学审看范围按记录分别读取。
+
+## 开发与验证
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 tools/verify_catalog.py
+python3 tools/materialize_package.py --check
+```
+
+更新目录或载荷后运行 `python3 tools/materialize_package.py` 刷新 capability descriptor 的内容锁，
+再运行以上检查。Package 发布由 Framework 的既有 `publish-package.yml` 选择准确版本、源码
+提交和 OCI predecessor 后执行；本仓不维护第二套发布器或 latest 指针。
 
 ## 当前资产
 
