@@ -24,12 +24,12 @@
 
 资产登记、真实 `query → use`、manifest 的 bounds/registration 回读、组合试装、连续动作、完整听感、医学审看和发布资格分别保留证据。文件存在、哈希一致、浏览器脚本通过或一组静态姿态通过，都不会自动升级其他审看层级。
 
-本机当前作者为 Dr.咩 时，泛称“医生”和作者档案明确的女性医生别名走本机作者形象；男性医生和 `generic` 检索走公共通用医生。公共库不含 Dr.咩 私有母版、私有姿态、声线和品牌材料。公共通用医生可在明确选择时取用，并附带身份上下文说明。
+本机作者档案启用时，泛称“医生”和档案明确的女性医生别名走本机作者形象；男性医生和 `generic` 检索走公共通用医生。公共库不含任何作者私有母版、私有姿态、声线和品牌材料。公共通用医生可在明确选择时取用，并附带身份上下文说明。
 
 ## 维护验证
 
 ```bash
-python3 -m unittest discover -s tests -v
+uv run --with Pillow python -m unittest discover -s tests -v
 python3 tools/verify_catalog.py
 python3 tools/materialize_package.py --check
 git diff --check

@@ -23,7 +23,7 @@ python3 tools/query_assets.py --kind code_component --json
 python3 tools/query_assets.py --kind audio --author-id <当前作者档案ID> --json
 ```
 
-在配置了 `default_for_clinician` 的本机工作台，泛称“医生”和作者档案配置的别名默认解析当前作者私有姿态；本机 Dr.咩 档案将“女性医生/女医生”列为作者别名。“男性医生/男医生”走公共通用男性医生。`--character-context generic` 只改变检索范围，精确公共医生 ID 也可直接取用；取用通用医生会附加 `identity_context`，说明其不是当前作者主讲，`blocks_production` 为 `false`。作者姿态缺失返回 `needs_author_pose`，不静默回落通用医生。
+在配置了 `default_for_clinician` 的本机工作台，泛称“医生”和作者档案配置的别名默认解析当前作者私有姿态；当前作者档案可将“女性医生/女医生”列为作者别名。“男性医生/男医生”走公共通用男性医生。`--character-context generic` 只改变检索范围，精确公共医生 ID 也可直接取用；取用通用医生会附加 `identity_context`，说明其不是当前作者主讲，`blocks_production` 为 `false`。作者姿态缺失返回 `needs_author_pose`，不静默回落通用医生。
 
 默认查询每个资产身份只返回当前审定版本；`--all-versions` 或精确 `paper:<ID>@<revision>` 才查看历史。人物查询同时给角色和姿态，空结果是真实缺口。`--id <source_id>` 返回当前版本，不把同名旧修订混进候选。`curation` 是依据原件的模型判断，说明整体背景、单层医学总览、独立物件或可拆部件的实际操作。
 

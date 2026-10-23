@@ -32,7 +32,7 @@ python3 tools/verify_catalog.py
 ## 开发与验证
 
 ```bash
-python3 -m unittest discover -s tests -v
+uv run --with Pillow python -m unittest discover -s tests -v
 python3 tools/verify_catalog.py
 python3 tools/materialize_package.py --check
 ```
