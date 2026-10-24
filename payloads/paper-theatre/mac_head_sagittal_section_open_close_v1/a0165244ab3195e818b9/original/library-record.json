@@ -1,0 +1,304 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_head_sagittal_detailed_layers_v1",
+  "title": "头部矢状位·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "head_profile",
+      "path": "files/head_profile.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·head_profile",
+      "medical": true,
+      "content_bounds": [
+        283,
+        145,
+        844,
+        847
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "brain_and_brainstem",
+      "path": "files/brain_and_brainstem.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·brain_and_brainstem",
+      "medical": true,
+      "content_bounds": [
+        329,
+        204,
+        746,
+        686
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "pituitary_and_stalk",
+      "path": "files/pituitary_and_stalk.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·pituitary_and_stalk",
+      "medical": true,
+      "content_bounds": [
+        617,
+        470,
+        663,
+        542
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "paranasal_sinuses",
+      "path": "files/paranasal_sinuses.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·paranasal_sinuses",
+      "medical": true,
+      "content_bounds": [
+        695,
+        360,
+        766,
+        529
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_head_sagittal_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "头部矢状位",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "head_profile",
+      "brain_and_brainstem",
+      "pituitary_and_stalk",
+      "paranasal_sinuses"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/head_profile.svg",
+      "role": "source",
+      "sha256": "d8ad749664dbc0fde0e6ba64bf8df7bdfee23e2bd8b003ec614f6e4154ce3040",
+      "bytes": 390
+    },
+    {
+      "path": "files/head_profile.png",
+      "role": "payload",
+      "sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+      "bytes": 29356
+    },
+    {
+      "path": "source/brain_and_brainstem.svg",
+      "role": "source",
+      "sha256": "194538f57353dbe47609fa121275c9afcad9d5af77b9ed93d4de4e552f8b83b0",
+      "bytes": 553
+    },
+    {
+      "path": "files/brain_and_brainstem.png",
+      "role": "payload",
+      "sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+      "bytes": 30884
+    },
+    {
+      "path": "source/pituitary_and_stalk.svg",
+      "role": "source",
+      "sha256": "9e9265d7c384085e254eeef67ed36d6c45555f3ed4e19456a876bee525f94aeb",
+      "bytes": 313
+    },
+    {
+      "path": "files/pituitary_and_stalk.png",
+      "role": "payload",
+      "sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+      "bytes": 6573
+    },
+    {
+      "path": "source/paranasal_sinuses.svg",
+      "role": "source",
+      "sha256": "4ead560f9af40d295e4daaf11ca02ae4eaab3c2dab55623c0888b51426a8078b",
+      "bytes": 350
+    },
+    {
+      "path": "files/paranasal_sinuses.png",
+      "role": "payload",
+      "sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+      "bytes": 7442
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "c1e9b4956fa0bcdaf4f575ffa0f2f2d80c13c708b8d9ac8f316263d8e233a6a9",
+      "bytes": 1315
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "279badfa9cae332f0450d9a64503bf2738e56bb3257d3eedc11af1fa6db06b6a",
+      "bytes": 58565
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "6db51547c2b658a3d1dea04118a2dc126c628e182e59b38b1876a40394965f3b",
+      "bytes": 768
+    }
+  ],
+  "revision": "8a5ea8cf0bff9ffc6503"
+}

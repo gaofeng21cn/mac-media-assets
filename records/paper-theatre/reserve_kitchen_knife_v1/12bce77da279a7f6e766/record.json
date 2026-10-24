@@ -1,0 +1,98 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_kitchen_knife_v1",
+  "title": "独立家用厨刀",
+  "kind": "transparent_subject",
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "prep"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "厨刀",
+      "菜刀",
+      "切配"
+    ],
+    "objects": [
+      "家用厨刀"
+    ],
+    "actions": [
+      "切配",
+      "放下"
+    ],
+    "story_roles": [
+      "烹饪准备",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "独立道具层；不含手、不含食材、不表达具体切割结果。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "与砧板、蔬菜或鱼肉独立排景；不表示真实刀工或食物安全教学。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "reserve_kitchen_knife_v1",
+    "prompt": "One standalone modest household chef knife, transparent paper collage cutout, no hand, food or background."
+  },
+  "content_bounds": [
+    104,
+    39,
+    1368,
+    1059
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1451,
+    "height": 1084,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      104,
+      39,
+      1368,
+      1059
+    ],
+    "opaque_ratio": 0.143,
+    "translucent_ratio": 0.0064,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_contact_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5",
+      "bytes": 675776
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "5cac94a8dc9b8dfa277797a2fea798b3a6b2ec392de6aff18a6ffae161da514e",
+      "bytes": 626
+    }
+  ],
+  "revision": "12bce77da279a7f6e766"
+}

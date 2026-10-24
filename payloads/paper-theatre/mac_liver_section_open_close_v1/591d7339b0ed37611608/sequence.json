@@ -1,0 +1,276 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_liver_section_open_close_v1",
+  "type": "structure_section",
+  "label": "肝脏",
+  "title": "肝脏·肝胆下缘位置揭层连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "肝脏外形示意，区分左右叶、胆囊与胆道走向；不表示肝内血管分段、肝功能或病灶。 肝下缘局部位置揭层；不表达肝内切面或分段。 没有肝内实质或门静脉分层，只有肝胆外形与胆管走向；提供下缘位置揭层。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "right_lobe": {
+      "path": "assets/right_lobe.png",
+      "sha256": "fbbcae8ce59c45886aec9884db1b5c1d930c94b2a886a48f1ab524f16c4e0fef",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        219,
+        210,
+        707,
+        512
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "left_lobe": {
+      "path": "assets/left_lobe.png",
+      "sha256": "0cc93558b48b5c95bafac73691068fad8a958aa8cd0e554c99a65337939e2ecb",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        651,
+        353,
+        814,
+        517
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "gallbladder": {
+      "path": "assets/gallbladder.png",
+      "sha256": "132834aa04dc6e48b00cfc7a1b13ee9c50639abcdef1bbff05882d44b81ac2d3",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        425,
+        497,
+        515,
+        629
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "bile_duct": {
+      "path": "assets/bile_duct.png",
+      "sha256": "8e78c0f5e1a2b130125405b99713e4965076a7c9465f1eea129e73d1f6bf4442",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        491,
+        463,
+        623,
+        519
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "肝胆下缘位置揭层",
+    "context_before": [
+      "gallbladder"
+    ],
+    "cover": [
+      "right_lobe",
+      "left_lobe"
+    ],
+    "interior": [
+      "bile_duct"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [
+      {
+        "path": "M470 480 Q550 470 634 441 L647 492 Q555 535 472 541 Z",
+        "pivot": [
+          560,
+          500
+        ],
+        "angle": 0,
+        "basis": "原件肝下缘与胆管相交的局部区域"
+      }
+    ],
+    "revealed_labels": [
+      "胆管走向",
+      "胆囊与肝下缘"
+    ],
+    "source_limit_reason": "没有肝内实质或门静脉分层，只有肝胆外形与胆管走向；提供下缘位置揭层。"
+  },
+  "presentation_note": "肝下缘局部位置揭层；不表达肝内切面或分段。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    219,
+    210,
+    814,
+    629
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_liver_detailed_layers_v1@b23153ea3cbdb7062dbc",
+      "portable_record_sha256": "33b59b93ae485cd4c3962c893adf7dcf15d6b878d4a7f6c708446fb999ae08ee"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

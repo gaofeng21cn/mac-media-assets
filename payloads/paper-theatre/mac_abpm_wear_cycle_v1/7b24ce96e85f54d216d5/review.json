@@ -1,0 +1,77 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "b76f157cea10bb4b46e882abd4d9392f3bafa9ce7e4b55ed7e721d41b3e6099f",
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "ce9fc50e86ba53e5335701746e401d6c463199c542fa0fc1b3369a687cdbe5f2",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "b76f157cea10bb4b46e882abd4d9392f3bafa9ce7e4b55ed7e721d41b3e6099f",
+    "assets/abpm-wear-sheet.png": "93b6b0d34d448ed37fc17b9df9222aaa78576f5b8763f14efa9306df90d424d9"
+  },
+  "media": {
+    "samples/background-color.png": "315d9cd01c3a9075e07bcf73fb18ddd2f15359cb0771d5af7167df7b4b7e986c",
+    "samples/background-dark.png": "1c9ddd66e15b5e41069a52067d2f967c7c7bcd704a440253b2de213f2b61310e",
+    "samples/background-light.png": "3cac404516c167148eab3f42baee1cf163145fbf786eabc452ed1b81a5085350",
+    "samples/background-review.jpg": "18ad649e04896f059a3b035257220b0242a53dd040291febe1011fa47e1365b0",
+    "samples/contact-sheet.jpg": "65af4f69c7f1e79fd60641ec1f090ed9d3df71049e673c285cdbbb46e0d4501d",
+    "samples/keyframes/00.png": "5b520d122efbda50d5b626808e5de444952642c3673e2efcf3bfce5a9ebc39d2",
+    "samples/keyframes/01.png": "5b520d122efbda50d5b626808e5de444952642c3673e2efcf3bfce5a9ebc39d2",
+    "samples/keyframes/02.png": "5b520d122efbda50d5b626808e5de444952642c3673e2efcf3bfce5a9ebc39d2",
+    "samples/keyframes/03.png": "5b520d122efbda50d5b626808e5de444952642c3673e2efcf3bfce5a9ebc39d2",
+    "samples/keyframes/04.png": "3cac404516c167148eab3f42baee1cf163145fbf786eabc452ed1b81a5085350",
+    "samples/keyframes/05.png": "3cac404516c167148eab3f42baee1cf163145fbf786eabc452ed1b81a5085350",
+    "samples/keyframes/06.png": "3cac404516c167148eab3f42baee1cf163145fbf786eabc452ed1b81a5085350",
+    "samples/keyframes/07.png": "3cac404516c167148eab3f42baee1cf163145fbf786eabc452ed1b81a5085350",
+    "samples/keyframes/08.png": "376ace4e0d19caac56d3d00cc430d634c32de3941f38858bc6bf7acc39112aa5",
+    "samples/keyframes/09.png": "376ace4e0d19caac56d3d00cc430d634c32de3941f38858bc6bf7acc39112aa5",
+    "samples/keyframes/10.png": "376ace4e0d19caac56d3d00cc430d634c32de3941f38858bc6bf7acc39112aa5",
+    "samples/keyframes/11.png": "376ace4e0d19caac56d3d00cc430d634c32de3941f38858bc6bf7acc39112aa5",
+    "samples/keyframes/12.png": "017b8d7d52f1689e1eb317d8ff70abf2ac6bcecccb15a80fa237dfc47c3e2c15",
+    "samples/keyframes/13.png": "017b8d7d52f1689e1eb317d8ff70abf2ac6bcecccb15a80fa237dfc47c3e2c15",
+    "samples/keyframes/14.png": "017b8d7d52f1689e1eb317d8ff70abf2ac6bcecccb15a80fa237dfc47c3e2c15",
+    "samples/keyframes/15.png": "017b8d7d52f1689e1eb317d8ff70abf2ac6bcecccb15a80fa237dfc47c3e2c15",
+    "samples/keyframes/16.png": "36be30718746bcdf59e61b88ea394b595b96e936b5ed28c834436451a7512f5b",
+    "samples/keyframes/17.png": "f05628fbd1ee492fbe6c9c01c661fbeec311d6f0184997a0f5777a31f30bd9ee",
+    "samples/keyframes/18.png": "2b55f8494f05d4cb59cebcc5718e6f50ecf508a0e343a4170684e30ef525d64f",
+    "samples/keyframes/19.png": "40f966cd64ee4b2027698b5ccf8da04f00a1da89efbd1be4d96a94bcf444e81c",
+    "samples/keyframes/20.png": "b8c8bd04ecf4c7299c21fd84510357b43a527ba0193481604d3979db210f1a0c",
+    "samples/keyframes/21.png": "eb8e77df7a89991450bbb272aaecb29f2a8a234694278b6fba55b7b08d67ec46",
+    "samples/keyframes/22.png": "7675fd6d348171d865fc9c0f3dd926b54f7f06bd4c4a32ea870a1c54a13633aa",
+    "samples/keyframes/23.png": "6e8ce43e8f0831e3a50ff403f50787ccfdce552c2ccbcc975ab8ba562fc43416",
+    "samples/keyframes/24.png": "6e8ce43e8f0831e3a50ff403f50787ccfdce552c2ccbcc975ab8ba562fc43416",
+    "samples/keyframes/25.png": "6e8ce43e8f0831e3a50ff403f50787ccfdce552c2ccbcc975ab8ba562fc43416",
+    "samples/keyframes/26.png": "6e8ce43e8f0831e3a50ff403f50787ccfdce552c2ccbcc975ab8ba562fc43416",
+    "samples/phone-reading.png": "92e86627f31e675fabe04c717de86a220c35c230f03413c7521116a165e9c4f6",
+    "samples/phone.png": "86b96dce5bcea59d2482800ead829a73c3895e961527f92d0c9db22fbe30f181",
+    "samples/sample.mp4": "7355c34cd8b9389c6ac8f56162c6742cd6a49a96f2e1d8d31b380cf8d3257f9f"
+  },
+  "technical": {
+    "frames": 288,
+    "fps": 24,
+    "duration": 12,
+    "random_seek_equal": true,
+    "browser_errors": []
+  },
+  "checked": [
+    "真实浏览器渲染 288 帧，无 pageerror，随机 seek 位图一致。",
+    "已实际查看六个完整姿态、全部五处切换两侧及日/夜/次日状态。",
+    "已看原尺寸固定记录器与交回帧，臀部椅面、脚底、前臂台面有实际承托；袖带在裸露上臂。",
+    "已看浅/深/彩三底及手机宽；装配手臂从明确图框边界进入，无悬浮断臂；鞋尖不被字幕带遮住。",
+    "288 个时点的源矩形、帧内地面注册与固定器械状态检查通过。"
+  ],
+  "defects_found_and_fixed": [
+    "原已佩戴 ABPM 素材把袖带放在毛衣上；新母版改为裸露上臂。",
+    "原包从佩戴结果起步；补准备、缠绕、固定记录器、试测与工作人员归还步骤。",
+    "初次装配手臂在空舞台悬浮；改为图框边界进入。",
+    "初次鞋尖贴近字幕区域；整体地面重新注册后保留间隙。"
+  ],
+  "not_reviewed": [
+    "独立医生终审、具体设备操作/袖带型号选择、当前生产镜头与发布资格 pending。",
+    "六个完整姿态采用纸上分格切换，未宣称写实连续穿戴中间帧。",
+    "人物、椅子、台面和器械烘焙同层，不能独立移走椅子或重排气管。",
+    "本包无声；不批准听感。"
+  ]
+}

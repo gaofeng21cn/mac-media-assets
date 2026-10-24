@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_stomach_detailed_layers_v1",
+  "title": "胃·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "stomach_wall",
+      "path": "files/stomach_wall.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胃·stomach_wall",
+      "medical": true,
+      "content_bounds": [
+        329,
+        211,
+        678,
+        830
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.55
+          },
+          "pylorus": {
+            "x": 0.69,
+            "y": 0.76
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "gastric_lumen",
+      "path": "files/gastric_lumen.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胃·gastric_lumen",
+      "medical": true,
+      "content_bounds": [
+        375,
+        260,
+        642,
+        753
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.55
+          },
+          "pylorus": {
+            "x": 0.69,
+            "y": 0.76
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "cardia_pylorus",
+      "path": "files/cardia_pylorus.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胃·cardia_pylorus",
+      "medical": true,
+      "content_bounds": [
+        464,
+        201,
+        722,
+        792
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.55
+          },
+          "pylorus": {
+            "x": 0.69,
+            "y": 0.76
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_stomach_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胃",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "stomach_wall",
+      "gastric_lumen",
+      "cardia_pylorus"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "胃外形与腔面示意，区分胃壁、胃腔与贲门幽门走向；不表示胃分层解剖、胃酸或疾病。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/stomach_wall.svg",
+      "role": "source",
+      "sha256": "ddfb0b983badff35e612bd6993fa1ecfea5986db57644c4ce681c0b0c55715aa",
+      "bytes": 368
+    },
+    {
+      "path": "files/stomach_wall.png",
+      "role": "payload",
+      "sha256": "a0e45aa27dc3da06dc18913468ccceb4408dc720d0741c95d1f2a5ccf15bc8c2",
+      "bytes": 29406
+    },
+    {
+      "path": "source/gastric_lumen.svg",
+      "role": "source",
+      "sha256": "1b82540b00de6783ecc0e5b1505abaa4d3e74896ae23c775d744cafa8207fc9f",
+      "bytes": 368
+    },
+    {
+      "path": "files/gastric_lumen.png",
+      "role": "payload",
+      "sha256": "5e59f72e8227241704ff15f16aae20298d05fd1e23fac8e0f3b52bdeff1a245f",
+      "bytes": 23771
+    },
+    {
+      "path": "source/cardia_pylorus.svg",
+      "role": "source",
+      "sha256": "2d9d1865ddf8a37c11717aba60ce7b0b15bc50321364a4aaec548f020f7edd58",
+      "bytes": 359
+    },
+    {
+      "path": "files/cardia_pylorus.png",
+      "role": "payload",
+      "sha256": "ad67253c015729c8a1a0bc7b9c905883369f1e1120753322d64c85a408a13234",
+      "bytes": 6947
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "d7662bd5fd5eb4c517396af90424168a4fba17af75aed24c293bb727b885c9cb",
+      "bytes": 901
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "49b71cb1e7dae8fe4ce3651c33b46982d18e23f82bd42d8405cd9be68dcc6980",
+      "bytes": 42780
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "cad2f6177e6c2c78876d5a8f1ddb5762965961bd5671f76eb0062d7b0a69af51",
+      "bytes": 606
+    }
+  ],
+  "revision": "ee90d19e97555101f36d"
+}

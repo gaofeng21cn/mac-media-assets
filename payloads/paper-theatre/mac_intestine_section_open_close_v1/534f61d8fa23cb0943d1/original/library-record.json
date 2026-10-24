@@ -1,0 +1,198 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_intestine_detailed_layers_v1",
+  "title": "肠道·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "colon",
+      "path": "files/colon.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肠道·colon",
+      "medical": true,
+      "content_bounds": [
+        252,
+        239,
+        777,
+        951
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.53
+          },
+          "small_intestine": {
+            "x": 0.5,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "small_intestine",
+      "path": "files/small_intestine.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肠道·small_intestine",
+      "medical": true,
+      "content_bounds": [
+        359,
+        367,
+        671,
+        742
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.53
+          },
+          "small_intestine": {
+            "x": 0.5,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_intestine_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肠道",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "colon",
+      "small_intestine"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "正面肠道关系示意：结肠构成外围，上行结肠在画面左，小肠盘曲于内；直肠向下。示意层数与曲数不代表真实长度。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/colon.svg",
+      "role": "source",
+      "sha256": "73d582ab8ffaf66f0b99eb2f3bb6a3166d841e99a65325d1c29187dcdb2f061c",
+      "bytes": 680
+    },
+    {
+      "path": "files/colon.png",
+      "role": "payload",
+      "sha256": "e05cb5703e9e65f10381d94b92b1908ce251305a1b6e42fe99799d2569b5fb7f",
+      "bytes": 30230
+    },
+    {
+      "path": "source/small_intestine.svg",
+      "role": "source",
+      "sha256": "5d64c3f16a2864a6694c897c7a28ecb7dc2bf47aafe8e54323aae3851f9f837f",
+      "bytes": 353
+    },
+    {
+      "path": "files/small_intestine.png",
+      "role": "payload",
+      "sha256": "e92bce60068a6edd523508b17a0f1fd8861fad17a9aa1acf2e5e3a22c5270f8f",
+      "bytes": 22780
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "f10d29ba6796a60694ed6b9ccf7344d480884419a278fedeb8034a2a278a5efb",
+      "bytes": 936
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "90f67e16fc84169c1076be69e3fa34b72f7ccea629057956e6264b5334f86cd9",
+      "bytes": 47598
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "def09a11da2cabb714e9909ca3dc37990bdff73f9ee025e07367d15084bd4a51",
+      "bytes": 648
+    }
+  ],
+  "revision": "0b0994a7cc8dbcf9d2ff"
+}

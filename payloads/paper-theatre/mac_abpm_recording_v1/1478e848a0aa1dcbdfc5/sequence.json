@@ -1,0 +1,70 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_abpm_recording_v1",
+  "title": "动态血压：日夜周期记录与交回设备",
+  "type": "abpm_recording",
+  "images": {
+    "patient": {
+      "path": "assets/patient.png",
+      "bounds": [
+        277,
+        12,
+        805,
+        1512
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26"
+    }
+  },
+  "duration": 8.0,
+  "fps": 24,
+  "review_times": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    4.7,
+    5,
+    6,
+    7,
+    8
+  ],
+  "scope": "演示已正确佩戴后日夜周期记录，24 小时压缩成 8 秒；点列代表采样时点，不是血压数值或真实测量频率。佩戴操作与当前镜头另审。",
+  "description": "从日间到夜间，再回到次日，保留日夜记录后按约定交回设备；不自行拆卸或调整记录器。",
+  "medical_review": "pending",
+  "source_pixels_per_cm": 9.090909090909092,
+  "interval_hours": 1,
+  "source_assets": [
+    {
+      "image": "patient",
+      "asset_id": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+      "sha256": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26"
+    }
+  ],
+  "events": [
+    {
+      "name": "start_day",
+      "time": 0,
+      "kind": "record"
+    },
+    {
+      "name": "night",
+      "time": 4.666666666666667,
+      "kind": "record"
+    },
+    {
+      "name": "next_day",
+      "time": 7.666666666666667,
+      "kind": "record"
+    },
+    {
+      "name": "return",
+      "time": 8,
+      "kind": "record"
+    }
+  ]
+}

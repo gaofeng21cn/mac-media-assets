@@ -1,0 +1,488 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 192,
+  "fps": 24,
+  "duration": 8,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "063a4121a198145e6e49af0d3cc0795a222991bc4be8a7e3a87eff730e43acd1",
+    "assets/sheet.png": "52a62955a42d6e28816b399731104b51cce5b26f1380dc4d5f996d96caad45d5"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png",
+    "samples/keyframes/19.png",
+    "samples/keyframes/20.png",
+    "samples/keyframes/21.png",
+    "samples/keyframes/22.png",
+    "samples/keyframes/23.png"
+  ],
+  "states": [
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 0,
+      "frame": 0,
+      "phase": "站稳",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 0.01,
+      "frame": 0,
+      "phase": "站稳",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 0.69,
+      "frame": 0,
+      "phase": "站稳",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 0.7,
+      "frame": 1,
+      "phase": "准备落座",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 0.71,
+      "frame": 1,
+      "phase": "准备落座",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 1.39,
+      "frame": 1,
+      "phase": "准备落座",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 1.4,
+      "frame": 2,
+      "phase": "下降",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 1.41,
+      "frame": 2,
+      "phase": "下降",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 2.09,
+      "frame": 2,
+      "phase": "下降",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 2.1,
+      "frame": 3,
+      "phase": "坐定",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 2.11,
+      "frame": 3,
+      "phase": "坐定",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 3.19,
+      "frame": 3,
+      "phase": "坐定",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 3.2,
+      "frame": 4,
+      "phase": "接触报告",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 3.21,
+      "frame": 4,
+      "phase": "接触报告",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 4.09,
+      "frame": 4,
+      "phase": "接触报告",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 4.1,
+      "frame": 5,
+      "phase": "持纸",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 4.11,
+      "frame": 5,
+      "phase": "持纸",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 5.19,
+      "frame": 5,
+      "phase": "持纸",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 5.2,
+      "frame": 6,
+      "phase": "准备起身",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 5.21,
+      "frame": 6,
+      "phase": "准备起身",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 6.09,
+      "frame": 6,
+      "phase": "准备起身",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 6.1,
+      "frame": 7,
+      "phase": "站立持纸",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身",
+        "站立持纸"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 6.11,
+      "frame": 7,
+      "phase": "站立持纸",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身",
+        "站立持纸"
+      ]
+    },
+    {
+      "study": "mac_pregnant_woman_seat_report_stand_v1",
+      "time": 8,
+      "frame": 7,
+      "phase": "站立持纸",
+      "scale": 1.0166320166320166,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身",
+        "站立持纸"
+      ]
+    }
+  ]
+}

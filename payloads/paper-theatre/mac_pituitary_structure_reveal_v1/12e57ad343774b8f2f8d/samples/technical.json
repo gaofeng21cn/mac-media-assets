@@ -1,0 +1,1308 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 341,
+  "fps": 24,
+  "duration": 14.200000000000001,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "a99ad798cfbe50e67a955971ed0c582d7b8496769aba9aff8e04e4223bef2381",
+    "assets/sinus.png": "297257ff9915459f814e16642cff894797190f5f2ca17850e74a8e7b629423da",
+    "assets/sella.png": "082b170e06b8cfb126b065099a9b5e71183b35e4dd2609a661362e98a725db5c",
+    "assets/gland.png": "850160cc593061fd02edfa5b3b818c248b96a640f61d92c162a8ef1facf81859",
+    "assets/stalk.png": "02ef5a186fab1d52d32c5a115014efb8b63a10196ee0f2ca95b477d3e7c49975",
+    "assets/hypothalamus.png": "606ff171e558e41bc2d4d0c2264c1d44212d6750dd496eda4523cc4defb447f7",
+    "assets/chiasm.png": "761f26b55ace15f762141b18334ea8fc33d9ad12bed3976c7e858434331dd681"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png",
+    "samples/keyframes/19.png",
+    "samples/keyframes/20.png",
+    "samples/keyframes/21.png",
+    "samples/keyframes/22.png",
+    "samples/keyframes/23.png",
+    "samples/keyframes/24.png",
+    "samples/keyframes/25.png",
+    "samples/keyframes/26.png",
+    "samples/keyframes/27.png",
+    "samples/keyframes/28.png",
+    "samples/keyframes/29.png",
+    "samples/keyframes/30.png",
+    "samples/keyframes/31.png",
+    "samples/keyframes/32.png",
+    "samples/keyframes/33.png"
+  ],
+  "states": [
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 0,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 0.96,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 1,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 1.32,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 1.8,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 2.12,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 2.6,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 2.92,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 3.4,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 3.72,
+      "mode": "reveal",
+      "index": 3,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 4.2,
+      "mode": "reveal",
+      "index": 4,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 4.52,
+      "mode": "reveal",
+      "index": 4,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 5,
+      "mode": "reveal",
+      "index": 5,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 5.32,
+      "mode": "reveal",
+      "index": 5,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 6.2,
+      "mode": "reveal",
+      "index": 5,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 6.5,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.1842105263157894,
+        "x": -174.13157894736833,
+        "y": -534.4868421052631
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 7.3,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.1842105263157894,
+        "x": -174.13157894736833,
+        "y": -534.4868421052631
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 7.4,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.1842105263157894,
+        "x": -174.13157894736833,
+        "y": -534.4868421052631
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 7.7,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.2475247524752475,
+        "x": -205.86138613861385,
+        "y": -417.58415841584156
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 8.5,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.2475247524752475,
+        "x": -205.86138613861385,
+        "y": -417.58415841584156
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 8.6,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.2475247524752475,
+        "x": -205.86138613861385,
+        "y": -417.58415841584156
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 8.9,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.55,
+        "x": -359.5,
+        "y": -526.0500000000001
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 9.7,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.55,
+        "x": -359.5,
+        "y": -526.0500000000001
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 9.8,
+      "mode": "focus",
+      "index": 3,
+      "camera": {
+        "scale": 1.55,
+        "x": -359.5,
+        "y": -526.0500000000001
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        1,
+        0.17,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 10.1,
+      "mode": "focus",
+      "index": 3,
+      "camera": {
+        "scale": 1.4863013698630136,
+        "x": -333.70205479452056,
+        "y": -248.89726027397262
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 10.9,
+      "mode": "focus",
+      "index": 3,
+      "camera": {
+        "scale": 1.4863013698630136,
+        "x": -333.70205479452056,
+        "y": -248.89726027397262
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 11,
+      "mode": "focus",
+      "index": 3,
+      "camera": {
+        "scale": 1.4863013698630136,
+        "x": -333.70205479452056,
+        "y": -248.89726027397262
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 11.3,
+      "mode": "focus",
+      "index": 4,
+      "camera": {
+        "scale": 1.55,
+        "x": -363.375,
+        "y": -50.97500000000002
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 12.1,
+      "mode": "focus",
+      "index": 4,
+      "camera": {
+        "scale": 1.55,
+        "x": -363.375,
+        "y": -50.97500000000002
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 12.2,
+      "mode": "focus",
+      "index": 4,
+      "camera": {
+        "scale": 1.55,
+        "x": -363.375,
+        "y": -50.97500000000002
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 12.5,
+      "mode": "focus",
+      "index": 5,
+      "camera": {
+        "scale": 1.55,
+        "x": -161.10000000000002,
+        "y": -274.95000000000005
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus",
+        "focus_chiasm"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 13.3,
+      "mode": "focus",
+      "index": 5,
+      "camera": {
+        "scale": 1.55,
+        "x": -161.10000000000002,
+        "y": -274.95000000000005
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus",
+        "focus_chiasm"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 13.4,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 1.55,
+        "x": -161.10000000000002,
+        "y": -274.95000000000005
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17,
+        0.17,
+        0.17,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus",
+        "focus_chiasm"
+      ]
+    },
+    {
+      "study": "mac_pituitary_structure_reveal_v1",
+      "time": 14.2,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 0.7507418397626113,
+        "x": 58.63204747774478,
+        "y": -38.14243323442139
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "sinus",
+        "sella",
+        "gland",
+        "stalk",
+        "hypothalamus",
+        "chiasm"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_sinus",
+        "reveal_sella",
+        "reveal_gland",
+        "reveal_stalk",
+        "reveal_hypothalamus",
+        "reveal_chiasm",
+        "focus_sinus",
+        "focus_sella",
+        "focus_gland",
+        "focus_stalk",
+        "focus_hypothalamus",
+        "focus_chiasm"
+      ]
+    }
+  ]
+}

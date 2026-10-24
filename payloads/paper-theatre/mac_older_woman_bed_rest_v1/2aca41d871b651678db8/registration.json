@@ -1,0 +1,102 @@
+{
+  "schema": "mac_reviewed_bed_anchors/v1",
+  "status": "visually_reviewed_source_points",
+  "asset_id": "mac_older_woman_bed_rest_v1",
+  "source_sha256": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20",
+  "frame_rects": [
+    [
+      0,
+      0,
+      518,
+      609
+    ],
+    [
+      518,
+      0,
+      503,
+      549
+    ],
+    [
+      1021,
+      0,
+      515,
+      499
+    ],
+    [
+      0,
+      609,
+      518,
+      415
+    ],
+    [
+      518,
+      549,
+      503,
+      475
+    ],
+    [
+      1021,
+      499,
+      515,
+      525
+    ]
+  ],
+  "coordinate_space": "frame_local_source_pixels",
+  "landmark": "same screen-right foreground wooden bed-leg lower edge center",
+  "anchors": [
+    [
+      463,
+      447
+    ],
+    [
+      450,
+      447
+    ],
+    [
+      450,
+      447
+    ],
+    [
+      463,
+      336
+    ],
+    [
+      450,
+      395
+    ],
+    [
+      454,
+      446
+    ]
+  ],
+  "body_calibration_review": {
+    "frame": 0,
+    "reviewed_points": [
+      [
+        144,
+        58
+      ],
+      [
+        142,
+        481
+      ]
+    ],
+    "feet": {
+      "screen_left_front": [
+        142,
+        481
+      ],
+      "screen_right_back": [
+        182,
+        471
+      ]
+    },
+    "span_basis": "vertical_y_distance_to_forward_shoe_sole",
+    "span_pixels": 423,
+    "design_height_cm": 158,
+    "source_pixels_per_cm": 2.6772151898734178,
+    "basis": "Actual visible gray crown and both shoe lower edges; shoes sit at different image heights under the mild perspective, so neither bed bounds nor Euclidean diagonal length defines the ruler."
+  },
+  "reviewer": "Codex visual review",
+  "reviewed_at": "2026-10-24"
+}

@@ -1,0 +1,443 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 149,
+  "fps": 24,
+  "duration": 6.2,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "172cba569286d0a98808219be503f4a79eed05bc3aaf43e080ed3fbf4b911184",
+    "assets/trachea_bronchi.png": "cfe3d16f6a8559309329daf4d4a1b74ea2cdd14b447c5f063255eb2fa22eb9cc",
+    "assets/right_lung_anatomical.png": "9f5e10181dab44e96b9a2a5d5fd76b9eabe5d058d0bed5f6a960548f31525d87",
+    "assets/left_lung_anatomical.png": "71de8ec1069ad8b57ecc1fccc2432093bfd63cb5cb7742a2ec286b6de30e8d18"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png",
+    "samples/keyframes/19.png",
+    "samples/keyframes/20.png"
+  ],
+  "states": [
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 0,
+      "phase": "closed",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 0.66,
+      "phase": "closed",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 0.7,
+      "phase": "opening",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 0.74,
+      "phase": "opening",
+      "openness": 0.0014595336076817583,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 0.9,
+      "phase": "opening",
+      "openness": 0.03429355281207135,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 1.2,
+      "phase": "opening",
+      "openness": 0.18861454046639237,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 1.6,
+      "phase": "opening",
+      "openness": 0.5000000000000001,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 2,
+      "phase": "opening",
+      "openness": 0.8113854595336076,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 2.46,
+      "phase": "opening",
+      "openness": 0.9985404663923183,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 2.5,
+      "phase": "open",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 3,
+      "phase": "open",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 3.46,
+      "phase": "open",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 3.5,
+      "phase": "closing",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 3.54,
+      "phase": "closing",
+      "openness": 0.9985404663923182,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 3.9,
+      "phase": "closing",
+      "openness": 0.8737997256515775,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 4.3,
+      "phase": "closing",
+      "openness": 0.5829903978052127,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 4.7,
+      "phase": "closing",
+      "openness": 0.25925925925925897,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 5.26,
+      "phase": "closing",
+      "openness": 0.0014595336076816956,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 5.3,
+      "phase": "restored",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start",
+        "fully_restored"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 5.34,
+      "phase": "restored",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start",
+        "fully_restored"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_lungs_section_open_close_v1",
+      "time": 6.2,
+      "phase": "restored",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start",
+        "fully_restored"
+      ],
+      "camera": {
+        "scale": 0.7031463748290013,
+        "x": 76.98905608755132,
+        "y": 37.607387140902915
+      },
+      "interior_allowed": false
+    }
+  ]
+}

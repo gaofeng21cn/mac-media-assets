@@ -1,0 +1,292 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_heart_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "心脏·逐层揭示与局部高亮",
+  "label": "心脏",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "心脏正面四腔关系示意，画面左为解剖右；右房右室与左房左室分别表达。血管为连接概览，未表达瓣膜细节、血流动画或真实比例。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "heart_wall": {
+      "path": "assets/heart_wall.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        276,
+        306,
+        743,
+        893
+      ],
+      "sha256": "4f8ef75cccf663049b2612bd6b531d4748d6f0108d312b2b1638c95f480d8e6e"
+    },
+    "four_chambers": {
+      "path": "assets/four_chambers.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        317,
+        352,
+        691,
+        838
+      ],
+      "sha256": "aca6687aa2abfc5f2b5f569e6729b87ef2881c6ebd9f19092cc309c1713a9fe1"
+    },
+    "great_vessels": {
+      "path": "assets/great_vessels.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        317,
+        139,
+        788,
+        628
+      ],
+      "sha256": "3a9effc9906b9ea8467a3759690799455fb613053db3401c738e309bfc9cd5e8"
+    }
+  },
+  "layers": [
+    {
+      "id": "heart_wall",
+      "label": "心脏轮廓",
+      "content_bounds": [
+        276,
+        306,
+        743,
+        893
+      ],
+      "focus_bounds": [
+        226.0,
+        256.0,
+        793.0,
+        943.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.51,
+            "y": 0.55
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "apex": {
+            "x": 0.58,
+            "y": 0.87
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "four_chambers",
+      "label": "四个心腔",
+      "content_bounds": [
+        317,
+        352,
+        691,
+        838
+      ],
+      "focus_bounds": [
+        267.0,
+        302.0,
+        741.0,
+        888.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.51,
+            "y": 0.55
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "apex": {
+            "x": 0.58,
+            "y": 0.87
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "great_vessels",
+      "label": "相连大血管",
+      "content_bounds": [
+        317,
+        139,
+        788,
+        628
+      ],
+      "focus_bounds": [
+        267.0,
+        89.0,
+        838.0,
+        678.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.51,
+            "y": 0.55
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "apex": {
+            "x": 0.58,
+            "y": 0.87
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_heart_detailed_layers_v1@add90d3fadd1ea02a5c3",
+      "portable_record_sha256": "061207e06e31e0b3b2bf97fcdc41edc6b29937ac8184c495230be15e05b4f402"
+    }
+  ],
+  "composite_bounds": [
+    276,
+    139,
+    788,
+    893
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "四腔与相连大血管；不表达血流与瓣膜运动。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_heart_wall",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_four_chambers",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_great_vessels",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_heart_wall",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_four_chambers",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_great_vessels",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "063a4121a198145e6e49af0d3cc0795a222991bc4be8a7e3a87eff730e43acd1",
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "063a4121a198145e6e49af0d3cc0795a222991bc4be8a7e3a87eff730e43acd1",
+    "assets/sheet.png": "52a62955a42d6e28816b399731104b51cce5b26f1380dc4d5f996d96caad45d5"
+  },
+  "media": {
+    "samples/background-color.png": "fbbe1f100f147590b006838846171be71e7365c4bee30efc2501a92e0ef3bf90",
+    "samples/background-dark.png": "e70088ee0931e1646d2240c743101950d0172945fcd6828b7477df847d7ec055",
+    "samples/background-light.png": "b82aee4758eecb21d8a561fb6f59ad418fa735b455ae8c520642df115a915865",
+    "samples/background-review.jpg": "783ce6fb93ba3da00d5410483744981ea13a96fd6310be849b91577a2df146ca",
+    "samples/contact-sheet.jpg": "bd2424ecba6d373475774c41e9a96cb58055ca6a28f2511bc1c369e3ecd0ab83",
+    "samples/keyframes/00.png": "17fc431ef25f25998b66383655fb6813cc783684787fb1dbcd34dc69abe60ac6",
+    "samples/keyframes/01.png": "17fc431ef25f25998b66383655fb6813cc783684787fb1dbcd34dc69abe60ac6",
+    "samples/keyframes/02.png": "17fc431ef25f25998b66383655fb6813cc783684787fb1dbcd34dc69abe60ac6",
+    "samples/keyframes/03.png": "0343febdab65b00fc517e6a20d347d7706c7177f9c43500ee02666ce2fbf1ff1",
+    "samples/keyframes/04.png": "0343febdab65b00fc517e6a20d347d7706c7177f9c43500ee02666ce2fbf1ff1",
+    "samples/keyframes/05.png": "0343febdab65b00fc517e6a20d347d7706c7177f9c43500ee02666ce2fbf1ff1",
+    "samples/keyframes/06.png": "b82aee4758eecb21d8a561fb6f59ad418fa735b455ae8c520642df115a915865",
+    "samples/keyframes/07.png": "b82aee4758eecb21d8a561fb6f59ad418fa735b455ae8c520642df115a915865",
+    "samples/keyframes/08.png": "b82aee4758eecb21d8a561fb6f59ad418fa735b455ae8c520642df115a915865",
+    "samples/keyframes/09.png": "f4fc9a8db4f07b29d752ef0efdbb142ed24839d7879c8fa0a46d8c7240ed9a1d",
+    "samples/keyframes/10.png": "f4fc9a8db4f07b29d752ef0efdbb142ed24839d7879c8fa0a46d8c7240ed9a1d",
+    "samples/keyframes/11.png": "f4fc9a8db4f07b29d752ef0efdbb142ed24839d7879c8fa0a46d8c7240ed9a1d",
+    "samples/keyframes/12.png": "8872b82a7ea19b46a27a9917bb4c05310f92cb144d67c3b5108e8e9e38684098",
+    "samples/keyframes/13.png": "8872b82a7ea19b46a27a9917bb4c05310f92cb144d67c3b5108e8e9e38684098",
+    "samples/keyframes/14.png": "8872b82a7ea19b46a27a9917bb4c05310f92cb144d67c3b5108e8e9e38684098",
+    "samples/keyframes/15.png": "a1e8bb045c48be489be911c402395b078b1e9feab2e0b5b0f798e1cfe3471c6b",
+    "samples/keyframes/16.png": "a1e8bb045c48be489be911c402395b078b1e9feab2e0b5b0f798e1cfe3471c6b",
+    "samples/keyframes/17.png": "a1e8bb045c48be489be911c402395b078b1e9feab2e0b5b0f798e1cfe3471c6b",
+    "samples/keyframes/18.png": "c15f4b68d299815d9715e02c77feaeb8207351c12dc803bb6dd4869046d048d7",
+    "samples/keyframes/19.png": "c15f4b68d299815d9715e02c77feaeb8207351c12dc803bb6dd4869046d048d7",
+    "samples/keyframes/20.png": "c15f4b68d299815d9715e02c77feaeb8207351c12dc803bb6dd4869046d048d7",
+    "samples/keyframes/21.png": "e38cd6e0d424f4cc471fdf3eb7193bacd503e2f511114b2f7a9805347b54ad0f",
+    "samples/keyframes/22.png": "e38cd6e0d424f4cc471fdf3eb7193bacd503e2f511114b2f7a9805347b54ad0f",
+    "samples/keyframes/23.png": "e38cd6e0d424f4cc471fdf3eb7193bacd503e2f511114b2f7a9805347b54ad0f",
+    "samples/phone-reading.png": "f4172b8283a9be65123710077803c876c1c2fe7fae4cb588d341f444e41199e8",
+    "samples/phone.png": "322ef4924fa9aeca0ff024d8eb367ec568da6eca77d4ea05bfa6193e283f439b",
+    "samples/sample.mp4": "fad6a7cf395092186da179decd8b661a52d39e252bfdd755afeb0475a701acff"
+  },
+  "technical": {
+    "frames": 192,
+    "fps": 24,
+    "duration": 8,
+    "random_seek_equal": true,
+    "browser_errors": []
+  },
+  "checked": [
+    "八姿态源图与母版身份、身体体量、椅面承托、脚底和报告持有关系。",
+    "所有状态和切换两侧、原尺寸、手机宽及浅深彩底；实际渲染与随机seek。"
+  ],
+  "defects_found_and_fixed": [
+    "以人物和家具完整接触单元替代独立缩放，坐姿保留站姿身体标尺。",
+    "人工逐帧核对同一左后椅脚，删除前后脚混选的自动估点，消除状态切换家具跳位；首帧真实头顶/鞋底垂直跨度绑定所有坐站状态。"
+  ],
+  "not_reviewed": [
+    "独立医学终审与当前生产镜头pending；普通自主日常动作，不批准临床转移。"
+  ]
+}

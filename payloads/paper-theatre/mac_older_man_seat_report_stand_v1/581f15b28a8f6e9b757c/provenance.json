@@ -1,0 +1,17 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "tool": "built_in_imagegen",
+      "source_sha256": "c02bc034391f057a29739c046f11f1838c23f57b3b60c2a723f42accfbdb35f2",
+      "identity_reference": "paper:character_older_man_stand_v1@8a52278239c0688e0b6c"
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:character_older_man_stand_v1@8a52278239c0688e0b6c",
+      "sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f"
+    }
+  ],
+  "note": "Complete source image bytes retained; only explicit frame rectangles are used."
+}

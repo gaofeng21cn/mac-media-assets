@@ -1,0 +1,157 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 192,
+  "fps": 24,
+  "duration": 8,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "00dcc17e8603d898b2311f2d3e0b66cf6f6be833804f0428923353b72e5cf775",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "0aa1128c66f9460a7116dd53cf798453589a8c6b0f3e81e35dde649f85c9f84b",
+    "assets/patient.png": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png"
+  ],
+  "states": [
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 0,
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "readings": 0,
+      "complete": false,
+      "events": [
+        "start_day"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 1,
+      "elapsed": 3,
+      "hour": 11,
+      "night": false,
+      "readings": 3,
+      "complete": false,
+      "events": [
+        "start_day"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 2,
+      "elapsed": 6,
+      "hour": 14,
+      "night": false,
+      "readings": 6,
+      "complete": false,
+      "events": [
+        "start_day"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 3,
+      "elapsed": 9,
+      "hour": 17,
+      "night": false,
+      "readings": 9,
+      "complete": false,
+      "events": [
+        "start_day"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 4,
+      "elapsed": 12,
+      "hour": 20,
+      "night": false,
+      "readings": 12,
+      "complete": false,
+      "events": [
+        "start_day"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 4.7,
+      "elapsed": 14.100000000000001,
+      "hour": 22.1,
+      "night": true,
+      "readings": 14,
+      "complete": false,
+      "events": [
+        "start_day",
+        "night"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 5,
+      "elapsed": 15,
+      "hour": 23,
+      "night": true,
+      "readings": 15,
+      "complete": false,
+      "events": [
+        "start_day",
+        "night"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 6,
+      "elapsed": 18,
+      "hour": 2,
+      "night": true,
+      "readings": 18,
+      "complete": false,
+      "events": [
+        "start_day",
+        "night"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 7,
+      "elapsed": 21,
+      "hour": 5,
+      "night": true,
+      "readings": 21,
+      "complete": false,
+      "events": [
+        "start_day",
+        "night"
+      ]
+    },
+    {
+      "study": "mac_abpm_recording_v1",
+      "time": 8,
+      "elapsed": 24,
+      "hour": 8,
+      "night": false,
+      "readings": 24,
+      "complete": true,
+      "events": [
+        "start_day",
+        "night",
+        "next_day",
+        "return"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_pancreas_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "胰腺与胰管·逐层揭示与局部高亮",
+  "label": "胰腺与胰管",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "概念性胰腺外形与主胰管示意，画面左侧为胰头、右侧为胰尾；并非患者影像。胰管分支只表达汇流关系，不表达精确分支数；不包含胆管、十二指肠、胰岛或微观细胞，不能演示手术、病灶或内分泌细胞比例。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "organ": {
+      "path": "assets/organ.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        150,
+        299,
+        856,
+        616
+      ],
+      "sha256": "1ddb9e0236a82e4c89a72c299c8bfe3b374ebff5c66172d7b89bcf128192525b"
+    },
+    "duct": {
+      "path": "assets/duct.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        228,
+        333,
+        822,
+        541
+      ],
+      "sha256": "74a28876f6d39d7f5aa3cf91415b9bba89e462e4e903d91f038f59cc1490997b"
+    },
+    "branches": {
+      "path": "assets/branches.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        261,
+        349,
+        668,
+        572
+      ],
+      "sha256": "f94f261d88a687ffbbc290fac5eb7023160b0fde7b20c7236e0d8dac7a1c001a"
+    }
+  },
+  "layers": [
+    {
+      "id": "organ",
+      "label": "胰腺主体",
+      "content_bounds": [
+        150,
+        299,
+        856,
+        616
+      ],
+      "focus_bounds": [
+        100.0,
+        249.0,
+        906.0,
+        666.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "id": "duct",
+      "label": "主胰管",
+      "content_bounds": [
+        228,
+        333,
+        822,
+        541
+      ],
+      "focus_bounds": [
+        178.0,
+        283.0,
+        872.0,
+        591.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "id": "branches",
+      "label": "胰管分支",
+      "content_bounds": [
+        261,
+        349,
+        668,
+        572
+      ],
+      "focus_bounds": [
+        211.0,
+        299.0,
+        718.0,
+        622.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_pancreas_relations_layers_v1@fb8e5808d6bc5662575c",
+      "portable_record_sha256": "353b6f13359bf76ba8a75b5305b11ecdc720d591b5ca946a6c0e40d025418302"
+    }
+  ],
+  "composite_bounds": [
+    150,
+    299,
+    856,
+    616
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "胰腺与胰管关系；不表达分泌过程。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_organ",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_duct",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_branches",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_organ",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_duct",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_branches",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

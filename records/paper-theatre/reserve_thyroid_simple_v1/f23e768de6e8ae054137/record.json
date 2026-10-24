@@ -1,0 +1,150 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_thyroid_simple_v1",
+  "title": "甲状腺·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "甲状腺·payload",
+      "medical": true,
+      "content_bounds": [
+        223,
+        109,
+        801,
+        869
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_anatomy.py"
+  },
+  "tags": [
+    "anatomy",
+    "thyroid",
+    "simple",
+    "registered_layers",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "甲状腺",
+      "远景简化"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    223,
+    109,
+    801,
+    869
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "正面甲状腺与后方气管的简化空间关系；不含甲状软骨、血管、神经或病灶。左右为画面左右，不能据此判断手术层次。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "3efa2546a82418e99aa342fef43770c784cc7790a2457f1bbbfa10c6fb136299",
+      "bytes": 1573
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "ec065014fd36190b27a32bb4f91039f909b68c91ac2fd8eab1ecda0727818942",
+      "bytes": 54017
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "3efa2546a82418e99aa342fef43770c784cc7790a2457f1bbbfa10c6fb136299",
+      "bytes": 1573
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "ec065014fd36190b27a32bb4f91039f909b68c91ac2fd8eab1ecda0727818942",
+      "bytes": 54017
+    },
+    {
+      "path": "source/build_anatomy.py",
+      "role": "source",
+      "sha256": "46ed48086ed7e69f6abb7c1c0a64c24684361b68bd09e21e5d2fa1acf18273cc",
+      "bytes": 10156
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "d39006a257a5df932dbd7e1e1eb45811338561ee2b36f18732f3698a511fea03",
+      "bytes": 619
+    }
+  ],
+  "revision": "f23e768de6e8ae054137"
+}

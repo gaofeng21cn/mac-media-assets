@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_cooking_sizzle_v1",
+  "title": "拟音：烹饪油声",
+  "kind": "audio",
+  "tags": [
+    "audio",
+    "sfx",
+    "action_accent",
+    "procedural_original",
+    "20261024"
+  ],
+  "discovery": {
+    "category": "sfx",
+    "display_title": "拟音：烹饪油声",
+    "aliases": [
+      "油声",
+      "煎炒",
+      "下锅",
+      "sizzle",
+      "cooking"
+    ],
+    "objects": [
+      "拟音：烹饪油声",
+      "油声",
+      "煎炒",
+      "下锅",
+      "sizzle",
+      "cooking"
+    ],
+    "story_roles": [
+      "入锅翻动",
+      "连续备餐",
+      "厨房场景"
+    ],
+    "actions": [
+      "入锅翻动",
+      "连续备餐",
+      "厨房场景"
+    ],
+    "medium": "audio",
+    "material": null,
+    "renderers": [],
+    "style": [],
+    "topics": [],
+    "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+    "view": "按当前镜头选择",
+    "compatibility": {
+      "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+      "params": "可调整；content bounds 与接触点不固定画面构图"
+    }
+  },
+  "entry": "audio/cooking_sizzle-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "程序合成，不是实地录音；用于动作接触点对齐，音量需按当前混音审听。",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition",
+    "generator": "tools/build_action_sfx.py"
+  },
+  "content_bounds": null,
+  "content_bounds_format": null,
+  "medical_review": "not_applicable",
+  "review": {
+    "listening": "pending",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/cooking_sizzle-1.wav",
+      "role": "payload",
+      "sha256": "d7278b831963ba7ff33a81b78b32193afe360a7bc570e0501ccd19a97a9f216f",
+      "bytes": 230444,
+      "seed": 9413,
+      "duration_seconds": 2.4
+    },
+    {
+      "path": "audio/cooking_sizzle-2.wav",
+      "role": "payload",
+      "sha256": "001d1dd315973508a0a884fe449349e63c6a4b0bd9ba0d6c8a2158ab0e57ecfb",
+      "bytes": 230444,
+      "seed": 9414,
+      "duration_seconds": 2.4
+    },
+    {
+      "path": "audio/cooking_sizzle-3.wav",
+      "role": "payload",
+      "sha256": "1c48c93d35d89df2b6ea8777a5e86e74ad8a29b1afc0e68c5b0ca7b00f84d5e1",
+      "bytes": 230444,
+      "seed": 9415,
+      "duration_seconds": 2.4
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "b9be3036bbb3127f903f4ca1e476a598018930717e118be782a5da259b7298b7",
+      "bytes": 363
+    }
+  ],
+  "revision": "0a76d6cda6cf59c94247"
+}

@@ -1,0 +1,794 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 288,
+  "fps": 24,
+  "duration": 12,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "ce9fc50e86ba53e5335701746e401d6c463199c542fa0fc1b3369a687cdbe5f2",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "b76f157cea10bb4b46e882abd4d9392f3bafa9ce7e4b55ed7e721d41b3e6099f",
+    "assets/abpm-wear-sheet.png": "93b6b0d34d448ed37fc17b9df9222aaa78576f5b8763f14efa9306df90d424d9"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png",
+    "samples/keyframes/19.png",
+    "samples/keyframes/20.png",
+    "samples/keyframes/21.png",
+    "samples/keyframes/22.png",
+    "samples/keyframes/23.png",
+    "samples/keyframes/24.png",
+    "samples/keyframes/25.png",
+    "samples/keyframes/26.png"
+  ],
+  "states": [
+    {
+      "time": 0,
+      "stage": "prepare",
+      "frame": 0,
+      "rect": [
+        70,
+        0,
+        480,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 0.042,
+      "stage": "prepare",
+      "frame": 0,
+      "rect": [
+        70,
+        0,
+        480,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 0.75,
+      "stage": "prepare",
+      "frame": 0,
+      "rect": [
+        70,
+        0,
+        480,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 1.458,
+      "stage": "prepare",
+      "frame": 0,
+      "rect": [
+        70,
+        0,
+        480,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 1.5,
+      "stage": "wrap",
+      "frame": 1,
+      "rect": [
+        550,
+        0,
+        485,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 1.542,
+      "stage": "wrap",
+      "frame": 1,
+      "rect": [
+        550,
+        0,
+        485,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 2.25,
+      "stage": "wrap",
+      "frame": 1,
+      "rect": [
+        550,
+        0,
+        485,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 2.958,
+      "stage": "wrap",
+      "frame": 1,
+      "rect": [
+        550,
+        0,
+        485,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 3,
+      "stage": "secure",
+      "frame": 2,
+      "rect": [
+        1035,
+        0,
+        501,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 3.042,
+      "stage": "secure",
+      "frame": 2,
+      "rect": [
+        1035,
+        0,
+        501,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 3.75,
+      "stage": "secure",
+      "frame": 2,
+      "rect": [
+        1035,
+        0,
+        501,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 4.458,
+      "stage": "secure",
+      "frame": 2,
+      "rect": [
+        1035,
+        0,
+        501,
+        516
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 4.5,
+      "stage": "trial",
+      "frame": 3,
+      "rect": [
+        70,
+        516,
+        480,
+        508
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 4.542,
+      "stage": "trial",
+      "frame": 3,
+      "rect": [
+        70,
+        516,
+        480,
+        508
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 5.25,
+      "stage": "trial",
+      "frame": 3,
+      "rect": [
+        70,
+        516,
+        480,
+        508
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 5.958,
+      "stage": "trial",
+      "frame": 3,
+      "rect": [
+        70,
+        516,
+        480,
+        508
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 6,
+      "stage": "record",
+      "frame": 4,
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "elapsed": 0,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 6.042,
+      "stage": "record",
+      "frame": 4,
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "elapsed": 0.22399999999999903,
+      "hour": 8.223999999999998,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 7.8,
+      "stage": "record",
+      "frame": 4,
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "elapsed": 9.6,
+      "hour": 17.6,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 8.25,
+      "stage": "record",
+      "frame": 4,
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "elapsed": 12,
+      "hour": 20,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 8.8,
+      "stage": "record",
+      "frame": 4,
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "elapsed": 14.933333333333337,
+      "hour": 22.933333333333337,
+      "night": true,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 10.45,
+      "stage": "record",
+      "frame": 4,
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "elapsed": 23.733333333333327,
+      "hour": 7.733333333333327,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 10.458,
+      "stage": "record",
+      "frame": 4,
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "elapsed": 23.776,
+      "hour": 7.776,
+      "night": false,
+      "cuff_on_bare_upper_arm": true,
+      "recorder_secured": true,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 10.5,
+      "stage": "return",
+      "frame": 5,
+      "rect": [
+        1035,
+        516,
+        501,
+        508
+      ],
+      "elapsed": 24,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record",
+        "return"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 10.542,
+      "stage": "return",
+      "frame": 5,
+      "rect": [
+        1035,
+        516,
+        501,
+        508
+      ],
+      "elapsed": 24,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record",
+        "return"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 11.25,
+      "stage": "return",
+      "frame": 5,
+      "rect": [
+        1035,
+        516,
+        501,
+        508
+      ],
+      "elapsed": 24,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record",
+        "return"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    },
+    {
+      "time": 12,
+      "stage": "return",
+      "frame": 5,
+      "rect": [
+        1035,
+        516,
+        501,
+        508
+      ],
+      "elapsed": 24,
+      "hour": 8,
+      "night": false,
+      "cuff_on_bare_upper_arm": false,
+      "recorder_secured": false,
+      "contact_unit": "patient_chair_table_cuff_tube_recorder",
+      "events": [
+        "prepare",
+        "wrap",
+        "secure",
+        "trial",
+        "record",
+        "return"
+      ],
+      "ground": [
+        170,
+        625
+      ],
+      "shared_scale": 1.05
+    }
+  ]
+}

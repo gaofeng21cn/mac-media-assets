@@ -1,0 +1,236 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_alveolus_section_open_close_v1",
+  "type": "structure_section",
+  "label": "肺泡",
+  "title": "肺泡·二维剖面开合连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "单个肺泡与相连气道的放大关系示意：气腔连续、薄壁在外、毛细血管环绕壁外。壁厚与血管间距为说明而夸张，双色仅区分血管路径，不表达氧含量、流向或气体交换数值。 肺泡与气道连续气腔揭开；不表达呼吸或气体交换。 ",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "alveolar_wall": {
+      "path": "assets/alveolar_wall.png",
+      "sha256": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        229,
+        161,
+        797,
+        845
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "continuous_air_space": {
+      "path": "assets/continuous_air_space.png",
+      "sha256": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        255,
+        182,
+        771,
+        819
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "perialveolar_capillaries": {
+      "path": "assets/perialveolar_capillaries.png",
+      "sha256": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        174,
+        337,
+        867,
+        891
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "two_dimensional_section",
+    "display_kind": "二维剖面开合",
+    "context_before": [
+      "perialveolar_capillaries"
+    ],
+    "cover": [
+      "alveolar_wall"
+    ],
+    "interior": [
+      "continuous_air_space"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 1,
+    "windows": [
+      {
+        "path": "M483 184 L541 184 L541 351 C674 360 769 458 769 591 C769 734 661 817 513 817 C365 817 257 731 257 586 C257 458 350 361 483 351 Z",
+        "pivot": [
+          513,
+          550
+        ],
+        "angle": 0,
+        "basis": "原件气道与肺泡连通气腔边界"
+      }
+    ],
+    "revealed_labels": [
+      "连续气腔",
+      "相连气道",
+      "壁外毛细血管"
+    ],
+    "source_limit_reason": ""
+  },
+  "presentation_note": "肺泡与气道连续气腔揭开；不表达呼吸或气体交换。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    174,
+    161,
+    867,
+    891
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_alveolus_detailed_layers_v1@2c11a7cf1c24af07b4b1",
+      "portable_record_sha256": "8c911acd9ecf5815bd7e9cdc7727fdf42dee2400e2bcc2f20c1fe54e160e6819"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

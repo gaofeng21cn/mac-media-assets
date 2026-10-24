@@ -1,0 +1,243 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_lungs_section_open_close_v1",
+  "type": "structure_section",
+  "label": "肺与气管",
+  "title": "肺与气管·近端支气管位置揭层连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "肺与气管支气管正面示意，解剖右肺在画面左，三叶由两条裂隙提示；解剖左肺在画面右。不表达支气管肺段、肺功能或病变。 仅揭示已有近端支气管位置；未提供肺内分支。 肺叶仅有外形与裂隙，支气管原件只到近端；不能演示肺内剖面或气道分支。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "trachea_bronchi": {
+      "path": "assets/trachea_bronchi.png",
+      "sha256": "cfe3d16f6a8559309329daf4d4a1b74ea2cdd14b447c5f063255eb2fa22eb9cc",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        384,
+        93,
+        640,
+        360
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "right_lung_anatomical": {
+      "path": "assets/right_lung_anatomical.png",
+      "sha256": "9f5e10181dab44e96b9a2a5d5fd76b9eabe5d058d0bed5f6a960548f31525d87",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        309,
+        319,
+        494,
+        824
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "left_lung_anatomical": {
+      "path": "assets/left_lung_anatomical.png",
+      "sha256": "71de8ec1069ad8b57ecc1fccc2432093bfd63cb5cb7742a2ec286b6de30e8d18",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        530,
+        319,
+        715,
+        824
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "近端支气管位置揭层",
+    "context_before": [
+      "trachea_bronchi"
+    ],
+    "cover": [
+      "right_lung_anatomical",
+      "left_lung_anatomical"
+    ],
+    "interior": [],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.1,
+    "windows": [
+      {
+        "path": "M350 320 L465 309 L493 395 L366 401 Z",
+        "pivot": [
+          420,
+          355
+        ],
+        "angle": 0,
+        "basis": "画面左肺门上部近端支气管范围"
+      },
+      {
+        "path": "M559 309 L674 320 L658 401 L531 395 Z",
+        "pivot": [
+          604,
+          355
+        ],
+        "angle": 0,
+        "basis": "画面右肺门上部近端支气管范围"
+      }
+    ],
+    "revealed_labels": [
+      "气管分叉",
+      "近端左右支气管"
+    ],
+    "source_limit_reason": "肺叶仅有外形与裂隙，支气管原件只到近端；不能演示肺内剖面或气道分支。"
+  },
+  "presentation_note": "仅揭示已有近端支气管位置；未提供肺内分支。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    309,
+    93,
+    715,
+    824
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_lungs_detailed_layers_v1@9f9a99e02eec4b0bec03",
+      "portable_record_sha256": "82279a56b1d445ae2efea9958e69406fd4125b6a870e1246ca67762308130d4e"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

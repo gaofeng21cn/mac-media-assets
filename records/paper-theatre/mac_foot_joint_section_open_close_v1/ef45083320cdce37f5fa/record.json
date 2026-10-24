@@ -1,0 +1,509 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_foot_joint_section_open_close_v1",
+  "title": "足关节·踝关节位置揭层连续开合",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "continuous_section_window",
+    "local_relation_reveal"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "足关节",
+      "踝关节位置揭层",
+      "foot_joint"
+    ],
+    "actions": [
+      "同位局部揭层",
+      "连续揭示与恢复"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "足关节·踝关节位置揭层连续开合",
+    "sample_duration_seconds": 6.2
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "踝足侧面关系示意：胫腓骨位于距骨上方、跟骨位于后下方，前足向画面右伸展；关节间隙为窄边界，不画成覆盖骨面的空洞。 踝关节边界与韧带的原位揭层；不是骨关节切开。 没有皮肤、软组织外层或骨截面，只有骨、关节边界与韧带位置；提供位置揭层。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "132c54a86a3f6c439d43fa5b24217ccabe3e8965c4568d2a23e9015df307d7cc",
+      "bytes": 820
+    },
+    {
+      "path": "assets/bones.png",
+      "role": "payload",
+      "sha256": "a3a778f4fdd9dd5f9543404f70e986d28a8d0a8b6b80eef4de4d27721d8c339d",
+      "bytes": 41969
+    },
+    {
+      "path": "assets/joint_space.png",
+      "role": "payload",
+      "sha256": "e72f004c047482197808eb30e92ef81f357605ba37bf805ce2911c022ff4af1b",
+      "bytes": 6250
+    },
+    {
+      "path": "assets/ligaments.png",
+      "role": "payload",
+      "sha256": "69cb706f7a78eaac17d528bc88aadafb3d040e8f1c4140649c37cae53da1b957",
+      "bytes": 7292
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "0432a8cb5c29edc8c3ab341cc9b34f1d2b7c6bcfc233b8f4a2b00fa4079b1588",
+      "bytes": 663
+    },
+    {
+      "path": "original/files/bones.png",
+      "role": "payload",
+      "sha256": "a3a778f4fdd9dd5f9543404f70e986d28a8d0a8b6b80eef4de4d27721d8c339d",
+      "bytes": 41969
+    },
+    {
+      "path": "original/files/joint_space.png",
+      "role": "payload",
+      "sha256": "e72f004c047482197808eb30e92ef81f357605ba37bf805ce2911c022ff4af1b",
+      "bytes": 6250
+    },
+    {
+      "path": "original/files/ligaments.png",
+      "role": "payload",
+      "sha256": "69cb706f7a78eaac17d528bc88aadafb3d040e8f1c4140649c37cae53da1b957",
+      "bytes": 7292
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "5ad34a3c514921a6774e6166536f4a35c87266386a58a85e7465061557023a8c",
+      "bytes": 5852
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "5f4f2a630bb008facfca30e0e1c64343de36af16d697c99670b2eb0e6c940892",
+      "bytes": 45895
+    },
+    {
+      "path": "original/source/bones.svg",
+      "role": "payload",
+      "sha256": "1adaf8055d9ee7bc38d2f8d90a3feed4f602f445bfed2125df85dba8a80518e1",
+      "bytes": 1058
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/joint_space.svg",
+      "role": "payload",
+      "sha256": "8f9b3a212c15bf1ffbe34be67011b2f4ee95d7bc53c098a877bc2a1d9dcabf0d",
+      "bytes": 253
+    },
+    {
+      "path": "original/source/ligaments.svg",
+      "role": "payload",
+      "sha256": "02594d1adc018d9a64ae3d400041c9c4fe3994d2431e56be57b04829e49e2ea6",
+      "bytes": 216
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "c7255b24f65e66d8bec0b0a35faeed4e99a3cf9456eeacdd4e226f0b7b00bd1c",
+      "bytes": 1333
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "8db8764023ca21e96b6bed6ca07e45395b6047b41dbfe8488377c7b9d830a230",
+      "bytes": 432
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "0b4035ce14912a0b9bf11d1e93b8728cfd9bef5a562f5bb0e48e037a9f73ae6b",
+      "bytes": 7584
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+      "bytes": 5391
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "461c4f44ad1e90edc6bc7bfe474720b6fabd99b3c0f3c4c7eeb55dde98829f5c",
+      "bytes": 96745
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "9a3e95593cdb28ef2c52d9c871d86c5207fd81bedce23c8c720aff65fb393025",
+      "bytes": 94423
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "46d63dae60a9b176a1790442fe09f52dd06e53bd13b454db35af8134b5a6b80c",
+      "bytes": 97277
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "77f9b451c7fda1440ff942ca33f3554db8609c1a5ced8267e19768a5b63b4ad8",
+      "bytes": 48674
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "a511ca7947ede0730989efa830a656f9859d4cfc7327ed81d42cdbe80bf06b09",
+      "bytes": 194303
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "410dba0eae64802dfd23fc85624ab282b1738f9340c082634dbe2872b7a55a22",
+      "bytes": 83210
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "410dba0eae64802dfd23fc85624ab282b1738f9340c082634dbe2872b7a55a22",
+      "bytes": 83210
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "9b9dd19dc46e192f8e554936fc54d3932a9739481730f4a31c1357547b780f15",
+      "bytes": 83897
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "cc3b5bb81ed43dcce3bfcfd6361adaf3e998c10332d8a2c08ad679134b34c8bc",
+      "bytes": 86157
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "a012a2b24d98d0fb898f1843e75570c20628cbc996dc8538f0319e00d09476f4",
+      "bytes": 88494
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "e051b763958797e55d1ed06e2c5f6045974d5be59cac035f263be7d134eb7728",
+      "bytes": 91036
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "fc34709de48c73a7545defe39df606d430c4b19ded6f2b600b230f92b3993582",
+      "bytes": 94088
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "46d63dae60a9b176a1790442fe09f52dd06e53bd13b454db35af8134b5a6b80c",
+      "bytes": 97277
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "1ae8d162126696336f68046206b4b66bf53d8ae74f405f3788c179384b9029a5",
+      "bytes": 98097
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "52237ef130e6c154581e9ddba3481e980817c2b7222c4aa2fc8091300b32fad2",
+      "bytes": 97917
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "52237ef130e6c154581e9ddba3481e980817c2b7222c4aa2fc8091300b32fad2",
+      "bytes": 97917
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "52237ef130e6c154581e9ddba3481e980817c2b7222c4aa2fc8091300b32fad2",
+      "bytes": 97917
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "88ef8244fb404d2f076b60e581ee62624a436e3ad11b69c52c7eb395a326dc61",
+      "bytes": 98627
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "cfca8b71c2e84052358bc68945ab8d49edb1eb5a85c1992767f136e8e03e4d4e",
+      "bytes": 98654
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "bd90330042ff58662fe8656395d13cd1d13b5ed13aa4215d77442ed1752bd44c",
+      "bytes": 98109
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "921333a1704eb17aa2fed20643f692b12676362fbae00e7320edc63fc37c2b05",
+      "bytes": 95292
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "455c1dcf878da71ce4a5efb1121a2c14f19365e3cbed4f3f0e6203d1af5eee6c",
+      "bytes": 92459
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "c8a3836e2428e1657920db993b6237dacb2b75161fe9a0ecf8c5be25d1081355",
+      "bytes": 86744
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "a03e5532a3fe73472f3c2fed7c0d2c09a4ec2128b06b87061930544b89d17956",
+      "bytes": 85032
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "a03e5532a3fe73472f3c2fed7c0d2c09a4ec2128b06b87061930544b89d17956",
+      "bytes": 85032
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "a03e5532a3fe73472f3c2fed7c0d2c09a4ec2128b06b87061930544b89d17956",
+      "bytes": 85032
+    },
+    {
+      "path": "samples/open-phone-color.png",
+      "role": "payload",
+      "sha256": "208f5dc073f3713c3b9f3d31f0a5d716362206b482810b3f8cd605ba37d00d1b",
+      "bytes": 19651
+    },
+    {
+      "path": "samples/open-phone-dark.png",
+      "role": "payload",
+      "sha256": "cfb6e0941659507bba45c3fc957333159d36a985f2c7d35bcb5c4c43d4a8494d",
+      "bytes": 19219
+    },
+    {
+      "path": "samples/open-phone-light.png",
+      "role": "payload",
+      "sha256": "2d8f368d3824038026f88f5d8a197d8ff08991922de41e58be15e2f0ff78158f",
+      "bytes": 19388
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "355e8e48eabc2b02b6f86ccc10f70a04bbf0120640932fb366cdcb8eea302bef",
+      "bytes": 28869
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "0e35b546683cbb914c795f953538e4fe7314cec2d80fa539458b50ff645c65dc",
+      "bytes": 19442
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "ed4ce20a329842feb9052c19c3a046ab321bcbc78bfbcb9602a279a93c0c3ea6",
+      "bytes": 131018
+    },
+    {
+      "path": "samples/section-background-review.jpg",
+      "role": "payload",
+      "sha256": "98c4e912c9c99f4bf8fc09f8502cbfdb3f3a1935d6d515cb168cd2a02c1f2e78",
+      "bytes": 372482
+    },
+    {
+      "path": "samples/states/closed-color.png",
+      "role": "payload",
+      "sha256": "3b00e998351eff8039de6a3d44ae9adec97606db7538318d866d510ae14d5461",
+      "bytes": 82789
+    },
+    {
+      "path": "samples/states/closed-dark.png",
+      "role": "payload",
+      "sha256": "ff4a3556d7c96f5868977f3d4fc950b8819c93dcac1fa5475e996a3bc0afdff0",
+      "bytes": 79959
+    },
+    {
+      "path": "samples/states/closed-light.png",
+      "role": "payload",
+      "sha256": "410dba0eae64802dfd23fc85624ab282b1738f9340c082634dbe2872b7a55a22",
+      "bytes": 83210
+    },
+    {
+      "path": "samples/states/closing-color.png",
+      "role": "payload",
+      "sha256": "31a3894e1439498083a03562b0a643af20267ad61a41add842c4d9f97c2d2ea5",
+      "bytes": 94703
+    },
+    {
+      "path": "samples/states/closing-dark.png",
+      "role": "payload",
+      "sha256": "0d9f7011ec4a18690de5b3f0255e3d31e0b59b9419fca88e01030cc48be7fdf4",
+      "bytes": 92290
+    },
+    {
+      "path": "samples/states/closing-light.png",
+      "role": "payload",
+      "sha256": "921333a1704eb17aa2fed20643f692b12676362fbae00e7320edc63fc37c2b05",
+      "bytes": 95292
+    },
+    {
+      "path": "samples/states/half-color.png",
+      "role": "payload",
+      "sha256": "c8811f2f754d3826cc07796de8bbbbd5df2c0ca490f8c5070666deecad1ba1ca",
+      "bytes": 93610
+    },
+    {
+      "path": "samples/states/half-dark.png",
+      "role": "payload",
+      "sha256": "c569a38728b9f9dc83c6f641216d85a3740049797e1cc45ec1b5bf2ed987c2fe",
+      "bytes": 90910
+    },
+    {
+      "path": "samples/states/half-light.png",
+      "role": "payload",
+      "sha256": "fc34709de48c73a7545defe39df606d430c4b19ded6f2b600b230f92b3993582",
+      "bytes": 94088
+    },
+    {
+      "path": "samples/states/open-color.png",
+      "role": "payload",
+      "sha256": "ef6a801b3f55386c970d15876929652cb578d0d6c1f1ee32033e09bdcbeecee0",
+      "bytes": 97546
+    },
+    {
+      "path": "samples/states/open-dark.png",
+      "role": "payload",
+      "sha256": "438eb8d69ab74b5cdd44934f8d2e6bf289175dd8615546460e82c1039768b1d0",
+      "bytes": 95736
+    },
+    {
+      "path": "samples/states/open-light.png",
+      "role": "payload",
+      "sha256": "52237ef130e6c154581e9ddba3481e980817c2b7222c4aa2fc8091300b32fad2",
+      "bytes": 97917
+    },
+    {
+      "path": "samples/states/quarter-color.png",
+      "role": "payload",
+      "sha256": "86a25a665744f2508a7378f81a86b421340464ce8b2e3a310699b79dccacf8db",
+      "bytes": 90472
+    },
+    {
+      "path": "samples/states/quarter-dark.png",
+      "role": "payload",
+      "sha256": "50e96c915638c6363280b592609d83dbbee1b50cbc9847ac98b0d2e4618af338",
+      "bytes": 87516
+    },
+    {
+      "path": "samples/states/quarter-light.png",
+      "role": "payload",
+      "sha256": "e051b763958797e55d1ed06e2c5f6045974d5be59cac035f263be7d134eb7728",
+      "bytes": 91036
+    },
+    {
+      "path": "samples/states/restored-color.png",
+      "role": "payload",
+      "sha256": "74178aaecd4d54664f8b9ab5a2d790cbd9799fa2f2c3ed5f70b7dd98ff3765ed",
+      "bytes": 84631
+    },
+    {
+      "path": "samples/states/restored-dark.png",
+      "role": "payload",
+      "sha256": "f1c634dbada1efeb56e2e8d58375d181c4a17029816a48e1a081cc2f8b9a3774",
+      "bytes": 81753
+    },
+    {
+      "path": "samples/states/restored-light.png",
+      "role": "payload",
+      "sha256": "a03e5532a3fe73472f3c2fed7c0d2c09a4ec2128b06b87061930544b89d17956",
+      "bytes": 85032
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "685604138bf55a0b0eae9e5d000e1b4a4c628259a4a1459e88a3dfc0ee8fa6ec",
+      "bytes": 11403
+    },
+    {
+      "path": "section-visual-review.json",
+      "role": "payload",
+      "sha256": "a8a5ce2aebacbd9489aad8a0627396060cd0617bd95b8609ea0d2521055bec16",
+      "bytes": 7757
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "b7fdc32d8f2739a47c6d007bb37a2ba5f37dcfb7613b83aae71212030b10cb59",
+      "bytes": 4957
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "ef45083320cdce37f5fa"
+}

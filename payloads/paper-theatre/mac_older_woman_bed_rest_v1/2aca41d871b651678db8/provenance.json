@@ -1,0 +1,16 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "tool": "built_in_imagegen",
+      "source_sha256": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20"
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+      "role": "identity_reference"
+    }
+  ],
+  "note": ""
+}

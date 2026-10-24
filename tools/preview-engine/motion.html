@@ -8,26 +8,35 @@ body{margin:0;background:#f4eedf;color:#293b35;font:16px system-ui;line-height:1
 main{max-width:1200px;margin:32px auto;padding:0 20px}h1{font-size:28px}h2{font-size:21px}
 #studies{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr));gap:28px}
 video{width:100%;display:block;background:#e9dfc9}a{color:#315f55}article p{margin:.6em 0}
+nav{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}input,select{font:inherit;padding:8px}input{flex:1}article[hidden]{display:none}
 </style>
 <main><h1>连续动作样片</h1>
-<p>四套完整动作可播放，也可进入交互预览拖动时间轴、切换底色。人物采用完整姿态逐帧表演；备餐中的手、器具和食材独立运动。无旁白和音轨。</p>
+<p>按角色、结构或动作寻找样片，再进入交互预览拖动时间轴、切换底色。人物采用完整姿态纸上表演；结构包分别标明逐层揭示、局部揭层或二维剖面开合。样片无声，点击后播放。</p>
+<nav><input id="search" aria-label="搜索动作" placeholder="搜索角色、器官或动作"><select id="family" aria-label="动作类别"><option value="">全部动作</option><option value="人物与接触">人物与接触</option><option value="结构解释">结构解释</option><option value="监测与生活">监测与生活</option></select><output id="count"></output></nav>
 <div id="studies"></div>
 <p><a href="index.html">其他装配与接触动作</a> · <a href="../../docs/motion-studies.md">取用与适用范围</a></p></main>
 <script type="module">
 const rows=(await (await fetch('../../catalog/assets.jsonl')).text()).trim().split('\n').map(JSON.parse);
-for(const id of ['mac_walk_cycle_v1','mac_sit_stand_cycle_v1','mac_care_assistance_v1','mac_cooking_action_v1']){
-  const row=rows.find(r=>r.source_id===id&&!['superseded','needs_rebuild'].includes(r.curation?.status));
-  if(!row)continue;
-  const base='../../'+row.payload.find(p=>p.path.endsWith('/index.html')).path.replace(/index\.html$/,'');
+const cards=[];
+for(const row of rows.filter(r=>r.kind==='motion_recipe'&&!['superseded','needs_rebuild'].includes(r.curation?.status)).sort((a,b)=>a.title.localeCompare(b.title,'zh-CN'))){
+  const prefix='/'+row.source_id+'/'+row.revision+'/';
+  const entry=row.payload.find(p=>p.path.endsWith(prefix+'index.html'));
+  if(!entry||!row.payload.some(p=>p.path.endsWith(prefix+'samples/sample.mp4')))continue;
+  const base='../../'+entry.path.replace(/index\.html$/,'');
   const article=document.createElement('article'),heading=document.createElement('h2');heading.textContent=row.title;
-  const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='metadata';
+  const d=row.discovery||{},family=d.character_role||row.tags?.includes('complete_character')||['mac_walk_cycle_v1','mac_sit_stand_cycle_v1','mac_care_assistance_v1'].includes(row.source_id)?'人物与接触':row.tags?.includes('anatomy')?'结构解释':'监测与生活';
+  const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='none';
   video.src=base+'samples/sample.mp4';video.poster=base+'samples/keyframes/00.png';
   const links=document.createElement('p');
   for(const [label,path] of [['交互预览','index.html'],['全部关键姿态','samples/contact-sheet.jpg'],['审看记录','review.json']]){
     if(links.childNodes.length)links.append(' · ');
     const a=document.createElement('a');a.textContent=label;a.href=base+path;links.append(a);
   }
-  article.append(heading,video,links);document.querySelector('#studies').append(article);
+  const scope=document.createElement('p');scope.textContent=d.usage_notes||row.review_boundary?.scope||'';
+  article.append(heading,video,links,scope);document.querySelector('#studies').append(article);
+  cards.push({article,family,text:[row.title,...(d.aliases||[]),...(d.actions||[])].join(' ').toLowerCase()});
 }
+function filter(){const term=document.querySelector('#search').value.trim().toLowerCase(),family=document.querySelector('#family').value;let count=0;for(const card of cards){card.article.hidden=!!((family&&card.family!==family)||(term&&!card.text.includes(term)));if(!card.article.hidden)count++;else card.article.querySelector('video').pause()}document.querySelector('#count').textContent=count+' 套'}
+document.querySelector('#search').addEventListener('input',filter);document.querySelector('#family').addEventListener('change',filter);filter();
 </script>
 </html>

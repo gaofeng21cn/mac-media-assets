@@ -1,0 +1,509 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_kidney_section_open_close_v1",
+  "title": "肾脏·冠状剖面开合连续开合",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "continuous_section_window",
+    "two_dimensional_section"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "肾脏",
+      "冠状剖面开合",
+      "kidney"
+    ],
+    "actions": [
+      "二维示意切开",
+      "剖面开合"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "肾脏·冠状剖面开合连续开合",
+    "sample_duration_seconds": 6.2
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "单肾冠状切面，分开皮质背景、髓质锥体和肾盂/肾盏/输尿管；不表示肾单位微观滤过、血管或精确肾盏数。远景版仅表达肾与输尿管身份。 既有冠状剖面内部连续打开；不表达肾单位与滤过。 ",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "9d658cf6d15cec34ca3b8dbfb07247850125f3baf6387c957a1cfd8c87029e4f",
+      "bytes": 722
+    },
+    {
+      "path": "assets/collecting_system.png",
+      "role": "payload",
+      "sha256": "4724108b58d2f59e04a6958608b65ee887c940782a54a4d22ad4fbc856b46055",
+      "bytes": 21203
+    },
+    {
+      "path": "assets/cortex.png",
+      "role": "payload",
+      "sha256": "5e078710568cd3e28defd980a8b8fc138a539a7f3fef6805b2519c2d8c15b017",
+      "bytes": 54506
+    },
+    {
+      "path": "assets/medulla.png",
+      "role": "payload",
+      "sha256": "a9c48ddcfac2c466ee35931188a567941480f09722ae59b73ed6be007aa76262",
+      "bytes": 38241
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "a6ffdb4fe8c0d1415133902b4594cfc6915068d219eca1ff4fc938f0b59ec810",
+      "bytes": 651
+    },
+    {
+      "path": "original/files/collecting_system.png",
+      "role": "payload",
+      "sha256": "4724108b58d2f59e04a6958608b65ee887c940782a54a4d22ad4fbc856b46055",
+      "bytes": 21203
+    },
+    {
+      "path": "original/files/cortex.png",
+      "role": "payload",
+      "sha256": "5e078710568cd3e28defd980a8b8fc138a539a7f3fef6805b2519c2d8c15b017",
+      "bytes": 54506
+    },
+    {
+      "path": "original/files/medulla.png",
+      "role": "payload",
+      "sha256": "a9c48ddcfac2c466ee35931188a567941480f09722ae59b73ed6be007aa76262",
+      "bytes": 38241
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "62af6cfd62b99344be713c7bcbb487c392d85a161ce7d96972d8b4373526c80b",
+      "bytes": 6115
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "f4b0f536d7e785da51effa59491889dc64b639f8fbf2f965ace35395d7139c3c",
+      "bytes": 93125
+    },
+    {
+      "path": "original/source/build_anatomy.py",
+      "role": "payload",
+      "sha256": "46ed48086ed7e69f6abb7c1c0a64c24684361b68bd09e21e5d2fa1acf18273cc",
+      "bytes": 10156
+    },
+    {
+      "path": "original/source/collecting_system.svg",
+      "role": "payload",
+      "sha256": "382e07525bd9783361440f35f68de8558c03d21f84cf248e67479a3445f12378",
+      "bytes": 967
+    },
+    {
+      "path": "original/source/cortex.svg",
+      "role": "payload",
+      "sha256": "e9b6678ca8d44e68e3a6287da6c18e9a2c6f767160a7cebac9c9560a81588e35",
+      "bytes": 588
+    },
+    {
+      "path": "original/source/medulla.svg",
+      "role": "payload",
+      "sha256": "590c8a840a871bbd0af7f096caa80d1a553e4201e6eddd18f2ea59ce7a823b7f",
+      "bytes": 951
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "d933e80a3575cc70fb2a965a9041bad69cc55ec29f51d4c00c9436130a483979",
+      "bytes": 2312
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "e1de9144f744ea806b3b5dc44037ea96a2aa40cca249a8d7eb77acad4d33ff99",
+      "bytes": 428
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "b88f7671427b21fef7f072e5747aa5df5aabbac17bbefa06bce689e33dea6538",
+      "bytes": 7589
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+      "bytes": 5391
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "29e2dea96f2020546ae3118ccbdf1efb2dcc53c0d0501908a95ba27d1560cc25",
+      "bytes": 133594
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "c31521f0b38e89bbd28d6273f277e855047c7f40216d67d01d65dc04e9963f40",
+      "bytes": 131426
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "4e03e7ad3d214285a27a3bc5594145f1739dd8c232390b97010776d096a1221f",
+      "bytes": 133219
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "73446db900c83b61e58bcc66dbd81209cf7417449c45e3580926baaaeca5e15c",
+      "bytes": 52645
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "0f0e839a674374471183f16542aa9e6368efa209041dfccc73937701509bd2f3",
+      "bytes": 199837
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "caf2da719b7fdbb7a6132263e1e09240e62024190dc97466c5555a8a8c5c1d34",
+      "bytes": 81289
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "caf2da719b7fdbb7a6132263e1e09240e62024190dc97466c5555a8a8c5c1d34",
+      "bytes": 81289
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "c54f687ebe0d6b25a2ffccda148ecb7badc42f8b5b4fbd50e7a4da7d2730fdf7",
+      "bytes": 81959
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "c4c943633a3582fd0a979263c4d7a0cf99dfb285381c79f3a52bdb418465084a",
+      "bytes": 84420
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "1f75812e5330b4e9087b4d54e28ce402877abcd2d3a1997636f5336d747a90a2",
+      "bytes": 93068
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "f60c2c64d5c2c470c3cd9030115e36b0b5d453dbb22da80460968a13ae366ee7",
+      "bytes": 107579
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "677ecff0780087d46e316229ccb638993d52d225138cb12a635acd4f580a3b2b",
+      "bytes": 123152
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "4e03e7ad3d214285a27a3bc5594145f1739dd8c232390b97010776d096a1221f",
+      "bytes": 133219
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "5ecb7c6c425eea6ac55f28dd3236b638bbcd17dfc08f78104d11a5893f3b5c3e",
+      "bytes": 115977
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "591ce5c0f311283638d40b730b6dd5173187541bd526c0882446ca3874a57f99",
+      "bytes": 115062
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "591ce5c0f311283638d40b730b6dd5173187541bd526c0882446ca3874a57f99",
+      "bytes": 115062
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "591ce5c0f311283638d40b730b6dd5173187541bd526c0882446ca3874a57f99",
+      "bytes": 115062
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "8ddbcaea7f82d3559f9bc3b6a93d1117f6e516485d9826db8daa38f1bc405653",
+      "bytes": 116180
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "7d4c0e005dcaf42eb46bf4c5d6c4c50bff336bbe1cbcae5121cfeab44f2abc66",
+      "bytes": 116598
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "fd57168081044d438ea793ffd4d2b0235003d6bbbd25a7cff8fa9caf3f8acfd8",
+      "bytes": 134178
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "960cb5aef36b1f113c35a4b322e0ec856f9a06f0a774cd9942c244b8d1aa9e00",
+      "bytes": 125109
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "f97e51efecdb552c3462c103994713e661eb08fe6e02a562d26f0dad05adbd4c",
+      "bytes": 112667
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "62eb8ab74b3adb39a6979a1fe405420acb5941ba98d3c98816bee15400a3870f",
+      "bytes": 85047
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "db68ed5b921f79f4c9eb22682201e6687ca7200b48ec2f123f7e23dff1316402",
+      "bytes": 83120
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "db68ed5b921f79f4c9eb22682201e6687ca7200b48ec2f123f7e23dff1316402",
+      "bytes": 83120
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "db68ed5b921f79f4c9eb22682201e6687ca7200b48ec2f123f7e23dff1316402",
+      "bytes": 83120
+    },
+    {
+      "path": "samples/open-phone-color.png",
+      "role": "payload",
+      "sha256": "c701c108f4536d8df8d61921a46188792d3b53cc31d668052beefbbe6a9fd202",
+      "bytes": 22417
+    },
+    {
+      "path": "samples/open-phone-dark.png",
+      "role": "payload",
+      "sha256": "e3ee26f439af110d5a65a39945ad3e4f30677557433a7f20b2a2a0a4f46fcc96",
+      "bytes": 22413
+    },
+    {
+      "path": "samples/open-phone-light.png",
+      "role": "payload",
+      "sha256": "85b30f6a737efde78da0be6929311605e1c428c052db4321a20105a82ec5ca32",
+      "bytes": 22183
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "d69181f839aa46359f788a45c6d7183c644d34acd47e9ec3252035cca0fb1c71",
+      "bytes": 32379
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "f5a10adda06605cb164876c5b9f9a32e6d2a1c4405fa705d28c80a8c2afd184b",
+      "bytes": 25079
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "2b5fa7bb90346763ce9b6c19a76c282fd38e37ba625d4767234b8210075fabc7",
+      "bytes": 206340
+    },
+    {
+      "path": "samples/section-background-review.jpg",
+      "role": "payload",
+      "sha256": "34a0fe6a3131f671052049206e92f7d13dd2477e55284c42c09855df37003a8a",
+      "bytes": 390662
+    },
+    {
+      "path": "samples/states/closed-color.png",
+      "role": "payload",
+      "sha256": "07a96d6fecaf99c1ce011317ddb4c7bd108664d7cf3c1f57be2965a8938051c4",
+      "bytes": 81690
+    },
+    {
+      "path": "samples/states/closed-dark.png",
+      "role": "payload",
+      "sha256": "6e93bb8944401599241bcc031d45bf25f73b86f1f862305fdb912dc885ce0bf7",
+      "bytes": 80338
+    },
+    {
+      "path": "samples/states/closed-light.png",
+      "role": "payload",
+      "sha256": "caf2da719b7fdbb7a6132263e1e09240e62024190dc97466c5555a8a8c5c1d34",
+      "bytes": 81289
+    },
+    {
+      "path": "samples/states/closing-color.png",
+      "role": "payload",
+      "sha256": "f1e2936f50cd6cd415358f2d0aa56ed8c2a43523e041645c0fc73e580db9a165",
+      "bytes": 125108
+    },
+    {
+      "path": "samples/states/closing-dark.png",
+      "role": "payload",
+      "sha256": "d55681cce647eab5ee212780422f60aa3896f2a6c5253df2c0f5fbada80db6f6",
+      "bytes": 123464
+    },
+    {
+      "path": "samples/states/closing-light.png",
+      "role": "payload",
+      "sha256": "960cb5aef36b1f113c35a4b322e0ec856f9a06f0a774cd9942c244b8d1aa9e00",
+      "bytes": 125109
+    },
+    {
+      "path": "samples/states/half-color.png",
+      "role": "payload",
+      "sha256": "e9bdb7bb628eda3762f7979485163a942f5af5e67ce843c54058385396fd838b",
+      "bytes": 123168
+    },
+    {
+      "path": "samples/states/half-dark.png",
+      "role": "payload",
+      "sha256": "5f953724f5648667357bec1f643c5824c1d637d24eb6888150d5104c2fe5d142",
+      "bytes": 121555
+    },
+    {
+      "path": "samples/states/half-light.png",
+      "role": "payload",
+      "sha256": "677ecff0780087d46e316229ccb638993d52d225138cb12a635acd4f580a3b2b",
+      "bytes": 123152
+    },
+    {
+      "path": "samples/states/open-color.png",
+      "role": "payload",
+      "sha256": "5648466061ee9efdb152117d6acaaa93c94f206c7965d85d933313337d2ca5c6",
+      "bytes": 115361
+    },
+    {
+      "path": "samples/states/open-dark.png",
+      "role": "payload",
+      "sha256": "ad0cfa2969e03dd07c41a37214b1bde8a4f79934df72edbcad903009ed217632",
+      "bytes": 116090
+    },
+    {
+      "path": "samples/states/open-light.png",
+      "role": "payload",
+      "sha256": "591ce5c0f311283638d40b730b6dd5173187541bd526c0882446ca3874a57f99",
+      "bytes": 115062
+    },
+    {
+      "path": "samples/states/quarter-color.png",
+      "role": "payload",
+      "sha256": "676efb793805a5f7ac9ab9a983096b16671c847261f11577dfe8065ba8e002ad",
+      "bytes": 107535
+    },
+    {
+      "path": "samples/states/quarter-dark.png",
+      "role": "payload",
+      "sha256": "8e700fd5cc6078da1867bb99d228af22fdcef37616cf71f17d37aea27c820090",
+      "bytes": 106085
+    },
+    {
+      "path": "samples/states/quarter-light.png",
+      "role": "payload",
+      "sha256": "f60c2c64d5c2c470c3cd9030115e36b0b5d453dbb22da80460968a13ae366ee7",
+      "bytes": 107579
+    },
+    {
+      "path": "samples/states/restored-color.png",
+      "role": "payload",
+      "sha256": "3b8ab5bc1c903c0a0a7f3fb57ff515ac6b5b3973ad815b872d48aa78ed1aa594",
+      "bytes": 83504
+    },
+    {
+      "path": "samples/states/restored-dark.png",
+      "role": "payload",
+      "sha256": "66fc43a923696d378991a72096ad9403f665b42ff1bcf1e8660feb8b3e850eb5",
+      "bytes": 82161
+    },
+    {
+      "path": "samples/states/restored-light.png",
+      "role": "payload",
+      "sha256": "db68ed5b921f79f4c9eb22682201e6687ca7200b48ec2f123f7e23dff1316402",
+      "bytes": 83120
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "d3c3e53c11e486614a0d9410f6b6b291f2ddf55e119f1d0e4f75cd10f232fec7",
+      "bytes": 11324
+    },
+    {
+      "path": "section-visual-review.json",
+      "role": "payload",
+      "sha256": "af9bfc688a7f1948ad1aa9421aeab5c4409deadc51bcf85b79a3e24bf54d5f05",
+      "bytes": 7762
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "7cce129f3cfc7abb5a47db2a3254357455ea8ee048c4de9a9c0adee5df6751d0",
+      "bytes": 5412
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "122ec2c7c5be689cb613"
+}

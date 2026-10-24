@@ -1,0 +1,352 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_pituitary_section_open_close_v1",
+  "type": "structure_section",
+  "label": "垂体与邻近结构",
+  "title": "垂体与邻近结构·鞍区关系图局部揭示连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "概念性相对位置示意：垂体经柄连接上方下丘脑，视交叉在上方偏前，蝶窦在鞍底下方。它不是患者影像或精确矢状断面；不含颈内动脉、神经束或手术通道，不能用作入路示教。 鞍区位置图的局部揭示；不表示手术入路或切面。 原件是概念性邻近位置图，不是有皮骨外层的真实矢状切面；提供原位关系图揭示。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "sinus": {
+      "path": "assets/sinus.png",
+      "sha256": "297257ff9915459f814e16642cff894797190f5f2ca17850e74a8e7b629423da",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        295,
+        643,
+        727,
+        866
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "sella": {
+      "path": "assets/sella.png",
+      "sha256": "082b170e06b8cfb126b065099a9b5e71183b35e4dd2609a661362e98a725db5c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        308,
+        560,
+        713,
+        685
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "gland": {
+      "path": "assets/gland.png",
+      "sha256": "850160cc593061fd02edfa5b3b818c248b96a640f61d92c162a8ef1facf81859",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        367,
+        492,
+        653,
+        650
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "stalk": {
+      "path": "assets/stalk.png",
+      "sha256": "02ef5a186fab1d52d32c5a115014efb8b63a10196ee0f2ca95b477d3e7c49975",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        485,
+        313,
+        544,
+        505
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "hypothalamus": {
+      "path": "assets/hypothalamus.png",
+      "sha256": "606ff171e558e41bc2d4d0c2264c1d44212d6750dd496eda4523cc4defb447f7",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        376,
+        192,
+        649,
+        337
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "chiasm": {
+      "path": "assets/chiasm.png",
+      "sha256": "761f26b55ace15f762141b18334ea8fc33d9ad12bed3976c7e858434331dd681",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        265,
+        374,
+        499,
+        444
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "鞍区关系图局部揭示",
+    "context_before": [
+      "sinus",
+      "sella",
+      "hypothalamus"
+    ],
+    "cover": [],
+    "interior": [
+      "gland",
+      "stalk",
+      "chiasm"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [
+      {
+        "path": "M372 571 a138 74 0 1 0 276 0 a138 74 0 1 0 -276 0 Z",
+        "pivot": [
+          510,
+          571
+        ],
+        "angle": 0,
+        "basis": "原件垂体位置轮廓"
+      },
+      {
+        "path": "M490 318 Q489 415 499 500 L524 500 Q520 415 538 318 Z",
+        "pivot": [
+          512,
+          410
+        ],
+        "angle": 0,
+        "basis": "原件垂体柄轮廓"
+      },
+      {
+        "path": "M270 409 a112 30 0 1 0 224 0 a112 30 0 1 0 -224 0 Z",
+        "pivot": [
+          382,
+          409
+        ],
+        "angle": 0,
+        "basis": "原件视交叉位置轮廓"
+      }
+    ],
+    "revealed_labels": [
+      "垂体",
+      "垂体柄",
+      "视交叉位置"
+    ],
+    "source_limit_reason": "原件是概念性邻近位置图，不是有皮骨外层的真实矢状切面；提供原位关系图揭示。"
+  },
+  "presentation_note": "鞍区位置图的局部揭示；不表示手术入路或切面。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    265,
+    192,
+    727,
+    866
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_pituitary_relations_layers_v1@453935452a85019762f8",
+      "portable_record_sha256": "1a708c54ee88d788500c1c24f6f9ed903a77f9a92ea003906dc93f6a662399cb"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

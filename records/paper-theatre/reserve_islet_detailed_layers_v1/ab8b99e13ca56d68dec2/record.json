@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_islet_detailed_layers_v1",
+  "title": "胰岛·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "exocrine_surroundings",
+      "path": "files/exocrine_surroundings.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胰岛·exocrine_surroundings",
+      "medical": true,
+      "content_bounds": [
+        90,
+        123,
+        916,
+        923
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "endocrine_cells",
+      "path": "files/endocrine_cells.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胰岛·endocrine_cells",
+      "medical": true,
+      "content_bounds": [
+        263,
+        271,
+        761,
+        753
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "capillary_network",
+      "path": "files/capillary_network.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胰岛·capillary_network",
+      "medical": true,
+      "content_bounds": [
+        258,
+        431,
+        737,
+        756
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_islet_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胰岛",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "exocrine_surroundings",
+      "endocrine_cells",
+      "capillary_network"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "胰岛局部组织关系示意：中央为成簇内分泌细胞，周围为外分泌腺泡，毛细血管在细胞间分支。颜色不指定细胞类型，数量与分布不代表真实比例；不是胰腺整器官总览，不表达分泌或血糖调节。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/exocrine_surroundings.svg",
+      "role": "source",
+      "sha256": "d02732f5264792a0654c286870cb70145e3c5949aa2589a37cedad37ca96c971",
+      "bytes": 2729
+    },
+    {
+      "path": "files/exocrine_surroundings.png",
+      "role": "payload",
+      "sha256": "c1d64c79a5a7c771342690120d37d02d21031187271ac3bf37af2e22ec619b17",
+      "bytes": 59903
+    },
+    {
+      "path": "source/endocrine_cells.svg",
+      "role": "source",
+      "sha256": "68bde491e2977bf5b5376e0cf93d6c5df1810d09a5e7131910d42a4dd40ffb0b",
+      "bytes": 2217
+    },
+    {
+      "path": "files/endocrine_cells.png",
+      "role": "payload",
+      "sha256": "58884fcb38c5e572912c8815bb2c523556e94cf2bba17701d1d0ccf864998f13",
+      "bytes": 72267
+    },
+    {
+      "path": "source/capillary_network.svg",
+      "role": "source",
+      "sha256": "15fc735f671e9ca595648674ebc199be6b381ecae2dda366599c4b50a34afe55",
+      "bytes": 348
+    },
+    {
+      "path": "files/capillary_network.png",
+      "role": "payload",
+      "sha256": "eb0fe01b891b5b40ab9b7189df12a193ba92231a1b2955fab3fd1d5b13d4c004",
+      "bytes": 15047
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "22422b86934fd78a3276f286722b88df654b8f1e5eb59ee58351b6bda6d54df0",
+      "bytes": 5100
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "c248e365a09d606c1b16adc82337b8edc743335937fc44344fe58d338d9a2628",
+      "bytes": 131347
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "59a69aa7032405cb4b54482a2b590e63ea45173b9bd7677d74524672351f6d24",
+      "bytes": 750
+    }
+  ],
+  "revision": "ab8b99e13ca56d68dec2"
+}

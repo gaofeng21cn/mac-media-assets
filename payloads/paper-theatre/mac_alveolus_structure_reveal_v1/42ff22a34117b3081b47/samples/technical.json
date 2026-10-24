@@ -1,0 +1,574 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 197,
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "1f0dec1cee6dcfeff16db995c158aaef9f1614a8612ef60693f9dbf80db4eb9a",
+    "assets/alveolar_wall.png": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c",
+    "assets/continuous_air_space.png": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef",
+    "assets/perialveolar_capillaries.png": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png"
+  ],
+  "states": [
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 0,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 0.96,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 1,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 1.32,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "alveolar_wall"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 1.8,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "alveolar_wall"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 2.12,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 2.6,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 2.92,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 3.8,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 4.1,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 0.5535714285714286,
+        "x": 147.0178571428571,
+        "y": 80.55357142857139
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 4.9,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 0.5535714285714286,
+        "x": 147.0178571428571,
+        "y": 80.55357142857139
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 5,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 0.5535714285714286,
+        "x": 147.0178571428571,
+        "y": 80.55357142857139
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 5.3,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 0.5888738127544098,
+        "x": 128.9077340569878,
+        "y": 64.26865671641792
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 6.1,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 0.5888738127544098,
+        "x": 128.9077340569878,
+        "y": 64.26865671641792
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 6.2,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 0.5888738127544098,
+        "x": 128.9077340569878,
+        "y": 64.26865671641792
+      },
+      "opacities": [
+        0.17,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space",
+        "focus_perialveolar_capillaries"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 6.5,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 0.6636085626911316,
+        "x": 85.59174311926603,
+        "y": -48.45565749235476
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space",
+        "focus_perialveolar_capillaries"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 7.3,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 0.6636085626911316,
+        "x": 85.59174311926603,
+        "y": -48.45565749235476
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space",
+        "focus_perialveolar_capillaries"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 7.4,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 0.6636085626911316,
+        "x": 85.59174311926603,
+        "y": -48.45565749235476
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space",
+        "focus_perialveolar_capillaries"
+      ]
+    },
+    {
+      "study": "mac_alveolus_structure_reveal_v1",
+      "time": 8.2,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 0.6931506849315069,
+        "x": 70.21506849315068,
+        "y": -5.5972602739726085
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "alveolar_wall",
+        "continuous_air_space",
+        "perialveolar_capillaries"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_alveolar_wall",
+        "reveal_continuous_air_space",
+        "reveal_perialveolar_capillaries",
+        "focus_alveolar_wall",
+        "focus_continuous_air_space",
+        "focus_perialveolar_capillaries"
+      ]
+    }
+  ]
+}

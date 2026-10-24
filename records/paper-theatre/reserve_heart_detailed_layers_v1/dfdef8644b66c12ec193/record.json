@@ -1,0 +1,263 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_heart_detailed_layers_v1",
+  "title": "心脏·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "heart_wall",
+      "path": "files/heart_wall.png",
+      "source_type": "original_vector",
+      "visual_meaning": "心脏·heart_wall",
+      "medical": true,
+      "content_bounds": [
+        237,
+        341,
+        787,
+        875
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.56
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.58
+          },
+          "apex": {
+            "x": 0.5,
+            "y": 0.85
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "ventricles",
+      "path": "files/ventricles.png",
+      "source_type": "original_vector",
+      "visual_meaning": "心脏·ventricles",
+      "medical": true,
+      "content_bounds": [
+        321,
+        418,
+        703,
+        802
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.56
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.58
+          },
+          "apex": {
+            "x": 0.5,
+            "y": 0.85
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "great_vessels",
+      "path": "files/great_vessels.png",
+      "source_type": "original_vector",
+      "visual_meaning": "心脏·great_vessels",
+      "medical": true,
+      "content_bounds": [
+        331,
+        117,
+        693,
+        325
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.56
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.58
+          },
+          "apex": {
+            "x": 0.5,
+            "y": 0.85
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_heart_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "心脏",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "heart_wall",
+      "ventricles",
+      "great_vessels"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "心脏正面示意，区分心壁、左右心腔、室间隔与出入大血管；不做血流方向、瓣膜形态或收缩期变化示意。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/heart_wall.svg",
+      "role": "source",
+      "sha256": "0592388b134cea8579b36b26ecf673ef677e721e18f5904144decc41d1eb3a6e",
+      "bytes": 293
+    },
+    {
+      "path": "files/heart_wall.png",
+      "role": "payload",
+      "sha256": "121cb1158b6daab54227b4140101c3e2c96164bcdd17b696504126f1d3cea8e7",
+      "bytes": 31361
+    },
+    {
+      "path": "source/ventricles.svg",
+      "role": "source",
+      "sha256": "c35b3ba5aa4cb21298c25923c0a094607a5c71175c6ebeff39da0e0a2be4bf73",
+      "bytes": 512
+    },
+    {
+      "path": "files/ventricles.png",
+      "role": "payload",
+      "sha256": "04a5b80bf5e2e74476a2504b72331f613c914a6bc9ea644cf03b534c90ea52f7",
+      "bytes": 20922
+    },
+    {
+      "path": "source/great_vessels.svg",
+      "role": "source",
+      "sha256": "866f7d500e4ba62dc77433c24da8bb885cc3430338c80827d491677c5d48f067",
+      "bytes": 514
+    },
+    {
+      "path": "files/great_vessels.png",
+      "role": "payload",
+      "sha256": "52745b3a066eb2030039f6a8714b918d1298f242ae4153201d473242449b4bfd",
+      "bytes": 13646
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "5b99f86003ecbb38852292943fd1c9b4922e570badb4c00a8710dd81369b8853",
+      "bytes": 1125
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "b721136dc3376b3023e594a932ca4dcc2a4f57451f770534e0fd0bc591460847",
+      "bytes": 54547
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "10a6c90b2d8d1106ea77baac9134be7134c7ec3bac8a03acd27ea6465bec3432",
+      "bytes": 633
+    }
+  ],
+  "revision": "dfdef8644b66c12ec193"
+}

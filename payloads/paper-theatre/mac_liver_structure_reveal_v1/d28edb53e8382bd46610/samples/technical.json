@@ -1,0 +1,789 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 245,
+  "fps": 24,
+  "duration": 10.200000000000001,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "819cd0e322e2c2c56189eec6faaa5908612bf572710a22a4fac6f7a3ff1ad6c1",
+    "assets/right_lobe.png": "fbbcae8ce59c45886aec9884db1b5c1d930c94b2a886a48f1ab524f16c4e0fef",
+    "assets/left_lobe.png": "0cc93558b48b5c95bafac73691068fad8a958aa8cd0e554c99a65337939e2ecb",
+    "assets/gallbladder.png": "132834aa04dc6e48b00cfc7a1b13ee9c50639abcdef1bbff05882d44b81ac2d3",
+    "assets/bile_duct.png": "8e78c0f5e1a2b130125405b99713e4965076a7c9465f1eea129e73d1f6bf4442"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png",
+    "samples/keyframes/19.png",
+    "samples/keyframes/20.png",
+    "samples/keyframes/21.png",
+    "samples/keyframes/22.png",
+    "samples/keyframes/23.png"
+  ],
+  "states": [
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 0,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 0.96,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 1,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 1.32,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "right_lobe"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 1.8,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "right_lobe"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 2.12,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 2.6,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 2.92,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 3.4,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 3.72,
+      "mode": "reveal",
+      "index": 3,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 4.6,
+      "mode": "reveal",
+      "index": 3,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 4.9,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.0714285714285714,
+        "x": -65.07142857142856,
+        "y": -27.785714285714278
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 5.7,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.0714285714285714,
+        "x": -65.07142857142856,
+        "y": -27.785714285714278
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 5.8,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.0714285714285714,
+        "x": -65.07142857142856,
+        "y": -27.785714285714278
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 6.1,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.55,
+        "x": -704.375,
+        "y": -315.25
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 6.9,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.55,
+        "x": -704.375,
+        "y": -315.25
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 7,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.55,
+        "x": -704.375,
+        "y": -315.25
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17,
+        0.17
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 7.3,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.55,
+        "x": -297.5,
+        "y": -513.65
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 8.1,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.55,
+        "x": -297.5,
+        "y": -513.65
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 8.2,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.55,
+        "x": -297.5,
+        "y": -513.65
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder",
+        "focus_bile_duct"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 8.5,
+      "mode": "focus",
+      "index": 3,
+      "camera": {
+        "scale": 1.55,
+        "x": -432.35,
+        "y": -402.05000000000007
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder",
+        "focus_bile_duct"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 9.3,
+      "mode": "focus",
+      "index": 3,
+      "camera": {
+        "scale": 1.55,
+        "x": -432.35,
+        "y": -402.05000000000007
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder",
+        "focus_bile_duct"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 9.4,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 1.55,
+        "x": -432.35,
+        "y": -402.05000000000007
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        0.17,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder",
+        "focus_bile_duct"
+      ]
+    },
+    {
+      "study": "mac_liver_structure_reveal_v1",
+      "time": 10.2,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 1.1798319327731093,
+        "x": -178.38319327731097,
+        "y": -135.93949579831934
+      },
+      "opacities": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "right_lobe",
+        "left_lobe",
+        "gallbladder",
+        "bile_duct"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_right_lobe",
+        "reveal_left_lobe",
+        "reveal_gallbladder",
+        "reveal_bile_duct",
+        "focus_right_lobe",
+        "focus_left_lobe",
+        "focus_gallbladder",
+        "focus_bile_duct"
+      ]
+    }
+  ]
+}

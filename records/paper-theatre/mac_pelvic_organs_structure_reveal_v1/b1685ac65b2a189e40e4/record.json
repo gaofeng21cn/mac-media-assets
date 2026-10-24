@@ -1,0 +1,535 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_pelvic_organs_structure_reveal_v1",
+  "title": "盆腔器官·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "盆腔器官",
+      "逐层揭示",
+      "局部高亮",
+      "pelvic_organs"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "盆腔器官·逐层揭示与局部高亮",
+    "sample_duration_seconds": 10.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "女性盆腔正面投影示意，子宫连输卵管与两侧卵巢；膀胱为前方半透明投影，直肠为后方虚线投影。前后深度需结合侧视图解释，非同一冠状切面。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "adc7d4ef61b751a1cb434db7f1bef56f56ad4bc5182f15798eaf5d2a6a60bfd3",
+      "bytes": 724
+    },
+    {
+      "path": "assets/bladder_anterior_projection.png",
+      "role": "payload",
+      "sha256": "f6f4bc3d7e8e80b9165c79646a46f60dd7c76adb420568bfb3251f1fece34a64",
+      "bytes": 13030
+    },
+    {
+      "path": "assets/pelvis_bone.png",
+      "role": "payload",
+      "sha256": "82be709fc4a935e478f1012168e1de2a653b3246a0b353a8076dd1a45078afcf",
+      "bytes": 36459
+    },
+    {
+      "path": "assets/rectum_posterior_projection.png",
+      "role": "payload",
+      "sha256": "cf2aa36f1257b9998479969f0239c3af035874b64b0ffdcc6c7a3fd2fd97c737",
+      "bytes": 10380
+    },
+    {
+      "path": "assets/uterus_tubes_ovaries.png",
+      "role": "payload",
+      "sha256": "41eb7ca30750f7cfc145debc2f8ac252375bde879759812e231c464599da4873",
+      "bytes": 23711
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "4d75357e00117fb4e7f272bff1e4815d31fbb87a54f46a9772388704d7e7fbdc",
+      "bytes": 693
+    },
+    {
+      "path": "original/files/bladder_anterior_projection.png",
+      "role": "payload",
+      "sha256": "f6f4bc3d7e8e80b9165c79646a46f60dd7c76adb420568bfb3251f1fece34a64",
+      "bytes": 13030
+    },
+    {
+      "path": "original/files/pelvis_bone.png",
+      "role": "payload",
+      "sha256": "82be709fc4a935e478f1012168e1de2a653b3246a0b353a8076dd1a45078afcf",
+      "bytes": 36459
+    },
+    {
+      "path": "original/files/rectum_posterior_projection.png",
+      "role": "payload",
+      "sha256": "cf2aa36f1257b9998479969f0239c3af035874b64b0ffdcc6c7a3fd2fd97c737",
+      "bytes": 10380
+    },
+    {
+      "path": "original/files/uterus_tubes_ovaries.png",
+      "role": "payload",
+      "sha256": "41eb7ca30750f7cfc145debc2f8ac252375bde879759812e231c464599da4873",
+      "bytes": 23711
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "c319d4bedbbc438351263af078ebb898b5392372a715cca2cca5fbf2ad366c4a",
+      "bytes": 7441
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "7c15c29f390ed67d0414b06f02712987a2e115de4c958dbdc0712ad2025abe1c",
+      "bytes": 68255
+    },
+    {
+      "path": "original/source/bladder_anterior_projection.svg",
+      "role": "payload",
+      "sha256": "17bbef240d0ffce6bd0da60d0a34247da4b3cae05f381c7b8e21875eea798989",
+      "bytes": 266
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/pelvis_bone.svg",
+      "role": "payload",
+      "sha256": "26336c54a2223259f0098c4c7fb9f4f20747e2c5982376a32edd5b6462819961",
+      "bytes": 429
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "c3c0b7c6e91d018f74476dfd15a538435cf22581f5e79cb914e1fc6852966020",
+      "bytes": 1452
+    },
+    {
+      "path": "original/source/rectum_posterior_projection.svg",
+      "role": "payload",
+      "sha256": "d508f5358d1e7bca9d5226f235f25c344124539609f9191a94a986855aaf7382",
+      "bytes": 244
+    },
+    {
+      "path": "original/source/uterus_tubes_ovaries.svg",
+      "role": "payload",
+      "sha256": "ab14133d55f29d4615cc9e708c9e89ed5b29848a6889839c6119a1c951938a8c",
+      "bytes": 804
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "d1418aec25448eb8f8515695f9835af126c029f6fac66fc15e237003ae0deda6",
+      "bytes": 376
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "38b5d12e0403fc3981550664e29ec18e5e2815cee19777d4a66551a0d3b88621",
+      "bytes": 7801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "45ca169fe1e50a529ad3729ecf2dbec31c00fe314f9215fd0fd7d05ea76ff6fc",
+      "bytes": 110857
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "47ccac52012b94685ab0fb7c0a23edb286ee0034e2f0fb2e164aa84113f0c576",
+      "bytes": 105214
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "59e7c59137c999811665e70a4614e90f376c1aca94048694330d97f168548470",
+      "bytes": 112294
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "a805cd719afccd41f80216b1f378a0d14a91b8cf346feb1430a5261113755b3d",
+      "bytes": 50244
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "5b7de8ec229528019cec1c647b0480b645b1054752658b8dc5d10dfe2b07ca3b",
+      "bytes": 139619
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "382c8cf3e584b5d5cf6dffbc9bcf8c073493771a3166e17b5c734154911bbd1c",
+      "bytes": 132390
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "109e6d17c14630f98a73206406a8c73e25c8ed8f1f25704a781b3d0e3b8194ae",
+      "bytes": 141615
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "0ac8b3a5e0654fae0a52207543bb5744bfb0a6bfad0614d8e536d4ad27a9b641",
+      "bytes": 28572
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "d69041dbd44dfeb514bc4f94afa762692e366ac4d9c7557686f5b0470284c750",
+      "bytes": 249967
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "7db20296eb786d6a4e60675a96166491710fbb733c31cb162ed422cd0e19fcb4",
+      "bytes": 295968
+    },
+    {
+      "path": "samples/focus-phone/0-pelvis_bone-color.png",
+      "role": "payload",
+      "sha256": "ed723248f5a25a72ea625c9239e7d25a6fa58991896dab31d2e5a71e04b63f67",
+      "bytes": 25945
+    },
+    {
+      "path": "samples/focus-phone/0-pelvis_bone-dark.png",
+      "role": "payload",
+      "sha256": "884dece92fba00f68c37d9758ae3871ce4dba1964b393b0037c90c1971369940",
+      "bytes": 25849
+    },
+    {
+      "path": "samples/focus-phone/0-pelvis_bone-light.png",
+      "role": "payload",
+      "sha256": "84e6943c1df1beb1d9b4a2fdaef66fedabd7f62ccd435afeba6b07b581388021",
+      "bytes": 25136
+    },
+    {
+      "path": "samples/focus-phone/0-pelvis_bone.png",
+      "role": "payload",
+      "sha256": "84e6943c1df1beb1d9b4a2fdaef66fedabd7f62ccd435afeba6b07b581388021",
+      "bytes": 25136
+    },
+    {
+      "path": "samples/focus-phone/1-rectum_posterior_projection-color.png",
+      "role": "payload",
+      "sha256": "07e0b8118ee2fb834dafc709d851a0dbefa111428a6365594f36d516426034e9",
+      "bytes": 26894
+    },
+    {
+      "path": "samples/focus-phone/1-rectum_posterior_projection-dark.png",
+      "role": "payload",
+      "sha256": "9017ce878f1c9ac62092812a6cb90fbc6e6252c73515dbbe213bb4abb9abea7c",
+      "bytes": 26018
+    },
+    {
+      "path": "samples/focus-phone/1-rectum_posterior_projection-light.png",
+      "role": "payload",
+      "sha256": "65de54e7b7b1bd7f469f926e49df91a2249a66ff825f07880fd5398e1b133062",
+      "bytes": 26719
+    },
+    {
+      "path": "samples/focus-phone/1-rectum_posterior_projection.png",
+      "role": "payload",
+      "sha256": "65de54e7b7b1bd7f469f926e49df91a2249a66ff825f07880fd5398e1b133062",
+      "bytes": 26719
+    },
+    {
+      "path": "samples/focus-phone/2-uterus_tubes_ovaries-color.png",
+      "role": "payload",
+      "sha256": "d476fe3bc76f75d9f2078d606931a9623ffaf702d9429fd8723a20f7f653f62b",
+      "bytes": 29209
+    },
+    {
+      "path": "samples/focus-phone/2-uterus_tubes_ovaries-dark.png",
+      "role": "payload",
+      "sha256": "2b22ed2289b3ddd2bfe601e287874dec65270ac03d1e8abdd705ba84f9dc0a58",
+      "bytes": 28585
+    },
+    {
+      "path": "samples/focus-phone/2-uterus_tubes_ovaries-light.png",
+      "role": "payload",
+      "sha256": "8e887b397edf7b1a28d414803792e3aff3dc539b69f11505b6d31532e04a8344",
+      "bytes": 28428
+    },
+    {
+      "path": "samples/focus-phone/2-uterus_tubes_ovaries.png",
+      "role": "payload",
+      "sha256": "8e887b397edf7b1a28d414803792e3aff3dc539b69f11505b6d31532e04a8344",
+      "bytes": 28428
+    },
+    {
+      "path": "samples/focus-phone/3-bladder_anterior_projection-color.png",
+      "role": "payload",
+      "sha256": "9570e9cbb0abca65112397af96203956a46fb8bc8689aa98c61d0497cb4744ee",
+      "bytes": 27299
+    },
+    {
+      "path": "samples/focus-phone/3-bladder_anterior_projection-dark.png",
+      "role": "payload",
+      "sha256": "eed8aaed3dbd0e20f5557ce6e31dcf0a71b21794d88a447bb76226600601de35",
+      "bytes": 26209
+    },
+    {
+      "path": "samples/focus-phone/3-bladder_anterior_projection-light.png",
+      "role": "payload",
+      "sha256": "6bbcb4974abbb95e42aa2ffd24bcce16f98adc1396cede5a2d205e399c52783b",
+      "bytes": 27134
+    },
+    {
+      "path": "samples/focus-phone/3-bladder_anterior_projection.png",
+      "role": "payload",
+      "sha256": "6bbcb4974abbb95e42aa2ffd24bcce16f98adc1396cede5a2d205e399c52783b",
+      "bytes": 27134
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "109e6d17c14630f98a73206406a8c73e25c8ed8f1f25704a781b3d0e3b8194ae",
+      "bytes": 141615
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "109e6d17c14630f98a73206406a8c73e25c8ed8f1f25704a781b3d0e3b8194ae",
+      "bytes": 141615
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "4f298bd4a4922cb8f1a9744ee34f7b6c386e321b8aa55eddb66628337415f8df",
+      "bytes": 68628
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "094e7a827bfae278605e422030ccffe4bc40fa72301473579762bee5fe74e714",
+      "bytes": 106003
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "094e7a827bfae278605e422030ccffe4bc40fa72301473579762bee5fe74e714",
+      "bytes": 106003
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "af456ecf8f30a413ad688d54f4e76f9138e7efceb700e4c6aa5eb7fb5affe80e",
+      "bytes": 112814
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "af456ecf8f30a413ad688d54f4e76f9138e7efceb700e4c6aa5eb7fb5affe80e",
+      "bytes": 112814
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "153f0d21d9edf779f974f592ccc061783b7aa84bb1f1338005b915bee6ee564f",
+      "bytes": 132864
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "153f0d21d9edf779f974f592ccc061783b7aa84bb1f1338005b915bee6ee564f",
+      "bytes": 132864
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "5193291cca3158aba63085f0dda98d50d16457b9b2c619e8f9be046eac0a0535",
+      "bytes": 141091
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "5193291cca3158aba63085f0dda98d50d16457b9b2c619e8f9be046eac0a0535",
+      "bytes": 141091
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "fbf3ee12ad60ba428eb6cd648daa3154703ffe9f29ba7498f78fa9883108ddf3",
+      "bytes": 123902
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "fbf3ee12ad60ba428eb6cd648daa3154703ffe9f29ba7498f78fa9883108ddf3",
+      "bytes": 123902
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "fbf3ee12ad60ba428eb6cd648daa3154703ffe9f29ba7498f78fa9883108ddf3",
+      "bytes": 123902
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "0f9d093fd43ff22e2588e5e13de154bd5a079a487025b339cb2f124fc8ba1085",
+      "bytes": 129902
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "0f9d093fd43ff22e2588e5e13de154bd5a079a487025b339cb2f124fc8ba1085",
+      "bytes": 129902
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "0f9d093fd43ff22e2588e5e13de154bd5a079a487025b339cb2f124fc8ba1085",
+      "bytes": 129902
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "89e6c33ef5ebe492135348553ec4120980ae32abaa95884e1781e63b32193a2c",
+      "bytes": 140402
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "89e6c33ef5ebe492135348553ec4120980ae32abaa95884e1781e63b32193a2c",
+      "bytes": 140402
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "89e6c33ef5ebe492135348553ec4120980ae32abaa95884e1781e63b32193a2c",
+      "bytes": 140402
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "415a7463f6617e182cb7cd16bfe1ed2ac369fe844816be11c3f4dd2d92f1f1c8",
+      "bytes": 133788
+    },
+    {
+      "path": "samples/keyframes/21.png",
+      "role": "payload",
+      "sha256": "415a7463f6617e182cb7cd16bfe1ed2ac369fe844816be11c3f4dd2d92f1f1c8",
+      "bytes": 133788
+    },
+    {
+      "path": "samples/keyframes/22.png",
+      "role": "payload",
+      "sha256": "53d95243118aecc6fab6eb6de28f2fe81f0b1d1918f70294a8fdaab6326e754e",
+      "bytes": 127546
+    },
+    {
+      "path": "samples/keyframes/23.png",
+      "role": "payload",
+      "sha256": "109e6d17c14630f98a73206406a8c73e25c8ed8f1f25704a781b3d0e3b8194ae",
+      "bytes": 141615
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "e7863c4d44c5e95d13a2460c1c03ee3e168e1ab88ba53abf30999553536f19be",
+      "bytes": 42196
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "09af0c2a19116c361a0b2ecf3b6072df6b797bbda0468543cb4cfb883d241762",
+      "bytes": 22856
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "f14f8da54d1e31775965df70b8035df8dff080e8abc49802d833cf09ece9cc71",
+      "bytes": 372728
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "4edb4e5a580aa8d90fea5be1064e88f6dc57704c0543a70d1ce7f23e4fb4770e",
+      "bytes": 19624
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "10818aaf9459a8652624a18d15e77521844f10c1982644b20bd41f47d8ad5993",
+      "bytes": 6932
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "b1685ac65b2a189e40e4"
+}

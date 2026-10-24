@@ -1,0 +1,574 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 197,
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "d1c546584553cf59d06eec4bfd9c0a811f60f2de4f79618736fa5a5594b771c4",
+    "assets/breast_outline.png": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18",
+    "assets/gland_tissue.png": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c",
+    "assets/ducts.png": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png"
+  ],
+  "states": [
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 0,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 0.96,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 1,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 1.32,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "breast_outline"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 1.8,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "breast_outline"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 2.12,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 2.6,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 2.92,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 3.8,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 4.1,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 0.5384615384615384,
+        "x": 169.84615384615387,
+        "y": 79
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 4.9,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 0.5384615384615384,
+        "x": 169.84615384615387,
+        "y": 79
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 5,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 0.5384615384615384,
+        "x": 169.84615384615387,
+        "y": 79
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 5.3,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.3734177215189873,
+        "x": -319.57278481012656,
+        "y": -304.3607594936709
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 6.1,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 1.3734177215189873,
+        "x": -319.57278481012656,
+        "y": -304.3607594936709
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 6.2,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.3734177215189873,
+        "x": -319.57278481012656,
+        "y": -304.3607594936709
+      },
+      "opacities": [
+        0.17,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue",
+        "focus_ducts"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 6.5,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.3695652173913044,
+        "x": -326.36956521739137,
+        "y": -327.1521739130435
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue",
+        "focus_ducts"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 7.3,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 1.3695652173913044,
+        "x": -326.36956521739137,
+        "y": -327.1521739130435
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue",
+        "focus_ducts"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 7.4,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 1.3695652173913044,
+        "x": -326.36956521739137,
+        "y": -327.1521739130435
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue",
+        "focus_ducts"
+      ]
+    },
+    {
+      "study": "mac_breast_structure_reveal_v1",
+      "time": 8.2,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 0.71671388101983,
+        "x": 79.81019830028328,
+        "y": -13.691218130311597
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "breast_outline",
+        "gland_tissue",
+        "ducts"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_breast_outline",
+        "reveal_gland_tissue",
+        "reveal_ducts",
+        "focus_breast_outline",
+        "focus_gland_tissue",
+        "focus_ducts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_child_boy_seated_scale_v2",
+  "title": "男童低椅完整坐姿",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "mode": "built_in_edit",
+    "generation_file": "exec-997b43bc-fa84-4579-a984-293ed658dcb5.png",
+    "identity_reference": "paper:character_child_boy_stand_v1@d901483f1841ad102f40",
+    "identity_reference_sha256": "4717b00fe4ba1d690d416e56c57ebce6da2c21a015a4757117688e8e15a8eaf1"
+  },
+  "tags": [
+    "完整人物",
+    "坐姿",
+    "身体标尺",
+    "child_boy"
+  ],
+  "content_bounds": [
+    163,
+    88,
+    985,
+    1461
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.703125,
+      "y": 0.9505208333333334
+    },
+    "anchors": {
+      "head": {
+        "x": 0.439453125,
+        "y": 0.059244791666666664
+      },
+      "feet": {
+        "x": 0.703125,
+        "y": 0.9505208333333334
+      },
+      "seat": {
+        "x": 0.322265625,
+        "y": 0.662109375
+      }
+    }
+  },
+  "human_scale": {
+    "nominal_height_cm": 128,
+    "height_status": "authored_design_reference",
+    "scale_family": "child_boy_cn",
+    "pose": "seated",
+    "subject": "character",
+    "source_sha256": "817aece8e83347dd8ee80b277beb0acaa7f6c452f4120fa78e11161b441e50ce",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "817aece8e83347dd8ee80b277beb0acaa7f6c452f4120fa78e11161b441e50ce",
+      "source_size": {
+        "width": 1024,
+        "height": 1536
+      },
+      "from": {
+        "x": 0.439453125,
+        "y": 0.059244791666666664
+      },
+      "to": {
+        "x": 0.439453125,
+        "y": 0.2903645833333333
+      },
+      "span_cm": 27.4,
+      "basis": "同身份站姿身体段配准头段[[450, 91], [450, 446]]，对应27.4cm；脚底和椅面单独登记；待共同标尺实际试装，不由生成文字批准。"
+    }
+  },
+  "usage_notes": "人物和椅子为完整固定姿态；同场按身体段密度配准，不按整件宽高匹配。当前静态组合审查、连续动作与医学分别记录。",
+  "review": {
+    "static_combination": "pending",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "817aece8e83347dd8ee80b277beb0acaa7f6c452f4120fa78e11161b441e50ce",
+      "bytes": 2085617
+    }
+  ],
+  "revision": "4b23ec748dad9d9a679a"
+}

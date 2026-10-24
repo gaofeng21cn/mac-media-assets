@@ -1,0 +1,463 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_breast_structure_reveal_v1",
+  "title": "乳腺·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "乳腺",
+      "逐层揭示",
+      "局部高亮",
+      "breast"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "乳腺·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "乳腺侧视外形示意，附腺体区与乳管走向；不表示肿块大小、分期或触诊结论。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "08a5e00685fce1dd08968e935bd20f979ee0352d4acb657a74473ba51b4b7ca7",
+      "bytes": 621
+    },
+    {
+      "path": "assets/breast_outline.png",
+      "role": "payload",
+      "sha256": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18",
+      "bytes": 23256
+    },
+    {
+      "path": "assets/ducts.png",
+      "role": "payload",
+      "sha256": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe",
+      "bytes": 12599
+    },
+    {
+      "path": "assets/gland_tissue.png",
+      "role": "payload",
+      "sha256": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c",
+      "bytes": 14569
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "50b156e2a2762af0aa0f64a81106cfa8a6f62da5d99417ff92d561afdaefd5af",
+      "bytes": 597
+    },
+    {
+      "path": "original/files/breast_outline.png",
+      "role": "payload",
+      "sha256": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18",
+      "bytes": 23256
+    },
+    {
+      "path": "original/files/ducts.png",
+      "role": "payload",
+      "sha256": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe",
+      "bytes": 12599
+    },
+    {
+      "path": "original/files/gland_tissue.png",
+      "role": "payload",
+      "sha256": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c",
+      "bytes": 14569
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "228f55952024f7af6b4c9498ea2169ab736eea44198781237e69ee9650655bc5",
+      "bytes": 5823
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "f39cf8f6e315b2db9f4d1f76fc8eee759ad73e6e1296b0707375f5868467ff51",
+      "bytes": 39687
+    },
+    {
+      "path": "original/source/breast_outline.svg",
+      "role": "payload",
+      "sha256": "0847a727ae6cbfb8d3d7f52dc2518a891bbde018695b0be7329ac53f5e691f66",
+      "bytes": 374
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/ducts.svg",
+      "role": "payload",
+      "sha256": "fc17bf53ad400373a0a9dd671e28f82f597677737d773779c53d3689cf70425f",
+      "bytes": 405
+    },
+    {
+      "path": "original/source/gland_tissue.svg",
+      "role": "payload",
+      "sha256": "d0dbbebe4c50e744596c0c537a1764eae60077ee0a4ab5dd765044350f555e59",
+      "bytes": 268
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "0ef4bc39f2b9553e19cf3a72dfeb1c24dfd1701d2a48772cc1309aafa34407fc",
+      "bytes": 853
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "ce5a0d2eb0414292ae7a1932fbabfcfec1e7b8e56124f2413c8d257189c79efd",
+      "bytes": 369
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "9f4d3c636ea2211aefd4d77effa401857e68066d9d9dd661e7388bfc42d8f8f8",
+      "bytes": 6518
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "ed99a4bca7d1f3293c68824240998f6279299f530419deab7d4642d55cd0dce2",
+      "bytes": 60781
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "64204011d74907c6f53d6a22332efaf43467ea5c09c1a955ff5fe6548bc611b2",
+      "bytes": 58545
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "e11eb8b9ba67a38c193b2db76f29baf0e396f8daaec64333424cb782362450a7",
+      "bytes": 60897
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "740f747503341620e9598e30a460f56654b7f0b808cd34cdac289cabe0506564",
+      "bytes": 38921
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "ec27e3a535e4939cdce8c3ddc040c7df66c85c9a1b1db842f0efcaae9b8930e0",
+      "bytes": 67036
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "b490b9ffcc645bdb00d11956b6e8bac1f47395f124d96ecd59d564b8c8912583",
+      "bytes": 65001
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+      "bytes": 67210
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "09fc0e18518729b0eb0959bf66f13a05ac340ebcc82d34adc08884fe5546043c",
+      "bytes": 13678
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "c0a10efb9b9af1c65f663299a6c9f52ef55400a8b6315aec0e08fde4ed523546",
+      "bytes": 139045
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "aeccf1aef32329a286122ff25b6de6b6a587c1a138f748a6325b9af859f04d02",
+      "bytes": 169544
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline-color.png",
+      "role": "payload",
+      "sha256": "58b04ac7b218b68d7e72bb5415966d125f3dd8e5f001c89c256190f4b4c4bb84",
+      "bytes": 14256
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline-dark.png",
+      "role": "payload",
+      "sha256": "a1732c927bb0dacb96bfe3cff19c597ae016f5bbf4d71b470ee3e961076e9edd",
+      "bytes": 14235
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline-light.png",
+      "role": "payload",
+      "sha256": "778fd9cbdb89fca62f9ddf86f913094707973e4b2e74a0ae996a0ae4b6d38138",
+      "bytes": 13551
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline.png",
+      "role": "payload",
+      "sha256": "778fd9cbdb89fca62f9ddf86f913094707973e4b2e74a0ae996a0ae4b6d38138",
+      "bytes": 13551
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue-color.png",
+      "role": "payload",
+      "sha256": "2b902686cc306d01848007b21ec48917ea953a2c54b23ee1e9918115d0bda22d",
+      "bytes": 19349
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue-dark.png",
+      "role": "payload",
+      "sha256": "26371aa5403a8d912e8ca91d77e913a0c9a43600f17484b500659a36daba3b08",
+      "bytes": 19141
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue-light.png",
+      "role": "payload",
+      "sha256": "49e40f68aaa9b840f61bdddcf25ace334b5e55e3d72aaeaa7d0143b2b9341aa5",
+      "bytes": 18997
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue.png",
+      "role": "payload",
+      "sha256": "49e40f68aaa9b840f61bdddcf25ace334b5e55e3d72aaeaa7d0143b2b9341aa5",
+      "bytes": 18997
+    },
+    {
+      "path": "samples/focus-phone/2-ducts-color.png",
+      "role": "payload",
+      "sha256": "1a67e475a3fe19fa8527d3f5f16e7d6808f461eba488b91b94f43698eff2a2cd",
+      "bytes": 19127
+    },
+    {
+      "path": "samples/focus-phone/2-ducts-dark.png",
+      "role": "payload",
+      "sha256": "68533f31c2c08c563ed12622c6dd8a7ed3de307df67eba94ec077f0263c23782",
+      "bytes": 18720
+    },
+    {
+      "path": "samples/focus-phone/2-ducts-light.png",
+      "role": "payload",
+      "sha256": "1585154ca6137fdc8a5bacc57cec9c1fb64bb71ea358f84570545e848e7c3b0f",
+      "bytes": 18787
+    },
+    {
+      "path": "samples/focus-phone/2-ducts.png",
+      "role": "payload",
+      "sha256": "1585154ca6137fdc8a5bacc57cec9c1fb64bb71ea358f84570545e848e7c3b0f",
+      "bytes": 18787
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+      "bytes": 67210
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+      "bytes": 67210
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "762d5c50a6d20cc894c17c02f2deb731613271fb029813e3b560fc510cdcf234",
+      "bytes": 42375
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "c06c293dc414da6b772506801cf9379209157e3e013f74fb0682e5ca61611521",
+      "bytes": 54584
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "c06c293dc414da6b772506801cf9379209157e3e013f74fb0682e5ca61611521",
+      "bytes": 54584
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "e7e1fe3b08846073cc4559c8f8628f45621cad8da624cf702d2941cdb8596735",
+      "bytes": 61098
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "e7e1fe3b08846073cc4559c8f8628f45621cad8da624cf702d2941cdb8596735",
+      "bytes": 61098
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "fb32f7886909b82a7260b7921d434d000199da2f449467697b9d9e6d1b02b0bd",
+      "bytes": 66662
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "fb32f7886909b82a7260b7921d434d000199da2f449467697b9d9e6d1b02b0bd",
+      "bytes": 66662
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "cf025230c8dad6cc363ee590f629c0b7589da40642cd45914c3c335b3368808e",
+      "bytes": 65907
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "cf025230c8dad6cc363ee590f629c0b7589da40642cd45914c3c335b3368808e",
+      "bytes": 65907
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "cf025230c8dad6cc363ee590f629c0b7589da40642cd45914c3c335b3368808e",
+      "bytes": 65907
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "eeddad9807fe1a803f602771e2576e7dc5b377b839be7d7ae7d65ee0bf8b3296",
+      "bytes": 96048
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "eeddad9807fe1a803f602771e2576e7dc5b377b839be7d7ae7d65ee0bf8b3296",
+      "bytes": 96048
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "486d1cdbacb95fb8c5591d9bda5bbc5387116d231d1989ac355858ea9255c7b9",
+      "bytes": 96512
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "0615c379a50f94275e48250bed9e4b0a960dbdab21239855986aa3700f86824f",
+      "bytes": 93775
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "0615c379a50f94275e48250bed9e4b0a960dbdab21239855986aa3700f86824f",
+      "bytes": 93775
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "622a39d9b002499fc5483a33a43fe32d793f8749e32eb0605020287412d572ec",
+      "bytes": 87647
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+      "bytes": 67210
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "fc456c5c459fbe0dc1995cd5b78352f0570ff9b97a579b10be80832e5ac7a63f",
+      "bytes": 20302
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "1e0785e68f8c9fa64992eadbbae9163e2f8aafd2a144822c1b339c13c56c1943",
+      "bytes": 12663
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "451275cce27bfc95981e32f54786744c12b224ca1016a32d64b5f175836c3784",
+      "bytes": 175643
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "09eb202e76a0d7d052b0fcbf09797676ba6d3de0a31b91fc9cf5bb5494b12ce9",
+      "bytes": 12798
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "d1c546584553cf59d06eec4bfd9c0a811f60f2de4f79618736fa5a5594b771c4",
+      "bytes": 5207
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "c2c652dca8011d8947c2"
+}

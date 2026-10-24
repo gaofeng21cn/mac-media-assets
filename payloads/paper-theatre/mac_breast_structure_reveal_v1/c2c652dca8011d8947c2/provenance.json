@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_breast_detailed_layers_v1@8da7f1dfde15864ade57",
+      "portable_record_sha256": "228f55952024f7af6b4c9498ea2169ab736eea44198781237e69ee9650655bc5"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

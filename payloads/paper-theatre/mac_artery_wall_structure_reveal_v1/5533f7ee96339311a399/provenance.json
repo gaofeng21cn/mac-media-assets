@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_artery_detailed_layers_v1@80bb1a5208afeb48a63c",
+      "portable_record_sha256": "1e865f57d61e7ba2c0193f2a88bc5603d5f0c67ebc8ac201fd8d0e161839fbf0"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_blood_cell_detailed_layers_v1@ce29ed0bfaf5a94df233",
+      "portable_record_sha256": "da6e9715d781d96a660e52ed598c7b5e5da9bea794c09241ed7d812893da79c1"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

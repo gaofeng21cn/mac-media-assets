@@ -1,0 +1,1437 @@
+{
+  "schema": "mac_character_identity_baseline/v1",
+  "families_order": [
+    "adult_man_cn_green_red",
+    "adult_woman_cn_abpm",
+    "adult_woman_cn_mustard",
+    "child_boy_cn",
+    "child_girl_cn",
+    "clinician_man_cn",
+    "clinician_woman_cn",
+    "generic_lying_blue_tank",
+    "generic_presenter_blue_suit",
+    "older_brother_cn",
+    "older_man_cn",
+    "older_woman_cn",
+    "pregnant_woman_cn",
+    "teen_boy_cn",
+    "teen_girl_cn",
+    "young_man_cn"
+  ],
+  "policy": "生产只使用本表登记的身份；跨镜连续表演在同一身份家族内选姿态。未登记的素材不得作为生产人物推荐。",
+  "families": {
+    "adult_woman_cn_mustard": {
+      "label": "中国成年女性·芥黄开衫青绿长裤（生产女性患者基线）",
+      "style": "watercolor_paper_craft",
+      "note": "库内中文成年女性唯一贯穿身份；stand/walk/seated/reach/side 与库内 character_adult_woman_* 同一人。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_adult_woman_pregnant_v1": {
+          "asset_id": "paper:character_adult_woman_pregnant_v1@16df74f882fbd544e1f6",
+          "revision": "16df74f882fbd544e1f6",
+          "pose": "stand_pregnant",
+          "payload_sha256": "e73b601e052658ed9feeffa1a8841a3e0a8935a650bb6b33bb1493ca7781d80a",
+          "content_bounds": [
+            321,
+            15,
+            723,
+            1519
+          ],
+          "revision_selection": "reviewed_complete_pose",
+          "note": "同母版短发、面部、开衫、裤装和鞋连续；孕腹变化不改变角色设计身高，不作为孕周判断。"
+        },
+        "character_adult_woman_nursing_v1": {
+          "asset_id": "paper:character_adult_woman_nursing_v1@a6aff7e5e135dae9e132",
+          "revision": "a6aff7e5e135dae9e132",
+          "pose": "seated_nursing",
+          "payload_sha256": "73cc68475a0b3c0f2299ab1ef98645ee5eaa0cb11afd497fc665fadf7c7bbb4e",
+          "content_bounds": [
+            152,
+            19,
+            972,
+            1492
+          ],
+          "revision_selection": "reviewed_complete_pose",
+          "note": "以本家族站姿为参考，已看完整母婴与椅子；抱婴儿为固定姿态，不声明连续喂养动作。"
+        },
+        "reserve_person_stand_v1": {
+          "asset_id": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
+          "revision": "4b5293ee4731114cfac1",
+          "pose": "stand",
+          "payload_sha256": "33d86e60a5478f62c1b86c150a4e244da67d1cfcb9c23f280689efd333b23311",
+          "content_bounds": [
+            73,
+            26,
+            986,
+            1519
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "reserve_person_walk_v1": {
+          "asset_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
+          "revision": "64f9cb0a08e0312dbd4d",
+          "pose": "walk",
+          "payload_sha256": "3516260949062e79eab83f02b95d1555c10af79304590a76ad878f6691ee9ed8",
+          "content_bounds": [
+            0,
+            19,
+            1232,
+            1224
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "reserve_person_seated_v1": {
+          "asset_id": "paper:reserve_person_seated_v1@6663ae862534a6af39a1",
+          "revision": "6663ae862534a6af39a1",
+          "pose": "seated",
+          "payload_sha256": "03bbd34bb54d0e7bf598a107fde3c468d9c8d4707b985a3f4e5267d2f1f8820a",
+          "content_bounds": [
+            41,
+            38,
+            996,
+            1492
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "reserve_person_reach_v1": {
+          "asset_id": "paper:reserve_person_reach_v1@e160c989f583b79e7503",
+          "revision": "e160c989f583b79e7503",
+          "pose": "reach",
+          "payload_sha256": "ae40821b15d1ea52ce4b7bbe7463eea58ad2cc1fed3fc6f4109490cdf39d123e",
+          "content_bounds": [
+            25,
+            15,
+            1014,
+            1536
+          ],
+          "revision_selection": "latest_by_catalog_order",
+          "note": ""
+        },
+        "reserve_person_side_v1": {
+          "asset_id": "paper:reserve_person_side_v1@b0c0805e327702792c91",
+          "revision": "b0c0805e327702792c91",
+          "pose": "side_stand",
+          "payload_sha256": "780b9c182c959a5f78ef1aaca8ef23ad1f2c73b56034fd5936fd0a43ba14657f",
+          "content_bounds": [
+            19,
+            31,
+            1224,
+            1230
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_adult_woman_reach_v2": {
+          "asset_id": "paper:character_adult_woman_reach_v2@fd6d9e040165a718b8be",
+          "revision": "fd6d9e040165a718b8be",
+          "pose": "reach",
+          "payload_sha256": "1f8ce98bec59078a2c54805afabadda2094532fbeb90ab5f6c3c041d6416c7f7",
+          "content_bounds": [
+            301,
+            25,
+            942,
+            1511
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_adult_woman_lying_v2": {
+          "asset_id": "paper:character_adult_woman_lying_v2@d797e2eea498e1bcde6c",
+          "revision": "d797e2eea498e1bcde6c",
+          "pose": "lying",
+          "payload_sha256": "4e20d6cce8c044d253e283ac311ed4a9a01ab4b640b87e9b6a30fcd13b854edc",
+          "content_bounds": [
+            43,
+            285,
+            1744,
+            690
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_adult_woman_care_reach_v2": {
+          "asset_id": "paper:character_adult_woman_care_reach_v2@b94644c99ac58e2cd0d8",
+          "revision": "b94644c99ac58e2cd0d8",
+          "pose": "care_reach",
+          "payload_sha256": "8a2a49b61530fe8b93489acc31b04194827668973f582826f4fb03ff1c8d4555",
+          "content_bounds": [
+            257,
+            28,
+            890,
+            1513
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_carer_calling_v1": {
+          "asset_id": "paper:character_carer_calling_v1@8edf24b872eebe205841",
+          "revision": "8edf24b872eebe205841",
+          "pose": "calling",
+          "payload_sha256": "330f6950395e4aa647ac69087f6f5a153ca7e81e5a7c178e52d9dc01a0d575de",
+          "content_bounds": [
+            260,
+            16,
+            725,
+            1513
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "mac_adult_woman_seat_report_stand_v1": {
+          "asset_id": "paper:mac_adult_woman_seat_report_stand_v1@77bc7e9970af24261d42",
+          "revision": "77bc7e9970af24261d42",
+          "pose": "role_contact_unit",
+          "payload_sha256": "edec8a8c360ca9991de7c0c1b80e2a27a00deabe76377cc9ec5fe73b3d9da412",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
+            "sha256": "33d86e60a5478f62c1b86c150a4e244da67d1cfcb9c23f280689efd333b23311"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "adult_man_cn_green_red": {
+      "label": "中国成年男性·绿衫红裤（生产男性患者基线）",
+      "style": "watercolor_paper_craft",
+      "note": "与四套连续动作包同一身份；生产 75 集已在用。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_adult_man_stand_v1": {
+          "asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+          "revision": "6792f8b338fba0fae4b7",
+          "pose": "stand",
+          "payload_sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+          "content_bounds": [
+            0,
+            29,
+            1004,
+            1510
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_adult_man_walk_v1": {
+          "asset_id": "paper:character_adult_man_walk_v1@8f657fb158c5f96fd776",
+          "revision": "8f657fb158c5f96fd776",
+          "pose": "walk",
+          "payload_sha256": "f30cb89c4e070b4f1acedc332885c9d2337b1aa7714040a5f27d644e136930d7",
+          "content_bounds": [
+            183,
+            37,
+            861,
+            1481
+          ],
+          "revision_selection": "single_revision",
+          "note": ""
+        },
+        "character_adult_man_seated_v1": {
+          "asset_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454",
+          "revision": "46873c4ad97168218454",
+          "pose": "seated",
+          "payload_sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+          "content_bounds": [
+            87,
+            25,
+            1010,
+            1472
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_adult_man_reach_v1": {
+          "asset_id": "paper:character_adult_man_reach_v1@56ac1028ab1507772026",
+          "revision": "56ac1028ab1507772026",
+          "pose": "reach",
+          "payload_sha256": "20b94e379038682e82c67d535a76e39ad51f9b67baf094a836c7f8a7faa99f1c",
+          "content_bounds": [
+            234,
+            34,
+            912,
+            1456
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_adult_man_upper_abdomen_stool_v1": {
+          "asset_id": "paper:character_adult_man_upper_abdomen_stool_v1@e4f7937346069d896b37",
+          "revision": "e4f7937346069d896b37",
+          "pose": "seated_upper_abdomen_stool",
+          "payload_sha256": "b25eb9f60b3af6d0179c049073bc047ade2b39379ffd8b3f2d38a2a934b83003",
+          "content_bounds": [
+            143,
+            42,
+            945,
+            1490
+          ],
+          "revision_selection": "coverage_current",
+          "note": "同一人物，深蓝长裤坐木凳整件；与红裤版本下装不同。"
+        },
+        "character_man_alert_armchair_v1": {
+          "asset_id": "paper:character_man_alert_armchair_v1@9de53c9827f7ef4ef901",
+          "revision": "9de53c9827f7ef4ef901",
+          "pose": "seated_alert_armchair",
+          "payload_sha256": "f578e116b8da15dfac85ea8131492e542a668832ea35a2e50ace13d48db7e684",
+          "content_bounds": [
+            39,
+            48,
+            1001,
+            1496
+          ],
+          "revision_selection": "coverage_current",
+          "note": "同一人物，深蓝长裤坐扶手椅整件；与红裤版本下装不同。"
+        },
+        "character_man_unresponsive_armchair_v1": {
+          "asset_id": "paper:character_man_unresponsive_armchair_v1@1450525aa8a2df21c95e",
+          "revision": "1450525aa8a2df21c95e",
+          "pose": "seated_head_down_armchair",
+          "payload_sha256": "ab73e40c921f34955da82b5dac10811f261df15cb35ab9809719079a331f5309",
+          "content_bounds": [
+            54,
+            78,
+            977,
+            1465
+          ],
+          "revision_selection": "coverage_current",
+          "note": "同一人物，深蓝长裤低头坐扶手椅整件；与红裤版本下装不同。"
+        },
+        "male_patient_walk_20261023": {
+          "asset_id": "paper:male_patient_walk_20261023@694f4aa5318814a765ca",
+          "revision": "694f4aa5318814a765ca",
+          "pose": "walk",
+          "payload_sha256": "ebd4d3b612256618699b29862f7e2fa903787b8026e18f3e78c08d05fee16e72",
+          "content_bounds": [
+            219,
+            35,
+            895,
+            1464
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "male_patient_seated_identity_20261023": {
+          "asset_id": "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885",
+          "revision": "b84a668552591dd1d885",
+          "pose": "seated",
+          "payload_sha256": "338a28ebafa54c5127ff836e285c36289b72d039dda961ccf2f37c52117fa4f4",
+          "content_bounds": [
+            133,
+            38,
+            870,
+            1477
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_adult_man_alert_seated_scale_v2": {
+          "asset_id": "paper:character_adult_man_alert_seated_scale_v2@56c5f8313651f77cd734",
+          "revision": "56c5f8313651f77cd734",
+          "pose": "seated",
+          "payload_sha256": "d632b0aedcefaa39106e57bb9866687983733d5ac5dfd3b404f749aca16e2e2f",
+          "content_bounds": [
+            106,
+            149,
+            945,
+            1460
+          ],
+          "revision_selection": "reviewed_complete_low_chair_pose",
+          "note": "同身份完整固定坐姿与低椅，按身体段标尺与共同地面试装。"
+        },
+        "character_adult_man_unresponsive_seated_scale_v2": {
+          "asset_id": "paper:character_adult_man_unresponsive_seated_scale_v2@25c2e28b97c5f9798dfc",
+          "revision": "25c2e28b97c5f9798dfc",
+          "pose": "seated",
+          "payload_sha256": "d353f4a48d9f27d6d261d324dd11ed8dc06cdc78d40e67f93935a7b20dae3c16",
+          "content_bounds": [
+            105,
+            132,
+            947,
+            1429
+          ],
+          "revision_selection": "reviewed_complete_low_chair_pose",
+          "note": "同身份完整固定坐姿与低椅，按身体段标尺与共同地面试装。"
+        }
+      }
+    },
+    "clinician_man_cn": {
+      "label": "中国男性医生·白大褂蓝衬衫",
+      "style": "watercolor_paper_craft",
+      "note": "承担其他身份的医生；主讲身份由作者私有库承担。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_clinician_man_stand_v1": {
+          "asset_id": "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e",
+          "revision": "e3d6196ad0b8ca4dd44e",
+          "pose": "stand_explain",
+          "payload_sha256": "61f9aa2a4241be602eb576b123ffc005ef31caf18ff85b6e28ff2051e432492a",
+          "content_bounds": [
+            0,
+            27,
+            1000,
+            1512
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_clinician_man_seated_consult_v1": {
+          "asset_id": "paper:character_clinician_man_seated_consult_v1@1e7c4789c9d5699062e6",
+          "revision": "1e7c4789c9d5699062e6",
+          "pose": "seated_consult",
+          "payload_sha256": "87948d362075c6ac101ba4e95f0839b0af0badf699daf4ad6f3b0acb75f2f950",
+          "content_bounds": [
+            154,
+            44,
+            936,
+            1426
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_clinician_man_walk_v1": {
+          "asset_id": "paper:character_clinician_man_walk_v1@c23fff8f30de3664d71c",
+          "revision": "c23fff8f30de3664d71c",
+          "pose": "walk",
+          "payload_sha256": "d690a657767ac4804e0582bffcae1af0e5dab2383c1a275f22a62a13e98e240a",
+          "content_bounds": [
+            128,
+            32,
+            948,
+            1484
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_clinician_man_reach_v1": {
+          "asset_id": "paper:character_clinician_man_reach_v1@cbdeda9c62cdc10dd444",
+          "revision": "cbdeda9c62cdc10dd444",
+          "pose": "reach",
+          "payload_sha256": "3acc476188393db9f5492eec69cd578b20fdf68f73e8d95f7f0708b69a3bd137",
+          "content_bounds": [
+            263,
+            21,
+            885,
+            1505
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        }
+      }
+    },
+    "clinician_woman_cn": {
+      "label": "中国女性医生·白大褂灰绿内搭",
+      "style": "watercolor_paper_craft",
+      "note": "承担其他身份的医生；主讲身份由作者私有库承担。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_clinician_woman_stand_v2": {
+          "asset_id": "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4",
+          "revision": "ccfad54a4e7ecc453ae4",
+          "pose": "stand_explain",
+          "payload_sha256": "57fccddb65ca3beb0e392f086d716b32e31571be70321cb456ec71db80f76daf",
+          "content_bounds": [
+            266,
+            10,
+            877,
+            1514
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_clinician_woman_seated_consult_v2": {
+          "asset_id": "paper:character_clinician_woman_seated_consult_v2@dd714face12d3710de95",
+          "revision": "dd714face12d3710de95",
+          "pose": "seated_consult",
+          "payload_sha256": "da424768b5eff2a1bd3e660e498b27d75b5d39b0e18d615626ead6404ce158bf",
+          "content_bounds": [
+            162,
+            16,
+            960,
+            1483
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_clinician_woman_walk_v2": {
+          "asset_id": "paper:character_clinician_woman_walk_v2@e6d58c25dcef6d5aa7c5",
+          "revision": "e6d58c25dcef6d5aa7c5",
+          "pose": "walk",
+          "payload_sha256": "244ba3318e02b5a07bf5b0cf520e8161a6194eb69e1ea08a41d00c01a901319e",
+          "content_bounds": [
+            172,
+            11,
+            877,
+            1459
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_clinician_woman_reach_v2": {
+          "asset_id": "paper:character_clinician_woman_reach_v2@5f3388c282262124ba0a",
+          "revision": "5f3388c282262124ba0a",
+          "pose": "reach",
+          "payload_sha256": "d873fc23b389fe3601c2d081d596ef0e1ceba0f0ac220d4f05e41c68273be78e",
+          "content_bounds": [
+            243,
+            11,
+            936,
+            1511
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        }
+      }
+    },
+    "child_girl_cn": {
+      "label": "中国女童·黄毛衣蓝裤",
+      "style": "watercolor_paper_craft",
+      "note": "",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_child_girl_stand_v1": {
+          "asset_id": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019",
+          "revision": "ec63ad5c3eae8f16d019",
+          "pose": "stand",
+          "payload_sha256": "90f2dfe4829feaeb30d90ccf510f271d972afcb699b69a141c882c27592f7369",
+          "content_bounds": [
+            27,
+            23,
+            1004,
+            1473
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_child_girl_seated_v1": {
+          "asset_id": "paper:character_child_girl_seated_v1@239b0a6c03f7f6afe073",
+          "revision": "239b0a6c03f7f6afe073",
+          "pose": "seated",
+          "payload_sha256": "a245eaedf2c6fabdf5b04fd993f27c47090f884bc9e572aa8895fd4cfeb2fd79",
+          "content_bounds": [
+            215,
+            36,
+            906,
+            1477
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_child_girl_walk_v1": {
+          "asset_id": "paper:character_child_girl_walk_v1@429a205cc02b6c8dd048",
+          "revision": "429a205cc02b6c8dd048",
+          "pose": "walk",
+          "payload_sha256": "1606f5972232368fcc826dadbe6af8b45690e163c3b90f36e6c3b7def0ad2431",
+          "content_bounds": [
+            162,
+            57,
+            932,
+            1459
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_child_girl_reach_v1": {
+          "asset_id": "paper:character_child_girl_reach_v1@90c42ad4fb3b07730164",
+          "revision": "90c42ad4fb3b07730164",
+          "pose": "reach",
+          "payload_sha256": "96c33f09d9f83e1953d6c357ee0c4b947fa11197e4f2b66e07a49a171d3f5264",
+          "content_bounds": [
+            282,
+            51,
+            957,
+            1469
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "mac_child_girl_seat_report_stand_v1": {
+          "asset_id": "paper:mac_child_girl_seat_report_stand_v1@ea17c5496558afc3cc7e",
+          "revision": "ea17c5496558afc3cc7e",
+          "pose": "role_contact_unit",
+          "payload_sha256": "4552f6604baf20e691d2a8c550ab0916ee4c56a30e3b3c7d3d0ab58925d73ff7",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019",
+            "sha256": "90f2dfe4829feaeb30d90ccf510f271d972afcb699b69a141c882c27592f7369"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "child_boy_cn": {
+      "label": "中国男童·砖红毛衣深蓝裤",
+      "style": "watercolor_paper_craft",
+      "note": "",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_child_boy_stand_v1": {
+          "asset_id": "paper:character_child_boy_stand_v1@d901483f1841ad102f40",
+          "revision": "d901483f1841ad102f40",
+          "pose": "stand",
+          "payload_sha256": "4717b00fe4ba1d690d416e56c57ebce6da2c21a015a4757117688e8e15a8eaf1",
+          "content_bounds": [
+            324,
+            28,
+            738,
+            1506
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_child_boy_seated_v1": {
+          "asset_id": "paper:character_child_boy_seated_v1@0e2b211ef70c802defaa",
+          "revision": "0e2b211ef70c802defaa",
+          "pose": "seated",
+          "payload_sha256": "c48d88dc01371e6c6c059fdedcde0ef95729fa2db2b581c90fe0bfdf285e35ad",
+          "content_bounds": [
+            167,
+            21,
+            940,
+            1466
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_child_boy_walk_v1": {
+          "asset_id": "paper:character_child_boy_walk_v1@24ffc90514896625460c",
+          "revision": "24ffc90514896625460c",
+          "pose": "walk",
+          "payload_sha256": "6d8cd32824f7f7408fa59bb33241dac793e126514771dd2fdab63593bf688619",
+          "content_bounds": [
+            107,
+            29,
+            947,
+            1473
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_child_boy_reach_v1": {
+          "asset_id": "paper:character_child_boy_reach_v1@8fa72b53e36147b2c61b",
+          "revision": "8fa72b53e36147b2c61b",
+          "pose": "reach",
+          "payload_sha256": "28e61eac9e58ebd5147218601a595e5fb2e6edde2a4706b51c0f636bc585c678",
+          "content_bounds": [
+            273,
+            14,
+            933,
+            1512
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_child_boy_seated_scale_v2": {
+          "asset_id": "paper:character_child_boy_seated_scale_v2@4b23ec748dad9d9a679a",
+          "revision": "4b23ec748dad9d9a679a",
+          "pose": "seated",
+          "payload_sha256": "817aece8e83347dd8ee80b277beb0acaa7f6c452f4120fa78e11161b441e50ce",
+          "content_bounds": [
+            163,
+            88,
+            985,
+            1461
+          ],
+          "revision_selection": "reviewed_complete_low_chair_pose",
+          "note": "同身份完整固定坐姿与低椅，按身体段标尺与共同地面试装。"
+        },
+        "mac_child_boy_seat_report_stand_v1": {
+          "asset_id": "paper:mac_child_boy_seat_report_stand_v1@68c39c6ac1663f417401",
+          "revision": "68c39c6ac1663f417401",
+          "pose": "role_contact_unit",
+          "payload_sha256": "5008b02d648bd9a73eb40ef0e3fa84bd4ff7c79104157342ec921fcd86ed8a5a",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_child_boy_stand_v1@d901483f1841ad102f40",
+            "sha256": "4717b00fe4ba1d690d416e56c57ebce6da2c21a015a4757117688e8e15a8eaf1"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "teen_girl_cn": {
+      "label": "中国青少年女性·黄开衫长直发",
+      "style": "watercolor_paper_craft",
+      "note": "character_teen_girl_stand_v1 存在另一张不同发型/外套的修订版，见 withdrawn_members。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_teen_girl_stand_v1": {
+          "asset_id": "paper:character_teen_girl_stand_v1@699014f2978da454f37e",
+          "revision": "699014f2978da454f37e",
+          "pose": "stand",
+          "payload_sha256": "f9b55feccb9228cc2595c7fee621a4df73b98f5ba92de91f67dd4b6eb8c194a5",
+          "content_bounds": [
+            0,
+            0,
+            994,
+            1522
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_teen_girl_seated_v1": {
+          "asset_id": "paper:character_teen_girl_seated_v1@1e0754921bf1e7259bda",
+          "revision": "1e0754921bf1e7259bda",
+          "pose": "seated",
+          "payload_sha256": "dd38f7b18c35c9ab3299f0fc081f881450fd2c958daee285bf7997ea329fe9c2",
+          "content_bounds": [
+            232,
+            39,
+            966,
+            1456
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_teen_girl_walk_v1": {
+          "asset_id": "paper:character_teen_girl_walk_v1@885c531b3cdf94109327",
+          "revision": "885c531b3cdf94109327",
+          "pose": "walk",
+          "payload_sha256": "6e108c62055072f608c44fdc648c9bd7cb83a40f2029bea41f246ee2e19279dd",
+          "content_bounds": [
+            119,
+            18,
+            966,
+            1470
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_teen_girl_reach_v1": {
+          "asset_id": "paper:character_teen_girl_reach_v1@e08a0e42da339f30dd5a",
+          "revision": "e08a0e42da339f30dd5a",
+          "pose": "reach",
+          "payload_sha256": "1cdfd2b2ab7a01d872816d8b4f8093278b33338938b0ae563baac475c431c85c",
+          "content_bounds": [
+            284,
+            18,
+            913,
+            1524
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "mac_teen_girl_seat_report_stand_v1": {
+          "asset_id": "paper:mac_teen_girl_seat_report_stand_v1@b15d25f5a56c1d9c79b0",
+          "revision": "b15d25f5a56c1d9c79b0",
+          "pose": "role_contact_unit",
+          "payload_sha256": "21282508f5302783b469adb517969cae4c3e2275913fd4322208f29230213259",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_teen_girl_stand_v1@699014f2978da454f37e",
+            "sha256": "f9b55feccb9228cc2595c7fee621a4df73b98f5ba92de91f67dd4b6eb8c194a5"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "teen_boy_cn": {
+      "label": "中国男性青少年·蓝夹克",
+      "style": "watercolor_paper_craft",
+      "note": "",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_teen_boy_stand_v1": {
+          "asset_id": "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582",
+          "revision": "b6bd3358407ee1c1b582",
+          "pose": "stand",
+          "payload_sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e",
+          "content_bounds": [
+            306,
+            21,
+            722,
+            1515
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_teen_boy_seated_v1": {
+          "asset_id": "paper:character_teen_boy_seated_v1@14ffe9207fbb6401bab5",
+          "revision": "14ffe9207fbb6401bab5",
+          "pose": "seated",
+          "payload_sha256": "7b7b35c124ab727970e75a1e7fa345897faa66cd9c44570bf42e7db4ee016f3c",
+          "content_bounds": [
+            153,
+            27,
+            945,
+            1462
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_teen_boy_walk_v1": {
+          "asset_id": "paper:character_teen_boy_walk_v1@5c1ef5a58ad9fd5f4dd9",
+          "revision": "5c1ef5a58ad9fd5f4dd9",
+          "pose": "walk",
+          "payload_sha256": "b05503dc77d1d063717c484744f5162cdb5e77e59edf41e3b45b53551a3063be",
+          "content_bounds": [
+            113,
+            20,
+            932,
+            1447
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_teen_boy_reach_v1": {
+          "asset_id": "paper:character_teen_boy_reach_v1@1d129d0c53d3b59a0932",
+          "revision": "1d129d0c53d3b59a0932",
+          "pose": "reach",
+          "payload_sha256": "755792936f768f45e5009294a6d237e6f9b7c0f681a439d2e4f3ac2967ace59e",
+          "content_bounds": [
+            282,
+            11,
+            848,
+            1520
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "mac_teen_boy_seat_report_stand_v1": {
+          "asset_id": "paper:mac_teen_boy_seat_report_stand_v1@76c3699af8be9bb96442",
+          "revision": "76c3699af8be9bb96442",
+          "pose": "role_contact_unit",
+          "payload_sha256": "e544aeb22f34fb5ab3dffa54ccf7900d776d3f10faa973494e9519d3d8771739",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582",
+            "sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "young_man_cn": {
+      "label": "中国年轻成年男性·藏青毛衣卡其裤",
+      "style": "watercolor_paper_craft",
+      "note": "",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_young_man_stand_v1": {
+          "asset_id": "paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5",
+          "revision": "c6ac515b2a0e4b3824c5",
+          "pose": "stand",
+          "payload_sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88",
+          "content_bounds": [
+            264,
+            12,
+            735,
+            1508
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_young_man_seated_v1": {
+          "asset_id": "paper:character_young_man_seated_v1@6c24351380ba3d7b42ec",
+          "revision": "6c24351380ba3d7b42ec",
+          "pose": "seated",
+          "payload_sha256": "5b574948c83b7fba80b30efd3f62981bf908a3b3b72d11c93ba6bec69381bfa6",
+          "content_bounds": [
+            188,
+            32,
+            964,
+            1449
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_young_man_walk_v1": {
+          "asset_id": "paper:character_young_man_walk_v1@5dc00110903e0c383201",
+          "revision": "5dc00110903e0c383201",
+          "pose": "walk",
+          "payload_sha256": "e8103ae1ace7036929a965fb7c7e7c2b3532d7e71e9bb51aed06a42a4d6ad62a",
+          "content_bounds": [
+            153,
+            13,
+            894,
+            1426
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_young_man_reach_v1": {
+          "asset_id": "paper:character_young_man_reach_v1@e54ee8868155b2cabbe8",
+          "revision": "e54ee8868155b2cabbe8",
+          "pose": "reach",
+          "payload_sha256": "eb3b6ec0fdcd1c96084ca9b19f891ed32d0af971f12d2c531ce7883c8f740876",
+          "content_bounds": [
+            215,
+            12,
+            977,
+            1498
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "mac_young_man_seat_report_stand_v1": {
+          "asset_id": "paper:mac_young_man_seat_report_stand_v1@4e5c056cff995065ec14",
+          "revision": "4e5c056cff995065ec14",
+          "pose": "role_contact_unit",
+          "payload_sha256": "c42c7a839db5bf5c518b25acdc3234032f7b7ab005ca733b0c2a44a794d8a0d1",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5",
+            "sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "older_man_cn": {
+      "label": "中国老年男性·白发深绿衬衫",
+      "style": "watercolor_paper_craft",
+      "note": "扶杖与轮椅为带器整件；站坐转换只有中间姿态，完整坐立过程见公共动作包。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_older_man_stand_v1": {
+          "asset_id": "paper:character_older_man_stand_v1@8a52278239c0688e0b6c",
+          "revision": "8a52278239c0688e0b6c",
+          "pose": "stand",
+          "payload_sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f",
+          "content_bounds": [
+            240,
+            25,
+            769,
+            1473
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_man_seated_v1": {
+          "asset_id": "paper:character_older_man_seated_v1@466de326d81bf8a1ee61",
+          "revision": "466de326d81bf8a1ee61",
+          "pose": "seated",
+          "payload_sha256": "65c078b223ceed0f36802f709e07c9955cea1b9c9e5179fffbf43c0e7e032230",
+          "content_bounds": [
+            154,
+            32,
+            955,
+            1480
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_man_walk_v1": {
+          "asset_id": "paper:character_older_man_walk_v1@b82355ff8645f0304efb",
+          "revision": "b82355ff8645f0304efb",
+          "pose": "walk",
+          "payload_sha256": "87c3bb690282073304100079889967f2a247a3acc7e7c88daa6f1a635a760fd5",
+          "content_bounds": [
+            33,
+            39,
+            994,
+            1501
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_man_reach_v1": {
+          "asset_id": "paper:character_older_man_reach_v1@954bd84705afbe295740",
+          "revision": "954bd84705afbe295740",
+          "pose": "reach",
+          "payload_sha256": "b19d70f1c9d1e2a6d77271164188d602d688637acda1a62431420b970e79daaa",
+          "content_bounds": [
+            234,
+            46,
+            945,
+            1470
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_man_sit_transition_v1": {
+          "asset_id": "paper:character_older_man_sit_transition_v1@d553bbe1c0f192aa6a14",
+          "revision": "d553bbe1c0f192aa6a14",
+          "pose": "sit_transition",
+          "payload_sha256": "485a22e8b4ff6d300fc0b96c23d6673aa5808436e333dc6c628f25ca4ad9eee7",
+          "content_bounds": [
+            242,
+            44,
+            832,
+            1459
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_man_cane_v1": {
+          "asset_id": "paper:character_older_man_cane_v1@6858cfca3d92926852c9",
+          "revision": "6858cfca3d92926852c9",
+          "pose": "stand_with_cane",
+          "payload_sha256": "671a70c4e15adc80885a08b38000ecedd9fe0838c370343212427d50170cf384",
+          "content_bounds": [
+            228,
+            26,
+            829,
+            1468
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_man_wheelchair_v1": {
+          "asset_id": "paper:character_older_man_wheelchair_v1@d281630ee35eb59fc601",
+          "revision": "d281630ee35eb59fc601",
+          "pose": "seated_wheelchair",
+          "payload_sha256": "34159f2f9f51e92b9ce721d7f2f4d6c7d3adbee7c9e91db624b74a6226d8a7ef",
+          "content_bounds": [
+            41,
+            30,
+            1000,
+            1411
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "mac_older_man_seat_report_stand_v1": {
+          "asset_id": "paper:mac_older_man_seat_report_stand_v1@581f15b28a8f6e9b757c",
+          "revision": "581f15b28a8f6e9b757c",
+          "pose": "role_contact_unit",
+          "payload_sha256": "c02bc034391f057a29739c046f11f1838c23f57b3b60c2a723f42accfbdb35f2",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_older_man_stand_v1@8a52278239c0688e0b6c",
+            "sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "older_woman_cn": {
+      "label": "中国老年女性·白发浅绿开衫",
+      "style": "watercolor_paper_craft",
+      "note": "站坐转换只有中间姿态，完整坐立过程见公共动作包。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_older_woman_stand_v1": {
+          "asset_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+          "revision": "533448a63caf5fd9b120",
+          "pose": "stand",
+          "payload_sha256": "8eddd1227cb34a1799922137bee80073ca2c8be757f23f41966eaa38b9e8bf39",
+          "content_bounds": [
+            0,
+            47,
+            974,
+            1487
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_woman_seated_v1": {
+          "asset_id": "paper:character_older_woman_seated_v1@3a8b87ed39e8271800e8",
+          "revision": "3a8b87ed39e8271800e8",
+          "pose": "seated",
+          "payload_sha256": "bd73fddb1db536bfdabaa6a83dace2e34cb0ba77862e13e4e788413b9d591f93",
+          "content_bounds": [
+            198,
+            22,
+            938,
+            1461
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_woman_walk_v1": {
+          "asset_id": "paper:character_older_woman_walk_v1@309e90e14bda7862598e",
+          "revision": "309e90e14bda7862598e",
+          "pose": "walk",
+          "payload_sha256": "e15aafe510d3d543b5aa6f37c8903f9fbb2d07dabaa7af72c29a83ae17a2cf70",
+          "content_bounds": [
+            177,
+            50,
+            876,
+            1447
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_woman_reach_v1": {
+          "asset_id": "paper:character_older_woman_reach_v1@c27a1da4695926287cc1",
+          "revision": "c27a1da4695926287cc1",
+          "pose": "reach",
+          "payload_sha256": "838129cc9f079d42660233f05c5869b4649f5bc4d1732ae9d80a5a4d4913a068",
+          "content_bounds": [
+            303,
+            33,
+            940,
+            1500
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_older_woman_sit_transition_v1": {
+          "asset_id": "paper:character_older_woman_sit_transition_v1@85149c7d1f2e0d06b853",
+          "revision": "85149c7d1f2e0d06b853",
+          "pose": "sit_transition",
+          "payload_sha256": "6fbe97cabb0f91c13a6cc01cf1f219c6acc2d7fb87ba62e28e6bb1517885f5ce",
+          "content_bounds": [
+            233,
+            52,
+            801,
+            1454
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "mac_older_woman_seat_report_stand_v1": {
+          "asset_id": "paper:mac_older_woman_seat_report_stand_v1@e0e53e0208f7f965b056",
+          "revision": "e0e53e0208f7f965b056",
+          "pose": "role_contact_unit",
+          "payload_sha256": "aaf0c8dd250159bcc6ef9c8198194ebc355c0e4879803a90e1deeaf3f99a724c",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+            "sha256": "8eddd1227cb34a1799922137bee80073ca2c8be757f23f41966eaa38b9e8bf39"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        },
+        "mac_older_woman_bed_rest_v1": {
+          "asset_id": "paper:mac_older_woman_bed_rest_v1@2aca41d871b651678db8",
+          "revision": "2aca41d871b651678db8",
+          "pose": "bed_contact_unit",
+          "payload_sha256": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": null,
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "pregnant_woman_cn": {
+      "label": "中国孕妇·芥黄开衫青绿长裤（体型变体）",
+      "style": "watercolor_paper_craft",
+      "note": "与 adult_woman_cn_mustard 视觉同源（同一套服装与发型）；同镜出现需明确区分体型，不得当成两个人。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_pregnant_woman_stand_v1": {
+          "asset_id": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+          "revision": "5d532fdeb77505763bc5",
+          "pose": "stand",
+          "payload_sha256": "e8f74789d703cb48c2ea13a1dd05b6a030508736b808ebe3bd4dc22423e40c56",
+          "content_bounds": [
+            0,
+            29,
+            1004,
+            1517
+          ],
+          "revision_selection": "coverage_current",
+          "note": "与芥黄开衫成年女性视觉同源，此处为妊娠体型；同镜出现需明确体型区分。"
+        },
+        "character_pregnant_woman_seated_v1": {
+          "asset_id": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9",
+          "revision": "ced63033f84f410b65e9",
+          "pose": "seated",
+          "payload_sha256": "a366d989e897c55b0a06b09cb6e5c41e441c794b43eda43d58f5fdb26fb460b7",
+          "content_bounds": [
+            0,
+            30,
+            1002,
+            1492
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_pregnant_woman_walk_v1": {
+          "asset_id": "paper:character_pregnant_woman_walk_v1@04d5693954b22423a6c9",
+          "revision": "04d5693954b22423a6c9",
+          "pose": "walk",
+          "payload_sha256": "1fcfca8e29ebb1be86027ca44ed086de2928ecd7241ae7ca251e58cca5642c7c",
+          "content_bounds": [
+            194,
+            34,
+            903,
+            1441
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_pregnant_woman_reach_v1": {
+          "asset_id": "paper:character_pregnant_woman_reach_v1@860f8ed8a85f80e5c721",
+          "revision": "860f8ed8a85f80e5c721",
+          "pose": "reach",
+          "payload_sha256": "600090b44059af0a0fbd9a69512401273e60e33c55a08f734888a4ede72362b3",
+          "content_bounds": [
+            276,
+            25,
+            917,
+            1504
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        },
+        "character_pregnant_woman_seated_scale_v2": {
+          "asset_id": "paper:character_pregnant_woman_seated_scale_v2@df659ae0c18fc1a45fb5",
+          "revision": "df659ae0c18fc1a45fb5",
+          "pose": "seated",
+          "payload_sha256": "75a26c86699e3f46fdc7676f45205eb5ebd17d487c2f13c2f9177d9076b00e19",
+          "content_bounds": [
+            132,
+            35,
+            1017,
+            1449
+          ],
+          "revision_selection": "reviewed_complete_low_chair_pose",
+          "note": "同身份完整固定坐姿与低椅，按身体段标尺与共同地面试装。"
+        },
+        "mac_pregnant_woman_seat_report_stand_v1": {
+          "asset_id": "paper:mac_pregnant_woman_seat_report_stand_v1@aaa95674cb25cdcd55bd",
+          "revision": "aaa95674cb25cdcd55bd",
+          "pose": "role_contact_unit",
+          "payload_sha256": "52a62955a42d6e28816b399731104b51cce5b26f1380dc4d5f996d96caad45d5",
+          "revision_selection": "reviewed_complete_contact_sequence",
+          "identity_reference": {
+            "asset_id": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+            "sha256": "e8f74789d703cb48c2ea13a1dd05b6a030508736b808ebe3bd4dc22423e40c56"
+          },
+          "note": "完整人物与家具接触单元，人工锚点与同一身体标尺绑定源图；作为动作包取用，不冒充单张静态姿态。"
+        }
+      }
+    },
+    "generic_presenter_blue_suit": {
+      "label": "通用讲解者·蓝色西装（独立身份）",
+      "style": "watercolor_paper_craft",
+      "note": "原属通用人物，被登记为成年女性会与患者基线串人；单列为独立身份。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "reserve_person_pointing_v1": {
+          "asset_id": "paper:reserve_person_pointing_v1@fdce21068b193126c246",
+          "revision": "fdce21068b193126c246",
+          "pose": "pointing",
+          "payload_sha256": "514da9080b32ac3c90d8630a99265f40db59c09e13359b2b4b4b782cb9298e20",
+          "content_bounds": [
+            49,
+            61,
+            1002,
+            1505
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        }
+      }
+    },
+    "generic_lying_blue_tank": {
+      "label": "通用卧姿人物·蓝白背心（独立身份）",
+      "style": "watercolor_paper_craft",
+      "note": "原属通用人物；与成年女性基线不是同一人，单列。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "reserve_person_lying_v1": {
+          "asset_id": "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2",
+          "revision": "db0cfd0463ccf151b5c2",
+          "pose": "lying",
+          "payload_sha256": "0c21f2cfa4821b3a50b77fc110ab0a9e8954ab3f875037163cfde3f9e8e60bd8",
+          "content_bounds": [
+            29,
+            318,
+            1417,
+            787
+          ],
+          "revision_selection": "latest_by_catalog_order",
+          "note": ""
+        }
+      }
+    },
+    "adult_woman_cn_abpm": {
+      "label": "中国成年女性患者·动态血压袖带佩戴（独立身份）",
+      "style": "watercolor_paper_craft",
+      "note": "浅蓝上衣蓝裤女性，与芥黄开衫家族不是同一人；只表达已佩戴袖带状态。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "abpm_patient_20261023": {
+          "asset_id": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+          "revision": "da1da29c83fad06b55a3",
+          "pose": "stand_with_cuff",
+          "payload_sha256": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26",
+          "content_bounds": [
+            277,
+            12,
+            805,
+            1512
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        }
+      }
+    },
+    "older_brother_cn": {
+      "label": "中国中老年男性家属·眼镜蓝衬衫卡其裤（独立身份）",
+      "style": "watercolor_paper_craft",
+      "note": "家属身份，不属于任何患者基线。",
+      "verified_on": "2026-10-24",
+      "verification": "已逐张查看原件（浅底合成）比对脸部、发型、服装与体型；不是按文件名或修订顺序推断。",
+      "members": {
+        "character_older_brother_stand_v1": {
+          "asset_id": "paper:character_older_brother_stand_v1@0555292d623befaa0c77",
+          "revision": "0555292d623befaa0c77",
+          "pose": "stand",
+          "payload_sha256": "ce25eae77d2b972a8559b7d354d0a6fb24b48adaca86f873cb08cba3793a2630",
+          "content_bounds": [
+            273,
+            25,
+            753,
+            1510
+          ],
+          "revision_selection": "coverage_current",
+          "note": ""
+        }
+      }
+    }
+  },
+  "role_baseline": {
+    "adult_woman": "adult_woman_cn_mustard",
+    "adult_man": "adult_man_cn_green_red",
+    "child_girl": "child_girl_cn",
+    "child_boy": "child_boy_cn",
+    "teen_girl": "teen_girl_cn",
+    "teen_boy": "teen_boy_cn",
+    "young_man": "young_man_cn",
+    "older_man": "older_man_cn",
+    "older_woman": "older_woman_cn",
+    "pregnant_woman": "pregnant_woman_cn",
+    "clinician_man": "clinician_man_cn",
+    "clinician_woman": "clinician_woman_cn"
+  },
+  "presenter_identity": {
+    "author_id": "dr_mie",
+    "location": "作者私有库 assets/authors/dr_mie/library/（不进入公共库）",
+    "rule": "所有医生身份默认解析到讲者；承担其他身份的医生必须显式选择 clinician_man_cn / clinician_woman_cn。"
+  },
+  "duplicate_registrations": {
+    "character_adult_man_seated_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_adult_man_seated_v1@46873c4ad97168218454",
+      "duplicate": [
+        "paper:character_adult_man_seated_v1@01dc044f8da64299170b"
+      ]
+    },
+    "character_adult_man_stand_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+      "duplicate": [
+        "paper:character_adult_man_stand_v1@0a95ce7392f358c8ed6d"
+      ]
+    },
+    "character_child_girl_stand_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019",
+      "duplicate": [
+        "paper:character_child_girl_stand_v1@1c2ddf31f6caf6708815"
+      ]
+    },
+    "character_clinician_man_stand_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e",
+      "duplicate": [
+        "paper:character_clinician_man_stand_v1@9381718eafedd7ca8bb6"
+      ]
+    },
+    "character_older_man_walk_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_older_man_walk_v1@b82355ff8645f0304efb",
+      "duplicate": [
+        "paper:character_older_man_walk_v1@bc418aac9adacdf209a3"
+      ]
+    },
+    "character_older_woman_stand_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+      "duplicate": [
+        "paper:character_older_woman_stand_v1@e58d9fdb15185eaa3f86"
+      ]
+    },
+    "character_pregnant_woman_seated_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9",
+      "duplicate": [
+        "paper:character_pregnant_woman_seated_v1@831d13c4263e07061c83"
+      ]
+    },
+    "character_pregnant_woman_stand_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+      "duplicate": [
+        "paper:character_pregnant_woman_stand_v1@1bb6be982f7182074c45"
+      ]
+    },
+    "character_teen_girl_stand_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:character_teen_girl_stand_v1@699014f2978da454f37e",
+      "duplicate": [
+        "paper:character_teen_girl_stand_v1@bd02121f2db2f2770c9c"
+      ]
+    },
+    "reserve_person_lying_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2",
+      "duplicate": [
+        "paper:reserve_person_lying_v1@d2bac5b6b57519f51f5a"
+      ]
+    },
+    "reserve_person_reach_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:reserve_person_reach_v1@e160c989f583b79e7503",
+      "duplicate": [
+        "paper:reserve_person_reach_v1@06699488519265d1f09e"
+      ]
+    },
+    "reserve_person_seated_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:reserve_person_seated_v1@6663ae862534a6af39a1",
+      "duplicate": [
+        "paper:reserve_person_seated_v1@0d8717db010fff199181"
+      ]
+    },
+    "reserve_person_stand_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
+      "duplicate": [
+        "paper:reserve_person_stand_v1@e84a56ed2a70394297d2"
+      ]
+    },
+    "reserve_person_walk_v1": {
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。",
+      "keep": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
+      "duplicate": [
+        "paper:reserve_person_walk_v1@bfd14a6e821ae1093957"
+      ]
+    }
+  },
+  "divergent_registrations": {},
+  "not_admitted_production_assets": {
+    "body": {
+      "episodes": 74,
+      "sha256": "1dc69e2dbfdf2d7088667a1dcd1ffb1361e291225288df6b738790cf2a712d23",
+      "observed": "短发欧美女性，水彩写实，全身完整纸件，1024x1536 透明底。",
+      "reason": "从未入库：无族裔、身份家族、锚点与审看边界；与面向国内观众的既定中国形象方向相反；与整季纸剪贴语言不一致。",
+      "replacement": "adult_woman_cn_mustard"
+    },
+    "walking": {
+      "episodes": 74,
+      "sha256": "47304cbbb39051be899472e2f25d407c045dfac6713183f1a992a54794d37fc4",
+      "observed": "长发欧美女性，水彩写实，步行单幅，1254x1254 透明底。",
+      "reason": "从未入库：无族裔、身份家族、锚点与审看边界；与国内受众方向和整季风格均不一致。",
+      "replacement": "adult_woman_cn_mustard"
+    },
+    "body-paper-study-v1": {
+      "episodes": 5,
+      "sha256": null,
+      "observed": "固定正面站姿整身一层。",
+      "reason": "库内已按“缺少纸件结构与可表演部件”列入淘汰，生产仍在使用。",
+      "replacement": "adult_woman_cn_mustard"
+    }
+  },
+  "problems": []
+}

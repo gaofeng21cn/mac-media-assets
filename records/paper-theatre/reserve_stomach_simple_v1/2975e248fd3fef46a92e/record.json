@@ -1,0 +1,149 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_stomach_simple_v1",
+  "title": "胃·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胃·payload",
+      "medical": true,
+      "content_bounds": [
+        271,
+        177,
+        850,
+        828
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.59,
+            "y": 0.54
+          },
+          "cardia": {
+            "x": 0.59,
+            "y": 0.29
+          },
+          "pylorus": {
+            "x": 0.31,
+            "y": 0.61
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_stomach_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胃",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "胃正面关系示意，画面右侧为胃底和胃体，食管入口在上，幽门向画面左侧延续；胃腔与胃壁分别揭示。不表达胃壁组织层、真实容积或胃排空功能。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "431ef95cb9f75d188db6c0e0010fa8898357717e58d75c302330283bc516a727",
+      "bytes": 363
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b48e52a866f67bb4091258f12f0e71a7db03a83b87ec2047fc675ed86f1bd37b",
+      "bytes": 28872
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "431ef95cb9f75d188db6c0e0010fa8898357717e58d75c302330283bc516a727",
+      "bytes": 363
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "b48e52a866f67bb4091258f12f0e71a7db03a83b87ec2047fc675ed86f1bd37b",
+      "bytes": 28872
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "78adce9f625c656dd7a325fc4cc417091310e98c84a9619057dc0817fec05f3d",
+      "bytes": 681
+    }
+  ],
+  "revision": "2975e248fd3fef46a92e"
+}

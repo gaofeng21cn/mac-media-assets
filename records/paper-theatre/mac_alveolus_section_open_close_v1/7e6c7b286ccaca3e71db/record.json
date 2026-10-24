@@ -1,0 +1,509 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_alveolus_section_open_close_v1",
+  "title": "肺泡·二维剖面开合连续开合",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "continuous_section_window",
+    "two_dimensional_section"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "肺泡",
+      "二维剖面开合",
+      "alveolus"
+    ],
+    "actions": [
+      "二维示意切开",
+      "剖面开合"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "肺泡·二维剖面开合连续开合",
+    "sample_duration_seconds": 6.2
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "单个肺泡与相连气道的放大关系示意：气腔连续、薄壁在外、毛细血管环绕壁外。壁厚与血管间距为说明而夸张，双色仅区分血管路径，不表达氧含量、流向或气体交换数值。 肺泡与气道连续气腔揭开；不表达呼吸或气体交换。 ",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "0ae095b1614ffe592397a909e2f8d947bbdb0b178d9b8ea127d5003f0c1b7222",
+      "bytes": 770
+    },
+    {
+      "path": "assets/alveolar_wall.png",
+      "role": "payload",
+      "sha256": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c",
+      "bytes": 28963
+    },
+    {
+      "path": "assets/continuous_air_space.png",
+      "role": "payload",
+      "sha256": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef",
+      "bytes": 26817
+    },
+    {
+      "path": "assets/perialveolar_capillaries.png",
+      "role": "payload",
+      "sha256": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f",
+      "bytes": 43255
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "13ff0f7c9cdcaf50c19a3ae47d4bf131afc44ef97240ea73d65dff4d8381aa61",
+      "bytes": 723
+    },
+    {
+      "path": "original/files/alveolar_wall.png",
+      "role": "payload",
+      "sha256": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c",
+      "bytes": 28963
+    },
+    {
+      "path": "original/files/continuous_air_space.png",
+      "role": "payload",
+      "sha256": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef",
+      "bytes": 26817
+    },
+    {
+      "path": "original/files/perialveolar_capillaries.png",
+      "role": "payload",
+      "sha256": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f",
+      "bytes": 43255
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "8c911acd9ecf5815bd7e9cdc7727fdf42dee2400e2bcc2f20c1fe54e160e6819",
+      "bytes": 6091
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "4b706e42dae363fa51813fabb7f6d9dad288a07ea11af5f3c245b82dde90304b",
+      "bytes": 79598
+    },
+    {
+      "path": "original/source/alveolar_wall.svg",
+      "role": "payload",
+      "sha256": "8f00d406f740dfbad3b6f1c4b46f485a6a02be851d614da9c4b63b7ffdbb5b47",
+      "bytes": 311
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/continuous_air_space.svg",
+      "role": "payload",
+      "sha256": "010622ad2013975c97b7e37a0ae6fac6ffa0ea10f5431f11de41fbe28da240e5",
+      "bytes": 311
+    },
+    {
+      "path": "original/source/perialveolar_capillaries.svg",
+      "role": "payload",
+      "sha256": "ebee8214d6daaad6733edc3b513090970975cb2fe3bc7d21f0e7935b225e44e7",
+      "bytes": 511
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "ae7f958c858a43301ff27b7768ed70e75d02bedc702fe5b6978b8a285b7bff22",
+      "bytes": 939
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "336e2055f1c17e454f72da755387ffbbaf2b56e018f2f64a71f60be26a237a75",
+      "bytes": 430
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "5113a8fe468d48bfdde2cf0a4d62cf4f4ac437aa910f597b160d7c4ca3fe8143",
+      "bytes": 7616
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+      "bytes": 5391
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "7ddcf690ad122d40c73854b68bb83816757d679cc586807e346e6bbeba87657e",
+      "bytes": 108304
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "d8a2edfc766493d2ac8e0126df6d82a963372e1e1ad1b7c2738a8320797be229",
+      "bytes": 110144
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "32faec50d82a035bf4219d8093e2d51e731e9d5037ef06b6f2c797aa4f3e7cbe",
+      "bytes": 109859
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "a1a231bd63d0048e3bd4ac421ea3ac6867692c652754de58d17b9d4cfcf1ccff",
+      "bytes": 51966
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "519ac6ca55521d112fe42889e92d24349bda7b6ad6b5df92adbd3bb236b604d0",
+      "bytes": 203791
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "36ba74d2f676d9bedfc34f5ae0cb1fe3d4f61992c90eb5ce938f54f64cdff33b",
+      "bytes": 89050
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "36ba74d2f676d9bedfc34f5ae0cb1fe3d4f61992c90eb5ce938f54f64cdff33b",
+      "bytes": 89050
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "ca8b432022886f07755f143f79153848cea4f6c362580a2d2eddb5b694f216bd",
+      "bytes": 89724
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "d2e4eeaad5e5a48f0518f3b54f48f6e3ef14e4050b81e1b1d2ed57c6f121398c",
+      "bytes": 92332
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "81da73f2da6480a3ad216a81d471cf4add5f1ccacb55c4d3e89c3c475e275bdc",
+      "bytes": 98276
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "10af68645814ffe0d3feb9c77d54d7c44cb700828afb9485b612252d8c5d56af",
+      "bytes": 102987
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "de116e941ccf8d9d6c5df68af5d4b7e0ee9a1f3c590612794d3f17eeeeb0dadf",
+      "bytes": 106556
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "32faec50d82a035bf4219d8093e2d51e731e9d5037ef06b6f2c797aa4f3e7cbe",
+      "bytes": 109859
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "524b7ad7a8b2f96e1883ea02249abc8f7c8328506a2ee6409b2ab1366e8d2cf9",
+      "bytes": 111615
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "e1e86b14fc0dc6f6ac74024e2af2c5cc75f9217ee75fe252d784358d9a4834c0",
+      "bytes": 111213
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "e1e86b14fc0dc6f6ac74024e2af2c5cc75f9217ee75fe252d784358d9a4834c0",
+      "bytes": 111213
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "e1e86b14fc0dc6f6ac74024e2af2c5cc75f9217ee75fe252d784358d9a4834c0",
+      "bytes": 111213
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "bfb2c4caafcf2a2a1daed722c6b7e55841f49fd40d174c8f5f8804d17660faa6",
+      "bytes": 112346
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "d4f5bfa2417cc42e61411221923433b188c0263ce4a9b5d392bdf370b0c69d5f",
+      "bytes": 112230
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "a1bd3bf2e9cdcd9bafcec132c9298af42d27e38240dc82675fb276661bae89aa",
+      "bytes": 110976
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "6f206169da3353f47fe46f9a62c67f02741965450e4784228f2694fc54934105",
+      "bytes": 108090
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "c6af948f0a1402c03e5913b4c3365d5a57d472853156ce8f4bfd3f6bc2007ff3",
+      "bytes": 104616
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "55c9a0bf3f5ebfb73f6f0b102876f2b1b916e30d272ce508da7d71e15d17067e",
+      "bytes": 92933
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "34131c3be080d5b6480f1ec23a2be6f9c16954a2676b874f40ae535e4f62ca22",
+      "bytes": 90903
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "34131c3be080d5b6480f1ec23a2be6f9c16954a2676b874f40ae535e4f62ca22",
+      "bytes": 90903
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "34131c3be080d5b6480f1ec23a2be6f9c16954a2676b874f40ae535e4f62ca22",
+      "bytes": 90903
+    },
+    {
+      "path": "samples/open-phone-color.png",
+      "role": "payload",
+      "sha256": "4449d04a49b13d705854b2b07df66fd97e266b046b1db35790c5d94dad7d6e5c",
+      "bytes": 21969
+    },
+    {
+      "path": "samples/open-phone-dark.png",
+      "role": "payload",
+      "sha256": "b4c46c3cbdb98e1680f4e67764649b5d2496a157e3426c150d99f303c374f24e",
+      "bytes": 22319
+    },
+    {
+      "path": "samples/open-phone-light.png",
+      "role": "payload",
+      "sha256": "0e1bb93813fefebce51e38c65e4d803b736ccc6d32f3e44826aa0df9af060c8b",
+      "bytes": 22110
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "9d8338dc77cc34eb18b1b7869465a763c1d065d17d3b10cd75bcb9865b7e0e41",
+      "bytes": 33522
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "5605601f1fcf384b0d248458c75ee8b2c86e20c092e3336d5db53bb9492fc649",
+      "bytes": 21785
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "473732854c523f808276b33d8702fedf6f04e876156dacc0ef27ee579070331f",
+      "bytes": 117613
+    },
+    {
+      "path": "samples/section-background-review.jpg",
+      "role": "payload",
+      "sha256": "e755ebbf4602a8fa4e7f225fe13995db9ad8f74e2991527b3bedcb63908ffa66",
+      "bytes": 392970
+    },
+    {
+      "path": "samples/states/closed-color.png",
+      "role": "payload",
+      "sha256": "e49526b072381a27fafd3a8a38812ae1a87078211655db10f2dc948d27919c55",
+      "bytes": 87735
+    },
+    {
+      "path": "samples/states/closed-dark.png",
+      "role": "payload",
+      "sha256": "386e011390c359f34808f7270c6d7bbf219f76e7499c424b28b0cfe2ba9c5c04",
+      "bytes": 89446
+    },
+    {
+      "path": "samples/states/closed-light.png",
+      "role": "payload",
+      "sha256": "36ba74d2f676d9bedfc34f5ae0cb1fe3d4f61992c90eb5ce938f54f64cdff33b",
+      "bytes": 89050
+    },
+    {
+      "path": "samples/states/closing-color.png",
+      "role": "payload",
+      "sha256": "d4cc7691d90fa2087862d73b72c506c476e554d31cd9c912b0390044c21feb7f",
+      "bytes": 106424
+    },
+    {
+      "path": "samples/states/closing-dark.png",
+      "role": "payload",
+      "sha256": "e011a8d9615d06b4bc5c8c1d50b4b38129c31e141be707d6bc4c0ddb2845d85d",
+      "bytes": 108292
+    },
+    {
+      "path": "samples/states/closing-light.png",
+      "role": "payload",
+      "sha256": "6f206169da3353f47fe46f9a62c67f02741965450e4784228f2694fc54934105",
+      "bytes": 108090
+    },
+    {
+      "path": "samples/states/half-color.png",
+      "role": "payload",
+      "sha256": "2cfab9d1d0fcd3819bf3244f7d8c9e3526a1f146477964ea4fe280af54da0f19",
+      "bytes": 104863
+    },
+    {
+      "path": "samples/states/half-dark.png",
+      "role": "payload",
+      "sha256": "8cfd4836bacc35ee2a9d8eeb5602d5eba8ba2d83eac69a7de36b0dc662fe22ca",
+      "bytes": 106740
+    },
+    {
+      "path": "samples/states/half-light.png",
+      "role": "payload",
+      "sha256": "de116e941ccf8d9d6c5df68af5d4b7e0ee9a1f3c590612794d3f17eeeeb0dadf",
+      "bytes": 106556
+    },
+    {
+      "path": "samples/states/open-color.png",
+      "role": "payload",
+      "sha256": "97d721ee4a93017d045c6ebcf3756ba2dd986836e7e13d81c822611a0af8d27b",
+      "bytes": 109696
+    },
+    {
+      "path": "samples/states/open-dark.png",
+      "role": "payload",
+      "sha256": "00d0f4bc42de9274b2a180037284502ffa5cd0fd206874a875ad2769612cd92a",
+      "bytes": 111625
+    },
+    {
+      "path": "samples/states/open-light.png",
+      "role": "payload",
+      "sha256": "e1e86b14fc0dc6f6ac74024e2af2c5cc75f9217ee75fe252d784358d9a4834c0",
+      "bytes": 111213
+    },
+    {
+      "path": "samples/states/quarter-color.png",
+      "role": "payload",
+      "sha256": "d703f0b850f1dad0295d5a4a4453558b998e8688e2df9418a09e7641d3a9cf60",
+      "bytes": 101222
+    },
+    {
+      "path": "samples/states/quarter-dark.png",
+      "role": "payload",
+      "sha256": "fb428dab8c53362f42a372fa0fbe5b652008b45b3d8f21c46798b9dab7ab51e2",
+      "bytes": 102983
+    },
+    {
+      "path": "samples/states/quarter-light.png",
+      "role": "payload",
+      "sha256": "10af68645814ffe0d3feb9c77d54d7c44cb700828afb9485b612252d8c5d56af",
+      "bytes": 102987
+    },
+    {
+      "path": "samples/states/restored-color.png",
+      "role": "payload",
+      "sha256": "d6712b02447df36a626c012f11cfeca322d65edcc011dc455da3a723e75867cc",
+      "bytes": 89569
+    },
+    {
+      "path": "samples/states/restored-dark.png",
+      "role": "payload",
+      "sha256": "aeb38db4230eaf4a8ab35b3c0f1b18f72d9828e8ec048ba96827dd3d2728784c",
+      "bytes": 91304
+    },
+    {
+      "path": "samples/states/restored-light.png",
+      "role": "payload",
+      "sha256": "34131c3be080d5b6480f1ec23a2be6f9c16954a2676b874f40ae535e4f62ca22",
+      "bytes": 90903
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "d2e29c52b010d3356a3fb881eb9cc4cb4fe5d7078c817a681ed24e910b3279d4",
+      "bytes": 11393
+    },
+    {
+      "path": "section-visual-review.json",
+      "role": "payload",
+      "sha256": "9163fc98ad82441f153de54e35cc4fc405595fc6f49be1e4cc57b49626ea06bd",
+      "bytes": 7789
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "762850fbc80eb31326fb4e936fc0a55cd5e277408ad9a3cddfb63ba5ab5ba6c8",
+      "bytes": 4983
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "7e6c7b286ccaca3e71db"
+}

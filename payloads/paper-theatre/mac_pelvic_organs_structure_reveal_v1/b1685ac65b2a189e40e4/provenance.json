@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_pelvic_organs_detailed_layers_v1@57b76ec7ba5c43d1d01a",
+      "portable_record_sha256": "c319d4bedbbc438351263af078ebb898b5392372a715cca2cca5fbf2ad366c4a"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

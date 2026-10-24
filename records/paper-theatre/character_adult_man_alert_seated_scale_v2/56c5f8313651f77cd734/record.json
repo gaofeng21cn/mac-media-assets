@@ -1,0 +1,91 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_adult_man_alert_seated_scale_v2",
+  "title": "成年男性完整清醒坐姿",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "mode": "built_in_edit",
+    "generation_file": "exec-8303face-14ec-4507-812d-2e49335c059e.png",
+    "identity_reference": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+    "identity_reference_sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797"
+  },
+  "tags": [
+    "完整人物",
+    "坐姿",
+    "身体标尺",
+    "adult_man"
+  ],
+  "content_bounds": [
+    106,
+    149,
+    945,
+    1460
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.64453125,
+      "y": 0.9440104166666666
+    },
+    "anchors": {
+      "head": {
+        "x": 0.537109375,
+        "y": 0.09765625
+      },
+      "feet": {
+        "x": 0.64453125,
+        "y": 0.9440104166666666
+      },
+      "seat": {
+        "x": 0.703125,
+        "y": 0.6666666666666666
+      }
+    }
+  },
+  "human_scale": {
+    "nominal_height_cm": 175,
+    "height_status": "authored_design_reference",
+    "scale_family": "adult_man_cn_green_red",
+    "pose": "seated",
+    "subject": "character",
+    "source_sha256": "d632b0aedcefaa39106e57bb9866687983733d5ac5dfd3b404f749aca16e2e2f",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "d632b0aedcefaa39106e57bb9866687983733d5ac5dfd3b404f749aca16e2e2f",
+      "source_size": {
+        "width": 1024,
+        "height": 1536
+      },
+      "from": {
+        "x": 0.537109375,
+        "y": 0.09765625
+      },
+      "to": {
+        "x": 0.537109375,
+        "y": 0.2734375
+      },
+      "span_cm": 27.22,
+      "basis": "同身份站姿身体段配准头段[[550, 150], [550, 420]]，对应27.22cm；脚底和椅面单独登记；待共同标尺实际试装，不由生成文字批准。"
+    }
+  },
+  "usage_notes": "人物和椅子为完整固定姿态；同场按身体段密度配准，不按整件宽高匹配。当前静态组合审查、连续动作与医学分别记录。",
+  "review": {
+    "static_combination": "pending",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "d632b0aedcefaa39106e57bb9866687983733d5ac5dfd3b404f749aca16e2e2f",
+      "bytes": 2195882
+    }
+  ],
+  "revision": "56c5f8313651f77cd734"
+}

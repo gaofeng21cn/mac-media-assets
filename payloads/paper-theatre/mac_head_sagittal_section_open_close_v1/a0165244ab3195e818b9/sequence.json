@@ -1,0 +1,276 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_head_sagittal_section_open_close_v1",
+  "type": "structure_section",
+  "label": "头部矢状位",
+  "title": "头部矢状位·头部位置图揭层连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。 侧面位置图同位揭层；不表示真实颅骨或脑切面。 没有骨/脑膜/脑实质切面层，只有头部侧面位置示意；提供同位的颅面位置图揭层。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "head_profile": {
+      "path": "assets/head_profile.png",
+      "sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        283,
+        145,
+        844,
+        847
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "brain_and_brainstem": {
+      "path": "assets/brain_and_brainstem.png",
+      "sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        329,
+        204,
+        746,
+        686
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "pituitary_and_stalk": {
+      "path": "assets/pituitary_and_stalk.png",
+      "sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        617,
+        470,
+        663,
+        542
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "paranasal_sinuses": {
+      "path": "assets/paranasal_sinuses.png",
+      "sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        695,
+        360,
+        766,
+        529
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "头部位置图揭层",
+    "context_before": [],
+    "cover": [
+      "head_profile"
+    ],
+    "interior": [
+      "brain_and_brainstem",
+      "pituitary_and_stalk",
+      "paranasal_sinuses"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [
+      {
+        "path": "M362 171 C502 115 692 161 758 292 Q793 356 779 409 L838 476 Q854 501 797 512 L797 550 Q824 567 793 586 Q800 648 741 674 L690 696 L690 710 L435 710 C338 693 286 604 286 465 C282 331 300 209 362 171 Z",
+        "pivot": [
+          570,
+          430
+        ],
+        "angle": 0,
+        "basis": "原件头部侧面颅面区域；颈部不揭开"
+      }
+    ],
+    "revealed_labels": [
+      "大脑、小脑与脑干",
+      "垂体与柄位置",
+      "鼻旁窦位置"
+    ],
+    "source_limit_reason": "没有骨/脑膜/脑实质切面层，只有头部侧面位置示意；提供同位的颅面位置图揭层。"
+  },
+  "presentation_note": "侧面位置图同位揭层；不表示真实颅骨或脑切面。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    283,
+    145,
+    844,
+    847
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_head_sagittal_detailed_layers_v1@8a5ea8cf0bff9ffc6503",
+      "portable_record_sha256": "59935c834c1d6106fce879d687253ff1df5ac229f4ff9f1fd2b4744564eb1460"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_older_woman_bed_rest_v1",
+  "title": "老年女性·床沿落座、侧卧休息与起身",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "bed_support",
+    "complete_contact_unit",
+    "same_identity"
+  ],
+  "discovery": {
+    "category": "motion",
+    "character_role": "older_woman",
+    "poses": [
+      "stand",
+      "seated",
+      "lying"
+    ],
+    "aliases": [
+      "床",
+      "侧卧",
+      "老年女性",
+      "休息"
+    ],
+    "actions": [
+      "床沿落座",
+      "侧卧休息",
+      "起身"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ]
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "同身份完整人物与低床接触单元；普通自主休息的六姿态纸上表演，不是失能搬运、术后转移或个体安全指导。人物、枕头、床与承托不能独立拆动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "d74ef713fd32549f31d7787835e8e62f269c4fe5eb73085ba03f6105f56993b5",
+      "bytes": 506
+    },
+    {
+      "path": "assets/sheet.png",
+      "role": "payload",
+      "sha256": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20",
+      "bytes": 1866069
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "b033e0393f21ea57ba4c4c4e85ba575ec910afa695e53d0098bfafe8e9b99d1a",
+      "bytes": 366
+    },
+    {
+      "path": "registration.json",
+      "role": "payload",
+      "sha256": "363763cf42d5da76e9f3ebb5dc6fe76948d875f503230b59b3fb044c74ee48e0",
+      "bytes": 1676
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "79277dad3ef461bb382f92292d9291076ca5e700efcd4f019b80cd55361046fd",
+      "bytes": 4018
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+      "bytes": 1004
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "9bc79752f45c793082da8d3a28953ae8cbdf4a525f888bef0cc6ad8b76c3b836",
+      "bytes": 166690
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "161c600240b3b71c622c12f5c26449c0c5a6e0c358702981679b63acea19e667",
+      "bytes": 165357
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+      "bytes": 167372
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "716bea87eedd19508d5349ec1f1fa1b197aa08b1990c89252a305a6880c28741",
+      "bytes": 23763
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "f1a1dc81c109bde8a7a0411215f28544b28abb1ef2d020f84aace53f9e236eaa",
+      "bytes": 96231
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+      "bytes": 168822
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+      "bytes": 168822
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+      "bytes": 168822
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+      "bytes": 167372
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+      "bytes": 167372
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+      "bytes": 167372
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+      "bytes": 157627
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+      "bytes": 157627
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+      "bytes": 157627
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+      "bytes": 142205
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+      "bytes": 142205
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+      "bytes": 142205
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+      "bytes": 165272
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+      "bytes": 165272
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+      "bytes": 165272
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+      "bytes": 171528
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+      "bytes": 171528
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+      "bytes": 171528
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "38477744e34ddc5c534ce987cda240978d34866c1c6614af6fbce943b6474c4f",
+      "bytes": 17401
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "3a427227035eda4a5305db3d8dc9114de9bc0c8130c575c6454fb7c74bd65737",
+      "bytes": 21755
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "491a0a5421cc46daa4d46727422ff82d2991d562921d8f8313a385b3d485e237",
+      "bytes": 172752
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "4cf756a7bf9e44662013461e08a3c7f4cd5c71a56c9e7de6d302a22ab0210ac5",
+      "bytes": 8007
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "1d8a5726759c5d4268e2506b7204ebda2f5a055f5cb8bed37e3ea6c510ef4c09",
+      "bytes": 4556
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "2aca41d871b651678db8"
+}

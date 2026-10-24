@@ -1,0 +1,329 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_older_woman_seat_report_stand_v1",
+  "title": "老年女性·落座、取报告与起身",
+  "type": "role_contact_unit",
+  "scope": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+  "fps": 24,
+  "duration": 8,
+  "images": {
+    "sheet": {
+      "path": "assets/sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "aaf0c8dd250159bcc6ef9c8198194ebc355c0e4879803a90e1deeaf3f99a724c"
+    }
+  },
+  "frames": [
+    {
+      "image": "sheet",
+      "rect": [
+        0,
+        0,
+        406,
+        546
+      ],
+      "content_bounds": [
+        38,
+        14,
+        393,
+        487
+      ],
+      "origin": [
+        47,
+        439
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        406,
+        0,
+        383,
+        544
+      ],
+      "content_bounds": [
+        34,
+        52,
+        373,
+        483
+      ],
+      "origin": [
+        43,
+        439
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        789,
+        0,
+        376,
+        526
+      ],
+      "content_bounds": [
+        30,
+        86,
+        365,
+        482
+      ],
+      "origin": [
+        39,
+        439
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        1165,
+        0,
+        371,
+        498
+      ],
+      "content_bounds": [
+        28,
+        97,
+        362,
+        481
+      ],
+      "origin": [
+        37,
+        439
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        0,
+        546,
+        406,
+        478
+      ],
+      "content_bounds": [
+        39,
+        59,
+        383,
+        445
+      ],
+      "origin": [
+        48,
+        400
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        406,
+        544,
+        383,
+        480
+      ],
+      "content_bounds": [
+        13,
+        62,
+        353,
+        448
+      ],
+      "origin": [
+        22,
+        402
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        789,
+        526,
+        376,
+        498
+      ],
+      "content_bounds": [
+        10,
+        44,
+        359,
+        466
+      ],
+      "origin": [
+        19,
+        420
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        1165,
+        498,
+        371,
+        526
+      ],
+      "content_bounds": [
+        12,
+        18,
+        356,
+        497
+      ],
+      "origin": [
+        21,
+        448
+      ],
+      "anchor_basis": "visible screen-left rear chair-leg sole, center of wooden lower edge"
+    }
+  ],
+  "scene_pixels_per_cm": 3,
+  "x": 360,
+  "ground": 610,
+  "body_calibration": {
+    "status": "source_span_calibrated",
+    "design_height_cm": 158,
+    "frame": 0,
+    "source_body_points": [
+      [
+        234,
+        15
+      ],
+      [
+        219,
+        486
+      ]
+    ],
+    "span_cm": 158,
+    "source_pixels_per_cm": 2.981012658227848,
+    "basis": "Reviewed standing first-frame visible crown to common shoe-ground vertical span; this ruler is retained for every seated/reaching/rising pose."
+  },
+  "identity_master": {
+    "asset_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+    "sha256": "8eddd1227cb34a1799922137bee80073ca2c8be757f23f41966eaa38b9e8bf39"
+  },
+  "phase_names": [
+    "站稳",
+    "准备落座",
+    "下降",
+    "坐定",
+    "接触报告",
+    "持纸",
+    "准备起身",
+    "站立持纸"
+  ],
+  "paper_states": [
+    "on_table",
+    "on_table",
+    "on_table",
+    "on_table",
+    "on_table",
+    "held",
+    "held",
+    "held"
+  ],
+  "keys": [
+    {
+      "time": 0,
+      "frame": 0
+    },
+    {
+      "time": 0.7,
+      "frame": 1
+    },
+    {
+      "time": 1.4,
+      "frame": 2
+    },
+    {
+      "time": 2.1,
+      "frame": 3
+    },
+    {
+      "time": 3.2,
+      "frame": 4
+    },
+    {
+      "time": 4.1,
+      "frame": 5
+    },
+    {
+      "time": 5.2,
+      "frame": 6
+    },
+    {
+      "time": 6.1,
+      "frame": 7
+    }
+  ],
+  "events": [
+    {
+      "time": 0,
+      "name": "站稳",
+      "kind": "contact"
+    },
+    {
+      "time": 0.7,
+      "name": "准备落座",
+      "kind": "contact"
+    },
+    {
+      "time": 1.4,
+      "name": "下降",
+      "kind": "contact"
+    },
+    {
+      "time": 2.1,
+      "name": "坐定",
+      "kind": "contact"
+    },
+    {
+      "time": 3.2,
+      "name": "接触报告",
+      "kind": "contact"
+    },
+    {
+      "time": 4.1,
+      "name": "持纸",
+      "kind": "contact"
+    },
+    {
+      "time": 5.2,
+      "name": "准备起身",
+      "kind": "contact"
+    },
+    {
+      "time": 6.1,
+      "name": "站立持纸",
+      "kind": "contact"
+    }
+  ],
+  "review_times": [
+    0,
+    0.01,
+    0.69,
+    0.7,
+    0.71,
+    1.39,
+    1.4,
+    1.41,
+    2.09,
+    2.1,
+    2.11,
+    3.19,
+    3.2,
+    3.21,
+    4.09,
+    4.1,
+    4.11,
+    5.19,
+    5.2,
+    5.21,
+    6.09,
+    6.1,
+    6.11,
+    8
+  ],
+  "medical_review": "pending"
+}

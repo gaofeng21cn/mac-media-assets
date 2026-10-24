@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_head_sagittal_simple_v1",
+  "title": "头部矢状位·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·payload",
+      "medical": true,
+      "content_bounds": [
+        283,
+        145,
+        844,
+        847
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_head_sagittal_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "头部矢状位",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "5111cb1298d69d254b3656401afbb663f23d6da70b5ed39f5bf273c166649138",
+      "bytes": 968
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "51e6e33da75adbe46124be987b3b4bb76b48e7b20d7f1322f7a618d8dea52e58",
+      "bytes": 51563
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "5111cb1298d69d254b3656401afbb663f23d6da70b5ed39f5bf273c166649138",
+      "bytes": 968
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "51e6e33da75adbe46124be987b3b4bb76b48e7b20d7f1322f7a618d8dea52e58",
+      "bytes": 51563
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "b0b69ad07a89493025798b01e3f6665796c94a994259d5e211bfbb1b34d09196",
+      "bytes": 27709
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "6ecf88fdafd6eae6e152ed85061769e4f562668d5ff684cb6b87aa756337eee2",
+      "bytes": 762
+    }
+  ],
+  "revision": "0b5cb5be5bf4d5be2a64"
+}

@@ -1,0 +1,222 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_pancreas_section_open_close_v1",
+  "type": "structure_section",
+  "label": "胰腺与胰管",
+  "title": "胰腺与胰管·二维局部剖面连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "概念性胰腺外形与主胰管示意，画面左侧为胰头、右侧为胰尾；并非患者影像。胰管分支只表达汇流关系，不表达精确分支数；不包含胆管、十二指肠、胰岛或微观细胞，不能演示手术、病灶或内分泌细胞比例。 胰腺局部剪纸揭面；只示胰管位置，不表达分泌。 ",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "organ": {
+      "path": "assets/organ.png",
+      "sha256": "1ddb9e0236a82e4c89a72c299c8bfe3b374ebff5c66172d7b89bcf128192525b",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        150,
+        299,
+        856,
+        616
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "duct": {
+      "path": "assets/duct.png",
+      "sha256": "74a28876f6d39d7f5aa3cf91415b9bba89e462e4e903d91f038f59cc1490997b",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        228,
+        333,
+        822,
+        541
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "branches": {
+      "path": "assets/branches.png",
+      "sha256": "f94f261d88a687ffbbc290fac5eb7023160b0fde7b20c7236e0d8dac7a1c001a",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        261,
+        349,
+        668,
+        572
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "section": {
+    "kind": "two_dimensional_section",
+    "display_kind": "二维局部剖面",
+    "context_before": [],
+    "cover": [
+      "organ"
+    ],
+    "interior": [
+      "duct",
+      "branches"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 1,
+    "windows": [
+      {
+        "path": "M200 320 C130 360 151 509 214 581 C252 636 317 605 324 553 C383 570 440 519 511 489 C626 455 719 404 830 367 C875 338 836 288 782 310 C660 335 552 323 439 349 C352 364 293 298 200 320 Z",
+        "pivot": [
+          490,
+          450
+        ],
+        "angle": 0,
+        "basis": "原件胰腺轮廓内的管道关系区域"
+      }
+    ],
+    "revealed_labels": [
+      "主胰管",
+      "胰管分支"
+    ],
+    "source_limit_reason": ""
+  },
+  "presentation_note": "胰腺局部剪纸揭面；只示胰管位置，不表达分泌。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    150,
+    299,
+    856,
+    616
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_pancreas_relations_layers_v1@fb8e5808d6bc5662575c",
+      "portable_record_sha256": "353b6f13359bf76ba8a75b5305b11ecdc720d591b5ca946a6c0e40d025418302"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

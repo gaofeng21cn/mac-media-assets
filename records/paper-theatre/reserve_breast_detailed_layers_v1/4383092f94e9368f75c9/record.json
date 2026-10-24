@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_breast_detailed_layers_v1",
+  "title": "乳腺·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "breast_outline",
+      "path": "files/breast_outline.png",
+      "source_type": "original_vector",
+      "visual_meaning": "乳腺·breast_outline",
+      "medical": true,
+      "content_bounds": [
+        247,
+        167,
+        723,
+        873
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68,
+            "y": 0.68
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "gland_tissue",
+      "path": "files/gland_tissue.png",
+      "source_type": "original_vector",
+      "visual_meaning": "乳腺·gland_tissue",
+      "medical": true,
+      "content_bounds": [
+        402,
+        375,
+        691,
+        591
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68,
+            "y": 0.68
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "ducts",
+      "path": "files/ducts.png",
+      "source_type": "original_vector",
+      "visual_meaning": "乳腺·ducts",
+      "medical": true,
+      "content_bounds": [
+        373,
+        419,
+        733,
+        583
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68,
+            "y": 0.68
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_breast_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "乳腺",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "breast_outline",
+      "gland_tissue",
+      "ducts"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "乳腺侧视外形示意，附腺体区与乳管走向；不表示肿块大小、分期或触诊结论。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/breast_outline.svg",
+      "role": "source",
+      "sha256": "0847a727ae6cbfb8d3d7f52dc2518a891bbde018695b0be7329ac53f5e691f66",
+      "bytes": 374
+    },
+    {
+      "path": "files/breast_outline.png",
+      "role": "payload",
+      "sha256": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18",
+      "bytes": 23256
+    },
+    {
+      "path": "source/gland_tissue.svg",
+      "role": "source",
+      "sha256": "d0dbbebe4c50e744596c0c537a1764eae60077ee0a4ab5dd765044350f555e59",
+      "bytes": 268
+    },
+    {
+      "path": "files/gland_tissue.png",
+      "role": "payload",
+      "sha256": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c",
+      "bytes": 14569
+    },
+    {
+      "path": "source/ducts.svg",
+      "role": "source",
+      "sha256": "fc17bf53ad400373a0a9dd671e28f82f597677737d773779c53d3689cf70425f",
+      "bytes": 405
+    },
+    {
+      "path": "files/ducts.png",
+      "role": "payload",
+      "sha256": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe",
+      "bytes": 12599
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "0ef4bc39f2b9553e19cf3a72dfeb1c24dfd1701d2a48772cc1309aafa34407fc",
+      "bytes": 853
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "f39cf8f6e315b2db9f4d1f76fc8eee759ad73e6e1296b0707375f5868467ff51",
+      "bytes": 39687
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "50b156e2a2762af0aa0f64a81106cfa8a6f62da5d99417ff92d561afdaefd5af",
+      "bytes": 597
+    }
+  ],
+  "revision": "4383092f94e9368f75c9"
+}

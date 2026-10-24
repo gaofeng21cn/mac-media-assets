@@ -18,14 +18,15 @@
       ],
       "current_assets": {
         "stand": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
-        "seated": "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885",
+        "seated": "paper:character_adult_man_alert_seated_scale_v2@56c5f8313651f77cd734",
         "walk": "paper:male_patient_walk_20261023@694f4aa5318814a765ca",
         "reach": "paper:character_adult_man_reach_v1@56ac1028ab1507772026",
         "seated_upper_abdomen_stool": "paper:character_adult_man_upper_abdomen_stool_v1@e4f7937346069d896b37",
         "stand_family": "paper:character_older_brother_stand_v1@0555292d623befaa0c77",
         "seated_navy": "paper:character_adult_man_seated_v1@46873c4ad97168218454",
         "seated_alert_armchair": "paper:character_man_alert_armchair_v1@9de53c9827f7ef4ef901",
-        "seated_head_down_armchair": "paper:character_man_unresponsive_armchair_v1@1450525aa8a2df21c95e"
+        "seated_head_down_armchair": "paper:character_man_unresponsive_armchair_v1@1450525aa8a2df21c95e",
+        "seated_head_down_low_chair": "paper:character_adult_man_unresponsive_seated_scale_v2@25c2e28b97c5f9798dfc"
       }
     },
     "adult_woman": {
@@ -46,13 +47,15 @@
       ],
       "current_assets": {
         "stand": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
+        "stand_pregnant": "paper:character_adult_woman_pregnant_v1@16df74f882fbd544e1f6",
+        "seated_nursing": "paper:character_adult_woman_nursing_v1@a6aff7e5e135dae9e132",
         "seated": "paper:reserve_person_seated_v1@6663ae862534a6af39a1",
         "walk": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
         "reach": "paper:character_adult_woman_reach_v2@fd6d9e040165a718b8be",
         "lying": "paper:character_adult_woman_lying_v2@d797e2eea498e1bcde6c",
         "pointing": "paper:reserve_person_pointing_v1@fdce21068b193126c246",
         "side_stand": "paper:reserve_person_side_v1@b0c0805e327702792c91",
-        "stand_abpm": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+        "stand_abpm": null,
         "care_reach": "paper:character_adult_woman_care_reach_v2@b94644c99ac58e2cd0d8",
         "calling": "paper:character_carer_calling_v1@8edf24b872eebe205841"
       }
@@ -162,7 +165,7 @@
       ],
       "current_assets": {
         "stand": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
-        "seated": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9",
+        "seated": "paper:character_pregnant_woman_seated_scale_v2@df659ae0c18fc1a45fb5",
         "walk": "paper:character_pregnant_woman_walk_v1@04d5693954b22423a6c9",
         "reach": "paper:character_pregnant_woman_reach_v1@860f8ed8a85f80e5c721"
       }
@@ -226,7 +229,7 @@
       ],
       "current_assets": {
         "stand": "paper:character_child_boy_stand_v1@d901483f1841ad102f40",
-        "seated": "paper:character_child_boy_seated_v1@0e2b211ef70c802defaa",
+        "seated": "paper:character_child_boy_seated_scale_v2@4b23ec748dad9d9a679a",
         "walk": "paper:character_child_boy_walk_v1@24ffc90514896625460c",
         "reach": "paper:character_child_boy_reach_v1@8fa72b53e36147b2c61b"
       }

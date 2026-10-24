@@ -1,0 +1,681 @@
+{
+  "schema": "mac_structure_purpose_matrix/v1",
+  "policy": "总览、解释近景与小尺寸简化版是三种用途，不是同一张图的三种尺寸；缩小原件不等于简化版。矩阵只说明登记情况，不批准医学正确性。",
+  "built_on": "2026-10-24",
+  "structures": {
+    "thyroid": {
+      "label": "甲状腺",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "six_paper_thyroid_neck",
+          "asset_id": "paper:six_paper_thyroid_neck@01644949a5fe8bd8e3c6",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_thyroid_detailed_layers_v1",
+          "asset_id": "paper:reserve_thyroid_detailed_layers_v1@23e8d91b061c24c05036",
+          "parts": 4,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_thyroid_simple_v2",
+          "asset_id": "paper:reserve_thyroid_simple_v2@72cad923d36490b2dcc9",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "kidney": {
+      "label": "肾脏",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "six_paper_kidneys_alpha",
+          "asset_id": "paper:six_paper_kidneys_alpha@4596444fbc641ceea029",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_kidney_detailed_layers_v1",
+          "asset_id": "paper:reserve_kidney_detailed_layers_v1@9dfee405d6cc61e25bbc",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_kidney_simple_v1",
+          "asset_id": "paper:reserve_kidney_simple_v1@ff689258aa63c36b4333",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "artery_wall": {
+      "label": "动脉壁",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_vessel_v1",
+          "asset_id": "paper:reserve_vessel_v1@9ba9b427374b43fa6a61",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_artery_detailed_layers_v1",
+          "asset_id": "paper:reserve_artery_detailed_layers_v1@80bb1a5208afeb48a63c",
+          "parts": 4,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_artery_simple_v1",
+          "asset_id": "paper:reserve_artery_simple_v1@27465952400de22b2f29",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "pancreas": {
+      "label": "胰腺与胰管",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_pancreas_v1",
+          "asset_id": "paper:reserve_pancreas_v1@0d1ea9719816e248ad1c",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_pancreas_relations_layers_v1",
+          "asset_id": "paper:reserve_pancreas_relations_layers_v1@fb8e5808d6bc5662575c",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_pancreas_relations_simple_v1",
+          "asset_id": "paper:reserve_pancreas_relations_simple_v1@906dc55e1fb31205a800",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "pituitary": {
+      "label": "垂体与邻近结构",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "pituitary_anatomy_collage",
+          "asset_id": "paper:pituitary_anatomy_collage@816b2602da608b164b2a",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_pituitary_relations_layers_v1",
+          "asset_id": "paper:reserve_pituitary_relations_layers_v1@453935452a85019762f8",
+          "parts": 6,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_pituitary_relations_simple_v1",
+          "asset_id": "paper:reserve_pituitary_relations_simple_v1@62c6685efa32cfa48273",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "heart": {
+      "label": "心脏",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_heart_v1",
+          "asset_id": "paper:reserve_heart_v1@6e009b5ce7fba2978c7b",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_heart_detailed_layers_v1",
+          "asset_id": "paper:reserve_heart_detailed_layers_v1@add90d3fadd1ea02a5c3",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_heart_simple_v1",
+          "asset_id": "paper:reserve_heart_simple_v1@0a5ee949fb9899d56873",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "lungs": {
+      "label": "肺与气管",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_lungs_v1",
+          "asset_id": "paper:reserve_lungs_v1@dbfde62a985380b92220",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_lungs_detailed_layers_v1",
+          "asset_id": "paper:reserve_lungs_detailed_layers_v1@9f9a99e02eec4b0bec03",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_lungs_simple_v1",
+          "asset_id": "paper:reserve_lungs_simple_v1@6ac400b4984219be4ba7",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "liver": {
+      "label": "肝脏",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_liver_v1",
+          "asset_id": "paper:reserve_liver_v1@f2c83bbca2a24b3e5dfa",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_liver_detailed_layers_v1",
+          "asset_id": "paper:reserve_liver_detailed_layers_v1@b23153ea3cbdb7062dbc",
+          "parts": 4,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_liver_simple_v1",
+          "asset_id": "paper:reserve_liver_simple_v1@dbe6d277924ccd7357eb",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "stomach": {
+      "label": "胃",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_stomach_v1",
+          "asset_id": "paper:reserve_stomach_v1@893afaba9489f9ce250f",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_stomach_detailed_layers_v1",
+          "asset_id": "paper:reserve_stomach_detailed_layers_v1@24f78a93bc5dae7f534d",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_stomach_simple_v1",
+          "asset_id": "paper:reserve_stomach_simple_v1@2975e248fd3fef46a92e",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "intestine": {
+      "label": "肠道",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_intestine_v1",
+          "asset_id": "paper:reserve_intestine_v1@8323133881fe6bdeb91e",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_intestine_detailed_layers_v1",
+          "asset_id": "paper:reserve_intestine_detailed_layers_v1@0b0994a7cc8dbcf9d2ff",
+          "parts": 2,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_intestine_simple_v1",
+          "asset_id": "paper:reserve_intestine_simple_v1@8548550f930dd02a0080",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "gallbladder": {
+      "label": "胆囊",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_gallbladder_v1",
+          "asset_id": "paper:reserve_gallbladder_v1@f39efa7a626c82ecb592",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_gallbladder_detailed_layers_v1",
+          "asset_id": "paper:reserve_gallbladder_detailed_layers_v1@c0e1a69a71b0c7441a71",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_gallbladder_simple_v1",
+          "asset_id": "paper:reserve_gallbladder_simple_v1@24151fc3de928b2e0399",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "islet": {
+      "label": "胰岛",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_islet_v1",
+          "asset_id": "paper:reserve_islet_v1@1796dcf00ad980856b21",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_islet_detailed_layers_v1",
+          "asset_id": "paper:reserve_islet_detailed_layers_v1@ab8b99e13ca56d68dec2",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_islet_simple_v1",
+          "asset_id": "paper:reserve_islet_simple_v1@426a8a721221a696c64b",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "alveolus": {
+      "label": "肺泡",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_alveolus_v1",
+          "asset_id": "paper:reserve_alveolus_v1@95ebc2a8691ac43497f3",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_alveolus_detailed_layers_v1",
+          "asset_id": "paper:reserve_alveolus_detailed_layers_v1@2c11a7cf1c24af07b4b1",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_alveolus_simple_v1",
+          "asset_id": "paper:reserve_alveolus_simple_v1@fcccc41300479885ff2e",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "blood_cell": {
+      "label": "红细胞",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "reserve_blood_cell_v1",
+          "asset_id": "paper:reserve_blood_cell_v1@df4a3d00397046b3b7a6",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_blood_cell_detailed_layers_v1",
+          "asset_id": "paper:reserve_blood_cell_detailed_layers_v1@ce29ed0bfaf5a94df233",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_blood_cell_simple_v1",
+          "asset_id": "paper:reserve_blood_cell_simple_v1@888de0f13bfa3c87b0ff",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "breast": {
+      "label": "乳腺",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "six_paper_breast_section",
+          "asset_id": "paper:six_paper_breast_section@efe620b059dfc91db173",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_breast_detailed_layers_v1",
+          "asset_id": "paper:reserve_breast_detailed_layers_v1@8da7f1dfde15864ade57",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_breast_simple_v1",
+          "asset_id": "paper:reserve_breast_simple_v1@6d4e1bf01a0bfc1bb16b",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "foot_joint": {
+      "label": "足关节",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "six_paper_foot_joint",
+          "asset_id": "paper:six_paper_foot_joint@d91837d27cc175eca3e4",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_foot_joint_detailed_layers_v1",
+          "asset_id": "paper:reserve_foot_joint_detailed_layers_v1@283c6b2c20073a11d32c",
+          "parts": 3,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_foot_joint_simple_v1",
+          "asset_id": "paper:reserve_foot_joint_simple_v1@09d0de3c1af8f1a7827b",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "pelvic_organs": {
+      "label": "盆腔器官",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "six_paper_pelvic_organs",
+          "asset_id": "paper:six_paper_pelvic_organs@b23cfa24edc8b99fcad3",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_pelvic_organs_detailed_layers_v1",
+          "asset_id": "paper:reserve_pelvic_organs_detailed_layers_v1@57b76ec7ba5c43d1d01a",
+          "parts": 4,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_pelvic_organs_simple_v1",
+          "asset_id": "paper:reserve_pelvic_organs_simple_v1@6948e7f7638ab9acd22d",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    },
+    "head_sagittal": {
+      "label": "头部矢状位",
+      "jobs": {
+        "overview": {
+          "status": "present",
+          "label": "总览",
+          "source_id": "pituitary_sagittal_layered_v1",
+          "asset_id": "paper:pituitary_sagittal_layered_v1@d0636987985387405ede",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "close_up": {
+          "status": "present",
+          "label": "解释近景",
+          "source_id": "reserve_head_sagittal_detailed_layers_v1",
+          "asset_id": "paper:reserve_head_sagittal_detailed_layers_v1@8a5ea8cf0bff9ffc6503",
+          "parts": 4,
+          "layered": true,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        },
+        "simplified": {
+          "status": "present",
+          "label": "小尺寸简化版",
+          "source_id": "reserve_head_sagittal_simple_v1",
+          "asset_id": "paper:reserve_head_sagittal_simple_v1@0b5cb5be5bf4d5be2a64",
+          "parts": 1,
+          "layered": false,
+          "current_shot": "pending",
+          "medical_review": "pending"
+        }
+      },
+      "complete": true
+    }
+  },
+  "summary": {
+    "structures": 18,
+    "complete_for_all_three_jobs": 18,
+    "complete_list": [
+      "alveolus",
+      "artery_wall",
+      "blood_cell",
+      "breast",
+      "foot_joint",
+      "gallbladder",
+      "head_sagittal",
+      "heart",
+      "intestine",
+      "islet",
+      "kidney",
+      "liver",
+      "lungs",
+      "pancreas",
+      "pelvic_organs",
+      "pituitary",
+      "stomach",
+      "thyroid"
+    ],
+    "missing_by_job": {}
+  },
+  "problems": []
+}

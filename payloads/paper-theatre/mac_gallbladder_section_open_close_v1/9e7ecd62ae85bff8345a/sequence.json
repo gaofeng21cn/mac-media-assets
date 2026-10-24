@@ -1,0 +1,235 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_gallbladder_section_open_close_v1",
+  "type": "structure_section",
+  "label": "胆囊",
+  "title": "胆囊·二维剖面开合连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "胆囊外形与胆汁示意；不表示胆囊内结石、胆道梗阻或胆囊功能。 胆囊壁局部窗口连续开合；不表达结石、功能或流动。 ",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "gallbladder_wall": {
+      "path": "assets/gallbladder_wall.png",
+      "sha256": "1dd25d88393e69ae3e8fa84154d3670466bdee1237baca007dbdae1dfd4e759f",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        349,
+        193,
+        675,
+        815
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.52
+          },
+          "duct_end": {
+            "x": 0.55,
+            "y": 0.16
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "bile": {
+      "path": "assets/bile.png",
+      "sha256": "9b87edba5554990ce23cadb1d0c39c8009cb07bb0131ec26d74d31c1750985df",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        370,
+        298,
+        654,
+        744
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.52
+          },
+          "duct_end": {
+            "x": 0.55,
+            "y": 0.16
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "cystic_duct": {
+      "path": "assets/cystic_duct.png",
+      "sha256": "7e381c4198a3a3851836734aa27e32e3e25d4580c7b1cc66d60939084db3dcc3",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        504,
+        124,
+        568,
+        204
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.52
+          },
+          "duct_end": {
+            "x": 0.55,
+            "y": 0.16
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "two_dimensional_section",
+    "display_kind": "二维剖面开合",
+    "context_before": [],
+    "cover": [
+      "gallbladder_wall"
+    ],
+    "interior": [
+      "bile"
+    ],
+    "context_after": [
+      "cystic_duct"
+    ],
+    "context_regions": [],
+    "underlay_alpha": 1,
+    "windows": [
+      {
+        "path": "M512 300 C566 300 598 370 612 440 C636 500 652 542 652 566 C652 664 598 726 512 742 C426 726 372 664 372 566 C372 542 388 500 412 440 C426 370 458 300 512 300 Z",
+        "pivot": [
+          512,
+          530
+        ],
+        "angle": 0,
+        "basis": "原件胆囊内容区域边界"
+      }
+    ],
+    "revealed_labels": [
+      "胆囊内部胆汁示意",
+      "胆囊管连接位置"
+    ],
+    "source_limit_reason": ""
+  },
+  "presentation_note": "胆囊壁局部窗口连续开合；不表达结石、功能或流动。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    349,
+    124,
+    675,
+    815
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_gallbladder_detailed_layers_v1@c0e1a69a71b0c7441a71",
+      "portable_record_sha256": "47acbf0336242c3be1f23745bd640664507fb8728a24344648136e6531e1fa6d"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

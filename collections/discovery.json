@@ -7958,7 +7958,7 @@
       "locale": "zh-CN"
     },
     "reserve_waiting_room_v1": {
-      "category": "environments",
+      "category": "stage",
       "aliases": [
         "候诊区",
         "等候区",
@@ -7987,7 +7987,7 @@
       "locale": "zh-CN"
     },
     "reserve_bathroom_v1": {
-      "category": "environments",
+      "category": "stage",
       "aliases": [
         "洗手间",
         "卫生间",
@@ -8240,6 +8240,2092 @@
         1169,
         1107
       ]
+    },
+    "mac_sfx_footstep_soft_v1": {
+      "category": "sfx",
+      "display_title": "拟音：脚步（纸舞台轻步）",
+      "aliases": [
+        "脚步",
+        "走路",
+        "迈步",
+        "footstep",
+        "steps"
+      ],
+      "objects": [
+        "拟音：脚步（纸舞台轻步）",
+        "脚步",
+        "走路",
+        "迈步",
+        "footstep",
+        "steps"
+      ],
+      "story_roles": [
+        "人物行走",
+        "起身走动",
+        "伴随移动"
+      ],
+      "actions": [
+        "人物行走",
+        "起身走动",
+        "伴随移动"
+      ],
+      "medium": "audio",
+      "material": null,
+      "renderers": [],
+      "style": [],
+      "topics": [],
+      "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      }
+    },
+    "mac_sfx_chair_sit_v1": {
+      "category": "sfx",
+      "display_title": "拟音：落座（椅面承重）",
+      "aliases": [
+        "落座",
+        "坐下",
+        "椅子",
+        "chair",
+        "sit"
+      ],
+      "objects": [
+        "拟音：落座（椅面承重）",
+        "落座",
+        "坐下",
+        "椅子",
+        "chair",
+        "sit"
+      ],
+      "story_roles": [
+        "坐定",
+        "坐站过渡落定",
+        "起身落座"
+      ],
+      "actions": [
+        "坐定",
+        "坐站过渡落定",
+        "起身落座"
+      ],
+      "medium": "audio",
+      "material": null,
+      "renderers": [],
+      "style": [],
+      "topics": [],
+      "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      }
+    },
+    "mac_sfx_cloth_rustle_v1": {
+      "category": "sfx",
+      "display_title": "拟音：衣料摩擦",
+      "aliases": [
+        "衣料",
+        "衣服",
+        "摩擦",
+        "cloth",
+        "rustle"
+      ],
+      "objects": [
+        "拟音：衣料摩擦",
+        "衣料",
+        "衣服",
+        "摩擦",
+        "cloth",
+        "rustle"
+      ],
+      "story_roles": [
+        "转身",
+        "伸手取物",
+        "起身"
+      ],
+      "actions": [
+        "转身",
+        "伸手取物",
+        "起身"
+      ],
+      "medium": "audio",
+      "material": null,
+      "renderers": [],
+      "style": [],
+      "topics": [],
+      "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      }
+    },
+    "mac_sfx_device_confirm_v1": {
+      "category": "sfx",
+      "display_title": "拟音：器械完成提示音",
+      "aliases": [
+        "提示音",
+        "完成",
+        "测量完成",
+        "beep",
+        "device"
+      ],
+      "objects": [
+        "拟音：器械完成提示音",
+        "提示音",
+        "完成",
+        "测量完成",
+        "beep",
+        "device"
+      ],
+      "story_roles": [
+        "血糖仪读数完成",
+        "血压测量完成",
+        "设备提示"
+      ],
+      "actions": [
+        "血糖仪读数完成",
+        "血压测量完成",
+        "设备提示"
+      ],
+      "medium": "audio",
+      "material": null,
+      "renderers": [],
+      "style": [],
+      "topics": [],
+      "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      }
+    },
+    "mac_sfx_cooking_sizzle_v1": {
+      "category": "sfx",
+      "display_title": "拟音：烹饪油声",
+      "aliases": [
+        "油声",
+        "煎炒",
+        "下锅",
+        "sizzle",
+        "cooking"
+      ],
+      "objects": [
+        "拟音：烹饪油声",
+        "油声",
+        "煎炒",
+        "下锅",
+        "sizzle",
+        "cooking"
+      ],
+      "story_roles": [
+        "入锅翻动",
+        "连续备餐",
+        "厨房场景"
+      ],
+      "actions": [
+        "入锅翻动",
+        "连续备餐",
+        "厨房场景"
+      ],
+      "medium": "audio",
+      "material": null,
+      "renderers": [],
+      "style": [],
+      "topics": [],
+      "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+      "view": "按当前镜头选择",
+      "compatibility": {
+        "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+        "params": "可调整；content bounds 与接触点不固定画面构图"
+      }
+    },
+    "mac_walk_cycle_v1": {
+      "category": "motion",
+      "aliases": [
+        "同身份成年男性双侧步态循环",
+        "walk",
+        "连续动作",
+        "mac_walk_cycle_v1"
+      ],
+      "actions": [
+        "连续步态",
+        "步行循环",
+        "双侧摆臂"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "display_title": "同身份成年男性双侧步态循环",
+      "renderers": [
+        "canvas2d"
+      ],
+      "sample_duration_seconds": 6.0
+    },
+    "mac_sit_stand_cycle_v1": {
+      "category": "motion",
+      "aliases": [
+        "同身份坐下、坐定与起立完整过渡",
+        "sit",
+        "连续动作",
+        "mac_sit_stand_cycle_v1"
+      ],
+      "actions": [
+        "坐站过渡",
+        "坐下",
+        "起立"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "display_title": "同身份坐下、坐定与起立完整过渡",
+      "renderers": [
+        "canvas2d"
+      ],
+      "sample_duration_seconds": 6.0
+    },
+    "mac_care_assistance_v1": {
+      "category": "motion",
+      "aliases": [
+        "双人照护：接近、协助起身、伴行与松手",
+        "care",
+        "连续动作",
+        "mac_care_assistance_v1"
+      ],
+      "actions": [
+        "照护全过程",
+        "辅助起身",
+        "陪伴行走",
+        "解除支撑"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "display_title": "双人照护：接近、协助起身、伴行与松手",
+      "renderers": [
+        "canvas2d"
+      ],
+      "sample_duration_seconds": 6.5
+    },
+    "mac_cooking_action_v1": {
+      "category": "motion",
+      "aliases": [
+        "连续备餐：切配、入锅、翻动与盛出",
+        "cooking",
+        "连续动作",
+        "mac_cooking_action_v1"
+      ],
+      "actions": [
+        "连续烹饪",
+        "切配",
+        "翻炒",
+        "盛出"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "连续动作",
+        "日常饮食"
+      ],
+      "display_title": "连续备餐：切配、入锅、翻动与盛出",
+      "renderers": [
+        "canvas2d"
+      ],
+      "sample_duration_seconds": 9.0
+    },
+    "ward_patient_side_scale_v3": {
+      "category": "characters",
+      "character_role": "adult_man",
+      "actions": [
+        "lying",
+        "supine_side"
+      ],
+      "aliases": [
+        "成年患者",
+        "侧视病床",
+        "躺卧"
+      ]
+    },
+    "mac_bp_cuff_action_v1": {
+      "category": "motion",
+      "aliases": [
+        "上臂式血压计：贴合袖带、静止测量与取下",
+        "mac_bp_cuff_action_v1"
+      ],
+      "actions": [
+        "器械操作",
+        "连续监测"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ]
+    },
+    "mac_glucose_test_action_v1": {
+      "category": "motion",
+      "aliases": [
+        "血糖仪操作：插试纸、采血、读数与按压止血",
+        "血糖仪",
+        "试纸",
+        "采血",
+        "指尖采血",
+        "家庭监测",
+        "mac_glucose_test_action_v1"
+      ],
+      "actions": [
+        "器械操作",
+        "试纸插入",
+        "指尖采血",
+        "读数",
+        "按压止血"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "家庭监测",
+        "糖尿病管理",
+        "连续动作"
+      ],
+      "display_title": "血糖仪操作：插试纸、采血、读数与按压止血",
+      "renderers": [
+        "canvas2d"
+      ],
+      "sample_duration_seconds": 7.0
+    },
+    "reserve_heart_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "心脏",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_heart_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "心脏",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_lungs_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肺与气管",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_lungs_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肺与气管",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_liver_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肝脏",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_liver_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肝脏",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_stomach_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胃",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_stomach_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胃",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_intestine_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肠道",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_intestine_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肠道",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_gallbladder_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胆囊",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_gallbladder_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胆囊",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_islet_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胰岛",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_islet_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "胰岛",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_alveolus_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肺泡",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_alveolus_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "肺泡",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_blood_cell_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "红细胞",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_blood_cell_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "红细胞",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_breast_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "乳腺",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_breast_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "乳腺",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_foot_joint_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "足关节",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_foot_joint_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "足关节",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_pelvic_organs_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "盆腔器官",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_pelvic_organs_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "盆腔器官",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_head_sagittal_simple_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "头部矢状位",
+        "simple"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "simple",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "reserve_head_sagittal_detailed_layers_v1": {
+      "category": "anatomy",
+      "aliases": [
+        "头部矢状位",
+        "detailed_layers"
+      ],
+      "actions": [
+        "逐层揭示",
+        "局部放大"
+      ],
+      "detail_level": "detailed_layers",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ]
+    },
+    "bp_cuff_fitted_front_v1": {
+      "category": "monitoring",
+      "aliases": [
+        "血压袖带前层",
+        "袖带佩戴",
+        "贴合袖带"
+      ],
+      "story_roles": [
+        "规范测量",
+        "裸露上臂"
+      ],
+      "actions": [
+        "佩戴",
+        "固定",
+        "连接气管"
+      ]
+    },
+    "character_adult_woman_nursing_v1": {
+      "category": "characters",
+      "aliases": [
+        "哺乳母亲",
+        "哺乳期",
+        "喂奶",
+        "母婴",
+        "坐姿哺乳"
+      ],
+      "actions": [
+        "哺乳姿态",
+        "坐姿",
+        "抱婴儿"
+      ],
+      "story_roles": [
+        "哺乳期治疗沟通",
+        "家庭照护"
+      ]
+    },
+    "character_adult_woman_pregnant_v1": {
+      "category": "characters",
+      "aliases": [
+        "短发孕妇",
+        "同身份孕妇",
+        "孕期站姿",
+        "成年女性孕期"
+      ],
+      "character_role": "adult_woman",
+      "identity_family": "adult_woman_cn_mustard",
+      "pose": "stand_pregnant",
+      "actions": [
+        "孕期站姿",
+        "站姿"
+      ],
+      "story_roles": [
+        "备孕与孕期衔接",
+        "孕期就医"
+      ]
+    },
+    "mac_abpm_recording_v1": {
+      "category": "motion",
+      "aliases": [
+        "动态血压：日夜周期记录与交回设备",
+        "mac_abpm_recording_v1"
+      ],
+      "actions": [
+        "动态血压",
+        "日夜记录",
+        "24小时监测"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ]
+    },
+    "mac_thyroid_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "甲状腺",
+        "逐层揭示",
+        "局部高亮",
+        "thyroid"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "甲状腺·逐层揭示与局部高亮",
+      "sample_duration_seconds": 10.200000000000001
+    },
+    "mac_kidney_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "肾脏",
+        "逐层揭示",
+        "局部高亮",
+        "kidney"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肾脏·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_artery_wall_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "动脉壁",
+        "逐层揭示",
+        "局部高亮",
+        "artery_wall"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "动脉壁·逐层揭示与局部高亮",
+      "sample_duration_seconds": 10.200000000000001
+    },
+    "mac_pancreas_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "胰腺与胰管",
+        "逐层揭示",
+        "局部高亮",
+        "pancreas"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胰腺与胰管·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_pituitary_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "垂体与邻近结构",
+        "逐层揭示",
+        "局部高亮",
+        "pituitary"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "垂体与邻近结构·逐层揭示与局部高亮",
+      "sample_duration_seconds": 14.200000000000001
+    },
+    "mac_heart_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "心脏",
+        "逐层揭示",
+        "局部高亮",
+        "heart"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "心脏·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_lungs_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "肺与气管",
+        "逐层揭示",
+        "局部高亮",
+        "lungs"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肺与气管·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_liver_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "肝脏",
+        "逐层揭示",
+        "局部高亮",
+        "liver"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肝脏·逐层揭示与局部高亮",
+      "sample_duration_seconds": 10.200000000000001
+    },
+    "mac_stomach_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "胃",
+        "逐层揭示",
+        "局部高亮",
+        "stomach"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胃·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_intestine_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "肠道",
+        "逐层揭示",
+        "局部高亮",
+        "intestine"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肠道·逐层揭示与局部高亮",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_gallbladder_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "胆囊",
+        "逐层揭示",
+        "局部高亮",
+        "gallbladder"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胆囊·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_islet_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "胰岛",
+        "逐层揭示",
+        "局部高亮",
+        "islet"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胰岛·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_alveolus_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "肺泡",
+        "逐层揭示",
+        "局部高亮",
+        "alveolus"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肺泡·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_blood_cell_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "红细胞",
+        "逐层揭示",
+        "局部高亮",
+        "blood_cell"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "红细胞·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_breast_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "乳腺",
+        "逐层揭示",
+        "局部高亮",
+        "breast"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "乳腺·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_foot_joint_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "足关节",
+        "逐层揭示",
+        "局部高亮",
+        "foot_joint"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "足关节·逐层揭示与局部高亮",
+      "sample_duration_seconds": 8.200000000000001
+    },
+    "mac_pelvic_organs_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "盆腔器官",
+        "逐层揭示",
+        "局部高亮",
+        "pelvic_organs"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "盆腔器官·逐层揭示与局部高亮",
+      "sample_duration_seconds": 10.200000000000001
+    },
+    "mac_head_sagittal_structure_reveal_v1": {
+      "category": "motion",
+      "aliases": [
+        "头部矢状位",
+        "逐层揭示",
+        "局部高亮",
+        "head_sagittal"
+      ],
+      "actions": [
+        "逐层揭示",
+        "原位高亮",
+        "局部近景"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "头部矢状位·逐层揭示与局部高亮",
+      "sample_duration_seconds": 10.200000000000001
+    },
+    "mac_abpm_wear_cycle_v1": {
+      "category": "motion",
+      "aliases": [
+        "动态血压",
+        "ABPM",
+        "佩戴动态血压仪",
+        "袖带固定",
+        "交回设备",
+        "日夜记录"
+      ],
+      "actions": [
+        "佩戴",
+        "固定记录器",
+        "静止试测",
+        "日夜记录",
+        "交回设备"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ]
+    },
+    "mac_thyroid_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "甲状腺",
+        "峡部前后层揭开",
+        "thyroid"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "甲状腺·峡部前后层揭开连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_kidney_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "肾脏",
+        "冠状剖面开合",
+        "kidney"
+      ],
+      "actions": [
+        "二维示意切开",
+        "剖面开合"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肾脏·冠状剖面开合连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_artery_wall_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "动脉壁",
+        "横断面扇区展开",
+        "artery_wall"
+      ],
+      "actions": [
+        "横断面扇区展开"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "动脉壁·横断面扇区展开连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_pancreas_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "胰腺与胰管",
+        "二维局部剖面",
+        "pancreas"
+      ],
+      "actions": [
+        "二维示意切开",
+        "剖面开合"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胰腺与胰管·二维局部剖面连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_pituitary_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "垂体与邻近结构",
+        "鞍区关系图局部揭示",
+        "pituitary"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "垂体与邻近结构·鞍区关系图局部揭示连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_heart_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "心脏",
+        "二维剖面开合",
+        "heart"
+      ],
+      "actions": [
+        "二维示意切开",
+        "剖面开合"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "心脏·二维剖面开合连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_lungs_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "肺与气管",
+        "近端支气管位置揭层",
+        "lungs"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肺与气管·近端支气管位置揭层连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_liver_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "肝脏",
+        "肝胆下缘位置揭层",
+        "liver"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肝脏·肝胆下缘位置揭层连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_stomach_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "胃",
+        "二维剖面开合",
+        "stomach"
+      ],
+      "actions": [
+        "二维示意切开",
+        "剖面开合"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胃·二维剖面开合连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_intestine_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "肠道",
+        "结肠内小肠位置揭示",
+        "intestine"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肠道·结肠内小肠位置揭示连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_gallbladder_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "胆囊",
+        "二维剖面开合",
+        "gallbladder"
+      ],
+      "actions": [
+        "二维示意切开",
+        "剖面开合"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胆囊·二维剖面开合连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_islet_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "胰岛",
+        "胰岛血管关系揭层",
+        "islet"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "胰岛·胰岛血管关系揭层连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_alveolus_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "肺泡",
+        "二维剖面开合",
+        "alveolus"
+      ],
+      "actions": [
+        "二维示意切开",
+        "剖面开合"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "肺泡·二维剖面开合连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_blood_cell_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "红细胞",
+        "中央淡区连续揭示",
+        "blood_cell"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "红细胞·中央淡区连续揭示连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_breast_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "乳腺",
+        "侧视局部剖面",
+        "breast"
+      ],
+      "actions": [
+        "二维示意切开",
+        "剖面开合"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "乳腺·侧视局部剖面连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_foot_joint_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "足关节",
+        "踝关节位置揭层",
+        "foot_joint"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "足关节·踝关节位置揭层连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_pelvic_organs_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "盆腔器官",
+        "盆腔前后投影揭层",
+        "pelvic_organs"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "盆腔器官·盆腔前后投影揭层连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_head_sagittal_section_open_close_v1": {
+      "category": "motion",
+      "aliases": [
+        "头部矢状位",
+        "头部位置图揭层",
+        "head_sagittal"
+      ],
+      "actions": [
+        "同位局部揭层",
+        "连续揭示与恢复"
+      ],
+      "medium": "code",
+      "story_roles": [
+        "结构解释",
+        "位置关系"
+      ],
+      "renderers": [
+        "canvas2d"
+      ],
+      "display_title": "头部矢状位·头部位置图揭层连续开合",
+      "sample_duration_seconds": 6.2
+    },
+    "mac_adult_woman_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "adult_woman",
+      "aliases": [
+        "成年女性",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_teen_girl_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "teen_girl",
+      "aliases": [
+        "青少年女性",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_child_girl_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "child_girl",
+      "aliases": [
+        "儿童女性",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_older_man_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "older_man",
+      "aliases": [
+        "老年男性",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_older_woman_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "older_woman",
+      "aliases": [
+        "老年女性",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_pregnant_woman_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "pregnant_woman",
+      "aliases": [
+        "孕妇",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_child_boy_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "child_boy",
+      "aliases": [
+        "男童",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_teen_boy_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "teen_boy",
+      "aliases": [
+        "男性青少年",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_young_man_seat_report_stand_v1": {
+      "category": "motion",
+      "character_role": "young_man",
+      "aliases": [
+        "年轻成年男性",
+        "落座",
+        "取报告",
+        "起身"
+      ],
+      "actions": [
+        "坐站过渡",
+        "取报告",
+        "持物"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "poses": [
+        "stand",
+        "seated",
+        "reach"
+      ]
+    },
+    "mac_older_woman_bed_rest_v1": {
+      "category": "motion",
+      "character_role": "older_woman",
+      "poses": [
+        "stand",
+        "seated",
+        "lying"
+      ],
+      "aliases": [
+        "床",
+        "侧卧",
+        "老年女性",
+        "休息"
+      ],
+      "actions": [
+        "床沿落座",
+        "侧卧休息",
+        "起身"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ]
+    },
+    "character_child_boy_seated_scale_v2": {
+      "actions": [
+        "坐定"
+      ],
+      "aliases": [
+        "男童低椅完整坐姿",
+        "男童",
+        "完整低椅坐姿"
+      ],
+      "category": "characters",
+      "character_role": "child_boy",
+      "ethnicity": "Chinese",
+      "identity_family": "child_boy_cn",
+      "locale": "zh-CN",
+      "medium": "cutout",
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "pose": "seated",
+      "style": [
+        "paper_collage"
+      ],
+      "visible_bounds": [
+        167,
+        21,
+        940,
+        1466
+      ],
+      "poses": [
+        "seated"
+      ]
+    },
+    "character_pregnant_woman_seated_scale_v2": {
+      "actions": [
+        "坐定"
+      ],
+      "aliases": [
+        "高发髻孕妇完整坐姿",
+        "孕妇",
+        "完整低椅坐姿"
+      ],
+      "category": "characters",
+      "display_title": "孕妇完整坐姿",
+      "medium": "cutout",
+      "objects": [
+        "完整孕妇人物"
+      ],
+      "story_roles": [
+        "产检沟通",
+        "坐姿休息",
+        "孕期计划"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "完整全身孕妇，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。",
+      "character_role": "pregnant_woman",
+      "poses": [
+        "seated"
+      ],
+      "identity_family": "pregnant_woman_cn"
+    },
+    "character_adult_man_alert_seated_scale_v2": {
+      "actions": [
+        "坐定"
+      ],
+      "aliases": [
+        "成年男性完整清醒坐姿",
+        "成年男性",
+        "完整低椅坐姿"
+      ],
+      "category": "characters",
+      "character_role": "adult_man",
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "display_title": "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）",
+      "master_id": "character_adult_man_stand_v1",
+      "medium": "cutout",
+      "objects": [
+        "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）"
+      ],
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "pose": "seated",
+      "story_roles": [
+        "坐姿沟通",
+        "运动准备",
+        "坐下休息"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "原件朝画面左侧；镜像时头、手、臀部及脚底锚点须一起变换。；本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。；单幅坐姿不提供坐下起身过渡帧或连续动作。",
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "visible_bounds": [
+        133,
+        38,
+        870,
+        1477
+      ],
+      "visible_bounds_alpha_threshold": 24,
+      "poses": [
+        "seated"
+      ],
+      "identity_family": "adult_man_cn_green_red"
+    },
+    "character_adult_man_unresponsive_seated_scale_v2": {
+      "actions": [
+        "坐定"
+      ],
+      "aliases": [
+        "同身份成年男性无反应坐姿",
+        "成年男性",
+        "完整低椅坐姿"
+      ],
+      "category": "characters",
+      "character_role": "adult_man",
+      "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+      "display_title": "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）",
+      "identity_family": "adult_man_cn_green_red",
+      "master_id": "character_adult_man_stand_v1",
+      "medium": "cutout",
+      "objects": [
+        "中年男性完整坐姿（浅绿衫、砖红裤，同站走母版）"
+      ],
+      "original_image_size": [
+        1024,
+        1536
+      ],
+      "pose": "seated",
+      "poses": [
+        "seated"
+      ],
+      "story_roles": [
+        "坐姿沟通",
+        "运动准备",
+        "坐下休息"
+      ],
+      "style": [
+        "paper_collage"
+      ],
+      "usage_notes": "原件朝画面左侧；镜像时头、手、臀部及脚底锚点须一起变换。；本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。；单幅坐姿不提供坐下起身过渡帧或连续动作。",
+      "view": "按完整原件观察；镜像后重核朝向和装配",
+      "visible_bounds": [
+        133,
+        38,
+        870,
+        1477
+      ],
+      "visible_bounds_alpha_threshold": 24
     }
   },
   "policy": "人工策展的发现层；不改原资产版本，不替代当前镜头审查，不限制新创。"

@@ -1,0 +1,64 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "0de5e8fd2e3845c4db15056402c3f97563dba6f11b21cfd4680546373aea7a91",
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "618980d616e514173faaca4950b33e241f1d698809348ca92828c4a8855dffd8",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "0de5e8fd2e3845c4db15056402c3f97563dba6f11b21cfd4680546373aea7a91",
+    "assets/arm.png": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+    "assets/dressing.png": "9368a13f3f03ce993b078d18aa81b03d2576f27cab0e80c8e6693f39c0b5cf4a",
+    "assets/meter.png": "bd6d14da33867213ae79eea07914cb303a39a04b9e3709dcf8bc85a0257c44a8",
+    "assets/strip.png": "107c67ac0c7358adfc243db32b03cff14bcff5d5cbdd67ab5f060f2d9bfd98f0"
+  },
+  "media": {
+    "samples/background-color.png": "180b6a83394ddea0b2a879a746286e20b67bbbfceb09d3c6ad05927b383ee616",
+    "samples/background-dark.png": "323afb46920bd4b7ca878876fc9378bb6d63ec50301092b65a39a60ed19f292c",
+    "samples/background-light.png": "ccd81ad5ad0ef9a45f7b82d4a1a1ec4b29b818759ebba66474a95e9cf668eb04",
+    "samples/background-review.jpg": "f2b4600523fb73d9c8ff93ab978c7ca6ca35d1577fb4b80764835d39271745ef",
+    "samples/contact-sheet.jpg": "dfdaa92aa830a5b063e2ecd3f2831a09d761f0d916de59cdc939d373179cc3b3",
+    "samples/keyframes/00.png": "0dacb89210cdbd6a7c3e747347f48e017f22a90b7356930360c8a069fbfccfaa",
+    "samples/keyframes/01.png": "0dacb89210cdbd6a7c3e747347f48e017f22a90b7356930360c8a069fbfccfaa",
+    "samples/keyframes/02.png": "d974f2ba6d94b6b5faa88936b81b28994f8b39eafe54481e1f18a842ba29789b",
+    "samples/keyframes/03.png": "efb3b851c2af0b880d901733f0fd29f6f606451e92de45c6e6d45e752df4be2a",
+    "samples/keyframes/04.png": "47ebe9166968031ef9dd9c54db837c0185d9eda8f1828da4b7cf35278a0c0167",
+    "samples/keyframes/05.png": "7fed6a7ea239c706e1eea8dee5d057b37df49e9562ac0fa782e4b6f7c26a94e0",
+    "samples/keyframes/06.png": "eeabb6a02368f95df941f1d4489a4e42082cdbbbf5d92ff2a48f43b6669b0698",
+    "samples/keyframes/07.png": "fea79413ef13cb9bf0b89272872748de8974e73cc21dc1dfe32a85aee1aae03f",
+    "samples/keyframes/08.png": "9ba3c129a438981190d7e4b7cf2e23254e754dcfc9ca867329a8f382e6ef7a75",
+    "samples/keyframes/09.png": "145984717317956eeace7bb450facf8593b6b1c65f82e71f91d9a1387634fbc9",
+    "samples/keyframes/10.png": "145984717317956eeace7bb450facf8593b6b1c65f82e71f91d9a1387634fbc9",
+    "samples/keyframes/11.png": "09dac55419da77f0897dc6b7401edb7dd74a92cd92fc2087f5696d5ebc74cbf5",
+    "samples/keyframes/12.png": "4019c92e4454fce7abb6b4277e2fd05b3fdcec820a459a2fe2b81de6f8eb3180",
+    "samples/keyframes/13.png": "4019c92e4454fce7abb6b4277e2fd05b3fdcec820a459a2fe2b81de6f8eb3180",
+    "samples/phone-reading.png": "808f82df4ba52e1bc63857142bededb268cfbd09cc77d86e61e8b00bdc961aa4",
+    "samples/phone.png": "a06bc738758d260b3f9afff688d99cc47f3476875e2a74c4406cbbed43773793",
+    "samples/sample.mp4": "dfcfcd1ca2295072fb81e3938c6fc4052cfcec319337025e1d213b732304b864"
+  },
+  "technical": {
+    "frames": 168,
+    "fps": 24,
+    "duration": 7,
+    "random_seek_equal": true,
+    "browser_errors": []
+  },
+  "checked": [
+    "逐帧核对装入试纸、采血笔接触、试纸保持连接吸血、读取、按压；采样端与同一指端重合。",
+    "浅底、深底与彩底三张底图下边缘干净，无光晕与背景残留。",
+    "手机宽度核对主机、短试纸、采样接触与敷料；数值读数改为无诊断含义的读取完成提示。",
+    "随机拖动时间轴返回完全相同的画面，浏览器无报错。"
+  ],
+  "defects_found_and_fixed": [
+    "旧版试纸按宽度缩放后长过主机：重绘短试纸，按两个端点的实际距离等比缩放。",
+    "旧版错误演示取出沾血后再插回：改为插好后不再分离，主机和试纸共同靠近血滴。",
+    "旧版血滴漂浮与敷料偏移：所有接触均绑定同一个原图指端；补可见采血笔接触。"
+  ],
+  "not_reviewed": [
+    "独立医学终审 pending；采血笔与试纸为通用示意，具体设备按说明操作。",
+    "本集镜头未审：接触、尺度、遮挡与构图仍需按当前镜头判断。",
+    "声音未审：配套拟音已在库，但本包样片无声。"
+  ]
+}

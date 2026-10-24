@@ -1,35 +1,35 @@
 {
   "schema": "medical_video_asset_sync/v1",
-  "generated_at": "2026-10-23T16:38:19.388249+00:00",
-  "workspace": "/Users/gaofeng/workspace/科普视频",
-  "asset_count": 207,
-  "default_candidate_count": 207,
+  "generated_at": "2026-10-24T09:38:29.164399+00:00",
+  "asset_count": 300,
+  "registered_versions": 339,
+  "current_discoverable_identities": 295,
   "reference_count": 0,
-  "registered_versions": 221,
-  "by_kind": {
-    "transparent_subject": 77,
+  "payload_files": 4712,
+  "by_kind_current": {
+    "audio": 22,
+    "image": 79,
+    "motion_recipe": 57,
+    "transparent_subject": 71,
+    "medical_cutout": 37,
     "code_component": 5,
-    "image": 83,
-    "motion_recipe": 4,
-    "music_score": 4,
-    "audio": 17,
-    "environment": 14,
     "environment_plate": 5,
-    "medical_cutout": 11,
-    "component": 1
+    "component": 1,
+    "environment": 14,
+    "music_score": 4
   },
-  "by_series": {
-    "pituitary_paper_theatre": 12,
-    "breast_nodules_paper_theatre": 3,
-    "gout_paper_theatre": 3,
-    "graves_paper_theatre": 3,
-    "hashimoto_paper_theatre": 2,
-    "ckd_paper_theatre": 3,
-    "pcos_paper_theatre": 3
+  "by_category_current": {
+    "bgm": 12,
+    "stage": 26,
+    "monitoring": 15,
+    "motion": 63,
+    "characters": 75,
+    "anatomy": 55,
+    "sfx": 14,
+    "paper": 7,
+    "documents": 7,
+    "lifestyle": 16,
+    "care": 5
   },
-  "payload_files": 787,
-  "repo": "/Users/gaofeng/workspace/mac-media-assets",
-  "last_incremental_curation": "2026-10-24",
-  "incremental_source": "composition repair and cooking cutouts",
-  "latest_increment": "2026-10-24 cooking prep parts; private author assets excluded"
+  "note": "登记包含保留的历史精确版本；默认发现另按策展与覆盖表选择。"
 }

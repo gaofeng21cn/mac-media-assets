@@ -1,0 +1,280 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_islet_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "胰岛·逐层揭示与局部高亮",
+  "label": "胰岛",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "胰岛局部组织关系示意：中央为成簇内分泌细胞，周围为外分泌腺泡，毛细血管在细胞间分支。颜色不指定细胞类型，数量与分布不代表真实比例；不是胰腺整器官总览，不表达分泌或血糖调节。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "exocrine_surroundings": {
+      "path": "assets/exocrine_surroundings.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        90,
+        123,
+        916,
+        923
+      ],
+      "sha256": "c1d64c79a5a7c771342690120d37d02d21031187271ac3bf37af2e22ec619b17"
+    },
+    "endocrine_cells": {
+      "path": "assets/endocrine_cells.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        263,
+        271,
+        761,
+        753
+      ],
+      "sha256": "58884fcb38c5e572912c8815bb2c523556e94cf2bba17701d1d0ccf864998f13"
+    },
+    "capillary_network": {
+      "path": "assets/capillary_network.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        258,
+        431,
+        737,
+        756
+      ],
+      "sha256": "eb0fe01b891b5b40ab9b7189df12a193ba92231a1b2955fab3fd1d5b13d4c004"
+    }
+  },
+  "layers": [
+    {
+      "id": "exocrine_surroundings",
+      "label": "周围外分泌腺泡",
+      "content_bounds": [
+        90,
+        123,
+        916,
+        923
+      ],
+      "focus_bounds": [
+        40.0,
+        73.0,
+        966.0,
+        973.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "endocrine_cells",
+      "label": "成簇内分泌细胞",
+      "content_bounds": [
+        263,
+        271,
+        761,
+        753
+      ],
+      "focus_bounds": [
+        213.0,
+        221.0,
+        811.0,
+        803.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "capillary_network",
+      "label": "细胞间毛细血管",
+      "content_bounds": [
+        258,
+        431,
+        737,
+        756
+      ],
+      "focus_bounds": [
+        208.0,
+        381.0,
+        787.0,
+        806.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_islet_detailed_layers_v1@ab8b99e13ca56d68dec2",
+      "portable_record_sha256": "cb1bd4b16eb1765d42a6411f83408f3b69d08291f6e756cab07ec00d924944e7"
+    }
+  ],
+  "composite_bounds": [
+    90,
+    123,
+    916,
+    923
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "局部组织放大；颜色不指定细胞类型。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_exocrine_surroundings",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_endocrine_cells",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_capillary_network",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_exocrine_surroundings",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_endocrine_cells",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_capillary_network",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

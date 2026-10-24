@@ -1,0 +1,280 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_foot_joint_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "足关节·逐层揭示与局部高亮",
+  "label": "足关节",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "踝足侧面关系示意：胫腓骨位于距骨上方、跟骨位于后下方，前足向画面右伸展；关节间隙为窄边界，不画成覆盖骨面的空洞。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "bones": {
+      "path": "assets/bones.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        330,
+        147,
+        858,
+        728
+      ],
+      "sha256": "a3a778f4fdd9dd5f9543404f70e986d28a8d0a8b6b80eef4de4d27721d8c339d"
+    },
+    "joint_space": {
+      "path": "assets/joint_space.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        411,
+        441,
+        539,
+        479
+      ],
+      "sha256": "e72f004c047482197808eb30e92ef81f357605ba37bf805ce2911c022ff4af1b"
+    },
+    "ligaments": {
+      "path": "assets/ligaments.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        358,
+        475,
+        443,
+        613
+      ],
+      "sha256": "69cb706f7a78eaac17d528bc88aadafb3d040e8f1c4140649c37cae53da1b957"
+    }
+  },
+  "layers": [
+    {
+      "id": "bones",
+      "label": "胫腓骨、距骨与足骨",
+      "content_bounds": [
+        330,
+        147,
+        858,
+        728
+      ],
+      "focus_bounds": [
+        280.0,
+        97.0,
+        908.0,
+        778.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.47,
+            "y": 0.48
+          },
+          "ankle_joint": {
+            "x": 0.46,
+            "y": 0.45
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "joint_space",
+      "label": "踝关节边界",
+      "content_bounds": [
+        411,
+        441,
+        539,
+        479
+      ],
+      "focus_bounds": [
+        335.0,
+        320.0,
+        615.0,
+        600.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.47,
+            "y": 0.48
+          },
+          "ankle_joint": {
+            "x": 0.46,
+            "y": 0.45
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "ligaments",
+      "label": "韧带位置",
+      "content_bounds": [
+        358,
+        475,
+        443,
+        613
+      ],
+      "focus_bounds": [
+        260.5,
+        404.0,
+        540.5,
+        684.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.47,
+            "y": 0.48
+          },
+          "ankle_joint": {
+            "x": 0.46,
+            "y": 0.45
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_foot_joint_detailed_layers_v1@283c6b2c20073a11d32c",
+      "portable_record_sha256": "5ad34a3c514921a6774e6166536f4a35c87266386a58a85e7465061557023a8c"
+    }
+  ],
+  "composite_bounds": [
+    330,
+    147,
+    858,
+    728
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "侧面骨与关节边界；不表达活动范围。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_bones",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_joint_space",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_ligaments",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_bones",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_joint_space",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_ligaments",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

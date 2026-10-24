@@ -1,0 +1,487 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_pituitary_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "垂体与邻近结构·逐层揭示与局部高亮",
+  "label": "垂体与邻近结构",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "概念性相对位置示意：垂体经柄连接上方下丘脑，视交叉在上方偏前，蝶窦在鞍底下方。它不是患者影像或精确矢状断面；不含颈内动脉、神经束或手术通道，不能用作入路示教。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 14.200000000000001,
+  "images": {
+    "sinus": {
+      "path": "assets/sinus.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        295,
+        643,
+        727,
+        866
+      ],
+      "sha256": "297257ff9915459f814e16642cff894797190f5f2ca17850e74a8e7b629423da"
+    },
+    "sella": {
+      "path": "assets/sella.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        308,
+        560,
+        713,
+        685
+      ],
+      "sha256": "082b170e06b8cfb126b065099a9b5e71183b35e4dd2609a661362e98a725db5c"
+    },
+    "gland": {
+      "path": "assets/gland.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        367,
+        492,
+        653,
+        650
+      ],
+      "sha256": "850160cc593061fd02edfa5b3b818c248b96a640f61d92c162a8ef1facf81859"
+    },
+    "stalk": {
+      "path": "assets/stalk.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        485,
+        313,
+        544,
+        505
+      ],
+      "sha256": "02ef5a186fab1d52d32c5a115014efb8b63a10196ee0f2ca95b477d3e7c49975"
+    },
+    "hypothalamus": {
+      "path": "assets/hypothalamus.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        376,
+        192,
+        649,
+        337
+      ],
+      "sha256": "606ff171e558e41bc2d4d0c2264c1d44212d6750dd496eda4523cc4defb447f7"
+    },
+    "chiasm": {
+      "path": "assets/chiasm.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        265,
+        374,
+        499,
+        444
+      ],
+      "sha256": "761f26b55ace15f762141b18334ea8fc33d9ad12bed3976c7e858434331dd681"
+    }
+  },
+  "layers": [
+    {
+      "id": "sinus",
+      "label": "蝶窦",
+      "content_bounds": [
+        295,
+        643,
+        727,
+        866
+      ],
+      "focus_bounds": [
+        245.0,
+        593.0,
+        777.0,
+        916.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "id": "sella",
+      "label": "蝶鞍",
+      "content_bounds": [
+        308,
+        560,
+        713,
+        685
+      ],
+      "focus_bounds": [
+        258.0,
+        482.5,
+        763.0,
+        762.5
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "id": "gland",
+      "label": "垂体",
+      "content_bounds": [
+        367,
+        492,
+        653,
+        650
+      ],
+      "focus_bounds": [
+        317.0,
+        431.0,
+        703.0,
+        711.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "id": "stalk",
+      "label": "垂体柄",
+      "content_bounds": [
+        485,
+        313,
+        544,
+        505
+      ],
+      "focus_bounds": [
+        374.5,
+        263.0,
+        654.5,
+        555.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "id": "hypothalamus",
+      "label": "下丘脑位置",
+      "content_bounds": [
+        376,
+        192,
+        649,
+        337
+      ],
+      "focus_bounds": [
+        326.0,
+        124.5,
+        699.0,
+        404.5
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "id": "chiasm",
+      "label": "视交叉位置",
+      "content_bounds": [
+        265,
+        374,
+        499,
+        444
+      ],
+      "focus_bounds": [
+        215.0,
+        269.0,
+        549.0,
+        549.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_pituitary_relations_layers_v1@453935452a85019762f8",
+      "portable_record_sha256": "1a708c54ee88d788500c1c24f6f9ed903a77f9a92ea003906dc93f6a662399cb"
+    }
+  ],
+  "composite_bounds": [
+    265,
+    192,
+    727,
+    866
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 6.200000000000001,
+    "focus_step": 1.2,
+    "return_start": 13.4
+  },
+  "presentation_note": "邻近位置示意；大小与间距非测量依据。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_sinus",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_sella",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_gland",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_stalk",
+      "time": 3.4000000000000004,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_hypothalamus",
+      "time": 4.2,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_chiasm",
+      "time": 5.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_sinus",
+      "time": 6.200000000000001,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_sella",
+      "time": 7.400000000000001,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_gland",
+      "time": 8.600000000000001,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_stalk",
+      "time": 9.8,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_hypothalamus",
+      "time": 11.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_chiasm",
+      "time": 12.200000000000001,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.4,
+    3.72,
+    4.2,
+    4.52,
+    5.0,
+    5.32,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    7.7,
+    8.5,
+    8.6,
+    8.9,
+    9.7,
+    9.8,
+    10.1,
+    10.9,
+    11.0,
+    11.3,
+    12.1,
+    12.2,
+    12.5,
+    13.3,
+    13.4,
+    14.2
+  ]
+}

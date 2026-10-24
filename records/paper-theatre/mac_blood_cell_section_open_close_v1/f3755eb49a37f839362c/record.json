@@ -1,0 +1,509 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_blood_cell_section_open_close_v1",
+  "title": "红细胞·中央淡区连续揭示连续开合",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "continuous_section_window",
+    "local_relation_reveal"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "红细胞",
+      "中央淡区连续揭示",
+      "blood_cell"
+    ],
+    "actions": [
+      "同位局部揭层",
+      "连续揭示与恢复"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "红细胞·中央淡区连续揭示连续开合",
+    "sample_duration_seconds": 6.2
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "红细胞双凹圆盘正视示意，区分膜、胞质与中央淡区；不表示血红蛋白含量、形态学分类或血液病。 中央淡区是正视外观，仍为细胞；不是切开的内腔。 central_pallor 是正视中央淡区，原件没有膜截面或细胞内部剖面；不能把淡区冒充内腔。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "5ac1c651ad6924935b530fba6ffe0524c0ddea4707846d1259a12fc729025b2d",
+      "bytes": 796
+    },
+    {
+      "path": "assets/central_pallor.png",
+      "role": "payload",
+      "sha256": "81c5b080b2fed47674be9655cb45b413f47dd89c8ffd868dc244e2211cf42407",
+      "bytes": 15878
+    },
+    {
+      "path": "assets/cytoplasm.png",
+      "role": "payload",
+      "sha256": "96d5ecc99725aeda181cae51e3f5cfb75d8386608c595a63fe1a85f8fce21fbf",
+      "bytes": 29172
+    },
+    {
+      "path": "assets/membrane.png",
+      "role": "payload",
+      "sha256": "c0c05df965d5a6d8284bfa4b8f881366b344a2f3d956b24022a1db8576e8d535",
+      "bytes": 29320
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "2cdd58a4f49f0c609c47454880422ae9e302f8d6d0a276325154584425fa8193",
+      "bytes": 627
+    },
+    {
+      "path": "original/files/central_pallor.png",
+      "role": "payload",
+      "sha256": "81c5b080b2fed47674be9655cb45b413f47dd89c8ffd868dc244e2211cf42407",
+      "bytes": 15878
+    },
+    {
+      "path": "original/files/cytoplasm.png",
+      "role": "payload",
+      "sha256": "96d5ecc99725aeda181cae51e3f5cfb75d8386608c595a63fe1a85f8fce21fbf",
+      "bytes": 29172
+    },
+    {
+      "path": "original/files/membrane.png",
+      "role": "payload",
+      "sha256": "c0c05df965d5a6d8284bfa4b8f881366b344a2f3d956b24022a1db8576e8d535",
+      "bytes": 29320
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "da6e9715d781d96a660e52ed598c7b5e5da9bea794c09241ed7d812893da79c1",
+      "bytes": 5825
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "6e3989565a9b68a9721a1eb7463aa588f9dcef702f67ce0f1940e0077177d69b",
+      "bytes": 39507
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/central_pallor.svg",
+      "role": "payload",
+      "sha256": "5f4681ebed7c4bfb4c05a2a0ea4256be49bac07364ee59992ed64bfbf9594970",
+      "bytes": 224
+    },
+    {
+      "path": "original/source/cytoplasm.svg",
+      "role": "payload",
+      "sha256": "0950b5ed7d5da5f5c58c14531c57c4ae04c722e1eaf9252d45a38fcef166a4d5",
+      "bytes": 224
+    },
+    {
+      "path": "original/source/membrane.svg",
+      "role": "payload",
+      "sha256": "6e2f001714667e43d3342aabd007693eceadec1ebc2894218cb100e7829fddd9",
+      "bytes": 221
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "150d033017f8b723b803b8a5c5499229f806fa5e87ab688268725ead68525985",
+      "bytes": 475
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "d534217a21db143a8fec5805aaa34f4c6f548fe664a0a8e4f48670e73972169d",
+      "bytes": 432
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "222131f8b518803c6fe982c210f6ece1c0bda194950d60cb0199710090e7e6f1",
+      "bytes": 7590
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+      "bytes": 5391
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "ef8c8b86f3aefef1ba4e591eb79c572a03335eeb28beba5fddae62a534125df0",
+      "bytes": 98017
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "7da9ae0ed9ea656d7b95ebd96e9125dbb9a84ce70cb7edf09006f0c36e491432",
+      "bytes": 96466
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "07e28835b80772a3a90c89277580d1ae9b335a2a52f5253665e1a2b142935879",
+      "bytes": 97970
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "7dbefeb9f12242dc3f2d7f86b18548c43752c27c36e1344d2f5fe6cf67883de9",
+      "bytes": 49793
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "26430a9f7d9a624f530290e95b70d94af1c07753503eeb2f2c632ed0fd1ecf7c",
+      "bytes": 197709
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "32f6cd8b43dc68e084696c9e38a71e0e0ae17c323221c90dd760c8efd38c178f",
+      "bytes": 79534
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "32f6cd8b43dc68e084696c9e38a71e0e0ae17c323221c90dd760c8efd38c178f",
+      "bytes": 79534
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "6861ff041c7d90ecb6de819ca9388aab4f0eb26df70c52628ececde46901337e",
+      "bytes": 80148
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "63c236ebac9e09ce2baf9bb338c8a58f8ace71f8a102d6f8ca9f9e13aad643da",
+      "bytes": 86082
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "934a036ab1e021a69dac5347822124ddd270b25e5d491a1a8c6875deb76d3295",
+      "bytes": 89527
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "ae58c25edc52cdabf11e62bf7dbb0b536e33fd9f353ee9fe2286dc6389f36518",
+      "bytes": 91298
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "12b4d0b3a74a917675edf401ff5894ef8ca908914270ee148d6d6720484c3450",
+      "bytes": 94312
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "07e28835b80772a3a90c89277580d1ae9b335a2a52f5253665e1a2b142935879",
+      "bytes": 97970
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "6f4d0ecd022f42e7319116e7547cc82b09b16c2a4acea16d4f80b0a6eb8e6e3a",
+      "bytes": 100643
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+      "bytes": 100569
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+      "bytes": 100569
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+      "bytes": 100569
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "f6150d8d1dbd0b4f8bc1c580369e58a40db3c27e9607138054e0f7607977b1b4",
+      "bytes": 101258
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "9646669f3f0c8280d7ba3f42b279116d5eb055a74a31a50f9e18bf90fb69d74a",
+      "bytes": 101209
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "d8f45d719caf24b117a0966e7813327b06b7fa4d534cad5381d71275eeedf238",
+      "bytes": 99080
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "4ff11b7a3cfee23fcc1dadf3983946f8bfc7d157f9656fd7a827842fccfe9db1",
+      "bytes": 95835
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "b7f7ad920f1e3b0d54c4e7cab0c2c7afa9e466400c8bb4bbd2623c982c7e4355",
+      "bytes": 92254
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "22eaba135c5ca4c12627e41861c67a858cff7c4bfee6d8d7223cd9e6d3171283",
+      "bytes": 86687
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+      "bytes": 81315
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+      "bytes": 81315
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+      "bytes": 81315
+    },
+    {
+      "path": "samples/open-phone-color.png",
+      "role": "payload",
+      "sha256": "2fb15a2c6648704d78579f757436dc26f47b720f350cb76832d5c4fe33aa37d4",
+      "bytes": 19860
+    },
+    {
+      "path": "samples/open-phone-dark.png",
+      "role": "payload",
+      "sha256": "bfd271e80d9915d4a37f50d862b5d632afd8b6c487f666d70edd613b500b1890",
+      "bytes": 19722
+    },
+    {
+      "path": "samples/open-phone-light.png",
+      "role": "payload",
+      "sha256": "c608eedb9ac3530de9a1ca335a2f1f3e7c6bfea50d56431542a112bf3ec95598",
+      "bytes": 19508
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "ecd095e1715b3cfd0eb49771039205fd7215df25664d69de91feedbc3caaad0f",
+      "bytes": 29796
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "6cd3bfdf14cd4b6d63fc1f2bb24b6dd0cd47799ebf73aa8d4764f4d8d426a5b5",
+      "bytes": 19510
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "426f235c759923db76a701cdd262eade964af9f7bdda7f3d629dc7d4a1b7d853",
+      "bytes": 118403
+    },
+    {
+      "path": "samples/section-background-review.jpg",
+      "role": "payload",
+      "sha256": "129a1b2bb466c006e56dced164cfb53bbaeb7f95b89bfbb75864ab4bfb882a25",
+      "bytes": 372443
+    },
+    {
+      "path": "samples/states/closed-color.png",
+      "role": "payload",
+      "sha256": "530036e54b6f44203520c6585e03184b3684a03abc317fa6714e8f9dc6792d5c",
+      "bytes": 79692
+    },
+    {
+      "path": "samples/states/closed-dark.png",
+      "role": "payload",
+      "sha256": "6654533221cdea8cb6ff0efe2d4f130b27ed6f2a6c71c4c982d9ebe7edc7a466",
+      "bytes": 77854
+    },
+    {
+      "path": "samples/states/closed-light.png",
+      "role": "payload",
+      "sha256": "32f6cd8b43dc68e084696c9e38a71e0e0ae17c323221c90dd760c8efd38c178f",
+      "bytes": 79534
+    },
+    {
+      "path": "samples/states/closing-color.png",
+      "role": "payload",
+      "sha256": "4cd4658cea5344d504d3449e9c8d0938e1deaff4016efd06c53de8cd08e7edb2",
+      "bytes": 95937
+    },
+    {
+      "path": "samples/states/closing-dark.png",
+      "role": "payload",
+      "sha256": "c9743c359de77d1f9e3f80eba7fc48e037c443875a1a01acfa55b90c79cbcc96",
+      "bytes": 94176
+    },
+    {
+      "path": "samples/states/closing-light.png",
+      "role": "payload",
+      "sha256": "4ff11b7a3cfee23fcc1dadf3983946f8bfc7d157f9656fd7a827842fccfe9db1",
+      "bytes": 95835
+    },
+    {
+      "path": "samples/states/half-color.png",
+      "role": "payload",
+      "sha256": "480d34812e3c6ab3a7494615118cbb3ac2143b5e12f4c4af72280863ce3c1582",
+      "bytes": 94353
+    },
+    {
+      "path": "samples/states/half-dark.png",
+      "role": "payload",
+      "sha256": "62e96339a14014fee55172448ebe5a50c186e4b09f1531c1036b366f12db5abc",
+      "bytes": 92782
+    },
+    {
+      "path": "samples/states/half-light.png",
+      "role": "payload",
+      "sha256": "12b4d0b3a74a917675edf401ff5894ef8ca908914270ee148d6d6720484c3450",
+      "bytes": 94312
+    },
+    {
+      "path": "samples/states/open-color.png",
+      "role": "payload",
+      "sha256": "115b045aa2240a65b0c4b566cef2b412b65785a16dbc8839cc2a659fe023f1ca",
+      "bytes": 100588
+    },
+    {
+      "path": "samples/states/open-dark.png",
+      "role": "payload",
+      "sha256": "4a1bf26cdb15e3b692b536bb8f38a6a8c4cfd1b8df5b5b30545a2c69a0455d60",
+      "bytes": 99062
+    },
+    {
+      "path": "samples/states/open-light.png",
+      "role": "payload",
+      "sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+      "bytes": 100569
+    },
+    {
+      "path": "samples/states/quarter-color.png",
+      "role": "payload",
+      "sha256": "a28d6c4a4c25e9c04ba35b905c90b88987540e41ba44b35181d4641465317699",
+      "bytes": 91391
+    },
+    {
+      "path": "samples/states/quarter-dark.png",
+      "role": "payload",
+      "sha256": "89fd5853f7af55cb06eb483235540d0d944d27be61c31c6410e89a27ddcc94f0",
+      "bytes": 89686
+    },
+    {
+      "path": "samples/states/quarter-light.png",
+      "role": "payload",
+      "sha256": "ae58c25edc52cdabf11e62bf7dbb0b536e33fd9f353ee9fe2286dc6389f36518",
+      "bytes": 91298
+    },
+    {
+      "path": "samples/states/restored-color.png",
+      "role": "payload",
+      "sha256": "5f2ac581352bdbae7f55e19711584a737ece1349c81dafca5f4fb278a6ab9907",
+      "bytes": 81477
+    },
+    {
+      "path": "samples/states/restored-dark.png",
+      "role": "payload",
+      "sha256": "a6740e44d91f93f0fa71a764028cd845b794db343dadbde3e2d36063af623468",
+      "bytes": 79640
+    },
+    {
+      "path": "samples/states/restored-light.png",
+      "role": "payload",
+      "sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+      "bytes": 81315
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "735253f1b59c3d8091194190da27c2f29c946e2831195bf70fd27563e4ed55e0",
+      "bytes": 11409
+    },
+    {
+      "path": "section-visual-review.json",
+      "role": "payload",
+      "sha256": "f21d3bc71cc2d52f19de2e0da15c5722c55b01e19c57533dba900bbde70e53b3",
+      "bytes": 7763
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "a6880180c1b8438bc00ff201ec3553a0e78d0c0a01df847c3f917f40d35804b4",
+      "bytes": 4935
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "f3755eb49a37f839362c"
+}

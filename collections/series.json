@@ -14,6 +14,10 @@
     "ckd_paper_theatre": "慢性肾病"
   },
   "aliases": {
+    "hypertension_paper_theatre": "hypertension_s01",
+    "diabetes_paper_theatre": "diabetes_s01",
+    "lipids_paper_theatre": "lipids_s01",
+    "weight_management_paper_theatre": "weight_management_s01",
     "pituitary_tumor_s01": "pituitary_paper_theatre",
     "pituitary_paper_theatre": "pituitary_paper_theatre"
   },

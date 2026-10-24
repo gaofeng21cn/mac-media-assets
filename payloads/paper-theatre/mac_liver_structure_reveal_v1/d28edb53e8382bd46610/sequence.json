@@ -1,0 +1,357 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_liver_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "肝脏·逐层揭示与局部高亮",
+  "label": "肝脏",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "肝脏外形示意，区分左右叶、胆囊与胆道走向；不表示肝内血管分段、肝功能或病灶。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 10.200000000000001,
+  "images": {
+    "right_lobe": {
+      "path": "assets/right_lobe.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        219,
+        210,
+        707,
+        512
+      ],
+      "sha256": "fbbcae8ce59c45886aec9884db1b5c1d930c94b2a886a48f1ab524f16c4e0fef"
+    },
+    "left_lobe": {
+      "path": "assets/left_lobe.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        651,
+        353,
+        814,
+        517
+      ],
+      "sha256": "0cc93558b48b5c95bafac73691068fad8a958aa8cd0e554c99a65337939e2ecb"
+    },
+    "gallbladder": {
+      "path": "assets/gallbladder.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        425,
+        497,
+        515,
+        629
+      ],
+      "sha256": "132834aa04dc6e48b00cfc7a1b13ee9c50639abcdef1bbff05882d44b81ac2d3"
+    },
+    "bile_duct": {
+      "path": "assets/bile_duct.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        491,
+        463,
+        623,
+        519
+      ],
+      "sha256": "8e78c0f5e1a2b130125405b99713e4965076a7c9465f1eea129e73d1f6bf4442"
+    }
+  },
+  "layers": [
+    {
+      "id": "right_lobe",
+      "label": "肝右叶（画面左）",
+      "content_bounds": [
+        219,
+        210,
+        707,
+        512
+      ],
+      "focus_bounds": [
+        169.0,
+        160.0,
+        757.0,
+        562.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "left_lobe",
+      "label": "肝左叶（画面右）",
+      "content_bounds": [
+        651,
+        353,
+        814,
+        517
+      ],
+      "focus_bounds": [
+        592.5,
+        295.0,
+        872.5,
+        575.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "gallbladder",
+      "label": "胆囊",
+      "content_bounds": [
+        425,
+        497,
+        515,
+        629
+      ],
+      "focus_bounds": [
+        330.0,
+        423.0,
+        610.0,
+        703.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "bile_duct",
+      "label": "胆管位置",
+      "content_bounds": [
+        491,
+        463,
+        623,
+        519
+      ],
+      "focus_bounds": [
+        417.0,
+        351.0,
+        697.0,
+        631.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_liver_detailed_layers_v1@b23153ea3cbdb7062dbc",
+      "portable_record_sha256": "33b59b93ae485cd4c3962c893adf7dcf15d6b878d4a7f6c708446fb999ae08ee"
+    }
+  ],
+  "composite_bounds": [
+    219,
+    210,
+    814,
+    629
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 4.6000000000000005,
+    "focus_step": 1.2,
+    "return_start": 9.4
+  },
+  "presentation_note": "正面关系示意；不表达肝内分段。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_right_lobe",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_left_lobe",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_gallbladder",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_bile_duct",
+      "time": 3.4000000000000004,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_right_lobe",
+      "time": 4.6000000000000005,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_left_lobe",
+      "time": 5.800000000000001,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_gallbladder",
+      "time": 7.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_bile_duct",
+      "time": 8.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.4,
+    3.72,
+    4.6,
+    4.9,
+    5.7,
+    5.8,
+    6.1,
+    6.9,
+    7.0,
+    7.3,
+    8.1,
+    8.2,
+    8.5,
+    9.3,
+    9.4,
+    10.2
+  ]
+}

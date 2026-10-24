@@ -1,0 +1,292 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_stomach_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "胃·逐层揭示与局部高亮",
+  "label": "胃",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "胃正面关系示意，画面右侧为胃底和胃体，食管入口在上，幽门向画面左侧延续；胃腔与胃壁分别揭示。不表达胃壁组织层、真实容积或胃排空功能。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "stomach_wall": {
+      "path": "assets/stomach_wall.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        271,
+        177,
+        850,
+        828
+      ],
+      "sha256": "b48e52a866f67bb4091258f12f0e71a7db03a83b87ec2047fc675ed86f1bd37b"
+    },
+    "gastric_lumen": {
+      "path": "assets/gastric_lumen.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        288,
+        203,
+        817,
+        793
+      ],
+      "sha256": "eaeea829e104346622e65db9bfaf28d5ff4e799d29f410cf96ee5659a384cc5e"
+    },
+    "cardia_pylorus": {
+      "path": "assets/cardia_pylorus.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        313,
+        287,
+        638,
+        650
+      ],
+      "sha256": "9e2da7196e9a4c04271210aeb43f405d4e4b93b7d4faf15e42f816a8fa2d1f7c"
+    }
+  },
+  "layers": [
+    {
+      "id": "stomach_wall",
+      "label": "胃壁",
+      "content_bounds": [
+        271,
+        177,
+        850,
+        828
+      ],
+      "focus_bounds": [
+        221.0,
+        127.0,
+        900.0,
+        878.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.59,
+            "y": 0.54
+          },
+          "cardia": {
+            "x": 0.59,
+            "y": 0.29
+          },
+          "pylorus": {
+            "x": 0.31,
+            "y": 0.61
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "gastric_lumen",
+      "label": "胃腔",
+      "content_bounds": [
+        288,
+        203,
+        817,
+        793
+      ],
+      "focus_bounds": [
+        238.0,
+        153.0,
+        867.0,
+        843.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.59,
+            "y": 0.54
+          },
+          "cardia": {
+            "x": 0.59,
+            "y": 0.29
+          },
+          "pylorus": {
+            "x": 0.31,
+            "y": 0.61
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "cardia_pylorus",
+      "label": "贲门与幽门位置",
+      "content_bounds": [
+        313,
+        287,
+        638,
+        650
+      ],
+      "focus_bounds": [
+        263.0,
+        237.0,
+        688.0,
+        700.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.59,
+            "y": 0.54
+          },
+          "cardia": {
+            "x": 0.59,
+            "y": 0.29
+          },
+          "pylorus": {
+            "x": 0.31,
+            "y": 0.61
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_stomach_detailed_layers_v1@24f78a93bc5dae7f534d",
+      "portable_record_sha256": "2adf6fc0cb2ae59e7aedd82465d94f85fdbc98bed6fd833cafecd997f78c510d"
+    }
+  ],
+  "composite_bounds": [
+    271,
+    177,
+    850,
+    828
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "胃壁与相通胃腔；不表达蠕动。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_stomach_wall",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_gastric_lumen",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_cardia_pylorus",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_stomach_wall",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_gastric_lumen",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_cardia_pylorus",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

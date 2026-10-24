@@ -1,0 +1,357 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_artery_wall_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "动脉壁·逐层揭示与局部高亮",
+  "label": "动脉壁",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "动脉横断面三层壁与管腔，外膜、中膜、内膜逐层套叠；层厚只为可读性，无狭窄/斑块或病理含义，不能用于厚度测量。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 10.200000000000001,
+  "images": {
+    "adventitia": {
+      "path": "assets/adventitia.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        145,
+        190,
+        879,
+        834
+      ],
+      "sha256": "97b5d1591d4c181382097420db56b4de640aea9ceaab7703512fc2ac7ad2d370"
+    },
+    "media": {
+      "path": "assets/media.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        203,
+        242,
+        821,
+        782
+      ],
+      "sha256": "45553f2808163db6fb2bb66f13ab3779d6bca99f54762af8a8cd064153be427a"
+    },
+    "intima": {
+      "path": "assets/intima.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        272,
+        303,
+        752,
+        721
+      ],
+      "sha256": "f7e6e273961275c38e0dfc66e5e6a92a31baa7821358c8821034d4e6c0a8f4c7"
+    },
+    "lumen": {
+      "path": "assets/lumen.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        298,
+        327,
+        726,
+        697
+      ],
+      "sha256": "48a20e75a0885235fbd8c263cda62a5fab1ed5dc01addc8c3bcc88ab8e122f62"
+    }
+  },
+  "layers": [
+    {
+      "id": "adventitia",
+      "label": "外膜",
+      "content_bounds": [
+        145,
+        190,
+        879,
+        834
+      ],
+      "focus_bounds": [
+        95.0,
+        140.0,
+        929.0,
+        884.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "media",
+      "label": "中膜",
+      "content_bounds": [
+        203,
+        242,
+        821,
+        782
+      ],
+      "focus_bounds": [
+        153.0,
+        192.0,
+        871.0,
+        832.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "intima",
+      "label": "内膜",
+      "content_bounds": [
+        272,
+        303,
+        752,
+        721
+      ],
+      "focus_bounds": [
+        222.0,
+        253.0,
+        802.0,
+        771.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "lumen",
+      "label": "管腔",
+      "content_bounds": [
+        298,
+        327,
+        726,
+        697
+      ],
+      "focus_bounds": [
+        248.0,
+        277.0,
+        776.0,
+        747.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_artery_detailed_layers_v1@80bb1a5208afeb48a63c",
+      "portable_record_sha256": "1e865f57d61e7ba2c0193f2a88bc5603d5f0c67ebc8ac201fd8d0e161839fbf0"
+    }
+  ],
+  "composite_bounds": [
+    145,
+    190,
+    879,
+    834
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 4.6000000000000005,
+    "focus_step": 1.2,
+    "return_start": 9.4
+  },
+  "presentation_note": "横断面三层壁与管腔；层厚不作测量。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_adventitia",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_media",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_intima",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_lumen",
+      "time": 3.4000000000000004,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_adventitia",
+      "time": 4.6000000000000005,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_media",
+      "time": 5.800000000000001,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_intima",
+      "time": 7.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_lumen",
+      "time": 8.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.4,
+    3.72,
+    4.6,
+    4.9,
+    5.7,
+    5.8,
+    6.1,
+    6.9,
+    7.0,
+    7.3,
+    8.1,
+    8.2,
+    8.5,
+    9.3,
+    9.4,
+    10.2
+  ]
+}

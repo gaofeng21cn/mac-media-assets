@@ -1,0 +1,357 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_thyroid_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "甲状腺·逐层揭示与局部高亮",
+  "label": "甲状腺",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "正面甲状腺与后方气管的简化空间关系；不含甲状软骨、血管、神经或病灶。左右为画面左右，不能据此判断手术层次。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 10.200000000000001,
+  "images": {
+    "trachea": {
+      "path": "assets/trachea.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        451,
+        109,
+        573,
+        869
+      ],
+      "sha256": "1d306b8b2153b845f5992f7fd2d8862fc7e82c84cef393dd3b8c25ba37de7611"
+    },
+    "lobe_left": {
+      "path": "assets/lobe_left.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        223,
+        218,
+        452,
+        736
+      ],
+      "sha256": "c4cc3bb65150adcf83fc2fb0dfad749e6bc365424a179a6062bb64c8d3051384"
+    },
+    "lobe_right": {
+      "path": "assets/lobe_right.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        572,
+        218,
+        801,
+        736
+      ],
+      "sha256": "4c90cd23b6adeeb001bb482118f1e5691a0b5cb767842f29422af6516250d465"
+    },
+    "isthmus": {
+      "path": "assets/isthmus.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        416,
+        479,
+        608,
+        560
+      ],
+      "sha256": "777e5a6b54abfdbd7263cb408eb5e71314614164b4fef195e8abff6d2da48e96"
+    }
+  },
+  "layers": [
+    {
+      "id": "trachea",
+      "label": "气管",
+      "content_bounds": [
+        451,
+        109,
+        573,
+        869
+      ],
+      "focus_bounds": [
+        372.0,
+        59.0,
+        652.0,
+        919.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "lobe_left",
+      "label": "画面左叶",
+      "content_bounds": [
+        223,
+        218,
+        452,
+        736
+      ],
+      "focus_bounds": [
+        173.0,
+        168.0,
+        502.0,
+        786.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "lobe_right",
+      "label": "画面右叶",
+      "content_bounds": [
+        572,
+        218,
+        801,
+        736
+      ],
+      "focus_bounds": [
+        522.0,
+        168.0,
+        851.0,
+        786.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "isthmus",
+      "label": "峡部",
+      "content_bounds": [
+        416,
+        479,
+        608,
+        560
+      ],
+      "focus_bounds": [
+        366.0,
+        379.5,
+        658.0,
+        659.5
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_thyroid_detailed_layers_v1@23e8d91b061c24c05036",
+      "portable_record_sha256": "d8eab1f1e22d7874344c445600bd89ca6ae208e66fbb975b1a199286247bd68c"
+    }
+  ],
+  "composite_bounds": [
+    223,
+    109,
+    801,
+    869
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 4.6000000000000005,
+    "focus_step": 1.2,
+    "return_start": 9.4
+  },
+  "presentation_note": "正面位置关系；左右按画面描述。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_trachea",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_lobe_left",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_lobe_right",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_isthmus",
+      "time": 3.4000000000000004,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_trachea",
+      "time": 4.6000000000000005,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_lobe_left",
+      "time": 5.800000000000001,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_lobe_right",
+      "time": 7.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_isthmus",
+      "time": 8.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.4,
+    3.72,
+    4.6,
+    4.9,
+    5.7,
+    5.8,
+    6.1,
+    6.9,
+    7.0,
+    7.3,
+    8.1,
+    8.2,
+    8.5,
+    9.3,
+    9.4,
+    10.2
+  ]
+}

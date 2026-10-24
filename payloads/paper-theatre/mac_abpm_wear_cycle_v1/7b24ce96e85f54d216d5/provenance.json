@@ -1,0 +1,23 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "tool": "built_in_imagegen",
+      "source": "assets/abpm-wear-sheet.png",
+      "receipt_id": "exec-dd3b5da0-2bf7-4513-aed1-7bca1da655de",
+      "sha256": "93b6b0d34d448ed37fc17b9df9222aaa78576f5b8763f14efa9306df90d424d9",
+      "identity_reference": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+      "relationship": "same_identity_new_short_sleeve_contact_sheet",
+      "license": "generated_original",
+      "no_brand": true
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+      "role": "identity_reference_only",
+      "not_reused_reason": "原件袖带覆在毛衣上；新的裸露上臂接触单元用于佩戴演示"
+    }
+  ],
+  "note": "保留原身份参考，重新生成裸露上臂的完整患者与椅桌器械接触单元。无作者、品牌或专属声线。"
+}

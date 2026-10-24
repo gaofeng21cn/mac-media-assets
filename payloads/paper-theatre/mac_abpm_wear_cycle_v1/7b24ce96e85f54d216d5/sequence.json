@@ -1,0 +1,287 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_abpm_wear_cycle_v1",
+  "title": "动态血压：佩戴、固定、试测、日夜记录与交回",
+  "type": "abpm_wear_cycle",
+  "images": {
+    "sheet": {
+      "path": "assets/abpm-wear-sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "93b6b0d34d448ed37fc17b9df9222aaa78576f5b8763f14efa9306df90d424d9"
+    }
+  },
+  "duration": 12,
+  "fps": 24,
+  "frames": [
+    {
+      "rect": [
+        70,
+        0,
+        480,
+        516
+      ],
+      "ground": [
+        105,
+        514
+      ],
+      "hand_entry_right": 456,
+      "coordinate_space": "frame_pixels",
+      "complete_contact_unit": true
+    },
+    {
+      "rect": [
+        550,
+        0,
+        485,
+        516
+      ],
+      "ground": [
+        130,
+        514
+      ],
+      "hand_entry_right": 419,
+      "coordinate_space": "frame_pixels",
+      "complete_contact_unit": true
+    },
+    {
+      "rect": [
+        1035,
+        0,
+        501,
+        516
+      ],
+      "ground": [
+        152,
+        514
+      ],
+      "hand_entry_right": 458,
+      "coordinate_space": "frame_pixels",
+      "complete_contact_unit": true
+    },
+    {
+      "rect": [
+        70,
+        516,
+        480,
+        508
+      ],
+      "ground": [
+        105,
+        502
+      ],
+      "hand_entry_right": null,
+      "coordinate_space": "frame_pixels",
+      "complete_contact_unit": true
+    },
+    {
+      "rect": [
+        550,
+        516,
+        485,
+        508
+      ],
+      "ground": [
+        130,
+        503
+      ],
+      "hand_entry_right": null,
+      "coordinate_space": "frame_pixels",
+      "complete_contact_unit": true
+    },
+    {
+      "rect": [
+        1035,
+        516,
+        501,
+        508
+      ],
+      "ground": [
+        152,
+        504
+      ],
+      "hand_entry_right": 497,
+      "coordinate_space": "frame_pixels",
+      "complete_contact_unit": true
+    }
+  ],
+  "display": {
+    "scale": 1.05,
+    "ground": [
+      170,
+      625
+    ],
+    "scale_policy": "All frames use the same source-pixel scale and chair-floor registration. No independent body/chair/device scaling."
+  },
+  "stages": [
+    {
+      "key": "prepare",
+      "start": 0,
+      "end": 1.5,
+      "frame": 0,
+      "cuff_worn": false,
+      "recorder_secured": false,
+      "title": "核对与准备",
+      "lines": [
+        "露出上臂，选合适袖带",
+        "装配由工作人员完成"
+      ],
+      "caption": "裸露上臂，先看清袖带、气管和记录器"
+    },
+    {
+      "key": "wrap",
+      "start": 1.5,
+      "end": 3,
+      "frame": 1,
+      "cuff_worn": true,
+      "recorder_secured": false,
+      "title": "佩戴袖带",
+      "lines": [
+        "袖带直接贴合裸露上臂",
+        "避开肘窝，保持位置合适"
+      ],
+      "caption": "袖带的实际大小、位置和松紧按设备说明核对"
+    },
+    {
+      "key": "secure",
+      "start": 3,
+      "end": 4.5,
+      "frame": 2,
+      "cuff_worn": true,
+      "recorder_secured": true,
+      "title": "固定记录器",
+      "lines": [
+        "记录器放入腰侧固定袋",
+        "气管连续连接，避免受压"
+      ],
+      "caption": "核对袖带—气管—记录器的连续连接"
+    },
+    {
+      "key": "trial",
+      "start": 4.5,
+      "end": 6,
+      "frame": 3,
+      "cuff_worn": true,
+      "recorder_secured": true,
+      "title": "完成试测",
+      "lines": [
+        "确认设备正常记录",
+        "充气时手臂放松、安静不动"
+      ],
+      "caption": "试测时保持安静，工作人员确认记录正常"
+    },
+    {
+      "key": "record",
+      "start": 6,
+      "end": 10.5,
+      "frame": 4,
+      "cuff_worn": true,
+      "recorder_secured": true,
+      "title": "按约定记录日夜",
+      "lines": [
+        "按要求记录作息与症状",
+        "避免设备受潮，勿自行调整"
+      ],
+      "caption": "测量时停止活动，手臂放松；其余按约定正常生活"
+    },
+    {
+      "key": "return",
+      "start": 10.5,
+      "end": 12,
+      "frame": 5,
+      "cuff_worn": false,
+      "recorder_secured": false,
+      "title": "次日按约交回",
+      "lines": [
+        "由工作人员结束记录",
+        "取回袖带与相连记录器"
+      ],
+      "caption": "完成约定记录后交回设备，由工作人员拆除"
+    }
+  ],
+  "review_times": [
+    0,
+    0.042,
+    0.75,
+    1.458,
+    1.5,
+    1.542,
+    2.25,
+    2.958,
+    3,
+    3.042,
+    3.75,
+    4.458,
+    4.5,
+    4.542,
+    5.25,
+    5.958,
+    6,
+    6.042,
+    7.8,
+    8.25,
+    8.8,
+    10.45,
+    10.458,
+    10.5,
+    10.542,
+    11.25,
+    12
+  ],
+  "events": [
+    {
+      "name": "prepare",
+      "time": 0,
+      "kind": "record"
+    },
+    {
+      "name": "wrap",
+      "time": 1.5,
+      "kind": "contact"
+    },
+    {
+      "name": "secure",
+      "time": 3,
+      "kind": "contact"
+    },
+    {
+      "name": "trial",
+      "time": 4.5,
+      "kind": "record"
+    },
+    {
+      "name": "record",
+      "time": 6,
+      "kind": "record"
+    },
+    {
+      "name": "return",
+      "time": 10.5,
+      "kind": "contact"
+    }
+  ],
+  "description": "完整同身份患者与真实椅面、台面承托单元依次展示佩戴与归还。日夜记录时钟压缩 24 小时，不展示血压数值或采样频率。",
+  "scope": "六个完整姿态的纸上分格演示，不以交叉溶解或肢体变形冒充连续写实穿戴。患者、椅子、台面与器械为烘焙完整接触单元，不能独立拆动。通用非品牌装配关系，不覆盖具体设备按钮、型号、充气压力、袖带尺寸或个体适应证。",
+  "medical_review": "pending",
+  "source_assets": [
+    {
+      "asset_id": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+      "role": "identity_reference_only",
+      "not_reused_reason": "原件袖带覆在毛衣上；新的裸露上臂接触单元用于佩戴演示"
+    }
+  ],
+  "source_generation": {
+    "tool": "built_in_imagegen",
+    "source": "assets/abpm-wear-sheet.png",
+    "receipt_id": "exec-dd3b5da0-2bf7-4513-aed1-7bca1da655de",
+    "sha256": "93b6b0d34d448ed37fc17b9df9222aaa78576f5b8763f14efa9306df90d424d9",
+    "identity_reference": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+    "relationship": "same_identity_new_short_sleeve_contact_sheet",
+    "license": "generated_original",
+    "no_brand": true
+  },
+  "current_review": "pending",
+  "full_listening": "not_applicable"
+}

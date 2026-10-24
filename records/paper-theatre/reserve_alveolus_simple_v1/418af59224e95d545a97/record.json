@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_alveolus_simple_v1",
+  "title": "肺泡·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·payload",
+      "medical": true,
+      "content_bounds": [
+        225,
+        198,
+        807,
+        826
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "capillary_end": {
+            "x": 0.77,
+            "y": 0.7
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_alveolus_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肺泡",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肺泡囊与气腔示意，附一层毛细血管走向；不表示气体交换比例、肺泡数量或通气功能。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "3b485910755cd83b045effe7b216673be15e6b40e871698f198b443900a215f7",
+      "bytes": 701
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "d5dbb5d32d6af46b27b122f457bdc4df7ffd803c622b1a934e2b08ec254ca969",
+      "bytes": 52564
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "3b485910755cd83b045effe7b216673be15e6b40e871698f198b443900a215f7",
+      "bytes": 701
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "d5dbb5d32d6af46b27b122f457bdc4df7ffd803c622b1a934e2b08ec254ca969",
+      "bytes": 52564
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "da491180d08411880bcb6d3084b430a1e8d8e22cbb9c69fc0eeb00f874a522b3",
+      "bytes": 603
+    }
+  ],
+  "revision": "418af59224e95d545a97"
+}

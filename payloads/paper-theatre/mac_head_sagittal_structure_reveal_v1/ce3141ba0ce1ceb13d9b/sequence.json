@@ -1,0 +1,357 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_head_sagittal_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "头部矢状位·逐层揭示与局部高亮",
+  "label": "头部矢状位",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 10.200000000000001,
+  "images": {
+    "head_profile": {
+      "path": "assets/head_profile.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        283,
+        145,
+        844,
+        847
+      ],
+      "sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f"
+    },
+    "brain_and_brainstem": {
+      "path": "assets/brain_and_brainstem.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        329,
+        204,
+        746,
+        686
+      ],
+      "sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41"
+    },
+    "pituitary_and_stalk": {
+      "path": "assets/pituitary_and_stalk.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        617,
+        470,
+        663,
+        542
+      ],
+      "sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5"
+    },
+    "paranasal_sinuses": {
+      "path": "assets/paranasal_sinuses.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        695,
+        360,
+        766,
+        529
+      ],
+      "sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba"
+    }
+  },
+  "layers": [
+    {
+      "id": "head_profile",
+      "label": "头部侧面外形",
+      "content_bounds": [
+        283,
+        145,
+        844,
+        847
+      ],
+      "focus_bounds": [
+        233.0,
+        95.0,
+        894.0,
+        897.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "brain_and_brainstem",
+      "label": "大脑、小脑与脑干",
+      "content_bounds": [
+        329,
+        204,
+        746,
+        686
+      ],
+      "focus_bounds": [
+        279.0,
+        154.0,
+        796.0,
+        736.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "pituitary_and_stalk",
+      "label": "垂体与垂体柄",
+      "content_bounds": [
+        617,
+        470,
+        663,
+        542
+      ],
+      "focus_bounds": [
+        500.0,
+        366.0,
+        780.0,
+        646.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "paranasal_sinuses",
+      "label": "鼻旁窦位置",
+      "content_bounds": [
+        695,
+        360,
+        766,
+        529
+      ],
+      "focus_bounds": [
+        590.5,
+        304.5,
+        870.5,
+        584.5
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_head_sagittal_detailed_layers_v1@8a5ea8cf0bff9ffc6503",
+      "portable_record_sha256": "59935c834c1d6106fce879d687253ff1df5ac229f4ff9f1fd2b4744564eb1460"
+    }
+  ],
+  "composite_bounds": [
+    283,
+    145,
+    844,
+    847
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 4.6000000000000005,
+    "focus_step": 1.2,
+    "return_start": 9.4
+  },
+  "presentation_note": "头部矢状位置示意；非真实影像切面。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_head_profile",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_brain_and_brainstem",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_pituitary_and_stalk",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_paranasal_sinuses",
+      "time": 3.4000000000000004,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_head_profile",
+      "time": 4.6000000000000005,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_brain_and_brainstem",
+      "time": 5.800000000000001,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_pituitary_and_stalk",
+      "time": 7.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_paranasal_sinuses",
+      "time": 8.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.4,
+    3.72,
+    4.6,
+    4.9,
+    5.7,
+    5.8,
+    6.1,
+    6.9,
+    7.0,
+    7.3,
+    8.1,
+    8.2,
+    8.5,
+    9.3,
+    9.4,
+    10.2
+  ]
+}

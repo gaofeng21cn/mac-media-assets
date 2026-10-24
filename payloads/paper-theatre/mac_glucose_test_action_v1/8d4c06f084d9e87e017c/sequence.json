@@ -1,0 +1,265 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_glucose_test_action_v1",
+  "title": "血糖仪操作：插试纸、采血、读数与按压止血",
+  "type": "glucose_test",
+  "images": {
+    "arm": {
+      "path": "assets/arm.png",
+      "bounds": [
+        122,
+        89,
+        1432,
+        860
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66"
+    },
+    "meter": {
+      "path": "assets/meter.png",
+      "bounds": [
+        229,
+        89,
+        916,
+        1064
+      ],
+      "size": [
+        1145,
+        1374
+      ],
+      "sha256": "bd6d14da33867213ae79eea07914cb303a39a04b9e3709dcf8bc85a0257c44a8"
+    },
+    "strip": {
+      "path": "assets/strip.png",
+      "bounds": [
+        375,
+        134,
+        514,
+        1586
+      ],
+      "size": [
+        887,
+        1774
+      ],
+      "sha256": "3fd43fa5cc61b6b2dca48155816efeb58ecf829a1d98d7794855a9abb0aaef76"
+    },
+    "dressing": {
+      "path": "assets/dressing.png",
+      "bounds": [
+        193,
+        190,
+        1091,
+        1091
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "9368a13f3f03ce993b078d18aa81b03d2576f27cab0e80c8e6693f39c0b5cf4a"
+    }
+  },
+  "source_assets": [
+    {
+      "image": "arm",
+      "asset_id": "paper:mac_bare_arm_v1@199031b83fe2420d595b",
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66"
+    },
+    {
+      "image": "meter",
+      "asset_id": "paper:paper_glucose_meter_parts_v1@7d17997f1c1c10d70831",
+      "sha256": "bd6d14da33867213ae79eea07914cb303a39a04b9e3709dcf8bc85a0257c44a8"
+    },
+    {
+      "image": "strip",
+      "asset_id": "paper:paper_glucose_meter_parts_v1@7d17997f1c1c10d70831",
+      "sha256": "3fd43fa5cc61b6b2dca48155816efeb58ecf829a1d98d7794855a9abb0aaef76"
+    },
+    {
+      "image": "dressing",
+      "asset_id": "paper:reserve_dressing_v1@8f9b28d110b9489470ed",
+      "sha256": "9368a13f3f03ce993b078d18aa81b03d2576f27cab0e80c8e6693f39c0b5cf4a"
+    }
+  ],
+  "scope": "器械操作部件级样本：手、血糖仪、试纸与敷料各自独立可调，采血点固定在同一根手指的指尖。读数是示意，不表示真实血糖值、测量方法、诊断阈值或任何医学结论；数值与流程由具体故事提供。",
+  "description": "试纸插入血糖仪，取出后贴近指端采血，再回到主机读数，最后敷料按压止血。",
+  "fps": 24,
+  "duration": 6.5,
+  "review_times": [
+    0,
+    0.9,
+    1.5,
+    2.1,
+    2.7,
+    3.3,
+    3.9,
+    4.4,
+    4.9,
+    5.4,
+    5.9,
+    6.5
+  ],
+  "steps": {
+    "insert": {
+      "start": 1.0,
+      "end": 2.0
+    },
+    "prick": {
+      "start": 2.6,
+      "end": 3.2
+    },
+    "read": {
+      "start": 4.2,
+      "end": 5.2
+    },
+    "dress": {
+      "start": 5.2,
+      "end": 6.1
+    }
+  },
+  "arm": {
+    "x": 440,
+    "y": 330,
+    "width": 780
+  },
+  "meter": {
+    "x": 1080,
+    "y": 380,
+    "width": 210
+  },
+  "positions": {
+    "standby": {
+      "x": 905,
+      "y": 250,
+      "width": 55,
+      "angle": 0
+    },
+    "meter": {
+      "x": 1080,
+      "y": 210,
+      "width": 55,
+      "angle": 0
+    },
+    "finger": {
+      "x": 923,
+      "y": 402,
+      "width": 55,
+      "angle": -1.5707963267948966
+    }
+  },
+  "finger_offset": {
+    "x": 0,
+    "y": 0
+  },
+  "strip_path": [
+    [
+      0,
+      "standby"
+    ],
+    [
+      1.0,
+      "standby"
+    ],
+    [
+      2.0,
+      "meter"
+    ],
+    [
+      2.6,
+      "finger"
+    ],
+    [
+      3.2,
+      "finger"
+    ],
+    [
+      4.2,
+      "meter"
+    ],
+    [
+      6.5,
+      "meter"
+    ]
+  ],
+  "dressing_path": [
+    [
+      0,
+      "standby"
+    ],
+    [
+      5.2,
+      "standby"
+    ],
+    [
+      6.1,
+      "finger"
+    ],
+    [
+      6.5,
+      "finger"
+    ]
+  ],
+  "readout": {
+    "x": 760,
+    "y": 170,
+    "width": 300,
+    "height": 150
+  },
+  "readout_values": {
+    "value": "6.8",
+    "unit": "mmol/L（示意）"
+  },
+  "events": [
+    {
+      "name": "strip_ready",
+      "time": 0.0,
+      "kind": "contact"
+    },
+    {
+      "name": "strip_inserted",
+      "time": 2.0,
+      "kind": "contact"
+    },
+    {
+      "name": "finger_prick",
+      "time": 2.6,
+      "kind": "contact"
+    },
+    {
+      "name": "strip_to_finger",
+      "time": 2.8,
+      "kind": "contact"
+    },
+    {
+      "name": "strip_back",
+      "time": 4.2,
+      "kind": "contact"
+    },
+    {
+      "name": "reading_ready",
+      "time": 4.6,
+      "kind": "contact"
+    },
+    {
+      "name": "dressing_on",
+      "time": 6.1,
+      "kind": "contact"
+    }
+  ],
+  "dressing_positions": {
+    "standby": {
+      "x": 300,
+      "y": 600,
+      "width": 130,
+      "angle": 0
+    },
+    "finger": {
+      "x": 756,
+      "y": 402,
+      "width": 130,
+      "angle": 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_kidney_detailed_layers_v1@9dfee405d6cc61e25bbc",
+      "portable_record_sha256": "62af6cfd62b99344be713c7bcbb487c392d85a161ce7d96972d8b4373526c80b"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

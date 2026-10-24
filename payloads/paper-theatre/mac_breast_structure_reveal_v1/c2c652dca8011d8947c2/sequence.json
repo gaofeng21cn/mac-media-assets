@@ -1,0 +1,280 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_breast_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "乳腺·逐层揭示与局部高亮",
+  "label": "乳腺",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "乳腺侧视外形示意，附腺体区与乳管走向；不表示肿块大小、分期或触诊结论。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "breast_outline": {
+      "path": "assets/breast_outline.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        247,
+        167,
+        723,
+        873
+      ],
+      "sha256": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18"
+    },
+    "gland_tissue": {
+      "path": "assets/gland_tissue.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        402,
+        375,
+        691,
+        591
+      ],
+      "sha256": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c"
+    },
+    "ducts": {
+      "path": "assets/ducts.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        373,
+        419,
+        733,
+        583
+      ],
+      "sha256": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe"
+    }
+  },
+  "layers": [
+    {
+      "id": "breast_outline",
+      "label": "乳腺侧视外形",
+      "content_bounds": [
+        247,
+        167,
+        723,
+        873
+      ],
+      "focus_bounds": [
+        197.0,
+        117.0,
+        773.0,
+        923.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68359375,
+            "y": 0.54296875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "gland_tissue",
+      "label": "腺体区",
+      "content_bounds": [
+        402,
+        375,
+        691,
+        591
+      ],
+      "focus_bounds": [
+        352.0,
+        325.0,
+        741.0,
+        641.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68359375,
+            "y": 0.54296875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "ducts",
+      "label": "乳管走向",
+      "content_bounds": [
+        373,
+        419,
+        733,
+        583
+      ],
+      "focus_bounds": [
+        323.0,
+        361.0,
+        783.0,
+        641.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68359375,
+            "y": 0.54296875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_breast_detailed_layers_v1@8da7f1dfde15864ade57",
+      "portable_record_sha256": "228f55952024f7af6b4c9498ea2169ab736eea44198781237e69ee9650655bc5"
+    }
+  ],
+  "composite_bounds": [
+    247,
+    167,
+    733,
+    873
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "侧视位置示意；不表达肿块或触诊。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_breast_outline",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_gland_tissue",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_ducts",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_breast_outline",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_gland_tissue",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_ducts",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

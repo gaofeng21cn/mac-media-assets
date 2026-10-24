@@ -1,0 +1,280 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_blood_cell_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "红细胞·逐层揭示与局部高亮",
+  "label": "红细胞",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "红细胞双凹圆盘正视示意，区分膜、胞质与中央淡区；不表示血红蛋白含量、形态学分类或血液病。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "cytoplasm": {
+      "path": "assets/cytoplasm.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        185,
+        263,
+        839,
+        761
+      ],
+      "sha256": "96d5ecc99725aeda181cae51e3f5cfb75d8386608c595a63fe1a85f8fce21fbf"
+    },
+    "membrane": {
+      "path": "assets/membrane.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        184,
+        261,
+        840,
+        763
+      ],
+      "sha256": "c0c05df965d5a6d8284bfa4b8f881366b344a2f3d956b24022a1db8576e8d535"
+    },
+    "central_pallor": {
+      "path": "assets/central_pallor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        355,
+        400,
+        669,
+        624
+      ],
+      "sha256": "81c5b080b2fed47674be9655cb45b413f47dd89c8ffd868dc244e2211cf42407"
+    }
+  },
+  "layers": [
+    {
+      "id": "cytoplasm",
+      "label": "胞质",
+      "content_bounds": [
+        185,
+        263,
+        839,
+        761
+      ],
+      "focus_bounds": [
+        135.0,
+        213.0,
+        889.0,
+        811.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "membrane",
+      "label": "细胞膜",
+      "content_bounds": [
+        184,
+        261,
+        840,
+        763
+      ],
+      "focus_bounds": [
+        134.0,
+        211.0,
+        890.0,
+        813.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "central_pallor",
+      "label": "中央淡区",
+      "content_bounds": [
+        355,
+        400,
+        669,
+        624
+      ],
+      "focus_bounds": [
+        305.0,
+        350.0,
+        719.0,
+        674.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_blood_cell_detailed_layers_v1@ce29ed0bfaf5a94df233",
+      "portable_record_sha256": "da6e9715d781d96a660e52ed598c7b5e5da9bea794c09241ed7d812893da79c1"
+    }
+  ],
+  "composite_bounds": [
+    184,
+    261,
+    840,
+    763
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "中央淡区仍是细胞；不是穿通空洞。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_cytoplasm",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_membrane",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_central_pallor",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_cytoplasm",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_membrane",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_central_pallor",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

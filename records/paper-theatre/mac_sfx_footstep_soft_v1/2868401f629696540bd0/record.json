@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_footstep_soft_v1",
+  "title": "拟音：脚步（纸舞台轻步）",
+  "kind": "audio",
+  "tags": [
+    "audio",
+    "sfx",
+    "action_accent",
+    "procedural_original",
+    "20261024"
+  ],
+  "discovery": {
+    "category": "sfx",
+    "display_title": "拟音：脚步（纸舞台轻步）",
+    "aliases": [
+      "脚步",
+      "走路",
+      "迈步",
+      "footstep",
+      "steps"
+    ],
+    "objects": [
+      "拟音：脚步（纸舞台轻步）",
+      "脚步",
+      "走路",
+      "迈步",
+      "footstep",
+      "steps"
+    ],
+    "story_roles": [
+      "人物行走",
+      "起身走动",
+      "伴随移动"
+    ],
+    "actions": [
+      "人物行走",
+      "起身走动",
+      "伴随移动"
+    ],
+    "medium": "audio",
+    "material": null,
+    "renderers": [],
+    "style": [],
+    "topics": [],
+    "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+    "view": "按当前镜头选择",
+    "compatibility": {
+      "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+      "params": "可调整；content bounds 与接触点不固定画面构图"
+    }
+  },
+  "entry": "audio/footstep_soft-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "程序合成，不是实地录音；用于动作接触点对齐，音量需按当前混音审听。",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition",
+    "generator": "tools/build_action_sfx.py"
+  },
+  "content_bounds": null,
+  "content_bounds_format": null,
+  "medical_review": "not_applicable",
+  "review": {
+    "listening": "pending",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/footstep_soft-1.wav",
+      "role": "payload",
+      "sha256": "4188ac05666fc68e823c074557605b4a59104e4e5b3decc4c6f922b3a16ba802",
+      "bytes": 30764,
+      "seed": 9401,
+      "duration_seconds": 0.32
+    },
+    {
+      "path": "audio/footstep_soft-2.wav",
+      "role": "payload",
+      "sha256": "379ebbbe04f2e14132e5503875a9866193ad9b2b3d5e34c71be98f3525f87d2e",
+      "bytes": 30764,
+      "seed": 9402,
+      "duration_seconds": 0.32
+    },
+    {
+      "path": "audio/footstep_soft-3.wav",
+      "role": "payload",
+      "sha256": "98d13c5a2f743766b503f0367807a2cc306ac54a92e98f8a9e91ea9b13bd44ab",
+      "bytes": 30764,
+      "seed": 9403,
+      "duration_seconds": 0.32
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "5aad7b28590a6d19ce5d731d9328cf1d1f98b94009a66334082173fe034efcc1",
+      "bytes": 363
+    }
+  ],
+  "revision": "2868401f629696540bd0"
+}

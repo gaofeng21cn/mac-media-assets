@@ -1217,6 +1217,181 @@
       "technical_analysis": "duration_and_format_measured",
       "listening_review": "pending",
       "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_footstep_soft_v1@2868401f629696540bd0",
+      "source_id": "mac_sfx_footstep_soft_v1",
+      "category": "sfx",
+      "title": "拟音：脚步（纸舞台轻步）",
+      "emotion_or_event": [
+        "脚步",
+        "走路",
+        "迈步",
+        "footstep",
+        "steps"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_footstep_soft_v1/2868401f629696540bd0/audio/footstep_soft-1.wav",
+          "duration_seconds": 0.32,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_footstep_soft_v1/2868401f629696540bd0/audio/footstep_soft-2.wav",
+          "duration_seconds": 0.32,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_footstep_soft_v1/2868401f629696540bd0/audio/footstep_soft-3.wav",
+          "duration_seconds": 0.32,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_chair_sit_v1@d68aa8911b4cfe4bdb5b",
+      "source_id": "mac_sfx_chair_sit_v1",
+      "category": "sfx",
+      "title": "拟音：落座（椅面承重）",
+      "emotion_or_event": [
+        "落座",
+        "坐下",
+        "椅子",
+        "chair",
+        "sit"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_chair_sit_v1/d68aa8911b4cfe4bdb5b/audio/chair_sit-1.wav",
+          "duration_seconds": 0.75,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_chair_sit_v1/d68aa8911b4cfe4bdb5b/audio/chair_sit-2.wav",
+          "duration_seconds": 0.75,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_chair_sit_v1/d68aa8911b4cfe4bdb5b/audio/chair_sit-3.wav",
+          "duration_seconds": 0.75,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_cloth_rustle_v1@bd8c2ef99ee758df95eb",
+      "source_id": "mac_sfx_cloth_rustle_v1",
+      "category": "sfx",
+      "title": "拟音：衣料摩擦",
+      "emotion_or_event": [
+        "衣料",
+        "衣服",
+        "摩擦",
+        "cloth",
+        "rustle"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cloth_rustle_v1/bd8c2ef99ee758df95eb/audio/cloth_rustle-1.wav",
+          "duration_seconds": 0.9,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cloth_rustle_v1/bd8c2ef99ee758df95eb/audio/cloth_rustle-2.wav",
+          "duration_seconds": 0.9,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cloth_rustle_v1/bd8c2ef99ee758df95eb/audio/cloth_rustle-3.wav",
+          "duration_seconds": 0.9,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_device_confirm_v1@9d3b468f1e9453ca1317",
+      "source_id": "mac_sfx_device_confirm_v1",
+      "category": "sfx",
+      "title": "拟音：器械完成提示音",
+      "emotion_or_event": [
+        "提示音",
+        "完成",
+        "测量完成",
+        "beep",
+        "device"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_device_confirm_v1/9d3b468f1e9453ca1317/audio/device_confirm-1.wav",
+          "duration_seconds": 0.42,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_device_confirm_v1/9d3b468f1e9453ca1317/audio/device_confirm-2.wav",
+          "duration_seconds": 0.42,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_device_confirm_v1/9d3b468f1e9453ca1317/audio/device_confirm-3.wav",
+          "duration_seconds": 0.42,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_cooking_sizzle_v1@0a76d6cda6cf59c94247",
+      "source_id": "mac_sfx_cooking_sizzle_v1",
+      "category": "sfx",
+      "title": "拟音：烹饪油声",
+      "emotion_or_event": [
+        "油声",
+        "煎炒",
+        "下锅",
+        "sizzle",
+        "cooking"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cooking_sizzle_v1/0a76d6cda6cf59c94247/audio/cooking_sizzle-1.wav",
+          "duration_seconds": 2.4,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cooking_sizzle_v1/0a76d6cda6cf59c94247/audio/cooking_sizzle-2.wav",
+          "duration_seconds": 2.4,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cooking_sizzle_v1/0a76d6cda6cf59c94247/audio/cooking_sizzle-3.wav",
+          "duration_seconds": 2.4,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
     }
   ],
   "policy": "技术测量不替代审听。配乐不是固定循环，拟音不是每次移动都响。"

@@ -1,0 +1,444 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 149,
+  "fps": 24,
+  "duration": 6.2,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "51ffabb7d252b915b037a6b4f26a241216facee1be525db88f88ee163d819df9",
+    "assets/trachea.png": "1d306b8b2153b845f5992f7fd2d8862fc7e82c84cef393dd3b8c25ba37de7611",
+    "assets/lobe_left.png": "c4cc3bb65150adcf83fc2fb0dfad749e6bc365424a179a6062bb64c8d3051384",
+    "assets/lobe_right.png": "4c90cd23b6adeeb001bb482118f1e5691a0b5cb767842f29422af6516250d465",
+    "assets/isthmus.png": "777e5a6b54abfdbd7263cb408eb5e71314614164b4fef195e8abff6d2da48e96"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png",
+    "samples/keyframes/19.png",
+    "samples/keyframes/20.png"
+  ],
+  "states": [
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 0,
+      "phase": "closed",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 0.66,
+      "phase": "closed",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 0.7,
+      "phase": "opening",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 0.74,
+      "phase": "opening",
+      "openness": 0.0014595336076817583,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 0.9,
+      "phase": "opening",
+      "openness": 0.03429355281207135,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 1.2,
+      "phase": "opening",
+      "openness": 0.18861454046639237,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 1.6,
+      "phase": "opening",
+      "openness": 0.5000000000000001,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 2,
+      "phase": "opening",
+      "openness": 0.8113854595336076,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 2.46,
+      "phase": "opening",
+      "openness": 0.9985404663923183,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 2.5,
+      "phase": "open",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 3,
+      "phase": "open",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 3.46,
+      "phase": "open",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 3.5,
+      "phase": "closing",
+      "openness": 1,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 3.54,
+      "phase": "closing",
+      "openness": 0.9985404663923182,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 3.9,
+      "phase": "closing",
+      "openness": 0.8737997256515775,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 4.3,
+      "phase": "closing",
+      "openness": 0.5829903978052127,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 4.7,
+      "phase": "closing",
+      "openness": 0.25925925925925897,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 5.26,
+      "phase": "closing",
+      "openness": 0.0014595336076816956,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": true
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 5.3,
+      "phase": "restored",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start",
+        "fully_restored"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 5.34,
+      "phase": "restored",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start",
+        "fully_restored"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": false
+    },
+    {
+      "study": "mac_thyroid_section_open_close_v1",
+      "time": 6.2,
+      "phase": "restored",
+      "openness": 0,
+      "shared_origin": true,
+      "section_kind": "local_relation_reveal",
+      "events": [
+        "closed",
+        "open_start",
+        "fully_open",
+        "close_start",
+        "fully_restored"
+      ],
+      "camera": {
+        "scale": 0.6763157894736842,
+        "x": 90.72631578947369,
+        "y": 29.281578947368416
+      },
+      "interior_allowed": false
+    }
+  ]
+}

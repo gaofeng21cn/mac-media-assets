@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_head_sagittal_simple_v1",
+  "title": "头部矢状位·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·payload",
+      "medical": true,
+      "content_bounds": [
+        300,
+        169,
+        762,
+        805
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "pituitary": {
+            "x": 0.54,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_head_sagittal_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "头部矢状位",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "头部矢状位示意，区分颅骨、脑、垂体与鼻窦位置；不表示脑沟回细节、垂体大小或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "127f40f38dcbdffc6d698a6cd91dd7486a5621db82bab6e47b5311f24d22c3c2",
+      "bytes": 377
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "5c9322483d8ad6e4977006c5242906e9906af078b60111c61116ef2c5481856e",
+      "bytes": 30087
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "127f40f38dcbdffc6d698a6cd91dd7486a5621db82bab6e47b5311f24d22c3c2",
+      "bytes": 377
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "5c9322483d8ad6e4977006c5242906e9906af078b60111c61116ef2c5481856e",
+      "bytes": 30087
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "09710320007dc5de9d1d0e8842a96d9ee8d0c1df5fb0313bca1466dd3a7e27fa",
+      "bytes": 615
+    }
+  ],
+  "revision": "f2ca16c937f4116765bf"
+}

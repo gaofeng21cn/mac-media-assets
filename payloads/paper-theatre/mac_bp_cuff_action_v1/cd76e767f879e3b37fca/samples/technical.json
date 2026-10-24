@@ -1,0 +1,594 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 156,
+  "fps": 24,
+  "duration": 6.5,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "f059a183462d46e3ed34175b3725fbfba0163e92df0fbab2d9013a95ae882c49",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "866ab89d64af7a25b6e4bd10f9108eb6dc7bc81cb5835d2f243806fd8d9d759d",
+    "assets/arm.png": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+    "assets/cuff_open.png": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f",
+    "assets/cuff_wrapped.png": "f30eb7ad43ee14f12fc20e24d13a0a17e2f30d30185d4c7d65b52c83c35f6931",
+    "assets/monitor.png": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png"
+  ],
+  "states": [
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 0,
+      "state": {
+        "move": 0,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": []
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 0.99,
+      "state": {
+        "move": 0,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": []
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 1,
+      "state": {
+        "move": 0,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 1.01,
+      "state": {
+        "move": 0.00020717592592592624,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2.1900000000000004,
+      "state": {
+        "move": 0.9997928240740741,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0.9993094135802472,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2.2,
+      "state": {
+        "move": 1,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2.21,
+      "state": {
+        "move": 1,
+        "wrap": 0.00029799999999998735,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.95703192,
+        "angle": -0.95
+      },
+      "port": [
+        398.23777820520814,
+        361.75656000955973
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 3.1900000000000004,
+      "state": {
+        "move": 1,
+        "wrap": 0.999702,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166.00296808,
+        "angle": -0.95
+      },
+      "port": [
+        392.68036964310534,
+        363.3543194264944
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 3.2,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 3.21,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 4.390000000000001,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 0.99953515625,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100.0418359375,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 4.4,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 4.41,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 5.390000000000001,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0.99953515625,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 5.4,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 5.41,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 6.49,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 0.999393586005831
+      },
+      "contact": 0.0006064139941690527,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 6.5,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 1
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready",
+        "cuff_removed"
+      ]
+    }
+  ]
+}

@@ -51,13 +51,14 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
           pose=None, asset_id=None, all_versions=False):
     root = Path(root)
     pose = {'伸手': 'reach', '接取': 'reach', '递接': 'reach', '伸手接取': 'reach',
-            '行走': 'walk', '坐下': 'seated', '躺卧': 'lying', '躺姿': 'lying',
+            '行走': 'walk', '站立': 'stand', '站姿': 'stand', '坐姿': 'seated', '坐下': 'seated', '躺卧': 'lying', '躺姿': 'lying',
             '问诊': 'seated_consult'}.get(pose, pose)
     aliases = load(root / 'collections/series.json', {}).get('aliases', {})
     discovery = load(root / 'collections/discovery.json', {}).get('assets', {})
     coverage = load(root / 'collections/character-coverage.json', {})
     layer_contracts = load(root / 'collections/layer-contracts.json', {}).get('contracts', {})
     taxonomy = load(root / 'collections/taxonomy.json', {}).get('categories', [])
+    character_scale = load(root / 'collections/character-scale.json', {}).get('assets', {})
     category_ids = {item['label']: item['id'] for item in taxonomy}
     categories = {item['id']: item['label'] for item in taxonomy}
     category = category_ids.get(category, category)
@@ -83,6 +84,8 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                 all_versions=False,
             )
     role_asset_ids = None
+    requested_roles = set()
+    wants_motion = category == 'motion' or kind == 'motion_recipe' or action is not None
     if character_role or pose:
         role_asset_ids = set()
         for role_id, role in (coverage.get('roles') or {}).items():
@@ -92,18 +95,30 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                               [role_id, role.get('label', ''), *(role.get('aliases') or [])]}
                 if requested not in role_names:
                     continue
+            requested_roles.add(role_id)
             for pose_id, selected_asset_id in (role.get('current_assets') or {}).items():
-                if selected_asset_id and (not pose or pose in {pose_id, coverage.get('pose_labels', {}).get(pose_id)}):
+                accepted_poses = {pose_id, coverage.get('pose_labels', {}).get(pose_id)}
+                if pose_id == 'stand_explain':
+                    accepted_poses.add('stand')
+                if pose_id == 'seated_consult':
+                    accepted_poses.add('seated')
+                if selected_asset_id and (not pose or pose in accepted_poses):
                     role_asset_ids.add(selected_asset_id)
     out = []
     for original in rows:
         row = dict(original)
-        if role_asset_ids is not None and row.get('id') not in role_asset_ids and row.get('source_id') not in role_asset_ids:
+        fields = dict(mapping(discovery.get(row.get('source_id'), row.get('discovery', {}))))
+        role_motion = (wants_motion and row.get('kind') == 'motion_recipe'
+                       and fields.get('character_role') in requested_roles
+                       and (not pose or pose in fields.get('poses', [])))
+        if role_asset_ids is not None and row.get('id') not in role_asset_ids and row.get('source_id') not in role_asset_ids and not role_motion:
             continue
         reuse = row.get('reuse_scope') or {}
         if reuse.get('kind') == 'author' and not include_author_assets and reuse.get('id') != author_id:
             continue
-        if row.get('review_boundary', {}).get('admission') == 'reference_only' or row.get('curation', {}).get('status') in {'needs_rebuild', 'superseded'}:
+        exact_history = asset_id is not None and row.get('id') == asset_id
+        if row.get('review_boundary', {}).get('admission') == 'reference_only' or (
+                row.get('curation', {}).get('status') in {'needs_rebuild', 'superseded'} and not exact_history):
             continue
         if kind and row.get('kind') != kind:
             continue
@@ -118,7 +133,6 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
             continue
         if members is not None and row.get('source_id') not in members:
             continue
-        fields = dict(mapping(discovery.get(row.get('source_id'), row.get('discovery', {}))))
         contract = mapping(layer_contracts.get(row.get('source_id')))
         if contract:
             fields['layer_contract'] = contract
@@ -166,6 +180,8 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                 if usable_for and usable_for.casefold() not in primary + '\n' + secondary:
                     continue
                 row['discovery'] = fields
+                if row.get('id') in character_scale:
+                    row['human_scale'] = character_scale[row['id']]
                 row['registration'] = record.get('registration') or (record.get('asset') or {}).get('registration') or {}
                 row['display_title'] = fields.get('display_title', row['title'])
                 row['maturity'] = maturity(root, row)
@@ -193,7 +209,10 @@ def select_versions(root, rows, *, all_versions=False):
         if asset_id
     }
     grouped = {}
+    curation = load(Path(root) / 'collections/curation.json', {}).get('assets', {})
     for row in rows:
+        if curation.get(row.get('id'), row.get('curation', {})).get('status') in {'superseded', 'needs_rebuild'}:
+            continue
         grouped.setdefault(row.get('source_id'), []).append(row)
     selected = []
     for source_id, candidates in grouped.items():

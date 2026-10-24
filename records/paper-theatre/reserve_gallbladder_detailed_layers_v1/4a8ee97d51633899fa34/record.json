@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_gallbladder_detailed_layers_v1",
+  "title": "胆囊·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "gallbladder_wall",
+      "path": "files/gallbladder_wall.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胆囊·gallbladder_wall",
+      "medical": true,
+      "content_bounds": [
+        349,
+        193,
+        675,
+        815
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.52
+          },
+          "duct_end": {
+            "x": 0.55,
+            "y": 0.16
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "bile",
+      "path": "files/bile.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胆囊·bile",
+      "medical": true,
+      "content_bounds": [
+        370,
+        298,
+        654,
+        744
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.52
+          },
+          "duct_end": {
+            "x": 0.55,
+            "y": 0.16
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "cystic_duct",
+      "path": "files/cystic_duct.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胆囊·cystic_duct",
+      "medical": true,
+      "content_bounds": [
+        504,
+        124,
+        568,
+        204
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.52
+          },
+          "duct_end": {
+            "x": 0.55,
+            "y": 0.16
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_gallbladder_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胆囊",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "gallbladder_wall",
+      "bile",
+      "cystic_duct"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "胆囊外形与胆汁示意；不表示胆囊内结石、胆道梗阻或胆囊功能。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/gallbladder_wall.svg",
+      "role": "source",
+      "sha256": "4ac33f0087650f690ae01677884efcda2d1a4604091b7621e2d7bdb3732b00df",
+      "bytes": 343
+    },
+    {
+      "path": "files/gallbladder_wall.png",
+      "role": "payload",
+      "sha256": "1dd25d88393e69ae3e8fa84154d3670466bdee1237baca007dbdae1dfd4e759f",
+      "bytes": 27307
+    },
+    {
+      "path": "source/bile.svg",
+      "role": "source",
+      "sha256": "7ca5897b91e3567371ca2d88a9698733a9c90399f042a70760fbc15f4825fddc",
+      "bytes": 343
+    },
+    {
+      "path": "files/bile.png",
+      "role": "payload",
+      "sha256": "9b87edba5554990ce23cadb1d0c39c8009cb07bb0131ec26d74d31c1750985df",
+      "bytes": 21251
+    },
+    {
+      "path": "source/cystic_duct.svg",
+      "role": "source",
+      "sha256": "fba5e005a8fbc8d83ef2b629b7fa17ea981d549768e2b5517b3ba8f7294aa6fe",
+      "bytes": 228
+    },
+    {
+      "path": "files/cystic_duct.png",
+      "role": "payload",
+      "sha256": "7e381c4198a3a3851836734aa27e32e3e25d4580c7b1cc66d60939084db3dcc3",
+      "bytes": 6084
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "e83684bdbcd3fe5d05a279153dd3defe801d258f86ab1a130f32af5e7463cffe",
+      "bytes": 720
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "a50f77984621981cefcad4f505d6f96d3846affc036d5cb80b64817e916b9cdc",
+      "bytes": 43924
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "8e1e15a8abeb9e97ea95e73305c0bdd36154d973cfcd811f3310c5a807c1d4cc",
+      "bytes": 579
+    }
+  ],
+  "revision": "4a8ee97d51633899fa34"
+}

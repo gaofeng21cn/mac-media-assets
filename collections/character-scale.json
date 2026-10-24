@@ -1,0 +1,1746 @@
+{
+  "schema": "character_scale_index/v2",
+  "scope": "public_mac_media_assets",
+  "method": "Exact-version design-height proposals, not measured adult averages or scene approval. Curate body spans before metric staging.",
+  "assets": {
+  "paper:character_adult_man_unresponsive_seated_scale_v2@25c2e28b97c5f9798dfc": {
+    "nominal_height_cm": 175,
+    "height_status": "authored_design_reference",
+    "scale_family": "adult_man_cn_green_red",
+    "pose": "seated",
+    "subject": "character",
+    "source_sha256": "d353f4a48d9f27d6d261d324dd11ed8dc06cdc78d40e67f93935a7b20dae3c16",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "d353f4a48d9f27d6d261d324dd11ed8dc06cdc78d40e67f93935a7b20dae3c16",
+      "source_size": {
+        "width": 1024,
+        "height": 1536
+      },
+      "from": {
+        "x": 0.5078125,
+        "y": 0.6529947916666666
+      },
+      "to": {
+        "x": 0.5078125,
+        "y": 0.8333333333333334
+      },
+      "span_cm": 27.926,
+      "basis": "与同身份清醒坐姿原件的近侧胫段配准[[520, 1003], [520, 1280]]，对应27.926cm，避免低头旋转改变头部垂直投影；脚底与椅面另记。"
+    },
+    "source_asset_id": "paper:character_adult_man_unresponsive_seated_scale_v2@25c2e28b97c5f9798dfc"
+  },
+  "paper:character_child_boy_seated_scale_v2@4b23ec748dad9d9a679a": {
+    "nominal_height_cm": 128,
+    "height_status": "authored_design_reference",
+    "scale_family": "child_boy_cn",
+    "pose": "seated",
+    "subject": "character",
+    "source_sha256": "817aece8e83347dd8ee80b277beb0acaa7f6c452f4120fa78e11161b441e50ce",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "817aece8e83347dd8ee80b277beb0acaa7f6c452f4120fa78e11161b441e50ce",
+      "source_size": {
+        "width": 1024,
+        "height": 1536
+      },
+      "from": {
+        "x": 0.439453125,
+        "y": 0.059244791666666664
+      },
+      "to": {
+        "x": 0.439453125,
+        "y": 0.2903645833333333
+      },
+      "span_cm": 27.4,
+      "basis": "同身份站姿身体段配准头段[[450, 91], [450, 446]]，对应27.4cm；脚底和椅面单独登记；待共同标尺实际试装，不由生成文字批准。"
+    },
+    "source_asset_id": "paper:character_child_boy_seated_scale_v2@4b23ec748dad9d9a679a"
+  },
+  "paper:character_pregnant_woman_seated_scale_v2@df659ae0c18fc1a45fb5": {
+    "nominal_height_cm": 163,
+    "height_status": "authored_design_reference",
+    "scale_family": "pregnant_woman_cn",
+    "pose": "seated",
+    "subject": "character",
+    "source_sha256": "75a26c86699e3f46fdc7676f45205eb5ebd17d487c2f13c2f9177d9076b00e19",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "75a26c86699e3f46fdc7676f45205eb5ebd17d487c2f13c2f9177d9076b00e19",
+      "source_size": {
+        "width": 1024,
+        "height": 1536
+      },
+      "from": {
+        "x": 0.439453125,
+        "y": 0.024739583333333332
+      },
+      "to": {
+        "x": 0.439453125,
+        "y": 0.216796875
+      },
+      "span_cm": 25.85,
+      "basis": "同身份站姿身体段配准头段[[450, 38], [450, 333]]，对应25.85cm；脚底和椅面单独登记；待共同标尺实际试装，不由生成文字批准。"
+    },
+    "source_asset_id": "paper:character_pregnant_woman_seated_scale_v2@df659ae0c18fc1a45fb5"
+  },
+  "paper:character_adult_man_alert_seated_scale_v2@56c5f8313651f77cd734": {
+    "nominal_height_cm": 175,
+    "height_status": "authored_design_reference",
+    "scale_family": "adult_man_cn_green_red",
+    "pose": "seated",
+    "subject": "character",
+    "source_sha256": "d632b0aedcefaa39106e57bb9866687983733d5ac5dfd3b404f749aca16e2e2f",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "d632b0aedcefaa39106e57bb9866687983733d5ac5dfd3b404f749aca16e2e2f",
+      "source_size": {
+        "width": 1024,
+        "height": 1536
+      },
+      "from": {
+        "x": 0.537109375,
+        "y": 0.09765625
+      },
+      "to": {
+        "x": 0.537109375,
+        "y": 0.2734375
+      },
+      "span_cm": 27.22,
+      "basis": "同身份站姿身体段配准头段[[550, 150], [550, 420]]，对应27.22cm；脚底和椅面单独登记；待共同标尺实际试装，不由生成文字批准。"
+    },
+    "source_asset_id": "paper:character_adult_man_alert_seated_scale_v2@56c5f8313651f77cd734"
+  },
+    "paper:character_adult_woman_pregnant_v1@16df74f882fbd544e1f6": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "stand_pregnant",
+      "source_asset_id": "paper:character_adult_woman_pregnant_v1@16df74f882fbd544e1f6",
+      "source_sha256": "e73b601e052658ed9feeffa1a8841a3e0a8935a650bb6b33bb1493ca7781d80a",
+      "measurement": "同一短发女性母版的孕期站姿，设计身高保持163厘米，按原图头顶与脚底标定。",
+      "subject": "character",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "e73b601e052658ed9feeffa1a8841a3e0a8935a650bb6b33bb1493ca7781d80a",
+        "source_size": {"width": 1024, "height": 1536},
+        "from": {"x": 0.5, "y": 0.009765625},
+        "to": {"x": 0.5, "y": 0.9889322916666666},
+        "span_cm": 163,
+        "basis": "完整原图头顶y15至共同脚底y1519，1504像素对应同一虚构人物设计163厘米；当前场景继续检查身体体量、地面和接触。"
+      }
+    },
+    "paper:character_adult_woman_nursing_v1@a6aff7e5e135dae9e132": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "seated_nursing",
+      "source_asset_id": "paper:character_adult_woman_nursing_v1@a6aff7e5e135dae9e132",
+      "source_sha256": "73cc68475a0b3c0f2299ab1ef98645ee5eaa0cb11afd497fc665fadf7c7bbb4e",
+      "measurement": "完整母婴姿态按母体头部身体段配准，坐姿高度与椅子外框不作为站立身高。",
+      "subject": "character",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "73cc68475a0b3c0f2299ab1ef98645ee5eaa0cb11afd497fc665fadf7c7bbb4e",
+        "source_size": {"width": 1024, "height": 1536},
+        "from": {"x": 0.48, "y": 0.016276041666666668},
+        "to": {"x": 0.48, "y": 0.19856770833333334},
+        "span_cm": 25,
+        "basis": "同身份站姿母版头部约占设计25厘米，当前头顶y25至下巴y305；以该身体段配准坐姿，已在站坐同场检查身体体量和承托。"
+      }
+    },
+    "paper:abpm_patient_20261023@da1da29c83fad06b55a3": {
+      "nominal_height_cm": 163,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_woman_cn_abpm",
+      "pose": "stand_abpm",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+      "source_sha256": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_adult_man_reach_v1@56ac1028ab1507772026": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_man_reach_v1@56ac1028ab1507772026",
+      "source_sha256": "20b94e379038682e82c67d535a76e39ad51f9b67baf094a836c7f8a7faa99f1c",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "20b94e379038682e82c67d535a76e39ad51f9b67baf094a836c7f8a7faa99f1c",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4443359375,
+          "y": 0.022786458333333332
+        },
+        "to": {
+          "x": 0.4443359375,
+          "y": 0.16666666666666666
+        },
+        "span_cm": 27.22,
+        "basis": "已逐张看原件。站姿基准paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7，头段[512, 35]→[512, 263]为228px，按站姿已定身体密度折算27.22cm；当前头段[455, 35]→[455, 256]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。已看完整伸手站姿；手掌朝向与源图一致，不申报已接触外部物件。"
+      }
+    },
+    "paper:character_adult_man_seated_v1@46873c4ad97168218454": {
+      "nominal_height_cm": 175,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "seated_navy",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454",
+      "source_sha256": "6f1f7d354abb2da569d7a0b7dd0da7184c3d6dc489bc567c73a28d74f441ecef",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "stand",
+      "measurement": "已看浅绿衫红裤男性站姿原图，虚构角色设计175厘米；头顶至共同脚底建立原图标尺。",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+      "source_sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+        "source_size": {"width": 1024, "height": 1536},
+        "from": {"x": 0.5, "y": 0.022786458333333332},
+        "to": {"x": 0.5, "y": 0.9772135416666666},
+        "span_cm": 175,
+        "basis": "原图头顶y35至承重脚底基线y1501，1466像素对应设计175厘米；不使用透明外框。坐姿和步行仍须分别标定、复核头肩躯干与椅面承托，不能继承站姿外框高度。"
+      }
+    },
+    "paper:character_adult_man_upper_abdomen_stool_v1@e4f7937346069d896b37": {
+      "nominal_height_cm": 175,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "seated_upper_abdomen_stool",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_man_upper_abdomen_stool_v1@e4f7937346069d896b37",
+      "source_sha256": "b25eb9f60b3af6d0179c049073bc047ade2b39379ffd8b3f2d38a2a934b83003",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_adult_man_walk_v1@8f657fb158c5f96fd776": {
+      "nominal_height_cm": 175,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "walk",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_man_walk_v1@8f657fb158c5f96fd776",
+      "source_sha256": "f30cb89c4e070b4f1acedc332885c9d2337b1aa7714040a5f27d644e136930d7",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_adult_woman_care_reach_v2@b94644c99ac58e2cd0d8": {
+      "nominal_height_cm": 163,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "care_reach",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_woman_care_reach_v2@b94644c99ac58e2cd0d8",
+      "source_sha256": "8a2a49b61530fe8b93489acc31b04194827668973f582826f4fb03ff1c8d4555",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_adult_woman_lying_v2@d797e2eea498e1bcde6c": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "lying",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_woman_lying_v2@d797e2eea498e1bcde6c",
+      "source_sha256": "4e20d6cce8c044d253e283ac311ed4a9a01ab4b640b87e9b6a30fcd13b854edc",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "4e20d6cce8c044d253e283ac311ed4a9a01ab4b640b87e9b6a30fcd13b854edc",
+        "source_size": {
+          "width": 1774,
+          "height": 887
+        },
+        "from": {
+          "x": 0.05636978579481398,
+          "y": 0.32919954904171367
+        },
+        "to": {
+          "x": 0.161217587373168,
+          "y": 0.5208568207440811
+        },
+        "span_cm": 22.82,
+        "basis": "已逐张看原件。站姿基准paper:reserve_person_stand_v1@4b5293ee4731114cfac1，头段[512, 26]→[512, 235]为209px，按站姿已定身体密度折算22.82cm；当前头段[100, 292]→[286, 462]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。1774×887横图，头部斜向身体段随姿态旋转标定；未把整幅横图宽度当站立身高。原件没有床，需独立承托试装。"
+      }
+    },
+    "paper:character_adult_woman_reach_v2@fd6d9e040165a718b8be": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_adult_woman_reach_v2@fd6d9e040165a718b8be",
+      "source_sha256": "1f8ce98bec59078a2c54805afabadda2094532fbeb90ab5f6c3c041d6416c7f7",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "1f8ce98bec59078a2c54805afabadda2094532fbeb90ab5f6c3c041d6416c7f7",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.48828125,
+          "y": 0.016276041666666668
+        },
+        "to": {
+          "x": 0.48828125,
+          "y": 0.154296875
+        },
+        "span_cm": 22.82,
+        "basis": "已逐张看原件。站姿基准paper:reserve_person_stand_v1@4b5293ee4731114cfac1，头段[512, 26]→[512, 235]为209px，按站姿已定身体密度折算22.82cm；当前头段[500, 25]→[500, 237]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。已看同身份完整伸手姿态；源图手掌并未持有物件。"
+      }
+    },
+    "paper:character_carer_calling_v1@8edf24b872eebe205841": {
+      "nominal_height_cm": 163,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "calling",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_carer_calling_v1@8edf24b872eebe205841",
+      "source_sha256": "330f6950395e4aa647ac69087f6f5a153ca7e81e5a7c178e52d9dc01a0d575de",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_child_boy_reach_v1@8fa72b53e36147b2c61b": {
+      "nominal_height_cm": 128,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_boy_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_boy_reach_v1@8fa72b53e36147b2c61b",
+      "source_sha256": "28e61eac9e58ebd5147218601a595e5fb2e6edde2a4706b51c0f636bc585c678",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "28e61eac9e58ebd5147218601a595e5fb2e6edde2a4706b51c0f636bc585c678",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.439453125,
+          "y": 0.01171875
+        },
+        "to": {
+          "x": 0.439453125,
+          "y": 0.212890625
+        },
+        "span_cm": 27.4,
+        "basis": "已逐张看原件。站姿基准paper:character_child_boy_stand_v1@d901483f1841ad102f40，头段[512, 29]→[512, 345]为316px，按站姿已定身体密度折算27.4cm；当前头段[450, 18]→[450, 327]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整男童伸手姿态，不缩放成成人头身比。"
+      }
+    },
+    "paper:character_child_boy_seated_v1@0e2b211ef70c802defaa": {
+      "nominal_height_cm": 128,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_boy_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_boy_seated_v1@0e2b211ef70c802defaa",
+      "source_sha256": "c48d88dc01371e6c6c059fdedcde0ef95729fa2db2b581c90fe0bfdf285e35ad",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "c48d88dc01371e6c6c059fdedcde0ef95729fa2db2b581c90fe0bfdf285e35ad",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.46875,
+          "y": 0.016276041666666668
+        },
+        "to": {
+          "x": 0.46875,
+          "y": 0.22526041666666666
+        },
+        "span_cm": 27.4,
+        "basis": "已逐张看原件。站姿基准paper:character_child_boy_stand_v1@d901483f1841ad102f40，头段[512, 29]→[512, 345]为316px，按站姿已定身体密度折算27.4cm；当前头段[480, 25]→[480, 346]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整男童与椅子整件；原图头部与站姿接近，但坐姿身体跨度异常接近站姿，统一密度后必须重点复核躯干/腿长与座高，不批准仅头部匹配。"
+      }
+    },
+    "paper:character_child_boy_stand_v1@d901483f1841ad102f40": {
+      "nominal_height_cm": 128,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_boy_cn",
+      "pose": "stand",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高128厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_boy_stand_v1@d901483f1841ad102f40",
+      "source_sha256": "4717b00fe4ba1d690d416e56c57ebce6da2c21a015a4757117688e8e15a8eaf1",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "4717b00fe4ba1d690d416e56c57ebce6da2c21a015a4757117688e8e15a8eaf1",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.018880208333333332
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9798177083333334
+        },
+        "span_cm": 128,
+        "basis": "原尺寸查看后确认身体头顶y29至承重脚底基准y1505，身体垂直跨度1476像素对应设计128厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_child_boy_walk_v1@24ffc90514896625460c": {
+      "nominal_height_cm": 128,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_boy_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_boy_walk_v1@24ffc90514896625460c",
+      "source_sha256": "6d8cd32824f7f7408fa59bb33241dac793e126514771dd2fdab63593bf688619",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "6d8cd32824f7f7408fa59bb33241dac793e126514771dd2fdab63593bf688619",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5029296875,
+          "y": 0.015625
+        },
+        "to": {
+          "x": 0.5029296875,
+          "y": 0.21809895833333334
+        },
+        "span_cm": 27.4,
+        "basis": "已逐张看原件。站姿基准paper:character_child_boy_stand_v1@d901483f1841ad102f40，头段[512, 29]→[512, 345]为316px，按站姿已定身体密度折算27.4cm；当前头段[515, 24]→[515, 335]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整男童步行关键姿态，后脚抬起，脚底以承重前脚为落地基准。"
+      }
+    },
+    "paper:character_child_girl_reach_v1@90c42ad4fb3b07730164": {
+      "nominal_height_cm": 125,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_girl_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_girl_reach_v1@90c42ad4fb3b07730164",
+      "source_sha256": "96c33f09d9f83e1953d6c357ee0c4b947fa11197e4f2b66e07a49a171d3f5264",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "96c33f09d9f83e1953d6c357ee0c4b947fa11197e4f2b66e07a49a171d3f5264",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.46875,
+          "y": 0.033203125
+        },
+        "to": {
+          "x": 0.46875,
+          "y": 0.20963541666666666
+        },
+        "span_cm": 22.99,
+        "basis": "已逐张看原件。站姿基准paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019，头段[512, 70]→[512, 326]为256px，按站姿已定身体密度折算22.99cm；当前头段[480, 51]→[480, 322]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整儿童伸手姿态；未申报实际接取。"
+      }
+    },
+    "paper:character_child_girl_seated_v1@239b0a6c03f7f6afe073": {
+      "nominal_height_cm": 125,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_girl_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_girl_seated_v1@239b0a6c03f7f6afe073",
+      "source_sha256": "a245eaedf2c6fabdf5b04fd993f27c47090f884bc9e572aa8895fd4cfeb2fd79",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "a245eaedf2c6fabdf5b04fd993f27c47090f884bc9e572aa8895fd4cfeb2fd79",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.458984375,
+          "y": 0.0234375
+        },
+        "to": {
+          "x": 0.458984375,
+          "y": 0.23046875
+        },
+        "span_cm": 22.99,
+        "basis": "已逐张看原件。站姿基准paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019，头段[512, 70]→[512, 326]为256px，按站姿已定身体密度折算22.99cm；当前头段[470, 36]→[470, 354]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。儿童坐姿保留较大头身比，不以成人素材缩小替代。"
+      }
+    },
+    "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019": {
+      "nominal_height_cm": 125,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_girl_cn",
+      "pose": "stand",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高125厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019",
+      "source_sha256": "90f2dfe4829feaeb30d90ccf510f271d972afcb699b69a141c882c27592f7369",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "90f2dfe4829feaeb30d90ccf510f271d972afcb699b69a141c882c27592f7369",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.045572916666666664
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9518229166666666
+        },
+        "span_cm": 125,
+        "basis": "原尺寸查看后确认身体头顶y70至承重脚底基准y1462，身体垂直跨度1392像素对应设计125厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_child_girl_walk_v1@429a205cc02b6c8dd048": {
+      "nominal_height_cm": 125,
+      "height_status": "authored_design_reference",
+      "scale_family": "child_girl_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_child_girl_walk_v1@429a205cc02b6c8dd048",
+      "source_sha256": "1606f5972232368fcc826dadbe6af8b45690e163c3b90f36e6c3b7def0ad2431",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "1606f5972232368fcc826dadbe6af8b45690e163c3b90f36e6c3b7def0ad2431",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.498046875,
+          "y": 0.037109375
+        },
+        "to": {
+          "x": 0.498046875,
+          "y": 0.21809895833333334
+        },
+        "span_cm": 22.99,
+        "basis": "已逐张看原件。站姿基准paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019，头段[512, 70]→[512, 326]为256px，按站姿已定身体密度折算22.99cm；当前头段[510, 57]→[510, 335]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整儿童步行关键姿态；脚底随原姿态定位。"
+      }
+    },
+    "paper:character_clinician_man_reach_v1@cbdeda9c62cdc10dd444": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_man_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_man_reach_v1@cbdeda9c62cdc10dd444",
+      "source_sha256": "3acc476188393db9f5492eec69cd578b20fdf68f73e8d95f7f0708b69a3bd137",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "3acc476188393db9f5492eec69cd578b20fdf68f73e8d95f7f0708b69a3bd137",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4541015625,
+          "y": 0.015625
+        },
+        "to": {
+          "x": 0.4541015625,
+          "y": 0.154296875
+        },
+        "span_cm": 26.38,
+        "basis": "已逐张看原件。站姿基准paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e，头段[470, 46]→[470, 264]为218px，按站姿已定身体密度折算26.38cm；当前头段[465, 24]→[465, 237]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。公共通用伸手姿态，仅为无作者默认策略工作区提供标尺。"
+      }
+    },
+    "paper:character_clinician_man_seated_consult_v1@1e7c4789c9d5699062e6": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_man_cn",
+      "pose": "seated_consult",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_man_seated_consult_v1@1e7c4789c9d5699062e6",
+      "source_sha256": "87948d362075c6ac101ba4e95f0839b0af0badf699daf4ad6f3b0acb75f2f950",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "87948d362075c6ac101ba4e95f0839b0af0badf699daf4ad6f3b0acb75f2f950",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4833984375,
+          "y": 0.029947916666666668
+        },
+        "to": {
+          "x": 0.4833984375,
+          "y": 0.20182291666666666
+        },
+        "span_cm": 26.38,
+        "basis": "已逐张看原件。站姿基准paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e，头段[470, 46]→[470, 264]为218px，按站姿已定身体密度折算26.38cm；当前头段[495, 46]→[495, 310]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。公共通用问诊坐姿，仅技术夹具取用；本机科普视频仍解析作者Dr.咩。"
+      }
+    },
+    "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_man_cn",
+      "pose": "stand_explain",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高175厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e",
+      "source_sha256": "61f9aa2a4241be602eb576b123ffc005ef31caf18ff85b6e28ff2051e432492a",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "61f9aa2a4241be602eb576b123ffc005ef31caf18ff85b6e28ff2051e432492a",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.029947916666666668
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9713541666666666
+        },
+        "span_cm": 175,
+        "basis": "原尺寸查看后确认身体头顶y46至承重脚底基准y1492，身体垂直跨度1446像素对应设计175厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_clinician_man_walk_v1@c23fff8f30de3664d71c": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_man_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_man_walk_v1@c23fff8f30de3664d71c",
+      "source_sha256": "d690a657767ac4804e0582bffcae1af0e5dab2383c1a275f22a62a13e98e240a",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "d690a657767ac4804e0582bffcae1af0e5dab2383c1a275f22a62a13e98e240a",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5078125,
+          "y": 0.022135416666666668
+        },
+        "to": {
+          "x": 0.5078125,
+          "y": 0.17122395833333334
+        },
+        "span_cm": 26.38,
+        "basis": "已逐张看原件。站姿基准paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e，头段[470, 46]→[470, 264]为218px，按站姿已定身体密度折算26.38cm；当前头段[520, 34]→[520, 263]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。公共通用完整步行关键姿态；不进入本机生产镜头。"
+      }
+    },
+    "paper:character_clinician_woman_reach_v2@5f3388c282262124ba0a": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_woman_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_woman_reach_v2@5f3388c282262124ba0a",
+      "source_sha256": "d873fc23b389fe3601c2d081d596ef0e1ceba0f0ac220d4f05e41c68273be78e",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "d873fc23b389fe3601c2d081d596ef0e1ceba0f0ac220d4f05e41c68273be78e",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.458984375,
+          "y": 0.008463541666666666
+        },
+        "to": {
+          "x": 0.458984375,
+          "y": 0.14518229166666666
+        },
+        "span_cm": 24.15,
+        "basis": "已逐张看原件。站姿基准paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4，头段[470, 11]→[470, 231]为220px，按站姿已定身体密度折算24.15cm；当前头段[470, 13]→[470, 223]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。公共中国女医生完整伸手姿态。"
+      }
+    },
+    "paper:character_clinician_woman_seated_consult_v2@dd714face12d3710de95": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_woman_cn",
+      "pose": "seated_consult",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_woman_seated_consult_v2@dd714face12d3710de95",
+      "source_sha256": "da424768b5eff2a1bd3e660e498b27d75b5d39b0e18d615626ead6404ce158bf",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "da424768b5eff2a1bd3e660e498b27d75b5d39b0e18d615626ead6404ce158bf",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4736328125,
+          "y": 0.01171875
+        },
+        "to": {
+          "x": 0.4736328125,
+          "y": 0.177734375
+        },
+        "span_cm": 24.15,
+        "basis": "已逐张看原件。站姿基准paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4，头段[470, 11]→[470, 231]为220px，按站姿已定身体密度折算24.15cm；当前头段[485, 18]→[485, 273]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。公共中国女医生完整坐姿，只在公共技术夹具中验证；本机生产仍用Dr.咩。"
+      }
+    },
+    "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_woman_cn",
+      "pose": "stand_explain",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高165厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4",
+      "source_sha256": "57fccddb65ca3beb0e392f086d716b32e31571be70321cb456ec71db80f76daf",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "57fccddb65ca3beb0e392f086d716b32e31571be70321cb456ec71db80f76daf",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.007161458333333333
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9856770833333334
+        },
+        "span_cm": 165,
+        "basis": "原尺寸查看后确认身体头顶y11至承重脚底基准y1514，身体垂直跨度1503像素对应设计165厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_clinician_woman_walk_v2@e6d58c25dcef6d5aa7c5": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "clinician_woman_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_clinician_woman_walk_v2@e6d58c25dcef6d5aa7c5",
+      "source_sha256": "244ba3318e02b5a07bf5b0cf520e8161a6194eb69e1ea08a41d00c01a901319e",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "244ba3318e02b5a07bf5b0cf520e8161a6194eb69e1ea08a41d00c01a901319e",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.478515625,
+          "y": 0.009765625
+        },
+        "to": {
+          "x": 0.478515625,
+          "y": 0.14518229166666666
+        },
+        "span_cm": 24.15,
+        "basis": "已逐张看原件。站姿基准paper:character_clinician_woman_stand_v2@ccfad54a4e7ecc453ae4，头段[470, 11]→[470, 231]为220px，按站姿已定身体密度折算24.15cm；当前头段[490, 15]→[490, 223]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。公共中国女医生完整步行关键姿态。"
+      }
+    },
+    "paper:character_man_alert_armchair_v1@9de53c9827f7ef4ef901": {
+      "nominal_height_cm": 175,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "seated_alert_armchair",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_man_alert_armchair_v1@9de53c9827f7ef4ef901",
+      "source_sha256": "f578e116b8da15dfac85ea8131492e542a668832ea35a2e50ace13d48db7e684",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_man_unresponsive_armchair_v1@1450525aa8a2df21c95e": {
+      "nominal_height_cm": 175,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "seated_head_down_armchair",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_man_unresponsive_armchair_v1@1450525aa8a2df21c95e",
+      "source_sha256": "ab73e40c921f34955da82b5dac10811f261df15cb35ab9809719079a331f5309",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_older_brother_stand_v1@0555292d623befaa0c77": {
+      "nominal_height_cm": 175,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "older_brother_cn",
+      "pose": "stand_family",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_brother_stand_v1@0555292d623befaa0c77",
+      "source_sha256": "ce25eae77d2b972a8559b7d354d0a6fb24b48adaca86f873cb08cba3793a2630",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_older_man_cane_v1@6858cfca3d92926852c9": {
+      "nominal_height_cm": 168,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "older_man_cn",
+      "pose": "cane",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_man_cane_v1@6858cfca3d92926852c9",
+      "source_sha256": "671a70c4e15adc80885a08b38000ecedd9fe0838c370343212427d50170cf384",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_older_man_reach_v1@954bd84705afbe295740": {
+      "nominal_height_cm": 168,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_man_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_man_reach_v1@954bd84705afbe295740",
+      "source_sha256": "b19d70f1c9d1e2a6d77271164188d602d688637acda1a62431420b970e79daaa",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "b19d70f1c9d1e2a6d77271164188d602d688637acda1a62431420b970e79daaa",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.478515625,
+          "y": 0.029947916666666668
+        },
+        "to": {
+          "x": 0.478515625,
+          "y": 0.17447916666666666
+        },
+        "span_cm": 27.38,
+        "basis": "已逐张看原件。站姿基准paper:character_older_man_stand_v1@8a52278239c0688e0b6c，头段[512, 25]→[512, 261]为236px，按站姿已定身体密度折算27.38cm；当前头段[490, 46]→[490, 268]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整伸手站姿，保持同身份头肩和躯干体量。"
+      }
+    },
+    "paper:character_older_man_seated_v1@466de326d81bf8a1ee61": {
+      "nominal_height_cm": 168,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_man_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_man_seated_v1@466de326d81bf8a1ee61",
+      "source_sha256": "65c078b223ceed0f36802f709e07c9955cea1b9c9e5179fffbf43c0e7e032230",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "65c078b223ceed0f36802f709e07c9955cea1b9c9e5179fffbf43c0e7e032230",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.419921875,
+          "y": 0.022786458333333332
+        },
+        "to": {
+          "x": 0.419921875,
+          "y": 0.19791666666666666
+        },
+        "span_cm": 27.38,
+        "basis": "已逐张看原件。站姿基准paper:character_older_man_stand_v1@8a52278239c0688e0b6c，头段[512, 25]→[512, 261]为236px，按站姿已定身体密度折算27.38cm；当前头段[430, 35]→[430, 304]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整老年男性坐姿；椅面和脚底须按原图锚点及实际身体密度试装。"
+      }
+    },
+    "paper:character_older_man_sit_transition_v1@d553bbe1c0f192aa6a14": {
+      "nominal_height_cm": 168,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "older_man_cn",
+      "pose": "sit_transition",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_man_sit_transition_v1@d553bbe1c0f192aa6a14",
+      "source_sha256": "485a22e8b4ff6d300fc0b96c23d6673aa5808436e333dc6c628f25ca4ad9eee7",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_older_man_stand_v1@8a52278239c0688e0b6c": {
+      "nominal_height_cm": 168,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_man_cn",
+      "pose": "stand",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高168厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_man_stand_v1@8a52278239c0688e0b6c",
+      "source_sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.016276041666666668
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.958984375
+        },
+        "span_cm": 168,
+        "basis": "原尺寸查看后确认身体头顶y25至承重脚底基准y1473，身体垂直跨度1448像素对应设计168厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_older_man_walk_v1@b82355ff8645f0304efb": {
+      "nominal_height_cm": 168,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_man_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_man_walk_v1@b82355ff8645f0304efb",
+      "source_sha256": "87c3bb690282073304100079889967f2a247a3acc7e7c88daa6f1a635a760fd5",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "87c3bb690282073304100079889967f2a247a3acc7e7c88daa6f1a635a760fd5",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.517578125,
+          "y": 0.030598958333333332
+        },
+        "to": {
+          "x": 0.517578125,
+          "y": 0.17122395833333334
+        },
+        "span_cm": 27.38,
+        "basis": "已逐张看原件。站姿基准paper:character_older_man_stand_v1@8a52278239c0688e0b6c，头段[512, 25]→[512, 261]为236px，按站姿已定身体密度折算27.38cm；当前头段[530, 47]→[530, 263]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整步行关键姿态，地面原件含低对比投影，不把投影计入身体。"
+      }
+    },
+    "paper:character_older_man_wheelchair_v1@d281630ee35eb59fc601": {
+      "nominal_height_cm": 168,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "older_man_cn",
+      "pose": "wheelchair",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_man_wheelchair_v1@d281630ee35eb59fc601",
+      "source_sha256": "34159f2f9f51e92b9ce721d7f2f4d6c7d3adbee7c9e91db624b74a6226d8a7ef",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_older_woman_reach_v1@c27a1da4695926287cc1": {
+      "nominal_height_cm": 158,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_woman_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_woman_reach_v1@c27a1da4695926287cc1",
+      "source_sha256": "838129cc9f079d42660233f05c5869b4649f5bc4d1732ae9d80a5a4d4913a068",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "838129cc9f079d42660233f05c5869b4649f5bc4d1732ae9d80a5a4d4913a068",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4833984375,
+          "y": 0.021484375
+        },
+        "to": {
+          "x": 0.4833984375,
+          "y": 0.19791666666666666
+        },
+        "span_cm": 25.74,
+        "basis": "已逐张看原件。站姿基准paper:character_older_woman_stand_v1@533448a63caf5fd9b120，头段[512, 59]→[512, 290]为231px，按站姿已定身体密度折算25.74cm；当前头段[495, 33]→[495, 304]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整伸手站姿；同身份原件头部大小不同，由身体段密度换算。"
+      }
+    },
+    "paper:character_older_woman_seated_v1@3a8b87ed39e8271800e8": {
+      "nominal_height_cm": 158,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_woman_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_woman_seated_v1@3a8b87ed39e8271800e8",
+      "source_sha256": "bd73fddb1db536bfdabaa6a83dace2e34cb0ba77862e13e4e788413b9d591f93",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "bd73fddb1db536bfdabaa6a83dace2e34cb0ba77862e13e4e788413b9d591f93",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.439453125,
+          "y": 0.016276041666666668
+        },
+        "to": {
+          "x": 0.439453125,
+          "y": 0.20638020833333334
+        },
+        "span_cm": 25.74,
+        "basis": "已逐张看原件。站姿基准paper:character_older_woman_stand_v1@533448a63caf5fd9b120，头段[512, 59]→[512, 290]为231px，按站姿已定身体密度折算25.74cm；当前头段[450, 25]→[450, 317]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整老年女性坐姿；不将坐姿外框设为158厘米。"
+      }
+    },
+    "paper:character_older_woman_sit_transition_v1@85149c7d1f2e0d06b853": {
+      "nominal_height_cm": 158,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "older_woman_cn",
+      "pose": "sit_transition",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_woman_sit_transition_v1@85149c7d1f2e0d06b853",
+      "source_sha256": "6fbe97cabb0f91c13a6cc01cf1f219c6acc2d7fb87ba62e28e6bb1517885f5ce",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:character_older_woman_stand_v1@533448a63caf5fd9b120": {
+      "nominal_height_cm": 158,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_woman_cn",
+      "pose": "stand",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高158厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+      "source_sha256": "8eddd1227cb34a1799922137bee80073ca2c8be757f23f41966eaa38b9e8bf39",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "8eddd1227cb34a1799922137bee80073ca2c8be757f23f41966eaa38b9e8bf39",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.038411458333333336
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9615885416666666
+        },
+        "span_cm": 158,
+        "basis": "原尺寸查看后确认身体头顶y59至承重脚底基准y1477，身体垂直跨度1418像素对应设计158厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_older_woman_walk_v1@309e90e14bda7862598e": {
+      "nominal_height_cm": 158,
+      "height_status": "authored_design_reference",
+      "scale_family": "older_woman_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_older_woman_walk_v1@309e90e14bda7862598e",
+      "source_sha256": "e15aafe510d3d543b5aa6f37c8903f9fbb2d07dabaa7af72c29a83ae17a2cf70",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "e15aafe510d3d543b5aa6f37c8903f9fbb2d07dabaa7af72c29a83ae17a2cf70",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5029296875,
+          "y": 0.033203125
+        },
+        "to": {
+          "x": 0.5029296875,
+          "y": 0.19010416666666666
+        },
+        "span_cm": 25.74,
+        "basis": "已逐张看原件。站姿基准paper:character_older_woman_stand_v1@533448a63caf5fd9b120，头段[512, 59]→[512, 290]为231px，按站姿已定身体密度折算25.74cm；当前头段[515, 51]→[515, 292]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整步行关键姿态，不申报连续步态。"
+      }
+    },
+    "paper:character_pregnant_woman_reach_v1@860f8ed8a85f80e5c721": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "pregnant_woman_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_pregnant_woman_reach_v1@860f8ed8a85f80e5c721",
+      "source_sha256": "600090b44059af0a0fbd9a69512401273e60e33c55a08f734888a4ede72362b3",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "600090b44059af0a0fbd9a69512401273e60e33c55a08f734888a4ede72362b3",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.439453125,
+          "y": 0.017578125
+        },
+        "to": {
+          "x": 0.439453125,
+          "y": 0.16861979166666666
+        },
+        "span_cm": 25.85,
+        "basis": "已逐张看原件。站姿基准paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5，头段[512, 35]→[512, 270]为235px，按站姿已定身体密度折算25.85cm；当前头段[450, 27]→[450, 259]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整孕期伸手姿态，不从伸手长度决定人体密度。"
+      }
+    },
+    "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "pregnant_woman_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9",
+      "source_sha256": "a366d989e897c55b0a06b09cb6e5c41e441c794b43eda43d58f5fdb26fb460b7",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "a366d989e897c55b0a06b09cb6e5c41e441c794b43eda43d58f5fdb26fb460b7",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.439453125,
+          "y": 0.0234375
+        },
+        "to": {
+          "x": 0.439453125,
+          "y": 0.18229166666666666
+        },
+        "span_cm": 25.85,
+        "basis": "已逐张看原件。站姿基准paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5，头段[512, 35]→[512, 270]为235px，按站姿已定身体密度折算25.85cm；当前头段[450, 36]→[450, 280]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整孕妇坐姿；坐姿为较低发髻，与高髻站姿的无缝姿态切换另审，不凭家族索引批准连续身份。"
+      }
+    },
+    "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "pregnant_woman_cn",
+      "pose": "stand",
+      "measurement": "已查看完整站姿，虚构角色设计163厘米；头顶至共同脚底标定，不量外围发光、衣服宽度或图片外框。",
+      "subject": "character",
+      "source_asset_id": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+      "source_sha256": "e8f74789d703cb48c2ea13a1dd05b6a030508736b808ebe3bd4dc22423e40c56",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "e8f74789d703cb48c2ea13a1dd05b6a030508736b808ebe3bd4dc22423e40c56",
+        "source_size": {"width": 1024, "height": 1536},
+        "from": {"x": 0.5, "y": 0.022786458333333332},
+        "to": {"x": 0.5, "y": 0.9876302083333334},
+        "span_cm": 163,
+        "basis": "原尺寸原件头顶约y35、共同脚底y1517，身体垂直跨度1482像素对应虚构角色163厘米；场景组合仍需试装。"
+      }
+    },
+    "paper:character_pregnant_woman_walk_v1@04d5693954b22423a6c9": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "pregnant_woman_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_pregnant_woman_walk_v1@04d5693954b22423a6c9",
+      "source_sha256": "1fcfca8e29ebb1be86027ca44ed086de2928ecd7241ae7ca251e58cca5642c7c",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "1fcfca8e29ebb1be86027ca44ed086de2928ecd7241ae7ca251e58cca5642c7c",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.498046875,
+          "y": 0.024088541666666668
+        },
+        "to": {
+          "x": 0.498046875,
+          "y": 0.17317708333333334
+        },
+        "span_cm": 25.85,
+        "basis": "已逐张看原件。站姿基准paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5，头段[512, 35]→[512, 270]为235px，按站姿已定身体密度折算25.85cm；当前头段[510, 37]→[510, 266]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整孕期步行关键姿态；保留腹部和衣服连贯轮廓。"
+      }
+    },
+    "paper:character_teen_boy_reach_v1@1d129d0c53d3b59a0932": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_boy_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_boy_reach_v1@1d129d0c53d3b59a0932",
+      "source_sha256": "755792936f768f45e5009294a6d237e6f9b7c0f681a439d2e4f3ac2967ace59e",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "755792936f768f45e5009294a6d237e6f9b7c0f681a439d2e4f3ac2967ace59e",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.458984375,
+          "y": 0.009114583333333334
+        },
+        "to": {
+          "x": 0.458984375,
+          "y": 0.15559895833333334
+        },
+        "span_cm": 26.13,
+        "basis": "已逐张看原件。站姿基准paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582，头段[512, 24]→[512, 260]为236px，按站姿已定身体密度折算26.13cm；当前头段[470, 14]→[470, 239]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整少年伸手姿态，视角朝向与原件一致。"
+      }
+    },
+    "paper:character_teen_boy_seated_v1@14ffe9207fbb6401bab5": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_boy_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_boy_seated_v1@14ffe9207fbb6401bab5",
+      "source_sha256": "7b7b35c124ab727970e75a1e7fa345897faa66cd9c44570bf42e7db4ee016f3c",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "7b7b35c124ab727970e75a1e7fa345897faa66cd9c44570bf42e7db4ee016f3c",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4736328125,
+          "y": 0.020182291666666668
+        },
+        "to": {
+          "x": 0.4736328125,
+          "y": 0.18815104166666666
+        },
+        "span_cm": 26.13,
+        "basis": "已逐张看原件。站姿基准paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582，头段[512, 24]→[512, 260]为236px，按站姿已定身体密度折算26.13cm；当前头段[485, 31]→[485, 289]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整少年与椅子整件；身体密度和椅脚/座面承托共同复核。"
+      }
+    },
+    "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_boy_cn",
+      "pose": "stand",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高165厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582",
+      "source_sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.015625
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9856770833333334
+        },
+        "span_cm": 165,
+        "basis": "原尺寸查看后确认身体头顶y24至承重脚底基准y1514，身体垂直跨度1490像素对应设计165厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_teen_boy_walk_v1@5c1ef5a58ad9fd5f4dd9": {
+      "nominal_height_cm": 165,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_boy_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_boy_walk_v1@5c1ef5a58ad9fd5f4dd9",
+      "source_sha256": "b05503dc77d1d063717c484744f5162cdb5e77e59edf41e3b45b53551a3063be",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "b05503dc77d1d063717c484744f5162cdb5e77e59edf41e3b45b53551a3063be",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5078125,
+          "y": 0.015625
+        },
+        "to": {
+          "x": 0.5078125,
+          "y": 0.15950520833333334
+        },
+        "span_cm": 26.13,
+        "basis": "已逐张看原件。站姿基准paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582，头段[512, 24]→[512, 260]为236px，按站姿已定身体密度折算26.13cm；当前头段[520, 24]→[520, 245]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整少年步行关键姿态；按承重脚定位，不把抬起的后脚压到地面。"
+      }
+    },
+    "paper:character_teen_girl_reach_v1@e08a0e42da339f30dd5a": {
+      "nominal_height_cm": 160,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_girl_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_girl_reach_v1@e08a0e42da339f30dd5a",
+      "source_sha256": "1cdfd2b2ab7a01d872816d8b4f8093278b33338938b0ae563baac475c431c85c",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "1cdfd2b2ab7a01d872816d8b4f8093278b33338938b0ae563baac475c431c85c",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4736328125,
+          "y": 0.012369791666666666
+        },
+        "to": {
+          "x": 0.4736328125,
+          "y": 0.15299479166666666
+        },
+        "span_cm": 23.97,
+        "basis": "已逐张看原件。站姿基准paper:character_teen_girl_stand_v1@699014f2978da454f37e，头段[512, 18]→[512, 243]为225px，按站姿已定身体密度折算23.97cm；当前头段[485, 19]→[485, 235]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整伸手站姿；同一头部身体段配准。"
+      }
+    },
+    "paper:character_teen_girl_seated_v1@1e0754921bf1e7259bda": {
+      "nominal_height_cm": 160,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_girl_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_girl_seated_v1@1e0754921bf1e7259bda",
+      "source_sha256": "dd38f7b18c35c9ab3299f0fc081f881450fd2c958daee285bf7997ea329fe9c2",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "dd38f7b18c35c9ab3299f0fc081f881450fd2c958daee285bf7997ea329fe9c2",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4541015625,
+          "y": 0.026041666666666668
+        },
+        "to": {
+          "x": 0.4541015625,
+          "y": 0.189453125
+        },
+        "span_cm": 23.97,
+        "basis": "已逐张看原件。站姿基准paper:character_teen_girl_stand_v1@699014f2978da454f37e，头段[512, 18]→[512, 243]为225px，按站姿已定身体密度折算23.97cm；当前头段[465, 40]→[465, 291]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整同身份坐姿，未含椅子；需实际承托试装。"
+      }
+    },
+    "paper:character_teen_girl_stand_v1@699014f2978da454f37e": {
+      "nominal_height_cm": 160,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_girl_cn",
+      "pose": "stand",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高160厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_girl_stand_v1@699014f2978da454f37e",
+      "source_sha256": "f9b55feccb9228cc2595c7fee621a4df73b98f5ba92de91f67dd4b6eb8c194a5",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "f9b55feccb9228cc2595c7fee621a4df73b98f5ba92de91f67dd4b6eb8c194a5",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.01171875
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9895833333333334
+        },
+        "span_cm": 160,
+        "basis": "原尺寸查看后确认身体头顶y18至承重脚底基准y1520，身体垂直跨度1502像素对应设计160厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_teen_girl_walk_v1@885c531b3cdf94109327": {
+      "nominal_height_cm": 160,
+      "height_status": "authored_design_reference",
+      "scale_family": "teen_girl_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_teen_girl_walk_v1@885c531b3cdf94109327",
+      "source_sha256": "6e108c62055072f608c44fdc648c9bd7cb83a40f2029bea41f246ee2e19279dd",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "6e108c62055072f608c44fdc648c9bd7cb83a40f2029bea41f246ee2e19279dd",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5078125,
+          "y": 0.013020833333333334
+        },
+        "to": {
+          "x": 0.5078125,
+          "y": 0.15299479166666666
+        },
+        "span_cm": 23.97,
+        "basis": "已逐张看原件。站姿基准paper:character_teen_girl_stand_v1@699014f2978da454f37e，头段[512, 18]→[512, 243]为225px，按站姿已定身体密度折算23.97cm；当前头段[520, 20]→[520, 235]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整步行关键姿态；摆臂和步长不作为身体尺度。"
+      }
+    },
+    "paper:character_young_man_reach_v1@e54ee8868155b2cabbe8": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "young_man_cn",
+      "pose": "reach",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_young_man_reach_v1@e54ee8868155b2cabbe8",
+      "source_sha256": "eb3b6ec0fdcd1c96084ca9b19f891ed32d0af971f12d2c531ce7883c8f740876",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "eb3b6ec0fdcd1c96084ca9b19f891ed32d0af971f12d2c531ce7883c8f740876",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4296875,
+          "y": 0.009765625
+        },
+        "to": {
+          "x": 0.4296875,
+          "y": 0.1484375
+        },
+        "span_cm": 25.99,
+        "basis": "已逐张看原件。站姿基准paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5，头段[512, 12]→[512, 234]为222px，按站姿已定身体密度折算25.99cm；当前头段[440, 15]→[440, 228]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整青年男性伸手姿态，源图掌心未持物。"
+      }
+    },
+    "paper:character_young_man_seated_v1@6c24351380ba3d7b42ec": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "young_man_cn",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_young_man_seated_v1@6c24351380ba3d7b42ec",
+      "source_sha256": "5b574948c83b7fba80b30efd3f62981bf908a3b3b72d11c93ba6bec69381bfa6",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "5b574948c83b7fba80b30efd3f62981bf908a3b3b72d11c93ba6bec69381bfa6",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.44921875,
+          "y": 0.0026041666666666665
+        },
+        "to": {
+          "x": 0.44921875,
+          "y": 0.18229166666666666
+        },
+        "span_cm": 25.99,
+        "basis": "已逐张看原件。站姿基准paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5，头段[512, 12]→[512, 234]为222px，按站姿已定身体密度折算25.99cm；当前头段[460, 4]→[460, 280]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整青年男性坐姿，未带椅；头顶靠原图上缘，当前场景额外保留完整头部空间。"
+      }
+    },
+    "paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "young_man_cn",
+      "pose": "stand",
+      "measurement": "已逐张查看完整站姿原件；虚构角色设计身高175厘米，标定头顶与承重脚底基准，非现实个体实测。",
+      "subject": "character",
+      "source_asset_id": "paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5",
+      "source_sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.0078125
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9811197916666666
+        },
+        "span_cm": 175,
+        "basis": "原尺寸查看后确认身体头顶y12至承重脚底基准y1507，身体垂直跨度1495像素对应设计175厘米；按人物身体端点标定，透明留白、手臂宽度和外部阴影不作为身体长度。仅此精确站姿，坐走伸手卧姿须另标定与试装。"
+      }
+    },
+    "paper:character_young_man_walk_v1@5dc00110903e0c383201": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "young_man_cn",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:character_young_man_walk_v1@5dc00110903e0c383201",
+      "source_sha256": "e8103ae1ace7036929a965fb7c7e7c2b3532d7e71e9bb51aed06a42a4d6ad62a",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "e8103ae1ace7036929a965fb7c7e7c2b3532d7e71e9bb51aed06a42a4d6ad62a",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4931640625,
+          "y": 0.01171875
+        },
+        "to": {
+          "x": 0.4931640625,
+          "y": 0.15559895833333334
+        },
+        "span_cm": 25.99,
+        "basis": "已逐张看原件。站姿基准paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5，头段[512, 12]→[512, 234]为222px，按站姿已定身体密度折算25.99cm；当前头段[505, 18]→[505, 239]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。完整青年男性步行关键姿态，身体段密度保持同一母版。"
+      }
+    },
+    "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885",
+      "source_sha256": "338a28ebafa54c5127ff836e285c36289b72d039dda961ccf2f37c52117fa4f4",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "338a28ebafa54c5127ff836e285c36289b72d039dda961ccf2f37c52117fa4f4",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5517578125,
+          "y": 0.026692708333333332
+        },
+        "to": {
+          "x": 0.5517578125,
+          "y": 0.19856770833333334
+        },
+        "span_cm": 27.22,
+        "basis": "已逐张看原件。站姿基准paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7，头段[512, 35]→[512, 263]为228px，按站姿已定身体密度折算27.22cm；当前头段[565, 41]→[565, 305]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。已看完整同身份坐姿；单件未带椅。身体密度与承托位置分开，当前seat与脚底折算后座高偏高疑点须在组合中处理，不能只凭头部配准批准。"
+      }
+    },
+    "paper:male_patient_walk_20261023@694f4aa5318814a765ca": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_man_cn_green_red",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:male_patient_walk_20261023@694f4aa5318814a765ca",
+      "source_sha256": "ebd4d3b612256618699b29862f7e2fa903787b8026e18f3e78c08d05fee16e72",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "ebd4d3b612256618699b29862f7e2fa903787b8026e18f3e78c08d05fee16e72",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5078125,
+          "y": 0.0234375
+        },
+        "to": {
+          "x": 0.5078125,
+          "y": 0.16861979166666666
+        },
+        "span_cm": 27.22,
+        "basis": "已逐张看原件。站姿基准paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7，头段[512, 35]→[512, 263]为228px，按站姿已定身体密度折算27.22cm；当前头段[520, 36]→[520, 259]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。已看完整行走关键姿态，同身份发型面部和服装；单幅不申报连续步态。"
+      }
+    },
+    "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2": {
+      "nominal_height_cm": 163,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "generic_lying_blue_tank",
+      "pose": "躺卧",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2",
+      "source_sha256": "0c21f2cfa4821b3a50b77fc110ab0a9e8954ab3f875037163cfde3f9e8e60bd8",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:reserve_person_pointing_v1@fdce21068b193126c246": {
+      "nominal_height_cm": 163,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "generic_presenter_blue_suit",
+      "pose": "pointing",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:reserve_person_pointing_v1@fdce21068b193126c246",
+      "source_sha256": "514da9080b32ac3c90d8630a99265f40db59c09e13359b2b4b4b782cb9298e20",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:reserve_person_reach_v1@e160c989f583b79e7503": {
+      "nominal_height_cm": 163,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:reserve_person_reach_v1@e160c989f583b79e7503",
+      "source_sha256": "ae40821b15d1ea52ce4b7bbe7463eea58ad2cc1fed3fc6f4109490cdf39d123e",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:reserve_person_seated_v1@6663ae862534a6af39a1": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "seated",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:reserve_person_seated_v1@6663ae862534a6af39a1",
+      "source_sha256": "03bbd34bb54d0e7bf598a107fde3c468d9c8d4707b985a3f4e5267d2f1f8820a",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "03bbd34bb54d0e7bf598a107fde3c468d9c8d4707b985a3f4e5267d2f1f8820a",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.4150390625,
+          "y": 0.027994791666666668
+        },
+        "to": {
+          "x": 0.4150390625,
+          "y": 0.18033854166666666
+        },
+        "span_cm": 22.82,
+        "basis": "已逐张看原件。站姿基准paper:reserve_person_stand_v1@4b5293ee4731114cfac1，头段[512, 26]→[512, 235]为209px，按站姿已定身体密度折算22.82cm；当前头段[425, 43]→[425, 277]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。已看完整同身份坐姿；原件不带椅。按身体段配准后仍须看真实座高与腿长，不以原图外框统一站高。"
+      }
+    },
+    "paper:reserve_person_side_v1@b0c0805e327702792c91": {
+      "nominal_height_cm": 163,
+      "height_status": "proposed_design_assumption",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "side_stand",
+      "measurement": "角色设计身高候选，须随原件审定；未标定姿态不可由外框换算身高",
+      "subject": "character",
+      "source_asset_id": "paper:reserve_person_side_v1@b0c0805e327702792c91",
+      "source_sha256": "780b9c182c959a5f78ef1aaca8ef23ad1f2c73b56034fd5936fd0a43ba14657f",
+      "calibration": {
+        "status": "pending"
+      }
+    },
+    "paper:reserve_person_stand_v1@4b5293ee4731114cfac1": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "stand",
+      "measurement": "已查看完整短发女性母版；虚构角色设计163厘米，由原图头顶至共同脚底标定。",
+      "subject": "character",
+      "source_asset_id": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
+      "source_sha256": "33d86e60a5478f62c1b86c150a4e244da67d1cfcb9c23f280689efd333b23311",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "33d86e60a5478f62c1b86c150a4e244da67d1cfcb9c23f280689efd333b23311",
+        "source_size": {"width": 1024, "height": 1536},
+        "from": {"x": 0.5, "y": 0.016927083333333332},
+        "to": {"x": 0.5, "y": 0.9889322916666666},
+        "span_cm": 163,
+        "basis": "完整站姿母版头顶y26至共同脚底y1519，身体垂直跨度1493像素对应设计163厘米；不以透明留白或服装宽度定身高。"
+      }
+    },
+    "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "walk",
+      "measurement": "按同身份站姿头部身体段配准当前姿态；设计近似，不将坐/走/伸手/卧姿的外框设为站立身高。",
+      "subject": "character",
+      "source_asset_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
+      "source_sha256": "3516260949062e79eab83f02b95d1555c10af79304590a76ad878f6691ee9ed8",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "3516260949062e79eab83f02b95d1555c10af79304590a76ad878f6691ee9ed8",
+        "source_size": {
+          "width": 1254,
+          "height": 1254
+        },
+        "from": {
+          "x": 0.4904306220095694,
+          "y": 0.019138755980861243
+        },
+        "to": {
+          "x": 0.4904306220095694,
+          "y": 0.15231259968102073
+        },
+        "span_cm": 22.82,
+        "basis": "已逐张看原件。站姿基准paper:reserve_person_stand_v1@4b5293ee4731114cfac1，头段[512, 26]→[512, 235]为209px，按站姿已定身体密度折算22.82cm；当前头段[615, 24]→[615, 191]配准同一长度。仅原图密度；腿长、躯干、姿态与承托另审。1254×1254方图，完整同母版侧向行走关键姿态；需浅深底复核发梢与衣袖外围彩边，不凭黑底原图直接否决。"
+      }
+    },
+    "paper:ward_patient_side_scale_v3@3e23e82414bc6023550b": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "ward_patient_blue_shirt_v1",
+      "pose": "supine_side",
+      "measurement": "侧视卧姿头端到可见足跟的设计体轴跨度；175cm设计成人，轻微抬头的制作近似，非临床测量。",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "3df09326d16c7d8d4ba172248b1ba62b78d2b7e003936b7e37e1fc9d42b698c4",
+        "source_size": {
+          "width": 1536,
+          "height": 1024
+        },
+        "from": {
+          "x": 0.9140625,
+          "y": 0.25390625
+        },
+        "to": {
+          "x": 0.15169270833333334,
+          "y": 0.3876953125
+        },
+        "span_cm": 175,
+        "basis": "侧视卧姿头端到可见足跟的设计体轴跨度；175cm设计成人，轻微抬头的制作近似，非临床测量。"
+      },
+      "source_asset_id": "paper:ward_patient_side_scale_v3@3e23e82414bc6023550b",
+      "source_sha256": "3df09326d16c7d8d4ba172248b1ba62b78d2b7e003936b7e37e1fc9d42b698c4"
+    }
+  }
+}

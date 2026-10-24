@@ -1,0 +1,234 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_foot_joint_section_open_close_v1",
+  "type": "structure_section",
+  "label": "足关节",
+  "title": "足关节·踝关节位置揭层连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "踝足侧面关系示意：胫腓骨位于距骨上方、跟骨位于后下方，前足向画面右伸展；关节间隙为窄边界，不画成覆盖骨面的空洞。 踝关节边界与韧带的原位揭层；不是骨关节切开。 没有皮肤、软组织外层或骨截面，只有骨、关节边界与韧带位置；提供位置揭层。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "bones": {
+      "path": "assets/bones.png",
+      "sha256": "a3a778f4fdd9dd5f9543404f70e986d28a8d0a8b6b80eef4de4d27721d8c339d",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        330,
+        147,
+        858,
+        728
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.47,
+            "y": 0.48
+          },
+          "ankle_joint": {
+            "x": 0.46,
+            "y": 0.45
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "joint_space": {
+      "path": "assets/joint_space.png",
+      "sha256": "e72f004c047482197808eb30e92ef81f357605ba37bf805ce2911c022ff4af1b",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        411,
+        441,
+        539,
+        479
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.47,
+            "y": 0.48
+          },
+          "ankle_joint": {
+            "x": 0.46,
+            "y": 0.45
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "ligaments": {
+      "path": "assets/ligaments.png",
+      "sha256": "69cb706f7a78eaac17d528bc88aadafb3d040e8f1c4140649c37cae53da1b957",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        358,
+        475,
+        443,
+        613
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.47,
+            "y": 0.48
+          },
+          "ankle_joint": {
+            "x": 0.46,
+            "y": 0.45
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "踝关节位置揭层",
+    "context_before": [
+      "bones"
+    ],
+    "cover": [],
+    "interior": [
+      "joint_space",
+      "ligaments"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [
+      {
+        "path": "M346 425 Q460 405 555 427 L553 525 L455 632 L340 632 Z",
+        "pivot": [
+          445,
+          525
+        ],
+        "angle": 0,
+        "basis": "原件距骨周围关节边界与韧带所在区域"
+      }
+    ],
+    "revealed_labels": [
+      "踝关节边界",
+      "韧带位置"
+    ],
+    "source_limit_reason": "没有皮肤、软组织外层或骨截面，只有骨、关节边界与韧带位置；提供位置揭层。"
+  },
+  "presentation_note": "踝关节边界与韧带的原位揭层；不是骨关节切开。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    330,
+    147,
+    858,
+    728
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_foot_joint_detailed_layers_v1@283c6b2c20073a11d32c",
+      "portable_record_sha256": "5ad34a3c514921a6774e6166536f4a35c87266386a58a85e7465061557023a8c"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_pelvic_organs_section_open_close_v1",
+  "type": "structure_section",
+  "label": "盆腔器官",
+  "title": "盆腔器官·盆腔前后投影揭层连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "女性盆腔正面投影示意，子宫连输卵管与两侧卵巢；膀胱为前方半透明投影，直肠为后方虚线投影。前后深度需结合侧视图解释，非同一冠状切面。 前方投影局部隐去以看后方；不是同一冠状切面。 前后器官用半透明/虚线投影表达，并非同一冠状切面；只能揭开投影，不能称盆腔切开。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "pelvis_bone": {
+      "path": "assets/pelvis_bone.png",
+      "sha256": "82be709fc4a935e478f1012168e1de2a653b3246a0b353a8076dd1a45078afcf",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        202,
+        243,
+        822,
+        762
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "rectum_posterior_projection": {
+      "path": "assets/rectum_posterior_projection.png",
+      "sha256": "cf2aa36f1257b9998479969f0239c3af035874b64b0ffdcc6c7a3fd2fd97c737",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        548,
+        500,
+        605,
+        764
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "uterus_tubes_ovaries": {
+      "path": "assets/uterus_tubes_ovaries.png",
+      "sha256": "41eb7ca30750f7cfc145debc2f8ac252375bde879759812e231c464599da4873",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        292,
+        353,
+        732,
+        693
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "bladder_anterior_projection": {
+      "path": "assets/bladder_anterior_projection.png",
+      "sha256": "f6f4bc3d7e8e80b9165c79646a46f60dd7c76adb420568bfb3251f1fece34a64",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        396,
+        568,
+        628,
+        725
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "盆腔前后投影揭层",
+    "context_before": [
+      "pelvis_bone",
+      "rectum_posterior_projection",
+      "uterus_tubes_ovaries"
+    ],
+    "cover": [
+      "bladder_anterior_projection"
+    ],
+    "interior": [],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.06,
+    "windows": [
+      {
+        "path": "M399 627 C393 552 631 552 625 627 Q617 704 512 722 Q407 704 399 627 Z",
+        "pivot": [
+          512,
+          638
+        ],
+        "angle": 0,
+        "basis": "原件前方膀胱投影边界"
+      }
+    ],
+    "revealed_labels": [
+      "前方膀胱投影隐去",
+      "后方直肠虚线投影",
+      "子宫保持原位"
+    ],
+    "source_limit_reason": "前后器官用半透明/虚线投影表达，并非同一冠状切面；只能揭开投影，不能称盆腔切开。"
+  },
+  "presentation_note": "前方投影局部隐去以看后方；不是同一冠状切面。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    202,
+    243,
+    822,
+    764
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_pelvic_organs_detailed_layers_v1@57b76ec7ba5c43d1d01a",
+      "portable_record_sha256": "c319d4bedbbc438351263af078ebb898b5392372a715cca2cca5fbf2ad366c4a"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_adult_woman_pregnant_v1",
+  "title": "中国成年女性·芥黄开衫·同身份完整孕期站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "人物",
+    "孕妇",
+    "孕期",
+    "站姿",
+    "短发",
+    "adult_woman_cn_mustard"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "pregnancy_same_identity",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "source": "ImageGen，同一成年女性母版的完整孕期站姿",
+    "visual_meaning": "备孕到孕期维持同一短发女性身份，按身体像素标尺与作者医生排景",
+    "must_not_imply": "虚构完整人物姿态；不把孕腹大小解释为具体孕周或病情，不以图片外框决定身高",
+    "status": "pending_review",
+    "medical": false,
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "feet": {
+          "x": 0.5,
+          "y": 0.9889322916666666
+        },
+        "head": {
+          "x": 0.5,
+          "y": 0.08
+        }
+      }
+    },
+    "content_bounds": [
+      321,
+      15,
+      723,
+      1519
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "human_scale": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "stand_pregnant",
+      "measurement": "同一短发女性母版的孕期站姿，角色身高不随孕腹改变；按原图头顶到共同脚底标定。",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "e73b601e052658ed9feeffa1a8841a3e0a8935a650bb6b33bb1493ca7781d80a",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.5,
+          "y": 0.009765625
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.9889322916666666
+        },
+        "span_cm": 163,
+        "basis": "完整原图头顶y15至共同脚底y1519，1504像素对应同一虚构人物设计163厘米；组合仍需在当前镜头核对。"
+      }
+    },
+    "prompt_ref": "evidence/0-pregnancy_same_identity-prompt_ref.json",
+    "generation_receipt": "evidence/1-pregnancy_same_identity-generation_receipt.json"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/hashimoto_paper_theatre/05_plan_before_pregnancy/v6",
+    "series": "hashimoto_paper_theatre",
+    "episode": "05_plan_before_pregnancy",
+    "asset_id": "pregnancy_same_identity",
+    "original_manifest": {
+      "asset_id": "pregnancy_same_identity",
+      "path": "assets/imported/pregnancy_same_identity.png",
+      "source_type": "imagegen",
+      "source": "ImageGen，同一成年女性母版的完整孕期站姿",
+      "visual_meaning": "备孕到孕期维持同一短发女性身份，按身体像素标尺与作者医生排景",
+      "must_not_imply": "虚构完整人物姿态；不把孕腹大小解释为具体孕周或病情，不以图片外框决定身高",
+      "status": "pending_review",
+      "medical": false,
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchors": {
+          "feet": {
+            "x": 0.5,
+            "y": 0.9889322916666666
+          },
+          "head": {
+            "x": 0.5,
+            "y": 0.08
+          }
+        }
+      },
+      "content_bounds": [
+        321,
+        15,
+        723,
+        1519
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "human_scale": {
+        "nominal_height_cm": 163,
+        "height_status": "authored_design_reference",
+        "scale_family": "adult_woman_cn_mustard",
+        "pose": "stand_pregnant",
+        "measurement": "同一短发女性母版的孕期站姿，角色身高不随孕腹改变；按原图头顶到共同脚底标定。",
+        "calibration": {
+          "status": "calibrated",
+          "source_sha256": "e73b601e052658ed9feeffa1a8841a3e0a8935a650bb6b33bb1493ca7781d80a",
+          "source_size": {
+            "width": 1024,
+            "height": 1536
+          },
+          "from": {
+            "x": 0.5,
+            "y": 0.009765625
+          },
+          "to": {
+            "x": 0.5,
+            "y": 0.9889322916666666
+          },
+          "span_cm": 163,
+          "basis": "完整原图头顶y15至共同脚底y1519，1504像素对应同一虚构人物设计163厘米；组合仍需在当前镜头核对。"
+        }
+      },
+      "prompt_ref": "assets/evidence/pregnancy_same_identity-prompt_ref.json",
+      "generation_receipt": "assets/evidence/pregnancy_same_identity-generation_receipt.json"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [
+    "新的场景仍需核对身体标尺、遮挡、动作与医学含义；不从固定姿态推断运动"
+  ],
+  "content_bounds": [
+    321,
+    15,
+    723,
+    1519
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "同一短发女性母版从备孕到孕期的完整姿态。保持面部、发型、衣服和角色设计身高；固定姿态不声称抚腹、转身或连续行走。",
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "短发孕妇",
+      "同身份孕妇",
+      "孕期站姿",
+      "成年女性孕期"
+    ],
+    "character_role": "adult_woman",
+    "identity_family": "adult_woman_cn_mustard",
+    "pose": "stand_pregnant",
+    "actions": [
+      "孕期站姿",
+      "站姿"
+    ],
+    "story_roles": [
+      "备孕与孕期衔接",
+      "孕期就医"
+    ]
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "e73b601e052658ed9feeffa1a8841a3e0a8935a650bb6b33bb1493ca7781d80a",
+      "bytes": 1812723
+    },
+    {
+      "path": "evidence/0-pregnancy_same_identity-prompt_ref.json",
+      "role": "evidence",
+      "sha256": "6f22d2f834448d3e0ed1a22f4da1355384b75790821585e9e33aca85a0512d6d",
+      "bytes": 1697
+    },
+    {
+      "path": "evidence/1-pregnancy_same_identity-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "6f22d2f834448d3e0ed1a22f4da1355384b75790821585e9e33aca85a0512d6d",
+      "bytes": 1697
+    }
+  ],
+  "revision": "16df74f882fbd544e1f6"
+}

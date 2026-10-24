@@ -1,0 +1,121 @@
+{
+  "source_sha256": "e544aeb22f34fb5ab3dffa54ccf7900d776d3f10faa973494e9519d3d8771739",
+  "frame_rects": [
+    [
+      0,
+      0,
+      402,
+      556
+    ],
+    [
+      402,
+      0,
+      383,
+      543
+    ],
+    [
+      785,
+      0,
+      376,
+      522
+    ],
+    [
+      1161,
+      0,
+      375,
+      497
+    ],
+    [
+      0,
+      556,
+      402,
+      468
+    ],
+    [
+      402,
+      543,
+      383,
+      481
+    ],
+    [
+      785,
+      522,
+      376,
+      502
+    ],
+    [
+      1161,
+      497,
+      375,
+      527
+    ]
+  ],
+  "anchors": [
+    [
+      27,
+      444
+    ],
+    [
+      26,
+      442
+    ],
+    [
+      32,
+      443
+    ],
+    [
+      40,
+      444
+    ],
+    [
+      37,
+      374
+    ],
+    [
+      24,
+      388
+    ],
+    [
+      23,
+      402
+    ],
+    [
+      19,
+      429
+    ]
+  ],
+  "landmark": "visible screen-left rear chair-leg sole, center of wooden lower edge",
+  "coordinate_space": "frame_local_source_pixels",
+  "body_calibration_review": {
+    "frame": 0,
+    "old_points": [
+      [
+        176.5,
+        11
+      ],
+      [
+        124.5,
+        510
+      ]
+    ],
+    "reviewed_points": [
+      [
+        178,
+        14
+      ],
+      [
+        124,
+        508
+      ]
+    ],
+    "old_point_alpha": [
+      39,
+      1
+    ],
+    "point_basis": "Actual visible crown and bottom of the forward shoe sole, excluding faint source alpha halo; visually checked on the complete first frame.",
+    "span_basis": "vertical_y_distance",
+    "span_pixels": 494,
+    "design_height_cm": 165,
+    "source_pixels_per_cm": 2.993939393939394
+  }
+}

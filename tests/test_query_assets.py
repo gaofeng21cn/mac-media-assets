@@ -81,6 +81,36 @@ class SemanticDiscoveryTests(unittest.TestCase):
 
 
 class CharacterDiscoveryTests(unittest.TestCase):
+    def test_motion_role_discovery_keeps_static_pose_selection_precise(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/'collections').mkdir()
+            (root/'catalog').mkdir()
+            (root/'collections/character-coverage.json').write_text(json.dumps({'roles': {
+                'older_man': {'label': '老年男性', 'current_assets': {'seated': 'paper:seat@current'}},
+                'young_man': {'label': '年轻成年男性', 'current_assets': {}}
+            }}))
+            rows = [
+                {'id': 'paper:seat@current', 'source_id': 'seat', 'kind': 'image'},
+                {'id': 'paper:rise@current', 'source_id': 'rise', 'kind': 'motion_recipe',
+                 'discovery': {'category': 'motion', 'character_role': 'older_man',
+                               'poses': ['stand', 'seated'], 'actions': ['坐站过渡']}},
+                {'id': 'paper:young_rise@current', 'source_id': 'young_rise', 'kind': 'motion_recipe',
+                 'discovery': {'category': 'motion', 'character_role': 'young_man',
+                               'poses': ['stand', 'seated'], 'actions': ['坐站过渡']}}
+            ]
+            for row in rows:
+                row.update(title=row['source_id'], revision='current', payload=[])
+            (root/'catalog/assets.jsonl').write_text('\n'.join(json.dumps(row) for row in rows))
+            self.assertEqual([r['id'] for r in query(root, character_role='老年男性', pose='坐姿')],
+                             ['paper:seat@current'])
+            for selectors in ({'category': 'motion'}, {'kind': 'motion_recipe'}, {'action': '坐站过渡'}):
+                self.assertEqual([r['id'] for r in query(root, character_role='老年男性', pose='坐姿', **selectors)],
+                                 ['paper:rise@current'])
+            self.assertEqual(query(root, category='motion', character_role='老年男性', pose='lying'), [])
+            self.assertEqual(query(root, category='motion', character_role='不存在'), [])
+
     def test_chinese_pose_alias_and_text_cli_accept_list_medium(self):
         import subprocess
         self.assertEqual({r['id'] for r in query(character_role='医生', pose='伸手')},
@@ -113,9 +143,11 @@ class CharacterDiscoveryTests(unittest.TestCase):
         root = Path(__file__).resolve().parents[1]
         expected = json.loads((root / 'collections/character-coverage.json').read_text())['roles']['adult_man']['current_assets']['stand']
         self.assertEqual(current[0]['id'], expected)
-        old = query(asset_id='paper:character_adult_man_stand_v1@0a95ce7392f358c8ed6d')
-        self.assertEqual(len(old), 1)
-        self.assertNotEqual(old[0]['id'], current[0]['id'])
+        exact = query(asset_id=current[0]['id'])
+        self.assertEqual([row['id'] for row in exact], [current[0]['id']])
+        # Retired duplicate registrations are no longer in the usable catalog.
+        absent = query(asset_id='paper:character_adult_man_stand_v1@absent')
+        self.assertEqual(absent, [])
         by_source = query(asset_id='character_adult_man_stand_v1')
         self.assertEqual([row['id'] for row in by_source], [current[0]['id']])
 

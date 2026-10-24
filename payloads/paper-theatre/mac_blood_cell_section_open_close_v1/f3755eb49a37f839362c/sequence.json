@@ -1,0 +1,235 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_blood_cell_section_open_close_v1",
+  "type": "structure_section",
+  "label": "红细胞",
+  "title": "红细胞·中央淡区连续揭示连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "红细胞双凹圆盘正视示意，区分膜、胞质与中央淡区；不表示血红蛋白含量、形态学分类或血液病。 中央淡区是正视外观，仍为细胞；不是切开的内腔。 central_pallor 是正视中央淡区，原件没有膜截面或细胞内部剖面；不能把淡区冒充内腔。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "cytoplasm": {
+      "path": "assets/cytoplasm.png",
+      "sha256": "96d5ecc99725aeda181cae51e3f5cfb75d8386608c595a63fe1a85f8fce21fbf",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        185,
+        263,
+        839,
+        761
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "membrane": {
+      "path": "assets/membrane.png",
+      "sha256": "c0c05df965d5a6d8284bfa4b8f881366b344a2f3d956b24022a1db8576e8d535",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        184,
+        261,
+        840,
+        763
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "central_pallor": {
+      "path": "assets/central_pallor.png",
+      "sha256": "81c5b080b2fed47674be9655cb45b413f47dd89c8ffd868dc244e2211cf42407",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        355,
+        400,
+        669,
+        624
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "中央淡区连续揭示",
+    "context_before": [
+      "cytoplasm"
+    ],
+    "cover": [],
+    "interior": [
+      "central_pallor"
+    ],
+    "context_after": [
+      "membrane"
+    ],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [
+      {
+        "path": "M354 512 a158 104 0 1 0 316 0 a158 104 0 1 0 -316 0 Z",
+        "pivot": [
+          512,
+          512
+        ],
+        "angle": -16,
+        "basis": "原件倾斜中央淡区轮廓"
+      }
+    ],
+    "revealed_labels": [
+      "正视中央淡区",
+      "完整胞质与细胞膜"
+    ],
+    "source_limit_reason": "central_pallor 是正视中央淡区，原件没有膜截面或细胞内部剖面；不能把淡区冒充内腔。"
+  },
+  "presentation_note": "中央淡区是正视外观，仍为细胞；不是切开的内腔。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    184,
+    261,
+    840,
+    763
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_blood_cell_detailed_layers_v1@ce29ed0bfaf5a94df233",
+      "portable_record_sha256": "da6e9715d781d96a660e52ed598c7b5e5da9bea794c09241ed7d812893da79c1"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

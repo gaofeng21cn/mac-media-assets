@@ -1,0 +1,275 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_thyroid_section_open_close_v1",
+  "type": "structure_section",
+  "label": "甲状腺",
+  "title": "甲状腺·峡部前后层揭开连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "正面甲状腺与后方气管的简化空间关系；不含甲状软骨、血管、神经或病灶。左右为画面左右，不能据此判断手术层次。 峡部前层示意揭开以看后方气管；不是手术步骤。 只有正面甲状腺与后方气管，不含腺体内部；提供峡部前后层揭开。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "trachea": {
+      "path": "assets/trachea.png",
+      "sha256": "1d306b8b2153b845f5992f7fd2d8862fc7e82c84cef393dd3b8c25ba37de7611",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        451,
+        109,
+        573,
+        869
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "lobe_left": {
+      "path": "assets/lobe_left.png",
+      "sha256": "c4cc3bb65150adcf83fc2fb0dfad749e6bc365424a179a6062bb64c8d3051384",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        223,
+        218,
+        452,
+        736
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "lobe_right": {
+      "path": "assets/lobe_right.png",
+      "sha256": "4c90cd23b6adeeb001bb482118f1e5691a0b5cb767842f29422af6516250d465",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        572,
+        218,
+        801,
+        736
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "isthmus": {
+      "path": "assets/isthmus.png",
+      "sha256": "777e5a6b54abfdbd7263cb408eb5e71314614164b4fef195e8abff6d2da48e96",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        416,
+        479,
+        608,
+        560
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "峡部前后层揭开",
+    "context_before": [
+      "trachea"
+    ],
+    "cover": [
+      "lobe_left",
+      "lobe_right",
+      "isthmus"
+    ],
+    "interior": [],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.08,
+    "windows": [
+      {
+        "path": "M424 482 Q512 502 600 482 L605 548 Q512 566 419 548 Z",
+        "pivot": [
+          512,
+          520
+        ],
+        "angle": 0,
+        "basis": "原件峡部前层边界"
+      }
+    ],
+    "revealed_labels": [
+      "峡部后方气管",
+      "两侧甲状腺叶保持原位"
+    ],
+    "source_limit_reason": "只有正面甲状腺与后方气管，不含腺体内部；提供峡部前后层揭开。"
+  },
+  "presentation_note": "峡部前层示意揭开以看后方气管；不是手术步骤。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    223,
+    109,
+    801,
+    869
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_thyroid_detailed_layers_v1@23e8d91b061c24c05036",
+      "portable_record_sha256": "d8eab1f1e22d7874344c445600bd89ca6ae208e66fbb975b1a199286247bd68c"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

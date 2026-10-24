@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_kidney_detailed_layers_v1@9dfee405d6cc61e25bbc",
+      "portable_record_sha256": "62af6cfd62b99344be713c7bcbb487c392d85a161ce7d96972d8b4373526c80b"
+    }
+  ],
+  "note": "原始SVG/PNG/记录保持原字节；剪纸窗口按source图轮廓或明确局部关系定义，cut edge与原始外层alpha相交。"
+}

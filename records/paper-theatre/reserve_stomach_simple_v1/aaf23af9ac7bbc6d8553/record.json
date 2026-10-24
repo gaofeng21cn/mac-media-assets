@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_stomach_simple_v1",
+  "title": "胃·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胃·payload",
+      "medical": true,
+      "content_bounds": [
+        329,
+        211,
+        678,
+        830
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.55
+          },
+          "pylorus": {
+            "x": 0.69,
+            "y": 0.76
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_stomach_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胃",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "胃外形与腔面示意，区分胃壁、胃腔与贲门幽门走向；不表示胃分层解剖、胃酸或疾病。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "ddfb0b983badff35e612bd6993fa1ecfea5986db57644c4ce681c0b0c55715aa",
+      "bytes": 368
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "a0e45aa27dc3da06dc18913468ccceb4408dc720d0741c95d1f2a5ccf15bc8c2",
+      "bytes": 29406
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "ddfb0b983badff35e612bd6993fa1ecfea5986db57644c4ce681c0b0c55715aa",
+      "bytes": 368
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "a0e45aa27dc3da06dc18913468ccceb4408dc720d0741c95d1f2a5ccf15bc8c2",
+      "bytes": 29406
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "421eed39fae88fe58194d0ace8d76a5de200070eb3116f05c018b7c7458d8d8a",
+      "bytes": 600
+    }
+  ],
+  "revision": "aaf23af9ac7bbc6d8553"
+}

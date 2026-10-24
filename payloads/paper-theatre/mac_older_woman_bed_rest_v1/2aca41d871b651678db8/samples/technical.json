@@ -1,0 +1,353 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 240,
+  "fps": 24,
+  "duration": 10,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "1d8a5726759c5d4268e2506b7204ebda2f5a055f5cb8bed37e3ea6c510ef4c09",
+    "assets/sheet.png": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png"
+  ],
+  "states": [
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 0,
+      "frame": 0,
+      "phase": "床边站稳",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 0.01,
+      "frame": 0,
+      "phase": "床边站稳",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 1.49,
+      "frame": 0,
+      "phase": "床边站稳",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 1.5,
+      "frame": 1,
+      "phase": "床沿坐定",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 1.51,
+      "frame": 1,
+      "phase": "床沿坐定",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 2.99,
+      "frame": 1,
+      "phase": "床沿坐定",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 3,
+      "frame": 2,
+      "phase": "支撑侧卧",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 3.01,
+      "frame": 2,
+      "phase": "支撑侧卧",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 4.49,
+      "frame": 2,
+      "phase": "支撑侧卧",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 4.5,
+      "frame": 3,
+      "phase": "枕上侧卧休息",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 4.51,
+      "frame": 3,
+      "phase": "枕上侧卧休息",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 6.99,
+      "frame": 3,
+      "phase": "枕上侧卧休息",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 7,
+      "frame": 4,
+      "phase": "回到床沿",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息",
+        "回到床沿"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 7.01,
+      "frame": 4,
+      "phase": "回到床沿",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息",
+        "回到床沿"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 8.49,
+      "frame": 4,
+      "phase": "回到床沿",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息",
+        "回到床沿"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 8.5,
+      "frame": 5,
+      "phase": "床边站稳",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息",
+        "回到床沿",
+        "床边站稳"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 8.51,
+      "frame": 5,
+      "phase": "床边站稳",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息",
+        "回到床沿",
+        "床边站稳"
+      ]
+    },
+    {
+      "study": "mac_older_woman_bed_rest_v1",
+      "time": 10,
+      "frame": 5,
+      "phase": "床边站稳",
+      "scale": 1.1205673758865249,
+      "furniture_anchor": [
+        920,
+        610
+      ],
+      "paper_state": "not_applicable",
+      "events": [
+        "床边站稳",
+        "床沿坐定",
+        "支撑侧卧",
+        "枕上侧卧休息",
+        "回到床沿",
+        "床边站稳"
+      ]
+    }
+  ]
+}

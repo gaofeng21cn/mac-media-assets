@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_thyroid_detailed_layers_v1@23e8d91b061c24c05036",
+      "portable_record_sha256": "d8eab1f1e22d7874344c445600bd89ca6ae208e66fbb975b1a199286247bd68c"
+    }
+  ],
+  "note": "原始SVG/PNG/记录保持原字节；剪纸窗口按source图轮廓或明确局部关系定义，cut edge与原始外层alpha相交。"
+}

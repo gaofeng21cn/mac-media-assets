@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_alveolus_detailed_layers_v1@2c11a7cf1c24af07b4b1",
+      "portable_record_sha256": "8c911acd9ecf5815bd7e9cdc7727fdf42dee2400e2bcc2f20c1fe54e160e6819"
+    }
+  ],
+  "note": "原始SVG/PNG/记录保持原字节；剪纸窗口按source图轮廓或明确局部关系定义，cut edge与原始外层alpha相交。"
+}

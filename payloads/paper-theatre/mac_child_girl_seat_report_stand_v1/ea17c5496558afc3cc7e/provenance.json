@@ -1,0 +1,17 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "tool": "built_in_imagegen",
+      "source_sha256": "4552f6604baf20e691d2a8c550ab0916ee4c56a30e3b3c7d3d0ab58925d73ff7",
+      "identity_reference": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019"
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019",
+      "sha256": "90f2dfe4829feaeb30d90ccf510f271d972afcb699b69a141c882c27592f7369"
+    }
+  ],
+  "note": "Complete source image bytes retained; only explicit frame rectangles are used."
+}

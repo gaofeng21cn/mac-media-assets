@@ -1,0 +1,210 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_bp_cuff_action_v1",
+  "title": "上臂式血压计：展开袖带、套上、缠紧、读数与拆下",
+  "type": "bp_cuff",
+  "images": {
+    "arm": {
+      "path": "assets/arm.png",
+      "bounds": [
+        122,
+        89,
+        1432,
+        860
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66"
+    },
+    "cuff_open": {
+      "path": "assets/cuff_open.png",
+      "bounds": [
+        323,
+        151,
+        1204,
+        902
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f"
+    },
+    "cuff_wrapped": {
+      "path": "assets/cuff_wrapped.png",
+      "bounds": [
+        63,
+        115,
+        1185,
+        1132
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "f30eb7ad43ee14f12fc20e24d13a0a17e2f30d30185d4c7d65b52c83c35f6931"
+    },
+    "monitor": {
+      "path": "assets/monitor.png",
+      "bounds": [
+        161,
+        127,
+        1234,
+        1107
+      ],
+      "size": [
+        1337,
+        1176
+      ],
+      "sha256": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b"
+    }
+  },
+  "source_assets": [
+    {
+      "image": "arm",
+      "asset_id": "paper:mac_bare_arm_v1@199031b83fe2420d595b",
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66"
+    },
+    {
+      "image": "cuff_open",
+      "asset_id": "paper:mac_open_cuff_v1@ed384b40d3d5dc3de162",
+      "sha256": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f"
+    },
+    {
+      "image": "monitor",
+      "asset_id": "paper:paper_upper_arm_monitor_parts_v1@595c101839647592b1a8",
+      "sha256": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b"
+    },
+    {
+      "image": "cuff_wrapped",
+      "asset_id": "paper:bp_cuff_fitted_front_v1@2778f883e8d63cca7ddc",
+      "sha256": "f30eb7ad43ee14f12fc20e24d13a0a17e2f30d30185d4c7d65b52c83c35f6931"
+    }
+  ],
+  "scope": "上臂袖带结构与操作关系示意，时间压缩；具体位置与方法按合适袖带及设备说明执行，医学终审和当前镜头待审。",
+  "description": "袖带在裸露上臂贴合，前臂与主机由台面承托，气管沿袖带接口移动；测量时静止，结束后拆下。",
+  "fps": 24,
+  "duration": 6.5,
+  "review_times": [
+    0,
+    0.8,
+    1.4,
+    2.0,
+    2.4,
+    2.8,
+    3.4,
+    3.9,
+    4.4,
+    4.8,
+    5.2,
+    5.6,
+    6.0,
+    6.5
+  ],
+  "steps": {
+    "cuff_move": {
+      "start": 1.0,
+      "end": 2.2
+    },
+    "wrap": {
+      "start": 2.2,
+      "end": 3.2
+    },
+    "monitor": {
+      "start": 3.6,
+      "end": 4.4
+    },
+    "read": {
+      "start": 4.6,
+      "end": 5.4
+    },
+    "remove": {
+      "start": 5.8,
+      "end": 6.5
+    }
+  },
+  "arm": {
+    "x": 520,
+    "y": 390,
+    "width": 880
+  },
+  "cuff_open": {
+    "from": {
+      "x": 1000,
+      "y": 200,
+      "width": 250
+    },
+    "to": {
+      "x": 214,
+      "y": 258,
+      "width": 210
+    }
+  },
+  "cuff_wrapped": {
+    "x": 214,
+    "y": 258,
+    "width": 230
+  },
+  "monitor": {
+    "from": {
+      "x": 1150,
+      "y": 600,
+      "width": 200
+    },
+    "to": {
+      "x": 330,
+      "y": 330,
+      "width": 190
+    },
+    "width": 190
+  },
+  "readout": {
+    "x": 780,
+    "y": 210,
+    "width": 300,
+    "height": 150
+  },
+  "readout_values": {
+    "systolic_diastolic": "128 / 82",
+    "unit": "mmHg（示意）"
+  },
+  "events": [
+    {
+      "name": "cuff_approaches",
+      "time": 1.0,
+      "kind": "contact"
+    },
+    {
+      "name": "cuff_on_arm",
+      "time": 2.2,
+      "kind": "contact"
+    },
+    {
+      "name": "cuff_wrapped",
+      "time": 2.8,
+      "kind": "contact"
+    },
+    {
+      "name": "monitor_placed",
+      "time": 4.4,
+      "kind": "contact"
+    },
+    {
+      "name": "reading_ready",
+      "time": 4.8,
+      "kind": "contact"
+    },
+    {
+      "name": "cuff_removed",
+      "time": 6.0,
+      "kind": "contact"
+    }
+  ],
+  "cuff_port": [
+    1134.8700000000001,
+    1028.28
+  ],
+  "medical_review": "pending"
+}

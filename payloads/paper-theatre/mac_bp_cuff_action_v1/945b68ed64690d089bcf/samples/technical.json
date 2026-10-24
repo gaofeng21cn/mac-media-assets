@@ -1,0 +1,471 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 156,
+  "fps": 24,
+  "duration": 6.5,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "cb9591a2791f67907f10c5cbf23b0cd0dd9e16f9a84b4f4705b476d64ff29465",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "3f18a367f921fe1cf546c39e01fbbca5f9bf39d1092293adc275a2a434da8cea",
+    "assets/arm.png": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+    "assets/cuff_open.png": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f",
+    "assets/cuff_wrapped.png": "f30eb7ad43ee14f12fc20e24d13a0a17e2f30d30185d4c7d65b52c83c35f6931",
+    "assets/monitor.png": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png"
+  ],
+  "states": [
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 0,
+      "state": {
+        "move": 0,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": []
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 0.8,
+      "state": {
+        "move": 0,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": []
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 1.4,
+      "state": {
+        "move": 0.2592592592592591,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2,
+      "state": {
+        "move": 0.9259259259259258,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 0.7530864197530862,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 175.96,
+        "angle": -0.95
+      },
+      "port": [
+        398.23943530058847,
+        361.7560835933094
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2.4,
+      "state": {
+        "move": 1,
+        "wrap": 0.10399999999999976,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 174.92416,
+        "angle": -0.95
+      },
+      "port": [
+        397.6611201342907,
+        361.9223496672507
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2.8,
+      "state": {
+        "move": 1,
+        "wrap": 0.6479999999999996,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 169.50592,
+        "angle": -0.95
+      },
+      "port": [
+        394.6360869567329,
+        362.7920491309435
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 3.4,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1190,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 3.9,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 0.31640624999999956,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1161.5234375,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 4.4,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 4.8,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0.15625,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 5.2,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0.84375,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 5.6,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 0
+      },
+      "contact": 1,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 6,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 0.19825072886297399
+      },
+      "contact": 0.801749271137026,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready",
+        "cuff_removed"
+      ]
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 6.5,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 1
+      },
+      "contact": 0,
+      "cuff": {
+        "x": 300,
+        "y": 390,
+        "width": 166,
+        "angle": -0.95
+      },
+      "port": [
+        392.678712547725,
+        363.3547958427447
+      ],
+      "monitor": [
+        1100,
+        550
+      ],
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready",
+        "cuff_removed"
+      ]
+    }
+  ]
+}

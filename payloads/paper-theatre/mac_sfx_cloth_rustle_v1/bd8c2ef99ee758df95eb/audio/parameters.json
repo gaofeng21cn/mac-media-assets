@@ -1,0 +1,15 @@
+{
+  "id": "mac_sfx_cloth_rustle_v1",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 0.9,
+  "seeds": [
+    9407,
+    9408,
+    9409
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

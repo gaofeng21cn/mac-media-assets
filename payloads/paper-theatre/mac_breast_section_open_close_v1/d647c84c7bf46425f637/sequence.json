@@ -1,0 +1,240 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_breast_section_open_close_v1",
+  "type": "structure_section",
+  "label": "乳腺",
+  "title": "乳腺·侧视局部剖面连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "乳腺侧视外形示意，附腺体区与乳管走向；不表示肿块大小、分期或触诊结论。 乳房侧视剪纸揭面；腺体区和乳管为位置示意。 ",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "breast_outline": {
+      "path": "assets/breast_outline.png",
+      "sha256": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        247,
+        167,
+        723,
+        873
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68359375,
+            "y": 0.54296875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "gland_tissue": {
+      "path": "assets/gland_tissue.png",
+      "sha256": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        402,
+        375,
+        691,
+        591
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68359375,
+            "y": 0.54296875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "ducts": {
+      "path": "assets/ducts.png",
+      "sha256": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        373,
+        419,
+        733,
+        583
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.48
+          },
+          "nipple": {
+            "x": 0.68359375,
+            "y": 0.54296875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "two_dimensional_section",
+    "display_kind": "侧视局部剖面",
+    "context_before": [],
+    "cover": [
+      "breast_outline"
+    ],
+    "interior": [
+      "gland_tissue",
+      "ducts"
+    ],
+    "context_after": [],
+    "context_regions": [
+      {
+        "id": "ducts",
+        "path": "M668 556 a32 26 0 1 0 64 0 a32 26 0 1 0 -64 0 Z"
+      }
+    ],
+    "underlay_alpha": 1,
+    "windows": [
+      {
+        "path": "M370 560 C370 400 500 310 616 336 C712 358 742 452 704 536 C664 624 512 646 370 596 Z",
+        "pivot": [
+          550,
+          495
+        ],
+        "angle": 0,
+        "basis": "原件乳房侧视轮廓，保留胸壁不动"
+      }
+    ],
+    "revealed_labels": [
+      "腺体区",
+      "乳管走向",
+      "乳头位置"
+    ],
+    "source_limit_reason": ""
+  },
+  "presentation_note": "乳房侧视剪纸揭面；腺体区和乳管为位置示意。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    247,
+    167,
+    733,
+    873
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_breast_detailed_layers_v1@8da7f1dfde15864ade57",
+      "portable_record_sha256": "228f55952024f7af6b4c9498ea2169ab736eea44198781237e69ee9650655bc5"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

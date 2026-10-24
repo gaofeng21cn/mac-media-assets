@@ -1,0 +1,275 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 156,
+  "fps": 24,
+  "duration": 6.5,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "c513ce45b4535b3323072537e48e7d91dea73cd1cf9554d2c98c8f48fdad746c",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "0191d1fa77a9076883ff86f4543169170baf3626d33770320272501a2b914f4f",
+    "assets/arm.png": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+    "assets/cuff_open.png": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f",
+    "assets/cuff_wrapped.png": "c932df4d172fd791c3d85a5e34dad7a2c06d3a4e0e341cdc66c6e6c783a6b598",
+    "assets/monitor.png": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png"
+  ],
+  "states": [
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 0,
+      "state": {
+        "move": 0,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [],
+      "scene": "cuff_moving"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 0.8,
+      "state": {
+        "move": 0,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [],
+      "scene": "cuff_moving"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 1.4,
+      "state": {
+        "move": 0.2592592592592591,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches"
+      ],
+      "scene": "cuff_moving"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2,
+      "state": {
+        "move": 0.9259259259259258,
+        "wrap": 0,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches"
+      ],
+      "scene": "cuff_moving"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2.4,
+      "state": {
+        "move": 1,
+        "wrap": 0.10399999999999976,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm"
+      ],
+      "scene": "cuff_moving"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 2.8,
+      "state": {
+        "move": 1,
+        "wrap": 0.6479999999999996,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ],
+      "scene": "wrapped"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 3.4,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 0,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ],
+      "scene": "wrapped"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 3.9,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 0.31640624999999956,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped"
+      ],
+      "scene": "wrapped"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 4.4,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed"
+      ],
+      "scene": "monitor_placed"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 4.8,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0.15625,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ],
+      "scene": "monitor_placed"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 5.2,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 0.84375,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ],
+      "scene": "reading"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 5.6,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 0
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready"
+      ],
+      "scene": "reading"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 6,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 0.19825072886297399
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready",
+        "cuff_removed"
+      ],
+      "scene": "reading"
+    },
+    {
+      "study": "mac_bp_cuff_action_v1",
+      "time": 6.5,
+      "state": {
+        "move": 1,
+        "wrap": 1,
+        "monitor": 1,
+        "read": 1,
+        "remove": 1
+      },
+      "events": [
+        "cuff_approaches",
+        "cuff_on_arm",
+        "cuff_wrapped",
+        "monitor_placed",
+        "reading_ready",
+        "cuff_removed"
+      ],
+      "scene": "reading"
+    }
+  ]
+}

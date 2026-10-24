@@ -28,12 +28,24 @@ def audit(root: Path = ROOT) -> dict:
     roles = []
     missing = []
     contact_gaps = []
+    scales = load(root / 'collections/character-scale.json', {}).get('assets', {})
+    curation = load(root / 'collections/curation.json', {}).get('assets', {})
+    unavailable = []
+    scale_gaps = []
     for role_id, role in (coverage.get("roles") or {}).items():
         assets = role.get("current_assets") or {}
         poses = []
         for pose in role.get("required_poses", []):
             asset_id = assets.get(pose)
             asset = by_id.get(asset_id) if asset_id else None
+            assessment = curation.get(asset_id, asset.get('curation', {}) if asset else {})
+            usable = bool(asset) and assessment.get('status') not in {'needs_rebuild', 'superseded'}
+            if asset and not usable:
+                unavailable.append({'role_id': role_id, 'pose': pose, 'asset_id': asset_id,
+                                    'status': assessment.get('status'), 'reason': assessment.get('reason')})
+            human_scale = scales.get(asset_id, {})
+            if asset and (human_scale.get('calibration') or {}).get('status') != 'calibrated':
+                scale_gaps.append({'role_id': role_id, 'pose': pose, 'asset_id': asset_id})
             record = load(root / asset.get("portable_record", "__missing__"), {}) if asset else {}
             registration = record.get("registration") or (record.get("asset") or {}).get("registration") or {}
             anchors = registration.get("anchors") or {}
@@ -70,10 +82,14 @@ def audit(root: Path = ROOT) -> dict:
                     "asset_id": asset_id,
                     "source_id": asset.get("source_id") if asset else None,
                     "registered": bool(asset),
+                    "reusable_candidate": usable,
+                    "curation": assessment,
                     "kind": asset.get("kind") if asset else None,
                     "revision": asset.get("revision") if asset else None,
                     "anchors": sorted(anchors),
                     "missing_anchors": missing_anchors,
+                    "human_scale": human_scale,
+                    "scale_calibrated": (human_scale.get('calibration') or {}).get('status') == 'calibrated',
                 }
             )
             if not asset:
@@ -90,7 +106,8 @@ def audit(root: Path = ROOT) -> dict:
                 "role_id": role_id,
                 "role": role.get("label", role_id),
                 "required_pose_count": len(role.get("required_poses", [])),
-                "available_pose_count": sum(1 for item in poses if item["registered"]),
+                "registered_pose_count": sum(1 for item in poses if item["registered"]),
+                "available_pose_count": sum(1 for item in poses if item["reusable_candidate"]),
                 "poses": poses,
             }
         )
@@ -98,9 +115,14 @@ def audit(root: Path = ROOT) -> dict:
         "schema": "mac_character_coverage_audit/v1",
         "roles_checked": len(roles),
         "required_pose_slots": sum(role["required_pose_count"] for role in roles),
+        "registered_pose_slots": sum(role["registered_pose_count"] for role in roles),
         "available_pose_slots": sum(role["available_pose_count"] for role in roles),
+        "unusable_registered_pose_slots": len(unavailable),
+        "unusable_registered_poses": unavailable,
         "missing_pose_slots": len(missing),
         "registered_pose_slots_without_required_anchors": len(contact_gaps),
+        "registered_pose_slots_without_scale_calibration": len(scale_gaps),
+        "scale_calibration_gaps": scale_gaps,
         "roles": roles,
         "missing": missing,
         "contact_anchor_gaps": contact_gaps,

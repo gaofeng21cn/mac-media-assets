@@ -1,0 +1,193 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_intestine_section_open_close_v1",
+  "type": "structure_section",
+  "label": "肠道",
+  "title": "肠道·结肠内小肠位置揭示连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "正面肠道关系示意：结肠构成外围，上行结肠在画面左，小肠盘曲于内；直肠向下。示意层数与曲数不代表真实长度。 外围结肠内的小肠位置揭示；不是肠壁切开。 只有肠道正面位置图，没有肠壁或肠腔层；提供同位的小肠位置揭示。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "colon": {
+      "path": "assets/colon.png",
+      "sha256": "e05cb5703e9e65f10381d94b92b1908ce251305a1b6e42fe99799d2569b5fb7f",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        252,
+        239,
+        777,
+        951
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.53
+          },
+          "small_intestine": {
+            "x": 0.5,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "small_intestine": {
+      "path": "assets/small_intestine.png",
+      "sha256": "e92bce60068a6edd523508b17a0f1fd8861fad17a9aa1acf2e5e3a22c5270f8f",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        359,
+        367,
+        671,
+        742
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.53
+          },
+          "small_intestine": {
+            "x": 0.5,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "结肠内小肠位置揭示",
+    "context_before": [
+      "colon"
+    ],
+    "cover": [],
+    "interior": [
+      "small_intestine"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [
+      {
+        "path": "M350 340 Q515 375 680 340 L680 760 Q515 735 350 760 Z",
+        "pivot": [
+          515,
+          550
+        ],
+        "angle": 0,
+        "basis": "原件外围结肠之间的中央小肠区域"
+      }
+    ],
+    "revealed_labels": [
+      "外围结肠",
+      "内部小肠盘曲"
+    ],
+    "source_limit_reason": "只有肠道正面位置图，没有肠壁或肠腔层；提供同位的小肠位置揭示。"
+  },
+  "presentation_note": "外围结肠内的小肠位置揭示；不是肠壁切开。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    252,
+    239,
+    777,
+    951
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_intestine_detailed_layers_v1@0b0994a7cc8dbcf9d2ff",
+      "portable_record_sha256": "e7fa75cbd842840b82852f07e079fee17cb488e62e4b6d5f8ded03c81eacfc98"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

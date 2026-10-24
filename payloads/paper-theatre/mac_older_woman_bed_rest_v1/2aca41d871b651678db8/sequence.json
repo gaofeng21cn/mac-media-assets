@@ -1,0 +1,256 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_older_woman_bed_rest_v1",
+  "title": "老年女性·床沿落座、侧卧休息与起身",
+  "type": "bed_contact_unit",
+  "fps": 24,
+  "duration": 10,
+  "images": {
+    "sheet": {
+      "path": "assets/sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20"
+    }
+  },
+  "frames": [
+    {
+      "image": "sheet",
+      "rect": [
+        0,
+        0,
+        518,
+        609
+      ],
+      "content_bounds": [
+        35,
+        58,
+        496,
+        483
+      ],
+      "origin": [
+        463,
+        447
+      ],
+      "anchor_basis": "same screen-right foreground wooden bed-leg lower edge center"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        518,
+        0,
+        503,
+        549
+      ],
+      "content_bounds": [
+        22,
+        124,
+        481,
+        476
+      ],
+      "origin": [
+        450,
+        447
+      ],
+      "anchor_basis": "same screen-right foreground wooden bed-leg lower edge center"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        1021,
+        0,
+        515,
+        499
+      ],
+      "content_bounds": [
+        22,
+        152,
+        482,
+        449
+      ],
+      "origin": [
+        450,
+        447
+      ],
+      "anchor_basis": "same screen-right foreground wooden bed-leg lower edge center"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        0,
+        609,
+        518,
+        415
+      ],
+      "content_bounds": [
+        36,
+        126,
+        496,
+        338
+      ],
+      "origin": [
+        463,
+        336
+      ],
+      "anchor_basis": "same screen-right foreground wooden bed-leg lower edge center"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        518,
+        549,
+        503,
+        475
+      ],
+      "content_bounds": [
+        22,
+        74,
+        481,
+        425
+      ],
+      "origin": [
+        450,
+        395
+      ],
+      "anchor_basis": "same screen-right foreground wooden bed-leg lower edge center"
+    },
+    {
+      "image": "sheet",
+      "rect": [
+        1021,
+        499,
+        515,
+        525
+      ],
+      "content_bounds": [
+        24,
+        51,
+        482,
+        482
+      ],
+      "origin": [
+        454,
+        446
+      ],
+      "anchor_basis": "same screen-right foreground wooden bed-leg lower edge center"
+    }
+  ],
+  "phase_names": [
+    "床边站稳",
+    "床沿坐定",
+    "支撑侧卧",
+    "枕上侧卧休息",
+    "回到床沿",
+    "床边站稳"
+  ],
+  "paper_states": [
+    "not_applicable",
+    "not_applicable",
+    "not_applicable",
+    "not_applicable",
+    "not_applicable",
+    "not_applicable"
+  ],
+  "keys": [
+    {
+      "time": 0,
+      "frame": 0
+    },
+    {
+      "time": 1.5,
+      "frame": 1
+    },
+    {
+      "time": 3,
+      "frame": 2
+    },
+    {
+      "time": 4.5,
+      "frame": 3
+    },
+    {
+      "time": 7,
+      "frame": 4
+    },
+    {
+      "time": 8.5,
+      "frame": 5
+    }
+  ],
+  "events": [
+    {
+      "time": 0,
+      "name": "床边站稳",
+      "kind": "support"
+    },
+    {
+      "time": 1.5,
+      "name": "床沿坐定",
+      "kind": "support"
+    },
+    {
+      "time": 3,
+      "name": "支撑侧卧",
+      "kind": "support"
+    },
+    {
+      "time": 4.5,
+      "name": "枕上侧卧休息",
+      "kind": "support"
+    },
+    {
+      "time": 7,
+      "name": "回到床沿",
+      "kind": "support"
+    },
+    {
+      "time": 8.5,
+      "name": "床边站稳",
+      "kind": "support"
+    }
+  ],
+  "review_times": [
+    0,
+    0.01,
+    1.49,
+    1.5,
+    1.51,
+    2.99,
+    3,
+    3.01,
+    4.49,
+    4.5,
+    4.51,
+    6.99,
+    7,
+    7.01,
+    8.49,
+    8.5,
+    8.51,
+    10
+  ],
+  "x": 920,
+  "ground": 610,
+  "scene_pixels_per_cm": 3,
+  "body_calibration": {
+    "status": "source_span_calibrated",
+    "source_body_points": [
+      [
+        144,
+        58
+      ],
+      [
+        142,
+        481
+      ]
+    ],
+    "design_height_cm": 158,
+    "span_cm": 158,
+    "source_pixels_per_cm": 2.6772151898734178,
+    "basis": "Actual visible gray crown and both shoe lower edges; shoes sit at different image heights under the mild perspective, so neither bed bounds nor Euclidean diagonal length defines the ruler."
+  },
+  "medical_review": "pending",
+  "scope": "同身份完整人物与低床接触单元；普通自主休息的六姿态纸上表演，不是失能搬运、术后转移或个体安全指导。人物、枕头、床与承托不能独立拆动。"
+}

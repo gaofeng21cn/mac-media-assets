@@ -1,0 +1,234 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_islet_section_open_close_v1",
+  "type": "structure_section",
+  "label": "胰岛",
+  "title": "胰岛·胰岛血管关系揭层连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "胰岛局部组织关系示意：中央为成簇内分泌细胞，周围为外分泌腺泡，毛细血管在细胞间分支。颜色不指定细胞类型，数量与分布不代表真实比例；不是胰腺整器官总览，不表达分泌或血糖调节。 胰岛局部血管关系揭层；不表达分泌与血流。 原件是局部组织关系投影，没有组织外壳或纵深层；提供血管关系同位揭层。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "exocrine_surroundings": {
+      "path": "assets/exocrine_surroundings.png",
+      "sha256": "c1d64c79a5a7c771342690120d37d02d21031187271ac3bf37af2e22ec619b17",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        90,
+        123,
+        916,
+        923
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "endocrine_cells": {
+      "path": "assets/endocrine_cells.png",
+      "sha256": "58884fcb38c5e572912c8815bb2c523556e94cf2bba17701d1d0ccf864998f13",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        263,
+        271,
+        761,
+        753
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "capillary_network": {
+      "path": "assets/capillary_network.png",
+      "sha256": "eb0fe01b891b5b40ab9b7189df12a193ba92231a1b2955fab3fd1d5b13d4c004",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        258,
+        431,
+        737,
+        756
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "islet": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "local_relation_reveal",
+    "display_kind": "胰岛血管关系揭层",
+    "context_before": [
+      "exocrine_surroundings",
+      "endocrine_cells"
+    ],
+    "cover": [],
+    "interior": [
+      "capillary_network"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [
+      {
+        "path": "M259 512 a253 247 0 1 0 506 0 a253 247 0 1 0 -506 0 Z",
+        "pivot": [
+          512,
+          512
+        ],
+        "angle": 0,
+        "basis": "原件胰岛细胞簇局部范围，包含血管进出边缘"
+      }
+    ],
+    "revealed_labels": [
+      "细胞间毛细血管",
+      "局部胰岛细胞簇"
+    ],
+    "source_limit_reason": "原件是局部组织关系投影，没有组织外壳或纵深层；提供血管关系同位揭层。"
+  },
+  "presentation_note": "胰岛局部血管关系揭层；不表达分泌与血流。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    90,
+    123,
+    916,
+    923
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_islet_detailed_layers_v1@ab8b99e13ca56d68dec2",
+      "portable_record_sha256": "cb1bd4b16eb1765d42a6411f83408f3b69d08291f6e756cab07ec00d924944e7"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

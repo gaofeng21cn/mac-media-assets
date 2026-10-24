@@ -1,0 +1,17 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "tool": "built_in_imagegen",
+      "source_sha256": "e544aeb22f34fb5ab3dffa54ccf7900d776d3f10faa973494e9519d3d8771739",
+      "identity_reference": "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582"
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:character_teen_boy_stand_v1@b6bd3358407ee1c1b582",
+      "sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e"
+    }
+  ],
+  "note": "Complete source image bytes retained; only explicit frame rectangles are used."
+}

@@ -1,0 +1,237 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 156,
+  "fps": 24,
+  "duration": 6.5,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "93ba6d030cacc8b803c004b8c033a888cea14e20bfd343d0d7609631b831d3bc",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "ed2fee77eafa3f72d2fdd9c8d5f1d6e6027af82ce56c1392c73372dc7a51d44d",
+    "assets/arm.png": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+    "assets/meter.png": "bd6d14da33867213ae79eea07914cb303a39a04b9e3709dcf8bc85a0257c44a8",
+    "assets/strip.png": "3fd43fa5cc61b6b2dca48155816efeb58ecf829a1d98d7794855a9abb0aaef76",
+    "assets/dressing.png": "9368a13f3f03ce993b078d18aa81b03d2576f27cab0e80c8e6693f39c0b5cf4a"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png"
+  ],
+  "states": [
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 0,
+      "state": {
+        "insert": 0,
+        "prick": 0,
+        "read": 0,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready"
+      ],
+      "scene": "standby"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 0.9,
+      "state": {
+        "insert": 0,
+        "prick": 0,
+        "read": 0,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready"
+      ],
+      "scene": "standby"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 1.5,
+      "state": {
+        "insert": 0.5,
+        "prick": 0,
+        "read": 0,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready"
+      ],
+      "scene": "standby"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 2.1,
+      "state": {
+        "insert": 1,
+        "prick": 0,
+        "read": 0,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted"
+      ],
+      "scene": "strip_in"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 2.7,
+      "state": {
+        "insert": 1,
+        "prick": 0.07407407407407418,
+        "read": 0,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick"
+      ],
+      "scene": "strip_in"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 3.3,
+      "state": {
+        "insert": 1,
+        "prick": 1,
+        "read": 0,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick",
+        "strip_to_finger"
+      ],
+      "scene": "pricked"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 3.9,
+      "state": {
+        "insert": 1,
+        "prick": 1,
+        "read": 0,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick",
+        "strip_to_finger"
+      ],
+      "scene": "pricked"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 4.4,
+      "state": {
+        "insert": 1,
+        "prick": 1,
+        "read": 0.10400000000000016,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick",
+        "strip_to_finger",
+        "strip_back"
+      ],
+      "scene": "pricked"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 4.9,
+      "state": {
+        "insert": 1,
+        "prick": 1,
+        "read": 0.7840000000000003,
+        "dress": 0
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick",
+        "strip_to_finger",
+        "strip_back",
+        "reading_ready"
+      ],
+      "scene": "reading"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 5.4,
+      "state": {
+        "insert": 1,
+        "prick": 1,
+        "read": 1,
+        "dress": 0.12620027434842282
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick",
+        "strip_to_finger",
+        "strip_back",
+        "reading_ready"
+      ],
+      "scene": "reading"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 5.9,
+      "state": {
+        "insert": 1,
+        "prick": 1,
+        "read": 1,
+        "dress": 0.8737997256515782
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick",
+        "strip_to_finger",
+        "strip_back",
+        "reading_ready"
+      ],
+      "scene": "dressing"
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 6.5,
+      "state": {
+        "insert": 1,
+        "prick": 1,
+        "read": 1,
+        "dress": 1
+      },
+      "events": [
+        "strip_ready",
+        "strip_inserted",
+        "finger_prick",
+        "strip_to_finger",
+        "strip_back",
+        "reading_ready",
+        "dressing_on"
+      ],
+      "scene": "dressing"
+    }
+  ]
+}

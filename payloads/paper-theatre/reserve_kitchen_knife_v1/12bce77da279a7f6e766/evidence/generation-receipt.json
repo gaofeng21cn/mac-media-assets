@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "One standalone modest household chef knife, transparent paper collage cutout, no hand, food or background.",
+  "source_path": "/Users/gaofeng/workspace/科普视频/work/review/cooking-assets-20261024/sources/kitchen-knife.png",
+  "measured": {
+    "width": 1451,
+    "height": 1084,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      104,
+      39,
+      1368,
+      1059
+    ],
+    "opaque_ratio": 0.143,
+    "translucent_ratio": 0.0064,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-23T16:22:14.748537+00:00"
+}

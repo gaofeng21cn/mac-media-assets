@@ -1,0 +1,272 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_artery_wall_section_open_close_v1",
+  "type": "structure_section",
+  "label": "动脉壁",
+  "title": "动脉壁·横断面扇区展开连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "动脉横断面三层壁与管腔，外膜、中膜、内膜逐层套叠；层厚只为可读性，无狭窄/斑块或病理含义，不能用于厚度测量。 既有横断面的连续扇区展开；不冒充三维血管切开。 原件已是三层壁横断面，不含外观到切面的形态；提供横断面内的连续扇区分层展开。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "adventitia": {
+      "path": "assets/adventitia.png",
+      "sha256": "97b5d1591d4c181382097420db56b4de640aea9ceaab7703512fc2ac7ad2d370",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        145,
+        190,
+        879,
+        834
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "media": {
+      "path": "assets/media.png",
+      "sha256": "45553f2808163db6fb2bb66f13ab3779d6bca99f54762af8a8cd064153be427a",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        203,
+        242,
+        821,
+        782
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "intima": {
+      "path": "assets/intima.png",
+      "sha256": "f7e6e273961275c38e0dfc66e5e6a92a31baa7821358c8821034d4e6c0a8f4c7",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        272,
+        303,
+        752,
+        721
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "lumen": {
+      "path": "assets/lumen.png",
+      "sha256": "48a20e75a0885235fbd8c263cda62a5fab1ed5dc01addc8c3bcc88ab8e122f62",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        298,
+        327,
+        726,
+        697
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "cross_section_sector",
+    "display_kind": "横断面扇区展开",
+    "context_before": [
+      "adventitia"
+    ],
+    "cover": [],
+    "interior": [
+      "media",
+      "intima",
+      "lumen"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 0.24,
+    "windows": [],
+    "sector": {
+      "cx": 512,
+      "cy": 512,
+      "rx": 365,
+      "ry": 320
+    },
+    "revealed_labels": [
+      "中膜",
+      "内膜",
+      "管腔"
+    ],
+    "source_limit_reason": "原件已是三层壁横断面，不含外观到切面的形态；提供横断面内的连续扇区分层展开。"
+  },
+  "presentation_note": "既有横断面的连续扇区展开；不冒充三维血管切开。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    145,
+    190,
+    879,
+    834
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_artery_detailed_layers_v1@80bb1a5208afeb48a63c",
+      "portable_record_sha256": "1e865f57d61e7ba2c0193f2a88bc5603d5f0c67ebc8ac201fd8d0e161839fbf0"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

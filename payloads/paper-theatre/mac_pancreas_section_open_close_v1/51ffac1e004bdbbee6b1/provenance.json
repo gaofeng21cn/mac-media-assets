@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_pancreas_relations_layers_v1@fb8e5808d6bc5662575c",
+      "portable_record_sha256": "353b6f13359bf76ba8a75b5305b11ecdc720d591b5ca946a6c0e40d025418302"
+    }
+  ],
+  "note": "原始SVG/PNG/记录保持原字节；剪纸窗口按source图轮廓或明确局部关系定义，cut edge与原始外层alpha相交。"
+}

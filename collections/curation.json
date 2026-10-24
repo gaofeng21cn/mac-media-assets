@@ -2,6 +2,25 @@
   "schema": "mac_asset_curation/v1",
   "note": "依据实际原件的模型策展判断；不是按关键词/像素算法评定艺术质量。active只表示有清楚复用用途，不表示当前镜头或医学通过。",
   "assets": {
+    "paper:character_child_boy_seated_v1@0e2b211ef70c802defaa": {
+      "status": "superseded",
+      "reason": "共同身体密度试装确认旧坐姿座高或身体构造不适合默认承托；改用同身份完整低椅新姿态，旧字节保留追溯。",
+      "candidate_replacement_id": "paper:character_child_boy_seated_scale_v2@4b23ec748dad9d9a679a",
+      "evidence_ref": "docs/character-scale.md",
+      "replacement_id": "paper:character_child_boy_seated_scale_v2@4b23ec748dad9d9a679a"
+    },
+    "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9": {
+      "status": "superseded",
+      "reason": "共同身体密度试装确认旧坐姿座高或身体构造不适合默认承托；改用同身份完整低椅新姿态，旧字节保留追溯。",
+      "candidate_replacement_id": "paper:character_pregnant_woman_seated_scale_v2@df659ae0c18fc1a45fb5",
+      "evidence_ref": "docs/character-scale.md",
+      "replacement_id": "paper:character_pregnant_woman_seated_scale_v2@df659ae0c18fc1a45fb5"
+    },
+    "paper:mac_bp_cuff_action_v1@0244129dd1f55ad2550b": {
+      "status": "superseded",
+      "replacement_id": "paper:mac_bp_cuff_action_v1@945b68ed64690d089bcf",
+      "reason": "旧版本袖带落于衣袖，空筒前层不能贴合裸露上臂，改用贴合前层新配方。"
+    },
     "paper:mac-filmcraft-kit-1-2@888304ad3960c4bf9035": {
       "status": "active",
       "role": "code_or_motion",
@@ -725,20 +744,21 @@
       "evidence_ref": "records/paper-theatre/character_older_brother_stand_v1/0555292d623befaa0c77/record.json"
     },
     "paper:abpm_patient_20261023@da1da29c83fad06b55a3": {
-      "status": "active",
+      "status": "needs_rebuild",
       "role": "complete_character_pose",
-      "reviewed_on": "2026-10-23",
-      "reason": "盘发女性全身完整；上臂袖带、连续蓝色软管与腰侧固定记录器可辨，双手未持设备，屏幕无数字。",
+      "reviewed_on": "2026-10-24",
+      "reason": "袖带覆在毛衣上，会误导规范佩戴；退出默认推荐，仅保留来源追溯。裸露上臂及佩戴全过程改用新完整接触包。",
       "operations": [
-        "完整站姿解释已佩戴状态",
-        "同源局部近景看袖带、软管和腰侧固定"
+        "精确历史引用与身份来源追溯"
       ],
       "limitations": [
         "人物与袖带、软管、记录器烘焙为单层，只呈现已佩戴状态，不演示穿戴步骤。",
         "不示范按钮操作、具体设备型号或屏幕数字诊断；需要独立操作时另备部件。",
-        "局部近景须保留袖带—软管—腰夹的真实连续关系；全身小图只作佩戴身份提示。"
+        "局部近景须保留袖带—软管—腰夹的真实连续关系；全身小图只作佩戴身份提示。",
+        "不得用于规范佩戴图或佩戴教学；不得由历史身体标尺推定医学可用。"
       ],
-      "evidence_ref": "records/paper-theatre/abpm_patient_20261023/da1da29c83fad06b55a3/record.json"
+      "evidence_ref": "records/paper-theatre/abpm_patient_20261023/da1da29c83fad06b55a3/record.json",
+      "replacement_id": "paper:mac_abpm_wear_cycle_v1@7b24ce96e85f54d216d5"
     },
     "paper:character_adult_man_upper_abdomen_stool_v1@e4f7937346069d896b37": {
       "status": "active",
@@ -757,10 +777,10 @@
       "evidence_ref": "records/paper-theatre/character_adult_man_upper_abdomen_stool_v1/e4f7937346069d896b37/record.json"
     },
     "paper:male_patient_seated_identity_20261023@b84a668552591dd1d885": {
-      "status": "active",
+      "status": "superseded",
       "role": "complete_character_pose",
       "reviewed_on": "2026-10-23",
-      "reason": "脸型、盐灰短发、浅绿衬衫、砖红裤和灰棕鞋与站姿母版及新行走姿态一致；头、双手、两鞋完整。",
+      "reason": "共同身体密度试装确认旧坐姿座高或身体构造不适合默认承托；改用同身份完整低椅新姿态，旧字节保留追溯。",
       "operations": [
         "按真实臀后承托点试装椅面",
         "同母版站坐走姿态选择"
@@ -770,7 +790,8 @@
         "本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。",
         "单幅坐姿不提供坐下起身过渡帧或连续动作。"
       ],
-      "evidence_ref": "records/paper-theatre/male_patient_seated_identity_20261023/b84a668552591dd1d885/record.json"
+      "evidence_ref": "records/paper-theatre/male_patient_seated_identity_20261023/b84a668552591dd1d885/record.json",
+      "replacement_id": "paper:character_adult_man_alert_seated_scale_v2@56c5f8313651f77cd734"
     },
     "paper:character_clinician_woman_stand_v1@161804ebe9c3db80578e": {
       "status": "superseded",
@@ -876,6 +897,271 @@
       "status": "superseded",
       "replacement_id": "paper:reserve_wooden_spatula_v1@f89894748e52176761e5",
       "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:character_adult_man_seated_v1@01dc044f8da64299170b": {
+      "status": "superseded",
+      "replacement_id": "paper:character_adult_man_seated_v1@46873c4ad97168218454",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_adult_man_stand_v1@0a95ce7392f358c8ed6d": {
+      "status": "superseded",
+      "replacement_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_child_girl_stand_v1@1c2ddf31f6caf6708815": {
+      "status": "superseded",
+      "replacement_id": "paper:character_child_girl_stand_v1@ec63ad5c3eae8f16d019",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_clinician_man_stand_v1@9381718eafedd7ca8bb6": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_man_stand_v1@e3d6196ad0b8ca4dd44e",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_older_man_walk_v1@bc418aac9adacdf209a3": {
+      "status": "superseded",
+      "replacement_id": "paper:character_older_man_walk_v1@b82355ff8645f0304efb",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_older_woman_stand_v1@e58d9fdb15185eaa3f86": {
+      "status": "superseded",
+      "replacement_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_pregnant_woman_seated_v1@831d13c4263e07061c83": {
+      "status": "superseded",
+      "replacement_id": "paper:character_pregnant_woman_seated_v1@ced63033f84f410b65e9",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_pregnant_woman_stand_v1@1bb6be982f7182074c45": {
+      "status": "superseded",
+      "replacement_id": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_teen_girl_stand_v1@bd02121f2db2f2770c9c": {
+      "status": "superseded",
+      "replacement_id": "paper:character_teen_girl_stand_v1@699014f2978da454f37e",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_lying_v1@d2bac5b6b57519f51f5a": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_reach_v1@06699488519265d1f09e": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_reach_v1@e160c989f583b79e7503",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_seated_v1@0d8717db010fff199181": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_seated_v1@6663ae862534a6af39a1",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_stand_v1@e84a56ed2a70394297d2": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_stand_v1@4b5293ee4731114cfac1",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_walk_v1@bfd14a6e821ae1093957": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_alveolus_detailed_layers_v1@49ab42fff79095c3f9f9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_detailed_layers_v1@ceddb37a9962c9d5672f",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_alveolus_simple_v1@59ed5ce64979da75ef88": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_simple_v1@418af59224e95d545a97",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_blood_cell_detailed_layers_v1@0c143d9631cd28a9c75f": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_blood_cell_detailed_layers_v1@ce29ed0bfaf5a94df233",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_blood_cell_simple_v1@b1a96bcbfe8ab1953bae": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_blood_cell_simple_v1@888de0f13bfa3c87b0ff",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_breast_detailed_layers_v1@4383092f94e9368f75c9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_breast_detailed_layers_v1@8da7f1dfde15864ade57",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_breast_simple_v1@117348ee2af021df63f1": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_breast_simple_v1@6d4e1bf01a0bfc1bb16b",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_foot_joint_detailed_layers_v1@fa7d7dcd613ad94017d2": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_foot_joint_detailed_layers_v1@283c6b2c20073a11d32c",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_foot_joint_simple_v1@f31fbde1f47d93cfd326": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_foot_joint_simple_v1@09d0de3c1af8f1a7827b",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_gallbladder_detailed_layers_v1@4a8ee97d51633899fa34": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_gallbladder_detailed_layers_v1@c0e1a69a71b0c7441a71",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_gallbladder_simple_v1@5999b8c0592ccfa5e6f9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_gallbladder_simple_v1@3b3bdadfb40655de5f72",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_head_sagittal_detailed_layers_v1@5876653be107272eaec9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_detailed_layers_v1@8272ed691d49d60a7b05",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_head_sagittal_simple_v1@f2ca16c937f4116765bf": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_simple_v1@b61bb762a6ac45c7ed24",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_heart_detailed_layers_v1@dfdef8644b66c12ec193": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_heart_detailed_layers_v1@add90d3fadd1ea02a5c3",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_heart_simple_v1@3b7a7cbecf7c10d11e61": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_heart_simple_v1@0a5ee949fb9899d56873",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_intestine_detailed_layers_v1@d854e5fc73a39e1d3812": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_intestine_detailed_layers_v1@0b0994a7cc8dbcf9d2ff",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_intestine_simple_v1@33aff2f4089c89d65453": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_intestine_simple_v1@8548550f930dd02a0080",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_islet_detailed_layers_v1@1b2b4acabe7e180f004a": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_detailed_layers_v1@5f5bab99205adb8c4d3c",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_islet_simple_v1@686b2455b29fb5fe9bb8": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_simple_v1@940512be94bbb64e0396",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_liver_detailed_layers_v1@f84509606c6370fe729a": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_liver_detailed_layers_v1@b23153ea3cbdb7062dbc",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_liver_simple_v1@17809cfdc5adca9baedd": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_liver_simple_v1@dbe6d277924ccd7357eb",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_lungs_detailed_layers_v1@08f2ed81f865687391f9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_lungs_detailed_layers_v1@9f9a99e02eec4b0bec03",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_lungs_simple_v1@4f55141c0749b1945cb9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_lungs_simple_v1@6ac400b4984219be4ba7",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_pelvic_organs_detailed_layers_v1@1333cfbc61d55cbbce87": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_pelvic_organs_detailed_layers_v1@57b76ec7ba5c43d1d01a",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_pelvic_organs_simple_v1@e2d3f2db05a6ff002f90": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_pelvic_organs_simple_v1@6948e7f7638ab9acd22d",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_stomach_detailed_layers_v1@8eceee533828324d1403": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_detailed_layers_v1@ee90d19e97555101f36d",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_stomach_simple_v1@aaf23af9ac7bbc6d8553": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_simple_v1@5e71dea86da7b71f04f1",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:mac_glucose_test_action_v1@8d4c06f084d9e87e017c": {
+      "status": "superseded",
+      "replacement_id": "paper:mac_glucose_test_action_v1@22e327c4f455cc309c19",
+      "reason": "旧版本存在试纸比例及采样流程错误，改用保持连接采样的新版本。"
+    },
+    "paper:mac_bp_cuff_action_v1@945b68ed64690d089bcf": {
+      "status": "superseded",
+      "reason": "可编辑配置与实际画面统一；修正事件到完成时点，移除未使用的旧数值配置。",
+      "replacement_id": "paper:mac_bp_cuff_action_v1@cd76e767f879e3b37fca"
+    },
+    "paper:reserve_stomach_simple_v1@5e71dea86da7b71f04f1": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_simple_v1@2975e248fd3fef46a92e",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_stomach_detailed_layers_v1@ee90d19e97555101f36d": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_detailed_layers_v1@24f78a93bc5dae7f534d",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_islet_simple_v1@940512be94bbb64e0396": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_simple_v1@426a8a721221a696c64b",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_islet_detailed_layers_v1@5f5bab99205adb8c4d3c": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_detailed_layers_v1@ab8b99e13ca56d68dec2",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_alveolus_simple_v1@418af59224e95d545a97": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_simple_v1@fcccc41300479885ff2e",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_alveolus_detailed_layers_v1@ceddb37a9962c9d5672f": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_detailed_layers_v1@2c11a7cf1c24af07b4b1",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_head_sagittal_simple_v1@b61bb762a6ac45c7ed24": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_simple_v1@441b45c67a7df9d7bcda",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_head_sagittal_detailed_layers_v1@8272ed691d49d60a7b05": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_detailed_layers_v1@8a5ea8cf0bff9ffc6503",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_gallbladder_simple_v1@3b3bdadfb40655de5f72": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_gallbladder_simple_v1@24151fc3de928b2e0399",
+      "reason": "简化版保留所声明的识别关系：脑底/垂体位置及胆囊颈管，避免只有泛化轮廓。"
+    },
+    "paper:reserve_head_sagittal_simple_v1@441b45c67a7df9d7bcda": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_simple_v1@0b5cb5be5bf4d5be2a64",
+      "reason": "简化版保留所声明的识别关系：脑底/垂体位置及胆囊颈管，避免只有泛化轮廓。"
+    },
+    "paper:mac_abpm_recording_v1@1478e848a0aa1dcbdfc5": {
+      "status": "superseded",
+      "replacement_id": "paper:mac_abpm_wear_cycle_v1@7b24ce96e85f54d216d5",
+      "reason": "旧已佩戴状态袖带覆在毛衣上；新版裸露上臂并补佩戴/固定/试测/记录/交回完整过程。"
     }
   }
 }

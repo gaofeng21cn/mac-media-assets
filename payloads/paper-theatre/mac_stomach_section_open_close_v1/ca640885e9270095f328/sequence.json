@@ -1,0 +1,247 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_stomach_section_open_close_v1",
+  "type": "structure_section",
+  "label": "胃",
+  "title": "胃·二维剖面开合连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "胃正面关系示意，画面右侧为胃底和胃体，食管入口在上，幽门向画面左侧延续；胃腔与胃壁分别揭示。不表达胃壁组织层、真实容积或胃排空功能。 胃壁剪纸窗口连续开合，胃腔保持连通；不表达蠕动。 ",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "stomach_wall": {
+      "path": "assets/stomach_wall.png",
+      "sha256": "b48e52a866f67bb4091258f12f0e71a7db03a83b87ec2047fc675ed86f1bd37b",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        271,
+        177,
+        850,
+        828
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.59,
+            "y": 0.54
+          },
+          "cardia": {
+            "x": 0.59,
+            "y": 0.29
+          },
+          "pylorus": {
+            "x": 0.31,
+            "y": 0.61
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "gastric_lumen": {
+      "path": "assets/gastric_lumen.png",
+      "sha256": "eaeea829e104346622e65db9bfaf28d5ff4e799d29f410cf96ee5659a384cc5e",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        288,
+        203,
+        817,
+        793
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.59,
+            "y": 0.54
+          },
+          "cardia": {
+            "x": 0.59,
+            "y": 0.29
+          },
+          "pylorus": {
+            "x": 0.31,
+            "y": 0.61
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "cardia_pylorus": {
+      "path": "assets/cardia_pylorus.png",
+      "sha256": "9e2da7196e9a4c04271210aeb43f405d4e4b93b7d4faf15e42f816a8fa2d1f7c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        313,
+        287,
+        638,
+        650
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.59,
+            "y": 0.54
+          },
+          "cardia": {
+            "x": 0.59,
+            "y": 0.29
+          },
+          "pylorus": {
+            "x": 0.31,
+            "y": 0.61
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "two_dimensional_section",
+    "display_kind": "二维剖面开合",
+    "context_before": [],
+    "cover": [
+      "stomach_wall"
+    ],
+    "interior": [
+      "gastric_lumen",
+      "cardia_pylorus"
+    ],
+    "context_after": [],
+    "context_regions": [],
+    "underlay_alpha": 1,
+    "windows": [
+      {
+        "path": "M592 205 L619 205 L619 322 C706 272 798 344 812 450 C830 599 736 758 593 786 C466 810 360 740 338 628 L290 628 L290 610 L364 610 C440 618 512 566 540 503 C574 430 583 354 592 300 Z",
+        "pivot": [
+          585,
+          510
+        ],
+        "angle": 0,
+        "basis": "原件连续胃腔轮廓"
+      }
+    ],
+    "revealed_labels": [
+      "胃腔",
+      "食管入口",
+      "幽门位置"
+    ],
+    "source_limit_reason": ""
+  },
+  "presentation_note": "胃壁剪纸窗口连续开合，胃腔保持连通；不表达蠕动。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    271,
+    177,
+    850,
+    828
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_stomach_detailed_layers_v1@24f78a93bc5dae7f534d",
+      "portable_record_sha256": "2adf6fc0cb2ae59e7aedd82465d94f85fdbc98bed6fd833cafecd997f78c510d"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

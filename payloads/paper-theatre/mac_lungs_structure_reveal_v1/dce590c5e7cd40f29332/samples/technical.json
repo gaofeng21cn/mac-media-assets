@@ -1,0 +1,574 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 197,
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "8dff853afc621abde55e1b9e172762f4f6daf37a7563dfb25b5b134c808c3d65",
+    "assets/trachea_bronchi.png": "cfe3d16f6a8559309329daf4d4a1b74ea2cdd14b447c5f063255eb2fa22eb9cc",
+    "assets/right_lung_anatomical.png": "9f5e10181dab44e96b9a2a5d5fd76b9eabe5d058d0bed5f6a960548f31525d87",
+    "assets/left_lung_anatomical.png": "71de8ec1069ad8b57ecc1fccc2432093bfd63cb5cb7742a2ec286b6de30e8d18"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png"
+  ],
+  "states": [
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 0,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 0.96,
+      "mode": "overview",
+      "index": -1,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 1,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        0,
+        0,
+        0
+      ],
+      "visible_layers": [],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 1.32,
+      "mode": "reveal",
+      "index": 0,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "trachea_bronchi"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 1.8,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        0,
+        0
+      ],
+      "visible_layers": [
+        "trachea_bronchi"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 2.12,
+      "mode": "reveal",
+      "index": 1,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 2.6,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        1,
+        0
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 2.92,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 3.8,
+      "mode": "reveal",
+      "index": 2,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 4.1,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.1825613079019073,
+        "x": -174.47138964577653,
+        "y": 91.14986376021801
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 4.9,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.1825613079019073,
+        "x": -174.47138964577653,
+        "y": 91.14986376021801
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 5,
+      "mode": "focus",
+      "index": 0,
+      "camera": {
+        "scale": 1.1825613079019073,
+        "x": -174.47138964577653,
+        "y": 91.14986376021801
+      },
+      "opacities": [
+        1,
+        0.17000000000000004,
+        0.17000000000000004
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 5.3,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 0.7173553719008264,
+        "x": 142.9818181818182,
+        "y": -50.96859504132232
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 6.1,
+      "mode": "focus",
+      "index": 1,
+      "camera": {
+        "scale": 0.7173553719008264,
+        "x": 142.9818181818182,
+        "y": -50.96859504132232
+      },
+      "opacities": [
+        0.17000000000000004,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 6.2,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 0.7173553719008264,
+        "x": 142.9818181818182,
+        "y": -50.96859504132232
+      },
+      "opacities": [
+        0.17,
+        1,
+        0.17
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical",
+        "focus_left_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 6.5,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 0.7173553719008264,
+        "x": -15.553719008264466,
+        "y": -50.96859504132232
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical",
+        "focus_left_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 7.3,
+      "mode": "focus",
+      "index": 2,
+      "camera": {
+        "scale": 0.7173553719008264,
+        "x": -15.553719008264466,
+        "y": -50.96859504132232
+      },
+      "opacities": [
+        0.17,
+        0.17000000000000004,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical",
+        "focus_left_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 7.4,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 0.7173553719008264,
+        "x": -15.553719008264466,
+        "y": -50.96859504132232
+      },
+      "opacities": [
+        0.17,
+        0.17,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical",
+        "focus_left_lung_anatomical"
+      ]
+    },
+    {
+      "study": "mac_lungs_structure_reveal_v1",
+      "time": 8.2,
+      "mode": "complete",
+      "index": -1,
+      "camera": {
+        "scale": 0.6922024623803009,
+        "x": 76.59233926128593,
+        "y": 41.62517099863203
+      },
+      "opacities": [
+        1,
+        1,
+        1
+      ],
+      "visible_layers": [
+        "trachea_bronchi",
+        "right_lung_anatomical",
+        "left_lung_anatomical"
+      ],
+      "shared_transform": true,
+      "events": [
+        "overview",
+        "reveal_trachea_bronchi",
+        "reveal_right_lung_anatomical",
+        "reveal_left_lung_anatomical",
+        "focus_trachea_bronchi",
+        "focus_right_lung_anatomical",
+        "focus_left_lung_anatomical"
+      ]
+    }
+  ]
+}

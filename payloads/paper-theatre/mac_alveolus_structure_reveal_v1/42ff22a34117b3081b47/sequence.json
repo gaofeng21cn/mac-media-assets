@@ -1,0 +1,280 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_alveolus_structure_reveal_v1",
+  "type": "structure_reveal",
+  "title": "肺泡·逐层揭示与局部高亮",
+  "label": "肺泡",
+  "description": "总览定位→共同坐标系逐层出现→原位高亮与局部近景→回到总览。",
+  "scope": "单个肺泡与相连气道的放大关系示意：气腔连续、薄壁在外、毛细血管环绕壁外。壁厚与血管间距为说明而夸张，双色仅区分血管路径，不表达氧含量、流向或气体交换数值。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 8.200000000000001,
+  "images": {
+    "alveolar_wall": {
+      "path": "assets/alveolar_wall.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        229,
+        161,
+        797,
+        845
+      ],
+      "sha256": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c"
+    },
+    "continuous_air_space": {
+      "path": "assets/continuous_air_space.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        255,
+        182,
+        771,
+        819
+      ],
+      "sha256": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef"
+    },
+    "perialveolar_capillaries": {
+      "path": "assets/perialveolar_capillaries.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        174,
+        337,
+        867,
+        891
+      ],
+      "sha256": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f"
+    }
+  },
+  "layers": [
+    {
+      "id": "alveolar_wall",
+      "label": "肺泡壁",
+      "content_bounds": [
+        229,
+        161,
+        797,
+        845
+      ],
+      "focus_bounds": [
+        179.0,
+        111.0,
+        847.0,
+        895.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "continuous_air_space",
+      "label": "连续气腔",
+      "content_bounds": [
+        255,
+        182,
+        771,
+        819
+      ],
+      "focus_bounds": [
+        205.0,
+        132.0,
+        821.0,
+        869.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "perialveolar_capillaries",
+      "label": "壁外毛细血管",
+      "content_bounds": [
+        174,
+        337,
+        867,
+        891
+      ],
+      "focus_bounds": [
+        124.0,
+        287.0,
+        917.0,
+        941.0
+      ],
+      "shared_viewbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_alveolus_detailed_layers_v1@2c11a7cf1c24af07b4b1",
+      "portable_record_sha256": "8c911acd9ecf5815bd7e9cdc7727fdf42dee2400e2bcc2f20c1fe54e160e6819"
+    }
+  ],
+  "composite_bounds": [
+    174,
+    161,
+    867,
+    891
+  ],
+  "timing": {
+    "reveal_start": 1.0,
+    "reveal_step": 0.8,
+    "focus_start": 3.8000000000000003,
+    "focus_step": 1.2,
+    "return_start": 7.4
+  },
+  "presentation_note": "气腔连续、薄壁在外、血管环绕壁外。",
+  "events": [
+    {
+      "name": "overview",
+      "time": 0,
+      "kind": "reference"
+    },
+    {
+      "name": "reveal_alveolar_wall",
+      "time": 1.0,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_continuous_air_space",
+      "time": 1.8,
+      "kind": "reveal"
+    },
+    {
+      "name": "reveal_perialveolar_capillaries",
+      "time": 2.6,
+      "kind": "reveal"
+    },
+    {
+      "name": "focus_alveolar_wall",
+      "time": 3.8000000000000003,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_continuous_air_space",
+      "time": 5.0,
+      "kind": "focus"
+    },
+    {
+      "name": "focus_perialveolar_capillaries",
+      "time": 6.2,
+      "kind": "focus"
+    }
+  ],
+  "review_times": [
+    0,
+    0.96,
+    1.0,
+    1.32,
+    1.8,
+    2.12,
+    2.6,
+    2.92,
+    3.8,
+    4.1,
+    4.9,
+    5.0,
+    5.3,
+    6.1,
+    6.2,
+    6.5,
+    7.3,
+    7.4,
+    8.2
+  ]
+}

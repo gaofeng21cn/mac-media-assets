@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_alveolus_detailed_layers_v1",
+  "title": "肺泡·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "alveolar_wall",
+      "path": "files/alveolar_wall.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·alveolar_wall",
+      "medical": true,
+      "content_bounds": [
+        229,
+        161,
+        797,
+        845
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "continuous_air_space",
+      "path": "files/continuous_air_space.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·continuous_air_space",
+      "medical": true,
+      "content_bounds": [
+        255,
+        182,
+        771,
+        819
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "perialveolar_capillaries",
+      "path": "files/perialveolar_capillaries.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·perialveolar_capillaries",
+      "medical": true,
+      "content_bounds": [
+        174,
+        337,
+        867,
+        891
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_alveolus_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肺泡",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "alveolar_wall",
+      "continuous_air_space",
+      "perialveolar_capillaries"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "单个肺泡与相连气道的放大关系示意：气腔连续、薄壁在外、毛细血管环绕壁外。壁厚与血管间距为说明而夸张，双色仅区分血管路径，不表达氧含量、流向或气体交换数值。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/alveolar_wall.svg",
+      "role": "source",
+      "sha256": "8f00d406f740dfbad3b6f1c4b46f485a6a02be851d614da9c4b63b7ffdbb5b47",
+      "bytes": 311
+    },
+    {
+      "path": "files/alveolar_wall.png",
+      "role": "payload",
+      "sha256": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c",
+      "bytes": 28963
+    },
+    {
+      "path": "source/continuous_air_space.svg",
+      "role": "source",
+      "sha256": "010622ad2013975c97b7e37a0ae6fac6ffa0ea10f5431f11de41fbe28da240e5",
+      "bytes": 311
+    },
+    {
+      "path": "files/continuous_air_space.png",
+      "role": "payload",
+      "sha256": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef",
+      "bytes": 26817
+    },
+    {
+      "path": "source/perialveolar_capillaries.svg",
+      "role": "source",
+      "sha256": "ebee8214d6daaad6733edc3b513090970975cb2fe3bc7d21f0e7935b225e44e7",
+      "bytes": 511
+    },
+    {
+      "path": "files/perialveolar_capillaries.png",
+      "role": "payload",
+      "sha256": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f",
+      "bytes": 43255
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "ae7f958c858a43301ff27b7768ed70e75d02bedc702fe5b6978b8a285b7bff22",
+      "bytes": 939
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "4b706e42dae363fa51813fabb7f6d9dad288a07ea11af5f3c245b82dde90304b",
+      "bytes": 79598
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "13ff0f7c9cdcaf50c19a3ae47d4bf131afc44ef97240ea73d65dff4d8381aa61",
+      "bytes": 723
+    }
+  ],
+  "revision": "2c11a7cf1c24af07b4b1"
+}

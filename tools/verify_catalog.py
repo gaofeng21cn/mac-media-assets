@@ -54,7 +54,8 @@ def main() -> int:
                     else:
                         errors.append(f"record_revision:{rid}")
                 for original in record.get('files', []):
-                    mapped = [item for item in row.get('payload', []) if item['path'].endswith('/' + original['path'])]
+                    suffix = '/' + row['source_id'] + '/' + row['revision'] + '/' + original['path']
+                    mapped = [item for item in row.get('payload', []) if item['path'].endswith(suffix)]
                     if len(mapped) != 1 or mapped[0]['sha256'] != original['sha256'] or mapped[0]['bytes'] != original['bytes']:
                         errors.append(f"record_payload_mapping:{rid}:{original['path']}")
                 paths = {item['path'] for item in record.get('files', [])}
@@ -80,6 +81,18 @@ def main() -> int:
                 errors.append(f"unknown_series:{sid}:{rid}")
     anchors_path = root / "collections/character-anchors.json"
     coverage_path = root / "collections/character-coverage.json"
+    scale_path = root / "collections/character-scale.json"
+    if scale_path.is_file():
+        scale = json.loads(scale_path.read_text(encoding="utf-8"))
+        scale_assets = scale.get("assets") or {}
+        for identifier, value in scale_assets.items():
+            if not isinstance(value.get("nominal_height_cm"), (int, float)) or value["nominal_height_cm"] <= 0:
+                errors.append(f"character_scale_invalid:{identifier}")
+            row = next((item for item in rows if item['id'] == identifier), None)
+            if not row or value.get('source_asset_id') != identifier:
+                errors.append(f"character_scale_identity:{identifier}")
+            elif value.get('source_sha256') not in {part['sha256'] for part in row['payload']}:
+                errors.append(f"character_scale_payload:{identifier}")
     if anchors_path.is_file():
         anchors = json.loads(anchors_path.read_text(encoding="utf-8")).get("assets", {})
         for source_id, registration in anchors.items():

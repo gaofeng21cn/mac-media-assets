@@ -1,0 +1,509 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_gallbladder_section_open_close_v1",
+  "title": "胆囊·二维剖面开合连续开合",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "continuous_section_window",
+    "two_dimensional_section"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "胆囊",
+      "二维剖面开合",
+      "gallbladder"
+    ],
+    "actions": [
+      "二维示意切开",
+      "剖面开合"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "胆囊·二维剖面开合连续开合",
+    "sample_duration_seconds": 6.2
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "胆囊外形与胆汁示意；不表示胆囊内结石、胆道梗阻或胆囊功能。 胆囊壁局部窗口连续开合；不表达结石、功能或流动。 ",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "4b227a9be1c19fa276816df6d02937b60e333e8ba4e2dd94b8db13dbbb379d80",
+      "bytes": 632
+    },
+    {
+      "path": "assets/bile.png",
+      "role": "payload",
+      "sha256": "9b87edba5554990ce23cadb1d0c39c8009cb07bb0131ec26d74d31c1750985df",
+      "bytes": 21251
+    },
+    {
+      "path": "assets/cystic_duct.png",
+      "role": "payload",
+      "sha256": "7e381c4198a3a3851836734aa27e32e3e25d4580c7b1cc66d60939084db3dcc3",
+      "bytes": 6084
+    },
+    {
+      "path": "assets/gallbladder_wall.png",
+      "role": "payload",
+      "sha256": "1dd25d88393e69ae3e8fa84154d3670466bdee1237baca007dbdae1dfd4e759f",
+      "bytes": 27307
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "8e1e15a8abeb9e97ea95e73305c0bdd36154d973cfcd811f3310c5a807c1d4cc",
+      "bytes": 579
+    },
+    {
+      "path": "original/files/bile.png",
+      "role": "payload",
+      "sha256": "9b87edba5554990ce23cadb1d0c39c8009cb07bb0131ec26d74d31c1750985df",
+      "bytes": 21251
+    },
+    {
+      "path": "original/files/cystic_duct.png",
+      "role": "payload",
+      "sha256": "7e381c4198a3a3851836734aa27e32e3e25d4580c7b1cc66d60939084db3dcc3",
+      "bytes": 6084
+    },
+    {
+      "path": "original/files/gallbladder_wall.png",
+      "role": "payload",
+      "sha256": "1dd25d88393e69ae3e8fa84154d3670466bdee1237baca007dbdae1dfd4e759f",
+      "bytes": 27307
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "47acbf0336242c3be1f23745bd640664507fb8728a24344648136e6531e1fa6d",
+      "bytes": 5781
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "a50f77984621981cefcad4f505d6f96d3846affc036d5cb80b64817e916b9cdc",
+      "bytes": 43924
+    },
+    {
+      "path": "original/source/bile.svg",
+      "role": "payload",
+      "sha256": "7ca5897b91e3567371ca2d88a9698733a9c90399f042a70760fbc15f4825fddc",
+      "bytes": 343
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/cystic_duct.svg",
+      "role": "payload",
+      "sha256": "fba5e005a8fbc8d83ef2b629b7fa17ea981d549768e2b5517b3ba8f7294aa6fe",
+      "bytes": 228
+    },
+    {
+      "path": "original/source/gallbladder_wall.svg",
+      "role": "payload",
+      "sha256": "4ac33f0087650f690ae01677884efcda2d1a4604091b7621e2d7bdb3732b00df",
+      "bytes": 343
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "e83684bdbcd3fe5d05a279153dd3defe801d258f86ab1a130f32af5e7463cffe",
+      "bytes": 720
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "c31c503fac5216af5043a84a3248025453fcb47668d7dd62e504ea3453838f40",
+      "bytes": 433
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "c46dbd6453cd9d45b427b2963bd4016f72283d6cb5eb2d358a0e0b57b57c3122",
+      "bytes": 7590
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+      "bytes": 5391
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "f04ad8eaf4cdb64557b49bd9056f3aa78edef23a7003cbc6a413dc81b5141666",
+      "bytes": 86528
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "0a05d918ce528e3edc5b96b82769c99e89ad3a84ebd170c431c55d3c68a3b374",
+      "bytes": 85488
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "984187f1a500e6017c6687ae9e2a04539cc1c7be25cc499f6f00a4d10e83c707",
+      "bytes": 86243
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "7f3252e66c420886dbe927fb31b4f0e9526c7462977e1481460c8433a3eca8e4",
+      "bytes": 45585
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "358212f2abb92f9d39cdb0bce43aa01d4a141e0474584154e31e47bf1befdb96",
+      "bytes": 172763
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "f8e972c61b997722546b0ec03cdf70c7a486649a983ef521a8bce7967fa13ba9",
+      "bytes": 64985
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "f8e972c61b997722546b0ec03cdf70c7a486649a983ef521a8bce7967fa13ba9",
+      "bytes": 64985
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "aede6490e8e897b8ef045a32f02d5312d753085029bc3ec2aafd9bb9cb3b5639",
+      "bytes": 65667
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "7d9417c9a413d271fe29248f4f0fb2d280d39c3adbd47703a9053cc95fe563f3",
+      "bytes": 67292
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "2f2e2d2be5f3bdedc3a28b38a90c5a2a11db5b9f821e2d5adb64346a9724b00d",
+      "bytes": 72423
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "086fbb020adacd25d40259e677fdcc44fa6a263e7f55e1e747dd7165a822f5e2",
+      "bytes": 78188
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "a1be339f5b728023e6e065a913392041d9907fcf5ee2e7c4aafd2b1168220a2c",
+      "bytes": 82938
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "984187f1a500e6017c6687ae9e2a04539cc1c7be25cc499f6f00a4d10e83c707",
+      "bytes": 86243
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "0481d6670155f554bea7dce67ccf7d4578349bde55159dee1da88c6cd208d34c",
+      "bytes": 87791
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "ee654807ac85287ae99611f80a9a275aed4e99118e1b1d31bbe70b3c4df8796b",
+      "bytes": 87286
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "ee654807ac85287ae99611f80a9a275aed4e99118e1b1d31bbe70b3c4df8796b",
+      "bytes": 87286
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "ee654807ac85287ae99611f80a9a275aed4e99118e1b1d31bbe70b3c4df8796b",
+      "bytes": 87286
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "2c890e61cb8260f0d7c6fb9ace7bf0819b8f130a920ad463e09660a38ceaa647",
+      "bytes": 88361
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "15eafe7144d71b6331e0c9335717517c2e11d54b677c6e4e880ddd6bbcf8c06c",
+      "bytes": 88382
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "98a3b2251375bb4d1d7f8446def7bc94e56adc2eaeea9042081089db751f40a5",
+      "bytes": 87415
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "0cb58da75ebb099fe8c2b2ea1cdfbdaf402791acc6ac36de51d6a5966e19c0a1",
+      "bytes": 84539
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "093d9f7163f6bcfa9ae39baca911dc02720cc107344b30c3caa368f77b0c91f1",
+      "bytes": 80304
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "a9245ee24f030a29643f77588074ad75110f9183128e5b33c77dc245484daf1d",
+      "bytes": 67907
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "53e8687a9b63fcecb53ed09cebc52ae082de2188668cc343ec6bec14f9900183",
+      "bytes": 66914
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "53e8687a9b63fcecb53ed09cebc52ae082de2188668cc343ec6bec14f9900183",
+      "bytes": 66914
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "53e8687a9b63fcecb53ed09cebc52ae082de2188668cc343ec6bec14f9900183",
+      "bytes": 66914
+    },
+    {
+      "path": "samples/open-phone-color.png",
+      "role": "payload",
+      "sha256": "4c58843ccffbc0d9ce84e4e1091607b79c92734ebff79442ce64affd381ef443",
+      "bytes": 17122
+    },
+    {
+      "path": "samples/open-phone-dark.png",
+      "role": "payload",
+      "sha256": "1f272259cc94afb577bc7872ad0afae48b57ea66acf385103e360f26e934cd72",
+      "bytes": 16912
+    },
+    {
+      "path": "samples/open-phone-light.png",
+      "role": "payload",
+      "sha256": "7a7cdd1f1322577b6cec05a4b31c1c417d89d8f5a5b23e0d4e3e2e4d619d4beb",
+      "bytes": 16905
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "495b81b6ecaf913dc3b0a77e4be1eac5a031961b0d3508a135c3f1e620be8a8a",
+      "bytes": 25887
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "07273d089526996b44e5dd403f86e7f8229a78ed3dc6afa004e85adeb5654ea5",
+      "bytes": 17007
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "29d324a406882d3251f0c094f3aa8bcd1598843c4eaeb35193f226a14c969cee",
+      "bytes": 99091
+    },
+    {
+      "path": "samples/section-background-review.jpg",
+      "role": "payload",
+      "sha256": "9237c498a103c29748c6cb8c8d0caf30af3411699bd106ab602d94b99b2596fd",
+      "bytes": 338175
+    },
+    {
+      "path": "samples/states/closed-color.png",
+      "role": "payload",
+      "sha256": "cc2988a034b6a8891070ae191cafefc90eca1f7ae566a9f53f807552139e309c",
+      "bytes": 65083
+    },
+    {
+      "path": "samples/states/closed-dark.png",
+      "role": "payload",
+      "sha256": "57384ff7772643b2ffa3887a3cee03f0711807d0ee916ab93b1ecf6f16935e25",
+      "bytes": 64146
+    },
+    {
+      "path": "samples/states/closed-light.png",
+      "role": "payload",
+      "sha256": "f8e972c61b997722546b0ec03cdf70c7a486649a983ef521a8bce7967fa13ba9",
+      "bytes": 64985
+    },
+    {
+      "path": "samples/states/closing-color.png",
+      "role": "payload",
+      "sha256": "e294149c324f58f42ba157936f3925967d1e274f0212fb36c1bf9d1cd7110a0c",
+      "bytes": 84728
+    },
+    {
+      "path": "samples/states/closing-dark.png",
+      "role": "payload",
+      "sha256": "60731e313816df3878334ce90e45cd5e9e8db52550bab48814b972e6151be608",
+      "bytes": 83603
+    },
+    {
+      "path": "samples/states/closing-light.png",
+      "role": "payload",
+      "sha256": "0cb58da75ebb099fe8c2b2ea1cdfbdaf402791acc6ac36de51d6a5966e19c0a1",
+      "bytes": 84539
+    },
+    {
+      "path": "samples/states/half-color.png",
+      "role": "payload",
+      "sha256": "eb13edf62cd896c77d784b9e8a95974acc0f9be2b48e8e1992b9767626da09a6",
+      "bytes": 83135
+    },
+    {
+      "path": "samples/states/half-dark.png",
+      "role": "payload",
+      "sha256": "eaa1ef366fc374c0bb071c7920713602f27386d50a9ccd028e62ffacf7469fc7",
+      "bytes": 81990
+    },
+    {
+      "path": "samples/states/half-light.png",
+      "role": "payload",
+      "sha256": "a1be339f5b728023e6e065a913392041d9907fcf5ee2e7c4aafd2b1168220a2c",
+      "bytes": 82938
+    },
+    {
+      "path": "samples/states/open-color.png",
+      "role": "payload",
+      "sha256": "b2c5850dabf79daf8d3ee5f58257a5d3e31b520de786c3204b2cd76c99fb7a7f",
+      "bytes": 87581
+    },
+    {
+      "path": "samples/states/open-dark.png",
+      "role": "payload",
+      "sha256": "6f37829babb3a2eed2dcde0f780b865be7d3627fcc9f4873fec7295ed5c8c37b",
+      "bytes": 86477
+    },
+    {
+      "path": "samples/states/open-light.png",
+      "role": "payload",
+      "sha256": "ee654807ac85287ae99611f80a9a275aed4e99118e1b1d31bbe70b3c4df8796b",
+      "bytes": 87286
+    },
+    {
+      "path": "samples/states/quarter-color.png",
+      "role": "payload",
+      "sha256": "25020907d36511b86142350c3117608462e118c2e6e6dd987d5ce8ae21328f33",
+      "bytes": 78308
+    },
+    {
+      "path": "samples/states/quarter-dark.png",
+      "role": "payload",
+      "sha256": "497467ff1d6c83c65f21482c30a2c73d6df87e011b6f1ae37c6731ea3f0456db",
+      "bytes": 77148
+    },
+    {
+      "path": "samples/states/quarter-light.png",
+      "role": "payload",
+      "sha256": "086fbb020adacd25d40259e677fdcc44fa6a263e7f55e1e747dd7165a822f5e2",
+      "bytes": 78188
+    },
+    {
+      "path": "samples/states/restored-color.png",
+      "role": "payload",
+      "sha256": "dc12328b36e85e3a7fa442892f53cc05224cd4fa5e91067ddf04997b9c393872",
+      "bytes": 67007
+    },
+    {
+      "path": "samples/states/restored-dark.png",
+      "role": "payload",
+      "sha256": "74fb79ea5e8a270c5af711ee837902d9535e3b47ba322fd7f0173b4050631f3d",
+      "bytes": 66047
+    },
+    {
+      "path": "samples/states/restored-light.png",
+      "role": "payload",
+      "sha256": "53e8687a9b63fcecb53ed09cebc52ae082de2188668cc343ec6bec14f9900183",
+      "bytes": 66914
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "ab349426dfcbeacf8720fccb896c925c9aa8f0d3ab592d297832022818ac7939",
+      "bytes": 11388
+    },
+    {
+      "path": "section-visual-review.json",
+      "role": "payload",
+      "sha256": "a28077306dad4a974e6b69f1c43854820180d9fbf77380f23c3f0bfe95d582e7",
+      "bytes": 7763
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "66a4d83b8d701cec3995453f5c5f6f49b9acfc5a4db7bf7c35086013e214ba93",
+      "bytes": 4774
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "9e7ecd62ae85bff8345a"
+}
