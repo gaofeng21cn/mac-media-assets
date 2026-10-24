@@ -1,6 +1,6 @@
 # 当前可复用资产清单
 
-依据当前目录与策展发现层整理：207个公共资产身份、221个注册版本、787个载荷引用，207个身份均可默认检索；独立部件与组合关系分别保存；身份数、包数与包内分层数分别计量。
+依据当前目录与策展发现层整理：211个公共资产身份、225个注册版本、919个载荷引用，211个身份均可默认检索；独立部件与组合关系分别保存；身份数、包数与包内分层数分别计量。
 
 ## 环境与舞台
 
@@ -232,6 +232,10 @@
 | 纸口袋收纳与真实前景遮挡 | 1 | [原记录](../records/paper-theatre/paper_pocket_stow/dfb301e16fe825840757/record.json) |
 | 纸剧场 1.1.0 冻结组件与无品牌样本 | 1 | [原记录](../records/paper-theatre/paper_theatre_kit_1_1_0/1a56b5ce9d17d7e59e63/record.json) |
 | 六主题纸剧场：物件身份、翻面、归档与舞台模块 | 1 | [原记录](../records/paper-theatre/six_paper_staging_modules/0276c523f08372574608/record.json) |
+| 同身份成年男性双侧步态循环（6秒） | 1 | [原记录](../records/paper-theatre/mac_walk_cycle_v1/9139c228977b8bccb2fa/record.json) |
+| 同身份坐下、坐定与起立完整过渡（6秒） | 1 | [原记录](../records/paper-theatre/mac_sit_stand_cycle_v1/d6c4133126cf5168fa45/record.json) |
+| 双人日常轻扶照护：接近、起身、伴行与松手（6.5秒） | 1 | [原记录](../records/paper-theatre/mac_care_assistance_v1/7add8a71f20bb1997826/record.json) |
+| 连续备餐：切配、入锅、翻动与盛出（9秒） | 1 | [原记录](../records/paper-theatre/mac_cooking_action_v1/4e1f3848364c56d2fe6e/record.json) |
 
 ## 配乐
 

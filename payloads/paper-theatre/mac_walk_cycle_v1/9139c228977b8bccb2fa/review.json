@@ -1,0 +1,56 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "8e733fd9c63dd52b96ef94ee3343e49572819f26661483984065bbebeac8966b",
+  "inputs": {
+    "runtime.mjs": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "8e733fd9c63dd52b96ef94ee3343e49572819f26661483984065bbebeac8966b",
+    "assets/walk_a.png": "45348bc77ca66e86c5e68557819bd1b3c46c556b0aee93b7e4ad49ef384ebf79",
+    "assets/walk_b.png": "3d30c76389cac63716e398d8edf8d238a94aff23049c04b3c17a4264e240f15b",
+    "assets/stand.png": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa"
+  },
+  "media": {
+    "samples/background-color.png": "4b9666c3fa61d53570dd7cc245b465d484ee3fbd13f566dbd40237dd3a151946",
+    "samples/background-dark.png": "e75efc584e05294de35a5603dfc2ed36ce0135c397a0f7f03c3f92ede8df4cce",
+    "samples/background-light.png": "47b34ed8db787dd245caa720c47745e9757017515e74cf98bdf0f021c771bd5f",
+    "samples/background-review.jpg": "46aac6f266ea092676cb8f523bc6d570e0303c909f350d1dc1df3b50cbdab2b1",
+    "samples/contact-sheet.jpg": "190c257b4b626711fd5537808d946bb413d11d236ac34299f8a698d205923ca6",
+    "samples/keyframes/00.png": "a0d2d48bbe5922096db08eb789fcfdb2e42d0ace973a7b6f3e5db9f09f9bd832",
+    "samples/keyframes/01.png": "7c01d14e6e4f21c472926e2e7576a0e39a560c0ac87ff342e9d8abb369c5bcbe",
+    "samples/keyframes/02.png": "fc362427c0075223767b1ace2d6e9bd9a98833ded2c45f905c0e8c5b27f6ffb6",
+    "samples/keyframes/03.png": "6ec50984b21515b43a6ebaacbea0d6c2bc35b7568f81fdf260f83a66f2c7119e",
+    "samples/keyframes/04.png": "90ac985378ed11bc13b318afcf6a9793141dfff6bc2ab49545588d8e1d02a7b7",
+    "samples/keyframes/05.png": "c3e8c3e64b114929da64ef66f955f706296576ddc662d314226d3fb96dbf9765",
+    "samples/keyframes/06.png": "47b34ed8db787dd245caa720c47745e9757017515e74cf98bdf0f021c771bd5f",
+    "samples/keyframes/07.png": "768fe4ef12421fd5e3852c458686b14a518a493ff90cdae3fa5bb56b640c1ec0",
+    "samples/keyframes/08.png": "ae05191086a5af9c483a41eb69d7abacb5eb9c35d7fd4f18bb5aacdea7238fdb",
+    "samples/keyframes/09.png": "ae05191086a5af9c483a41eb69d7abacb5eb9c35d7fd4f18bb5aacdea7238fdb",
+    "samples/keyframes/10.png": "a79100a38933f7cb024e0494381a9355d62176a597021ce825f0d7575356df1e",
+    "samples/keyframes/11.png": "82b85322bc57acd5a1ec19803ecf7c148483ddc43a94053cfd2110d7ee89e249",
+    "samples/keyframes/12.png": "ca5cd9ae7f8c95e05e8681a91a6aae4b37e86b28de098295409c7df0bd7c5239",
+    "samples/keyframes/13.png": "ca5cd9ae7f8c95e05e8681a91a6aae4b37e86b28de098295409c7df0bd7c5239",
+    "samples/live-contact-sheet.jpg": "f85b07752301b966dfa5447d3249d94f0abca0d926cfa23acf1c36c625823f45",
+    "samples/phone.png": "1a14a41cb3eed7aa0c77c4789cc323aceab7d6a6812740fd94c89683c840fb9f",
+    "samples/sample.mp4": "03fdaada28cdae362d3ef1ec726b329e54a7f6593a2111445ff578632c29ab2b",
+    "samples/technical.json": "92f1b12913be07f4c39228dfa359b949420772d1487a179e5a2c2e7f3aeb9a09"
+  },
+  "review_method": {
+    "keyframes": "查看当前完整关键姿态总览与原尺寸接触帧",
+    "normal_playback": "浏览器点击播放，以实际时钟运行至终点，逐次采集画面并查看整段顺序；参见 live-contact-sheet.jpg",
+    "backgrounds": "实际浅纸底、深底、彩纸底合成",
+    "phone": "432px浏览器视口预览；phone.png 为其实际Canvas截图"
+  },
+  "observations": [
+    "接触、承重、抬脚经过、前摆及反侧摆臂均有真实完整姿态。八帧周期重复两次，首尾站稳；0.6/2.6 秒周期接缝及4.6秒停止已检查。",
+    "人物与位移采用同一0.25秒逐帧时钟，保持帧内脚底不滑移。逐帧纸片动作的节奏清楚，不作为高帧率写实步态或步态评估素材。",
+    "新表上排非等宽裁切保留完整鞋尖；未见邻格残片。身份、衣着、头身和左右摆臂在循环内保持可辨认。"
+  ],
+  "scope": "仅批准本精确版本样本的纸剧场日常连续动作复用；当前故事镜头独立审看。",
+  "current_shot": "pending",
+  "medical": "not_applicable",
+  "listening": "not_applicable_no_audio"
+}

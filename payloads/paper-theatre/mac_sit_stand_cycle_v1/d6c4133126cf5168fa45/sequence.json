@@ -1,0 +1,247 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_sit_stand_cycle_v1",
+  "title": "同身份坐下、坐定与起立完整过渡",
+  "type": "sit",
+  "images": {
+    "sit": {
+      "path": "assets/sit.png",
+      "bounds": [
+        11,
+        52,
+        1009,
+        1478
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "9c3dd780a92ac627d4e73aa58f67705626a5bcc7e748d3ebde13d6fb43aab398"
+    },
+    "chair": {
+      "path": "assets/chair.png",
+      "bounds": [
+        23,
+        29,
+        1236,
+        1254
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "c8365d28bf1404db216ac1521a502cfa5705c669a0d55c8b53eb067285de1c08"
+    }
+  },
+  "source_assets": [
+    {
+      "image": "chair",
+      "asset_id": "paper:reserve_chair_v1@f1812703aa41360f72fc",
+      "sha256": "c8365d28bf1404db216ac1521a502cfa5705c669a0d55c8b53eb067285de1c08"
+    }
+  ],
+  "scope": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+  "fps": 24,
+  "review_times": [
+    0,
+    0.79,
+    0.8,
+    1.15,
+    1.5,
+    2.25,
+    3.1,
+    3.45,
+    3.8,
+    6
+  ],
+  "duration": 6.0,
+  "display_height": 480,
+  "x": 640,
+  "ground": 620,
+  "description": "站立→前倾屈膝→降低→坐定停留→前倾→髋膝伸展→站稳；人物保持同一体量。",
+  "frames": [
+    {
+      "image": "sit",
+      "rect": [
+        0,
+        0,
+        256,
+        752
+      ],
+      "origin": [
+        138,
+        731
+      ],
+      "reference_height": 678
+    },
+    {
+      "image": "sit",
+      "rect": [
+        256,
+        0,
+        256,
+        752
+      ],
+      "origin": [
+        138,
+        716
+      ],
+      "reference_height": 678
+    },
+    {
+      "image": "sit",
+      "rect": [
+        512,
+        0,
+        256,
+        752
+      ],
+      "origin": [
+        138,
+        711
+      ],
+      "reference_height": 678
+    },
+    {
+      "image": "sit",
+      "rect": [
+        768,
+        0,
+        256,
+        752
+      ],
+      "origin": [
+        138,
+        737
+      ],
+      "reference_height": 678
+    },
+    {
+      "image": "sit",
+      "rect": [
+        0,
+        776,
+        256,
+        760
+      ],
+      "origin": [
+        126,
+        669
+      ],
+      "reference_height": 678
+    },
+    {
+      "image": "sit",
+      "rect": [
+        256,
+        776,
+        256,
+        760
+      ],
+      "origin": [
+        132,
+        662
+      ],
+      "reference_height": 678
+    },
+    {
+      "image": "sit",
+      "rect": [
+        512,
+        776,
+        256,
+        760
+      ],
+      "origin": [
+        135,
+        683
+      ],
+      "reference_height": 678
+    },
+    {
+      "image": "sit",
+      "rect": [
+        768,
+        776,
+        256,
+        760
+      ],
+      "origin": [
+        140,
+        703
+      ],
+      "reference_height": 678
+    }
+  ],
+  "phase_names": [
+    "站立",
+    "屈膝准备",
+    "降低",
+    "坐定",
+    "坐姿保持",
+    "前倾起身",
+    "伸展",
+    "站稳"
+  ],
+  "keys": [
+    {
+      "time": 0,
+      "frame": 0
+    },
+    {
+      "time": 0.8,
+      "frame": 1
+    },
+    {
+      "time": 1.15,
+      "frame": 2
+    },
+    {
+      "time": 1.5,
+      "frame": 3
+    },
+    {
+      "time": 2.25,
+      "frame": 4
+    },
+    {
+      "time": 3.1,
+      "frame": 5
+    },
+    {
+      "time": 3.45,
+      "frame": 6
+    },
+    {
+      "time": 3.8,
+      "frame": 7
+    }
+  ],
+  "events": [
+    {
+      "name": "prepare",
+      "time": 0.8,
+      "kind": "contact"
+    },
+    {
+      "name": "seat_contact",
+      "time": 1.5,
+      "kind": "contact"
+    },
+    {
+      "name": "rise_prepare",
+      "time": 3.1,
+      "kind": "contact"
+    },
+    {
+      "name": "standing_stable",
+      "time": 3.8,
+      "kind": "contact"
+    }
+  ],
+  "chair": {
+    "x": 695,
+    "y": 436,
+    "width": 360
+  }
+}

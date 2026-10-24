@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 # Local review evidence, browser captures and temporary trial projects.
 work/
+.playwright-cli/

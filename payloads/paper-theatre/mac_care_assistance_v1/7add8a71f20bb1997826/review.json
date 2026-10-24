@@ -1,0 +1,49 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "eb4c1edfaaa32d4f5192976c224d1cc194324e7cfb58561c7b1f0b8cd73f56ea",
+  "inputs": {
+    "runtime.mjs": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "eb4c1edfaaa32d4f5192976c224d1cc194324e7cfb58561c7b1f0b8cd73f56ea",
+    "assets/care.png": "5f983bb039eb4d1236e551abf742ec5479fe6ec854ecacc8b6769e4a8d90cf81",
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa"
+  },
+  "media": {
+    "samples/background-color.png": "77e9c38d9344c474d5392f5dc2598e4a13ac4388cdb6fdee80335a8618286241",
+    "samples/background-dark.png": "4023a3c109f6502cb5386cd826c0b983d24917603ae5191b288fe636a363c300",
+    "samples/background-light.png": "dd14ba3c40ecfa44fcca46f4ca5533d86d3350d73372109c8d0a6896c49e794b",
+    "samples/background-review.jpg": "f16d47fe3ba088f0979c62d04eb15b421bc0c124769fe94cae95efbb19db6816",
+    "samples/contact-sheet.jpg": "3f53f45daf1b14bfc70422d80eed0b15dcf67b2507b6017eded2f38bf30678b0",
+    "samples/keyframes/00.png": "557a23fa83ff1b91e7cb827cd6a713ff23076086dca9b51ae7d61ec206eb4b7a",
+    "samples/keyframes/01.png": "636c45cf75a8e9ae6779621effbb892867afe558f907ba7d0731a866aeda3416",
+    "samples/keyframes/02.png": "b35520e3e75a3279ad25f4c906c12e6b908aa1b6d6b25f34d606bea90b22d9f4",
+    "samples/keyframes/03.png": "045bfa4f44b2daa39fba6c813b371212e5f8d59c660775d95be00f402c708a66",
+    "samples/keyframes/04.png": "dd14ba3c40ecfa44fcca46f4ca5533d86d3350d73372109c8d0a6896c49e794b",
+    "samples/keyframes/05.png": "2c5a4a6d346eb187bfa8ddb3b7389083639c82920ed45e2e970def11bcbbe09d",
+    "samples/keyframes/06.png": "ff8f53eb36640678d71943a5d113db046edcaebe603636e8307721c8c1ec36ba",
+    "samples/keyframes/07.png": "1df6c3e7687d70bbf4fa8e9ea5ba3348f85cbbc861d456689ee95ec9336306c1",
+    "samples/keyframes/08.png": "1df6c3e7687d70bbf4fa8e9ea5ba3348f85cbbc861d456689ee95ec9336306c1",
+    "samples/live-contact-sheet.jpg": "82574bfb38e6a4ef4d90c73788c829abb92089eb9319dfa9c7a3bbe1582f5cd0",
+    "samples/phone.png": "529496bac586e79da302b685a032837f03af553961a56ea912c0fdd2c6639a09",
+    "samples/sample.mp4": "50847163b59dd2a31ac4a1e6755854e45be1c6b5180257074a2818238917094c",
+    "samples/technical.json": "68da2807eddaa9b44a10beebcae0838deb0cfd6c7e780887d2f45d925335bbf1"
+  },
+  "review_method": {
+    "keyframes": "查看当前完整关键姿态总览与原尺寸接触帧",
+    "normal_playback": "浏览器点击播放，以实际时钟运行至终点，逐次采集画面并查看整段顺序；参见 live-contact-sheet.jpg",
+    "backgrounds": "实际浅纸底、深底、彩纸底合成",
+    "phone": "432px浏览器视口预览；phone.png 为其实际Canvas截图"
+  },
+  "observations": [
+    "接近、示意、轻扶、患者主动前倾借腿和扶手起身、稳立、伴行一步、落定、松手构成完整过程，结束保持双人站稳。",
+    "轻扶接触在上背/前臂可见，患者仍主动用自身双腿和扶手；没有腋下悬提或把被照护者画成脱离支撑悬空。",
+    "双人和椅子属于完整关键姿态整体帧；只能整体放置或重做姿态。用于日常陪伴表演，不表示标准化临床转移技术。"
+  ],
+  "scope": "仅批准本精确版本样本的纸剧场日常连续动作复用；当前故事镜头独立审看。",
+  "current_shot": "pending",
+  "medical": "not_applicable",
+  "listening": "not_applicable_no_audio"
+}

@@ -9,6 +9,7 @@
 - [覆盖与储备规划](asset-coverage.md)：角色姿态、组合、成熟度、已知缺口和下一批补充顺序。
 - [初稿质量基线](first-draft-quality.md)：写分镜前的查询、实看、代表镜头和当前镜头复核。
 - [交互审看入口](interaction-review/README.md)：组合小样、关键帧和回读证据。
+- [四套连续动作](motion-studies.md)：完整步态、坐站、照护和备餐的样片、精确版本与取用方法。
 
 ## 治理与技术入口
 
@@ -31,6 +32,7 @@
 ```bash
 uv run --with Pillow python -m unittest discover -s tests -v
 python3 tools/verify_catalog.py
+node tools/check_motion_studies.mjs
 python3 tools/materialize_package.py --check
 git diff --check
 ```

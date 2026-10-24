@@ -10,7 +10,11 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
       - run: python3 -m pip install Pillow==12.3.0
       - run: python3 -m unittest discover -s tests -v
       - run: python3 tools/verify_catalog.py
+      - run: node tools/check_motion_studies.mjs
       - run: python3 tools/materialize_package.py --check

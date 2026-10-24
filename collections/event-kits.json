@@ -517,6 +517,114 @@
         "当前镜头仍需重新看接触、尺度、遮挡和手机宽可读性"
       ],
       "adaptation": "可删改部件、改料理主题和镜头，不沿用固定构图或故事。"
+    },
+    {
+      "id": "walk_cycle",
+      "title": "完整双侧步态",
+      "parts": [
+        {
+          "source_id": "mac_walk_cycle_v1",
+          "asset_id": "paper:mac_walk_cycle_v1@9139c228977b8bccb2fa",
+          "role": "完整可编辑动作包",
+          "revision": "9139c228977b8bccb2fa"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "event_chain": "站稳→两次双侧循环→站稳",
+      "relationship": "完整逐帧姿态；坐标与地面随 sequence.json，身体与姿态共用逐帧时钟",
+      "sample": "tools/preview-engine/motion.html",
+      "review": {
+        "motion": "passed",
+        "current_shot": "pending",
+        "medical": "not_applicable",
+        "listening": "not_applicable_no_audio"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false
+    },
+    {
+      "id": "sit_stand",
+      "title": "完整坐站过渡",
+      "parts": [
+        {
+          "source_id": "mac_sit_stand_cycle_v1",
+          "asset_id": "paper:mac_sit_stand_cycle_v1@d6c4133126cf5168fa45",
+          "role": "完整可编辑动作包",
+          "revision": "d6c4133126cf5168fa45"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "event_chain": "站立→屈膝→坐定→前倾起身→站稳",
+      "relationship": "完整人物帧与固定椅子独立；按臀部坐面和共同地面试装",
+      "sample": "tools/preview-engine/motion.html",
+      "review": {
+        "motion": "passed",
+        "current_shot": "pending",
+        "medical": "not_applicable",
+        "listening": "not_applicable_no_audio"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false
+    },
+    {
+      "id": "care_assistance",
+      "title": "日常轻扶照护全过程",
+      "parts": [
+        {
+          "source_id": "mac_care_assistance_v1",
+          "asset_id": "paper:mac_care_assistance_v1@7add8a71f20bb1997826",
+          "role": "完整可编辑动作包",
+          "revision": "7add8a71f20bb1997826"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "event_chain": "接近→示意→轻扶→主动起身→伴行→站稳→松手",
+      "relationship": "双人及椅子是完整整体帧，不能独立挪动接触双方；用于日常轻扶陪伴",
+      "sample": "tools/preview-engine/motion.html",
+      "review": {
+        "motion": "passed",
+        "current_shot": "pending",
+        "medical": "not_applicable",
+        "listening": "not_applicable_no_audio"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false
+    },
+    {
+      "id": "cooking_complete",
+      "title": "连续切配、翻动与盛盘",
+      "parts": [
+        {
+          "source_id": "mac_cooking_action_v1",
+          "asset_id": "paper:mac_cooking_action_v1@4e1f3848364c56d2fe6e",
+          "role": "完整可编辑动作包",
+          "revision": "4e1f3848364c56d2fe6e"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "日常饮食"
+      ],
+      "event_chain": "三次刀刃接触→三片→入锅→翻动→三片盛盘",
+      "relationship": "手与器具共用接触路径，三片保持身份；动画时长不表示真实熟度或加热时长",
+      "sample": "tools/preview-engine/motion.html",
+      "review": {
+        "motion": "passed",
+        "current_shot": "pending",
+        "medical": "not_applicable",
+        "listening": "not_applicable_no_audio"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false
     }
   ]
 }

@@ -1,0 +1,231 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_care_assistance_v1",
+  "title": "双人照护：接近、协助起身、伴行与松手",
+  "type": "care",
+  "images": {
+    "care": {
+      "path": "assets/care.png",
+      "bounds": [
+        92,
+        10,
+        956,
+        1532
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "5f983bb039eb4d1236e551abf742ec5479fe6ec854ecacc8b6769e4a8d90cf81"
+    }
+  },
+  "source_assets": [],
+  "scope": "日常轻扶陪伴的虚构表演；不作失能者转移、术后搬运或急救操作教学。完整双人/椅子关键姿态为整体帧，不能独立改动接触双方。",
+  "fps": 24,
+  "review_times": [
+    0,
+    0.7,
+    1.3,
+    1.65,
+    2,
+    3,
+    3.5,
+    4.2,
+    6.5
+  ],
+  "duration": 6.5,
+  "display_height": 520,
+  "x": 640,
+  "ground": 625,
+  "description": "照护者接近并示意，患者主动前倾、借自身双腿和扶手起身，轻扶伴行，站稳后松手。",
+  "frames": [
+    {
+      "image": "care",
+      "rect": [
+        0,
+        0,
+        512,
+        388
+      ],
+      "origin": [
+        256,
+        377
+      ],
+      "reference_height": 366
+    },
+    {
+      "image": "care",
+      "rect": [
+        512,
+        0,
+        512,
+        388
+      ],
+      "origin": [
+        256,
+        377
+      ],
+      "reference_height": 366
+    },
+    {
+      "image": "care",
+      "rect": [
+        0,
+        388,
+        512,
+        372
+      ],
+      "origin": [
+        256,
+        366
+      ],
+      "reference_height": 366
+    },
+    {
+      "image": "care",
+      "rect": [
+        512,
+        388,
+        512,
+        372
+      ],
+      "origin": [
+        256,
+        366
+      ],
+      "reference_height": 366
+    },
+    {
+      "image": "care",
+      "rect": [
+        0,
+        760,
+        512,
+        388
+      ],
+      "origin": [
+        256,
+        383
+      ],
+      "reference_height": 366
+    },
+    {
+      "image": "care",
+      "rect": [
+        512,
+        760,
+        512,
+        388
+      ],
+      "origin": [
+        256,
+        383
+      ],
+      "reference_height": 366
+    },
+    {
+      "image": "care",
+      "rect": [
+        0,
+        1148,
+        512,
+        388
+      ],
+      "origin": [
+        256,
+        383
+      ],
+      "reference_height": 366
+    },
+    {
+      "image": "care",
+      "rect": [
+        512,
+        1148,
+        512,
+        388
+      ],
+      "origin": [
+        256,
+        383
+      ],
+      "reference_height": 366
+    }
+  ],
+  "phase_names": [
+    "接近",
+    "示意",
+    "前倾与接触",
+    "主动起立",
+    "稳立支撑",
+    "伴行",
+    "落定",
+    "松手"
+  ],
+  "keys": [
+    {
+      "time": 0,
+      "frame": 0
+    },
+    {
+      "time": 0.7,
+      "frame": 1
+    },
+    {
+      "time": 1.3,
+      "frame": 2
+    },
+    {
+      "time": 1.65,
+      "frame": 3
+    },
+    {
+      "time": 2.0,
+      "frame": 4
+    },
+    {
+      "time": 3.0,
+      "frame": 5
+    },
+    {
+      "time": 3.5,
+      "frame": 6
+    },
+    {
+      "time": 4.2,
+      "frame": 7
+    }
+  ],
+  "events": [
+    {
+      "name": "offer",
+      "time": 0.7,
+      "kind": "contact"
+    },
+    {
+      "name": "support_contact",
+      "time": 1.3,
+      "kind": "contact"
+    },
+    {
+      "name": "self_rise",
+      "time": 1.65,
+      "kind": "contact"
+    },
+    {
+      "name": "standing_stable",
+      "time": 2,
+      "kind": "contact"
+    },
+    {
+      "name": "accompany_step",
+      "time": 3,
+      "kind": "contact"
+    },
+    {
+      "name": "release",
+      "time": 4.2,
+      "kind": "contact"
+    }
+  ]
+}

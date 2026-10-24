@@ -1,0 +1,245 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_cooking_action_v1",
+  "title": "连续备餐：切配、入锅、翻动与盛出",
+  "type": "cooking",
+  "images": {
+    "hand": {
+      "path": "assets/hand.png",
+      "bounds": [
+        173,
+        147,
+        1518,
+        819
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "12a3963759118d3a0910a85d3386c5c4cde4a882cfb3b90fd9f14231cfc97dad"
+    },
+    "spatula_hand": {
+      "path": "assets/spatula_hand.png",
+      "bounds": [
+        59,
+        101,
+        1533,
+        939
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "644f330dbd87901ec7a52a5ccaf8146d9507f1071b0bf3d6299301daa045821d"
+    },
+    "food": {
+      "path": "assets/food.png",
+      "bounds": [
+        30,
+        80,
+        1230,
+        600
+      ],
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "0e5a20f2c2171a364ba470069cb170601ce7b150af5e1d4603f242c4e5008b52"
+    },
+    "board": {
+      "path": "assets/board.png",
+      "bounds": [
+        37,
+        73,
+        1503,
+        984
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4"
+    },
+    "knife": {
+      "path": "assets/knife.png",
+      "bounds": [
+        142,
+        48,
+        1332,
+        985
+      ],
+      "size": [
+        1451,
+        1084
+      ],
+      "sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5"
+    },
+    "cooker": {
+      "path": "assets/cooker.png",
+      "bounds": [
+        185,
+        214,
+        1266,
+        913
+      ],
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3"
+    },
+    "pan": {
+      "path": "assets/pan.png",
+      "bounds": [
+        97,
+        229,
+        1503,
+        810
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08"
+    },
+    "plate": {
+      "path": "assets/plate.png",
+      "bounds": [
+        0,
+        61,
+        1222,
+        1115
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "87f9c26d0380083348714358a7564d1bd27cc6866090a6dba602c417c73c7761"
+    },
+    "slice": {
+      "path": "assets/food.png",
+      "bounds": [
+        1480,
+        80,
+        2070,
+        600
+      ],
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "0e5a20f2c2171a364ba470069cb170601ce7b150af5e1d4603f242c4e5008b52"
+    }
+  },
+  "source_assets": [
+    {
+      "image": "board",
+      "asset_id": "paper:reserve_chopping_board_v1@c53a30403294f8af8b73",
+      "sha256": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4"
+    },
+    {
+      "image": "knife",
+      "asset_id": "paper:reserve_kitchen_knife_v1@dd728203f4639fca6804",
+      "sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5"
+    },
+    {
+      "image": "cooker",
+      "asset_id": "paper:reserve_induction_cooktop_v1@4b704626d82433ec47db",
+      "sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3"
+    },
+    {
+      "image": "pan",
+      "asset_id": "paper:reserve_frying_pan_v1@660885106d5ef2393566",
+      "sha256": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08"
+    },
+    {
+      "image": "plate",
+      "asset_id": "paper:reserve_plate_v1@5c367557ca816c92e0c7",
+      "sha256": "87f9c26d0380083348714358a7564d1bd27cc6866090a6dba602c417c73c7761"
+    }
+  ],
+  "scope": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+  "fps": 24,
+  "review_times": [
+    0,
+    0.56,
+    0.9,
+    1.18,
+    1.7,
+    2.5,
+    3.4,
+    3.7,
+    4,
+    4.3,
+    4.6,
+    5,
+    5.4,
+    5.8,
+    6.2,
+    6.6,
+    6.8,
+    7.2,
+    7.6,
+    8,
+    9
+  ],
+  "duration": 9.0,
+  "description": "三次刀刃接触后依次出现三片；三片原物入锅、被锅铲连续翻动，最后三片盛入餐盘。",
+  "transfer": {
+    "start": 3.4,
+    "end": 4.6
+  },
+  "stir": {
+    "start": 4.6,
+    "end": 6.6
+  },
+  "serve": {
+    "start": 6.8,
+    "end": 8.0
+  },
+  "events": [
+    {
+      "name": "cut_1",
+      "time": 0.9,
+      "kind": "cut",
+      "index": 0
+    },
+    {
+      "name": "cut_2",
+      "time": 1.7,
+      "kind": "cut",
+      "index": 1
+    },
+    {
+      "name": "cut_3",
+      "time": 2.5,
+      "kind": "cut",
+      "index": 2
+    },
+    {
+      "name": "gather",
+      "time": 3.4,
+      "kind": "contact"
+    },
+    {
+      "name": "pan_entry",
+      "time": 4.6,
+      "kind": "contact"
+    },
+    {
+      "name": "stir_start",
+      "time": 4.6,
+      "kind": "contact"
+    },
+    {
+      "name": "stir_stop",
+      "time": 6.6,
+      "kind": "contact"
+    },
+    {
+      "name": "serve",
+      "time": 8,
+      "kind": "contact"
+    }
+  ]
+}

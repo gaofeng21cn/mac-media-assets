@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MAC 连续动作样片</title>
+<style>
+body{margin:0;background:#f4eedf;color:#293b35;font:16px system-ui;line-height:1.7}
+main{max-width:1200px;margin:32px auto;padding:0 20px}h1{font-size:28px}h2{font-size:21px}
+#studies{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr));gap:28px}
+video{width:100%;display:block;background:#e9dfc9}a{color:#315f55}article p{margin:.6em 0}
+</style>
+<main><h1>连续动作样片</h1>
+<p>四套完整动作可播放，也可进入交互预览拖动时间轴、切换底色。人物采用完整姿态逐帧表演；备餐中的手、器具和食材独立运动。无旁白和音轨。</p>
+<div id="studies"></div>
+<p><a href="index.html">其他装配与接触动作</a> · <a href="../../docs/motion-studies.md">取用与适用范围</a></p></main>
+<script type="module">
+const rows=(await (await fetch('../../catalog/assets.jsonl')).text()).trim().split('\n').map(JSON.parse);
+for(const id of ['mac_walk_cycle_v1','mac_sit_stand_cycle_v1','mac_care_assistance_v1','mac_cooking_action_v1']){
+  const row=rows.find(r=>r.source_id===id&&!['superseded','needs_rebuild'].includes(r.curation?.status));
+  if(!row)continue;
+  const base='../../'+row.payload.find(p=>p.path.endsWith('/index.html')).path.replace(/index\.html$/,'');
+  const article=document.createElement('article'),heading=document.createElement('h2');heading.textContent=row.title;
+  const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='metadata';
+  video.src=base+'samples/sample.mp4';video.poster=base+'samples/keyframes/00.png';
+  const links=document.createElement('p');
+  for(const [label,path] of [['交互预览','index.html'],['全部关键姿态','samples/contact-sheet.jpg'],['审看记录','review.json']]){
+    if(links.childNodes.length)links.append(' · ');
+    const a=document.createElement('a');a.textContent=label;a.href=base+path;links.append(a);
+  }
+  article.append(heading,video,links);document.querySelector('#studies').append(article);
+}
+</script>
+</html>

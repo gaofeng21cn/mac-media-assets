@@ -42,9 +42,12 @@ remains specific to the intended use.
 
 ## Development
 
+Development checks use Python 3.11, Pillow, and Node.js 24.
+
 ```bash
 uv run --with Pillow python -m unittest discover -s tests -v
 python3 tools/verify_catalog.py
+node tools/check_motion_studies.mjs
 python3 tools/materialize_package.py --check
 ```
 
@@ -55,9 +58,9 @@ predecessor. This repository does not maintain a parallel publisher or channel p
 
 ## Current inventory
 
-The public catalog currently contains **207 asset identities, 221 registered revisions, and 787
-payload references**. All 207 identities are available to default discovery. The collection layer
-contains 17 assemblies and 10 event kits. Character coverage provides 49 baseline role/pose slots;
+The public catalog currently contains **211 asset identities, 225 registered revisions, and 919
+payload references**. All 211 identities are available to default discovery. The collection layer
+contains 17 assemblies and 14 event kits. Character coverage provides 49 baseline role/pose slots;
 registration and required anchor gaps are checked separately from motion, medical, listening, and
 current-shot review.
 
@@ -66,6 +69,13 @@ licensed voices, personal branding, and branded episode samples remain outside t
 On a local author workspace, a generic clinician import receives identity context stating that it is
 not the current author presenter; that context does not block production. Static walking poses do not
 prove a continuous gait, and an imported asset does not prove medical or publication approval.
+
+Four [complete motion samples](tools/preview-engine/motion.html) now cover a bilateral walk cycle,
+sitting down and standing up, daily assistance from approach through release, and food preparation
+from three cuts through stirring and serving. Each self-contained package includes editable code,
+source media, a full video, and visual review bound to its exact bytes. Character actions use
+flipbook paper-theatre poses; daily assistance depicts light support rather than clinical transfer.
+See [reuse and review scope](docs/motion-studies.md).
 
 ## Documentation
 

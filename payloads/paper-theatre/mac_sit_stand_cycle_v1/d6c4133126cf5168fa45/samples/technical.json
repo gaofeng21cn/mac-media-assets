@@ -1,0 +1,178 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 144,
+  "fps": 24,
+  "duration": 6,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "runtime.mjs": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "ae6d5bb0039a92ccb0d0ac5db5b13d792b776ab84cc1eb6b5fca7b89a1e25d0b",
+    "assets/sit.png": "9c3dd780a92ac627d4e73aa58f67705626a5bcc7e748d3ebde13d6fb43aab398",
+    "assets/chair.png": "c8365d28bf1404db216ac1521a502cfa5705c669a0d55c8b53eb067285de1c08"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png"
+  ],
+  "states": [
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 0,
+      "frame": 0,
+      "phase": "站立",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": []
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 0.79,
+      "frame": 0,
+      "phase": "站立",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": []
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 0.8,
+      "frame": 1,
+      "phase": "屈膝准备",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare"
+      ]
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 1.15,
+      "frame": 2,
+      "phase": "降低",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare"
+      ]
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 1.5,
+      "frame": 3,
+      "phase": "坐定",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare",
+        "seat_contact"
+      ]
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 2.25,
+      "frame": 4,
+      "phase": "坐姿保持",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare",
+        "seat_contact"
+      ]
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 3.1,
+      "frame": 5,
+      "phase": "前倾起身",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare",
+        "seat_contact",
+        "rise_prepare"
+      ]
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 3.45,
+      "frame": 6,
+      "phase": "伸展",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare",
+        "seat_contact",
+        "rise_prepare"
+      ]
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 3.8,
+      "frame": 7,
+      "phase": "站稳",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare",
+        "seat_contact",
+        "rise_prepare",
+        "standing_stable"
+      ]
+    },
+    {
+      "study": "mac_sit_stand_cycle_v1",
+      "time": 6,
+      "frame": 7,
+      "phase": "站稳",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.7079646017699115,
+      "events": [
+        "prepare",
+        "seat_contact",
+        "rise_prepare",
+        "standing_stable"
+      ]
+    }
+  ]
+}

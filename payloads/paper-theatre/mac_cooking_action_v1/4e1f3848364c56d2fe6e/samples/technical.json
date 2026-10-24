@@ -1,0 +1,437 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 216,
+  "fps": 24,
+  "duration": 9,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "87d24635543296dad1c88001ca31d20ef45472f27000838a0a8b6d984be8214a",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "63459da45a33e9ca2ad71c9d7394c0976dc084f10b8e16a27fadcdcf8c69adef",
+    "assets/hand.png": "12a3963759118d3a0910a85d3386c5c4cde4a882cfb3b90fd9f14231cfc97dad",
+    "assets/spatula_hand.png": "644f330dbd87901ec7a52a5ccaf8146d9507f1071b0bf3d6299301daa045821d",
+    "assets/food.png": "0e5a20f2c2171a364ba470069cb170601ce7b150af5e1d4603f242c4e5008b52",
+    "assets/board.png": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4",
+    "assets/knife.png": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5",
+    "assets/cooker.png": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3",
+    "assets/pan.png": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08",
+    "assets/plate.png": "87f9c26d0380083348714358a7564d1bd27cc6866090a6dba602c417c73c7761"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png",
+    "samples/keyframes/09.png",
+    "samples/keyframes/10.png",
+    "samples/keyframes/11.png",
+    "samples/keyframes/12.png",
+    "samples/keyframes/13.png",
+    "samples/keyframes/14.png",
+    "samples/keyframes/15.png",
+    "samples/keyframes/16.png",
+    "samples/keyframes/17.png",
+    "samples/keyframes/18.png",
+    "samples/keyframes/19.png",
+    "samples/keyframes/20.png"
+  ],
+  "states": [
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 0,
+      "made": 0,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 0,
+      "transfer": 0,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": []
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 0.56,
+      "made": 0,
+      "total": 3,
+      "knife": 1.1102230246251565e-16,
+      "currentCut": 0,
+      "transfer": 0,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": []
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 0.9,
+      "made": 1,
+      "total": 3,
+      "knife": 1,
+      "currentCut": 0,
+      "transfer": 0,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 1.18,
+      "made": 1,
+      "total": 3,
+      "knife": 0.17647058823529438,
+      "currentCut": 0,
+      "transfer": 0,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 1.7,
+      "made": 2,
+      "total": 3,
+      "knife": 1,
+      "currentCut": 1,
+      "transfer": 0,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1",
+        "cut_2"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 2.5,
+      "made": 3,
+      "total": 3,
+      "knife": 1,
+      "currentCut": 2,
+      "transfer": 0,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 3.4,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 0,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 3.7,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 0.1562500000000003,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 4,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 0.5000000000000003,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 4.3,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 0.8437500000000002,
+      "stirring": false,
+      "serving": 0,
+      "result": "on_board",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 4.6,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": true,
+      "serving": 0,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 5,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": true,
+      "serving": 0,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 5.4,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": true,
+      "serving": 0,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 5.8,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": true,
+      "serving": 0,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 6.2,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": true,
+      "serving": 0,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 6.6,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": false,
+      "serving": 0,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start",
+        "stir_stop"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 6.8,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": false,
+      "serving": 0,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start",
+        "stir_stop"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 7.2,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": false,
+      "serving": 0.25925925925925963,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start",
+        "stir_stop"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 7.6,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": false,
+      "serving": 0.7407407407407404,
+      "result": "in_pan",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start",
+        "stir_stop"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 8,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": false,
+      "serving": 1,
+      "result": "served",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start",
+        "stir_stop",
+        "serve"
+      ]
+    },
+    {
+      "study": "mac_cooking_action_v1",
+      "time": 9,
+      "made": 3,
+      "total": 3,
+      "knife": 0,
+      "currentCut": 3,
+      "transfer": 1,
+      "stirring": false,
+      "serving": 1,
+      "result": "served",
+      "events": [
+        "cut_1",
+        "cut_2",
+        "cut_3",
+        "gather",
+        "pan_entry",
+        "stir_start",
+        "stir_stop",
+        "serve"
+      ]
+    }
+  ]
+}

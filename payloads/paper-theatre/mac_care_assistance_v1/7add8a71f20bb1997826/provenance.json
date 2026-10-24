@@ -1,0 +1,15 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "image": "care",
+      "tool": "built_in_imagegen",
+      "source_filename": "exec-b43b64b8-4fd8-46d2-bba0-dd52d4894914.png",
+      "request_summary": "同一男性与短发照护者八格双人姿态：接近、示意、前倾、起立、稳立、伴行、落定、松手。",
+      "sha256": "5f983bb039eb4d1236e551abf742ec5479fe6ec854ecacc8b6769e4a8d90cf81",
+      "processing": "original bytes; frame extraction only at runtime; no alpha threshold rewrite"
+    }
+  ],
+  "source_assets": [],
+  "license": "Original code: Apache-2.0. Source media retain their registered provenance and reuse scope."
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 156,
+  "fps": 24,
+  "duration": 6.5,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "runtime.mjs": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "eb4c1edfaaa32d4f5192976c224d1cc194324e7cfb58561c7b1f0b8cd73f56ea",
+    "assets/care.png": "5f983bb039eb4d1236e551abf742ec5479fe6ec854ecacc8b6769e4a8d90cf81"
+  },
+  "keyframes": [
+    "samples/keyframes/00.png",
+    "samples/keyframes/01.png",
+    "samples/keyframes/02.png",
+    "samples/keyframes/03.png",
+    "samples/keyframes/04.png",
+    "samples/keyframes/05.png",
+    "samples/keyframes/06.png",
+    "samples/keyframes/07.png",
+    "samples/keyframes/08.png"
+  ],
+  "states": [
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 0,
+      "frame": 0,
+      "phase": "接近",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": []
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 0.7,
+      "frame": 1,
+      "phase": "示意",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer"
+      ]
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 1.3,
+      "frame": 2,
+      "phase": "前倾与接触",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer",
+        "support_contact"
+      ]
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 1.65,
+      "frame": 3,
+      "phase": "主动起立",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer",
+        "support_contact",
+        "self_rise"
+      ]
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 2,
+      "frame": 4,
+      "phase": "稳立支撑",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer",
+        "support_contact",
+        "self_rise",
+        "standing_stable"
+      ]
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 3,
+      "frame": 5,
+      "phase": "伴行",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer",
+        "support_contact",
+        "self_rise",
+        "standing_stable",
+        "accompany_step"
+      ]
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 3.5,
+      "frame": 6,
+      "phase": "落定",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer",
+        "support_contact",
+        "self_rise",
+        "standing_stable",
+        "accompany_step"
+      ]
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 4.2,
+      "frame": 7,
+      "phase": "松手",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer",
+        "support_contact",
+        "self_rise",
+        "standing_stable",
+        "accompany_step",
+        "release"
+      ]
+    },
+    {
+      "study": "mac_care_assistance_v1",
+      "time": 6.5,
+      "frame": 7,
+      "phase": "松手",
+      "world_origin": [
+        640,
+        625
+      ],
+      "scale": 1.4207650273224044,
+      "events": [
+        "offer",
+        "support_contact",
+        "self_rise",
+        "standing_stable",
+        "accompany_step",
+        "release"
+      ]
+    }
+  ]
+}

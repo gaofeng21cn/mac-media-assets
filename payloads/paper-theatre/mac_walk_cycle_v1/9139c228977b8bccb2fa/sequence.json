@@ -1,0 +1,270 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_walk_cycle_v1",
+  "title": "同身份成年男性双侧步态循环",
+  "type": "walk",
+  "images": {
+    "walk_a": {
+      "path": "assets/walk_a.png",
+      "bounds": [
+        22,
+        25,
+        1280,
+        1169
+      ],
+      "size": [
+        1285,
+        1224
+      ],
+      "sha256": "45348bc77ca66e86c5e68557819bd1b3c46c556b0aee93b7e4ad49ef384ebf79"
+    },
+    "walk_b": {
+      "path": "assets/walk_b.png",
+      "bounds": [
+        34,
+        22,
+        1925,
+        775
+      ],
+      "size": [
+        1942,
+        809
+      ],
+      "sha256": "3d30c76389cac63716e398d8edf8d238a94aff23049c04b3c17a4264e240f15b"
+    },
+    "stand": {
+      "path": "assets/stand.png",
+      "bounds": [
+        0,
+        29,
+        1004,
+        1510
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797"
+    }
+  },
+  "source_assets": [
+    {
+      "image": "stand",
+      "asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+      "sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797"
+    }
+  ],
+  "scope": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+  "fps": 24,
+  "review_times": [
+    0,
+    0.6,
+    0.85,
+    1.1,
+    1.35,
+    1.6,
+    1.85,
+    2.1,
+    2.35,
+    2.59,
+    2.6,
+    4.59,
+    4.6,
+    6
+  ],
+  "duration": 6.0,
+  "display_height": 470,
+  "x": 280,
+  "end_x": 1000,
+  "ground": 620,
+  "description": "站稳→两次完整双侧步态→站稳；八个真实完整姿态逐帧表演，脚底与地面共同配准。",
+  "frames": [
+    {
+      "image": "walk_a",
+      "rect": [
+        0,
+        0,
+        350,
+        606
+      ],
+      "origin": [
+        180,
+        578
+      ],
+      "reference_height": 550
+    },
+    {
+      "image": "walk_a",
+      "rect": [
+        350,
+        0,
+        290,
+        606
+      ],
+      "origin": [
+        145,
+        578
+      ],
+      "reference_height": 550
+    },
+    {
+      "image": "walk_a",
+      "rect": [
+        640,
+        0,
+        320,
+        606
+      ],
+      "origin": [
+        158,
+        575
+      ],
+      "reference_height": 550
+    },
+    {
+      "image": "walk_a",
+      "rect": [
+        960,
+        0,
+        325,
+        606
+      ],
+      "origin": [
+        162,
+        573
+      ],
+      "reference_height": 550
+    },
+    {
+      "image": "walk_b",
+      "rect": [
+        0,
+        0,
+        553,
+        809
+      ],
+      "origin": [
+        300,
+        790
+      ],
+      "reference_height": 755
+    },
+    {
+      "image": "walk_b",
+      "rect": [
+        553,
+        0,
+        420,
+        809
+      ],
+      "origin": [
+        225,
+        790
+      ],
+      "reference_height": 755
+    },
+    {
+      "image": "walk_b",
+      "rect": [
+        973,
+        0,
+        485,
+        809
+      ],
+      "origin": [
+        281,
+        790
+      ],
+      "reference_height": 755
+    },
+    {
+      "image": "walk_b",
+      "rect": [
+        1458,
+        0,
+        484,
+        809
+      ],
+      "origin": [
+        289,
+        790
+      ],
+      "reference_height": 755
+    },
+    {
+      "image": "stand",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "origin": [
+        502.0,
+        1510
+      ],
+      "reference_height": 1481,
+      "flip": true
+    }
+  ],
+  "phase_names": [
+    "右侧接触",
+    "承重",
+    "经过",
+    "抬升",
+    "对侧接触",
+    "对侧承重",
+    "对侧经过",
+    "对侧抬升",
+    "站稳"
+  ],
+  "ready_frame": 8,
+  "finish_frame": 8,
+  "loop": {
+    "start": 0.6,
+    "end": 4.6,
+    "period": 2,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "events": [
+    {
+      "name": "start",
+      "time": 0.6,
+      "kind": "foot_contact"
+    },
+    {
+      "name": "right_contact_1",
+      "time": 0.6,
+      "kind": "foot_contact"
+    },
+    {
+      "name": "left_contact_1",
+      "time": 1.6,
+      "kind": "foot_contact"
+    },
+    {
+      "name": "right_contact_2",
+      "time": 2.6,
+      "kind": "foot_contact"
+    },
+    {
+      "name": "left_contact_2",
+      "time": 3.6,
+      "kind": "foot_contact"
+    },
+    {
+      "name": "stop",
+      "time": 4.6,
+      "kind": "foot_contact"
+    }
+  ]
+}

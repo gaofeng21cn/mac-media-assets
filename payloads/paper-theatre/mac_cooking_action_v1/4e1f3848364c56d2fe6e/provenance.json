@@ -1,0 +1,57 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "image": "hand",
+      "tool": "built_in_imagegen",
+      "source_filename": "exec-9b1bf5c5-a6cf-489b-9627-8901827f56d5.png",
+      "request_summary": "成人单手自然握持空槽与芥黄袖口；无刀、无食物，作为真实接触层。",
+      "sha256": "12a3963759118d3a0910a85d3386c5c4cde4a882cfb3b90fd9f14231cfc97dad",
+      "processing": "original bytes; frame extraction only at runtime; no alpha threshold rewrite"
+    },
+    {
+      "image": "spatula_hand",
+      "tool": "built_in_imagegen",
+      "source_filename": "exec-c575988f-383d-4ce8-8468-ac254180deee.png",
+      "request_summary": "成人单手握木锅铲的完整透明接触单元。",
+      "sha256": "644f330dbd87901ec7a52a5ccaf8146d9507f1071b0bf3d6299301daa045821d",
+      "processing": "original bytes; frame extraction only at runtime; no alpha threshold rewrite"
+    },
+    {
+      "image": "food",
+      "tool": "built_in_imagegen",
+      "source_filename": "exec-6239f8a7-19b0-4d5c-a99c-54bdd240d958.png",
+      "request_summary": "两件分离食材：水平胡萝卜段和同视角单片胡萝卜圆片。",
+      "sha256": "0e5a20f2c2171a364ba470069cb170601ce7b150af5e1d4603f242c4e5008b52",
+      "processing": "original bytes; frame extraction only at runtime; no alpha threshold rewrite"
+    }
+  ],
+  "source_assets": [
+    {
+      "image": "board",
+      "asset_id": "paper:reserve_chopping_board_v1@c53a30403294f8af8b73",
+      "sha256": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4"
+    },
+    {
+      "image": "knife",
+      "asset_id": "paper:reserve_kitchen_knife_v1@dd728203f4639fca6804",
+      "sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5"
+    },
+    {
+      "image": "cooker",
+      "asset_id": "paper:reserve_induction_cooktop_v1@4b704626d82433ec47db",
+      "sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3"
+    },
+    {
+      "image": "pan",
+      "asset_id": "paper:reserve_frying_pan_v1@660885106d5ef2393566",
+      "sha256": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08"
+    },
+    {
+      "image": "plate",
+      "asset_id": "paper:reserve_plate_v1@5c367557ca816c92e0c7",
+      "sha256": "87f9c26d0380083348714358a7564d1bd27cc6866090a6dba602c417c73c7761"
+    }
+  ],
+  "license": "Original code: Apache-2.0. Source media retain their registered provenance and reuse scope."
+}
