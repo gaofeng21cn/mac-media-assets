@@ -49,8 +49,8 @@ def prepare(source, annotation, folder=FOLDER):
       'discovery':{'category':'motion','character_role':'older_woman','poses':['stand','seated','lying'],'aliases':['床','侧卧','老年女性','休息'],
          'actions':['床沿落座','侧卧休息','起身'],'medium':'code','renderers':['canvas2d']},
       'tags':['bed_support','complete_contact_unit','same_identity'],
-      'checked':['六姿态完整原图、头枕和床垫承托、床沿双脚落地、固定同一床脚、原尺寸/手机宽/三底色。'],
-      'defects_found_and_fixed':['完整人物和床同一视角与身体标尺，避免按床或卧姿外框独立拉伸。'],
+      'review_targets':['六姿态完整原图、头枕和床垫承托、床沿双脚落地、固定同一床脚、原尺寸/手机宽/三底色。'],
+      'preparation_notes':['完整人物和床同一视角与身体标尺，避免按床或卧姿外框独立拉伸。'],
       'not_reviewed':['独立医生终审和当前镜头pending；不作临床转移教学。'],
       'usage_note':'完整接触单元调用renderStudy，共同缩放；不拆人物和床。'}
     folder.parent.joinpath('registration-request.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2)+'\n')

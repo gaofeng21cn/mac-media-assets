@@ -118,9 +118,9 @@ def prepare(references, annotations, stage=STAGE):
                 'aliases':[ref['label'],'落座','取报告','起身'],
                 'actions':['坐站过渡','取报告','持物'],'medium':'code','renderers':['canvas2d']},
             'tags':['complete_character','same_identity','contact_unit','seated_reach_stand'],
-            'checked':['八姿态源图与母版身份、身体体量、椅面承托、脚底和报告持有关系。',
+            'review_targets':['八姿态源图与母版身份、身体体量、椅面承托、脚底和报告持有关系。',
                        '所有状态和切换两侧、原尺寸、手机宽及浅深彩底；实际渲染与随机seek。'],
-            'defects_found_and_fixed':['以人物和家具完整接触单元替代独立缩放，坐姿保留站姿身体标尺。'],
+            'preparation_notes':['以人物和家具完整接触单元替代独立缩放，坐姿保留站姿身体标尺。'],
             'not_reviewed':['独立医学终审与当前生产镜头pending；普通自主日常动作，不批准临床转移。'],
             'usage_note':'显式调用renderStudy；同一身体标尺与帧内家具锚点共同变换，完整单元不可拆成独立椅子或手臂。'})
     return plans

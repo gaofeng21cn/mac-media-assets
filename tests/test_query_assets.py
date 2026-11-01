@@ -62,7 +62,7 @@ class SemanticDiscoveryTests(unittest.TestCase):
                 'reserve_kitchen_counter_v2', 'reserve_chopping_board_v1',
                 'reserve_kitchen_knife_v1', 'reserve_induction_cooktop_v1',
                 'reserve_frying_pan_v1', 'reserve_wooden_spatula_v1',
-                'reserve_broccoli_v1', 'reserve_oil_v1',
+                'reserve_broccoli_v1', 'reserve_oil_v1', 'mac_cooking_action_v1',
             },
         )
         self.assertEqual(query(asset_id='reserve_thyroid_simple_v1'), [])

@@ -26,10 +26,10 @@ function sprite(ctx,image,frame,x,y,scale,flip=false){
   ctx.save();ctx.translate(x,y);ctx.scale(flip?-scale:scale,scale);
   ctx.drawImage(image,sx,sy,sw,sh,-ax,-ay,sw,sh);ctx.restore();
 }
-function piece(ctx,images,recipe,id,x,y,w,angle=0,anchor=[.5,.5],crop){
+function piece(ctx,images,recipe,id,x,y,w,angle=0,anchor=[.5,.5],crop,scaleY=1){
   const info=recipe.images[id],img=images[id];
   const b=crop||info.bounds||[0,0,img.width,img.height],bw=b[2]-b[0],bh=b[3]-b[1],s=w/bw;
-  ctx.save();ctx.translate(x,y);ctx.rotate(angle);
+  ctx.save();ctx.translate(x,y);ctx.rotate(angle);ctx.scale(1,scaleY);
   ctx.drawImage(img,b[0],b[1],bw,bh,-anchor[0]*bw*s,-anchor[1]*bh*s,w,bh*s);ctx.restore();
 }
 export function cookingState(recipe,t){
@@ -48,14 +48,14 @@ export function cookingLayout(r,t){
   const a=(t-r.stir.start)/(r.stir.end-r.stir.start)*Math.PI*4;
   const center={x:823+(s.stirring?Math.sin(a)*35:0),y:447+(s.stirring?(1-Math.cos(a))*12:0)};
   const paddle={x:lerp(490,center.x,s.transfer),y:lerp(433,center.y,s.transfer)-Math.sin(Math.PI*s.transfer)*80};
-  paddle.x=lerp(paddle.x,1000,s.serving);
-  paddle.y=lerp(paddle.y,268,s.serving)-Math.sin(Math.PI*s.serving)*70;
+  paddle.x=lerp(paddle.x,1060,s.serving);
+  paddle.y=lerp(paddle.y,550,s.serving)-Math.sin(Math.PI*s.serving)*70;
   const slices=Array.from({length:s.made},(_,i)=>{
     const offset=(i-1)*24;
     let x=lerp(460+i*25,center.x+offset,s.transfer);
     let y=lerp(432+i*8,center.y+(i%2)*13,s.transfer)-Math.sin(Math.PI*s.transfer)*80;
-    x=lerp(x,1000+offset,s.serving);
-    y=lerp(y,268+(i%2)*13,s.serving)-Math.sin(Math.PI*s.serving)*70;
+    x=lerp(x,1060+offset,s.serving);
+    y=lerp(y,550+(i%2)*13,s.serving)-Math.sin(Math.PI*s.serving)*70;
     return {id:`slice_${i+1}`,x,y};
   });
   return {paddle,slices};
@@ -67,7 +67,7 @@ function renderCooking(ctx,images,r,t){
   piece(ctx,images,r,'board',340,450,510);
   piece(ctx,images,r,'cooker',875,490,435);
   piece(ctx,images,r,'pan',900,425,520);
-  piece(ctx,images,r,'plate',1010,270,235);
+  piece(ctx,images,r,'plate',1070,555,260,0,[.5,.5],undefined,.54);
   const cuts=r.events.filter(e=>e.kind==='cut');
   const vegetable=r.images.food.bounds,whole=[...vegetable];
   const wholeW=vegetable[2]-vegetable[0];whole[2]-=s.made*wholeW*.085;

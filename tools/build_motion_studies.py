@@ -132,23 +132,8 @@ def prepare(generated, out):
                         'reference_height':bounds[3]-bounds[1],'flip':True})
     write(folder/'sequence.json',r);folders.append(folder)
 
-    folder,r=start('mac_sit_stand_cycle_v1','同身份坐下、坐定与起立完整过渡','sit')
-    size=gen(folder,r,'sit');old(folder,r,'chair','reserve_chair_v1')
-    origins=[[138,731],[138,716],[138,711],[138,737],[126,677],[132,670],[135,691],[140,711]]
-    r.update(duration=6.0,display_height=480,x=640,ground=620,
-             description='站立→前倾屈膝→降低→坐定停留→前倾→髋膝伸展→站稳；人物保持同一体量。',
-             frames=grid('sit',size,4,2,678,origins),
-             phase_names=['站立','屈膝准备','降低','坐定','坐姿保持','前倾起身','伸展','站稳'],
-             keys=[{'time':time,'frame':i} for i,time in enumerate([0,.8,1.15,1.5,2.25,3.1,3.45,3.8])],
-             events=[{'name':name,'time':time,'kind':'contact'} for name,time in
-                     [('prepare',.8),('seat_contact',1.5),('rise_prepare',3.1),('standing_stable',3.8)]],
-             chair={'x':695,'y':436,'width':360},review_times=[0,.79,.8,1.15,1.5,2.25,3.1,3.45,3.8,6])
-    # Remove only blank gutters from each source rectangle. No source alpha or
-    # figure pixel is rewritten; the next row's head must not leak into a cell.
-    for i,frame in enumerate(r['frames']):
-        if i<4:frame['rect'][3]=752
-        else:frame['rect'][1]+=8;frame['rect'][3]-=8;frame['origin'][1]-=8
-    write(folder/'sequence.json',r);folders.append(folder)
+    # Sit/stand now uses build_role_contact_studies.py: complete contact units
+    # share one body ruler. The independently sized chair recipe is withdrawn.
 
     folder,r=start('mac_care_assistance_v1','双人照护：接近、协助起身、伴行与松手','care')
     size=gen(folder,r,'care')
@@ -200,10 +185,11 @@ def prepare(generated, out):
 
 def freeze(folder, root):
     recipe=read(folder/'sequence.json');review=read(folder/'review.json')
-    if review.get('status')!='passed' or review.get('sequence_sha256')!=sha(folder/'sequence.json'):
-        raise ValueError('缺少绑定当前 sequence 的实际审看结果')
-    for rel,expected in {**review['inputs'],**review['media']}.items():
-        if sha(folder/rel)!=expected:raise ValueError(f'审看后输入改变：{rel}')
+    from motion_package import bound_files, validate_review
+    inputs, media = bound_files(folder)
+    validate_review(review, inputs, media, recipe)
+    if review.get('status') != 'passed' or 'rejected' in review.get('domains', {}).values():
+        raise ValueError('缺少独立、绑定当前样片的完整动作审看结果')
     for rel in ('samples/sample.mp4','samples/contact-sheet.jpg'):
         if not (folder/rel).is_file():raise ValueError(f'缺少真实样例：{rel}')
     descriptors=[]
@@ -222,7 +208,7 @@ def freeze(folder, root):
               'reuse_scope':{'kind':'general'},'source':{'kind':'original_animation','generation_receipt':'provenance.json'},
               'tags':['paper_collage','continuous_action',recipe['type']],'discovery':discovery,
               'status':'reusable_candidate','usage_notes':recipe['scope'],
-              'review':{'static_alpha':'checked_on_light_dark_color_composites','full_motion':'passed',
+              'review':{'static_alpha':review['domains'].get('static_alpha','pending'),'full_motion':'passed',
                         'current_shot':'pending','medical':'not_applicable','full_listening':'not_applicable',
                         'evidence_ref':'review.json'},'medical_review':'not_applicable',
               'quality_debt':['current_shot_review_pending'],
@@ -245,7 +231,7 @@ def freeze(folder, root):
          'payload':[{**item,'path':(payload_root/item['path']).relative_to(root).as_posix()} for item in descriptors],
          'portable_record':record_path.relative_to(root).as_posix(),'portable_record_sha256':sha(record_path),
          'provenance':{'source_type':'original_animation','source_ref':{'recorded_in':'provenance.json'}},
-         'review_boundary':{'admission':'reusable_candidate','motion':'passed','medical':'not_applicable',
+         'review_boundary':{'admission':'reusable_candidate','motion':'passed','static':review['domains'].get('static_alpha','pending'),'medical':'not_applicable',
                             'listening':'not_applicable','quality_debt':['current_shot_review_pending']}}
     with (root/'catalog/assets.jsonl').open('a',encoding='utf-8') as stream:
         stream.write(json.dumps(row,ensure_ascii=False,sort_keys=True)+'\n')

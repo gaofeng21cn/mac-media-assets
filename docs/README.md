@@ -4,7 +4,7 @@
 
 ## 使用入口
 
-- [根 README](../README.md)：安装、离线查询、当前库存、许可证和边界。
+- [根 README](../README.md)：素材预览、分类与用途、MAC 接入和独立浏览。
 - [资产清单](asset-inventory.md)：按类别列出当前公共版本及原记录链接。
 - [覆盖与储备规划](asset-coverage.md)：角色姿态、组合、成熟度、已知缺口和下一批补充顺序。
 - [初稿质量基线](first-draft-quality.md)：写分镜前的查询、实看、代表镜头和当前镜头复核。
@@ -13,6 +13,7 @@
 
 ## 治理与技术入口
 
+- [本轮比例与接触检查](quality-audit-2026-11-01.md)：已撤回版本、修复范围和审核机制。
 - [资产库治理与 Review 边界](governance-and-review.md)：公共库职责、版本、复用和独立审看层级。
 - [catalog 说明](../catalog/README.md)：`catalog/assets.jsonl` 的字段职责和精确版本引用。
 - [公共载荷说明](../payloads/README.md)：`payloads/`、来源证据、SHA-256 和离线校验。
@@ -29,12 +30,18 @@
 
 ## 维护验证
 
+开发验证使用 Python 3.11、Pillow 和 Node.js 24。
+
 ```bash
 uv run --with Pillow python -m unittest discover -s tests -v
+python3 tools/apply_curation.py --check
 python3 tools/verify_catalog.py
+python3 tools/query_assets.py --query 肾脏 --limit 5
 node tools/check_motion_studies.mjs
 python3 tools/materialize_package.py --check
 git diff --check
 ```
 
-修改目录或载荷后先运行 `python3 tools/materialize_package.py`，再运行上述检查。发布由 OPL Framework 的既有 Package 发布入口负责；本仓库不维护第二套发布器、安装器或 `latest` 指针。
+修改目录或载荷后先运行 `python3 tools/materialize_package.py` 刷新 capability descriptor 的内容锁，再运行上述检查。`records/` 中的历史工作台路径仅说明来源；消费者通过 installed descriptor 使用实际安装根目录和目录内相对引用。
+
+发布由 OPL Framework 的既有 `publish-package.yml` 选择准确版本、源码提交和 OCI predecessor 后执行。本仓库不维护第二套发布器、安装器或 `latest` 指针。

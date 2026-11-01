@@ -15,8 +15,8 @@ def register(identifier, folder=None, root=ROOT):
   source_assets={'library':r['source_assets'],'generation':[],'note':'复用精确公开原件；运行源码为原创，样片无作者/品牌。'},
   discovery={'category':'motion','aliases':[r['title'],identifier],'actions':['器械操作','连续监测']if identifier.startswith('mac_bp')else['动态血压','日夜记录','24小时监测'],'medium':'code','renderers':['canvas2d']},
   tags=['paper_collage','monitoring','contact_repair_20261024'],
-  checked=['原尺寸关键动作、接触极值、切换前后及浅深彩底和手机宽查看。','全部浏览器帧已渲染；随机拖动确定性和无报错已回读。'],
-  defects_found_and_fixed=repairs[identifier],
+  review_targets=['原尺寸关键动作、接触极值、切换前后及浅深彩底和手机宽查看。','全部浏览器帧已渲染；随机拖动确定性和无报错已回读。'],
+  preparation_notes=repairs[identifier],
   not_reviewed=['独立医学终审及当前生产镜头 pending；样片无声，不批准听感。'],
   usage_note='复制后显式接入 renderStudy，时间由镜头传入；本包医疗审核 pending。')
 if __name__=='__main__':

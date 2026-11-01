@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse, hashlib, json
 from pathlib import Path
 from apply_character_anchors import canonical_revision
+from query_assets import load_curation, effective_row, available
 
 
 def digest(path: Path) -> str:
@@ -29,8 +30,14 @@ def main() -> int:
     source_revisions: dict[str, set[str]] = {}
     payloads = 0
     historical_invalid_revisions = 0
+    curation = load_curation(root)
     for row in rows:
         rid = row.get("id")
+        if row != effective_row(row, curation):
+            errors.append(f"stale_curation_projection:{rid}")
+        evidence = row.get('curation', {}).get('evidence_ref')
+        if evidence and not (root / evidence.split('#')[0]).is_file():
+            errors.append(f"missing_curation_evidence:{rid}")
         if row.get("kind") == "brand" or (row.get("reuse_scope") or {}).get("kind") == "author":
             errors.append(f"private_author_asset:{rid}")
         if not rid or rid in ids:
@@ -133,6 +140,15 @@ def main() -> int:
             for part in collection.get('parts', []):
                 if part.get('asset_id') not in ids:
                     errors.append(f"collection_resource:{filename}:{part.get('asset_id')}")
+                else:
+                    member = next(row for row in rows if row['id'] == part['asset_id'])
+                    if not available(effective_row(member, curation)):
+                        errors.append(f"collection_withdrawn:{filename}:{collection['id']}:{member['id']}")
+                    if part.get('revision') != member['revision'] or part.get('source_id') != member['source_id']:
+                        errors.append(f"collection_identity:{filename}:{collection['id']}:{member['id']}")
+            preview = collection.get('preview_asset_id')
+            if preview and preview not in {part.get('asset_id') for part in collection.get('parts', [])}:
+                errors.append(f"collection_preview_not_member:{filename}:{collection['id']}")
     result = {
         "schema": "medical_video_asset_verify/v1",
         "status": "passed" if not errors else "diagnostic",

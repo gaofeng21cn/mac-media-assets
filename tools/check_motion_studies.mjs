@@ -6,9 +6,9 @@ import {pathToFileURL} from 'node:url';
 import {createHash} from 'node:crypto';
 const root=resolve(process.argv[2]||'.');
 const rows=(await readFile(resolve(root,'catalog/assets.jsonl'),'utf8')).trim().split('\n').map(JSON.parse);
-const ids=['mac_walk_cycle_v1','mac_sit_stand_cycle_v1','mac_care_assistance_v1','mac_cooking_action_v1'];
+const ids=['mac_walk_cycle_v1','mac_young_man_seat_report_stand_v1','mac_care_assistance_v1','mac_cooking_action_v1'];
 for(const id of ids){
-  const matches=rows.filter(r=>r.source_id===id);
+  const matches=rows.filter(r=>r.source_id===id&&!['needs_rebuild','superseded'].includes(r.curation?.status));
   assert.equal(matches.length,1,`${id}: one admitted recipe`);
   const record=JSON.parse(await readFile(resolve(root,matches[0].portable_record),'utf8'));
   const folder=dirname(resolve(root,matches[0].payload.find(f=>f.path.endsWith('/sequence.json')).path));

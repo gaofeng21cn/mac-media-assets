@@ -1,15 +1,14 @@
 # 可复用动作包
 
-[完整样片与交互预览](../tools/preview-engine/motion.html)可按角色、结构和动作筛选。页面默认静止，点击后播放；每套保留原图、可编辑源码、精确版本、完整样片、浅深彩底、手机宽和输入绑定的审看记录。
+[完整样片与交互预览](../tools/preview-engine/motion.html)可按角色、结构和动作筛选。页面默认静止，点击后播放；每套保留原图、可编辑源码、精确版本和样片。当前策展标明实际审看范围；原审看记录仅用于追溯。
 
 ## 人物、监测与生活
 
 | 动作 | 精确版本 |
 | --- | --- |
 | 同身份成年男性双侧步态循环 | `paper:mac_walk_cycle_v1@9139c228977b8bccb2fa` |
-| 同身份坐下、坐定与起立完整过渡 | `paper:mac_sit_stand_cycle_v1@d6c4133126cf5168fa45` |
 | 双人照护：接近、协助起身、伴行与松手 | `paper:mac_care_assistance_v1@7add8a71f20bb1997826` |
-| 连续备餐：切配、入锅、翻动与盛出 | `paper:mac_cooking_action_v1@4e1f3848364c56d2fe6e` |
+| 连续备餐：切配、入锅、翻动与盛出 | `paper:mac_cooking_action_v1@1f97edf2520381c84d8f` |
 | 上臂式血压计：贴合袖带、静止测量与取下 | `paper:mac_bp_cuff_action_v1@cd76e767f879e3b37fca` |
 | 血糖仪操作：插试纸、采血、读数与按压止血 | `paper:mac_glucose_test_action_v1@22e327c4f455cc309c19` |
 | 动态血压：佩戴、固定、试测、日夜记录与交回 | `paper:mac_abpm_wear_cycle_v1@7b24ce96e85f54d216d5` |
@@ -69,6 +68,8 @@ python3 scripts/media_asset_library.py use --root <公共库路径> \
 动作进入工程的 `src/library/<ID>/<revision>/`。加载复制后的图片与sequence.json，调用 `renderStudy(ctx, images, sequence, seconds)`；本集控制时间并支持随机seek。图集rect为整图坐标，origin为帧内坐标，registration.json保管绑定源SHA的人工配准。真实取用须回读library-record、sequence和载荷字节；当前镜头重新审查。
 
 ## 证据与维护
+
+2026-11-01 已撤回原独立人物/椅子的坐站包，并新增烹饪透视修订。52 套当前动作样片仅保留有依据的抽帧审看，完整动态仍待审；原始包内的批量 passed 不再作为取用结论。详见[本轮检查](quality-audit-2026-11-01.md)。
 
 本批47个新动作包和2个简化图修订已全部真实导入独立小样，3092个载荷逐文件SHA一致。此前四套动作的[132载荷取用证据](interaction-review/motion-intake-20261024.json)保留原范围。人物、结构和安装回执分别记录，技术通过不升级为当前生产镜头、听感、独立医学终审或发布通过。
 

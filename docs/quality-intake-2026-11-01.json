@@ -1,0 +1,27 @@
+{
+  "schema": "mac_asset_quality_intake/v1",
+  "date": "2026-11-01",
+  "entry": "actual workspace scripts/media_asset_library.py",
+  "withdrawn_external_query_count": 0,
+  "withdrawn_external_use": "not_imported",
+  "withdrawn_local_reuse": "not_imported",
+  "replacement": "paper:mac_cooking_action_v1@1f97edf2520381c84d8f",
+  "import_status": "copied_and_verified",
+  "verified_payloads": 46,
+  "effective_review_boundary": {
+    "admission": "reusable_candidate",
+    "evidence_ref": "docs/quality-audit-2026-11-01.json",
+    "listening": "not_applicable",
+    "medical": "not_applicable",
+    "motion": "pending",
+    "quality_debt": [
+      "static_background_review_pending",
+      "full_motion_review_pending",
+      "current_shot_review_pending"
+    ],
+    "sampled_visual": "reviewed",
+    "static": "pending"
+  },
+  "current_shot_review": "pending",
+  "animation_reference_bound": true
+}

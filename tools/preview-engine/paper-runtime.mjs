@@ -13,13 +13,13 @@ export function poseAt(t, keys) {
 export class PaperStage {
  constructor(canvas,assets){this.ctx=canvas.getContext('2d');this.assets=assets;this.layout=[];this.events=[];}
  begin(t){const c=this.ctx;this.t=t;this.layout=[];this.events=[];c.setTransform(1,0,0,1,0,0);c.clearRect(0,0,1280,720);c.fillStyle='#f4eedf';c.fillRect(0,0,1280,720);}
- piece(id,{x=640,y=360,w=400,h,angle=0,opacity=1,hinge=1,shadow=7,flip=false,crop,z=0}={}) {
-  const a=this.assets[id];if(!a)return;
+ piece(id,{x=640,y=360,w=400,h,angle=0,opacity=1,hinge=1,hingeY=1,shadow=7,flip=false,crop,z=0}={}) {
+  const a=this.assets[id];if(!a)throw new Error('Missing collection asset: '+id);
   const b=crop||a.bounds||[0,0,a.image.width,a.image.height]; const bw=b[2]-b[0],bh=b[3]-b[1];h=h||w*bh/bw;
-  const c=this.ctx;c.save();c.globalAlpha=opacity;c.translate(x,y);c.rotate(angle);c.scale((flip?-1:1)*hinge,1);
+  const c=this.ctx;c.save();c.globalAlpha=opacity;c.translate(x,y);c.rotate(angle);c.scale((flip?-1:1)*hinge,hingeY);
   c.shadowColor='rgba(53,36,19,.22)';c.shadowBlur=shadow;c.shadowOffsetY=shadow*.55;
   c.drawImage(a.image,b[0],b[1],bw,bh,-w/2,-h/2,w,h);c.restore();
-  this.layout.push({id,x,y,width:w*Math.abs(hinge),height:h,angle,z,crop:b});
+  this.layout.push({id,x,y,width:w*Math.abs(hinge),height:h*Math.abs(hingeY),angle,z,crop:b});
  }
  contact(name,t,at){if(Math.abs(this.t-t)<.15)this.events.push({name,time:t,...at});}
 }

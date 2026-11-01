@@ -263,7 +263,6 @@
 | 动脉壁·逐层揭示与局部高亮 | [原记录](../records/paper-theatre/mac_artery_wall_structure_reveal_v1/5533f7ee96339311a399/record.json) |
 | 印章接触、落印与抬起 | [原记录](../records/paper-theatre/paper_contact_stamp/0890d02304a9b9dc1dcf/record.json) |
 | 双人照护：接近、协助起身、伴行与松手 | [原记录](../records/paper-theatre/mac_care_assistance_v1/7add8a71f20bb1997826/record.json) |
-| 同身份坐下、坐定与起立完整过渡 | [原记录](../records/paper-theatre/mac_sit_stand_cycle_v1/d6c4133126cf5168fa45/record.json) |
 | 同身份成年男性双侧步态循环 | [原记录](../records/paper-theatre/mac_walk_cycle_v1/9139c228977b8bccb2fa/record.json) |
 | 垂体与邻近结构·逐层揭示与局部高亮 | [原记录](../records/paper-theatre/mac_pituitary_structure_reveal_v1/12e57ad343774b8f2f8d/record.json) |
 | 垂体与邻近结构·鞍区关系图局部揭示连续开合 | [原记录](../records/paper-theatre/mac_pituitary_section_open_close_v1/0eb59b3dc64ba920ea95/record.json) |
@@ -313,7 +312,7 @@
 | 血糖仪操作：插试纸、采血、读数与按压止血 | [原记录](../records/paper-theatre/mac_glucose_test_action_v1/22e327c4f455cc309c19/record.json) |
 | 足关节·踝关节位置揭层连续开合 | [原记录](../records/paper-theatre/mac_foot_joint_section_open_close_v1/ef45083320cdce37f5fa/record.json) |
 | 足关节·逐层揭示与局部高亮 | [原记录](../records/paper-theatre/mac_foot_joint_structure_reveal_v1/c8fb38bd7e928a833230/record.json) |
-| 连续备餐：切配、入锅、翻动与盛出 | [原记录](../records/paper-theatre/mac_cooking_action_v1/4e1f3848364c56d2fe6e/record.json) |
+| 连续备餐：切配、入锅、翻动与盛出 | [原记录](../records/paper-theatre/mac_cooking_action_v1/1f97edf2520381c84d8f/record.json) |
 | 青少年女性·落座、取报告与起身 | [原记录](../records/paper-theatre/mac_teen_girl_seat_report_stand_v1/b15d25f5a56c1d9c79b0/record.json) |
 
 ## 配乐

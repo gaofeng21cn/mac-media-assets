@@ -16,9 +16,10 @@ nav{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}input,select{font:inherit
 <div id="studies"></div>
 <p><a href="index.html">其他装配与接触动作</a> · <a href="../../docs/motion-studies.md">取用与适用范围</a></p></main>
 <script type="module">
-const rows=(await (await fetch('../../catalog/assets.jsonl')).text()).trim().split('\n').map(JSON.parse);
+import {loadCatalog, available} from './catalog.mjs';
+const rows=await loadCatalog(new URL('../../',location.href));
 const cards=[];
-for(const row of rows.filter(r=>r.kind==='motion_recipe'&&!['superseded','needs_rebuild'].includes(r.curation?.status)).sort((a,b)=>a.title.localeCompare(b.title,'zh-CN'))){
+for(const row of rows.filter(r=>r.kind==='motion_recipe'&&available(r)).sort((a,b)=>a.title.localeCompare(b.title,'zh-CN'))){
   const prefix='/'+row.source_id+'/'+row.revision+'/';
   const entry=row.payload.find(p=>p.path.endsWith(prefix+'index.html'));
   if(!entry||!row.payload.some(p=>p.path.endsWith(prefix+'samples/sample.mp4')))continue;
@@ -28,12 +29,14 @@ for(const row of rows.filter(r=>r.kind==='motion_recipe'&&!['superseded','needs_
   const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='none';
   video.src=base+'samples/sample.mp4';video.poster=base+'samples/keyframes/00.png';
   const links=document.createElement('p');
-  for(const [label,path] of [['交互预览','index.html'],['全部关键姿态','samples/contact-sheet.jpg'],['审看记录','review.json']]){
+  for(const [label,path] of [['交互预览','index.html'],['全部关键姿态','samples/contact-sheet.jpg'],['原始审看记录','review.json']]){
     if(links.childNodes.length)links.append(' · ');
     const a=document.createElement('a');a.textContent=label;a.href=base+path;links.append(a);
   }
   const scope=document.createElement('p');scope.textContent=d.usage_notes||row.review_boundary?.scope||'';
-  article.append(heading,video,links,scope);document.querySelector('#studies').append(article);
+  const status=document.createElement('p');status.textContent='当前审核：'+(row.review_boundary?.motion==='passed'?'完整动作已审':'完整动作待审')+'；当前镜头需复核。';
+  if(row.curation?.evidence_ref){const a=document.createElement('a');a.textContent='本轮复核范围';a.href='../../'+row.curation.evidence_ref;status.append(' · ',a);}
+  article.append(heading,video,links,scope,status);document.querySelector('#studies').append(article);
   cards.push({article,family,text:[row.title,...(d.aliases||[]),...(d.actions||[])].join(' ').toLowerCase()});
 }
 function filter(){const term=document.querySelector('#search').value.trim().toLowerCase(),family=document.querySelector('#family').value;let count=0;for(const card of cards){card.article.hidden=!!((family&&card.family!==family)||(term&&!card.text.includes(term)));if(!card.article.hidden)count++;else card.article.querySelector('video').pause()}document.querySelector('#count').textContent=count+' 套'}

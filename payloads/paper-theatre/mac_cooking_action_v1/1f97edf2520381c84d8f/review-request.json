@@ -1,0 +1,60 @@
+{
+  "review_targets": [
+    "餐盘与锅面透视、承托及三片食材身份",
+    "盛出终点与餐盘接触"
+  ],
+  "preparation_notes": [
+    "餐盘改为与锅台一致的俯斜视角，食材落点随餐盘移动"
+  ],
+  "not_reviewed": [
+    "完整动态",
+    "医学",
+    "听感",
+    "当前镜头"
+  ],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "a5609fd719c802a658273fdbace00b23aac22963f2e61361ce3ddcb34b948509",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "63459da45a33e9ca2ad71c9d7394c0976dc084f10b8e16a27fadcdcf8c69adef",
+    "assets/hand.png": "12a3963759118d3a0910a85d3386c5c4cde4a882cfb3b90fd9f14231cfc97dad",
+    "assets/spatula_hand.png": "644f330dbd87901ec7a52a5ccaf8146d9507f1071b0bf3d6299301daa045821d",
+    "assets/food.png": "0e5a20f2c2171a364ba470069cb170601ce7b150af5e1d4603f242c4e5008b52",
+    "assets/board.png": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4",
+    "assets/knife.png": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5",
+    "assets/cooker.png": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3",
+    "assets/pan.png": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08",
+    "assets/plate.png": "87f9c26d0380083348714358a7564d1bd27cc6866090a6dba602c417c73c7761"
+  },
+  "media": {
+    "samples/background-color.png": "e8b1028620342848d6e06585bedb0fd64cc7170e0bab249f823e3b234707637d",
+    "samples/background-dark.png": "5d30dbf9ac5e349a7772fa5c865101f28fa13f62d7fd51fd8a0ac1cdf662f9f1",
+    "samples/background-light.png": "c42e8b4e601d0c383a0e8d05c1ba1b39a1b80198e53ef6d90329b99439d15bf8",
+    "samples/background-review.jpg": "cdd1e3f77ed2c927635a5670d5a23c219d86497186d507cfa27107e82c66224b",
+    "samples/contact-sheet.jpg": "1a8d063a605d24eebfe733f92de985cfc54ddb5ebaae683adab6e7d1a35e1268",
+    "samples/keyframes/00.png": "04943233bf3627bb52aa807cd1ac602dd03ca7f9025fbaf51361242feb86c1ed",
+    "samples/keyframes/01.png": "04943233bf3627bb52aa807cd1ac602dd03ca7f9025fbaf51361242feb86c1ed",
+    "samples/keyframes/02.png": "7a7b782daadb7b96b7d1a9f47bbe99ed1d3864f42f7a2d92c898ad0d84e194d7",
+    "samples/keyframes/03.png": "384e0bb1590ac4234b8bca4663acf3a83ee37f45e0653e9e9d2f540141f3c812",
+    "samples/keyframes/04.png": "740a7186b8671336aa93ff992cf53fd263fa59da011e224cf197ca1e294c8c5d",
+    "samples/keyframes/05.png": "7d44ebdf74dbb81369a16fa598946bd6ccbc7b12eb65c63823b2d917b8846d37",
+    "samples/keyframes/06.png": "d3993d730d7a2ca15a52d361136ecb2b5ecf78a738a54eacfc39c989e230c644",
+    "samples/keyframes/07.png": "9e0afa5951e8f22314c122098e8d42f1de621a72259b0e6a8adcbb2e9aaaff6a",
+    "samples/keyframes/08.png": "b6851ceccb0b9575098d3e48968f099ca73ab6476165640daeb61797eb370a89",
+    "samples/keyframes/09.png": "4b9626d1913f293610876d2a5c9d9c017e66615b3dfe355d102c12540eee1979",
+    "samples/keyframes/10.png": "2035e1961e90d3027cefcb739420f72c2a362c4e0c23541beec339e4a2e2e165",
+    "samples/keyframes/11.png": "e1cd0fd0722003e2d2a0e08c4b76d3649fb15d54bbc9b1ec410db584152de693",
+    "samples/keyframes/12.png": "4ea9a0c5abcd7dc3d9a226c5260a8f7ae279d1b079889d85e04ea9286dc35419",
+    "samples/keyframes/13.png": "7373dabe46cc1e18915c7eeed9e0eb459dbb249ecaae33105f32e1d625940a11",
+    "samples/keyframes/14.png": "d9e16199e4b4f2bf9fd519019ff96c22b7ce5834e225b08dc039c9154dd904ee",
+    "samples/keyframes/15.png": "2035e1961e90d3027cefcb739420f72c2a362c4e0c23541beec339e4a2e2e165",
+    "samples/keyframes/16.png": "2035e1961e90d3027cefcb739420f72c2a362c4e0c23541beec339e4a2e2e165",
+    "samples/keyframes/17.png": "f6fc21111ddfc285b4cb877658ab7f63e22d770714c0693b7752000936323619",
+    "samples/keyframes/18.png": "f2484f85d7ba8baa7fbaab80155c746848ff1fa2949778856986727e5e6cd26a",
+    "samples/keyframes/19.png": "42e1cd23e3e8e2c84d6a207cf72046b021fc0494091d230b3d0423f2fd41df87",
+    "samples/keyframes/20.png": "42e1cd23e3e8e2c84d6a207cf72046b021fc0494091d230b3d0423f2fd41df87",
+    "samples/phone-reading.png": "06bfd673adda1274763cb7601f078367cf6ef9ee0584292c49f8b964e8905e20",
+    "samples/phone.png": "5af11e79d0e4b75ceba2e91cdd851a5197444e5c6983a224ac2eda390f5f4062",
+    "samples/sample.mp4": "3ba0a2146ae876f4ab4ecfb9da3e44bb2166ec50a09563af60dd0bea7e5161f2"
+  }
+}

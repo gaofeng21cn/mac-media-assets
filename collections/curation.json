@@ -1162,6 +1162,926 @@
       "status": "superseded",
       "replacement_id": "paper:mac_abpm_wear_cycle_v1@7b24ce96e85f54d216d5",
       "reason": "旧已佩戴状态袖带覆在毛衣上；新版裸露上臂并补佩戴/固定/试测/记录/交回完整过程。"
+    },
+    "paper:mac_sit_stand_cycle_v1@d6c4133126cf5168fa45": {
+      "status": "needs_rebuild",
+      "reason": "人物/椅子独立标尺造成椅子过大；坐面透视与髋腿方向冲突，臀部承托关系不成立。",
+      "replacement_id": "paper:mac_young_man_seat_report_stand_v1@4e5c056cff995065ec14",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "rejected",
+        "motion": "rejected",
+        "sampled_visual": "rejected",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_bp_cuff_action_v1@cd76e767f879e3b37fca": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_breast_section_open_close_v1@d647c84c7bf46425f637": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_breast_structure_reveal_v1@c2c652dca8011d8947c2": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_child_girl_seat_report_stand_v1@ea17c5496558afc3cc7e": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_abpm_wear_cycle_v1@7b24ce96e85f54d216d5": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_artery_wall_section_open_close_v1@178b110d0e1a997d7e8e": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_artery_wall_structure_reveal_v1@5533f7ee96339311a399": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_care_assistance_v1@7add8a71f20bb1997826": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_walk_cycle_v1@9139c228977b8bccb2fa": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pituitary_structure_reveal_v1@12e57ad343774b8f2f8d": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pituitary_section_open_close_v1@0eb59b3dc64ba920ea95": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_head_sagittal_section_open_close_v1@a0165244ab3195e818b9": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_head_sagittal_structure_reveal_v1@ce3141ba0ce1ceb13d9b": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pregnant_woman_seat_report_stand_v1@aaa95674cb25cdcd55bd": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_young_man_seat_report_stand_v1@4e5c056cff995065ec14": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_heart_section_open_close_v1@4aa9cb4d9c688b5c12da": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_heart_structure_reveal_v1@0940630b475c6588a8ad": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_adult_woman_seat_report_stand_v1@77bc7e9970af24261d42": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_thyroid_section_open_close_v1@862a57d9533341f457b0": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_thyroid_structure_reveal_v1@8b3d44b3cb76a745b3ee": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_teen_boy_seat_report_stand_v1@76c3699af8be9bb96442": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_child_boy_seat_report_stand_v1@68c39c6ac1663f417401": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pelvic_organs_section_open_close_v1@24bfc53bee095872189c": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pelvic_organs_structure_reveal_v1@b1685ac65b2a189e40e4": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_blood_cell_section_open_close_v1@f3755eb49a37f839362c": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_blood_cell_structure_reveal_v1@525d83d9970afe13ed03": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_older_woman_bed_rest_v1@2aca41d871b651678db8": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_older_woman_seat_report_stand_v1@e0e53e0208f7f965b056": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_older_man_seat_report_stand_v1@581f15b28a8f6e9b757c": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_liver_section_open_close_v1@591d7339b0ed37611608": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_liver_structure_reveal_v1@d28edb53e8382bd46610": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_intestine_section_open_close_v1@534f61d8fa23cb0943d1": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_intestine_structure_reveal_v1@86c7d25bc8f1f25e4e6a": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_lungs_section_open_close_v1@2c2e3b116be59c7f9a4f": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_lungs_structure_reveal_v1@dce590c5e7cd40f29332": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_alveolus_section_open_close_v1@7e6c7b286ccaca3e71db": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_alveolus_structure_reveal_v1@42ff22a34117b3081b47": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_kidney_section_open_close_v1@122ec2c7c5be689cb613": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_kidney_structure_reveal_v1@934d8f457b792794a078": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_stomach_section_open_close_v1@ca640885e9270095f328": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_stomach_structure_reveal_v1@701d7f8ddf88581146d6": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_gallbladder_section_open_close_v1@9e7ecd62ae85bff8345a": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_gallbladder_structure_reveal_v1@9356add0ed20b63a4ccf": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_islet_section_open_close_v1@1bb269fe1729888b0944": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_islet_structure_reveal_v1@ac4e9c5a278ddd96ab92": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pancreas_section_open_close_v1@51ffac1e004bdbbee6b1": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pancreas_structure_reveal_v1@821ee89da2074949aca9": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_glucose_test_action_v1@22e327c4f455cc309c19": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_foot_joint_section_open_close_v1@ef45083320cdce37f5fa": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_foot_joint_structure_reveal_v1@c8fb38bd7e928a833230": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_cooking_action_v1@4e1f3848364c56d2fe6e": {
+      "status": "superseded",
+      "reason": "餐盘近正视竖立在斜视锅台后方，盛出食材缺少可信承托。新修订将餐盘置于同一台面视角并重设落点。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "rejected",
+        "motion": "rejected",
+        "sampled_visual": "rejected",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      },
+      "replacement_id": "paper:mac_cooking_action_v1@1f97edf2520381c84d8f"
+    },
+    "paper:mac_teen_girl_seat_report_stand_v1@b15d25f5a56c1d9c79b0": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_cooking_action_v1@1f97edf2520381c84d8f": {
+      "status": "active",
+      "reason": "餐盘与锅台采用同一俯斜视角；食材在联系表中落在盘内，保持三片身份。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
     }
   }
 }

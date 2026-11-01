@@ -72,8 +72,66 @@ def build_samples(folder):
     return samples
 
 
-def freeze(folder, root=ROOT, *, source_assets, discovery, tags, scope, checked,
-           defects_found_and_fixed, not_reviewed, usage_note, id, title):
+def validate_review(review, inputs, media, sequence):
+    """Check the binding and declared scope of a separately authored review.
+
+    These checks cannot decide visual quality. The reviewer supplies the verdict
+    after inspecting the media; a render receipt or preparation checklist cannot.
+    """
+    if not isinstance(review, dict) or review.get('schema') != 'mac_motion_review/v2':
+        raise ValueError('需要独立的 mac_motion_review/v2 审看记录')
+    if review.get('inputs') != inputs or review.get('media') != media:
+        raise ValueError('审看记录未完整绑定当前输入和样片；重新审看后再冻结')
+    if review.get('sequence_sha256') != inputs['sequence.json']:
+        raise ValueError('审看记录未绑定当前 sequence')
+    if review.get('status') not in {'pending', 'passed', 'rejected'}:
+        raise ValueError('无效的审看状态')
+    domains = review.get('domains', {})
+    if not isinstance(domains, dict):
+        raise ValueError('审看范围必须是对象')
+    for name in ('static_alpha', 'full_motion'):
+        if domains.get(name, 'pending') not in {'pending', 'passed', 'rejected', 'not_applicable'}:
+            raise ValueError('无效的审看范围：' + name)
+    if review['status'] == 'passed' or 'passed' in domains.values():
+        for name in ('reviewer', 'reviewed_at', 'review_method', 'observations', 'reviewed_files'):
+            if not review.get(name):
+                raise ValueError('独立审看记录缺少：' + name)
+        from datetime import date
+        date.fromisoformat(review['reviewed_at'])
+        if not set(review['reviewed_files']).issubset(media):
+            raise ValueError('审看文件不属于当前样片')
+        if domains.get('full_motion') == 'passed':
+            if 'samples/sample.mp4' not in review['reviewed_files']:
+                raise ValueError('完整动作结论缺少当前 MP4 审看范围')
+            windows = sorted(review.get('motion_windows', []))
+            end = 0
+            for start, stop in windows:
+                if not all(isinstance(n, (int, float)) and math.isfinite(n) for n in (start, stop)):
+                    raise ValueError('无效的审看时码')
+                if start > end or start < 0 or stop <= start or stop > sequence['duration']:
+                    raise ValueError('完整动作审看范围存在缺口或越界')
+                end = max(end, stop)
+            if end != sequence['duration']:
+                raise ValueError('完整动作审看范围未覆盖全片')
+    if review['status'] == 'passed' and domains.get('full_motion') != 'passed':
+        raise ValueError('整体动作通过需要明确的完整动作结论')
+    return review
+
+
+def bound_files(folder):
+    folder = Path(folder)
+    sequence = json.loads((folder / 'sequence.json').read_text())
+    inputs = {relative: sha(folder / relative) for relative in
+              ['index.html', 'runtime.mjs', 'viewer.mjs', 'sequence.json',
+               *dict.fromkeys(item['path'] for item in sequence['images'].values())]}
+    media = {str(path.relative_to(folder)): sha(path)
+             for path in sorted((folder / 'samples').rglob('*'))
+             if path.is_file() and path.suffix in {'.png', '.jpg', '.mp4'}}
+    return inputs, media
+
+
+def freeze(folder, root=ROOT, *, source_assets, discovery, tags, scope, review_targets,
+           preparation_notes, not_reviewed, usage_note, id, title):
     """Register one prepared study folder as a reusable motion recipe."""
     folder = Path(folder)
     root = Path(root)
@@ -86,17 +144,9 @@ def freeze(folder, root=ROOT, *, source_assets, discovery, tags, scope, checked,
         raise ValueError('当前源码或原图与实际渲染输入不一致；先重新渲染与审看')
     if (technical.get('status') != 'passed' or not technical.get('random_seek_equal')
             or technical.get('browser_errors') or technical.get('frames') != math.ceil(sequence['duration'] * sequence['fps'])):
-        raise ValueError('实际渲染尚未通过，不能登记动作通过')
+        raise ValueError('实际渲染尚未通过，不能冻结动作包')
     samples = build_samples(folder)
-    inputs = {}
-    for relative in ['index.html', 'runtime.mjs', 'viewer.mjs', 'sequence.json',
-                     *[f'assets/{path.name}' for path in sorted((folder / 'assets').glob('*.png'))]]:
-        inputs[relative] = sha(folder / relative)
-    media = {}
-    for path in sorted(samples.rglob('*')):
-        if path.is_file() and path.suffix in {'.png', '.jpg', '.mp4'}:
-            media[str(path.relative_to(folder))] = sha(path)
-    technical = json.loads((samples / 'technical.json').read_text())
+    inputs, media = bound_files(folder)
     provenance = {
         'schema': 'mac_motion_sources/v1',
         'generation': source_assets.get('generation', []),
@@ -104,25 +154,27 @@ def freeze(folder, root=ROOT, *, source_assets, discovery, tags, scope, checked,
         'note': source_assets.get('note', ''),
     }
     write(folder / 'provenance.json', provenance)
-    review = {
-        'schema': 'mac_motion_review/v1',
-        'status': 'passed',
-        'reviewer': 'Codex model visual review',
-        'reviewed_at': '2026-10-24',
-        'sequence_sha256': sha(folder / 'sequence.json'),
-        'inputs': inputs,
-        'media': media,
-        'technical': {
-            'frames': technical.get('frames'), 'fps': technical.get('fps'),
-            'duration': technical.get('duration'),
-            'random_seek_equal': technical.get('random_seek_equal'),
-            'browser_errors': technical.get('browser_errors'),
-        },
-        'checked': checked,
-        'defects_found_and_fixed': defects_found_and_fixed,
-        'not_reviewed': not_reviewed,
-    }
-    write(folder / 'review.json', review)
+    # Preparation notes are requests, never post-render verdicts.
+    write(folder / 'review-request.json', {
+        'review_targets': review_targets, 'preparation_notes': preparation_notes,
+        'not_reviewed': not_reviewed, 'inputs': inputs, 'media': media,
+    })
+    review_path = folder / 'review.json'
+    if review_path.exists():
+        review = validate_review(json.loads(review_path.read_text()), inputs, media, sequence)
+    else:
+        review = {
+            'schema': 'mac_motion_review/v2', 'status': 'pending',
+            'sequence_sha256': inputs['sequence.json'], 'inputs': inputs, 'media': media,
+            'domains': {'static_alpha': 'pending', 'full_motion': 'pending'},
+            'not_reviewed': not_reviewed,
+        }
+        write(review_path, review)
+    if review['status'] == 'rejected' or 'rejected' in review.get('domains', {}).values():
+        raise ValueError('已拒用的动作包不能登记为可复用候选')
+    domains = review.get('domains', {})
+    motion = domains.get('full_motion', 'pending')
+    static = domains.get('static_alpha', 'pending')
     (folder / 'USAGE.md').write_text(
         f'# {title}\n\n{scope}\n\n## 取用\n\n```bash\n'
         f'python3 scripts/media_asset_library.py use --root <公共库路径> \\\n'
@@ -144,6 +196,10 @@ def freeze(folder, root=ROOT, *, source_assets, discovery, tags, scope, checked,
                             'bytes': path.stat().st_size})
     medical_review = sequence.get('medical_review', 'not_applicable')
     quality_debt = ['current_shot_review_pending']
+    if motion != 'passed':
+        quality_debt.append('full_motion_review_pending')
+    if static != 'passed':
+        quality_debt.append('static_review_pending')
     if medical_review == 'pending':
         quality_debt.append('medical_review_pending')
     metadata = {
@@ -152,7 +208,7 @@ def freeze(folder, root=ROOT, *, source_assets, discovery, tags, scope, checked,
         'source': {'kind': 'original_animation', 'generation_receipt': 'provenance.json'},
         'tags': tags, 'discovery': discovery, 'status': 'reusable_candidate',
         'usage_notes': scope,
-        'review': {'static_alpha': 'checked_on_light_dark_color_composites', 'full_motion': 'passed',
+        'review': {'static_alpha': static, 'full_motion': motion,
                    'current_shot': 'pending', 'medical': medical_review,
                    'full_listening': 'not_applicable', 'evidence_ref': 'review.json'},
         'medical_review': medical_review, 'quality_debt': quality_debt,
@@ -182,7 +238,7 @@ def freeze(folder, root=ROOT, *, source_assets, discovery, tags, scope, checked,
         'portable_record_sha256': sha(record_path),
         'provenance': {'source_type': 'original_animation',
                        'source_ref': {'recorded_in': 'provenance.json'}},
-        'review_boundary': {'admission': 'reusable_candidate', 'motion': 'passed',
+        'review_boundary': {'admission': 'reusable_candidate', 'motion': motion, 'static': static,
                            'medical': medical_review, 'listening': 'not_applicable',
                            'quality_debt': quality_debt},
     }

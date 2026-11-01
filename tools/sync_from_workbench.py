@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse, hashlib, json, os, shutil, tempfile
 from pathlib import Path
 from datetime import datetime, timezone
+from query_assets import effective_row, load_curation
 
 KINDS={"environment","environment_plate","transparent_subject","medical_cutout","image","motion_recipe","component","code_component","audio","music_score","brand"}
 SERIES_FILE=Path(__file__).resolve().parents[1]/'collections/series.json'
@@ -66,12 +67,12 @@ def main():
  existing.update({row['id']:row for row in incoming})
  rows=list(existing.values())
  curation_path=out/'collections/curation.json'
- curation=read(curation_path).get('assets',{}) if curation_path.is_file() else {}
+ curation=load_curation(out)
  exclusions_path=out/'collections/exclusions.json'
  exclusions=read(exclusions_path).get('items',{}) if exclusions_path.is_file() else {}
  for row in rows:
   if row['id'] in curation:
-   row['curation']=curation[row['id']]
+   row.update(effective_row(row,curation))
    if curation[row['id']].get('display_title'): row['title']=curation[row['id']]['display_title']
  # Curated discovery is independent of immutable originals. Sync must preserve
  # it without making classification or creative metadata an admission gate.

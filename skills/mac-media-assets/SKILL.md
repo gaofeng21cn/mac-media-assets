@@ -13,7 +13,7 @@ description: 检索和审看 Med Auto Cast 独立媒体库中的纸片、纸景�
 
 按观看任务区分主焦点、支持组和背景；复杂核心需要解释近景或拆解，小尺寸只承载简单轮廓或已解释归档内容。总览、解释近景与简化版分别记录用途和精确版本关系，不能把缩小详细原件称为简化版；只将真实存在且审看的候选列为可用。人物与椅面、投影、手持物共同试装，并看手机宽预览和动作极值；当前覆盖边界见[尺寸用途与版本覆盖](../../docs/asset-coverage.md#尺寸用途与版本覆盖)。
 
-类别覆盖与储备批次见[覆盖评估](../../docs/asset-coverage.md)，现成候选见[资产清单](../../docs/asset-inventory.md)。实时登记数量读取catalog/sync-readback.json，实际可发现与可取用范围分别查询核对，不沿用说明中的旧总数。优先储备能跨主题独立操作的部件，不按成片截图或整场合图充数。库不完整时继续新创，不为补齐类别或复用率改变故事。
+类别覆盖与储备批次见[覆盖评估](../../docs/asset-coverage.md)，现成候选见[资产清单](../../docs/asset-inventory.md)。登记快照可读 catalog/sync-readback.json，当前数量以实时 query 为准，实际可发现与可取用范围分别查询核对，不沿用说明中的旧总数。优先储备能跨主题独立操作的部件，不按成片截图或整场合图充数。库不完整时继续新创，不为补齐类别或复用率改变故事。
 
 ```sh
 python3 tools/query_assets.py --query 垂体 --json
@@ -27,7 +27,7 @@ python3 tools/query_assets.py --kind audio --author-id <当前作者档案ID> --
 
 人物按具体姿态的原图身体像素/厘米标定，见[人物原图标尺](../../docs/character-scale.md)。设计身高不能代替原图尺寸、SHA和身体段；同场相近景深共享场景像素/厘米，坐卧外框与床椅都不是站立身高。换图后重核标定，未标定候选不得宣称可自动排景。
 
-默认查询每个资产身份只返回当前审定版本；`--all-versions` 或精确 `paper:<ID>@<revision>` 才查看历史。人物查询同时给角色和姿态，空结果是真实缺口。`--id <source_id>` 返回当前版本，不把同名旧修订混进候选。`curation` 是依据原件的模型判断，说明整体背景、单层医学总览、独立物件或可拆部件的实际操作。
+默认查询每个资产身份只返回当前审定版本；`--all-versions` 可查仍可取用的历史版本；撤回版本须显式 `--include-withdrawn` 只读追溯，不能取用。人物查询同时给角色和姿态，空结果是真实缺口。`--id <source_id>` 返回当前版本，不把同名旧修订混进候选。`curation` 是依据原件的模型判断，说明整体背景、单层医学总览、独立物件或可拆部件的实际操作。
 
 人物覆盖以 `collections/character-coverage.json` 和实时覆盖报告为准，已有角色/姿态候选不代表全面覆盖人群与动作；不要用成人缩放代替儿童、老年或孕妇。`character-anchors.json` 记录原图归一化坐标，`seat` 是臀部承托边缘，手按画面左右且仅登记可见部位。查询返回registration；取用后回读本集manifest与 `registration_readback`，再试装当前景别和接触。字段与复制校验不批准姿态自然度。
 
@@ -48,3 +48,9 @@ python3 tools/query_assets.py --kind audio --author-id <当前作者档案ID> --
 装配与事件集合见 `collections/assemblies.json`、`event-kits.json`；声音见 `audio.json`。通过库根本地HTTP服务打开 `tools/preview-engine/index.html` 看可拖动时间轴的实际组合小样，`audio.html` 分别试听BGM/拟音、分轨和变体。复制组合使用MAC的 `use-collection`，保留精确成员、成功导入与欠项，不把多个物件烘焙成新合图。
 
 几何候选bounds不等于艺术通过，每个部件独立取bounds、接触点和遮挡职责。静态、组合、连续动作、医学、听感及当前镜头分别登记证据。医学外观与切面未经配准不能宣称剖开；音乐BPM与MIDI密度不替代完整试听。组合只提供动作下限，不固定构图、镜头、台词、时码或风格上限。
+
+## 当前策展与审核修正
+
+`collections/curation.json` 按精确 ID 覆盖目录和不可变原包的历史结论；查询返回有效 `review_boundary`。`needs_rebuild` / `superseded` 版本即使知道精确 ID 也不得取用。原包的 passed 不能绕过当前 pending/rejected。取用后回读 `external-source.json.effective_review_boundary`，当前镜头单独审查。
+
+准备文字不是审看证据。动作冻结缺少独立 v2 审看记录时只登记 pending；实际看过哪些原图、背景、时点或连续区间，就记录哪些范围。比例/透视/接触问题的已知修复与精确替代见[检查记录](../../docs/quality-audit-2026-11-01.md)。

@@ -1,92 +1,97 @@
+[中文](README.md) · [English](README.en.md)
+
 # MAC Media Assets
 
-[English](README.en.md) · [中文](README.md)
+**Characters, scenes, anatomy, and sound for medical explainer animation.**
 
-A reusable medical-education media library for [Med Auto Cast](https://github.com/gaofeng21cn/med-autocast).
-It contains paper-theatre visual parts, motion and code components, music, sound effects, and reusable
-assemblies. The catalog points to real versioned files in `payloads/`; cloning the repository supports
-offline discovery and verification.
+MAC Media Assets is a public media library for clinicians, health educators, and medical content creators, and the companion library to [Med Auto Cast (MAC)](https://github.com/gaofeng21cn/med-autocast). It brings together hand-drawn collage elements, layered anatomy, character actions, everyday props, music, and sound effects, giving you a starting point so you can spend more time on the story and its presentation.
 
-## Installation
+Let MAC find and import assets for your project, or download the source media for your own animation and editing tools.
 
-MAC declares `mac-media-assets` as a required capability Package. OPL Framework installs it through
-the existing native Package carrier and exposes discovery and media paths through the installed
-descriptor. OPL App uses the same path for first installation and explicit Official Profile restoration.
-The library does not store accounts, user projects, or installation state.
+| Characters and actions | Anatomy | Everyday life |
+| :---: | :---: | :---: |
+| [![A young man reading a report in an armchair, with both feet on the floor and a stool beside him](payloads/paper-theatre/mac_young_man_seat_report_stand_v1/4e5c056cff995065ec14/samples/keyframes/15.png)](payloads/paper-theatre/mac_young_man_seat_report_stand_v1/4e5c056cff995065ec14/samples/sample.mp4) | [![A coronal kidney section with an overview and structure labels](payloads/paper-theatre/mac_kidney_structure_reveal_v1/934d8f457b792794a078/samples/complete-background-light.png)](payloads/paper-theatre/mac_kidney_structure_reveal_v1/934d8f457b792794a078/samples/sample.mp4) | [![Separate paper elements for preparing and stirring food](payloads/paper-theatre/mac_cooking_action_v1/1f97edf2520381c84d8f/samples/keyframes/14.png)](payloads/paper-theatre/mac_cooking_action_v1/1f97edf2520381c84d8f/samples/sample.mp4) |
+| Sitting down, picking up a report, and standing up | From an overview to a layered explanation | From preparation to stirring and serving |
 
-For direct offline use:
+Select a preview image to open its MP4 sample.
+
+[Browse all assets](docs/asset-inventory.md) · [Explore motion packages](docs/motion-studies.md) · [Get started](#get-started)
+
+## What's in the library
+
+Default discovery currently offers **294 assets and components across 11 categories**. Counts below refer to discoverable entries, with historical revisions counted once per asset; a component package can contain several source images.
+
+| Category | Count | What you can use it for |
+| --- | ---: | --- |
+| Characters and poses | 75 | Choose adults, children, older people, pregnant women, and generic clinicians in standing, seated, reaching, and other poses |
+| Anatomy | 55 | Explain organ locations and structural relationships with overviews, close-ups, and simplified illustrations |
+| Motion and code components | 62 | Animate walking, sitting and standing, light assistance, home monitoring, and anatomical reveals and opening sequences |
+| Scenes and stages | 26 | Build clinic, waiting-room, home, and kitchen scenes with doors, windows, tables, chairs, and beds |
+| Food and lifestyle | 16 | Show meal composition, food preparation, cutting, and cooking |
+| Tests and home monitoring | 15 | Assemble glucose meters, strips, blood-pressure monitors, cuffs, probes, and specimen tubes |
+| Documents and time | 7 | Connect tests and follow-up visits with reports, notebooks, calendars, envelopes, and paper sheets |
+| Paper and fasteners | 7 | Add paper textures, tracing paper, tape, clips, pins, and stamps |
+| Treatment and care | 5 | Show medicine bottles, packaging, inhalers, and dressings |
+| Music | 12 | Choose mood tracks, stems, and editable MIDI to support narration and pacing |
+| Event sound effects | 14 | Add sound to paper contact, footsteps, sitting, clothing, instruments, and cooking |
+
+## From assets to a shot
+
+**Search for what you want to explain.** Discovery supports Chinese names, aliases, roles, poses, and actions. For home blood-pressure monitoring, look for a cuff, monitor, and wearing sequence. For a kidney explanation, start with an overview and choose layered assets for a closer view.
+
+**Start with an assembly, then adjust its parts.** The library includes 17 assemblies and 14 event kits for situations such as handing over a report, recording follow-up, home monitoring, and preparing food. Motion packages include editable code, source media, and samples. Each package explains which parts can be separated and how they connect; adapt the composition, scale, timing, and sound to your story.
+
+**Inspect the source before using it.** Previews help you judge style and suitability. Preserve provenance and version information when importing, then review proportions, contact, motion, sound, and medical meaning in your own shot. Adapt or create new material when the available assets do not fit.
+
+## Get started
+
+### Use with Med Auto Cast
+
+Installing MAC through OPL also installs this library:
 
 ```bash
-git clone https://github.com/gaofeng21cn/mac-media-assets.git
-cd mac-media-assets
-python3 tools/query_assets.py --help
-python3 tools/verify_catalog.py
+opl packages install med-autocast --json
 ```
 
-Find the current inventory, examples, and assembly descriptions in the [Chinese guide](README.md),
-[asset inventory](docs/asset-inventory.md), and [coverage guide](docs/asset-coverage.md).
-Historical workstation paths in provenance records identify the source only. Runtime consumers use
-the actual installed library root and relative catalog references.
+Start a new MAC task and describe your topic, audience, and production folder. For example:
+
+> "Make an explainer for patients starting to measure blood pressure at home. First find a monitor, cuff, and wearing sequence in the asset library. Show me suitable assets, then plan the shots."
+
+MAC discovers and imports assets as the project needs them. See [Med Auto Cast](https://github.com/gaofeng21cn/med-autocast) for the full production workflow.
+
+### Browse and download independently
+
+Use the [asset inventory](docs/asset-inventory.md) to find source files, provenance, and reuse scope. After downloading the library, discovery and previews work offline. You need Git, Python 3.11 or newer, and a modern browser.
+
+```bash
+git clone --depth 1 https://github.com/gaofeng21cn/mac-media-assets.git
+cd mac-media-assets
+python3 tools/query_assets.py --query 肾脏 --limit 5
+python3 tools/query_assets.py --character-role 老年男性 --pose seated --limit 5
+```
+
+These examples search for kidneys and a seated older man. Add `--json` for source-file paths, provenance records, and full metadata. Images, audio, and motion source code live in `payloads/`.
+
+To play motion samples, scrub timelines, or listen to audio, serve the repository locally:
+
+```bash
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+Then open [motion samples](http://127.0.0.1:8000/tools/preview-engine/motion.html), [assembly previews](http://127.0.0.1:8000/tools/preview-engine/index.html), or [music and sound effects](http://127.0.0.1:8000/tools/preview-engine/audio.html).
+
+## Further reading
+
+The detailed guides below are currently in Chinese.
+
+- [Asset inventory](docs/asset-inventory.md): browse by category and find provenance records.
+- [Motion packages](docs/motion-studies.md): choose character, anatomy, and everyday actions, with import instructions and scope.
+- [Coverage and assemblies](docs/asset-coverage.md): explore character poses, combinations, and remaining gaps.
+- [Preparing assets for a first draft](docs/first-draft-quality.md): search, inspect, and try a representative shot.
+- [Maintenance and contribution](docs/README.md#维护验证): repository structure, asset registration, verification, and publication.
 
 ## License and provenance
 
-Original tool code and documentation are licensed under [Apache-2.0](LICENSE). Media files and
-third-party material retain their recorded licenses, attribution, and reuse scope; the code license
-does not relicense those files. Read each asset's record before reuse. Source links and license
-statements for third-party material, including CC0 recordings, remain with their records.
+Original tool code and documentation use [Apache-2.0](LICENSE). Media and third-party content retain their own recorded licenses, attribution requirements, and reuse scope. Read the corresponding source record before use; the code license does not change media rights. See [NOTICE](NOTICE).
 
-Private author assets, licensed voice identities, personal branding, and branded episode samples are
-outside this public library. Asset records describe visual, motion, listening, and medical review
-separately. A file's presence or checksum establishes its identity; creative and medical acceptance
-remains specific to the intended use.
-
-## Development
-
-Development checks use Python 3.11, Pillow, and Node.js 24.
-
-```bash
-uv run --with Pillow python -m unittest discover -s tests -v
-python3 tools/verify_catalog.py
-node tools/check_motion_studies.mjs
-python3 tools/materialize_package.py --check
-```
-
-After changing catalog or payload files, run `python3 tools/materialize_package.py` to refresh the
-capability descriptor's content lock, then repeat these checks. The existing Framework
-`publish-package.yml` publishes an exact owner version and source commit with a checked OCI
-predecessor. This repository does not maintain a parallel publisher or channel pointer.
-
-## Current inventory
-
-The public catalog currently contains **211 asset identities, 225 registered revisions, and 919
-payload references**. All 211 identities are available to default discovery. The collection layer
-contains 17 assemblies and 14 event kits. Character coverage provides 49 baseline role/pose slots;
-registration and required anchor gaps are checked separately from motion, medical, listening, and
-current-shot review.
-
-The library includes generic Chinese male and female clinician assets. Private author identities,
-licensed voices, personal branding, and branded episode samples remain outside this repository.
-On a local author workspace, a generic clinician import receives identity context stating that it is
-not the current author presenter; that context does not block production. Static walking poses do not
-prove a continuous gait, and an imported asset does not prove medical or publication approval.
-
-Four [complete motion samples](tools/preview-engine/motion.html) now cover a bilateral walk cycle,
-sitting down and standing up, daily assistance from approach through release, and food preparation
-from three cuts through stirring and serving. Each self-contained package includes editable code,
-source media, a full video, and visual review bound to its exact bytes. Character actions use
-flipbook paper-theatre poses; daily assistance depicts light support rather than clinical transfer.
-See [reuse and review scope](docs/motion-studies.md).
-
-## Documentation
-
-- [Documentation index](docs/README.md)
-- [Asset inventory](docs/asset-inventory.md)
-- [Coverage and reserves](docs/asset-coverage.md)
-- [Governance and review boundaries](docs/governance-and-review.md)
-- [First-draft quality baseline](docs/first-draft-quality.md)
-
-## License
-
-Original tool code and documentation are licensed under [Apache-2.0](LICENSE). Media files and
-third-party content retain their recorded licenses, attribution, and reuse scope; [NOTICE](NOTICE)
-does not relicense them.
+The public library provides generic assets. Author-specific likenesses, licensed voice identities, private branding, and branded episode samples stay in their respective private author profiles. See [governance and review](docs/governance-and-review.md) for asset review scope.

@@ -6,6 +6,37 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+WITHDRAWN = {'needs_rebuild', 'superseded'}
+
+
+def load_curation(root):
+    path = Path(root) / 'collections/curation.json'
+    if not path.exists():
+        return {}
+    # A damaged withdrawal register must not silently re-admit old versions.
+    value = json.loads(path.read_text(encoding='utf-8'))
+    if not isinstance(value, dict) or not isinstance(value.get('assets'), dict):
+        raise ValueError('策展登记缺少 assets 对象')
+    if any(not isinstance(item, dict) or not isinstance(item.get('review_boundary', {}), dict)
+           for item in value['assets'].values()):
+        raise ValueError('策展决定必须是对象')
+    return value['assets']
+
+
+def effective_row(row, curation):
+    """Apply the exact-version decision; immutable source records are evidence."""
+    result = dict(row)
+    decision = curation.get(row.get('id'), row.get('curation', {}))
+    if decision:
+        result['curation'] = decision
+        result['review_boundary'] = {**row.get('review_boundary', {}),
+                                     **decision.get('review_boundary', {})}
+    return result
+
+
+def available(row):
+    return (row.get('curation', {}).get('status') not in WITHDRAWN
+            and row.get('review_boundary', {}).get('admission') != 'reference_only')
 
 
 def load(path, default):
@@ -33,10 +64,12 @@ def all_catalog_rows(root):
 def maturity(root, row):
     record = load(root / row.get('portable_record', '__missing__'), {})
     review = record.get('review') or {}
-    static = review.get('static_alpha') or (record.get('asset') or {}).get('visual_review', {}).get('status')
+    static = row.get('review_boundary', {}).get('static', review.get('static_alpha') or
+             (record.get('asset') or {}).get('visual_review', {}).get('status'))
     return {'source': 'registered', 'static': 'reviewed' if static in
             {'checked_on_light_dark_contact_sheet', 'checked_on_light_dark_color_composites', 'passed'} else 'pending',
             'assembly': 'see_collection_samples',
+            'sampled_visual': row.get('review_boundary', {}).get('sampled_visual', 'pending'),
             'motion': row.get('review_boundary', {}).get('motion', 'pending'),
             'medical': row.get('review_boundary', {}).get('medical', 'pending'),
             'listening': row.get('review_boundary', {}).get('listening', 'pending'),
@@ -48,7 +81,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
           category=None, action=None, story_role=None, medium=None,
           collection=None, maturity_stage=None, layering=None,
           include_provenance=False, limit=None, character_role=None,
-          pose=None, asset_id=None, all_versions=False):
+          pose=None, asset_id=None, all_versions=False, include_withdrawn=False):
     root = Path(root)
     pose = {'伸手': 'reach', '接取': 'reach', '递接': 'reach', '伸手接取': 'reach',
             '行走': 'walk', '站立': 'stand', '站姿': 'stand', '坐姿': 'seated', '坐下': 'seated', '躺卧': 'lying', '躺姿': 'lying',
@@ -68,9 +101,10 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
         selected = next((item for item in collections if item['id'] == collection), None)
         if not selected:
             return []
-        members = {part['source_id'] for part in selected.get('parts', [])}
-    catalog_rows = all_catalog_rows(root)
-    rows = select_versions(root, catalog_rows, all_versions=all_versions)
+        members = {part.get('asset_id') or part['source_id'] for part in selected.get('parts', [])}
+    curation = load_curation(root)
+    catalog_rows = [effective_row(row, curation) for row in all_catalog_rows(root)]
+    rows = select_versions(root, catalog_rows, all_versions=all_versions or include_withdrawn or members is not None)
     if asset_id:
         exact = [row for row in catalog_rows if row.get('id') == asset_id]
         if exact:
@@ -116,9 +150,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
         reuse = row.get('reuse_scope') or {}
         if reuse.get('kind') == 'author' and not include_author_assets and reuse.get('id') != author_id:
             continue
-        exact_history = asset_id is not None and row.get('id') == asset_id
-        if row.get('review_boundary', {}).get('admission') == 'reference_only' or (
-                row.get('curation', {}).get('status') in {'needs_rebuild', 'superseded'} and not exact_history):
+        if not available(row) and not include_withdrawn:
             continue
         if kind and row.get('kind') != kind:
             continue
@@ -131,7 +163,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
         values.update(reuse.get('topics') or [])
         if series and aliases.get(series, series) not in {aliases.get(value, value) for value in values}:
             continue
-        if members is not None and row.get('source_id') not in members:
+        if members is not None and row.get('id') not in members and row.get('source_id') not in members:
             continue
         contract = mapping(layer_contracts.get(row.get('source_id')))
         if contract:
@@ -185,7 +217,8 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                 row['registration'] = record.get('registration') or (record.get('asset') or {}).get('registration') or {}
                 row['display_title'] = fields.get('display_title', row['title'])
                 row['maturity'] = maturity(root, row)
-                if maturity_stage and row['maturity'].get(maturity_stage) != 'reviewed':
+                row['available_for_use'] = available(row)
+                if maturity_stage and row['maturity'].get(maturity_stage) not in {'reviewed', 'passed'}:
                     continue
                 row['search_match'] = {'score': score, 'source': 'curated_names_and_use' if not include_provenance else 'curated_with_provenance'}
                 out.append(row)
@@ -209,9 +242,10 @@ def select_versions(root, rows, *, all_versions=False):
         if asset_id
     }
     grouped = {}
-    curation = load(Path(root) / 'collections/curation.json', {}).get('assets', {})
-    for row in rows:
-        if curation.get(row.get('id'), row.get('curation', {})).get('status') in {'superseded', 'needs_rebuild'}:
+    curation = load_curation(root)
+    for original in rows:
+        row = effective_row(original, curation)
+        if not available(row):
             continue
         grouped.setdefault(row.get('source_id'), []).append(row)
     selected = []
@@ -245,6 +279,7 @@ def main():
     parser.add_argument('--include-author-assets', action='store_true', help='策展只读发现；不授予复用权限')
     parser.add_argument('--include-reference', action='store_true', help='公共库不包含参考区；兼容旧调用，不扩大结果')
     parser.add_argument('--all-versions', action='store_true', help='显式查看历史修订，不用于默认制作选择')
+    parser.add_argument('--include-withdrawn', action='store_true', help='只读追溯已撤回版本；不授予导入或复用资格')
     parser.add_argument('--json', action='store_true')
     args = parser.parse_args()
     rows = query(text=args.query, kind=args.kind, series=args.series, scope=args.scope,
@@ -253,7 +288,8 @@ def main():
                  collection=args.collection, maturity_stage=args.maturity, layering=args.layering,
                  include_provenance=args.include_provenance, limit=args.limit,
                  character_role=getattr(args, 'character_role'), pose=args.pose,
-                 asset_id=getattr(args, 'id'), all_versions=args.all_versions)
+                 asset_id=getattr(args, 'id'), all_versions=args.all_versions,
+                 include_withdrawn=args.include_withdrawn)
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
     else:

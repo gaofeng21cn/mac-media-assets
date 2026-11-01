@@ -90,7 +90,10 @@
         "motion": "pending",
         "medical": "not_applicable",
         "listening": "pending",
-        "assembly": "sample_prepared"
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
       },
       "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
     },
@@ -145,7 +148,10 @@
         "motion": "pending",
         "medical": "not_applicable",
         "listening": "pending",
-        "assembly": "sample_prepared"
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
       },
       "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
     },
@@ -201,7 +207,10 @@
         "motion": "pending",
         "medical": "pending",
         "listening": "pending",
-        "assembly": "sample_prepared"
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
       },
       "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
     },
@@ -250,95 +259,78 @@
         "motion": "pending",
         "medical": "not_applicable",
         "listening": "pending",
-        "assembly": "sample_prepared"
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
       },
       "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
     },
     {
       "id": "glucose_action",
-      "title": "试纸插入与测量记录",
+      "title": "血糖仪操作：插试纸、采血、读数与按压止血",
       "parts": [
         {
-          "source_id": "paper_glucose_meter_parts_v1",
-          "asset_id": "paper:paper_glucose_meter_parts_v1@7d17997f1c1c10d70831",
-          "role": "故事候选物件",
-          "revision": "7d17997f1c1c10d70831"
-        },
-        {
-          "source_id": "reserve_notebook_page_v1",
-          "asset_id": "paper:reserve_notebook_page_v1@1f2278bcc87208c993c3",
-          "role": "故事候选物件",
-          "revision": "1f2278bcc87208c993c3"
-        },
-        {
-          "source_id": "mac_sfx_paper_place_v1",
-          "asset_id": "paper:mac_sfx_paper_place_v1@04482eec92381f2ac809",
-          "role": "故事候选物件",
-          "revision": "04482eec92381f2ac809"
+          "source_id": "mac_glucose_test_action_v1",
+          "asset_id": "paper:mac_glucose_test_action_v1@22e327c4f455cc309c19",
+          "revision": "22e327c4f455cc309c19",
+          "role": "完整动作与接触单元"
         }
       ],
       "story_roles": [
         "收集线索"
       ],
-      "event_chain": "持纸→对准→插入遮挡→等待→记录；屏幕不预设数值",
+      "event_chain": "通用指尖血糖采样关系示意，时间被压缩；实际操作沿设备说明。独立医学终审与当前镜头仍待审。",
       "sample": "tools/preview-engine/index.html#glucose_action",
       "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
       "review": {
+        "assembly": "sampled_frames_reviewed",
         "motion": "pending",
         "medical": "pending",
-        "listening": "pending",
-        "assembly": "sample_prepared"
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
       },
-      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。",
+      "preview_asset_id": "paper:mac_glucose_test_action_v1@22e327c4f455cc309c19",
+      "relationship": "通用指尖血糖采样关系示意，时间被压缩；实际操作沿设备说明。独立医学终审与当前镜头仍待审。",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
     },
     {
       "id": "daily_activity",
-      "title": "日常运动与休息",
+      "title": "同身份成年男性双侧步态循环",
       "parts": [
         {
-          "source_id": "reserve_person_walk_v1",
-          "asset_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
-          "role": "故事候选物件",
-          "revision": "bfd14a6e821ae1093957"
-        },
-        {
-          "source_id": "reserve_shoe_v1",
-          "asset_id": "paper:reserve_shoe_v1@34ab4388fef5a442d9f0",
-          "role": "故事候选物件",
-          "revision": "34ab4388fef5a442d9f0"
-        },
-        {
-          "source_id": "reserve_bed_v1",
-          "asset_id": "paper:reserve_bed_v1@d4b8481a1d71ed758de0",
-          "role": "故事候选物件",
-          "revision": "d4b8481a1d71ed758de0"
-        },
-        {
-          "source_id": "reserve_blanket_v1",
-          "asset_id": "paper:reserve_blanket_v1@d85134f364f5fc010470",
-          "role": "故事候选物件",
-          "revision": "d85134f364f5fc010470"
-        },
-        {
-          "source_id": "mac_music_calm_v1",
-          "asset_id": "paper:mac_music_calm_v1@21f905ef927498d6178a",
-          "role": "故事候选物件",
-          "revision": "21f905ef927498d6178a"
+          "source_id": "mac_walk_cycle_v1",
+          "asset_id": "paper:mac_walk_cycle_v1@9139c228977b8bccb2fa",
+          "revision": "9139c228977b8bccb2fa",
+          "role": "完整动作与接触单元"
         }
       ],
       "story_roles": [
         "日常行动"
       ],
-      "event_chain": "物件出场→行走纸姿态承接→前景切换→寝具落定",
+      "event_chain": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
       "sample": "tools/preview-engine/index.html#daily_activity",
       "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
       "review": {
+        "assembly": "sampled_frames_reviewed",
         "motion": "pending",
         "medical": "not_applicable",
-        "listening": "pending",
-        "assembly": "sample_prepared"
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
       },
-      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。",
+      "preview_asset_id": "paper:mac_walk_cycle_v1@9139c228977b8bccb2fa",
+      "relationship": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
     },
     {
       "id": "meal_action",
@@ -391,7 +383,10 @@
         "motion": "pending",
         "medical": "not_applicable",
         "listening": "pending",
-        "assembly": "sample_prepared"
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
       },
       "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
     },
@@ -441,190 +436,182 @@
         "motion": "pending",
         "medical": "pending",
         "listening": "pending",
-        "assembly": "sample_prepared"
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
       },
       "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
     },
     {
       "id": "meal_preparation",
-      "title": "家庭备餐与翻炒",
+      "title": "连续备餐：切配、入锅、翻动与盛出",
       "parts": [
         {
-          "source_id": "reserve_kitchen_counter_v2",
-          "asset_id": "paper:reserve_kitchen_counter_v2@7e89239e364e80d7af82",
-          "role": "空白工作面",
-          "revision": "7e89239e364e80d7af82"
-        },
-        {
-          "source_id": "reserve_chopping_board_v1",
-          "asset_id": "paper:reserve_chopping_board_v1@c53a30403294f8af8b73",
-          "role": "砧板",
-          "revision": "c53a30403294f8af8b73"
-        },
-        {
-          "source_id": "reserve_kitchen_knife_v1",
-          "asset_id": "paper:reserve_kitchen_knife_v1@dd728203f4639fca6804",
-          "role": "厨刀",
-          "revision": "dd728203f4639fca6804"
-        },
-        {
-          "source_id": "reserve_induction_cooktop_v1",
-          "asset_id": "paper:reserve_induction_cooktop_v1@4b704626d82433ec47db",
-          "role": "电磁炉",
-          "revision": "4b704626d82433ec47db"
-        },
-        {
-          "source_id": "reserve_frying_pan_v1",
-          "asset_id": "paper:reserve_frying_pan_v1@660885106d5ef2393566",
-          "role": "炒锅",
-          "revision": "660885106d5ef2393566"
-        },
-        {
-          "source_id": "reserve_wooden_spatula_v1",
-          "asset_id": "paper:reserve_wooden_spatula_v1@f89894748e52176761e5",
-          "role": "锅铲",
-          "revision": "f89894748e52176761e5"
-        },
-        {
-          "source_id": "reserve_broccoli_v1",
-          "asset_id": "paper:reserve_broccoli_v1@2d45a995ce062004437e",
-          "role": "食材",
-          "revision": "2d45a995ce062004437e"
-        },
-        {
-          "source_id": "reserve_oil_v1",
-          "asset_id": "paper:reserve_oil_v1@3825f2cb267e08b1ae84",
-          "role": "烹饪物件",
-          "revision": "3825f2cb267e08b1ae84"
+          "source_id": "mac_cooking_action_v1",
+          "asset_id": "paper:mac_cooking_action_v1@1f97edf2520381c84d8f",
+          "revision": "1f97edf2520381c84d8f",
+          "role": "完整动作与接触单元"
         }
       ],
       "story_roles": [
         "日常饮食",
         "生活方式"
       ],
-      "event_chain": "厨具摆放→砧板/厨刀准备→锅具落位→食材转入→锅铲接触并翻动→结果停顿",
-      "sample": "tools/preview-engine/index.html#cooking_prep",
+      "event_chain": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+      "sample": "tools/preview-engine/index.html#meal_preparation",
       "timeline": "仅装配小样；不表示完整切配、加热时长、熟度或食品安全指导",
       "review": {
+        "assembly": "sampled_frames_reviewed",
         "motion": "pending",
         "medical": "not_applicable",
-        "listening": "pending",
-        "assembly": "sample_prepared"
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
       },
       "limitations": [
-        "不含人物手部或完整烹饪动作序列",
-        "不包含真实温度、火力、熟度或营养判断",
-        "当前镜头仍需重新看接触、尺度、遮挡和手机宽可读性"
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
       ],
-      "adaptation": "可删改部件、改料理主题和镜头，不沿用固定构图或故事。"
+      "adaptation": "可删改部件、改料理主题和镜头，不沿用固定构图或故事。",
+      "preview_asset_id": "paper:mac_cooking_action_v1@1f97edf2520381c84d8f",
+      "relationship": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。"
     },
     {
       "id": "walk_cycle",
-      "title": "完整双侧步态",
+      "title": "同身份成年男性双侧步态循环",
       "parts": [
         {
           "source_id": "mac_walk_cycle_v1",
           "asset_id": "paper:mac_walk_cycle_v1@9139c228977b8bccb2fa",
-          "role": "完整可编辑动作包",
-          "revision": "9139c228977b8bccb2fa"
+          "revision": "9139c228977b8bccb2fa",
+          "role": "完整动作与接触单元"
         }
       ],
       "story_roles": [
         "连续动作",
         "人物互动"
       ],
-      "event_chain": "站稳→两次双侧循环→站稳",
-      "relationship": "完整逐帧姿态；坐标与地面随 sequence.json，身体与姿态共用逐帧时钟",
-      "sample": "tools/preview-engine/motion.html",
+      "event_chain": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+      "relationship": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+      "sample": "tools/preview-engine/index.html#walk_cycle",
       "review": {
-        "motion": "passed",
-        "current_shot": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
         "medical": "not_applicable",
-        "listening": "not_applicable_no_audio"
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
       },
       "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
-      "locks_story": false
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_walk_cycle_v1@9139c228977b8bccb2fa",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
     },
     {
       "id": "sit_stand",
-      "title": "完整坐站过渡",
+      "title": "年轻成年男性·落座、取报告与起身",
       "parts": [
         {
-          "source_id": "mac_sit_stand_cycle_v1",
-          "asset_id": "paper:mac_sit_stand_cycle_v1@d6c4133126cf5168fa45",
-          "role": "完整可编辑动作包",
-          "revision": "d6c4133126cf5168fa45"
+          "source_id": "mac_young_man_seat_report_stand_v1",
+          "asset_id": "paper:mac_young_man_seat_report_stand_v1@4e5c056cff995065ec14",
+          "revision": "4e5c056cff995065ec14",
+          "role": "完整动作与接触单元"
         }
       ],
       "story_roles": [
         "连续动作",
         "人物互动"
       ],
-      "event_chain": "站立→屈膝→坐定→前倾起身→站稳",
-      "relationship": "完整人物帧与固定椅子独立；按臀部坐面和共同地面试装",
-      "sample": "tools/preview-engine/motion.html",
+      "event_chain": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+      "relationship": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+      "sample": "tools/preview-engine/index.html#sit_stand",
       "review": {
-        "motion": "passed",
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "pending",
         "current_shot": "pending",
-        "medical": "not_applicable",
-        "listening": "not_applicable_no_audio"
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
       },
       "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
-      "locks_story": false
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_young_man_seat_report_stand_v1@4e5c056cff995065ec14",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
     },
     {
       "id": "care_assistance",
-      "title": "日常轻扶照护全过程",
+      "title": "双人照护：接近、协助起身、伴行与松手",
       "parts": [
         {
           "source_id": "mac_care_assistance_v1",
           "asset_id": "paper:mac_care_assistance_v1@7add8a71f20bb1997826",
-          "role": "完整可编辑动作包",
-          "revision": "7add8a71f20bb1997826"
+          "revision": "7add8a71f20bb1997826",
+          "role": "完整动作与接触单元"
         }
       ],
       "story_roles": [
         "连续动作",
         "人物互动"
       ],
-      "event_chain": "接近→示意→轻扶→主动起身→伴行→站稳→松手",
-      "relationship": "双人及椅子是完整整体帧，不能独立挪动接触双方；用于日常轻扶陪伴",
-      "sample": "tools/preview-engine/motion.html",
+      "event_chain": "日常轻扶陪伴的虚构表演；不作失能者转移、术后搬运或急救操作教学。完整双人/椅子关键姿态为整体帧，不能独立改动接触双方。",
+      "relationship": "日常轻扶陪伴的虚构表演；不作失能者转移、术后搬运或急救操作教学。完整双人/椅子关键姿态为整体帧，不能独立改动接触双方。",
+      "sample": "tools/preview-engine/index.html#care_assistance",
       "review": {
-        "motion": "passed",
-        "current_shot": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
         "medical": "not_applicable",
-        "listening": "not_applicable_no_audio"
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
       },
       "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
-      "locks_story": false
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_care_assistance_v1@7add8a71f20bb1997826",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
     },
     {
       "id": "cooking_complete",
-      "title": "连续切配、翻动与盛盘",
+      "title": "连续备餐：切配、入锅、翻动与盛出",
       "parts": [
         {
           "source_id": "mac_cooking_action_v1",
-          "asset_id": "paper:mac_cooking_action_v1@4e1f3848364c56d2fe6e",
-          "role": "完整可编辑动作包",
-          "revision": "4e1f3848364c56d2fe6e"
+          "asset_id": "paper:mac_cooking_action_v1@1f97edf2520381c84d8f",
+          "revision": "1f97edf2520381c84d8f",
+          "role": "完整动作与接触单元"
         }
       ],
       "story_roles": [
         "连续动作",
         "日常饮食"
       ],
-      "event_chain": "三次刀刃接触→三片→入锅→翻动→三片盛盘",
-      "relationship": "手与器具共用接触路径，三片保持身份；动画时长不表示真实熟度或加热时长",
-      "sample": "tools/preview-engine/motion.html",
+      "event_chain": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+      "relationship": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+      "sample": "tools/preview-engine/index.html#cooking_complete",
       "review": {
-        "motion": "passed",
-        "current_shot": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
         "medical": "not_applicable",
-        "listening": "not_applicable_no_audio"
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
       },
       "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
-      "locks_story": false
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_cooking_action_v1@1f97edf2520381c84d8f",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
     }
   ]
 }
