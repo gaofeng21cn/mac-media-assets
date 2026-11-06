@@ -20,6 +20,16 @@ def main() -> int:
     ap.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     args = ap.parse_args()
     root = args.root.resolve()
+    adapter = json.loads((root / "app-contribution-adapter.json").read_text(encoding="utf-8"))
+    package = json.loads((root / "opl-package.json").read_text(encoding="utf-8"))
+    if (
+        package.get("codex_surface", {}).get("app_contribution_adapter")
+        != {"manifest": "app-contribution-adapter.json"}
+        or set(adapter.get("reads", {})) != {"mac.media.v1#review"}
+        or adapter.get("actions")
+        or "app-contribution-adapter.json" not in package.get("content_lock", {}).get("paths", [])
+    ):
+        raise SystemExit("MCP App review adapter is not package-bound")
     catalog = root / "catalog/assets.jsonl"
     collections = root / "collections/series.json"
     rows = [json.loads(line) for line in catalog.read_text(encoding="utf-8").splitlines() if line.strip()]

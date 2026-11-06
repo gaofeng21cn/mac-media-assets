@@ -1,0 +1,24 @@
+{
+  "schema_version": "opl-package-app-contribution-adapter.v1",
+  "reads": {
+    "mac.media.v1#review": {
+      "kind": "json_file",
+      "root": "profile",
+      "path": "${input.asset_record_path}",
+      "transform": "json",
+      "input_schema": {
+        "type": "object",
+        "required": ["asset_record_path"],
+        "properties": {
+          "asset_record_path": {
+            "type": "string",
+            "title": "Asset record",
+            "description": "Workspace-relative path to one MAC asset record.json selected by the Agent."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": {}
+}

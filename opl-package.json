@@ -36,7 +36,55 @@
       "marketplace_source": "gaofeng21cn/mac-media-assets",
       "publication_ref": "ghcr.io/gaofeng21cn/one-person-lab-packages/mac-media-assets:latest-stable",
       "executor_route": "codex_cli"
+    },
+    "app_contribution_abi": {
+      "schema_version": "opl-package-app-contribution-cli.v1",
+      "transport": "stdin_json_stdout_json",
+      "argv": [
+        "opl",
+        "app",
+        "contribution",
+        "adapter",
+        "--stdin"
+      ],
+      "request_schema": "opl-package-app-contribution-request.v1",
+      "response_schema": "opl-package-app-contribution-response.v1"
+    },
+    "app_contribution_adapter": {
+      "manifest": "app-contribution-adapter.json"
     }
+  },
+  "app_contributions": {
+    "schema_version": "opl-app-contributions.v1",
+    "views": [
+      {
+        "view_id": "mac-media-assets.review",
+        "view_type": "artifact_view",
+        "title_i18n": {
+          "zh-CN": "素材审看范围",
+          "en-US": "Asset review scope"
+        },
+        "data_ref": "mac.media.v1#review",
+        "command_ids": [],
+        "empty_state_i18n": {
+          "zh-CN": "选择一个素材记录后查看审看范围",
+          "en-US": "Select an asset record to inspect its review scope"
+        }
+      }
+    ],
+    "commands": [],
+    "badges": [],
+    "ui": [
+      {
+        "contribution_id": "mac-media-assets.review",
+        "slot": "settings.section",
+        "contribution_kind": "view",
+        "trust_tier": "declarative",
+        "scope": "root",
+        "sort_order": 800,
+        "view_id": "mac-media-assets.review"
+      }
+    ]
   },
   "authority_boundary": {
     "can_write_domain_truth": false,
@@ -50,6 +98,7 @@
     "canonicalization": "ordered_path_length_file_length_bytes",
     "paths": [
       ".codex-plugin/plugin.json",
+      "app-contribution-adapter.json",
       "catalog/README.md",
       "catalog/assets.jsonl",
       "catalog/sync-readback.json",
@@ -5364,6 +5413,6 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:69e9e395cbf59ffddf2ca08e0896725b3a0c6995ebb26d1aeaf786b3f7b053d6"
+    "digest": "sha256:d8b9184db1dcf6d9adb3f1acf3efd05dace45c82b19cd4c0daf0082999c56b7c"
   }
 }
