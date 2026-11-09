@@ -2,8 +2,11 @@
 """Read-only semantic discovery. Curated facets assist progress, never approve a shot."""
 from __future__ import annotations
 import argparse
+import hashlib
 import json
+import os
 from pathlib import Path
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 WITHDRAWN = {'needs_rebuild', 'superseded'}
@@ -59,6 +62,54 @@ def all_catalog_rows(root):
     return [json.loads(line) for line in
             (Path(root) / 'catalog/assets.jsonl').read_text(encoding='utf-8').splitlines()
             if line.strip()]
+
+
+def selection(row):
+    """Carry an exact catalog identity into the existing shared review view."""
+    return {'asset_id': row['id'], 'revision': row['revision'],
+            'record_ref': row.get('portable_record'),
+            'record_sha256': row.get('portable_record_sha256'),
+            'app_handoff': {'package_id': 'mac-media-assets', 'view_id': 'mac-media-assets.review',
+                            'input': {'asset_id': row['id'], 'revision': row['revision']}}}
+
+
+def review(value, root=ROOT, workspace=None):
+    """Read the same exact record from the package; no paths need retyping."""
+    if not isinstance(value, dict):
+        raise ValueError('输入必须为对象')
+    root = Path(root).resolve()
+    if value.get('asset_id'):
+        rows = query(root, asset_id=value['asset_id'], include_withdrawn=True)
+        row = next((item for item in rows if item['id'] == value['asset_id']), None)
+        if row is None:
+            raise ValueError('需要精确素材 ID，不能用来源 ID 替代已选版本')
+        if value.get('revision') != row['revision']:
+            raise ValueError('素材版本与已选记录不一致，请重新读取')
+        path = (root / row['portable_record']).resolve()
+        if not path.is_relative_to(root):
+            raise ValueError('素材记录越出已安装包')
+        body = path.read_bytes()
+        if hashlib.sha256(body).hexdigest() != row['portable_record_sha256']:
+            raise ValueError('素材记录已变化，请修复安装或重新选择')
+        record = json.loads(body)
+        if record.get('id') != row['source_id'] or record.get('revision') != row['revision']:
+            raise ValueError('素材记录身份与目录不一致')
+        return {'state': 'ready', 'data': {
+            'items': [{**selection(row), 'id': row['id'], 'title': row['display_title'],
+                       'artifact_ref': str(path), 'artifact_kind': 'asset_record',
+                       'status': 'available' if row['available_for_use'] else 'withdrawn',
+                       'record': record, 'review_boundary': row.get('review_boundary', {}),
+                       'curation': row.get('curation', {}), 'maturity': row['maturity']}],
+            'domain_quality_approved': False}}
+    # Existing installed consumers may still hand over an imported workspace
+    # record. Preserve their profile-contained read without enlarging access.
+    if not value.get('asset_record_path') or not workspace or not Path(workspace).is_absolute():
+        raise ValueError('选择精确素材和版本，或已登记工作区内的素材记录')
+    base = Path(workspace).resolve()
+    path = (base / value['asset_record_path']).resolve()
+    if not path.is_relative_to(base):
+        raise ValueError('素材记录越出已登记工作区')
+    return {'state': 'ready', 'data': json.loads(path.read_text(encoding='utf-8'))}
 
 
 def maturity(root, row):
@@ -218,6 +269,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                 row['display_title'] = fields.get('display_title', row['title'])
                 row['maturity'] = maturity(root, row)
                 row['available_for_use'] = available(row)
+                row['selection'] = selection(row)
                 if maturity_stage and row['maturity'].get(maturity_stage) not in {'reviewed', 'passed'}:
                     continue
                 row['search_match'] = {'score': score, 'source': 'curated_names_and_use' if not include_provenance else 'curated_with_provenance'}
@@ -281,7 +333,15 @@ def main():
     parser.add_argument('--all-versions', action='store_true', help='显式查看历史修订，不用于默认制作选择')
     parser.add_argument('--include-withdrawn', action='store_true', help='只读追溯已撤回版本；不授予导入或复用资格')
     parser.add_argument('--json', action='store_true')
+    parser.add_argument('--app-review', action='store_true', help='从标准输入读取精确共享视图选择')
     args = parser.parse_args()
+    if args.app_review:
+        try:
+            result = review(json.load(sys.stdin), workspace=os.environ.get('OPL_PROFILE_WORKSPACE'))
+        except (ValueError, OSError, KeyError, TypeError) as exc:
+            result = {'state': 'unavailable', 'reason': str(exc)}
+        print(json.dumps(result, ensure_ascii=False))
+        return
     rows = query(text=args.query, kind=args.kind, series=args.series, scope=args.scope,
                  usable_for=args.usable_for, author_id=args.author_id, include_author_assets=args.include_author_assets,
                  category=args.category, action=args.action, story_role=args.story_role, medium=args.medium,

@@ -70,6 +70,13 @@ python3 tools/query_assets.py --query 肾脏 --limit 5
 python3 tools/query_assets.py --character-role 老年男性 --pose seated --limit 5
 ```
 
+JSON 查询结果中的 `selection` 保留精确素材 ID、revision、record_ref 和记录哈希；
+`selection.app_handoff` 可直接作为 `open_opl_apps` 的输入，打开同一素材的共享审看页。
+该页由素材库读取已安装包内的精确记录，重新核对身份、哈希与当前策展状态；无需手工寻找记录路径。
+没有图形宿主时，用 `python3 tools/query_assets.py --app-review` 从标准输入传入
+`{"asset_id":"精确ID","revision":"对应版本"}`，读取相同结果。
+旧的工作区 `asset_record_path` 输入仍可用，读取范围保持在已登记工作区内。
+
 加上 `--json` 可查看原件相对路径、来源记录和完整字段。图片、声音与动作源码位于 `payloads/`。
 
 要播放动作、拖动时间轴或试听声音，在仓库根目录启动本地预览：

@@ -2,18 +2,30 @@
   "schema_version": "opl-package-app-contribution-adapter.v1",
   "reads": {
     "mac.media.v1#review": {
-      "kind": "json_file",
-      "root": "profile",
-      "path": "${input.asset_record_path}",
-      "transform": "json",
+      "kind": "command",
+      "cwd": "package",
+      "stdin": "input_json",
+      "passthrough": true,
+      "argv": [
+        "python3",
+        "tools/query_assets.py",
+        "--app-review"
+      ],
       "input_schema": {
         "type": "object",
-        "required": ["asset_record_path"],
         "properties": {
+          "asset_id": {
+            "type": "string",
+            "title": "精确素材 ID"
+          },
+          "revision": {
+            "type": "string",
+            "title": "素材版本"
+          },
           "asset_record_path": {
             "type": "string",
-            "title": "Asset record",
-            "description": "Workspace-relative path to one MAC asset record.json selected by the Agent."
+            "title": "已导入素材记录",
+            "description": "兼容已有调用：已登记工作区内的相对记录路径"
           }
         },
         "additionalProperties": false

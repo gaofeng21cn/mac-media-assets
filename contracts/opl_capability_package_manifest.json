@@ -5413,6 +5413,6 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:60d794ff6361e4ee3210139f9002af9272bfa0628309be22002675547fdacdef"
+    "digest": "sha256:452f32ff36917798e8fdfd5066d66919583fa942959650c2512772256def5d75"
   }
 }
