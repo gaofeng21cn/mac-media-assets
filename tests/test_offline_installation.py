@@ -16,7 +16,7 @@ class OfflineTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.base=Path(self.tmp.name);self.core=self.base/'core';self.source=self.base/'full';self.cache=self.base/'cache'
-        (self.core/'catalog').mkdir(parents=True);(self.core/'contracts').mkdir()
+        (self.core/'catalog').mkdir(parents=True)
         self.body=b'complete offline original'
         self.item={'path':'payloads/a/original.bin','bytes':len(self.body),'sha256':hashlib.sha256(self.body).hexdigest()}
         self.row={'id':'paper:a@one','source_id':'a','revision':'one','title':'A','kind':'image','payload':[self.item]}
@@ -28,13 +28,16 @@ class OfflineTests(unittest.TestCase):
         for name in core_files:
             file=self.core/name;file.parent.mkdir(parents=True,exist_ok=True);file.write_text('{}')
         descriptor={'package_id':'mac-media-assets','version':'1.0.0','content_lock':{'paths':['catalog/assets.jsonl','catalog/media-storage.json',*core_files]}}
-        for name in ['opl-package.json','contracts/opl_capability_package_manifest.json']:(self.core/name).write_text(json.dumps(descriptor))
+        (self.core/'opl-package.json').write_text(json.dumps(descriptor))
         p=self.source/self.item['path'];p.parent.mkdir(parents=True);p.write_bytes(self.body)
 
     def test_full_install_is_self_contained_and_survives_general_cache_pruning(self):
         result=offline.install(self.core,self.cache,self.source)
         self.assertEqual(result['status'],'installed');self.assertEqual(result['installed_profiles'],['offline'])
         self.assertEqual(result['installations'][0]['file_count'],1)
+        location=Path(result['installations'][0]['location'])
+        self.assertEqual(json.loads((location/'contracts/opl_capability_package_manifest.json').read_text()),
+                         json.loads((location/'opl-package.json').read_text()))
         (self.source/self.item['path']).unlink()
         media_store.prune(self.cache,apply=True)
         self.assertEqual(media_store.locate(self.core,self.item,self.cache).read_bytes(),self.body)

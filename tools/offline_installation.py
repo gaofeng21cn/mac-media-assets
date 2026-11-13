@@ -67,9 +67,14 @@ def install(root=ROOT,cache=None,source_root=None):
             stage=Path(temporary)/'library';stage.mkdir()
             manifest=read(root/'opl-package.json')
             # Retain callable tools and every source/review record independently.
-            for name in manifest['content_lock']['paths']+['opl-package.json','contracts/opl_capability_package_manifest.json']:
+            for name in manifest['content_lock']['paths']+['opl-package.json']:
                 if name in wanted:continue
                 destination=contained(stage,name);destination.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(contained(root,name),destination)
+            # The installed carrier owns opl-package.json; repository-only
+            # projection metadata is not part of its content lock.
+            owner_manifest=stage/'contracts/opl_capability_package_manifest.json'
+            owner_manifest.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(root/'opl-package.json',owner_manifest)
             missing={}
             for name,item in wanted.items():
                 source=contained(root,name)
