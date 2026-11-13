@@ -3,7 +3,7 @@
   "profile": "catalog",
   "source": {
     "repository": "https://github.com/gaofeng21cn/mac-media-assets.git",
-    "revision": "9949cc87512abbc1557a0af6b1aeffd2e74fb361"
+    "revision": "da379b329f0f6d87b3f81c0a0e7d4111e27c08ca"
   },
   "bundled_source_ids": [
     "mac_process_blood_v1",
