@@ -1,0 +1,338 @@
+{
+  "schema": "mac_medical_coverage/v1",
+  "basis": "逐项语义策展；候选与缺口分别记录，系统/主题标签不代表临床能力通过。",
+  "scenarios": [
+    {
+      "id": "hypertension",
+      "title": "高血压",
+      "medical_system": "心血管",
+      "existing_source_ids": [
+        "paper_upper_arm_monitor_parts_v1",
+        "mac_bp_cuff_action_v1",
+        "mac_abpm_wear_cycle_v1",
+        "mac_process_blood_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "脑心肾损伤的因果过程",
+        "危险信号与呼救的完整情境"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "diabetes",
+      "title": "糖尿病",
+      "medical_system": "内分泌与代谢",
+      "existing_source_ids": [
+        "paper_glucose_meter_parts_v1",
+        "mac_glucose_test_action_v1",
+        "mac_process_insulin_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "胰岛素笔规范注射接触动作",
+        "连续血糖监测佩戴",
+        "低血糖吞咽与意识状态完整动作"
+      ],
+      "priority": "P1",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "asthma",
+      "title": "哮喘与吸入治疗",
+      "medical_system": "呼吸",
+      "existing_source_ids": [
+        "reserve_lungs_v1",
+        "reserve_alveolus_v1",
+        "reserve_inhaler_v1",
+        "mac_process_gas_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "气道收缩与炎症的独立变化",
+        "按具体装置类型的完整吸入教学"
+      ],
+      "priority": "P1",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "colorectal",
+      "title": "肠癌与内镜",
+      "medical_system": "消化",
+      "existing_source_ids": [
+        "reserve_intestine_v1",
+        "mac_process_endoscope_v1",
+        "mac_process_metastasis_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "肠壁病变深度与分期",
+        "息肉切除器械及接触",
+        "造口照护的独立物件与完整动作"
+      ],
+      "priority": "P1",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "pituitary",
+      "title": "垂体疾病",
+      "medical_system": "内分泌与代谢",
+      "existing_source_ids": [
+        "mac_process_feedback_v1",
+        "pituitary_anatomy_collage"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "具体激素轴的完整回路",
+        "已审定手术入路"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "thyroid",
+      "title": "甲状腺疾病",
+      "medical_system": "内分泌与代谢",
+      "existing_source_ids": [
+        "six_paper_thyroid_neck",
+        "mac_process_feedback_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "结节与炎性改变的病变母版",
+        "甲状腺专用反馈回路"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "kidney",
+      "title": "慢性肾病",
+      "medical_system": "肾脏与泌尿",
+      "existing_source_ids": [
+        "reserve_kidney_detailed_layers_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "肾单位滤过与重吸收",
+        "透析与通路护理"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "heart",
+      "title": "常见心血管疾病",
+      "medical_system": "心血管",
+      "existing_source_ids": [
+        "reserve_heart_detailed_layers_v1",
+        "mac_process_blood_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "完整体肺循环与心瓣膜时相",
+        "心电检查接触",
+        "血栓形成与再通"
+      ],
+      "priority": "P1",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "stroke",
+      "title": "卒中与神经系统",
+      "medical_system": "神经",
+      "existing_source_ids": [
+        "reserve_head_sagittal_detailed_layers_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "脑血管分区与缺血病变",
+        "卒中识别及转运完整情境"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "skin",
+      "title": "皮肤与伤口",
+      "medical_system": "皮肤",
+      "existing_source_ids": [
+        "mac_process_skin_v1",
+        "reserve_dressing_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "伤口评估与敷料选择",
+        "完整换药接触动作"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "spine",
+      "title": "腰痛与肌骨康复",
+      "medical_system": "骨骼肌肉与康复",
+      "existing_source_ids": [
+        "mac_process_spine_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "膝肩关节和肌腱",
+        "按真实身体比例的康复训练"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "eye",
+      "title": "近视与眼健康",
+      "medical_system": "眼",
+      "existing_source_ids": [
+        "mac_process_eye_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "眼底病变与视功能检查",
+        "用眼行为与儿童操作场景"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "pregnancy",
+      "title": "生殖与围产",
+      "medical_system": "生殖与围产",
+      "existing_source_ids": [
+        "six_paper_pelvic_organs",
+        "character_adult_woman_nursing_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "胚胎胎盘母胎关系",
+        "孕检与产后照护动作"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "ent_oral",
+      "title": "耳鼻喉与口腔",
+      "medical_system": "耳鼻喉与口腔",
+      "existing_source_ids": [],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "外中内耳及听觉过程",
+        "牙体牙周与口腔护理"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "not_yet_curated"
+    },
+    {
+      "id": "children",
+      "title": "儿科与照护",
+      "medical_system": "儿科",
+      "existing_source_ids": [],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "婴幼儿独立角色与体量",
+        "喂养及家庭照护接触动作"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "not_yet_curated"
+    },
+    {
+      "id": "emergency",
+      "title": "急救与安全行动",
+      "medical_system": "急救",
+      "existing_source_ids": [],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "按现行指南审定的心肺复苏和AED动作",
+        "气道梗阻处理与不同年龄接触关系"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "not_yet_curated"
+    },
+    {
+      "id": "infection",
+      "title": "感染、免疫与疫苗",
+      "medical_system": "感染与免疫",
+      "existing_source_ids": [
+        "mac_process_inflammation_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "病原传播与洗手戴口罩动作",
+        "免疫记忆与疫苗机制"
+      ],
+      "priority": "P1",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "screening",
+      "title": "筛查与风险沟通",
+      "medical_system": "跨系统",
+      "existing_source_ids": [
+        "mac_process_risk_v1",
+        "mac_process_screening_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "过度诊断与竞争风险的解释组件",
+        "个体化检查时间轴"
+      ],
+      "priority": "P1",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "medicines",
+      "title": "药物与长期治疗",
+      "medical_system": "跨系统",
+      "existing_source_ids": [
+        "mac_process_insulin_v1",
+        "paper_medicine_bottle_parts_v1"
+      ],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "吸收分布代谢排泄",
+        "按药理类别的受体和作用组件"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "partial_candidates"
+    },
+    {
+      "id": "mental",
+      "title": "心理与沟通",
+      "medical_system": "心理与行为",
+      "existing_source_ids": [],
+      "unresolved_source_aliases": [],
+      "missing_capabilities": [
+        "同身份人物的情绪与倾听表演",
+        "睡眠、压力与求助场景"
+      ],
+      "priority": "P2",
+      "medical_review": "pending",
+      "coverage_status": "not_yet_curated"
+    }
+  ]
+}

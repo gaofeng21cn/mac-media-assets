@@ -10,6 +10,8 @@
 - [初稿质量基线](first-draft-quality.md)：写分镜前的查询、实看、代表镜头和当前镜头复核。
 - [交互审看入口](interaction-review/README.md)：组合小样、关键帧和回读证据。
 - [动作样片与取用](motion-studies.md)：人物接触、监测、生活与结构解释的样片、精确版本与取用方法。
+- [轻量安装与缓存](media-storage.md)：默认目录包、精确媒体取用、离线预取和体积管理。
+- [医学任务覆盖](../collections/medical-coverage.json)：20类任务的已有候选、缺口与补充优先级。
 
 ## 治理与技术入口
 

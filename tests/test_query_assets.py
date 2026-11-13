@@ -98,6 +98,12 @@ class ReviewHandoffTests(unittest.TestCase):
                                 capture_output=True, env={key: val for key, val in os.environ.items() if key != 'OPL_PROFILE_WORKSPACE'}, check=True)
         self.assertEqual(json.loads(result.stdout)['data']['items'][0]['asset_id'], value['asset_id'])
 class SemanticDiscoveryTests(unittest.TestCase):
+    def test_medical_system_task_and_topic_filters_return_actual_components(self):
+        self.assertEqual([r['source_id'] for r in query(system='呼吸',patient_task='理解身体功能')],['mac_process_gas_v1'])
+        self.assertTrue(query(topic='糖尿病'))
+        self.assertEqual(query(system='尚未策展的系统'),[])
+        self.assertEqual(query(category='诊疗操作')[0]['source_id'],'mac_process_endoscope_v1')
+
     def test_chinese_names_emotions_and_provenance_noise(self):
         expected={'甲状腺':'six_paper_thyroid_neck','磁共振':'reserve_mri_v1',
                   '探索':'mac_music_curious_v1','紧张':'mac_music_tension_v1'}

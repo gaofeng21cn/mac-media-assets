@@ -1,0 +1,114 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_endoscope_v1",
+  "title": "内镜观察与靶向取样局部关系",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "procedures",
+    "display_title": "内镜观察与靶向取样局部关系",
+    "aliases": [
+      "肠镜",
+      "活检",
+      "镜端观察",
+      "靶向取样",
+      "回收标本"
+    ],
+    "topics": [
+      "肠镜",
+      "活检"
+    ],
+    "medical_systems": [
+      "消化"
+    ],
+    "patient_tasks": [
+      "准备检查",
+      "理解检查过程"
+    ],
+    "mechanisms": [
+      "镜端观察",
+      "靶向取样",
+      "回收标本"
+    ],
+    "story_roles": [
+      "准备检查",
+      "理解检查过程"
+    ],
+    "actions": [
+      "镜端观察",
+      "靶向取样",
+      "回收标本"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "仅为肠腔局部示意；不表达全身进镜路线、息肉切除或操作规范培训。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "仅为肠腔局部示意；不表达全身进镜路线、息肉切除或操作规范培训。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "325fa5c1e5d439f04da06d9dcfd0854ebedcf395fce6a544f8974bc01f85fae0",
+      "bytes": 544
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "c7d3d23d1e09cc3f1fdf27ea642d16e4ee2b94773275b24a79aaf967401de1bb",
+      "bytes": 207
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "67ba1ca16e45f23c9ec866d2c61eeccca96edcbf55c2f595b08559ddc6d74287",
+      "bytes": 255
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "da3fcb4cd02df3628b87"
+}

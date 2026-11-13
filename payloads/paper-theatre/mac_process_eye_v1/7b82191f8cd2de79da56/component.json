@@ -1,0 +1,11 @@
+{
+  "schema": "mac_medical_process/v1",
+  "scene": "eye",
+  "title": "眼球成像与近视焦点位置",
+  "duration": 10,
+  "viewport": [
+    1280,
+    720
+  ],
+  "medical_review": "pending"
+}

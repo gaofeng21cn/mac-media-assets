@@ -1,0 +1,111 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_insulin_v1",
+  "title": "胰岛素信号与葡萄糖转运",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "physiology",
+    "display_title": "胰岛素信号与葡萄糖转运",
+    "aliases": [
+      "糖尿病",
+      "胰岛素抵抗",
+      "受体结合",
+      "葡萄糖转运"
+    ],
+    "topics": [
+      "糖尿病",
+      "胰岛素抵抗"
+    ],
+    "medical_systems": [
+      "内分泌与代谢"
+    ],
+    "patient_tasks": [
+      "理解身体功能",
+      "理解用药作用"
+    ],
+    "mechanisms": [
+      "受体结合",
+      "葡萄糖转运"
+    ],
+    "story_roles": [
+      "理解身体功能",
+      "理解用药作用"
+    ],
+    "actions": [
+      "受体结合",
+      "葡萄糖转运"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "表达胰岛素敏感组织的简化过程；不能推广为所有组织的唯一摄糖机制。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "表达胰岛素敏感组织的简化过程；不能推广为所有组织的唯一摄糖机制。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "9a2107f3935e1704e40eb0c4e893f7000228f72a3c179060e217ce6d4ac90533",
+      "bytes": 541
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "117b69a190deeb5c98c5e5ff7a9e9c5b1fba596259bce68806ade9e8095cb928",
+      "bytes": 199
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "3058af57874d09f58e10a6613ec5331c263e77a8320a78182ace6b716c6971f7",
+      "bytes": 261
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "209880e55e0b87c5ec69"
+}

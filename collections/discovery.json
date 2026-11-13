@@ -55,7 +55,17 @@
         "居家休息"
       ],
       "usage_notes": "与床架、被褥、枕头组合完成床上动作；此前库存缺少卧姿导致床上镜头无法实现。通用虚构角色，非品牌医生形象。",
-      "view": "与 reserve_bed_v1 / reserve_blanket_v1 / reserve_pillow_v1 组合后按当前镜头选择"
+      "view": "与 reserve_bed_v1 / reserve_blanket_v1 / reserve_pillow_v1 组合后按当前镜头选择",
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_person_pointing_v1": {
       "category": "characters",
@@ -103,7 +113,17 @@
       "compatibility": {
         "params": "可调整；指向端可登记为接触锚点",
         "dependencies": "透明纸件，可供多种后端使用"
-      }
+      },
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_kitchen_counter_v2": {
       "category": "stage",
@@ -154,7 +174,16 @@
       "compatibility": {
         "params": "整幅环境板不计入主体包围盒",
         "dependencies": "静态舞台层；需要开合的物件另取单件"
-      }
+      },
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac-filmcraft-kit-1-2": {
       "category": "motion",
@@ -178,7 +207,9 @@
         "纸弹出",
         "风格"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -203,7 +234,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_motion_reserve_v1": {
       "category": "motion",
@@ -223,7 +261,9 @@
         "姿态交换",
         "前景遮挡"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -245,7 +285,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_music_calm_v1": {
       "category": "bgm",
@@ -263,7 +310,9 @@
         "温和",
         "calm"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -278,7 +327,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_music_curious_v1": {
       "category": "bgm",
@@ -296,7 +352,9 @@
         "调查",
         "curious"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -311,7 +369,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_music_relief_v1": {
       "category": "bgm",
@@ -329,7 +394,9 @@
         "希望",
         "relief"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -344,7 +411,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_music_tension_v1": {
       "category": "bgm",
@@ -362,7 +436,9 @@
         "警觉",
         "tension"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -377,7 +453,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_bottle_cap_v1": {
       "category": "sfx",
@@ -395,7 +478,9 @@
         "开瓶",
         "bottle cap"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -409,7 +494,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_cc0_reference_v1": {
       "category": "sfx",
@@ -427,7 +519,9 @@
         "实录",
         "CC0"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -441,7 +535,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_clip_click_v1": {
       "category": "sfx",
@@ -459,7 +560,9 @@
         "咔哒",
         "clip"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -473,7 +576,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_drawer_slide_v1": {
       "category": "sfx",
@@ -489,7 +599,9 @@
         "滑动",
         "drawer"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -503,7 +615,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_folder_rustle_v1": {
       "category": "sfx",
@@ -521,7 +640,9 @@
         "纸袋摩擦",
         "folder"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -535,7 +656,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_paper_fold_v1": {
       "category": "sfx",
@@ -551,7 +679,9 @@
         "折叠",
         "paper fold"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -565,7 +695,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_paper_place_v1": {
       "category": "sfx",
@@ -583,7 +720,9 @@
         "纸张接触",
         "paper place"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -597,7 +736,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_paper_turn_v1": {
       "category": "sfx",
@@ -613,7 +759,9 @@
         "纸张",
         "page turn"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -627,7 +775,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_tape_peel_v1": {
       "category": "sfx",
@@ -645,7 +800,9 @@
         "胶带",
         "tape peel"
       ],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "story_roles": [
         "接触回应"
       ],
@@ -659,7 +816,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_blank_report": {
       "category": "documents",
@@ -675,7 +839,10 @@
         "检查结果",
         "报告单"
       ],
-      "topics": [],
+      "topics": [
+        "就医准备",
+        "随访记录"
+      ],
       "story_roles": [
         "收集线索",
         "记录随访",
@@ -714,7 +881,16 @@
         690,
         700
       ],
-      "geometry_revision": "1ef837c31be5f9dcee48"
+      "geometry_revision": "1ef837c31be5f9dcee48",
+      "patient_tasks": [
+        "记录与随访"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_clinic_environment": {
       "category": "stage",
@@ -723,7 +899,9 @@
       "objects": [
         "医院入口纸面环境板"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -760,7 +938,16 @@
         1672,
         941
       ],
-      "geometry_revision": "c87ee54ad989185ce55e"
+      "geometry_revision": "c87ee54ad989185ce55e",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_contact_stamp": {
       "category": "motion",
@@ -776,7 +963,9 @@
         "落印",
         "接触"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -801,7 +990,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_field_landscape": {
       "category": "stage",
@@ -810,7 +1006,9 @@
       "objects": [
         "树与房屋景物纸件"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -846,7 +1044,16 @@
         2079,
         756
       ],
-      "geometry_revision": "86a289d3a56c57835e85"
+      "geometry_revision": "86a289d3a56c57835e85",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_folder_stow_v1": {
       "category": "motion",
@@ -862,7 +1069,9 @@
         "收纳",
         "夹持"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -887,7 +1096,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_glucose_meter_parts_v1": {
       "category": "monitoring",
@@ -907,7 +1123,9 @@
         "家庭监测",
         "glucose"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -944,7 +1162,17 @@
         1145,
         1374
       ],
-      "geometry_revision": "7d17997f1c1c10d70831"
+      "geometry_revision": "7d17997f1c1c10d70831",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_head_silhouette": {
       "category": "characters",
@@ -1004,7 +1232,17 @@
         1214,
         1295
       ],
-      "geometry_revision": "68cc61f0a7115c6a8782"
+      "geometry_revision": "68cc61f0a7115c6a8782",
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_home_environment_v2": {
       "category": "stage",
@@ -1013,7 +1251,9 @@
       "objects": [
         "居家纸舞台：纤维墙面、窗口与书架"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -1050,7 +1290,16 @@
         1672,
         940
       ],
-      "geometry_revision": "d14ea8056c2f185249b2"
+      "geometry_revision": "d14ea8056c2f185249b2",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_lab_environment": {
       "category": "stage",
@@ -1059,7 +1308,9 @@
       "objects": [
         "实验台纸面环境板"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -1096,7 +1347,16 @@
         1672,
         941
       ],
-      "geometry_revision": "7d13eec2eb92d526a783"
+      "geometry_revision": "7d13eec2eb92d526a783",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_lab_environment_v2": {
       "category": "stage",
@@ -1105,7 +1365,9 @@
       "objects": [
         "实验室纸舞台：撕边工作面与固定件"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -1142,7 +1404,16 @@
         1672,
         941
       ],
-      "geometry_revision": "32860c04564f2998c4a2"
+      "geometry_revision": "32860c04564f2998c4a2",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_medicine_bottle_parts_v1": {
       "category": "care",
@@ -1151,7 +1422,9 @@
       "objects": [
         "无标签药瓶与独立瓶盖部件包"
       ],
-      "topics": [],
+      "topics": [
+        "用药与照护"
+      ],
       "story_roles": [
         "治疗过程",
         "自我照护"
@@ -1188,7 +1461,17 @@
         1109,
         1418
       ],
-      "geometry_revision": "571b02ee0f48cdaa44c3"
+      "geometry_revision": "571b02ee0f48cdaa44c3",
+      "patient_tasks": [
+        "理解治疗",
+        "日常照护"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_music_bed": {
       "category": "bgm",
@@ -1206,7 +1489,9 @@
         "安静",
         "bed"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -1224,7 +1509,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_music_pulse": {
       "category": "bgm",
@@ -1242,7 +1534,9 @@
         "拨弦",
         "pulse"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -1260,7 +1554,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_object_handoff": {
       "category": "motion",
@@ -1276,7 +1577,9 @@
         "跨镜承接",
         "过渡"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -1301,7 +1604,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_observation_window": {
       "category": "monitoring",
@@ -1317,7 +1627,9 @@
         "观察窗",
         "纸框"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "观察遮挡"
       ],
@@ -1354,7 +1666,17 @@
         1536,
         1024
       ],
-      "geometry_revision": "f4c3d1ce2752bcb77dfd"
+      "geometry_revision": "f4c3d1ce2752bcb77dfd",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_open_envelope": {
       "category": "documents",
@@ -1370,7 +1692,10 @@
         "收纳",
         "资料"
       ],
-      "topics": [],
+      "topics": [
+        "就医准备",
+        "随访记录"
+      ],
       "story_roles": [
         "收集线索",
         "记录随访",
@@ -1409,7 +1734,16 @@
         1536,
         1024
       ],
-      "geometry_revision": "1c861a6d24e164a13c83"
+      "geometry_revision": "1c861a6d24e164a13c83",
+      "patient_tasks": [
+        "记录与随访"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_pocket_stow": {
       "category": "motion",
@@ -1425,7 +1759,9 @@
         "口袋",
         "遮挡"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -1450,7 +1786,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_theatre_kit_1_1_0": {
       "category": "motion",
@@ -1468,7 +1811,9 @@
         "局部坐标",
         "相机"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -1493,7 +1838,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_torn_masking_tape_v1": {
       "category": "paper",
@@ -1502,7 +1854,9 @@
       "objects": [
         "手撕纤维纸胶带固定件"
       ],
-      "topics": [],
+      "topics": [
+        "视觉叙事"
+      ],
       "story_roles": [
         "固定纸件",
         "揭示遮挡"
@@ -1539,7 +1893,14 @@
         2039,
         771
       ],
-      "geometry_revision": "f196e7540ba21c9827dc"
+      "geometry_revision": "f196e7540ba21c9827dc",
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "paper_upper_arm_monitor_parts_v1": {
       "category": "monitoring",
@@ -1559,7 +1920,9 @@
         "家庭监测",
         "blood pressure"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -1597,7 +1960,17 @@
         1337,
         1176
       ],
-      "geometry_revision": "595c101839647592b1a8"
+      "geometry_revision": "595c101839647592b1a8",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "paper_wood_stamp": {
       "category": "paper",
@@ -1606,7 +1979,9 @@
       "objects": [
         "木柄印章纸件"
       ],
-      "topics": [],
+      "topics": [
+        "视觉叙事"
+      ],
       "story_roles": [
         "固定纸件",
         "揭示遮挡"
@@ -1644,7 +2019,14 @@
         1086,
         1448
       ],
-      "geometry_revision": "cc591cd5afaedc22686b"
+      "geometry_revision": "cc591cd5afaedc22686b",
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "pituitary_anatomy_collage": {
       "category": "anatomy",
@@ -1705,7 +2087,20 @@
         1374,
         1145
       ],
-      "geometry_revision": "816b2602da608b164b2a"
+      "geometry_revision": "816b2602da608b164b2a",
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "pituitary_sagittal_layered_v1": {
       "category": "anatomy",
@@ -1736,7 +2131,8 @@
         "蝶窦",
         "蝶鞍",
         "垂体",
-        "sagittal"
+        "sagittal",
+        "颅底定位"
       ],
       "story_roles": [
         "定位结构",
@@ -1775,7 +2171,20 @@
         1224,
         1285
       ],
-      "geometry_revision": "d0636987985387405ede"
+      "geometry_revision": "d0636987985387405ede",
+      "medical_systems": [
+        "神经"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_alveolus_v1": {
       "category": "anatomy",
@@ -1795,7 +2204,6 @@
       "topics": [
         "肺泡",
         "呼吸",
-        "alveolus",
         "alveolus"
       ],
       "story_roles": [
@@ -1833,7 +2241,20 @@
         1024,
         1024
       ],
-      "geometry_revision": "95ebc2a8691ac43497f3"
+      "geometry_revision": "95ebc2a8691ac43497f3",
+      "medical_systems": [
+        "呼吸"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_apple_v1": {
       "category": "lifestyle",
@@ -1844,7 +2265,9 @@
       "objects": [
         "独立水果纸件"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -1879,7 +2302,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "d16ec119a05b878eb6b0"
+      "geometry_revision": "d16ec119a05b878eb6b0",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_bed_v1": {
       "category": "stage",
@@ -1890,7 +2322,9 @@
       "objects": [
         "无寝具床架"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -1926,7 +2360,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "d4b8481a1d71ed758de0"
+      "geometry_revision": "d4b8481a1d71ed758de0",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_blanket_v1": {
       "category": "stage",
@@ -1937,7 +2380,9 @@
       "objects": [
         "独立折叠被褥"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -1973,7 +2418,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "d85134f364f5fc010470"
+      "geometry_revision": "d85134f364f5fc010470",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_blister_v1": {
       "category": "care",
@@ -1984,7 +2438,9 @@
       "objects": [
         "独立药片包装"
       ],
-      "topics": [],
+      "topics": [
+        "用药与照护"
+      ],
       "story_roles": [
         "治疗过程",
         "自我照护"
@@ -2020,7 +2476,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "f61a6a92294e34ba50c7"
+      "geometry_revision": "f61a6a92294e34ba50c7",
+      "patient_tasks": [
+        "理解治疗",
+        "日常照护"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_blood_cell_v1": {
       "category": "anatomy",
@@ -2040,7 +2506,6 @@
       "topics": [
         "红细胞",
         "血液",
-        "blood cell",
         "blood cell"
       ],
       "story_roles": [
@@ -2078,7 +2543,20 @@
         1402,
         1122
       ],
-      "geometry_revision": "df4a3d00397046b3b7a6"
+      "geometry_revision": "df4a3d00397046b3b7a6",
+      "medical_systems": [
+        "血液"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_bowl_v1": {
       "category": "lifestyle",
@@ -2089,7 +2567,9 @@
       "objects": [
         "独立空碗"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -2124,7 +2604,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "d3aa5f47ca2b4c059d61"
+      "geometry_revision": "d3aa5f47ca2b4c059d61",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_broccoli_v1": {
       "category": "lifestyle",
@@ -2135,7 +2624,9 @@
       "objects": [
         "独立蔬菜纸件"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -2170,7 +2661,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "2d45a995ce062004437e"
+      "geometry_revision": "2d45a995ce062004437e",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_calendar_base_v1": {
       "category": "documents",
@@ -2181,7 +2681,10 @@
       "objects": [
         "独立台历支座"
       ],
-      "topics": [],
+      "topics": [
+        "就医准备",
+        "随访记录"
+      ],
       "story_roles": [
         "收集线索",
         "记录随访",
@@ -2218,7 +2721,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "77cfb4ee5cc60dea4384"
+      "geometry_revision": "77cfb4ee5cc60dea4384",
+      "patient_tasks": [
+        "记录与随访"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_calendar_leaf_v1": {
       "category": "documents",
@@ -2229,7 +2741,10 @@
       "objects": [
         "独立空白台历页"
       ],
-      "topics": [],
+      "topics": [
+        "就医准备",
+        "随访记录"
+      ],
       "story_roles": [
         "收集线索",
         "记录随访",
@@ -2266,7 +2781,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "c6524f36e08bca4c5c43"
+      "geometry_revision": "c6524f36e08bca4c5c43",
+      "patient_tasks": [
+        "记录与随访"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_chair_v1": {
       "category": "stage",
@@ -2277,7 +2801,9 @@
       "objects": [
         "独立木椅"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -2313,7 +2839,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "f1812703aa41360f72fc"
+      "geometry_revision": "f1812703aa41360f72fc",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_clip_v1": {
       "category": "paper",
@@ -2324,7 +2859,9 @@
       "objects": [
         "独立金属纸夹"
       ],
-      "topics": [],
+      "topics": [
+        "视觉叙事"
+      ],
       "story_roles": [
         "固定纸件",
         "揭示遮挡"
@@ -2360,7 +2897,14 @@
         1254,
         1254
       ],
-      "geometry_revision": "94b724e1617d868d2630"
+      "geometry_revision": "94b724e1617d868d2630",
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "reserve_couch_v1": {
       "category": "monitoring",
@@ -2371,7 +2915,9 @@
       "objects": [
         "独立检查床"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -2407,7 +2953,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "fcb92b9f59156d0156f9"
+      "geometry_revision": "fcb92b9f59156d0156f9",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_cup_v1": {
       "category": "lifestyle",
@@ -2418,7 +2974,9 @@
       "objects": [
         "独立水杯"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -2453,7 +3011,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "5e179e538433e510c646"
+      "geometry_revision": "5e179e538433e510c646",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_curtain_v1": {
       "category": "stage",
@@ -2464,7 +3031,9 @@
       "objects": [
         "独立窗帘"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -2500,7 +3069,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "8eca611dbb6b9296e5ec"
+      "geometry_revision": "8eca611dbb6b9296e5ec",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_door_frame_v1": {
       "category": "stage",
@@ -2511,7 +3089,9 @@
       "objects": [
         "门框"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -2547,7 +3127,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "4f3f3cec89b9d6c25abf"
+      "geometry_revision": "4f3f3cec89b9d6c25abf",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_door_leaf_v1": {
       "category": "stage",
@@ -2558,7 +3147,9 @@
       "objects": [
         "独立门扇"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -2594,7 +3185,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "21662e3a0a60c83b4663"
+      "geometry_revision": "21662e3a0a60c83b4663",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_dressing_v1": {
       "category": "care",
@@ -2605,7 +3205,9 @@
       "objects": [
         "独立敷料"
       ],
-      "topics": [],
+      "topics": [
+        "用药与照护"
+      ],
       "story_roles": [
         "治疗过程",
         "自我照护"
@@ -2641,7 +3243,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "8f9b28d110b9489470ed"
+      "geometry_revision": "8f9b28d110b9489470ed",
+      "patient_tasks": [
+        "理解治疗",
+        "日常照护"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_fibre_v1": {
       "category": "paper",
@@ -2652,7 +3264,9 @@
       "objects": [
         "棉纤维纸材"
       ],
-      "topics": [],
+      "topics": [
+        "视觉叙事"
+      ],
       "story_roles": [
         "固定纸件",
         "揭示遮挡"
@@ -2688,7 +3302,14 @@
         1024,
         1536
       ],
-      "geometry_revision": "dad8aea055f230a31da5"
+      "geometry_revision": "dad8aea055f230a31da5",
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "reserve_fish_v1": {
       "category": "lifestyle",
@@ -2699,7 +3320,9 @@
       "objects": [
         "独立鱼肉纸件"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -2734,7 +3357,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "2e4296abb2d19883ae2b"
+      "geometry_revision": "2e4296abb2d19883ae2b",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_floor_v1": {
       "category": "stage",
@@ -2745,7 +3377,9 @@
       "objects": [
         "木纹纸地板"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -2781,7 +3415,16 @@
         1536,
         1024
       ],
-      "geometry_revision": "6f84137492f8621ea7bb"
+      "geometry_revision": "6f84137492f8621ea7bb",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_folder_v1": {
       "category": "documents",
@@ -2792,7 +3435,10 @@
       "objects": [
         "独立开口资料袋"
       ],
-      "topics": [],
+      "topics": [
+        "就医准备",
+        "随访记录"
+      ],
       "story_roles": [
         "收集线索",
         "记录随访",
@@ -2829,7 +3475,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "f0c51b2287b8630c50c4"
+      "geometry_revision": "f0c51b2287b8630c50c4",
+      "patient_tasks": [
+        "记录与随访"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_gallbladder_v1": {
       "category": "anatomy",
@@ -2849,7 +3504,6 @@
       "topics": [
         "胆囊",
         "消化",
-        "gallbladder",
         "gallbladder"
       ],
       "story_roles": [
@@ -2887,7 +3541,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "f39efa7a626c82ecb592"
+      "geometry_revision": "f39efa7a626c82ecb592",
+      "medical_systems": [
+        "消化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_hand_pinch_v1": {
       "category": "characters",
@@ -2908,7 +3575,9 @@
         "交接",
         "pinch"
       ],
-      "topics": [],
+      "topics": [
+        "生活情境"
+      ],
       "story_roles": [
         "人物反应",
         "接触物件"
@@ -2944,7 +3613,17 @@
         1024,
         1024
       ],
-      "geometry_revision": "4d1ab9c8a609c8633ac2"
+      "geometry_revision": "4d1ab9c8a609c8633ac2",
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_heart_cut_v1": {
       "category": "anatomy",
@@ -2964,11 +3643,7 @@
         "heart section"
       ],
       "topics": [
-        "心脏",
-        "心腔",
-        "心血管",
-        "heart section",
-        "heart cut"
+        "心脏"
       ],
       "story_roles": [
         "定位结构",
@@ -3005,7 +3680,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "1c3497611c82aa388489"
+      "geometry_revision": "1c3497611c82aa388489",
+      "medical_systems": [
+        "心血管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_heart_v1": {
       "category": "anatomy",
@@ -3025,7 +3709,6 @@
       "topics": [
         "心脏",
         "心血管",
-        "heart",
         "heart"
       ],
       "story_roles": [
@@ -3063,7 +3746,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "6e009b5ce7fba2978c7b"
+      "geometry_revision": "6e009b5ce7fba2978c7b",
+      "medical_systems": [
+        "心血管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_inhaler_v1": {
       "category": "care",
@@ -3074,7 +3770,9 @@
       "objects": [
         "独立吸入装置"
       ],
-      "topics": [],
+      "topics": [
+        "用药与照护"
+      ],
       "story_roles": [
         "治疗过程",
         "自我照护"
@@ -3110,7 +3808,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "deb3537c664b4d077f62"
+      "geometry_revision": "deb3537c664b4d077f62",
+      "patient_tasks": [
+        "理解治疗",
+        "日常照护"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_intestine_v1": {
       "category": "anatomy",
@@ -3131,7 +3839,7 @@
         "肠道",
         "消化",
         "intestine",
-        "intestine"
+        "肠癌"
       ],
       "story_roles": [
         "定位结构",
@@ -3168,7 +3876,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "8323133881fe6bdeb91e"
+      "geometry_revision": "8323133881fe6bdeb91e",
+      "medical_systems": [
+        "消化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_islet_v1": {
       "category": "anatomy",
@@ -3191,7 +3912,6 @@
         "胰岛",
         "胰岛素",
         "糖尿病",
-        "islet",
         "islet"
       ],
       "story_roles": [
@@ -3229,7 +3949,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "1796dcf00ad980856b21"
+      "geometry_revision": "1796dcf00ad980856b21",
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_kraft_v1": {
       "category": "paper",
@@ -3240,7 +3973,9 @@
       "objects": [
         "牛皮纸材"
       ],
-      "topics": [],
+      "topics": [
+        "视觉叙事"
+      ],
       "story_roles": [
         "固定纸件",
         "揭示遮挡"
@@ -3276,7 +4011,14 @@
         1536,
         1024
       ],
-      "geometry_revision": "fd4b73f9cf381087483e"
+      "geometry_revision": "fd4b73f9cf381087483e",
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "reserve_liver_v1": {
       "category": "anatomy",
@@ -3299,7 +4041,6 @@
         "肝脏",
         "消化",
         "脂肪肝",
-        "liver",
         "liver"
       ],
       "story_roles": [
@@ -3337,7 +4078,20 @@
         1454,
         1082
       ],
-      "geometry_revision": "f2c83bbca2a24b3e5dfa"
+      "geometry_revision": "f2c83bbca2a24b3e5dfa",
+      "medical_systems": [
+        "消化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_lungs_v1": {
       "category": "anatomy",
@@ -3360,7 +4114,6 @@
         "肺",
         "呼吸",
         "气管",
-        "lungs",
         "lungs"
       ],
       "story_roles": [
@@ -3398,7 +4151,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "dbfde62a985380b92220"
+      "geometry_revision": "dbfde62a985380b92220",
+      "medical_systems": [
+        "呼吸"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_mri_v1": {
       "category": "monitoring",
@@ -3417,7 +4183,9 @@
         "MRI",
         "影像检查"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -3453,7 +4221,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "f28583afcfdb2df85844"
+      "geometry_revision": "f28583afcfdb2df85844",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_notebook_cover_v1": {
       "category": "documents",
@@ -3464,7 +4242,10 @@
       "objects": [
         "空白记录本封皮"
       ],
-      "topics": [],
+      "topics": [
+        "就医准备",
+        "随访记录"
+      ],
       "story_roles": [
         "收集线索",
         "记录随访",
@@ -3501,7 +4282,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "c3661384cb85dd44994a"
+      "geometry_revision": "c3661384cb85dd44994a",
+      "patient_tasks": [
+        "记录与随访"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_notebook_page_v1": {
       "category": "documents",
@@ -3512,7 +4302,10 @@
       "objects": [
         "独立空白记录页"
       ],
-      "topics": [],
+      "topics": [
+        "就医准备",
+        "随访记录"
+      ],
       "story_roles": [
         "收集线索",
         "记录随访",
@@ -3549,7 +4342,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "1f2278bcc87208c993c3"
+      "geometry_revision": "1f2278bcc87208c993c3",
+      "patient_tasks": [
+        "记录与随访"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_oil_v1": {
       "category": "lifestyle",
@@ -3560,7 +4362,9 @@
       "objects": [
         "无标签油容器"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -3595,7 +4399,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "3825f2cb267e08b1ae84"
+      "geometry_revision": "3825f2cb267e08b1ae84",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_oximeter_v1": {
       "category": "monitoring",
@@ -3606,7 +4419,9 @@
       "objects": [
         "独立脉氧仪"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -3642,7 +4457,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "69c807ea73b6b7982970"
+      "geometry_revision": "69c807ea73b6b7982970",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_pancreas_v1": {
       "category": "anatomy",
@@ -3663,7 +4488,7 @@
         "胰腺",
         "糖尿病",
         "pancreas",
-        "pancreas"
+        "胰管"
       ],
       "story_roles": [
         "定位结构",
@@ -3700,7 +4525,20 @@
         1536,
         1024
       ],
-      "geometry_revision": "0d1ea9719816e248ad1c"
+      "geometry_revision": "0d1ea9719816e248ad1c",
+      "medical_systems": [
+        "消化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_person_reach_v1": {
       "actions": [
@@ -3749,7 +4587,9 @@
       "style": [
         "paper_collage"
       ],
-      "topics": [],
+      "topics": [
+        "生活情境"
+      ],
       "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
       "view": "按当前镜头选择",
       "visible_bounds": [
@@ -3757,6 +4597,16 @@
         20,
         851,
         1514
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_person_seated_v1": {
@@ -3806,7 +4656,9 @@
       "style": [
         "paper_collage"
       ],
-      "topics": [],
+      "topics": [
+        "生活情境"
+      ],
       "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
       "view": "按当前镜头选择",
       "visible_bounds": [
@@ -3814,6 +4666,16 @@
         42,
         881,
         1489
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_person_side_v1": {
@@ -3831,7 +4693,9 @@
         "侧面",
         "side view"
       ],
-      "topics": [],
+      "topics": [
+        "生活情境"
+      ],
       "story_roles": [
         "人物反应",
         "接触物件"
@@ -3867,7 +4731,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "b0c0805e327702792c91"
+      "geometry_revision": "b0c0805e327702792c91",
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_person_stand_v1": {
       "actions": [
@@ -3914,7 +4788,9 @@
       "style": [
         "paper_collage"
       ],
-      "topics": [],
+      "topics": [
+        "生活情境"
+      ],
       "usage_notes": "整体定位/角色母版；通用虚构角色，非医生品牌",
       "view": "按当前镜头选择",
       "visible_bounds": [
@@ -3922,6 +4798,16 @@
         29,
         695,
         1507
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_person_walk_v1": {
@@ -3969,7 +4855,9 @@
       "style": [
         "paper_collage"
       ],
-      "topics": [],
+      "topics": [
+        "生活情境"
+      ],
       "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
       "view": "按当前镜头选择",
       "visible_bounds": [
@@ -3977,6 +4865,16 @@
         24,
         1003,
         1218
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_pillbox_v1": {
@@ -3988,7 +4886,9 @@
       "objects": [
         "独立无字药盒"
       ],
-      "topics": [],
+      "topics": [
+        "用药与照护"
+      ],
       "story_roles": [
         "治疗过程",
         "自我照护"
@@ -4024,7 +4924,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "1c38421cc21eb9771006"
+      "geometry_revision": "1c38421cc21eb9771006",
+      "patient_tasks": [
+        "理解治疗",
+        "日常照护"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_pillow_v1": {
       "category": "stage",
@@ -4035,7 +4945,9 @@
       "objects": [
         "独立枕头"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -4071,7 +4983,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "96e35f791a7cbd333e0e"
+      "geometry_revision": "96e35f791a7cbd333e0e",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_pin_v1": {
       "category": "paper",
@@ -4082,7 +5003,9 @@
       "objects": [
         "独立软木图钉"
       ],
-      "topics": [],
+      "topics": [
+        "视觉叙事"
+      ],
       "story_roles": [
         "固定纸件",
         "揭示遮挡"
@@ -4118,7 +5041,14 @@
         1254,
         1254
       ],
-      "geometry_revision": "da09994ef6dc1a20c026"
+      "geometry_revision": "da09994ef6dc1a20c026",
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "reserve_plate_v1": {
       "category": "lifestyle",
@@ -4129,7 +5059,9 @@
       "objects": [
         "独立空餐盘"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -4164,7 +5096,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "5c367557ca816c92e0c7"
+      "geometry_revision": "5c367557ca816c92e0c7",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_probe_v1": {
       "category": "monitoring",
@@ -4175,7 +5116,9 @@
       "objects": [
         "独立超声探头"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -4211,7 +5154,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "3870d3fa8696e4b13a89"
+      "geometry_revision": "3870d3fa8696e4b13a89",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_rice_v1": {
       "category": "lifestyle",
@@ -4222,7 +5175,9 @@
       "objects": [
         "独立主食纸件"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -4257,7 +5212,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "696df860112a3a6e76d8"
+      "geometry_revision": "696df860112a3a6e76d8",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_salt_v1": {
       "category": "lifestyle",
@@ -4268,7 +5232,9 @@
       "objects": [
         "无标签盐容器"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -4303,7 +5269,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "a430abd3d6a8c308acfc"
+      "geometry_revision": "a430abd3d6a8c308acfc",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_scale_v1": {
       "category": "monitoring",
@@ -4314,7 +5289,9 @@
       "objects": [
         "独立体重秤"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -4350,7 +5327,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "79b44108cc1546b52cbe"
+      "geometry_revision": "79b44108cc1546b52cbe",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_shelf_v1": {
       "category": "stage",
@@ -4361,7 +5348,9 @@
       "objects": [
         "空柜架"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -4397,7 +5386,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "d91a585a45dd7e4804ee"
+      "geometry_revision": "d91a585a45dd7e4804ee",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_shoe_v1": {
       "category": "lifestyle",
@@ -4408,7 +5406,9 @@
       "objects": [
         "独立运动鞋"
       ],
-      "topics": [],
+      "topics": [
+        "饮食与生活方式"
+      ],
       "story_roles": [
         "日常行动"
       ],
@@ -4443,7 +5443,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "34ab4388fef5a442d9f0"
+      "geometry_revision": "34ab4388fef5a442d9f0",
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_stomach_v1": {
       "category": "anatomy",
@@ -4463,7 +5472,6 @@
       "topics": [
         "胃",
         "消化",
-        "stomach",
         "stomach"
       ],
       "story_roles": [
@@ -4501,7 +5509,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "893afaba9489f9ce250f"
+      "geometry_revision": "893afaba9489f9ce250f",
+      "medical_systems": [
+        "消化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_table_v1": {
       "category": "stage",
@@ -4512,7 +5533,9 @@
       "objects": [
         "独立桌沿与桌面"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -4548,7 +5571,16 @@
         1254,
         1254
       ],
-      "geometry_revision": "525e0546b294640f672f"
+      "geometry_revision": "525e0546b294640f672f",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_thermometer_v1": {
       "category": "monitoring",
@@ -4559,7 +5591,9 @@
       "objects": [
         "独立体温计"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -4595,7 +5629,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "867d60951653966b638d"
+      "geometry_revision": "867d60951653966b638d",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_tracing_v1": {
       "category": "paper",
@@ -4606,7 +5650,9 @@
       "objects": [
         "半透明描图纸"
       ],
-      "topics": [],
+      "topics": [
+        "视觉叙事"
+      ],
       "story_roles": [
         "固定纸件",
         "揭示遮挡"
@@ -4642,7 +5688,14 @@
         1254,
         1254
       ],
-      "geometry_revision": "c25c085bd9f6abacb549"
+      "geometry_revision": "c25c085bd9f6abacb549",
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "reserve_tube_cap_v1": {
       "category": "monitoring",
@@ -4653,7 +5706,9 @@
       "objects": [
         "独立标本管盖"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -4689,7 +5744,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "581b64e76627a24d6f3e"
+      "geometry_revision": "581b64e76627a24d6f3e",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_tube_rack_v1": {
       "category": "monitoring",
@@ -4700,7 +5765,9 @@
       "objects": [
         "空标本管架"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -4736,7 +5803,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "8390994fe5121728874a"
+      "geometry_revision": "8390994fe5121728874a",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_tube_v1": {
       "category": "monitoring",
@@ -4747,7 +5824,9 @@
       "objects": [
         "独立标本管"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -4783,7 +5862,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "077336a1f8cccdfd9c1c"
+      "geometry_revision": "077336a1f8cccdfd9c1c",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_ultrasound_v1": {
       "category": "monitoring",
@@ -4794,7 +5883,9 @@
       "objects": [
         "独立超声设备"
       ],
-      "topics": [],
+      "topics": [
+        "检查与家庭监测"
+      ],
       "story_roles": [
         "收集线索",
         "对照检查"
@@ -4830,7 +5921,17 @@
         1254,
         1254
       ],
-      "geometry_revision": "ed031ce83f0d69fe96a8"
+      "geometry_revision": "ed031ce83f0d69fe96a8",
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_vessel_v1": {
       "category": "anatomy",
@@ -4853,11 +5954,7 @@
       ],
       "topics": [
         "血管",
-        "动脉",
-        "心血管",
-        "血脂",
-        "vessel",
-        "vessel"
+        "动脉粥样硬化"
       ],
       "story_roles": [
         "定位结构",
@@ -4894,7 +5991,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "9ba9b427374b43fa6a61"
+      "geometry_revision": "9ba9b427374b43fa6a61",
+      "medical_systems": [
+        "心血管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_wall_v1": {
       "category": "stage",
@@ -4905,7 +6015,9 @@
       "objects": [
         "无家具墙面"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -4941,7 +6053,16 @@
         1536,
         1024
       ],
-      "geometry_revision": "2288eeec5f06127d1ed8"
+      "geometry_revision": "2288eeec5f06127d1ed8",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_window_v1": {
       "category": "stage",
@@ -4952,7 +6073,9 @@
       "objects": [
         "独立窗框"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -4988,7 +6111,16 @@
         1312,
         1199
       ],
-      "geometry_revision": "ff85733cb6f2431414e1"
+      "geometry_revision": "ff85733cb6f2431414e1",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_breast_section": {
       "category": "anatomy",
@@ -5049,7 +6181,20 @@
         1254,
         1254
       ],
-      "geometry_revision": "efe620b059dfc91db173"
+      "geometry_revision": "efe620b059dfc91db173",
+      "medical_systems": [
+        "乳腺"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_breast_stage": {
       "category": "stage",
@@ -5058,7 +6203,9 @@
       "objects": [
         "breast_stage 完整纸景"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -5095,7 +6242,16 @@
         1672,
         941
       ],
-      "geometry_revision": "c0c36462bf2b38e0d662"
+      "geometry_revision": "c0c36462bf2b38e0d662",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_foot_joint": {
       "category": "anatomy",
@@ -5120,7 +6276,8 @@
         "关节",
         "痛风",
         "尿酸",
-        "gout"
+        "gout",
+        "踝关节"
       ],
       "story_roles": [
         "定位结构",
@@ -5159,7 +6316,20 @@
         1224,
         1285
       ],
-      "geometry_revision": "d91837d27cc175eca3e4"
+      "geometry_revision": "d91837d27cc175eca3e4",
+      "medical_systems": [
+        "骨骼肌肉与康复"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_gout_stage": {
       "category": "stage",
@@ -5168,7 +6338,9 @@
       "objects": [
         "gout_stage 完整纸景"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -5205,7 +6377,16 @@
         1672,
         941
       ],
-      "geometry_revision": "c263234c5f6b4a89c17b"
+      "geometry_revision": "c263234c5f6b4a89c17b",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_graves_stage": {
       "category": "stage",
@@ -5214,7 +6395,9 @@
       "objects": [
         "graves_stage 完整纸景"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -5251,7 +6434,16 @@
         1672,
         941
       ],
-      "geometry_revision": "1f9f90b7d36ee34c604c"
+      "geometry_revision": "1f9f90b7d36ee34c604c",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_hashimoto_stage": {
       "category": "stage",
@@ -5260,7 +6452,9 @@
       "objects": [
         "hashimoto_stage 完整纸景"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -5297,7 +6491,16 @@
         1672,
         940
       ],
-      "geometry_revision": "f60b10a9fad8a9b0a3ee"
+      "geometry_revision": "f60b10a9fad8a9b0a3ee",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_kidney_stage": {
       "category": "stage",
@@ -5306,7 +6509,9 @@
       "objects": [
         "kidney_stage 完整纸景"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -5343,7 +6548,16 @@
         1672,
         941
       ],
-      "geometry_revision": "0dbd694e8e86c8939a08"
+      "geometry_revision": "0dbd694e8e86c8939a08",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_kidneys_alpha": {
       "category": "anatomy",
@@ -5407,7 +6621,20 @@
         1024,
         1536
       ],
-      "geometry_revision": "4596444fbc641ceea029"
+      "geometry_revision": "4596444fbc641ceea029",
+      "medical_systems": [
+        "肾脏与泌尿"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_music_breast_nodules_paper_theatre": {
       "category": "bgm",
@@ -5416,7 +6643,9 @@
       "objects": [
         "breast_nodules_paper_theatre 原创纸剧场分轨配乐"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -5434,7 +6663,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "six_paper_music_ckd_paper_theatre": {
       "category": "bgm",
@@ -5443,7 +6679,9 @@
       "objects": [
         "ckd_paper_theatre 原创纸剧场分轨配乐"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -5461,7 +6699,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "six_paper_music_gout_paper_theatre": {
       "category": "bgm",
@@ -5470,7 +6715,9 @@
       "objects": [
         "gout_paper_theatre 原创纸剧场分轨配乐"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -5488,7 +6735,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "six_paper_music_graves_paper_theatre": {
       "category": "bgm",
@@ -5497,7 +6751,9 @@
       "objects": [
         "graves_paper_theatre 原创纸剧场分轨配乐"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -5515,7 +6771,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "six_paper_music_hashimoto_paper_theatre": {
       "category": "bgm",
@@ -5524,7 +6787,9 @@
       "objects": [
         "hashimoto_paper_theatre 原创纸剧场分轨配乐"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -5542,7 +6807,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "six_paper_music_pcos_paper_theatre": {
       "category": "bgm",
@@ -5551,7 +6823,9 @@
       "objects": [
         "pcos_paper_theatre 原创纸剧场分轨配乐"
       ],
-      "topics": [],
+      "topics": [
+        "音乐叙事"
+      ],
       "story_roles": [
         "情绪铺垫",
         "情绪转折"
@@ -5569,7 +6843,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "six_paper_pcos_stage": {
       "category": "stage",
@@ -5578,7 +6859,9 @@
       "objects": [
         "pcos_stage 完整纸景"
       ],
-      "topics": [],
+      "topics": [
+        "就医与居家环境"
+      ],
       "story_roles": [
         "建立空间",
         "前景遮挡"
@@ -5615,7 +6898,16 @@
         1672,
         940
       ],
-      "geometry_revision": "b14e073941d64eff2575"
+      "geometry_revision": "b14e073941d64eff2575",
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_pelvic_organs": {
       "category": "anatomy",
@@ -5679,7 +6971,20 @@
         1366,
         1152
       ],
-      "geometry_revision": "b23cfa24edc8b99fcad3"
+      "geometry_revision": "b23cfa24edc8b99fcad3",
+      "medical_systems": [
+        "生殖与围产"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "six_paper_staging_modules": {
       "category": "motion",
@@ -5695,7 +7000,9 @@
         "翻面",
         "舞台"
       ],
-      "topics": [],
+      "topics": [
+        "可编辑动作"
+      ],
       "story_roles": [
         "连续动作",
         "镜头承接"
@@ -5720,7 +7027,14 @@
       "compatibility": {
         "params": "可调整；content bounds 与接触点不固定画面构图",
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "six_paper_thyroid_neck": {
       "category": "anatomy",
@@ -5748,7 +7062,8 @@
         "thyroid",
         "桥本",
         "甲亢",
-        "Graves"
+        "Graves",
+        "甲减"
       ],
       "story_roles": [
         "定位结构",
@@ -5787,7 +7102,20 @@
         1224,
         1285
       ],
-      "geometry_revision": "01644949a5fe8bd8e3c6"
+      "geometry_revision": "01644949a5fe8bd8e3c6",
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_left_receive_v1": {
       "category": "characters",
@@ -5826,7 +7154,20 @@
         1024
       ],
       "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "geometry_revision": "080b943a5f9d2bb88bba"
+      "geometry_revision": "080b943a5f9d2bb88bba",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_person_receive_v1": {
       "category": "characters",
@@ -5865,7 +7206,20 @@
         1536
       ],
       "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "geometry_revision": "bcd43c994018d84d76c0"
+      "geometry_revision": "bcd43c994018d84d76c0",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_right_pinch_v1": {
       "category": "characters",
@@ -5904,7 +7258,20 @@
         1024
       ],
       "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "geometry_revision": "953208910f3f2afe0eaa"
+      "geometry_revision": "953208910f3f2afe0eaa",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_bare_arm_v1": {
       "category": "characters",
@@ -5947,7 +7314,20 @@
         1024
       ],
       "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "geometry_revision": "199031b83fe2420d595b"
+      "geometry_revision": "199031b83fe2420d595b",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_open_cuff_v1": {
       "category": "monitoring",
@@ -5988,7 +7368,20 @@
         1024
       ],
       "bounds_method": "几何候选，经换底与试装查看；不作为艺术质量评分",
-      "geometry_revision": "ed384b40d3d5dc3de162"
+      "geometry_revision": "ed384b40d3d5dc3de162",
+      "topics": [
+        "检查与家庭监测"
+      ],
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_contact_runtime_v1": {
       "category": "motion",
@@ -6025,7 +7418,17 @@
           "ES modules"
         ],
         "other_backends": "轨迹数学可适配，实际绘制器示例仅 Canvas 2D"
-      }
+      },
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac-paper-action-library-1-0": {
       "category": "motion",
@@ -6084,7 +7487,17 @@
       "compatibility": {
         "params": "动作参数由单集导演稿决定；纯函数解算器支持随机 seek"
       },
-      "usage_notes": "提供动作下限，不固定构图、故事或镜头数。"
+      "usage_notes": "提供动作下限，不固定构图、故事或镜头数。",
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "character_pregnant_woman_stand_v1": {
       "actions": [
@@ -6115,7 +7528,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整全身孕妇，不做几何拼人；当前镜头仍需核对身份、尺度和遮挡。"
+      "usage_notes": "完整全身孕妇，不做几何拼人；当前镜头仍需核对身份、尺度和遮挡。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_pregnant_woman_seated_v1": {
       "actions": [
@@ -6145,7 +7571,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整全身孕妇，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。"
+      "usage_notes": "完整全身孕妇，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_older_woman_stand_v1": {
       "actions": [
@@ -6176,7 +7615,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整老年女性，年龄表达靠面部与发型，不做脆弱化漫画。"
+      "usage_notes": "完整老年女性，年龄表达靠面部与发型，不做脆弱化漫画。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_older_man_walk_v1": {
       "actions": [
@@ -6207,7 +7659,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整老年男性步行姿态，可整体位移；当前镜头仍需核对脚底接触。"
+      "usage_notes": "完整老年男性步行姿态，可整体位移；当前镜头仍需核对脚底接触。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_child_girl_stand_v1": {
       "actions": [
@@ -6238,7 +7703,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整儿童女性，采用儿童比例；不能把成人素材等比缩小冒充儿童。"
+      "usage_notes": "完整儿童女性，采用儿童比例；不能把成人素材等比缩小冒充儿童。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_woman_stand_v1": {
       "actions": [
@@ -6269,7 +7747,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。"
+      "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_man_stand_v1": {
       "actions": [
@@ -6300,7 +7791,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。"
+      "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_adult_man_seated_v1": {
       "actions": [
@@ -6331,7 +7835,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整男性患者，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。"
+      "usage_notes": "完整男性患者，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_teen_girl_stand_v1": {
       "actions": [
@@ -6362,7 +7879,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整青少年女性，儿童与成人之间的年龄比例；当前镜头仍需复核身份、尺度、遮挡和接触。"
+      "usage_notes": "完整青少年女性，儿童与成人之间的年龄比例；当前镜头仍需复核身份、尺度、遮挡和接触。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_adult_man_stand_v1": {
       "actions": [
@@ -6392,7 +7922,20 @@
       "style": [
         "paper_collage"
       ],
-      "usage_notes": "完整成年男性纸剪贴人物；来源为既有项目已使用素材，当前镜头仍需复核身份、尺度、接触和遮挡。"
+      "usage_notes": "完整成年男性纸剪贴人物；来源为既有项目已使用素材，当前镜头仍需复核身份、尺度、接触和遮挡。",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "male_patient_walk_20261023": {
       "category": "characters",
@@ -6439,7 +7982,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_man",
       "pose": "walk",
-      "master_id": "character_adult_man_stand_v1"
+      "master_id": "character_adult_man_stand_v1",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_adult_man_upper_abdomen_stool_v1": {
       "category": "characters",
@@ -6485,7 +8041,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_man",
       "pose": "seated_upper_abdomen_stool",
-      "master_id": "character_adult_man_seated_v1"
+      "master_id": "character_adult_man_seated_v1",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_older_brother_stand_v1": {
       "category": "characters",
@@ -6532,7 +8101,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_man",
       "pose": "stand_family",
-      "master_id": "character_older_brother_stand_v1"
+      "master_id": "character_older_brother_stand_v1",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "abpm_patient_20261023": {
       "category": "characters",
@@ -6579,7 +8161,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_woman",
       "pose": "stand_abpm",
-      "master_id": "beige_sweater_bun_patient"
+      "master_id": "beige_sweater_bun_patient",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "male_patient_seated_identity_20261023": {
       "category": "characters",
@@ -6625,7 +8220,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_man",
       "pose": "seated",
-      "master_id": "character_adult_man_stand_v1"
+      "master_id": "character_adult_man_stand_v1",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_thyroid_simple_v1": {
       "category": "anatomy",
@@ -6657,6 +8265,24 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "甲状腺",
+        "甲亢",
+        "甲减"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_kidney_simple_v1": {
@@ -6673,6 +8299,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "肾脏与泌尿"
+      ],
+      "topics": [
+        "肾脏",
+        "慢性肾病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_kidney_detailed_layers_v1": {
@@ -6689,6 +8332,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "肾脏与泌尿"
+      ],
+      "topics": [
+        "肾脏",
+        "慢性肾病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_artery_simple_v1": {
@@ -6705,6 +8365,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "血管",
+        "动脉粥样硬化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_artery_detailed_layers_v1": {
@@ -6721,6 +8398,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "血管",
+        "动脉粥样硬化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "character_adult_man_walk_v1": {
@@ -6743,7 +8437,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_adult_man_reach_v1": {
       "category": "characters",
@@ -6765,7 +8472,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_man_seated_consult_v1": {
       "category": "characters",
@@ -6787,7 +8507,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_woman_stand_v2": {
       "category": "characters",
@@ -6809,7 +8542,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_man_walk_v1": {
       "category": "characters",
@@ -6831,7 +8577,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_man_reach_v1": {
       "category": "characters",
@@ -6853,7 +8612,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_child_girl_seated_v1": {
       "category": "characters",
@@ -6875,7 +8647,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
+      ]
     },
     "character_child_girl_walk_v1": {
       "category": "characters",
@@ -6897,7 +8682,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
+      ]
     },
     "character_child_girl_reach_v1": {
       "category": "characters",
@@ -6919,7 +8717,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
+      ]
     },
     "character_teen_girl_seated_v1": {
       "category": "characters",
@@ -6941,7 +8752,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
+      ]
     },
     "character_teen_girl_walk_v1": {
       "category": "characters",
@@ -6963,7 +8787,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
+      ]
     },
     "character_teen_girl_reach_v1": {
       "category": "characters",
@@ -6985,7 +8822,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
+      ]
     },
     "character_clinician_woman_seated_consult_v2": {
       "category": "characters",
@@ -7007,7 +8857,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_woman_walk_v2": {
       "category": "characters",
@@ -7029,7 +8892,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_clinician_woman_reach_v2": {
       "category": "characters",
@@ -7051,7 +8927,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_older_man_stand_v1": {
       "category": "characters",
@@ -7073,7 +8962,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_older_man_seated_v1": {
       "category": "characters",
@@ -7095,7 +8997,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_older_man_reach_v1": {
       "category": "characters",
@@ -7117,7 +9032,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_older_woman_seated_v1": {
       "category": "characters",
@@ -7139,7 +9067,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_older_woman_walk_v1": {
       "category": "characters",
@@ -7161,7 +9102,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_older_woman_reach_v1": {
       "category": "characters",
@@ -7183,7 +9137,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_pregnant_woman_walk_v1": {
       "category": "characters",
@@ -7205,7 +9172,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "孕产妇与家属"
+      ]
     },
     "character_pregnant_woman_reach_v1": {
       "category": "characters",
@@ -7227,7 +9207,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "孕产妇与家属"
+      ]
     },
     "character_older_man_sit_transition_v1": {
       "category": "characters",
@@ -7249,7 +9242,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_older_woman_sit_transition_v1": {
       "category": "characters",
@@ -7271,7 +9277,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_adult_woman_care_reach_v2": {
       "category": "characters",
@@ -7293,7 +9312,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_adult_woman_reach_v2": {
       "category": "characters",
@@ -7315,7 +9347,20 @@
         "paper_collage"
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_man_alert_armchair_v1": {
       "category": "characters",
@@ -7359,7 +9404,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_man",
       "pose": "seated_alert_armchair",
-      "master_id": "character_adult_man_seated_v1"
+      "master_id": "character_adult_man_seated_v1",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_man_unresponsive_armchair_v1": {
       "category": "characters",
@@ -7403,7 +9461,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_man",
       "pose": "seated_head_down_armchair",
-      "master_id": "character_adult_man_seated_v1"
+      "master_id": "character_adult_man_seated_v1",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_carer_calling_v1": {
       "category": "characters",
@@ -7449,7 +9520,20 @@
       "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
       "character_role": "adult_woman",
       "pose": "calling",
-      "master_id": "reserve_person_stand_v1"
+      "master_id": "reserve_person_stand_v1",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "exercise_grip": {
       "category": "lifestyle",
@@ -7494,7 +9578,19 @@
       "detail_level": "对象局部近景；手、器械、前臂连续，右侧切边从画外伸入",
       "character_role": null,
       "pose": "grip_dumbbell",
-      "master_id": null
+      "master_id": null,
+      "topics": [
+        "饮食与生活方式"
+      ],
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_thyroid_simple_v2": {
       "category": "anatomy",
@@ -7510,6 +9606,24 @@
       "story_roles": [
         "结构定位",
         "结构解释"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "甲状腺",
+        "甲亢",
+        "甲减"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_pituitary_relations_simple_v1": {
@@ -7526,6 +9640,23 @@
       "story_roles": [
         "结构定位",
         "结构解释"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "垂体",
+        "垂体瘤"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_pituitary_relations_layers_v1": {
@@ -7543,6 +9674,23 @@
       "story_roles": [
         "结构定位",
         "结构解释"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "垂体",
+        "垂体瘤"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_pancreas_relations_simple_v1": {
@@ -7559,6 +9707,23 @@
       "story_roles": [
         "结构定位",
         "结构解释"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胰腺",
+        "胰管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_pancreas_relations_layers_v1": {
@@ -7576,6 +9741,23 @@
       "story_roles": [
         "结构定位",
         "结构解释"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胰腺",
+        "胰管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "character_child_boy_stand_v1": {
@@ -7605,7 +9787,20 @@
         1506
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
+      ]
     },
     "character_child_boy_seated_v1": {
       "category": "characters",
@@ -7634,7 +9829,20 @@
         1466
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
+      ]
     },
     "character_child_boy_walk_v1": {
       "category": "characters",
@@ -7663,7 +9871,20 @@
         1473
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
+      ]
     },
     "character_child_boy_reach_v1": {
       "category": "characters",
@@ -7692,7 +9913,20 @@
         1512
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
+      ]
     },
     "character_teen_boy_stand_v1": {
       "category": "characters",
@@ -7721,7 +9955,20 @@
         1515
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
+      ]
     },
     "character_teen_boy_seated_v1": {
       "category": "characters",
@@ -7750,7 +9997,20 @@
         1462
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
+      ]
     },
     "character_teen_boy_walk_v1": {
       "category": "characters",
@@ -7779,7 +10039,20 @@
         1447
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
+      ]
     },
     "character_teen_boy_reach_v1": {
       "category": "characters",
@@ -7808,7 +10081,20 @@
         1520
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
+      ]
     },
     "character_young_man_stand_v1": {
       "category": "characters",
@@ -7837,7 +10123,20 @@
         1508
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_young_man_seated_v1": {
       "category": "characters",
@@ -7866,7 +10165,20 @@
         1449
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_young_man_walk_v1": {
       "category": "characters",
@@ -7895,7 +10207,20 @@
         1426
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_young_man_reach_v1": {
       "category": "characters",
@@ -7924,7 +10249,20 @@
         1498
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_adult_woman_lying_v2": {
       "category": "characters",
@@ -7955,7 +10293,20 @@
         690
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_waiting_room_v1": {
       "category": "stage",
@@ -7984,7 +10335,19 @@
         941
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "就医与居家环境"
+      ],
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "reserve_bathroom_v1": {
       "category": "stage",
@@ -8013,7 +10376,19 @@
         941
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "就医与居家环境"
+      ],
+      "patient_tasks": [
+        "理解就医情境"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_older_man_cane_v1": {
       "category": "characters",
@@ -8043,7 +10418,20 @@
         1468
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "character_older_man_wheelchair_v1": {
       "category": "characters",
@@ -8073,7 +10461,20 @@
         1411
       ],
       "ethnicity": "Chinese",
-      "locale": "zh-CN"
+      "locale": "zh-CN",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
+      ]
     },
     "reserve_chopping_board_v1": {
       "category": "lifestyle",
@@ -8106,6 +10507,18 @@
         73,
         1503,
         984
+      ],
+      "topics": [
+        "饮食与生活方式"
+      ],
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_kitchen_knife_v1": {
@@ -8139,6 +10552,18 @@
         48,
         1332,
         985
+      ],
+      "topics": [
+        "饮食与生活方式"
+      ],
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_induction_cooktop_v1": {
@@ -8172,6 +10597,18 @@
         214,
         1266,
         913
+      ],
+      "topics": [
+        "饮食与生活方式"
+      ],
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_frying_pan_v1": {
@@ -8205,6 +10642,18 @@
         229,
         1503,
         810
+      ],
+      "topics": [
+        "饮食与生活方式"
+      ],
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_wooden_spatula_v1": {
@@ -8239,6 +10688,18 @@
         146,
         1169,
         1107
+      ],
+      "topics": [
+        "饮食与生活方式"
+      ],
+      "patient_tasks": [
+        "改善生活方式"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "mac_sfx_footstep_soft_v1": {
@@ -8273,13 +10734,22 @@
       "material": null,
       "renderers": [],
       "style": [],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
       "view": "按当前镜头选择",
       "compatibility": {
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
         "params": "可调整；content bounds 与接触点不固定画面构图"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_chair_sit_v1": {
       "category": "sfx",
@@ -8313,13 +10783,22 @@
       "material": null,
       "renderers": [],
       "style": [],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
       "view": "按当前镜头选择",
       "compatibility": {
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
         "params": "可调整；content bounds 与接触点不固定画面构图"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_cloth_rustle_v1": {
       "category": "sfx",
@@ -8353,13 +10832,22 @@
       "material": null,
       "renderers": [],
       "style": [],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
       "view": "按当前镜头选择",
       "compatibility": {
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
         "params": "可调整；content bounds 与接触点不固定画面构图"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_device_confirm_v1": {
       "category": "sfx",
@@ -8393,13 +10881,22 @@
       "material": null,
       "renderers": [],
       "style": [],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
       "view": "按当前镜头选择",
       "compatibility": {
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
         "params": "可调整；content bounds 与接触点不固定画面构图"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sfx_cooking_sizzle_v1": {
       "category": "sfx",
@@ -8433,13 +10930,22 @@
       "material": null,
       "renderers": [],
       "style": [],
-      "topics": [],
+      "topics": [
+        "事件声音"
+      ],
       "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
       "view": "按当前镜头选择",
       "compatibility": {
         "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
         "params": "可调整；content bounds 与接触点不固定画面构图"
-      }
+      },
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_walk_cycle_v1": {
       "category": "motion",
@@ -8463,7 +10969,17 @@
       "renderers": [
         "canvas2d"
       ],
-      "sample_duration_seconds": 6.0
+      "sample_duration_seconds": 6.0,
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_sit_stand_cycle_v1": {
       "category": "motion",
@@ -8487,7 +11003,17 @@
       "renderers": [
         "canvas2d"
       ],
-      "sample_duration_seconds": 6.0
+      "sample_duration_seconds": 6.0,
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_care_assistance_v1": {
       "category": "motion",
@@ -8512,7 +11038,17 @@
       "renderers": [
         "canvas2d"
       ],
-      "sample_duration_seconds": 6.5
+      "sample_duration_seconds": 6.5,
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "mac_cooking_action_v1": {
       "category": "motion",
@@ -8537,7 +11073,17 @@
       "renderers": [
         "canvas2d"
       ],
-      "sample_duration_seconds": 9.0
+      "sample_duration_seconds": 9.0,
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "ward_patient_side_scale_v3": {
       "category": "characters",
@@ -8550,6 +11096,19 @@
         "成年患者",
         "侧视病床",
         "躺卧"
+      ],
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "mac_bp_cuff_action_v1": {
@@ -8565,6 +11124,16 @@
       "medium": "code",
       "renderers": [
         "canvas2d"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
       ]
     },
     "mac_glucose_test_action_v1": {
@@ -8595,7 +11164,17 @@
       "renderers": [
         "canvas2d"
       ],
-      "sample_duration_seconds": 7.0
+      "sample_duration_seconds": 7.0,
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
+      ]
     },
     "reserve_heart_simple_v1": {
       "category": "anatomy",
@@ -8611,6 +11190,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "心脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_heart_detailed_layers_v1": {
@@ -8627,6 +11222,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "心脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_lungs_simple_v1": {
@@ -8643,6 +11254,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺",
+        "气管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_lungs_detailed_layers_v1": {
@@ -8659,6 +11287,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺",
+        "气管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_liver_simple_v1": {
@@ -8675,6 +11320,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肝脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_liver_detailed_layers_v1": {
@@ -8691,6 +11352,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肝脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_stomach_simple_v1": {
@@ -8707,6 +11384,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胃"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_stomach_detailed_layers_v1": {
@@ -8723,6 +11416,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胃"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_intestine_simple_v1": {
@@ -8739,6 +11448,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肠道",
+        "肠癌"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_intestine_detailed_layers_v1": {
@@ -8755,6 +11481,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肠道",
+        "肠癌"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_gallbladder_simple_v1": {
@@ -8771,6 +11514,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胆囊"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_gallbladder_detailed_layers_v1": {
@@ -8787,6 +11546,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胆囊"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_islet_simple_v1": {
@@ -8803,6 +11578,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "胰岛",
+        "糖尿病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_islet_detailed_layers_v1": {
@@ -8819,6 +11611,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "胰岛",
+        "糖尿病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_alveolus_simple_v1": {
@@ -8835,6 +11644,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺泡",
+        "呼吸"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_alveolus_detailed_layers_v1": {
@@ -8851,6 +11677,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺泡",
+        "呼吸"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_blood_cell_simple_v1": {
@@ -8867,6 +11710,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "血液"
+      ],
+      "topics": [
+        "红细胞"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_blood_cell_detailed_layers_v1": {
@@ -8883,6 +11742,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "血液"
+      ],
+      "topics": [
+        "红细胞"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_breast_simple_v1": {
@@ -8899,6 +11774,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "乳腺"
+      ],
+      "topics": [
+        "乳腺"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_breast_detailed_layers_v1": {
@@ -8915,6 +11806,22 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "乳腺"
+      ],
+      "topics": [
+        "乳腺"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_foot_joint_simple_v1": {
@@ -8931,6 +11838,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "骨骼肌肉与康复"
+      ],
+      "topics": [
+        "踝关节",
+        "痛风"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_foot_joint_detailed_layers_v1": {
@@ -8947,6 +11871,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "骨骼肌肉与康复"
+      ],
+      "topics": [
+        "踝关节",
+        "痛风"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_pelvic_organs_simple_v1": {
@@ -8963,6 +11904,24 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "生殖与围产"
+      ],
+      "topics": [
+        "盆腔",
+        "子宫",
+        "卵巢"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_pelvic_organs_detailed_layers_v1": {
@@ -8979,6 +11938,24 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "生殖与围产"
+      ],
+      "topics": [
+        "盆腔",
+        "子宫",
+        "卵巢"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_head_sagittal_simple_v1": {
@@ -8995,6 +11972,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "神经"
+      ],
+      "topics": [
+        "头部",
+        "颅底定位"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "reserve_head_sagittal_detailed_layers_v1": {
@@ -9011,6 +12005,23 @@
       "story_roles": [
         "结构解释",
         "位置关系"
+      ],
+      "medical_systems": [
+        "神经"
+      ],
+      "topics": [
+        "头部",
+        "颅底定位"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "bp_cuff_fitted_front_v1": {
@@ -9028,6 +12039,19 @@
         "佩戴",
         "固定",
         "连接气管"
+      ],
+      "topics": [
+        "检查与家庭监测"
+      ],
+      "patient_tasks": [
+        "准备检查",
+        "居家监测"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "character_adult_woman_nursing_v1": {
@@ -9047,6 +12071,19 @@
       "story_roles": [
         "哺乳期治疗沟通",
         "家庭照护"
+      ],
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "character_adult_woman_pregnant_v1": {
@@ -9067,6 +12104,19 @@
       "story_roles": [
         "备孕与孕期衔接",
         "孕期就医"
+      ],
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
       ]
     },
     "mac_abpm_recording_v1": {
@@ -9083,6 +12133,16 @@
       "medium": "code",
       "renderers": [
         "canvas2d"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
       ]
     },
     "mac_thyroid_structure_reveal_v1": {
@@ -9107,7 +12167,25 @@
         "canvas2d"
       ],
       "display_title": "甲状腺·逐层揭示与局部高亮",
-      "sample_duration_seconds": 10.200000000000001
+      "sample_duration_seconds": 10.200000000000001,
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "甲状腺",
+        "甲亢",
+        "甲减"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_kidney_structure_reveal_v1": {
       "category": "motion",
@@ -9131,7 +12209,24 @@
         "canvas2d"
       ],
       "display_title": "肾脏·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "肾脏与泌尿"
+      ],
+      "topics": [
+        "肾脏",
+        "慢性肾病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_artery_wall_structure_reveal_v1": {
       "category": "motion",
@@ -9155,7 +12250,24 @@
         "canvas2d"
       ],
       "display_title": "动脉壁·逐层揭示与局部高亮",
-      "sample_duration_seconds": 10.200000000000001
+      "sample_duration_seconds": 10.200000000000001,
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "血管",
+        "动脉粥样硬化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_pancreas_structure_reveal_v1": {
       "category": "motion",
@@ -9179,7 +12291,24 @@
         "canvas2d"
       ],
       "display_title": "胰腺与胰管·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胰腺",
+        "胰管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_pituitary_structure_reveal_v1": {
       "category": "motion",
@@ -9203,7 +12332,24 @@
         "canvas2d"
       ],
       "display_title": "垂体与邻近结构·逐层揭示与局部高亮",
-      "sample_duration_seconds": 14.200000000000001
+      "sample_duration_seconds": 14.200000000000001,
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "垂体",
+        "垂体瘤"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_heart_structure_reveal_v1": {
       "category": "motion",
@@ -9227,7 +12373,23 @@
         "canvas2d"
       ],
       "display_title": "心脏·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "心脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_lungs_structure_reveal_v1": {
       "category": "motion",
@@ -9251,7 +12413,24 @@
         "canvas2d"
       ],
       "display_title": "肺与气管·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺",
+        "气管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_liver_structure_reveal_v1": {
       "category": "motion",
@@ -9275,7 +12454,23 @@
         "canvas2d"
       ],
       "display_title": "肝脏·逐层揭示与局部高亮",
-      "sample_duration_seconds": 10.200000000000001
+      "sample_duration_seconds": 10.200000000000001,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肝脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_stomach_structure_reveal_v1": {
       "category": "motion",
@@ -9299,7 +12494,23 @@
         "canvas2d"
       ],
       "display_title": "胃·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胃"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_intestine_structure_reveal_v1": {
       "category": "motion",
@@ -9323,7 +12534,24 @@
         "canvas2d"
       ],
       "display_title": "肠道·逐层揭示与局部高亮",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肠道",
+        "肠癌"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_gallbladder_structure_reveal_v1": {
       "category": "motion",
@@ -9347,7 +12575,23 @@
         "canvas2d"
       ],
       "display_title": "胆囊·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胆囊"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_islet_structure_reveal_v1": {
       "category": "motion",
@@ -9371,7 +12615,24 @@
         "canvas2d"
       ],
       "display_title": "胰岛·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "胰岛",
+        "糖尿病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_alveolus_structure_reveal_v1": {
       "category": "motion",
@@ -9395,7 +12656,24 @@
         "canvas2d"
       ],
       "display_title": "肺泡·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺泡",
+        "呼吸"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_blood_cell_structure_reveal_v1": {
       "category": "motion",
@@ -9419,7 +12697,23 @@
         "canvas2d"
       ],
       "display_title": "红细胞·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "血液"
+      ],
+      "topics": [
+        "红细胞"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_breast_structure_reveal_v1": {
       "category": "motion",
@@ -9443,7 +12737,23 @@
         "canvas2d"
       ],
       "display_title": "乳腺·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "乳腺"
+      ],
+      "topics": [
+        "乳腺"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_foot_joint_structure_reveal_v1": {
       "category": "motion",
@@ -9467,7 +12777,24 @@
         "canvas2d"
       ],
       "display_title": "足关节·逐层揭示与局部高亮",
-      "sample_duration_seconds": 8.200000000000001
+      "sample_duration_seconds": 8.200000000000001,
+      "medical_systems": [
+        "骨骼肌肉与康复"
+      ],
+      "topics": [
+        "踝关节",
+        "痛风"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_pelvic_organs_structure_reveal_v1": {
       "category": "motion",
@@ -9491,7 +12818,25 @@
         "canvas2d"
       ],
       "display_title": "盆腔器官·逐层揭示与局部高亮",
-      "sample_duration_seconds": 10.200000000000001
+      "sample_duration_seconds": 10.200000000000001,
+      "medical_systems": [
+        "生殖与围产"
+      ],
+      "topics": [
+        "盆腔",
+        "子宫",
+        "卵巢"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_head_sagittal_structure_reveal_v1": {
       "category": "motion",
@@ -9515,7 +12860,24 @@
         "canvas2d"
       ],
       "display_title": "头部矢状位·逐层揭示与局部高亮",
-      "sample_duration_seconds": 10.200000000000001
+      "sample_duration_seconds": 10.200000000000001,
+      "medical_systems": [
+        "神经"
+      ],
+      "topics": [
+        "头部",
+        "颅底定位"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_abpm_wear_cycle_v1": {
       "category": "motion",
@@ -9537,6 +12899,16 @@
       "medium": "code",
       "renderers": [
         "canvas2d"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
       ]
     },
     "mac_thyroid_section_open_close_v1": {
@@ -9559,7 +12931,25 @@
         "canvas2d"
       ],
       "display_title": "甲状腺·峡部前后层揭开连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "甲状腺",
+        "甲亢",
+        "甲减"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_kidney_section_open_close_v1": {
       "category": "motion",
@@ -9581,7 +12971,24 @@
         "canvas2d"
       ],
       "display_title": "肾脏·冠状剖面开合连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "肾脏与泌尿"
+      ],
+      "topics": [
+        "肾脏",
+        "慢性肾病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_artery_wall_section_open_close_v1": {
       "category": "motion",
@@ -9602,7 +13009,24 @@
         "canvas2d"
       ],
       "display_title": "动脉壁·横断面扇区展开连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "血管",
+        "动脉粥样硬化"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_pancreas_section_open_close_v1": {
       "category": "motion",
@@ -9624,7 +13048,24 @@
         "canvas2d"
       ],
       "display_title": "胰腺与胰管·二维局部剖面连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胰腺",
+        "胰管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_pituitary_section_open_close_v1": {
       "category": "motion",
@@ -9646,7 +13087,24 @@
         "canvas2d"
       ],
       "display_title": "垂体与邻近结构·鞍区关系图局部揭示连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "垂体",
+        "垂体瘤"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_heart_section_open_close_v1": {
       "category": "motion",
@@ -9668,7 +13126,23 @@
         "canvas2d"
       ],
       "display_title": "心脏·二维剖面开合连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "心血管"
+      ],
+      "topics": [
+        "心脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_lungs_section_open_close_v1": {
       "category": "motion",
@@ -9690,7 +13164,24 @@
         "canvas2d"
       ],
       "display_title": "肺与气管·近端支气管位置揭层连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺",
+        "气管"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_liver_section_open_close_v1": {
       "category": "motion",
@@ -9712,7 +13203,23 @@
         "canvas2d"
       ],
       "display_title": "肝脏·肝胆下缘位置揭层连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肝脏"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_stomach_section_open_close_v1": {
       "category": "motion",
@@ -9734,7 +13241,23 @@
         "canvas2d"
       ],
       "display_title": "胃·二维剖面开合连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胃"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_intestine_section_open_close_v1": {
       "category": "motion",
@@ -9756,7 +13279,24 @@
         "canvas2d"
       ],
       "display_title": "肠道·结肠内小肠位置揭示连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "肠道",
+        "肠癌"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_gallbladder_section_open_close_v1": {
       "category": "motion",
@@ -9778,7 +13318,23 @@
         "canvas2d"
       ],
       "display_title": "胆囊·二维剖面开合连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "消化"
+      ],
+      "topics": [
+        "胆囊"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_islet_section_open_close_v1": {
       "category": "motion",
@@ -9800,7 +13356,24 @@
         "canvas2d"
       ],
       "display_title": "胰岛·胰岛血管关系揭层连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "topics": [
+        "胰岛",
+        "糖尿病"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_alveolus_section_open_close_v1": {
       "category": "motion",
@@ -9822,7 +13395,24 @@
         "canvas2d"
       ],
       "display_title": "肺泡·二维剖面开合连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "呼吸"
+      ],
+      "topics": [
+        "肺泡",
+        "呼吸"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_blood_cell_section_open_close_v1": {
       "category": "motion",
@@ -9844,7 +13434,23 @@
         "canvas2d"
       ],
       "display_title": "红细胞·中央淡区连续揭示连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "血液"
+      ],
+      "topics": [
+        "红细胞"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_breast_section_open_close_v1": {
       "category": "motion",
@@ -9866,7 +13472,23 @@
         "canvas2d"
       ],
       "display_title": "乳腺·侧视局部剖面连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "乳腺"
+      ],
+      "topics": [
+        "乳腺"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_foot_joint_section_open_close_v1": {
       "category": "motion",
@@ -9888,7 +13510,24 @@
         "canvas2d"
       ],
       "display_title": "足关节·踝关节位置揭层连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "骨骼肌肉与康复"
+      ],
+      "topics": [
+        "踝关节",
+        "痛风"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_pelvic_organs_section_open_close_v1": {
       "category": "motion",
@@ -9910,7 +13549,25 @@
         "canvas2d"
       ],
       "display_title": "盆腔器官·盆腔前后投影揭层连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "生殖与围产"
+      ],
+      "topics": [
+        "盆腔",
+        "子宫",
+        "卵巢"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_head_sagittal_section_open_close_v1": {
       "category": "motion",
@@ -9932,7 +13589,24 @@
         "canvas2d"
       ],
       "display_title": "头部矢状位·头部位置图揭层连续开合",
-      "sample_duration_seconds": 6.2
+      "sample_duration_seconds": 6.2,
+      "medical_systems": [
+        "神经"
+      ],
+      "topics": [
+        "头部",
+        "颅底定位"
+      ],
+      "patient_tasks": [
+        "理解结构"
+      ],
+      "mechanisms": [
+        "位置关系",
+        "结构揭示"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "mac_adult_woman_seat_report_stand_v1": {
       "category": "motion",
@@ -9956,6 +13630,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
       ]
     },
     "mac_teen_girl_seat_report_stand_v1": {
@@ -9980,6 +13664,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
       ]
     },
     "mac_child_girl_seat_report_stand_v1": {
@@ -10004,6 +13698,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
       ]
     },
     "mac_older_man_seat_report_stand_v1": {
@@ -10028,6 +13732,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
       ]
     },
     "mac_older_woman_seat_report_stand_v1": {
@@ -10052,6 +13766,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
       ]
     },
     "mac_pregnant_woman_seat_report_stand_v1": {
@@ -10076,6 +13800,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "孕产妇与家属"
       ]
     },
     "mac_child_boy_seat_report_stand_v1": {
@@ -10100,6 +13834,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
       ]
     },
     "mac_teen_boy_seat_report_stand_v1": {
@@ -10124,6 +13868,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "青少年"
       ]
     },
     "mac_young_man_seat_report_stand_v1": {
@@ -10148,6 +13902,16 @@
         "stand",
         "seated",
         "reach"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "制作人员"
       ]
     },
     "mac_older_woman_bed_rest_v1": {
@@ -10172,6 +13936,16 @@
       "medium": "code",
       "renderers": [
         "canvas2d"
+      ],
+      "topics": [
+        "可编辑动作"
+      ],
+      "patient_tasks": [],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "老年人与照护者"
       ]
     },
     "character_child_boy_seated_scale_v2": {
@@ -10205,6 +13979,19 @@
       ],
       "poses": [
         "seated"
+      ],
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "儿童与照护者"
       ]
     },
     "character_pregnant_woman_seated_scale_v2": {
@@ -10235,7 +14022,20 @@
       "poses": [
         "seated"
       ],
-      "identity_family": "pregnant_woman_cn"
+      "identity_family": "pregnant_woman_cn",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "孕产妇与家属"
+      ]
     },
     "character_adult_man_alert_seated_scale_v2": {
       "actions": [
@@ -10280,7 +14080,20 @@
       "poses": [
         "seated"
       ],
-      "identity_family": "adult_man_cn_green_red"
+      "identity_family": "adult_man_cn_green_red",
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
     },
     "character_adult_man_unresponsive_seated_scale_v2": {
       "actions": [
@@ -10325,7 +14138,530 @@
         870,
         1477
       ],
-      "visible_bounds_alpha_threshold": 24
+      "visible_bounds_alpha_threshold": 24,
+      "topics": [
+        "生活情境"
+      ],
+      "patient_tasks": [
+        "就医沟通",
+        "日常行动"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "audiences": [
+        "患者与家属"
+      ]
+    },
+    "mac_process_blood_v1": {
+      "category": "pathology",
+      "display_title": "血管斑块、管腔与血流关系",
+      "aliases": [
+        "动脉粥样硬化",
+        "冠心病",
+        "管腔变窄",
+        "血流方向"
+      ],
+      "topics": [
+        "动脉粥样硬化",
+        "冠心病"
+      ],
+      "medical_systems": [
+        "心血管"
+      ],
+      "patient_tasks": [
+        "理解疾病机制"
+      ],
+      "mechanisms": [
+        "管腔变窄",
+        "血流方向"
+      ],
+      "story_roles": [
+        "理解疾病机制"
+      ],
+      "actions": [
+        "管腔变窄",
+        "血流方向"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "非血流动力学模拟；不由颗粒速度推算灌注、压差或狭窄程度。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_gas_v1": {
+      "category": "physiology",
+      "display_title": "肺泡与毛细血管气体交换",
+      "aliases": [
+        "呼吸",
+        "氧合",
+        "氧气进入血液",
+        "二氧化碳进入肺泡"
+      ],
+      "topics": [
+        "呼吸",
+        "氧合"
+      ],
+      "medical_systems": [
+        "呼吸"
+      ],
+      "patient_tasks": [
+        "理解身体功能"
+      ],
+      "mechanisms": [
+        "氧气进入血液",
+        "二氧化碳进入肺泡"
+      ],
+      "story_roles": [
+        "理解身体功能"
+      ],
+      "actions": [
+        "氧气进入血液",
+        "二氧化碳进入肺泡"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "二维局部关系；不表达通气灌注定量或氧疗处方。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_insulin_v1": {
+      "category": "physiology",
+      "display_title": "胰岛素信号与葡萄糖转运",
+      "aliases": [
+        "糖尿病",
+        "胰岛素抵抗",
+        "受体结合",
+        "葡萄糖转运"
+      ],
+      "topics": [
+        "糖尿病",
+        "胰岛素抵抗"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "patient_tasks": [
+        "理解身体功能",
+        "理解用药作用"
+      ],
+      "mechanisms": [
+        "受体结合",
+        "葡萄糖转运"
+      ],
+      "story_roles": [
+        "理解身体功能",
+        "理解用药作用"
+      ],
+      "actions": [
+        "受体结合",
+        "葡萄糖转运"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "表达胰岛素敏感组织的简化过程；不能推广为所有组织的唯一摄糖机制。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_feedback_v1": {
+      "category": "physiology",
+      "display_title": "激素轴的负反馈关系",
+      "aliases": [
+        "激素",
+        "负反馈",
+        "下游反馈",
+        "上游抑制"
+      ],
+      "topics": [
+        "激素",
+        "负反馈"
+      ],
+      "medical_systems": [
+        "内分泌与代谢"
+      ],
+      "patient_tasks": [
+        "理解身体功能"
+      ],
+      "mechanisms": [
+        "下游反馈",
+        "上游抑制"
+      ],
+      "story_roles": [
+        "理解身体功能"
+      ],
+      "actions": [
+        "下游反馈",
+        "上游抑制"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "是关系图，不是任何具体激素轴的完整生理模型；具体轴须补真实名称与证据。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_inflammation_v1": {
+      "category": "pathology",
+      "display_title": "炎症与免疫细胞局部募集",
+      "aliases": [
+        "炎症",
+        "免疫",
+        "细胞募集",
+        "跨血管壁迁移"
+      ],
+      "topics": [
+        "炎症",
+        "免疫"
+      ],
+      "medical_systems": [
+        "感染与免疫"
+      ],
+      "patient_tasks": [
+        "理解疾病机制"
+      ],
+      "mechanisms": [
+        "细胞募集",
+        "跨血管壁迁移"
+      ],
+      "story_roles": [
+        "理解疾病机制"
+      ],
+      "actions": [
+        "细胞募集",
+        "跨血管壁迁移"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "简化局部反应；不表达感染病原体、疾病分型或治疗指征。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_metastasis_v1": {
+      "category": "pathology",
+      "display_title": "原发病灶与远处转移过程",
+      "aliases": [
+        "癌症",
+        "肿瘤转移",
+        "脱离原发部位",
+        "进入循环",
+        "远处定植"
+      ],
+      "topics": [
+        "癌症",
+        "肿瘤转移"
+      ],
+      "medical_systems": [
+        "肿瘤"
+      ],
+      "patient_tasks": [
+        "理解疾病机制"
+      ],
+      "mechanisms": [
+        "脱离原发部位",
+        "进入循环",
+        "远处定植"
+      ],
+      "story_roles": [
+        "理解疾病机制"
+      ],
+      "actions": [
+        "脱离原发部位",
+        "进入循环",
+        "远处定植"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "展示一种可能路径；不表示所有进入循环的细胞都会转移，不代表时间、概率或癌种特定路径。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_risk_v1": {
+      "category": "communication",
+      "display_title": "相同分母下的绝对风险比较",
+      "aliases": [
+        "风险沟通",
+        "治疗获益",
+        "人群点阵",
+        "绝对人数比较"
+      ],
+      "topics": [
+        "风险沟通",
+        "治疗获益"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "patient_tasks": [
+        "比较治疗选择"
+      ],
+      "mechanisms": [
+        "人群点阵",
+        "绝对人数比较"
+      ],
+      "story_roles": [
+        "比较治疗选择"
+      ],
+      "actions": [
+        "人群点阵",
+        "绝对人数比较"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "样例10/100与5/100为演示数据；实际使用须绑定真实终点、相同人群及随访时段。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_screening_v1": {
+      "category": "communication",
+      "display_title": "筛查结果与疾病状态四格关系",
+      "aliases": [
+        "癌症筛查",
+        "假阳性",
+        "假阴性",
+        "真实状态分组",
+        "检测结果分组"
+      ],
+      "topics": [
+        "癌症筛查",
+        "假阳性",
+        "假阴性"
+      ],
+      "medical_systems": [
+        "跨系统"
+      ],
+      "patient_tasks": [
+        "理解检查结果"
+      ],
+      "mechanisms": [
+        "真实状态分组",
+        "检测结果分组"
+      ],
+      "story_roles": [
+        "理解检查结果"
+      ],
+      "actions": [
+        "真实状态分组",
+        "检测结果分组"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "样例为演示人数，不是任何检查的准确率；不能把阳性结果等同确诊。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_endoscope_v1": {
+      "category": "procedures",
+      "display_title": "内镜观察与靶向取样局部关系",
+      "aliases": [
+        "肠镜",
+        "活检",
+        "镜端观察",
+        "靶向取样",
+        "回收标本"
+      ],
+      "topics": [
+        "肠镜",
+        "活检"
+      ],
+      "medical_systems": [
+        "消化"
+      ],
+      "patient_tasks": [
+        "准备检查",
+        "理解检查过程"
+      ],
+      "mechanisms": [
+        "镜端观察",
+        "靶向取样",
+        "回收标本"
+      ],
+      "story_roles": [
+        "准备检查",
+        "理解检查过程"
+      ],
+      "actions": [
+        "镜端观察",
+        "靶向取样",
+        "回收标本"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "仅为肠腔局部示意；不表达全身进镜路线、息肉切除或操作规范培训。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_skin_v1": {
+      "category": "anatomy",
+      "display_title": "皮肤分层与屏障受损",
+      "aliases": [
+        "皮肤",
+        "伤口",
+        "正常屏障",
+        "局部受损"
+      ],
+      "topics": [
+        "皮肤",
+        "伤口"
+      ],
+      "medical_systems": [
+        "皮肤"
+      ],
+      "patient_tasks": [
+        "理解结构",
+        "理解疾病机制"
+      ],
+      "mechanisms": [
+        "正常屏障",
+        "局部受损"
+      ],
+      "story_roles": [
+        "理解结构",
+        "理解疾病机制"
+      ],
+      "actions": [
+        "正常屏障",
+        "局部受损"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "不表达伤口深度分级、感染诊断或敷料更换步骤。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_spine_v1": {
+      "category": "anatomy",
+      "display_title": "腰椎、椎间盘与神经根局部关系",
+      "aliases": [
+        "腰椎间盘突出",
+        "腰痛",
+        "局部突出",
+        "邻近关系"
+      ],
+      "topics": [
+        "腰椎间盘突出",
+        "腰痛"
+      ],
+      "medical_systems": [
+        "骨骼肌肉与康复"
+      ],
+      "patient_tasks": [
+        "理解结构",
+        "理解疾病机制"
+      ],
+      "mechanisms": [
+        "局部突出",
+        "邻近关系"
+      ],
+      "story_roles": [
+        "理解结构",
+        "理解疾病机制"
+      ],
+      "actions": [
+        "局部突出",
+        "邻近关系"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "侧面局部示意；不能从图形位置推断责任节段、影像诊断或手术路径。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
+    },
+    "mac_process_eye_v1": {
+      "category": "anatomy",
+      "display_title": "眼球成像与近视焦点位置",
+      "aliases": [
+        "近视",
+        "屈光",
+        "光线聚焦",
+        "视网膜位置对比"
+      ],
+      "topics": [
+        "近视",
+        "屈光"
+      ],
+      "medical_systems": [
+        "眼"
+      ],
+      "patient_tasks": [
+        "理解结构",
+        "理解身体功能"
+      ],
+      "mechanisms": [
+        "光线聚焦",
+        "视网膜位置对比"
+      ],
+      "story_roles": [
+        "理解结构",
+        "理解身体功能"
+      ],
+      "actions": [
+        "光线聚焦",
+        "视网膜位置对比"
+      ],
+      "medium": "code",
+      "renderers": [
+        "canvas2d"
+      ],
+      "component_family": "medical_process",
+      "usage_notes": "简化光学关系；不表达个体屈光度、眼轴数值或治疗效果。",
+      "audiences": [
+        "成人",
+        "患者与家属"
+      ]
     }
   },
   "policy": "人工策展的发现层；不改原资产版本，不替代当前镜头审查，不限制新创。"

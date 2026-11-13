@@ -1,0 +1,11 @@
+{
+  "schema": "mac_medical_process/v1",
+  "scene": "blood",
+  "title": "血管斑块、管腔与血流关系",
+  "duration": 10,
+  "viewport": [
+    1280,
+    720
+  ],
+  "medical_review": "pending"
+}

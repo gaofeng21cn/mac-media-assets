@@ -1,10 +1,14 @@
-# 当前可复用资产清单
+# 当前素材清单
 
-本表由当前默认检索结果生成，每个身份只列当前精确版本。历史版本保留在 catalog，已退出推荐的版本不列入本表。原记录保存实际分层部件、来源与适用范围。
+按默认查询列出当前公共候选，历史和撤回版本不重复计数。原件、来源、许可和审核范围见精确原记录。
 
-## 环境与舞台
+当前共有 306 项、15 类。轻量安装保留全部原记录，媒体实际到位情况以查询的 storage 为准。
 
-| 资产 | 精确原记录 |
+[医学任务覆盖与缺口](../collections/medical-coverage.json) · [按需获取与离线使用](media-storage.md) · [医学过程动态组件](../tools/preview-engine/processes.html)
+
+## 环境与舞台（26）
+
+| 素材 | 精确原记录 |
 | --- | --- |
 | breast_stage 完整纸景 | [原记录](../records/paper-theatre/six_paper_breast_stage/c0c36462bf2b38e0d662/record.json) |
 | gout_stage 完整纸景 | [原记录](../records/paper-theatre/six_paper_gout_stage/c263234c5f6b4a89c17b/record.json) |
@@ -33,13 +37,13 @@
 | 空柜架 | [原记录](../records/paper-theatre/reserve_shelf_v1/d91a585a45dd7e4804ee/record.json) |
 | 门框 | [原记录](../records/paper-theatre/reserve_door_frame_v1/4f3f3cec89b9d6c25abf/record.json) |
 
-## 医学结构
+## 医学结构（58）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 乳腺·近景配准分层版 | [原记录](../records/paper-theatre/reserve_breast_detailed_layers_v1/8da7f1dfde15864ade57/record.json) |
 | 乳腺·远景简化版 | [原记录](../records/paper-theatre/reserve_breast_simple_v1/6d4e1bf01a0bfc1bb16b/record.json) |
-| breast_section 手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_breast_section/efe620b059dfc91db173/record.json) |
+| 乳腺手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_breast_section/efe620b059dfc91db173/record.json) |
 | 动脉壁·近景配准分层版 | [原记录](../records/paper-theatre/reserve_artery_detailed_layers_v1/80bb1a5208afeb48a63c/record.json) |
 | 动脉壁·远景简化版 | [原记录](../records/paper-theatre/reserve_artery_simple_v1/27465952400de22b2f29/record.json) |
 | 垂体与邻近结构纸剪贴 | [原记录](../records/paper-theatre/pituitary_anatomy_collage/816b2602da608b164b2a/record.json) |
@@ -57,10 +61,12 @@
 | 独立胆囊 | [原记录](../records/paper-theatre/reserve_gallbladder_v1/f39efa7a626c82ecb592/record.json) |
 | 甲状腺·近景配准分层版 | [原记录](../records/paper-theatre/reserve_thyroid_detailed_layers_v1/23e8d91b061c24c05036/record.json) |
 | 甲状腺·远景轮廓简化版 | [原记录](../records/paper-theatre/reserve_thyroid_simple_v2/72cad923d36490b2dcc9/record.json) |
-| thyroid_neck 手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_thyroid_neck/01644949a5fe8bd8e3c6/record.json) |
+| 甲状腺手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_thyroid_neck/01644949a5fe8bd8e3c6/record.json) |
+| 皮肤分层与屏障受损 | [原记录](../records/paper-theatre/mac_process_skin_v1/ab9e5cb99cd159f8a8bf/record.json) |
 | 盆腔器官·近景配准分层版 | [原记录](../records/paper-theatre/reserve_pelvic_organs_detailed_layers_v1/57b76ec7ba5c43d1d01a/record.json) |
 | 盆腔器官·远景简化版 | [原记录](../records/paper-theatre/reserve_pelvic_organs_simple_v1/6948e7f7638ab9acd22d/record.json) |
-| pelvic_organs 手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_pelvic_organs/b23cfa24edc8b99fcad3/record.json) |
+| 盆腔手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_pelvic_organs/b23cfa24edc8b99fcad3/record.json) |
+| 眼球成像与近视焦点位置 | [原记录](../records/paper-theatre/mac_process_eye_v1/7b82191f8cd2de79da56/record.json) |
 | 红细胞·近景配准分层版 | [原记录](../records/paper-theatre/reserve_blood_cell_detailed_layers_v1/ce29ed0bfaf5a94df233/record.json) |
 | 红细胞·远景简化版 | [原记录](../records/paper-theatre/reserve_blood_cell_simple_v1/888de0f13bfa3c87b0ff/record.json) |
 | 肝脏·近景配准分层版 | [原记录](../records/paper-theatre/reserve_liver_detailed_layers_v1/b23153ea3cbdb7062dbc/record.json) |
@@ -77,7 +83,7 @@
 | 肺泡局部 | [原记录](../records/paper-theatre/reserve_alveolus_v1/95ebc2a8691ac43497f3/record.json) |
 | 肾脏·近景配准分层版 | [原记录](../records/paper-theatre/reserve_kidney_detailed_layers_v1/9dfee405d6cc61e25bbc/record.json) |
 | 肾脏·远景简化版 | [原记录](../records/paper-theatre/reserve_kidney_simple_v1/ff689258aa63c36b4333/record.json) |
-| kidneys_alpha 手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_kidneys_alpha/4596444fbc641ceea029/record.json) |
+| 肾脏手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_kidneys_alpha/4596444fbc641ceea029/record.json) |
 | 胃·近景配准分层版 | [原记录](../records/paper-theatre/reserve_stomach_detailed_layers_v1/24f78a93bc5dae7f534d/record.json) |
 | 胃·远景简化版 | [原记录](../records/paper-theatre/reserve_stomach_simple_v1/2975e248fd3fef46a92e/record.json) |
 | 胆囊·近景配准分层版 | [原记录](../records/paper-theatre/reserve_gallbladder_detailed_layers_v1/c0e1a69a71b0c7441a71/record.json) |
@@ -88,14 +94,15 @@
 | 胰腺与胰管·同视角关系分层版 | [原记录](../records/paper-theatre/reserve_pancreas_relations_layers_v1/fb8e5808d6bc5662575c/record.json) |
 | 胰腺与胰管·远景轮廓简化版 | [原记录](../records/paper-theatre/reserve_pancreas_relations_simple_v1/906dc55e1fb31205a800/record.json) |
 | 胰腺总览 | [原记录](../records/paper-theatre/reserve_pancreas_v1/0d1ea9719816e248ad1c/record.json) |
+| 腰椎、椎间盘与神经根局部关系 | [原记录](../records/paper-theatre/mac_process_spine_v1/ed73369bde1b28b5ce20/record.json) |
 | 血管纵向壁层 | [原记录](../records/paper-theatre/reserve_vessel_v1/9ba9b427374b43fa6a61/record.json) |
 | 足关节·近景配准分层版 | [原记录](../records/paper-theatre/reserve_foot_joint_detailed_layers_v1/283c6b2c20073a11d32c/record.json) |
 | 足关节·远景简化版 | [原记录](../records/paper-theatre/reserve_foot_joint_simple_v1/09d0de3c1af8f1a7827b/record.json) |
-| foot_joint 手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_foot_joint/d91837d27cc175eca3e4/record.json) |
+| 足部手绘拼贴纸件 | [原记录](../records/paper-theatre/six_paper_foot_joint/d91837d27cc175eca3e4/record.json) |
 
-## 检查与家庭监测
+## 检查与家庭监测（15）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 上臂式血压计独立部件包 | [原记录](../records/paper-theatre/paper_upper_arm_monitor_parts_v1/595c101839647592b1a8/record.json) |
 | 独立MRI扫描机 | [原记录](../records/paper-theatre/reserve_mri_v1/f28583afcfdb2df85844/record.json) |
@@ -113,9 +120,9 @@
 | 蓝灰血压袖带：贴合上臂的前层 | [原记录](../records/paper-theatre/bp_cuff_fitted_front_v1/2778f883e8d63cca7ddc/record.json) |
 | 血糖仪与独立试纸部件包 | [原记录](../records/paper-theatre/paper_glucose_meter_parts_v1/7d17997f1c1c10d70831/record.json) |
 
-## 饮食与生活方式
+## 饮食与生活方式（16）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 无标签油容器 | [原记录](../records/paper-theatre/reserve_oil_v1/3825f2cb267e08b1ae84/record.json) |
 | 无标签盐容器 | [原记录](../records/paper-theatre/reserve_salt_v1/a430abd3d6a8c308acfc/record.json) |
@@ -134,9 +141,9 @@
 | 独立鱼肉纸件 | [原记录](../records/paper-theatre/reserve_fish_v1/2e4296abb2d19883ae2b/record.json) |
 | 黄色袖口手握哑铃局部整体单元 | [原记录](../records/paper-theatre/exercise_grip/43880782b36b2d724990/record.json) |
 
-## 资料与时间
+## 资料与时间（7）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 可收纳资料的纸信封 | [原记录](../records/paper-theatre/paper_open_envelope/1c861a6d24e164a13c83/record.json) |
 | 毛边报告纸 | [原记录](../records/paper-theatre/paper_blank_report/1ef837c31be5f9dcee48/record.json) |
@@ -146,14 +153,14 @@
 | 独立空白记录页 | [原记录](../records/paper-theatre/reserve_notebook_page_v1/1f2278bcc87208c993c3/record.json) |
 | 空白记录本封皮 | [原记录](../records/paper-theatre/reserve_notebook_cover_v1/c3661384cb85dd44994a/record.json) |
 
-## 人物与互动姿态
+## 人物与互动姿态（75）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 中国成年女性·芥黄开衫·同身份完整孕期站姿 | [原记录](../records/paper-theatre/character_adult_woman_pregnant_v1/16df74f882fbd544e1f6/record.json) |
 | 中国成年女性·芥黄开衫·完整坐姿哺乳母婴 | [原记录](../records/paper-theatre/character_adult_woman_nursing_v1/a6aff7e5e135dae9e132/record.json) |
-| 成年男性完整清醒坐姿 | [原记录](../records/paper-theatre/character_adult_man_alert_seated_scale_v2/56c5f8313651f77cd734/record.json) |
-| 同身份成年男性无反应坐姿 | [原记录](../records/paper-theatre/character_adult_man_unresponsive_seated_scale_v2/25c2e28b97c5f9798dfc/record.json) |
+| 中年男性完整坐姿（浅绿衫、砖红裤，同站走母版） | [原记录](../records/paper-theatre/character_adult_man_alert_seated_scale_v2/56c5f8313651f77cd734/record.json) |
+| 中年男性完整坐姿（浅绿衫、砖红裤，同站走母版） | [原记录](../records/paper-theatre/character_adult_man_unresponsive_seated_scale_v2/25c2e28b97c5f9798dfc/record.json) |
 | 中年男性完整行走姿态（绿衬衫、锈红裤，单幅） | [原记录](../records/paper-theatre/male_patient_walk_20261023/694f4aa5318814a765ca/record.json) |
 | 中老年男性家属完整站姿（眼镜、蓝衬衫） | [原记录](../records/paper-theatre/character_older_brother_stand_v1/0555292d623befaa0c77/record.json) |
 | 侧面头部纸剪影 | [原记录](../records/paper-theatre/paper_head_silhouette/68cc61f0a7115c6a8782/record.json) |
@@ -169,7 +176,7 @@
 | 女性照护者持手机贴耳完整呼叫姿态 | [原记录](../records/paper-theatre/character_carer_calling_v1/8edf24b872eebe205841/record.json) |
 | 孕妇·伸手接取·同身份完整纸件 | [原记录](../records/paper-theatre/character_pregnant_woman_reach_v1/860f8ed8a85f80e5c721/record.json) |
 | 孕妇·步行·同身份完整纸件 | [原记录](../records/paper-theatre/character_pregnant_woman_walk_v1/04d5693954b22423a6c9/record.json) |
-| 高发髻孕妇完整坐姿 | [原记录](../records/paper-theatre/character_pregnant_woman_seated_scale_v2/df659ae0c18fc1a45fb5/record.json) |
+| 孕妇完整坐姿 | [原记录](../records/paper-theatre/character_pregnant_woman_seated_scale_v2/df659ae0c18fc1a45fb5/record.json) |
 | 孕妇完整站姿 | [原记录](../records/paper-theatre/character_pregnant_woman_stand_v1/5d532fdeb77505763bc5/record.json) |
 | 左手接取独立纸件 | [原记录](../records/paper-theatre/mac_left_receive_v1/080b943a5f9d2bb88bba/record.json) |
 | 年轻成年男性·伸手接取 | [原记录](../records/paper-theatre/character_young_man_reach_v1/e54ee8868155b2cabbe8/record.json) |
@@ -213,7 +220,7 @@
 | 老年男性·站立·同身份完整纸件 | [原记录](../records/paper-theatre/character_older_man_stand_v1/8a52278239c0688e0b6c/record.json) |
 | 老年男性·轮椅静坐整件 | [原记录](../records/paper-theatre/character_older_man_wheelchair_v1/d281630ee35eb59fc601/record.json) |
 | 老年男性完整步行姿态 | [原记录](../records/paper-theatre/character_older_man_walk_v1/b82355ff8645f0304efb/record.json) |
-| 通用人物侧卧姿态（含独立枕头） | [原记录](../records/paper-theatre/reserve_person_lying_v1/db0cfd0463ccf151b5c2/record.json) |
+| 通用人物侧卧姿态（含枕头） | [原记录](../records/paper-theatre/reserve_person_lying_v1/db0cfd0463ccf151b5c2/record.json) |
 | 通用人物侧面站姿 | [原记录](../records/paper-theatre/reserve_person_side_v1/b0c0805e327702792c91/record.json) |
 | 通用人物双手接取姿态 | [原记录](../records/paper-theatre/mac_person_receive_v1/bcd43c994018d84d76c0/record.json) |
 | 通用人物坐姿 | [原记录](../records/paper-theatre/reserve_person_seated_v1/6663ae862534a6af39a1/record.json) |
@@ -226,9 +233,9 @@
 | 青少年女性·步行·同身份完整纸件 | [原记录](../records/paper-theatre/character_teen_girl_walk_v1/885c531b3cdf94109327/record.json) |
 | 青少年女性完整站姿 | [原记录](../records/paper-theatre/character_teen_girl_stand_v1/699014f2978da454f37e/record.json) |
 
-## 纸材与固定件
+## 纸材与固定件（7）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 半透明描图纸 | [原记录](../records/paper-theatre/reserve_tracing_v1/c25c085bd9f6abacb549/record.json) |
 | 手撕纤维纸胶带固定件 | [原记录](../records/paper-theatre/paper_torn_masking_tape_v1/f196e7540ba21c9827dc/record.json) |
@@ -238,9 +245,9 @@
 | 独立软木图钉 | [原记录](../records/paper-theatre/reserve_pin_v1/da09994ef6dc1a20c026/record.json) |
 | 独立金属纸夹 | [原记录](../records/paper-theatre/reserve_clip_v1/94b724e1617d868d2630/record.json) |
 
-## 治疗与照护
+## 治疗与照护（5）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 无标签药瓶与独立瓶盖部件包 | [原记录](../records/paper-theatre/paper_medicine_bottle_parts_v1/571b02ee0f48cdaa44c3/record.json) |
 | 独立吸入装置 | [原记录](../records/paper-theatre/reserve_inhaler_v1/deb3537c664b4d077f62/record.json) |
@@ -248,9 +255,9 @@
 | 独立无字药盒 | [原记录](../records/paper-theatre/reserve_pillbox_v1/1c38421cc21eb9771006/record.json) |
 | 独立药片包装 | [原记录](../records/paper-theatre/reserve_blister_v1/f61a6a92294e34ba50c7/record.json) |
 
-## 动作与代码组件
+## 动作与代码组件（62）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | 上臂式血压计：贴合袖带、静止测量与取下 | [原记录](../records/paper-theatre/mac_bp_cuff_action_v1/cd76e767f879e3b37fca/record.json) |
 | 乳腺·侧视局部剖面连续开合 | [原记录](../records/paper-theatre/mac_breast_section_open_close_v1/d647c84c7bf46425f637/record.json) |
@@ -282,11 +289,11 @@
 | 盆腔器官·逐层揭示与局部高亮 | [原记录](../records/paper-theatre/mac_pelvic_organs_structure_reveal_v1/b1685ac65b2a189e40e4/record.json) |
 | 红细胞·中央淡区连续揭示连续开合 | [原记录](../records/paper-theatre/mac_blood_cell_section_open_close_v1/f3755eb49a37f839362c/record.json) |
 | 红细胞·逐层揭示与局部高亮 | [原记录](../records/paper-theatre/mac_blood_cell_structure_reveal_v1/525d83d9970afe13ed03/record.json) |
-| 纸件内容边界、接触轨迹与姿态运行模块 | [原记录](../records/paper-theatre/mac_contact_runtime_v1/d13fb43bde45ba4ab7c6/record.json) |
+| 纸件接触、内容边界与姿态运行模块 | [原记录](../records/paper-theatre/mac_contact_runtime_v1/d13fb43bde45ba4ab7c6/record.json) |
 | 纸件跨镜交接 | [原记录](../records/paper-theatre/paper_object_handoff/59f2e1b570dea41b5d6c/record.json) |
 | 纸剧场 1.1.0 冻结组件与无品牌样本 | [原记录](../records/paper-theatre/paper_theatre_kit_1_1_0/1a56b5ce9d17d7e59e63/record.json) |
 | 纸剧场动作下限：接触/铰接/插入/翻页/姿态/遮挡 | [原记录](../records/paper-theatre/mac_motion_reserve_v1/58d8c39c393df397fa4b/record.json) |
-| 纸剧场动作库：撕开、揭起、翻页、剪开、拉出、缠绕、夹合、落纸、展开与笔迹 | [原记录](../records/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/record.json) |
+| 纸剧场动作库（20+ 纸片动作与相机） | [原记录](../records/paper-theatre/mac-paper-action-library-1-0/748566b958cd9fca2844/record.json) |
 | 纸口袋收纳与真实前景遮挡 | [原记录](../records/paper-theatre/paper_pocket_stow/dfb301e16fe825840757/record.json) |
 | 老年女性·床沿落座、侧卧休息与起身 | [原记录](../records/paper-theatre/mac_older_woman_bed_rest_v1/2aca41d871b651678db8/record.json) |
 | 老年女性·落座、取报告与起身 | [原记录](../records/paper-theatre/mac_older_woman_seat_report_stand_v1/e0e53e0208f7f965b056/record.json) |
@@ -315,9 +322,9 @@
 | 连续备餐：切配、入锅、翻动与盛出 | [原记录](../records/paper-theatre/mac_cooking_action_v1/1f97edf2520381c84d8f/record.json) |
 | 青少年女性·落座、取报告与起身 | [原记录](../records/paper-theatre/mac_teen_girl_seat_report_stand_v1/b15d25f5a56c1d9c79b0/record.json) |
 
-## 配乐
+## 配乐（12）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
 | breast_nodules_paper_theatre 原创纸剧场分轨配乐 | [原记录](../records/paper-theatre/six_paper_music_breast_nodules_paper_theatre/f813477c6b01dfc55b69/record.json) |
 | ckd_paper_theatre 原创纸剧场分轨配乐 | [原记录](../records/paper-theatre/six_paper_music_ckd_paper_theatre/03b7d18348a43ead8e0a/record.json) |
@@ -325,28 +332,57 @@
 | graves_paper_theatre 原创纸剧场分轨配乐 | [原记录](../records/paper-theatre/six_paper_music_graves_paper_theatre/ac8fe88ece2af2cd5941/record.json) |
 | hashimoto_paper_theatre 原创纸剧场分轨配乐 | [原记录](../records/paper-theatre/six_paper_music_hashimoto_paper_theatre/51477fdecdb0f34f419f/record.json) |
 | pcos_paper_theatre 原创纸剧场分轨配乐 | [原记录](../records/paper-theatre/six_paper_music_pcos_paper_theatre/b06473207956e4be1e91/record.json) |
-| 配乐情绪：calm | [原记录](../records/paper-theatre/mac_music_calm_v1/21f905ef927498d6178a/record.json) |
-| 配乐情绪：curious | [原记录](../records/paper-theatre/mac_music_curious_v1/b28bfee7e65a9582fd16/record.json) |
-| 配乐情绪：tension | [原记录](../records/paper-theatre/mac_music_tension_v1/c7d787fab366b78d09df/record.json) |
-| 配乐情绪：relief | [原记录](../records/paper-theatre/mac_music_relief_v1/acf9eed8c6e599cc2c85/record.json) |
+| 情绪配乐：平静 | [原记录](../records/paper-theatre/mac_music_calm_v1/21f905ef927498d6178a/record.json) |
+| 情绪配乐：探索 | [原记录](../records/paper-theatre/mac_music_curious_v1/b28bfee7e65a9582fd16/record.json) |
+| 情绪配乐：紧张 | [原记录](../records/paper-theatre/mac_music_tension_v1/c7d787fab366b78d09df/record.json) |
+| 情绪配乐：释然 | [原记录](../records/paper-theatre/mac_music_relief_v1/acf9eed8c6e599cc2c85/record.json) |
 | 纸上下一步 · 氛围分轨 | [原记录](../records/paper-theatre/paper_music_bed/8d06f775933caa49ca12/record.json) |
 | 纸上下一步 · 节奏分轨 | [原记录](../records/paper-theatre/paper_music_pulse/54e93eb67de56f3a3cb8/record.json) |
 
-## 事件拟音
+## 事件拟音（14）
 
-| 资产 | 精确原记录 |
+| 素材 | 精确原记录 |
 | --- | --- |
-| 拟音：clip_click | [原记录](../records/paper-theatre/mac_sfx_clip_click_v1/5e151c6feff27fba5c7b/record.json) |
-| 拟音：paper_fold | [原记录](../records/paper-theatre/mac_sfx_paper_fold_v1/f09a8bc7038ce207c15f/record.json) |
-| 拟音：drawer_slide | [原记录](../records/paper-theatre/mac_sfx_drawer_slide_v1/1a3978ab850bc98ef05b/record.json) |
-| 拟音：tape_peel | [原记录](../records/paper-theatre/mac_sfx_tape_peel_v1/5fc4f99e7e88b4d8d9d6/record.json) |
-| 拟音：bottle_cap | [原记录](../records/paper-theatre/mac_sfx_bottle_cap_v1/ca5f5448bf2c6b98a437/record.json) |
-| CC0实录：翻页与旋盖 | [原记录](../records/paper-theatre/mac_sfx_cc0_reference_v1/4477d20eef182cb49d96/record.json) |
-| 拟音：paper_turn | [原记录](../records/paper-theatre/mac_sfx_paper_turn_v1/6d61879b29999519899d/record.json) |
-| 拟音：paper_place | [原记录](../records/paper-theatre/mac_sfx_paper_place_v1/04482eec92381f2ac809/record.json) |
-| 拟音：folder_rustle | [原记录](../records/paper-theatre/mac_sfx_folder_rustle_v1/85ee1eda83826151d089/record.json) |
+| 事件拟音：夹子 | [原记录](../records/paper-theatre/mac_sfx_clip_click_v1/5e151c6feff27fba5c7b/record.json) |
+| 事件拟音：折纸 | [原记录](../records/paper-theatre/mac_sfx_paper_fold_v1/f09a8bc7038ce207c15f/record.json) |
+| 事件拟音：抽屉 | [原记录](../records/paper-theatre/mac_sfx_drawer_slide_v1/1a3978ab850bc98ef05b/record.json) |
+| 事件拟音：揭胶带 | [原记录](../records/paper-theatre/mac_sfx_tape_peel_v1/5fc4f99e7e88b4d8d9d6/record.json) |
+| 事件拟音：旋盖 | [原记录](../records/paper-theatre/mac_sfx_bottle_cap_v1/ca5f5448bf2c6b98a437/record.json) |
+| 事件拟音：翻页 | [原记录](../records/paper-theatre/mac_sfx_cc0_reference_v1/4477d20eef182cb49d96/record.json) |
+| 事件拟音：翻页 | [原记录](../records/paper-theatre/mac_sfx_paper_turn_v1/6d61879b29999519899d/record.json) |
+| 事件拟音：落纸 | [原记录](../records/paper-theatre/mac_sfx_paper_place_v1/04482eec92381f2ac809/record.json) |
+| 事件拟音：资料袋 | [原记录](../records/paper-theatre/mac_sfx_folder_rustle_v1/85ee1eda83826151d089/record.json) |
 | 拟音：器械完成提示音 | [原记录](../records/paper-theatre/mac_sfx_device_confirm_v1/9d3b468f1e9453ca1317/record.json) |
 | 拟音：烹饪油声 | [原记录](../records/paper-theatre/mac_sfx_cooking_sizzle_v1/0a76d6cda6cf59c94247/record.json) |
 | 拟音：脚步（纸舞台轻步） | [原记录](../records/paper-theatre/mac_sfx_footstep_soft_v1/2868401f629696540bd0/record.json) |
 | 拟音：落座（椅面承重） | [原记录](../records/paper-theatre/mac_sfx_chair_sit_v1/d68aa8911b4cfe4bdb5b/record.json) |
 | 拟音：衣料摩擦 | [原记录](../records/paper-theatre/mac_sfx_cloth_rustle_v1/bd8c2ef99ee758df95eb/record.json) |
+
+## 生理过程（3）
+
+| 素材 | 精确原记录 |
+| --- | --- |
+| 激素轴的负反馈关系 | [原记录](../records/paper-theatre/mac_process_feedback_v1/e92a9e0ba105eda24284/record.json) |
+| 肺泡与毛细血管气体交换 | [原记录](../records/paper-theatre/mac_process_gas_v1/378bee26dc1f737d63bf/record.json) |
+| 胰岛素信号与葡萄糖转运 | [原记录](../records/paper-theatre/mac_process_insulin_v1/209880e55e0b87c5ec69/record.json) |
+
+## 病理变化（3）
+
+| 素材 | 精确原记录 |
+| --- | --- |
+| 原发病灶与远处转移过程 | [原记录](../records/paper-theatre/mac_process_metastasis_v1/e9153b324f12dfc9a99a/record.json) |
+| 炎症与免疫细胞局部募集 | [原记录](../records/paper-theatre/mac_process_inflammation_v1/32bedf957019ec6e31f7/record.json) |
+| 血管斑块、管腔与血流关系 | [原记录](../records/paper-theatre/mac_process_blood_v1/3d09cc8e8c95cd895612/record.json) |
+
+## 诊疗操作（1）
+
+| 素材 | 精确原记录 |
+| --- | --- |
+| 内镜观察与靶向取样局部关系 | [原记录](../records/paper-theatre/mac_process_endoscope_v1/da3fcb4cd02df3628b87/record.json) |
+
+## 风险与决策沟通（2）
+
+| 素材 | 精确原记录 |
+| --- | --- |
+| 相同分母下的绝对风险比较 | [原记录](../records/paper-theatre/mac_process_risk_v1/ba737093585d62be32ee/record.json) |
+| 筛查结果与疾病状态四格关系 | [原记录](../records/paper-theatre/mac_process_screening_v1/6902e3f48ac293fe5ea9/record.json) |

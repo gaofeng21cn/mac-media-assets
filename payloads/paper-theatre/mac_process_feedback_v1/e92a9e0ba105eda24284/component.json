@@ -1,0 +1,11 @@
+{
+  "schema": "mac_medical_process/v1",
+  "scene": "feedback",
+  "title": "激素轴的负反馈关系",
+  "duration": 10,
+  "viewport": [
+    1280,
+    720
+  ],
+  "medical_review": "pending"
+}

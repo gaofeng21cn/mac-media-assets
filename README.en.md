@@ -19,12 +19,16 @@ Select a preview image to open its MP4 sample.
 
 ## What's in the library
 
-Default discovery currently offers **294 assets and components across 11 categories**. Counts below refer to discoverable entries, with historical revisions counted once per asset; a component package can contain several source images.
+Default discovery currently offers **306 assets and components across 15 categories**. Counts below refer to discoverable entries, with historical revisions counted once per asset; a component package can contain several source images.
 
 | Category | Count | What you can use it for |
 | --- | ---: | --- |
 | Characters and poses | 75 | Choose adults, children, older people, pregnant women, and generic clinicians in standing, seated, reaching, and other poses |
-| Anatomy | 55 | Explain organ locations and structural relationships with overviews, close-ups, and simplified illustrations |
+| Anatomy | 58 | Explain organs and relationships, including new skin, lumbar spine, and eye components |
+| Physiology | 3 | Gas exchange, insulin signaling and glucose transport, and negative feedback |
+| Pathology | 3 | Vessel narrowing, inflammatory cell recruitment, and metastasis |
+| Clinical procedures | 1 | Local endoscopic observation and targeted sampling |
+| Risk and decision communication | 2 | Absolute risk with equal denominators and screening outcome tables |
 | Motion and code components | 62 | Animate walking, sitting and standing, light assistance, home monitoring, and anatomical reveals and opening sequences |
 | Scenes and stages | 26 | Build clinic, waiting-room, home, and kitchen scenes with doors, windows, tables, chairs, and beds |
 | Food and lifestyle | 16 | Show meal composition, food preparation, cutting, and cooking |
@@ -42,6 +46,10 @@ Default discovery currently offers **294 assets and components across 11 categor
 **Start with an assembly, then adjust its parts.** The library includes 17 assemblies and 14 event kits for situations such as handing over a report, recording follow-up, home monitoring, and preparing food. Motion packages include editable code, source media, and samples. Each package explains which parts can be separated and how they connect; adapt the composition, scale, timing, and sound to your story.
 
 **Inspect the source before using it.** Previews help you judge style and suitability. Preserve provenance and version information when importing, then review proportions, contact, motion, sound, and medical meaning in your own shot. Adapt or create new material when the available assets do not fit.
+
+Medical discovery also supports systems, patient tasks, topics, and audiences. Twelve new editable components include independent source code and ten-second interactive previews, with about 150KB of payload in total. Medical and current-shot review remain pending. See the [process components](tools/preview-engine/processes.html) and [coverage and gaps for 20 educational tasks](collections/medical-coverage.json).
+
+Source builds now default to a small catalog package, with exact-version media fetched into a shared cache when selected. The complete source library retains the original bytes. Published 0.2.1 still uses the earlier payload; the next release will update it through OPL. See [lightweight installation and offline use](docs/media-storage.md).
 
 ## Get started
 

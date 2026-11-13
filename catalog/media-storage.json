@@ -1,0 +1,24 @@
+{
+  "schema": "mac_media_storage/v1",
+  "profile": "catalog",
+  "source": {
+    "repository": "https://github.com/gaofeng21cn/mac-media-assets.git",
+    "revision": "9949cc87512abbc1557a0af6b1aeffd2e74fb361"
+  },
+  "bundled_source_ids": [
+    "mac_process_blood_v1",
+    "mac_process_gas_v1",
+    "mac_process_insulin_v1",
+    "mac_process_feedback_v1",
+    "mac_process_inflammation_v1",
+    "mac_process_metastasis_v1",
+    "mac_process_risk_v1",
+    "mac_process_screening_v1",
+    "mac_process_endoscope_v1",
+    "mac_process_skin_v1",
+    "mac_process_spine_v1",
+    "mac_process_eye_v1"
+  ],
+  "cache_limit_bytes": 2147483648,
+  "policy": "索引与原记录随包；媒体按精确SHA-256取用。原始字节与历史审核保留，项目副本不依赖缓存。"
+}

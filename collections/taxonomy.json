@@ -44,6 +44,22 @@
     {
       "id": "sfx",
       "label": "事件拟音"
+    },
+    {
+      "id": "physiology",
+      "label": "生理过程"
+    },
+    {
+      "id": "pathology",
+      "label": "病理变化"
+    },
+    {
+      "id": "procedures",
+      "label": "诊疗操作"
+    },
+    {
+      "id": "communication",
+      "label": "风险与决策沟通"
     }
   ],
   "facets": [
@@ -56,7 +72,11 @@
     "renderers",
     "view",
     "material",
-    "compatibility"
+    "compatibility",
+    "medical_systems",
+    "patient_tasks",
+    "mechanisms",
+    "audiences"
   ],
   "policy": "标签辅助检索和创作，不作为入库或 Stage 启动门；新类、新技法可自由增加。"
 }

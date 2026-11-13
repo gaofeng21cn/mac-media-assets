@@ -132,7 +132,8 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
           category=None, action=None, story_role=None, medium=None,
           collection=None, maturity_stage=None, layering=None,
           include_provenance=False, limit=None, character_role=None,
-          pose=None, asset_id=None, all_versions=False, include_withdrawn=False):
+          pose=None, asset_id=None, all_versions=False, include_withdrawn=False,
+          topic=None, system=None, patient_task=None):
     root = Path(root)
     pose = {'伸手': 'reach', '接取': 'reach', '递接': 'reach', '伸手接取': 'reach',
             '行走': 'walk', '站立': 'stand', '站姿': 'stand', '坐姿': 'seated', '坐下': 'seated', '躺卧': 'lying', '躺姿': 'lying',
@@ -231,7 +232,8 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
             fields.pop('original_image_size', None)
         if category and fields.get('category') != category:
             continue
-        for desired, key in [(action, 'actions'), (story_role, 'story_roles')]:
+        for desired, key in [(action, 'actions'), (story_role, 'story_roles'),
+                             (topic, 'topics'), (system, 'medical_systems'), (patient_task, 'patient_tasks')]:
             candidates = seq(fields.get(key)) + (seq(fields.get('aliases')) if key == 'actions' else [])
             if desired and not any(desired.casefold() in str(value).casefold() for value in candidates):
                 break
@@ -241,6 +243,8 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
             record = load(root / row.get('portable_record', '__missing__'), {})
             names = [row.get('title', ''), row.get('source_id', ''), fields.get('display_title', '')] + seq(fields.get('aliases'))
             facets = (seq(row.get('tags')) + seq(fields.get('objects')) + seq(fields.get('topics')) +
+                      seq(fields.get('medical_systems')) + seq(fields.get('patient_tasks')) +
+                      seq(fields.get('mechanisms')) + seq(fields.get('audiences')) +
                       seq(fields.get('story_roles')) + seq(fields.get('actions')) +
                       seq(fields.get('layer_contract', {}).get('movable_layers')) +
                       seq(fields.get('layer_contract', {}).get('anchors')) +
@@ -270,6 +274,18 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
                 row['maturity'] = maturity(root, row)
                 row['available_for_use'] = available(row)
                 row['selection'] = selection(row)
+                if (root / 'catalog/media-storage.json').is_file():
+                    from media_store import locate
+                    parts = []
+                    missing = {}
+                    for item in row.get('payload', []):
+                        path = locate(root, item, verify=False)
+                        parts.append({'path': item['path'], 'resolved_path': str(path) if path else None})
+                        if path is None:
+                            missing[item['sha256']] = item['bytes']
+                    row['storage'] = {'profile': load(root / 'catalog/media-storage.json', {}).get('profile','catalog'), 'files': parts,
+                                      'download_bytes': sum(missing.values()),
+                                      'fetch_required': bool(missing)}
                 if maturity_stage and row['maturity'].get(maturity_stage) not in {'reviewed', 'passed'}:
                     continue
                 row['search_match'] = {'score': score, 'source': 'curated_names_and_use' if not include_provenance else 'curated_with_provenance'}
@@ -324,7 +340,7 @@ def select_versions(root, rows, *, all_versions=False):
 
 def main():
     parser = argparse.ArgumentParser()
-    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id', 'category', 'action', 'story-role', 'medium', 'collection', 'maturity', 'layering', 'character-role', 'pose', 'id'):
+    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id', 'category', 'action', 'story-role', 'medium', 'collection', 'maturity', 'layering', 'character-role', 'pose', 'id', 'topic', 'system', 'patient-task'):
         parser.add_argument('--' + name)
     parser.add_argument('--limit', type=int)
     parser.add_argument('--include-provenance', action='store_true')
@@ -349,7 +365,8 @@ def main():
                  include_provenance=args.include_provenance, limit=args.limit,
                  character_role=getattr(args, 'character_role'), pose=args.pose,
                  asset_id=getattr(args, 'id'), all_versions=args.all_versions,
-                 include_withdrawn=args.include_withdrawn)
+                 include_withdrawn=args.include_withdrawn, topic=args.topic, system=args.system,
+                 patient_task=args.patient_task)
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
     else:
