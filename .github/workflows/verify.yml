@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
+      - name: Install media encoding tools
+        run: sudo apt-get update && sudo apt-get install -y webp flac ffmpeg
       - run: python3 -m pip install Pillow==12.3.0
       - run: python3 -m unittest discover -s tests -v
       - run: python3 tools/verify_catalog.py

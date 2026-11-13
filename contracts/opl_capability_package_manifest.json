@@ -3,7 +3,7 @@
   "package_id": "mac-media-assets",
   "display_name": "MAC Media Assets",
   "publisher": "one-person-lab",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "source": "first_party_repo_local",
   "source_repo": "https://github.com/gaofeng21cn/mac-media-assets.git",
   "package_role": "capability_package",
@@ -599,6 +599,7 @@
       "tools/apply_curation.py",
       "tools/audio_catalog.py",
       "tools/audit_character_coverage.py",
+      "tools/audit_transparency.py",
       "tools/bp_fitted_runtime.mjs",
       "tools/build_abpm_wear_study.py",
       "tools/build_action_sfx.py",
@@ -628,6 +629,7 @@
       "tools/motion-studies/viewer.mjs",
       "tools/motion_package.py",
       "tools/offline_installation.py",
+      "tools/optimize_media.py",
       "tools/preview-engine/audio.html",
       "tools/preview-engine/catalog.mjs",
       "tools/preview-engine/index.html",
@@ -647,7 +649,7 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:e7fbf1854427d76748baf4f0cdcddb1d17ea62129ec91acf23584c821f7c0b67"
+    "digest": "sha256:92562de1632dac04bd9876e644619598a988086786fb9c398208aa0719ca3cc3"
   },
   "entrypoints": [
     {
@@ -664,7 +666,7 @@
       ],
       "installation_scope": "supplemental_payload",
       "release_target": {
-        "version": "0.2.3"
+        "version": "0.2.4"
       },
       "installation_profiles": [
         {

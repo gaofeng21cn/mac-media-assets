@@ -167,7 +167,8 @@ def cache_status(cache=None):
         marker = directory / 'offline-installation.json'
         if marker.is_file():
             receipt = read(marker)
-            offline = {'directory': str(directory), 'registered_media_bytes': receipt['size_bytes'],
+            offline = {'directory': str(directory), 'installed_media_bytes': receipt.get('physical_media_bytes',receipt['size_bytes']),
+                       'referenced_media_bytes':receipt['size_bytes'],
                        'file_count': receipt['file_count'], 'prunable': False}
     return {'root': str(cache), 'bytes': sum(p.stat().st_size for p in objects if p.is_file()),
             'blobs': len(objects), 'snapshots': len(snapshots),

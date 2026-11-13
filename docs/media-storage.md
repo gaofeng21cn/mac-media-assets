@@ -54,7 +54,7 @@ asset_library:
 
 媒体下载固定到 `catalog/media-storage.json` 的完整 Git 提交，逐文件核对已登记长度和 SHA-256；不用漂移的 `main` 作为媒体字节来源。
 相同哈希在共享 `blobs/` 中只存一份，原始记录与版本不改写。HTML 预览通过可丢弃的 `snapshots/` 关系视图访问这些文件。
-项目导入仍复制独立原件，项目清单和原审核范围保持原合同。修改项目文件不会污染共享缓存，删除缓存也不影响已导入的项目。
+项目导入仍复制独立文件，项目清单和审看范围沿用原合同。修改项目文件不会污染共享缓存，删除缓存也不影响已导入的项目。
 
 ```sh
 python3 tools/media_store.py cache-status
@@ -87,5 +87,23 @@ python3 tools/media_store.py audit
 - [DVC 远端存储](https://doc.dvc.org/user-guide/data-management/remote-storage)：代码/登记与大型数据生命周期分开，完整历史可在远端保留。
 - [Git 部分克隆](https://git-scm.com/docs/git-clone)和[稀疏检出](https://git-scm.com/docs/git-sparse-checkout)：MAC 独立获取库时优先下载元数据并检出所需路径，已有库不隐式重置或更新。
 
-本轮首先缩小实际安装和增量取用，不重写 Git 历史，也不转码既有原始字节。若源仓库媒体继续增长，下一步将大对象迁到现有 OCI/对象存储并保持同一 SHA-256 索引；迁移前先验证来源、恢复和授权，保留完整历史镜像。
-PNG 无损重压缩、WAV→FLAC 可以作为后续传输表示，解码后须还原登记字节或形成明确新版本；不以有损转码或删除审核证据换取体积数字。
+源码与历史归档保留既有原始字节；本次完整安装导出采用下述压缩版本和内容去重。若源仓库媒体继续增长，可将大对象迁到现有 OCI/对象存储并保持同一 SHA-256 索引；迁移前验证来源、恢复和授权，保留完整历史镜像。
+
+## 完整离线包的媒体压缩
+
+完整版默认也去重。同一 SHA-256 的媒体在安装目录只占一份数据，组件的多个相对路径通过硬链接引用它；归档保留硬链接，安装时重新核对哈希并建立链接。目录大小与软件中心显示以实际唯一内容为主，所有引用路径的累计字节只作辅助统计。项目导入仍复制独立文件，不把项目修改与共享库连接在一起。
+
+安装目录直接使用 WebP、AAC/M4A 和 FLAC，不再展开回 PNG/WAV。图片默认 WebP Q90，原尺寸、Alpha 和可迁移颜色元数据保留；矢量派生的医学线图使用无损 WebP，16位或动画PNG保留原格式。音乐仅在 AAC 192kbps 比 FLAC 还节省至少15%时选AAC；短拟音、节拍和旋律分轨保留FLAC。已经有效压缩的JPEG/MP4不重复转码。
+
+压缩包内的资产生成独立 revision、文件扩展名和SHA-256，并同步组合、代码、预览及人物标尺的引用。`delivery.source_asset_id` 指回源码原版本，`catalog/delivery-report.json` 保存原ID到压缩版本的映射。现有工程不会被自动改写；新取用识别已安装的压缩库，复制压缩字节。来源撤回继续生效，有损版本不继承原件的视觉和听感通过结论。
+
+```sh
+# 构建机需要 cwebp、flac、ffmpeg；Pillow只用于更快的像素校验，可省略。
+python3 tools/optimize_media.py --export /库外/mac-media-assets --archive /库外/mac-media-assets-offline.tar.gz
+# 离线机器只需既有Python；从完整归档安装，不运行编码器或联网。
+python3 tools/offline_installation.py --operation install --source-root /库外/mac-media-assets-offline.tar.gz
+```
+
+同一owner的软件中心动作可从 `MAC_MEDIA_OFFLINE_SOURCE` 指定的预构建目录/归档安装；未指定时仍支持从固定源码构建，编码器缺失会在下载前说明缺项。正式分发需由现有 Framework OCI 流程发布该预构建完整资料，不能把本地归档当成已发布的软件中心制品。轻量核心与完整媒体仍使用同一Package，Full App继续只携带轻量核心。
+
+独立角色、器官和可拼接部件必须有真实透明区域；完整后景允许不透明。`tools/audit_transparency.py` 按登记用途审计入口和动作图层，压缩构建会拒绝完全不透明的独立运动层，并逐图核对Alpha。全透明像素的RGB并非背景色块，假棋盘、边缘白边或已烘焙场景仍需浅/深/彩底和当前舞台审看。Dr.咩等作者私有图册由其工作区维护，本公共库不收录或覆盖。

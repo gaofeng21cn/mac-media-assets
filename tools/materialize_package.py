@@ -106,11 +106,17 @@ def export(root, destination, profile='catalog'):
         storage['profile'] = 'full'
         (destination/'catalog/media-storage.json').write_text(json.dumps(storage,ensure_ascii=False,indent=2)+'\n')
         materialize(destination,profile='full')
+        if storage.get('offline_media_optimization') and not storage.get('delivery_policy'):
+            from optimize_media import optimize
+            optimize(destination)
     else:
         for name in ['opl-package.json','contracts/opl_capability_package_manifest.json']:
             (destination/name).write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-    return {'directory': str(destination), 'files': len(paths),
-            'bytes': sum((destination/value).stat().st_size for value in paths)}
+    actual=[p for p in destination.rglob('*') if p.is_file()]
+    unique={(p.stat().st_dev,p.stat().st_ino):p for p in actual}
+    return {'directory': str(destination), 'files': len(actual),
+            'bytes':sum(p.stat().st_size for p in unique.values()),
+            'referenced_file_bytes':sum(p.stat().st_size for p in actual)}
 
 
 if __name__ == '__main__':

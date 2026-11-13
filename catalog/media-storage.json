@@ -20,5 +20,13 @@
     "mac_process_eye_v1"
   ],
   "cache_limit_bytes": 2147483648,
-  "policy": "索引与原记录随包；媒体按精确SHA-256取用。原始字节与历史审核保留，项目副本不依赖缓存。"
+  "policy": "索引与原记录随包；媒体按精确SHA-256取用。原始字节与历史审核保留，项目副本不依赖缓存。",
+  "offline_media_optimization": {
+    "policy": "webp90-alpha100-aac192-or-flac-v1",
+    "images": "webp_q90_alpha100",
+    "diagram_images": "lossless",
+    "audio": "aac192_when_significantly_smaller_otherwise_flac",
+    "installed_media": "encoded_direct_use",
+    "raw_master_installation": false
+  }
 }

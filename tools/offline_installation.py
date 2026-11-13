@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 import re
 import shutil
+import subprocess
 import sys
 import tarfile
 import tempfile
@@ -39,21 +40,53 @@ def inspect(root=ROOT, cache=None):
                        'version':receipt['version'],'mode':'release','location':str(location),'active':False,
                        'revision':sha(marker),'supported_actions':['uninstall'],
                        'catalog_sha256':receipt['catalog_sha256'],'file_count':receipt['file_count'],
-                       'size_bytes':receipt['size_bytes']}]
+                       'size_bytes':receipt.get('physical_media_bytes',receipt['size_bytes']),
+                       'delivery_policy':receipt.get('delivery_policy')}]
     current=bool(rows and read(Path(rows[0]['location'])/'offline-installation.json').get('installation_fingerprint')==installation_identity(root))
     return {'package_id':'mac-media-assets','version':version,'installations':rows,
             'installed_profiles':['offline'] if current else [],'active_installation_status':'inactive'}
 
 
-def _copy(source,destination,item):
+def _copy(source,destination,item,duplicates=None):
     if not matches(source,item):raise ValueError('离线来源与登记字节不一致：'+item['path'])
     destination.parent.mkdir(parents=True,exist_ok=True)
-    shutil.copy2(source,destination)
+    if duplicates is not None and item['sha256'] in duplicates:
+        os.link(duplicates[item['sha256']],destination)
+    else:
+        shutil.copy2(source,destination)
+        if duplicates is not None:duplicates[item['sha256']]=destination
 
 
 def install(root=ROOT,cache=None,source_root=None):
     root,cache=Path(root).resolve(),cache_root(cache)
-    rows=[json.loads(s) for s in (root/'catalog/assets.jsonl').read_text().splitlines() if s.strip()]
+    source_root=Path(source_root or os.environ['MAC_MEDIA_OFFLINE_SOURCE']).resolve() if source_root or os.environ.get('MAC_MEDIA_OFFLINE_SOURCE') else None
+    if source_root and source_root.is_file():
+        # A prebuilt portable archive needs only Python at install time.
+        # The standard data filter rejects traversal and unsafe link targets.
+        with tempfile.TemporaryDirectory(prefix='mac-offline-archive-') as folder:
+            with tarfile.open(source_root,'r:*') as archive:
+                members=archive.getmembers()
+                if sum(m.size for m in members)>2*1024**3:
+                    raise ValueError('离线包解包超出2GiB预算')
+                archive.extractall(folder,members=members,filter='data')
+            unpacked=Path(folder)/'mac-media-assets'
+            return install(root,cache,unpacked)
+    encoded_source=None
+    if source_root and storage(source_root).get('delivery_policy'):
+        if storage(source_root).get('source_catalog_sha256')!=index_identity(root):
+            raise ValueError('压缩离线包与所选核心索引不一致')
+        selected=read(root/'opl-package.json');delivered=read(source_root/'opl-package.json')
+        if delivered.get('package_id')!=selected.get('package_id') or delivered.get('version')!=selected.get('version'):
+            raise ValueError('压缩离线包与所选核心身份或版本不一致')
+        from materialize_package import materialize
+        if not materialize(source_root,check=True,profile='full'):
+            raise ValueError('压缩离线包内容锁不一致')
+        encoded_source=source_root
+    library=encoded_source or root
+    if not encoded_source and storage(root).get('offline_media_optimization'):
+        from optimize_media import require_encoders
+        require_encoders()
+    rows=[json.loads(s) for s in (library/'catalog/assets.jsonl').read_text().splitlines() if s.strip()]
     # Historical bytes remain archival; normal query/use still enforces withdrawal.
     wanted={part['path']:part for row in rows for part in row['payload']}
     identity=index_identity(root)
@@ -65,22 +98,22 @@ def install(root=ROOT,cache=None,source_root=None):
         offline=cache/'offline';offline.mkdir(exist_ok=True)
         with tempfile.TemporaryDirectory(prefix='.install-',dir=offline) as temporary:
             stage=Path(temporary)/'library';stage.mkdir()
-            manifest=read(root/'opl-package.json')
+            manifest=read(library/'opl-package.json')
             # Retain callable tools and every source/review record independently.
             for name in manifest['content_lock']['paths']+['opl-package.json']:
                 if name in wanted:continue
-                destination=contained(stage,name);destination.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(contained(root,name),destination)
+                destination=contained(stage,name);destination.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(contained(library,name),destination)
             # The installed carrier owns opl-package.json; repository-only
             # projection metadata is not part of its content lock.
             owner_manifest=stage/'contracts/opl_capability_package_manifest.json'
             owner_manifest.parent.mkdir(parents=True,exist_ok=True)
-            shutil.copy2(root/'opl-package.json',owner_manifest)
-            missing={}
+            shutil.copy2(library/'opl-package.json',owner_manifest)
+            missing={};duplicates={}
             for name,item in wanted.items():
-                source=contained(root,name)
+                source=contained(library,name)
                 if not source.is_file() and source_root is not None:source=contained(source_root,name)
                 if source.is_file():
-                    _copy(source,contained(stage,name),item)
+                    _copy(source,contained(stage,name),item,duplicates)
                 else:missing[name]=item
             if missing:
                 source=storage(root).get('source',{})
@@ -104,6 +137,11 @@ def install(root=ROOT,cache=None,source_root=None):
                             del missing[name]
                             if not missing:break
                 if missing:raise ValueError('固定来源缺少离线媒体，原安装保留')
+            if not encoded_source and storage(root).get('offline_media_optimization'):
+                from optimize_media import optimize
+                optimize(stage)
+                rows=[json.loads(line) for line in (stage/'catalog/assets.jsonl').read_text().splitlines() if line.strip()]
+                wanted={part['path']:part for row in rows for part in row['payload']}
             # A complete standalone directory also carries its own full lock;
             # the default catalog descriptor is never changed by this install.
             spec=storage(stage);spec['profile']='full'
@@ -111,7 +149,11 @@ def install(root=ROOT,cache=None,source_root=None):
             from materialize_package import materialize
             materialize(stage,profile='full')
             receipt={'package_id':'mac-media-assets','profile':'offline','version':manifest['version'],
-                     'installation_fingerprint':installation,'core_content_digest':manifest['content_lock'].get('digest'),
+                     'installation_fingerprint':installation,'core_content_digest':read(root/'opl-package.json')['content_lock'].get('digest'),
+                     'source_catalog_sha256':identity,'delivery_catalog_sha256':index_identity(stage),
+                     'source_library_root':str(root),
+                     'delivery_policy':storage(stage).get('delivery_policy'),
+                     'physical_media_bytes':sum(item['bytes'] for item in {p['sha256']:p for p in wanted.values()}.values()),
                      'catalog_sha256':identity,'file_count':len(wanted),'size_bytes':sum(x['bytes'] for x in wanted.values()),
                      'verification':'all_registered_media_length_and_sha256','medical_review':'unchanged'}
             (stage/'offline-installation.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
@@ -158,5 +200,5 @@ if __name__=='__main__':
     try:
         request=json.load(sys.stdin) if args.stdin else {'operation':args.operation,'version':read(ROOT/'opl-package.json')['version']}
         print(json.dumps(execute(request,cache=args.cache,source_root=args.source_root),ensure_ascii=False,indent=2))
-    except (OSError,ValueError,KeyError,tarfile.TarError) as error:
+    except (OSError,ValueError,KeyError,tarfile.TarError,ImportError,subprocess.CalledProcessError) as error:
         print(json.dumps({'package_id':'mac-media-assets','status':'diagnostic','installations':[], 'error':str(error)},ensure_ascii=False));raise SystemExit(2)

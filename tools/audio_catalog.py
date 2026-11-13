@@ -10,7 +10,7 @@ def describe(root=ROOT):
  out=[]
  for row in rows:
   if row['kind'] not in {'audio','music_score'}:continue
-  paths=[p['path'] for p in row['payload'] if p['path'].endswith(('.wav','.mp3'))]
+  paths=[p['path'] for p in row['payload'] if p['path'].endswith(('.wav','.mp3','.flac','.m4a'))]
   parameter_files=[p['path'] for p in row['payload'] if p['path'].endswith(('performance.json','parameters.json'))]
   parameters=json.loads((root/parameter_files[0]).read_text()) if parameter_files else {}
   scores=[]

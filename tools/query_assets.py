@@ -23,7 +23,23 @@ def load_curation(root):
     if any(not isinstance(item, dict) or not isinstance(item.get('review_boundary', {}), dict)
            for item in value['assets'].values()):
         raise ValueError('策展决定必须是对象')
-    return value['assets']
+    decisions = value['assets']
+    marker = Path(root)/'offline-installation.json'
+    if marker.is_file():
+        receipt = json.loads(marker.read_text())
+        source_root = receipt.get('source_library_root')
+        if source_root and Path(source_root).resolve() != Path(root).resolve():
+            from media_store import sha
+            origin = Path(source_root)
+            if sha(origin/'catalog/assets.jsonl') != receipt.get('source_catalog_sha256'):
+                raise ValueError('离线资料的来源索引已更新，请刷新安装')
+            current = load_curation(origin)
+            aliases = load(Path(root)/'catalog/delivery-report.json', {}).get('aliases', {})
+            for original, encoded in aliases.items():
+                if original in current:
+                    decisions[encoded] = {**decisions.get(encoded, {}),
+                        **{key:current[original][key] for key in ('status','reason','review_boundary') if key in current[original]}}
+    return decisions
 
 
 def effective_row(row, curation):
@@ -34,6 +50,16 @@ def effective_row(row, curation):
         result['curation'] = decision
         result['review_boundary'] = {**row.get('review_boundary', {}),
                                      **decision.get('review_boundary', {})}
+    if row.get('delivery', {}).get('encoding_review') == 'pending':
+        boundary = dict(result.get('review_boundary', {}))
+        boundary['encoding'] = 'pending'
+        boundary['static'] = 'pending' if row['kind'] not in {'audio','music_score'} else boundary.get('static','not_applicable')
+        # Prior reports describe the original bytes. Encoded candidates remain
+        # selectable but do not inherit an original's audiovisual approval.
+        for field in ('static', 'motion', 'listening'):
+            if boundary.get(field) not in (None, 'not_applicable'):
+                boundary[field] = 'pending'
+        result['review_boundary'] = boundary
     return result
 
 

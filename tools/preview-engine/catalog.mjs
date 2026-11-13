@@ -2,8 +2,12 @@
 export function effectiveRows(rows, curation) {
   return rows.map(row => {
     const decision = curation.assets[row.id] || row.curation;
-    return {...row, curation: decision,
-      review_boundary: {...row.review_boundary, ...decision?.review_boundary}};
+    const boundary={...row.review_boundary, ...decision?.review_boundary};
+    if(row.delivery?.encoding_review==='pending'){
+      boundary.encoding='pending';
+      for(const field of ['static','motion','listening'])if(boundary[field]&&boundary[field]!=='not_applicable')boundary[field]='pending';
+    }
+    return {...row, curation: decision, review_boundary: boundary};
   });
 }
 export function available(row) {

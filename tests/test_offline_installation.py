@@ -66,6 +66,33 @@ class OfflineTests(unittest.TestCase):
         self.assertEqual(offline.uninstall(self.core,self.cache,row['revision'])['installations'],[])
         self.assertTrue((self.source/self.item['path']).exists())
 
+    def test_prebuilt_encoded_install_needs_no_encoders_and_rejects_another_core(self):
+        from materialize_package import materialize
+        import shutil
+        encoded=self.base/'encoded'
+        shutil.copytree(self.core,encoded)
+        original=self.source/self.item['path'];target=encoded/self.item['path']
+        target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(original,target)
+        spec=json.loads((encoded/'catalog/media-storage.json').read_text())
+        spec.update(profile='full',delivery_policy='webp90-alpha100-aac192-or-flac-v1',source_catalog_sha256=offline.index_identity(self.core))
+        (encoded/'catalog/media-storage.json').write_text(json.dumps(spec))
+        (encoded/'contracts').mkdir(exist_ok=True)
+        shutil.copy2(encoded/'opl-package.json',encoded/'contracts/opl_capability_package_manifest.json')
+        materialize(encoded,profile='full')
+        with patch('optimize_media.require_encoders',side_effect=AssertionError('prebuilt install must not encode')):
+            result=offline.install(self.core,self.cache,encoded)
+        receipt=json.loads((Path(result['installations'][0]['location'])/'offline-installation.json').read_text())
+        self.assertEqual(receipt['source_catalog_sha256'],offline.index_identity(self.core))
+        self.assertEqual(receipt['delivery_catalog_sha256'],offline.index_identity(encoded))
+        # Archives preserve one inode for identical paths, and install reuses
+        # that content without requiring an encoder or the original source.
+        archive=self.base/'offline.tar.gz'
+        with tarfile.open(archive,'w:gz') as output:output.add(encoded,arcname='mac-media-assets')
+        other=offline.install(self.core,self.base/'archive-cache',archive)
+        self.assertEqual(other['installed_profiles'],['offline'])
+        (self.core/'catalog/assets.jsonl').write_text((self.core/'catalog/assets.jsonl').read_text()+'\n')
+        with self.assertRaisesRegex(ValueError,'索引不一致'):offline.install(self.core,self.cache,encoded)
+
     def test_unknown_identity_version_and_profile_are_rejected(self):
         for change in [{'package_id':'other'},{'version':'9.0.0'},{'profile':'unknown'}]:
             with self.assertRaises(ValueError):offline.execute({'operation':'install','version':'1.0.0',**change},self.core,self.cache,self.source)
