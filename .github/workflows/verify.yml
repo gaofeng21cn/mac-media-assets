@@ -7,6 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Fetch pinned media source metadata
+        shell: bash
+        run: |
+          source_revision="$(python3 -c 'import json; print(json.load(open("catalog/media-storage.json"))["source"]["revision"])')"
+          [[ "$source_revision" =~ ^[a-f0-9]{40}$ ]]
+          git fetch --no-tags --depth=1 --filter=blob:none origin "$source_revision"
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
