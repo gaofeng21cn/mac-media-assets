@@ -1,0 +1,17 @@
+{
+  "strategy": "daily_patch",
+  "prepare": [
+    [
+      "python3",
+      "tools/materialize_package.py"
+    ]
+  ],
+  "verify": [
+    [
+      "python3",
+      "tools/materialize_package.py",
+      "--check"
+    ]
+  ],
+  "version_files": []
+}
