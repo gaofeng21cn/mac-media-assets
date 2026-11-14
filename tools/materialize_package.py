@@ -59,7 +59,8 @@ def build_manifest(root=ROOT, profile='catalog'):
     else:
         payload_paths = sorted({part['path'] for row in rows if row['source_id'] in bundled for part in row['payload']})
     record_paths = sorted({row['portable_record'] for row in rows})
-    paths = sorted(['plugin.json', '.codex-plugin/plugin.json', '.agents/plugins/marketplace.json', 'app-contribution-adapter.json', manifest['presentation']['icon_ref']] + payload_paths + record_paths +
+    icon = manifest.get('presentation', {}).get('icon_ref')
+    paths = sorted(['plugin.json', '.codex-plugin/plugin.json', '.agents/plugins/marketplace.json', 'app-contribution-adapter.json'] + ([icon] if icon else []) + payload_paths + record_paths +
                    [str(path.relative_to(root)) for folder in
                     ['skills','tools','catalog','collections','schemas','docs']
                     for path in (root/folder).rglob('*') if path.is_file() and '__pycache__' not in path.parts])
