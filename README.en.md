@@ -1,10 +1,14 @@
-[中文](README.md) · [English](README.en.md)
+<p align="center">
+  <img src="assets/branding/mac-media-assets-logo.png" alt="Med Auto Cast Assets logo" width="132" />
+</p>
 
-# MAC Media Assets
+<p align="center"><strong>English</strong> | <a href="./README.md">中文</a></p>
+
+<h1 align="center">Med Auto Cast Assets</h1>
 
 **Characters, scenes, anatomy, and sound for medical explainer animation.**
 
-MAC Media Assets is a public media library for clinicians, health educators, and medical content creators, and the companion library to [Med Auto Cast (MAC)](https://github.com/gaofeng21cn/med-autocast). It brings together hand-drawn collage elements, layered anatomy, character actions, everyday props, music, and sound effects, giving you a starting point so you can spend more time on the story and its presentation.
+Med Auto Cast Assets is a public media library for clinicians, health educators, and medical content creators, and the companion library to [Med Auto Cast (MAC)](https://github.com/gaofeng21cn/med-autocast). It brings together hand-drawn collage elements, layered anatomy, character actions, everyday props, music, and sound effects, giving you a starting point so you can spend more time on the story and its presentation.
 
 Let MAC find and import assets for your project, or download the source media for your own animation and editing tools.
 

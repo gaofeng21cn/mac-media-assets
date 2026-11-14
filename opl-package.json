@@ -1,9 +1,9 @@
 {
   "surface_kind": "opl_capability_package_manifest.v2",
   "package_id": "mac-media-assets",
-  "display_name": "MAC Media Assets",
+  "display_name": "Med Auto Cast Assets",
   "publisher": "one-person-lab",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "source": "first_party_repo_local",
   "source_repo": "https://github.com/gaofeng21cn/mac-media-assets.git",
   "package_role": "capability_package",
@@ -100,6 +100,7 @@
       ".agents/plugins/marketplace.json",
       ".codex-plugin/plugin.json",
       "app-contribution-adapter.json",
+      "assets/branding/mac-media-assets-logo.png",
       "catalog/README.md",
       "catalog/assets.jsonl",
       "catalog/media-storage.json",
@@ -649,7 +650,7 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:486079bf6ded8a1d9c8bf33170f10e6015b0eb959bb5804cbd049021d4e59b71"
+    "digest": "sha256:f42fa9179071b2a1db69b434b399ca6713ae8a935b91f080c3613ad3e2396e99"
   },
   "entrypoints": [
     {
@@ -681,10 +682,11 @@
     }
   ],
   "presentation": {
+    "icon_ref": "assets/branding/mac-media-assets-logo.png",
     "software_type": "capability",
     "display_name_i18n": {
-      "zh-CN": "MAC 医学动画素材库",
-      "en-US": "MAC Media Assets"
+      "zh-CN": "Med Auto Cast Assets",
+      "en-US": "Med Auto Cast Assets"
     },
     "description_i18n": {
       "zh-CN": "默认安装轻量索引与代码组件，按需获取素材；可在软件中心选择离线完整版。",

@@ -1,10 +1,14 @@
-[中文](README.md) · [English](README.en.md)
+<p align="center">
+  <img src="assets/branding/mac-media-assets-logo.png" alt="Med Auto Cast Assets logo" width="132" />
+</p>
 
-# MAC Media Assets
+<p align="center"><a href="./README.en.md">English</a> | <strong>中文</strong></p>
+
+<h1 align="center">Med Auto Cast Assets</h1>
 
 **为医学科普动画准备角色、场景、结构与声音。**
 
-MAC Media Assets 是面向医生、健康教育工作者和医学内容创作者的公开素材库，也是 [Med Auto Cast（MAC）](https://github.com/gaofeng21cn/med-autocast) 的配套素材库。这里有手绘拼贴纸件、可分层的医学结构、人物动作、生活道具、配乐与拟音，帮助你从已有素材开始，把时间用在故事和画面上。
+Med Auto Cast Assets 是面向医生、健康教育工作者和医学内容创作者的公开素材库，也是 [Med Auto Cast（MAC）](https://github.com/gaofeng21cn/med-autocast) 的配套素材库。这里有手绘拼贴纸件、可分层的医学结构、人物动作、生活道具、配乐与拟音，帮助你从已有素材开始，把时间用在故事和画面上。
 
 你可以让 MAC 按制作需要检索和取用，也可以下载原件，在自己的动画或剪辑项目中使用。
 
