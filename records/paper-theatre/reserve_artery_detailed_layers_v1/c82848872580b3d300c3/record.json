@@ -1,0 +1,376 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_artery_detailed_layers_v1",
+  "title": "动脉壁·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "adventitia",
+      "path": "files/adventitia.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "动脉壁·adventitia",
+      "medical": true,
+      "content_bounds": [
+        145,
+        190,
+        879,
+        834
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "media",
+      "path": "files/media.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "动脉壁·media",
+      "medical": true,
+      "content_bounds": [
+        203,
+        242,
+        821,
+        782
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "intima",
+      "path": "files/intima.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "动脉壁·intima",
+      "medical": true,
+      "content_bounds": [
+        272,
+        303,
+        752,
+        721
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "lumen",
+      "path": "files/lumen.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "动脉壁·lumen",
+      "medical": true,
+      "content_bounds": [
+        298,
+        327,
+        726,
+        697
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_anatomy.py"
+  },
+  "tags": [
+    "anatomy",
+    "artery",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "动脉壁",
+      "配准分层"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "adventitia",
+      "media",
+      "intima",
+      "lumen"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    145,
+    190,
+    879,
+    834
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "动脉横断面三层壁与管腔，外膜、中膜、内膜逐层套叠；层厚只为可读性，无狭窄/斑块或病理含义，不能用于厚度测量。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/adventitia.svg",
+      "role": "source",
+      "sha256": "974a0a785d07d16486b1986b38bd38b2fc74f6bf1b82f18d720bff29d64315dc",
+      "bytes": 308
+    },
+    {
+      "path": "files/adventitia.webp",
+      "role": "payload",
+      "sha256": "3a7771df589efaaa3ed6f1425a0476c436b36aec7e3f9db3294f84f932b0bd03",
+      "bytes": 21124
+    },
+    {
+      "path": "source/media.svg",
+      "role": "source",
+      "sha256": "a7b62d78294a20e203291535d2603d5d12a9f8cbaa6ac8c14dc5d1068954dc3d",
+      "bytes": 308
+    },
+    {
+      "path": "files/media.webp",
+      "role": "payload",
+      "sha256": "7bc2c9a09da58e0f6dd39273a696a973f8b7569fbbd78f98fc802a9b73ed87e1",
+      "bytes": 17082
+    },
+    {
+      "path": "source/intima.svg",
+      "role": "source",
+      "sha256": "f875116a6eca32f81184099d803a44f2ab2fb02ad6e6660989cb53f705116c1e",
+      "bytes": 308
+    },
+    {
+      "path": "files/intima.webp",
+      "role": "payload",
+      "sha256": "0bdc6de42d23e85759edc00b3780e0dacaa0651aa8d90c218339868b3fcbc9ee",
+      "bytes": 14370
+    },
+    {
+      "path": "source/lumen.svg",
+      "role": "source",
+      "sha256": "cfe3c3dab69d2bad61af3f9f62a406bb9317b35b39e87abb66c80deaaab8f551",
+      "bytes": 158
+    },
+    {
+      "path": "files/lumen.webp",
+      "role": "payload",
+      "sha256": "6e66f0b7e2e0871fbc7e099fc081c513cec51715a9e95cc4ec0bb50bd5eb7038",
+      "bytes": 3492
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "32dab2da73fa7461cfc45a175c5b6bc3c3b1ff15344a362510222ddd9df6da46",
+      "bytes": 791
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "68ae49bbdc37b61a19c5f312338811c37f0787dd31c5df62eb0ddfcc9a75872e",
+      "bytes": 35106
+    },
+    {
+      "path": "source/build_anatomy.py",
+      "role": "source",
+      "sha256": "68f290eb3ea2b6e1a4da8577364c254c8f87090128e8fa817815614edcbe2817",
+      "bytes": 10158
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "2141fdaaccba35b1ae05574c05fa7bf7f4c39e8946dc4a059d3c5cee6e435dd4",
+      "bytes": 629
+    }
+  ],
+  "revision": "c82848872580b3d300c3",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_artery_detailed_layers_v1@80bb1a5208afeb48a63c",
+    "source_record_sha256": "1e865f57d61e7ba2c0193f2a88bc5603d5f0c67ebc8ac201fd8d0e161839fbf0",
+    "encodings": [
+      {
+        "path": "files/adventitia.png",
+        "encoded_path": "files/adventitia.webp",
+        "source_sha256": "97b5d1591d4c181382097420db56b4de640aea9ceaab7703512fc2ac7ad2d370",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/media.png",
+        "encoded_path": "files/media.webp",
+        "source_sha256": "45553f2808163db6fb2bb66f13ab3779d6bca99f54762af8a8cd064153be427a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/intima.png",
+        "encoded_path": "files/intima.webp",
+        "source_sha256": "f7e6e273961275c38e0dfc66e5e6a92a31baa7821358c8821034d4e6c0a8f4c7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/lumen.png",
+        "encoded_path": "files/lumen.webp",
+        "source_sha256": "48a20e75a0885235fbd8c263cda62a5fab1ed5dc01addc8c3bcc88ab8e122f62",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "d343bca0bcfe6e40b52755a14d2652466c2fba89ba65c78998ce42e8cd6d1caf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

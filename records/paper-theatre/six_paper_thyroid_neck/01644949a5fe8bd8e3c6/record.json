@@ -1,0 +1,117 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_thyroid_neck",
+  "title": "thyroid_neck 手绘拼贴纸件",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "thyroid_neck"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "thyroid_neck",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": true,
+    "visual_meaning": "专题纸件、位置关系依本集导演稿",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/thyroid_neck.png",
+    "source_sha256": "ab412d2096c0b6ded8b74c71fed7379540f11c2b762d46226eec82b912c91ed2",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json",
+    "medical_reference": "evidence/1-medical-source.yaml",
+    "medical_review": {
+      "status": "pending"
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/graves_paper_theatre/01_not_just_a_fast_heart/v1",
+    "series": "graves_paper_theatre",
+    "episode": "01_not_just_a_fast_heart",
+    "asset_id": "thyroid_neck",
+    "original_manifest": {
+      "asset_id": "thyroid_neck",
+      "path": "assets/thyroid_neck.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": true,
+      "visual_meaning": "专题纸件、位置关系依本集导演稿",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/thyroid_neck.png",
+      "source_sha256": "ab412d2096c0b6ded8b74c71fed7379540f11c2b762d46226eec82b912c91ed2",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json",
+      "medical_reference": "preproduction/medical-source.yaml",
+      "medical_review": {
+        "status": "pending"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "topic",
+    "topics": [
+      "graves",
+      "hashimoto"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1223,
+    1285
+  ],
+  "alpha_range": [
+    0,
+    254
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "ab412d2096c0b6ded8b74c71fed7379540f11c2b762d46226eec82b912c91ed2",
+      "bytes": 2901825
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "e4c3fec9c887293b113c80abe8cea3c0f34ab916a6fedc3be36558ce8b90c31b",
+      "bytes": 3063
+    },
+    {
+      "path": "evidence/1-medical-source.yaml",
+      "role": "evidence",
+      "sha256": "b002f1f8b6ef3d2697e99dfbbae2d514a6b6f7428256183375d4300043584fdf",
+      "bytes": 3531
+    }
+  ],
+  "revision": "01644949a5fe8bd8e3c6"
+}

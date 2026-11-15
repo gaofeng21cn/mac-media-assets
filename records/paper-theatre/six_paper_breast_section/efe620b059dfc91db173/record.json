@@ -1,0 +1,116 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_breast_section",
+  "title": "breast_section 手绘拼贴纸件",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "breast_section"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "breast_section",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": true,
+    "visual_meaning": "专题纸件、位置关系依本集导演稿",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/breast_section.png",
+    "source_sha256": "6024768f3f659155c749823dfac806528995dad3deb096b3cdc21c1990f4e733",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json",
+    "medical_reference": "evidence/1-medical-source.yaml",
+    "medical_review": {
+      "status": "pending"
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/breast_nodules_paper_theatre/01_a_word_on_the_report/v1",
+    "series": "breast_nodules_paper_theatre",
+    "episode": "01_a_word_on_the_report",
+    "asset_id": "breast_section",
+    "original_manifest": {
+      "asset_id": "breast_section",
+      "path": "assets/breast_section.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": true,
+      "visual_meaning": "专题纸件、位置关系依本集导演稿",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/breast_section.png",
+      "source_sha256": "6024768f3f659155c749823dfac806528995dad3deb096b3cdc21c1990f4e733",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json",
+      "medical_reference": "preproduction/medical-source.yaml",
+      "medical_review": {
+        "status": "pending"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "topic",
+    "topics": [
+      "breast_nodules_paper_theatre"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    0,
+    14,
+    1230,
+    1254
+  ],
+  "alpha_range": [
+    0,
+    255
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "6024768f3f659155c749823dfac806528995dad3deb096b3cdc21c1990f4e733",
+      "bytes": 1694718
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "0a6fd5fc7bcdd9753e15af13e05a04557bff376f102cdfb737c42d772179f352",
+      "bytes": 2570
+    },
+    {
+      "path": "evidence/1-medical-source.yaml",
+      "role": "evidence",
+      "sha256": "c6a57bbbf0e48b53d8cde7280880a4517411dd0e01d7bace41257ad36a06c444",
+      "bytes": 3133
+    }
+  ],
+  "revision": "efe620b059dfc91db173"
+}

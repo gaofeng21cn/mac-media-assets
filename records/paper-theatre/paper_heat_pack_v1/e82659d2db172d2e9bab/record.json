@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_heat_pack_v1",
+  "title": "热敷袋·完整独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    15,
+    1516,
+    1011
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "heat_pack"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "热敷袋·完整独立纸件",
+      "heat_pack"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "热敷袋·完整独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        15,
+        1516,
+        1011
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "热敷袋·完整独立纸件；独立透明原件，当前镜头的朝向、接触与比例重新审查。"
+    }
+  ],
+  "usage_notes": "热敷袋·完整独立纸件；独立透明原件，当前镜头的朝向、接触与比例重新审查。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "44559c815ff868168f31ff8c31b17962e50b8f731ac445ca0ac77b5273712717",
+      "bytes": 1496814
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "da4e0e31ed1edfd37e7a2b18e353a041f33dbb0e44a19e0f98752b102a9e4a20",
+      "bytes": 946
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "ad4ec1e33473521f36c04eb7924ffb5234ca95469dce20fcf2dcb9a1cc8a5ea3",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "49ebdb16d9a958cb530d4df6426be25a837ab650136dd0c626c80b99d3758a10",
+      "bytes": 615
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "5d0a04750cc43f5afdb0966d038649061d4e72ed621f4bfd902362cd9200f758",
+      "bytes": 71009
+    }
+  ],
+  "revision": "e82659d2db172d2e9bab",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_heat_pack_v1@13288edc7eb980755a71",
+    "source_record_sha256": "2de8820dfa1c6f5e7424dbdb460364b8388b5468664aeba2db650328a596092b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "528300d409e48f5165b34f7a9eba1565bb8f527bcbcbc97e8472d569b25e743e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

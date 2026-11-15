@@ -1,0 +1,11 @@
+{
+  "schema": "mac_medical_process/v1",
+  "scene": "gas",
+  "title": "肺泡与毛细血管气体交换",
+  "duration": 10,
+  "viewport": [
+    1280,
+    720
+  ],
+  "medical_review": "pending"
+}

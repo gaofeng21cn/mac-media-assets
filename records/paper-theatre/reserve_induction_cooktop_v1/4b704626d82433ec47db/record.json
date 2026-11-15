@@ -1,0 +1,106 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_induction_cooktop_v1",
+  "title": "独立电磁炉",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone compact induction cooktop for a Chinese home kitchen preparation scene. Subject: single low rectangular black induction cooker with one simple circular burner mark and a small blank control strip, viewed from a gentle top-down three-quarter angle; no pan, no pot, no hand. Style/medium: refined tactile cut-paper collage with subtle paper grain, restrained charcoal and muted sage accents, crisp silhouette. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: no readable text, no numbers, no logo, no cord, no food, no flame, no smoke, no counter background, no cast shadow, no glow, no watermark.",
+    "generation_receipt": "evidence/generation.json"
+  },
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "heat"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "电磁炉",
+      "炉台",
+      "加热"
+    ],
+    "objects": [
+      "电磁炉"
+    ],
+    "actions": [
+      "承托锅具",
+      "加热"
+    ],
+    "story_roles": [
+      "烹饪过程",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "独立静态设备层；不含火焰、烟雾或数值显示。",
+    "original_image_size": [
+      1448,
+      1086
+    ],
+    "visible_bounds": [
+      185,
+      214,
+      1266,
+      913
+    ]
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    185,
+    214,
+    1266,
+    913
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "burner": {
+        "x": 0.54,
+        "y": 0.42
+      },
+      "support": {
+        "x": 0.47,
+        "y": 0.83
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "与炒锅独立叠放；不凭设备图形宣称已经发生加热。",
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_contact_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3",
+      "bytes": 1166200
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "c3a089ee94357c5a03e9c93a2fa483c503a9eeec3bd0941d5d729a029636d7e9",
+      "bytes": 1214
+    }
+  ],
+  "revision": "4b704626d82433ec47db"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "retinal_fundus",
+  "title": "眼底视盘与血管·独立观察示意",
+  "topic": "myopia",
+  "usage": "眼底检查观察对象的定性示意，不是患者照片或正常判定标准。",
+  "transparent_background": true,
+  "prompt": "Scientific educational illustration. ONE isolated circular RETINAL FUNDUS specimen, a slightly irregular warm dusty-orange retinal disk with one small pale cream optic disc on the left nasal side, a darker subtle macular region to the right, and finely branching red arterioles and veins emerging from the optic disc and arching naturally across the disk. No hemorrhage or pathology. This is a qualitative educational view of the fundus, not a real patient photograph. Refined hand-painted gouache and colored-pencil fibrous cut-paper collage, delicate paper texture and tactile layers, muted terracotta/ivory palette. Entire coherent fundus disk centered on genuine RGBA transparency with generous margins. No eyeball, lens ring, ruler, labels, text, arrows, frame, background, halo or ground shadow."
+}

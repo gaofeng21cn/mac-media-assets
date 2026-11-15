@@ -1,0 +1,7 @@
+{
+  "id": "window",
+  "path": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-31b989ff-6022-4bf0-b0b3-cbd8e651239c.png",
+  "prompt": "Use case: illustration-story. One reusable raster animation part for a medical education HAND-DRAWN PAPER COLLAGE theatre. Real fibrous dyed paper, hand-cut slightly irregular edges, layered gouache, subtle pencil marks, CRISP silhouette, flat even lighting. No lighting gradients or haze. Sophisticated tactile editorial collage, not vector icon, 3D plastic, flat cartoon, photograph or infographic. Complete single object centered, 12 percent transparent margin. Truly transparent RGBA outside silhouette; no drawn checkerboard, background card, ground, glow, cast shadow, floating decoration, logo, text, numbers or watermark. Objects must be separate and move independently. One simple two-pane wooden window frame, front view; window openings fully transparent, no glass reflection, wall or scenery.",
+  "output_hint": "Generated images are saved to /Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856 as /Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-31b989ff-6022-4bf0-b0b3-cbd8e651239c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "tool": "built_in_imagegen"
+}

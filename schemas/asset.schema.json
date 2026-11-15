@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "medical-video-asset/v1",
+  "type": "object",
+  "required": ["id", "kind", "title", "payload", "provenance", "review_boundary", "reuse_scope"],
+  "properties": {
+    "id": {"type": "string"},
+    "kind": {"enum": ["environment", "environment_plate", "transparent_subject", "medical_cutout", "image", "reference_frame", "motion_recipe", "component", "code_component", "audio", "music_score", "brand"]},
+    "title": {"type": "string"},
+    "payload": {"type": "array", "items": {"type": "object", "required": ["path", "sha256", "bytes"]}},
+    "provenance": {"type": "object", "required": ["source_type", "source_ref"]},
+    "review_boundary": {"type": "object", "required": ["admission", "motion", "medical", "listening"]},
+    "reuse_scope": {"type": "object", "required": ["kind"]},
+    "content_bounds": {"type": ["array", "null"]},
+    "usage": {"type": "array"}
+  }
+}

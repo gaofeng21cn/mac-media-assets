@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_lumbar_disc_protrusion_v1",
+  "title": "腰椎间盘突出与邻近神经根·同视角",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "low_back_pain"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    35,
+    0,
+    1217,
+    1292
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "lumbar_disc_protrusion"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "腰椎间盘突出与邻近神经根·同视角",
+      "lumbar_disc_protrusion"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "腰椎间盘突出与邻近神经根·同视角",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        35,
+        0,
+        1217,
+        1292
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "突出与原椎间盘连续，靠近邻近神经根；不暗示所有突出都有症状。"
+    }
+  ],
+  "usage_notes": "突出与原椎间盘连续，靠近邻近神经根；不暗示所有突出都有症状。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "4c34eafdc563eea733f2f1fb41956358ec9a97969e5275342a21e4ada56d7e33",
+      "bytes": 1783672
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "9c7fb0359a6e3a81e2b033f23ee7e201a5f83938f9267d27595f2c2c29738f5f",
+      "bytes": 1119
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "bb72f4570a0d1fc0d8cb59ced769bb9a70a8d05cafad70c02a591c29499f05ff",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "8b9049b15d2f449b7867763538e99606804d49b37f35918ea39872b0c487e1a4",
+      "bytes": 15231
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "018d79ac6438926173b85cbb0aa5c3789991eb6a40894dadcee54b5aede2a9ff",
+      "bytes": 779
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "7497c1402d349a67150ba4122daffe4ebbd9de68ff5539a68b83d7bf9dd5ec5f",
+      "bytes": 147453
+    }
+  ],
+  "revision": "d0054949147903136a3f",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_lumbar_disc_protrusion_v1@1e096b18ded3278e83af",
+    "source_record_sha256": "9dc2de3ca8ea39e7cd8b7791b00bc9a6ffec5091a06cc3e42275adfbc0ca640f",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a457f14a92b3b04dbf0f65eefc4b2ff8c33cc4864595f6703b096cf932ed43a2",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1218,
+        "height": 1292,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

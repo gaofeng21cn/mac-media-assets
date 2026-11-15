@@ -1,0 +1,75 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_liver_v1",
+  "title": "肝脏总览",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "liver"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "总览/与独立胆囊位置校对；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "liver",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    58,
+    1430,
+    1058
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "f78590c5749c53946d3ffbd78cf64d6e3054934905efc199e48a24ec4e83d0c3",
+      "bytes": 1098288
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "ce8cec307483ea46757704d4a465758a42074ddbbb99f028bfd3d5f71630ff97",
+      "bytes": 1506
+    }
+  ],
+  "revision": "752ec96eedcad57e9245",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_liver_v1@f2c83bbca2a24b3e5dfa",
+    "source_record_sha256": "65f5c43020bfa2f1f946ad2515268ffb26d3215b2b85b9e2039ec91718e93154",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "3c1b387468f97c411bd765c1fcd4a3c86fa64549ddae24da50fac9122e55ebdb",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1454,
+        "height": 1082,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_knee_joint_osteoarthritis_v1",
+  "title": "膝关节软骨变薄·同视角状态",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "osteoarthritis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1056,
+    1437
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "knee_joint_osteoarthritis"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "膝关节软骨变薄·同视角状态",
+      "knee_joint_osteoarthritis"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "膝关节软骨变薄·同视角状态",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1056,
+        1437
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "定性结构比较，单侧间隙变窄、软骨表面不规则和边缘骨赘；不能从图推断个人疼痛或治疗。"
+    }
+  ],
+  "usage_notes": "定性结构比较，单侧间隙变窄、软骨表面不规则和边缘骨赘；不能从图推断个人疼痛或治疗。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8f15905776c8c2da5947c124dea8f0b7c32b716861e125a8244c4084a941c906",
+      "bytes": 1210262
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "995c605ff2eb029ed5087b2410333fba821e608c965d48675012618c641aff75",
+      "bytes": 1094
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "d29ab1570e53dc17e0922cd43e7d340bdc8531dd08cbd9562cc80b06dc69aa75",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "a31110f6e9918d2399bc16a0c4734359231d61387e25a1cf81193949c9850721",
+      "bytes": 24132
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "c33f1d89fc118b98119f69884f4b22539182e5577429b43fe9bb55fb45014c80",
+      "bytes": 803
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "0ef8e3e0da34d4b98653d211541e5a7e33b6c261e7563e9d6b65ca82abe402a9",
+      "bytes": 88862
+    }
+  ],
+  "revision": "88cccd3c1fb7bc32444a",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_knee_joint_osteoarthritis_v1@7ebb48133a6a226361f0",
+    "source_record_sha256": "04f04fa151be7b8c4d0e5e55b29cc1639646b16ddf23d8c5e23fc4ce66e8047f",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "f5cb9a09085f7377de5d8feeee88a8f2b322cc0e0a39b4b479528d1a74565249",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1094,
+        "height": 1437,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

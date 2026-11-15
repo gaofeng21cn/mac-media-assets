@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_chair_sit_v1",
+  "title": "拟音：落座（椅面承重）",
+  "kind": "audio",
+  "tags": [
+    "audio",
+    "sfx",
+    "action_accent",
+    "procedural_original",
+    "20261024"
+  ],
+  "discovery": {
+    "category": "sfx",
+    "display_title": "拟音：落座（椅面承重）",
+    "aliases": [
+      "落座",
+      "坐下",
+      "椅子",
+      "chair",
+      "sit"
+    ],
+    "objects": [
+      "拟音：落座（椅面承重）",
+      "落座",
+      "坐下",
+      "椅子",
+      "chair",
+      "sit"
+    ],
+    "story_roles": [
+      "坐定",
+      "坐站过渡落定",
+      "起身落座"
+    ],
+    "actions": [
+      "坐定",
+      "坐站过渡落定",
+      "起身落座"
+    ],
+    "medium": "audio",
+    "material": null,
+    "renderers": [],
+    "style": [],
+    "topics": [],
+    "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+    "view": "按当前镜头选择",
+    "compatibility": {
+      "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+      "params": "可调整；content bounds 与接触点不固定画面构图"
+    }
+  },
+  "entry": "audio/chair_sit-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "程序合成，不是实地录音；用于动作接触点对齐，音量需按当前混音审听。",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition",
+    "generator": "tools/build_action_sfx.py"
+  },
+  "content_bounds": null,
+  "content_bounds_format": null,
+  "medical_review": "not_applicable",
+  "review": {
+    "listening": "pending",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/chair_sit-1.wav",
+      "role": "payload",
+      "sha256": "81638180f62c93a46370c839ab6448e95f6a988843890060aa03fd8008f2a98a",
+      "bytes": 72044,
+      "seed": 9404,
+      "duration_seconds": 0.75
+    },
+    {
+      "path": "audio/chair_sit-2.wav",
+      "role": "payload",
+      "sha256": "d939973de274cfe1e1935ebd815961af1d67827da4034454c79db4ed68ea6c6e",
+      "bytes": 72044,
+      "seed": 9405,
+      "duration_seconds": 0.75
+    },
+    {
+      "path": "audio/chair_sit-3.wav",
+      "role": "payload",
+      "sha256": "edd36b9980ccde6fc7c4ad85035947296e82bcfe3323364f3c27bec301dcc5a8",
+      "bytes": 72044,
+      "seed": 9406,
+      "duration_seconds": 0.75
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "6c034ecaa5cd456fa7691c61c07e697549a5123a279cef3b28357215aa6165fe",
+      "bytes": 359
+    }
+  ],
+  "revision": "d68aa8911b4cfe4bdb5b"
+}

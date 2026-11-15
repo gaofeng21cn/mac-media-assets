@@ -1,0 +1,173 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac-paper-action-library-1-0",
+  "title": "纸剧场动作库：撕开、揭起、翻页、剪开、拉出、缠绕、夹合、落纸、展开与笔迹",
+  "kind": "code_component",
+  "entry": "examples/action_gallery/index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "tags": [
+    "paper_collage",
+    "canvas2d",
+    "tear",
+    "fold",
+    "page_turn",
+    "cut",
+    "unroll",
+    "wrap",
+    "clip",
+    "drop",
+    "unfold",
+    "pen_stroke",
+    "camera_push",
+    "camera_pan",
+    "camera_tilt"
+  ],
+  "usage_notes": "二十余种纸片动作与相机的纯函数解算器，全部可随机 seek；配套可观看样例。提供下限而非固定镜头，按当前导演稿组合，不套用样例构图。",
+  "origin": {
+    "kind": "original_code",
+    "repo": "gaofeng21cn/med-autocast"
+  },
+  "review": {
+    "technical": "passed",
+    "sampled_visual": "reviewed_as_material_study",
+    "full_motion": "passed",
+    "full_listening": "not_applicable",
+    "medical": "not_applicable"
+  },
+  "discovery": {
+    "category": "motion",
+    "display_title": "纸剧场动作库（20+ 纸片动作与相机）",
+    "aliases": [
+      "撕开",
+      "揭起",
+      "翻页",
+      "折叠",
+      "剪开",
+      "拉出",
+      "缠绕",
+      "夹合",
+      "落纸",
+      "展开",
+      "笔迹",
+      "动作",
+      "运镜",
+      "推镜",
+      "横移",
+      "倾斜"
+    ],
+    "objects": [
+      "纸片",
+      "动作",
+      "相机"
+    ],
+    "story_roles": [
+      "连续动作",
+      "镜头承接",
+      "因果动作"
+    ],
+    "actions": [
+      "撕开",
+      "揭起",
+      "翻页",
+      "折叠",
+      "剪开",
+      "拉出",
+      "展开",
+      "缠绕",
+      "夹合",
+      "落纸",
+      "笔迹绘制",
+      "推镜",
+      "横移",
+      "倾斜漂移"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "style": [
+      "paper_collage"
+    ],
+    "compatibility": {
+      "params": "动作参数由单集导演稿决定；纯函数解算器支持随机 seek"
+    },
+    "usage_notes": "提供动作下限，不固定构图、故事或镜头数。"
+  },
+  "files": [
+    {
+      "path": "src/kit/motion.ts",
+      "role": "source",
+      "sha256": "c57aae92a72e809973981a7a7506a8812f1877f414f611aa400cc40cd29b30f6",
+      "bytes": 11713
+    },
+    {
+      "path": "src/kit/actions.ts",
+      "role": "source",
+      "sha256": "0f0ca93066043a09c7b174cc795a1bbb1449d1e9210273b5541e360956cca47b",
+      "bytes": 15453
+    },
+    {
+      "path": "src/kit/paths.ts",
+      "role": "source",
+      "sha256": "8f6e4259d5fd13917b23f14746a0bfddd9716ecf7201876c87683fd362206f92",
+      "bytes": 2577
+    },
+    {
+      "path": "src/kit/tracks.ts",
+      "role": "source",
+      "sha256": "fe9374f59fe5309528cc37345aea9cc3fb4de84f88246ff92f528178677b52dd",
+      "bytes": 1871
+    },
+    {
+      "path": "src/kit/materials.ts",
+      "role": "source",
+      "sha256": "a19629c8f051e822bf1ff0335b242e27a688a7e7e7bc8d2caa633439913c6382",
+      "bytes": 3554
+    },
+    {
+      "path": "src/kit/stage.ts",
+      "role": "source",
+      "sha256": "c2b582729e1c9c122f73ad23a26cea9cc2bc90fd819e6e046ada0b15e6031615",
+      "bytes": 8806
+    },
+    {
+      "path": "src/kit/types.ts",
+      "role": "source",
+      "sha256": "24002978f8f313d3e6ed4ce09b5c1ef79f44aabd3a1e0a60f69d9d18eca2db72",
+      "bytes": 1938
+    },
+    {
+      "path": "tests/actions.test.ts",
+      "role": "source",
+      "sha256": "1b1274cfd4af078795fdd071d964a1388da8ff80e5004f1dccbdda4ac59cf7a1",
+      "bytes": 3950
+    },
+    {
+      "path": "examples/action_gallery/score.json",
+      "role": "payload",
+      "sha256": "2dd01716ab177c251aca8047791a93dbbd68167de6fad01e9bb82ec457054103",
+      "bytes": 1288
+    },
+    {
+      "path": "examples/action_gallery/main.ts",
+      "role": "payload",
+      "sha256": "d8197922727629fb5f1732d0b4b783c356e1eb38e93a02df869a05af30f11191",
+      "bytes": 7250
+    },
+    {
+      "path": "examples/action_gallery/index.html",
+      "role": "payload",
+      "sha256": "6f61208f9cd54771784e19ac050ea7abe257c02b775adef4aebc4483c9209415",
+      "bytes": 842
+    },
+    {
+      "path": "examples/action_gallery/dist/film.js",
+      "role": "payload",
+      "sha256": "ee777b5dd9d8216aef69c8171828b26bd3319be0bddf730e99fa98d1f134ff66",
+      "bytes": 39075
+    }
+  ],
+  "revision": "748566b958cd9fca2844"
+}

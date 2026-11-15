@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_breath_sample_bag_v1",
+  "title": "呼气检测采样袋·整件器材纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    33,
+    0,
+    1512,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "breath_sample_bag"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "呼气检测采样袋·整件器材纸件",
+      "breath_sample_bag"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "呼气检测采样袋·整件器材纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        33,
+        0,
+        1512,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "呼气采样器材身份；整件没有独立阀门层，流程按检测机构要求。"
+    }
+  ],
+  "usage_notes": "呼气采样器材身份；整件没有独立阀门层，流程按检测机构要求。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "2b1dacd60f0387aa266fca1e97d7fb6c5c152c60a7294595696f7adea81ab775",
+      "bytes": 1528548
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "0281a16c3f0534f8f993fe32c4c63412ffecae6fda4ad0556c80e98441332f15",
+      "bytes": 1026
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "fceb2c01637815296e3f1320cbfff4fd378dd0f52eead45abf04598141b43bfe",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "9c7d88f7d9f4f43668710fd5707e3204b23a7e2867d94f6b2adfa8ab95a7e651",
+      "bytes": 607
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "d5a2c1ca94173c5731c6517770b360a80b324f3b7224b1752a3b39d703e8ec8d",
+      "bytes": 67232
+    }
+  ],
+  "revision": "50f253a2669a46df9ac2",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_breath_sample_bag_v1@14c454738925e4f6306b",
+    "source_record_sha256": "0b735f355e48a9348bf1e0906cc7c7fc682d058a00feb7a7f62a7ce21840027a",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "cc6163ebf4b990a7fe2ae5778c874594ad138aef442e4491d551a2fc52e83208",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

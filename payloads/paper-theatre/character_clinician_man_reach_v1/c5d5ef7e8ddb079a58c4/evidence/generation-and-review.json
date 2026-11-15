@@ -1,0 +1,57 @@
+{
+  "id": "character_clinician_man_reach_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_clinician_man_stand_v1/e3d6196ad0b8ca4dd44e/files/payload.png",
+  "prompt": "Use case: illustration-story. Asset type: complete reusable paper-theatre doctor handoff pose. Input 1 is identity and paper-style reference. Create exactly SAME Chinese male doctor, same face, black hairstyle, white plain lab coat, blue shirt, charcoal trousers, brown shoes. NEW POSE grounded standing three-quarter to screen right; arm on image right extended forward at waist height with fingers gently curved ready to hold the near edge of an A4 document; other hand open nearer chest. No document drawn: it is a separate animation layer. Both hands visible, anatomically natural, full body hair through shoes, generous margin, textured opaque cut paper. Single isolated person on genuine transparent alpha. No props, floor marks, cast shadow, glow, checkerboard, text or background.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-16344520-dfff-44f2-bc34-c27c2c712f4a.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "3acc476188393db9f5492eec69cd578b20fdf68f73e8d95f7f0708b69a3bd137",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      33,
+      18,
+      1006,
+      1507
+    ],
+    "opaque_ratio": 0.244,
+    "translucent_ratio": 0.0087,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      263,
+      21,
+      885,
+      1505
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.977
+      },
+      "hand_left": {
+        "x": 0.5,
+        "y": 0.355
+      },
+      "hand_right": {
+        "x": 0.81,
+        "y": 0.35
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

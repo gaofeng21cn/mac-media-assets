@@ -1,0 +1,57 @@
+{
+  "id": "character_pregnant_woman_walk_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_pregnant_woman_stand_v1/5d532fdeb77505763bc5/files/payload.png",
+  "prompt": "Use case: illustration-story. One complete reusable paper-theatre pose. Reference is exact identity and style master. Keep same Chinese pregnant woman, dark hair in bun, mustard cardigan, off-white maternity shirt over clearly coherent pregnant belly, teal trousers, cream flat shoes, same pregnancy stage and natural balance; preserve face, age, hairstyle, body proportions, garments and shoes. Change only pose to walking gently toward screen right with comfortable short stride, arms counter-swing, both hands visible, one shoe grounded on baseline; natural balance appropriate to age and pregnancy where applicable. Natural connected complete anatomy, same tactile paper-cut illustration, opaque interior and clean edges. Entire hair/head, visible hands, legs and shoes in frame with generous margin. Single isolated figure, GENUINE transparent background. No chair, environment, floor mark, cast shadow, glow/aura, gradient/vignette, checkerboard, text/logo or props. Do not infantilize older adults or shrink adult anatomy into a child.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-c628f878-ef6f-4103-8881-3c9501eab7b7.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "1fcfca8e29ebb1be86027ca44ed086de2928ecd7241ae7ca251e58cca5642c7c",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      23,
+      1023,
+      1488
+    ],
+    "opaque_ratio": 0.2246,
+    "translucent_ratio": 0.0115,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      194,
+      34,
+      903,
+      1441
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.94
+      },
+      "hand_left": {
+        "x": 0.28,
+        "y": 0.51
+      },
+      "hand_right": {
+        "x": 0.84,
+        "y": 0.445
+      }
+    },
+    "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环"
+  }
+}

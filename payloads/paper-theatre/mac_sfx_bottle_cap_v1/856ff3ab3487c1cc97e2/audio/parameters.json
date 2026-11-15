@@ -1,0 +1,15 @@
+{
+  "id": "bottle_cap",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 0.8,
+  "seeds": [
+    9115,
+    9116,
+    9117
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_glucose_chew_tube_v1",
+  "title": "葡萄糖咀嚼片随身包装·独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    20,
+    1198,
+    1312
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "glucose_chew_tube"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "葡萄糖咀嚼片随身包装·独立纸件",
+      "glucose_chew_tube"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "葡萄糖咀嚼片随身包装·独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        20,
+        1198,
+        1312
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "低血糖应急包中的快速碳水补给道具；不规定统一数量或剂量，不用于意识不清或不能吞咽者的喂食示范。"
+    }
+  ],
+  "usage_notes": "低血糖应急包中的快速碳水补给道具；不规定统一数量或剂量，不用于意识不清或不能吞咽者的喂食示范。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8f390ab27500c642ae9be30e67ddcb80a15b37028042b34c56f02dd87e0cbcad",
+      "bytes": 785022
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "d30035794bbafd962a184504741dbcaaedc83985da777dd84cc79ab3b9b137ed",
+      "bytes": 1189
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "7c9d2d23b0820efccf6f7be1e4efb309151fc26de1bd5ee49d760a05cc3f2f18",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "6b0bfcbe5143d156e601e61795bb840f173fc05d7af942e52b72de7c2be77e0d",
+      "bytes": 664
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "0a3421ac966461488c50ce5fa4fa3fb9e555c5a2de127384ad78b8a8df5e7f57",
+      "bytes": 55213
+    }
+  ],
+  "revision": "1720d6e84c39db4e24b5",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_glucose_chew_tube_v1@3d15c6e1df1c110cb9a8",
+    "source_record_sha256": "8601fd49f133549ee4530a12376a01d836b7cae10e4d6df241915c3a35ec0aba",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "bac3c94d5d321af3da1c07d8c8e18ea09c683f0fe213fdfcf3c9b3a7e0ac7b27",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1199,
+        "height": 1312,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

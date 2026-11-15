@@ -1,0 +1,27 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "image": "arm",
+      "asset_id": "paper:mac_bare_arm_v1@199031b83fe2420d595b",
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66"
+    },
+    {
+      "image": "cuff_open",
+      "asset_id": "paper:mac_open_cuff_v1@ed384b40d3d5dc3de162",
+      "sha256": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f"
+    },
+    {
+      "image": "cuff_wrapped",
+      "asset_id": "paper:paper_upper_arm_monitor_parts_v1@595c101839647592b1a8",
+      "sha256": "c932df4d172fd791c3d85a5e34dad7a2c06d3a4e0e341cdc66c6e6c783a6b598"
+    },
+    {
+      "image": "monitor",
+      "asset_id": "paper:paper_upper_arm_monitor_parts_v1@595c101839647592b1a8",
+      "sha256": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b"
+    }
+  ],
+  "note": "本包没有新生成的图：手臂、展开袖带、缠好袖带与主机全部复用库内已策展的原件字节，动作由运行时按同一接触点编排。"
+}

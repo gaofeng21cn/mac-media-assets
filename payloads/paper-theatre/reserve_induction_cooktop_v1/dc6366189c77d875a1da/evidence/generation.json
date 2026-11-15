@@ -1,0 +1,18 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone compact induction cooktop for a Chinese home kitchen preparation scene. Subject: single low rectangular black induction cooker with one simple circular burner mark and a small blank control strip, viewed from a gentle top-down three-quarter angle; no pan, no pot, no hand. Style/medium: refined tactile cut-paper collage with subtle paper grain, restrained charcoal and muted sage accents, crisp silhouette. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: no readable text, no numbers, no logo, no cord, no food, no flame, no smoke, no counter background, no cast shadow, no glow, no watermark.",
+  "source_sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3",
+  "source_size": [
+    1448,
+    1086
+  ],
+  "visible_bounds_alpha_ge_25": [
+    185,
+    214,
+    1266,
+    913
+  ],
+  "review": "static_original_and_composite_checked",
+  "anchors_scope": "approximate_visible_contact_regions",
+  "full_motion": "pending"
+}

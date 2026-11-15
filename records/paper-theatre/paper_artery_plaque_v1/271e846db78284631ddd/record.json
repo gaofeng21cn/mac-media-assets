@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_artery_plaque_v1",
+  "title": "动脉管壁与粥样斑块·纵向纸切面",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "coronary_disease"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    17,
+    25,
+    2144,
+    724
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "artery_plaque"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "动脉管壁与粥样斑块·纵向纸切面",
+      "artery_plaque"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "动脉管壁与粥样斑块·纵向纸切面",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        17,
+        25,
+        2144,
+        724
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "斑块位于管壁内，管腔仍通；不是游离结石。"
+    }
+  ],
+  "usage_notes": "斑块位于管壁内，管腔仍通；不是游离结石。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "fe776fb7bb71e48bd825caa0325b06445a29f0061d91bb5b973f4f724d04f21f",
+      "bytes": 1528446
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "5dcc190c6c0d18d8dfcf0c68358f5f5d816e427ed84e14e8f24ea3b84250c319",
+      "bytes": 1152
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "92f81ce956293947ac821f45a7518dea598bc2c1e41bd8299d1c5c54d877e85c",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "763c5defdce505a9f72014b1cd08fffc5f520b62b2fd56274476aceda3bb8151",
+      "bytes": 583
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "e61b5ee39416e985c41b866549f326139f4c93059615248f74e50a3bf933f691",
+      "bytes": 47210
+    }
+  ],
+  "revision": "271e846db78284631ddd",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_artery_plaque_v1@3b3072d59df9d4809443",
+    "source_record_sha256": "4e4087c2f603bc75f9b0b7250184667c8d180f26a1a2a4ea2b55f7aaf29c7348",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "7fe041ede9a52977a3ab823c4bcae152d3fc325eee511c42c4cecd1e4c0386ea",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

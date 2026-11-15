@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_handled_mug_v1",
+  "title": "带把水杯·日常握持任务纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1248,
+    1179
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "handled_mug"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "带把水杯·日常握持任务纸件",
+      "handled_mug"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "带把水杯·日常握持任务纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1248,
+        1179
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "关节功能中端杯与把手任务的具体对象，不宣称源图已有手指握持或表示统一辅助器具。"
+    }
+  ],
+  "usage_notes": "关节功能中端杯与把手任务的具体对象，不宣称源图已有手指握持或表示统一辅助器具。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "446b4d092a466080e2748316e1426726ed41a4f62fe6d974b70bd74deebc13ce",
+      "bytes": 1413468
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "b982b6846943307d06df24d6d8bc35db929e8d27d6e14b9611c48172adff0f95",
+      "bytes": 931
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "9fc93be711f832cdb708689c3396277464ba041cce05d733282c4ee927ecbbfa",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "d09e4c4a2c2fc52f428a138280e04870a58c86ef6462033b0ce25f42ad831fd3",
+      "bytes": 634
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "f78312e9192684bc27d2c6499d32aac9a439c06113af769c6a3e6fd6b8177ffd",
+      "bytes": 91453
+    }
+  ],
+  "revision": "c6fa2c5a2052657d1a8b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_handled_mug_v1@58a9bfe5834154a7bf3f",
+    "source_record_sha256": "d4aa601ee69a961f33086a335c9cdcde1d7e252353ee132930c56d64cc30d440",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "7fbfe8fd8b8ee1618c852f9ce1918269d7a6242eeecedff7f93e9e275e968681",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1312,
+        "height": 1199,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

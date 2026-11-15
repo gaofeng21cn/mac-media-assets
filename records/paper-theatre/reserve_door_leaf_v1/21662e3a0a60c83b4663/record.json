@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_door_leaf_v1",
+  "title": "独立门扇",
+  "kind": "environment",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "environment",
+    "door_leaf"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "铰接开合；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "door_leaf",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    21,
+    1230,
+    1228
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "87fe2d716fc5e76662c370de248ce5111f5677097a1a1db70511141c3b98eae2",
+      "bytes": 1297144
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "08253674c8ffd94ed425441d9a2dc1d980f36bb23706a15072c2aab2e26c2e34",
+      "bytes": 1274
+    }
+  ],
+  "revision": "21662e3a0a60c83b4663"
+}

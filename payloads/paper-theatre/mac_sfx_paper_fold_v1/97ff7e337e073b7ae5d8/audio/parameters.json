@@ -1,0 +1,15 @@
+{
+  "id": "paper_fold",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 0.65,
+  "seeds": [
+    9103,
+    9104,
+    9105
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

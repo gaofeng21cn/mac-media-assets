@@ -1,0 +1,463 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_lungs_structure_reveal_v1",
+  "title": "肺与气管·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "肺与气管",
+      "逐层揭示",
+      "局部高亮",
+      "lungs"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "肺与气管·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "肺与气管支气管正面示意，解剖右肺在画面左，三叶由两条裂隙提示；解剖左肺在画面右。不表达支气管肺段、肺功能或病变。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "6807ef21c7d11b7f876e3896a24a17b29ab60ded11f2641c959bcb28a4830410",
+      "bytes": 689
+    },
+    {
+      "path": "assets/left_lung_anatomical.png",
+      "role": "payload",
+      "sha256": "71de8ec1069ad8b57ecc1fccc2432093bfd63cb5cb7742a2ec286b6de30e8d18",
+      "bytes": 23509
+    },
+    {
+      "path": "assets/right_lung_anatomical.png",
+      "role": "payload",
+      "sha256": "9f5e10181dab44e96b9a2a5d5fd76b9eabe5d058d0bed5f6a960548f31525d87",
+      "bytes": 25117
+    },
+    {
+      "path": "assets/trachea_bronchi.png",
+      "role": "payload",
+      "sha256": "cfe3d16f6a8559309329daf4d4a1b74ea2cdd14b447c5f063255eb2fa22eb9cc",
+      "bytes": 14377
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "1bba1774bb6790c668528b5646d37a8c06eaddd32a63ac37cd9acdcbbc5258fb",
+      "bytes": 666
+    },
+    {
+      "path": "original/files/left_lung_anatomical.png",
+      "role": "payload",
+      "sha256": "71de8ec1069ad8b57ecc1fccc2432093bfd63cb5cb7742a2ec286b6de30e8d18",
+      "bytes": 23509
+    },
+    {
+      "path": "original/files/right_lung_anatomical.png",
+      "role": "payload",
+      "sha256": "9f5e10181dab44e96b9a2a5d5fd76b9eabe5d058d0bed5f6a960548f31525d87",
+      "bytes": 25117
+    },
+    {
+      "path": "original/files/trachea_bronchi.png",
+      "role": "payload",
+      "sha256": "cfe3d16f6a8559309329daf4d4a1b74ea2cdd14b447c5f063255eb2fa22eb9cc",
+      "bytes": 14377
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "82279a56b1d445ae2efea9958e69406fd4125b6a870e1246ca67762308130d4e",
+      "bytes": 6019
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "af006237a384cc960cd2140bc92f8bede3e86b7fd9de497cb59172de5bc8954c",
+      "bytes": 50365
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/left_lung_anatomical.svg",
+      "role": "payload",
+      "sha256": "e958282b6fcf6ef9b9f57b6ce8ab65f5d8449f033d3d028b82d53369be8ed3bd",
+      "bytes": 401
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "5c949af279838e72560d3357f1c34d572e3feb2f41e3012e63719ae3a66f332c",
+      "bytes": 1246
+    },
+    {
+      "path": "original/source/right_lung_anatomical.svg",
+      "role": "payload",
+      "sha256": "9b1971247854ce3b00cd9a957266f88e7f0c2c1fe99a722e026bf8b7dc81fb82",
+      "bytes": 427
+    },
+    {
+      "path": "original/source/trachea_bronchi.svg",
+      "role": "payload",
+      "sha256": "a617704de1ffce6318dec95aa7aed4343483d49c696397bba79711230789d8b8",
+      "bytes": 612
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "d59ac9110e0f62dbfe42bdac64cb0a34f6337db5a7c79548772d431bf1ad9eb9",
+      "bytes": 368
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "1cd0560fbe3459b44349db7c8cd64be152682841f3c4e28d12b5b9c440fea0c6",
+      "bytes": 6643
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "bacf917520c105ca041ceed3a64f747aa92d8115f093aaa32775cd33ab676ad1",
+      "bytes": 58740
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "f0254cb99ae5a19651e0ff31b2081f03a3bc074b7d3fc83c3582ef9dea3600fd",
+      "bytes": 57215
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "58725bea04103c202db64ccf2e5f2c51593521c8e1b5d2c7c3ce6c6f54a15751",
+      "bytes": 59152
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "ccec6a5c1d6e99827d27f8f1b3a1da90c09e4ad9bddf087e328a76cb601ac487",
+      "bytes": 37559
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "e69d6c433d3eab3b5505dadf5052c8ce1d0a6ecb0daa159ac653c34bd03ea1b8",
+      "bytes": 71100
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "76618c88f2e9f2330cf66eb267a4f38759eac5dc209236d091bf955f5c166169",
+      "bytes": 68727
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "eca5d4d1ede964ddfc241579579fa39d6f00839664202569d76a456b5b6be924",
+      "bytes": 71576
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "e8ffe4a9907b6257776c5812219797726db75911265f061db7d710a215776bf0",
+      "bytes": 15783
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "712980c7fc0339bbf8b02f21bf9618d90111fb397cecc4d4e62c089cbc87c0a2",
+      "bytes": 138163
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "6aafa3333d562a95a16af6c9ac81d0ee7892802c62fb98b57e13d132ef348556",
+      "bytes": 172311
+    },
+    {
+      "path": "samples/focus-phone/0-trachea_bronchi-color.png",
+      "role": "payload",
+      "sha256": "7c39b2ca0f6afb1f7ce2150267329033a9eebb06c3ac16e0d6e1c0444ab03480",
+      "bytes": 16125
+    },
+    {
+      "path": "samples/focus-phone/0-trachea_bronchi-dark.png",
+      "role": "payload",
+      "sha256": "f34abb87caeeffe6de1f1d87268ab2675ab139c9fe5c5e0112fe91d8ee131ac6",
+      "bytes": 15992
+    },
+    {
+      "path": "samples/focus-phone/0-trachea_bronchi-light.png",
+      "role": "payload",
+      "sha256": "8fb05f1440f5f0c8e64ec26588a8f63dd9d7aabf50f6a3292dab154c3a78ac55",
+      "bytes": 15612
+    },
+    {
+      "path": "samples/focus-phone/0-trachea_bronchi.png",
+      "role": "payload",
+      "sha256": "8fb05f1440f5f0c8e64ec26588a8f63dd9d7aabf50f6a3292dab154c3a78ac55",
+      "bytes": 15612
+    },
+    {
+      "path": "samples/focus-phone/1-right_lung_anatomical-color.png",
+      "role": "payload",
+      "sha256": "5fae47788e6d721d6f2e3e5c0d6a5532d0e5f4f4be5ab7afa14cf1a5590a590d",
+      "bytes": 17118
+    },
+    {
+      "path": "samples/focus-phone/1-right_lung_anatomical-dark.png",
+      "role": "payload",
+      "sha256": "191103d279a8c98614a2a2193e279e8f59fa7624621b1a244c5ee461bb0ddb75",
+      "bytes": 17019
+    },
+    {
+      "path": "samples/focus-phone/1-right_lung_anatomical-light.png",
+      "role": "payload",
+      "sha256": "79363dc502d04fbb035ddbd32533b9a9c929bdb477768d1a61f71c8e9dc4ee35",
+      "bytes": 16680
+    },
+    {
+      "path": "samples/focus-phone/1-right_lung_anatomical.png",
+      "role": "payload",
+      "sha256": "79363dc502d04fbb035ddbd32533b9a9c929bdb477768d1a61f71c8e9dc4ee35",
+      "bytes": 16680
+    },
+    {
+      "path": "samples/focus-phone/2-left_lung_anatomical-color.png",
+      "role": "payload",
+      "sha256": "3e98eede906986769592a34d0fdfc319222f6d475423f19dd74da6db4fa215f2",
+      "bytes": 17001
+    },
+    {
+      "path": "samples/focus-phone/2-left_lung_anatomical-dark.png",
+      "role": "payload",
+      "sha256": "6179d4c105acc7627e52bafef82b0ec328cb5e0ff1d21a794418f5a0288adbd2",
+      "bytes": 16992
+    },
+    {
+      "path": "samples/focus-phone/2-left_lung_anatomical-light.png",
+      "role": "payload",
+      "sha256": "1b94202e93161ef972abe7a32b7ac26b1c11c65e5e80ef4e4bd23bae5cc31658",
+      "bytes": 16601
+    },
+    {
+      "path": "samples/focus-phone/2-left_lung_anatomical.png",
+      "role": "payload",
+      "sha256": "1b94202e93161ef972abe7a32b7ac26b1c11c65e5e80ef4e4bd23bae5cc31658",
+      "bytes": 16601
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "eca5d4d1ede964ddfc241579579fa39d6f00839664202569d76a456b5b6be924",
+      "bytes": 71576
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "eca5d4d1ede964ddfc241579579fa39d6f00839664202569d76a456b5b6be924",
+      "bytes": 71576
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "4d61c288249337fba2c4af328fe7282fb70c5f52dc02d36e56764c3a6634376a",
+      "bytes": 39387
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "01d1cdf1e7a91397d753050baa44951eb667f409fc2e04a0bb34cca6a8a83a0a",
+      "bytes": 46490
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "01d1cdf1e7a91397d753050baa44951eb667f409fc2e04a0bb34cca6a8a83a0a",
+      "bytes": 46490
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "b4470cda1779569a8bd576c9122d62d4c8b0e39037a92e3c60229eb28509089d",
+      "bytes": 59368
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "b4470cda1779569a8bd576c9122d62d4c8b0e39037a92e3c60229eb28509089d",
+      "bytes": 59368
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "51bd498d5f24a07f8a46435ec8e47c20edd68b427e0f32b58d9122f2a98edaac",
+      "bytes": 71062
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "51bd498d5f24a07f8a46435ec8e47c20edd68b427e0f32b58d9122f2a98edaac",
+      "bytes": 71062
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "57eae6d7979802105c169f412972170a1edb89fbd22136f9c24a114c81487dea",
+      "bytes": 70663
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "57eae6d7979802105c169f412972170a1edb89fbd22136f9c24a114c81487dea",
+      "bytes": 70663
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "57eae6d7979802105c169f412972170a1edb89fbd22136f9c24a114c81487dea",
+      "bytes": 70663
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "995263f3b5edd16be0ab739bb137e9ab8aa3957717c4e8f49605194b0cfe1ce4",
+      "bytes": 75644
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "995263f3b5edd16be0ab739bb137e9ab8aa3957717c4e8f49605194b0cfe1ce4",
+      "bytes": 75644
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "51adf06a4839e7b54aadfb33d3fa2885063e36ad2668731d1c20a31e7098d03a",
+      "bytes": 73458
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "0ada3468eb86db005fd2ce2c891e38c43c760d7ee613288c2685d6656b859b9a",
+      "bytes": 74828
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "0ada3468eb86db005fd2ce2c891e38c43c760d7ee613288c2685d6656b859b9a",
+      "bytes": 74828
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "67f9ef98591b55014da7dad70835e3a923d57436a717aae568b710fb49ff071b",
+      "bytes": 67157
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "eca5d4d1ede964ddfc241579579fa39d6f00839664202569d76a456b5b6be924",
+      "bytes": 71576
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "a52d96140e3bedbac4d886daced249fc6456e38f7c0fde12d1bee793272ee26b",
+      "bytes": 23096
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "8af3e1db481c1ec7207d165364c3bbefbbe1ce05d63459626934f8e62bca9171",
+      "bytes": 13704
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "b101daeb359e01fc63b58cfbaeaaf7929fd756ca2de83d7dc94ad075e2b1bbc1",
+      "bytes": 183467
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "1107481468e137773a946db47a9146815cc136516718a8b8eacd56eeb75ed8d0",
+      "bytes": 13722
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "8dff853afc621abde55e1b9e172762f4f6daf37a7563dfb25b5b134c808c3d65",
+      "bytes": 5374
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "dce590c5e7cd40f29332"
+}

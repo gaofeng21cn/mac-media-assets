@@ -1,0 +1,57 @@
+{
+  "id": "character_older_man_sit_transition_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_man_walk_v1/b82355ff8645f0304efb/files/payload.png",
+  "prompt": "Use case: identity-preserve. Asset type: complete reusable paper theatre pose. Input 1 exact identity and clothing reference. Create same elderly Chinese man in olive shirt and charcoal trousers, mid transition from standing to sitting: feet flat shoulder-width, knees comfortably bent, hips moving backward at above-knee level, torso leaning slightly forward, both hands resting naturally on the fronts of thighs for balance. Not deep squat and not fully seated; no chair. Preserve reference face, age, hairstyle, body proportions, clothes and footwear, tactile paper illustration. Complete connected natural anatomy, entire hair, all visible hands and both shoes in frame with margin all sides. Single isolated full person on genuine transparent alpha, opaque paper interior, crisp edge. No environment, furniture, floor, cast shadow, glow, aura, vignette, checkerboard, typography or watermark. One pose only.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-7b0a38ab-bbf9-4245-aa19-2d2685682efc.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "485a22e8b4ff6d300fc0b96c23d6673aa5808436e333dc6c628f25ca4ad9eee7",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      38,
+      1000,
+      1498
+    ],
+    "opaque_ratio": 0.2982,
+    "translucent_ratio": 0.0093,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      242,
+      44,
+      832,
+      1459
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.5,
+        "y": 0.11
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.43,
+        "y": 0.55
+      },
+      "hand_right": {
+        "x": 0.71,
+        "y": 0.56
+      }
+    },
+    "note": "站坐转换的单个中间姿态，不是可循环步态或已完成坐姿"
+  }
+}

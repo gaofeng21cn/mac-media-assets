@@ -1,0 +1,12 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "image": "patient",
+      "asset_id": "paper:abpm_patient_20261023@da1da29c83fad06b55a3",
+      "sha256": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26"
+    }
+  ],
+  "note": "复用精确公开原件；运行源码为原创，样片无作者/品牌。"
+}

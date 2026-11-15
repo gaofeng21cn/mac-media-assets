@@ -1,0 +1,12 @@
+{
+  "schema": "mac_abpm_contact_geometry/v1",
+  "status": "passed",
+  "frames": 288,
+  "checks": [
+    "all source rects inside sheet",
+    "all floor registration points are frame-local",
+    "one common source-pixel scale",
+    "cuff/recorder remain secured throughout trial and day/night states"
+  ],
+  "visual_review_required": true
+}

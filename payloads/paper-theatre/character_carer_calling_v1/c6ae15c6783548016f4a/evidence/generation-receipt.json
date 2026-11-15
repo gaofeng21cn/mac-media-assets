@@ -1,0 +1,110 @@
+{
+  "schema": "medical_video_generated_asset_source/v1",
+  "created_at": "2026-10-23T12:05:41Z",
+  "tool": "image_gen.imagegen",
+  "mode": "built_in_reference_generation",
+  "use_case": "identity-preserve",
+  "prompt": "Use case: identity-preserve\nAsset type: reusable full-body transparent character cutout for a medical explainer animation.\nInput image 1 is the identity, clothing and paper collage style reference. Generate a new complete pose of this same middle-aged Chinese woman; preserve her short dark bob hair, face identity, mustard/ochre cardigan with brown buttons, off-white blouse, teal wide-leg trousers and white lace-up shoes.\nPrimary request: the woman is calling for help by holding a black smartphone securely against one ear with one real hand. Her body and gaze turn slightly toward the LEFT side of the image, where a patient will later be placed. She looks attentive and calmly concerned, without panic. The other arm hangs naturally at her side. Her upper arm, bent forearm, wrist and hand form one anatomically continuous limb; show a credible grip with thumb and four fingers in natural relation to the phone, with no duplicated hands, extra fingers, loose floating phone, or disconnected elbow. The phone has no visible text.\nComposition/framing: one single complete woman, standing with both shoes resting at the same ground baseline. Full crown of hair, both hands and both shoes must be entirely visible, with clear transparent margin around all edges. Portrait canvas. Do not include a chair, ground plane, patient, floor shadow, room, border, labels or any extra object.\nStyle/medium: match the supplied reference's refined layered cut-paper and torn-paper collage illustration, subtle paper fiber and cloth texture, soft natural colors, physically coherent anatomy; preserve the same woman's recognizable proportions and clothing.\nBackground: genuinely transparent alpha, clean isolated silhouette without fog, colored glow, halo, gradient, or opaque backdrop.\nConstraints: only the calling pose changes from the reference; same identity and clothes, exactly two arms, two hands, two legs and two shoes. Do not crop the body and do not assemble separate geometric body pieces.",
+  "transparent_background_requested": true,
+  "original_generation": {
+    "path": "/Users/gaofeng/.codex/generated_images/01a16875-f600-7700-a3dd-948730059df8/exec-cb92d93b-7a58-4b74-9608-f935cb1e7ebd.png",
+    "sha256": "330f6950395e4aa647ac69087f6f5a153ca7e81e5a7c178e52d9dc01a0d575de"
+  },
+  "identity_reference": {
+    "path": "/Users/gaofeng/workspace/科普视频/productions/diabetes_paper_theatre/e00_low_glucose/v2/assets/library/reserve_person_stand_v1/e84a56ed2a70394297d2/files/payload.png",
+    "asset_id": "reserve_person_stand_v1",
+    "revision": "e84a56ed2a70394297d2",
+    "sha256": "33d86e60a5478f62c1b86c150a4e244da67d1cfcb9c23f280689efd333b23311",
+    "role": "仅作同身份、服装和纸纤维风格参考；完整呼救姿态由工具整体生成。"
+  },
+  "output": {
+    "path": "/Users/gaofeng/workspace/科普视频/productions/diabetes_paper_theatre/e00_low_glucose/v2/assets/generated/carer_calling.png",
+    "sha256": "330f6950395e4aa647ac69087f6f5a153ca7e81e5a7c178e52d9dc01a0d575de",
+    "width": 1024,
+    "height": 1536,
+    "channels": "RGBA",
+    "preservation": "原始生成PNG逐字节复制；未裁切、抠图、拼肢体或改写alpha。"
+  },
+  "static_review": {
+    "decision": "usable_static_calling_pose",
+    "viewed": [
+      "完整原始1024×1536生成图",
+      "/tmp/mac-carer-alpha-BPn61v/composite.png：浅米色、深蓝色、粉色三底真实alpha合成"
+    ],
+    "observations": [
+      "与参考的短深发、中年中国女性身份、芥黄开衫、白上衣、青绿长裤和白鞋保持一致；身体与目光朝画面左侧。",
+      "黑色手机真实贴近耳侧；抬起的上臂、前臂、手腕与持握手连续，未见多肢或独立漂浮手机。部分持握手指被手机自然遮挡，不把遮挡区视作逐指独立可控部件。",
+      "另一手自然垂下，手掌及可见手指连续；全头、双手与双鞋在图内。",
+      "神情专注关切，略张口通话，没有过度惊恐。",
+      "三底实际合成未见原图查看器显示的彩色雾圈或明显外围光晕；alpha存在且角点透明。"
+    ],
+    "alpha": {
+      "min": 0,
+      "max": 0.996078,
+      "nonzero_bounds": {
+        "x": 23,
+        "y": 14,
+        "w": 977,
+        "h": 1508
+      },
+      "gt_5_percent_bounds": {
+        "x": 259,
+        "y": 16,
+        "w": 466,
+        "h": 1497
+      },
+      "gt_50_percent_bounds": {
+        "x": 260,
+        "y": 17,
+        "w": 465,
+        "h": 1495
+      },
+      "gt_95_percent_bounds": {
+        "x": 261,
+        "y": 17,
+        "w": 463,
+        "h": 1493
+      },
+      "corner_rgba": "0,0,0,0",
+      "interpretation": "极低alpha的外围像素不进入主要轮廓；实际浅深彩三底合成干净。原始alpha保留。"
+    },
+    "limits": "仅批准完整静态呼叫姿态与透明边缘，不批准连续动作、独立手指绑定、当前镜头接触关系、声音或医学终审。"
+  },
+  "suggested_landmarks": {
+    "coordinate_space": "normalized_original_canvas_1024x1536",
+    "head": {
+      "x": 0.485,
+      "y": 0.098
+    },
+    "head_top": {
+      "x": 0.493,
+      "y": 0.011
+    },
+    "phone_center": {
+      "x": 0.393,
+      "y": 0.126
+    },
+    "phone_grip": {
+      "x": 0.373,
+      "y": 0.119
+    },
+    "free_hand": {
+      "x": 0.621,
+      "y": 0.507
+    },
+    "left_visible_sole": {
+      "x": 0.422,
+      "y": 0.96
+    },
+    "right_visible_sole": {
+      "x": 0.659,
+      "y": 0.984
+    },
+    "feet": {
+      "x": 0.541,
+      "y": 0.984
+    },
+    "interpretation": "可见定位点供整体PNG排布；feet以较低前鞋底为共同地面基准。不是可拆肢体或握物操纵骨架。"
+  },
+  "library_handoff": "仅项目内新增完整素材；外库策展、注册、query/use和锚点复核由主任务指定curator接管。"
+}

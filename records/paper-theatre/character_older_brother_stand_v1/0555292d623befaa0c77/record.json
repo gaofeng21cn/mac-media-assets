@@ -1,0 +1,168 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_older_brother_stand_v1",
+  "title": "中老年男性家属完整站姿（眼镜、蓝衬衫）",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "complete_figure",
+    "composition_repair_20261023",
+    "adult_man",
+    "stand_family"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "original_asset_id": "character_older_brother_stand_v1",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "identity_reference": "evidence/identity-reference.png",
+    "identity_reference_sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+    "identity_relationship": "different_character_style_reference",
+    "master_id": "character_older_brother_stand_v1",
+    "source_project": "/Users/gaofeng/workspace/科普视频/productions/lipids_paper_theatre/08_a_family_clue/v1",
+    "source_path": "assets/imported/character_older_brother_stand_v1.png",
+    "prompt": "Use case: illustration-story. Asset type: one transparent full-body character cutout for an existing Chinese patient-education paper theatre. Input image is a STYLE REFERENCE and the younger-brother character, not an edit target. Create a DIFFERENT Chinese adult male, the older brother around age 58-62, in exactly the same warm realistic watercolor-on-textured-paper cutout material and restrained natural illustration style. Short salt-and-pepper dark hair, a visibly different narrower face and thin rectangular glasses, dark muted blue long-sleeve casual collared shirt, beige trousers, plain brown walking shoes. Neutral attentive expression, relaxed complete standing pose, head turned slightly toward viewer's left, arms naturally at sides, both hands fully visible. Preserve a plausible adult male silhouette and natural joints. Whole figure must be complete from hair top to both shoe soles with comfortable margin, centered portrait framing. No props, no writing, no badges, no medical uniform. Genuinely transparent background, clean alpha around all edges, no floor or cast shadow baked into image, no outer glow. Single coherent full body, no separate limbs, no multiple views.",
+    "sample_has_brand": false,
+    "identity_reference_asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7"
+  },
+  "registered_at": "2026-10-23",
+  "content_bounds": [
+    273,
+    25,
+    753,
+    1510
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_alpha_threshold": 24,
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      18,
+      1000,
+      1522
+    ],
+    "opaque_ratio": 0.2766,
+    "translucent_ratio": 0.0095,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.055
+      },
+      "feet": {
+        "x": 0.52,
+        "y": 0.978
+      }
+    }
+  },
+  "discovery": {
+    "category": "characters",
+    "display_title": "中老年男性家属完整站姿（眼镜、蓝衬衫）",
+    "aliases": [
+      "character_older_brother_stand_v1",
+      "男性家属",
+      "兄长",
+      "哥哥",
+      "中老年男性",
+      "蓝衬衫",
+      "眼镜男性",
+      "older brother"
+    ],
+    "objects": [
+      "中老年男性家属完整站姿（眼镜、蓝衬衫）"
+    ],
+    "actions": [
+      "整体站立",
+      "倾听情境"
+    ],
+    "story_roles": [
+      "家庭关系",
+      "家族史",
+      "家属陪同"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "view": "按完整原件观察；镜像后重核朝向和装配",
+    "usage_notes": "这是不同于绿衬衫患者的独立人物，不作为其换装或同人新姿态。；中老年外观只作普通家属角色，不用来推定疾病、遗传关系或固定年龄。；双手自然下垂，未准备接取或持物姿态；只是一幅站姿。",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      273,
+      25,
+      753,
+      1510
+    ],
+    "visible_bounds_alpha_threshold": 24,
+    "detail_level": "完整人物中景；需要细节时使用同源近景，非小尺寸图标",
+    "character_role": "adult_man",
+    "pose": "stand_family",
+    "master_id": "character_older_brother_stand_v1"
+  },
+  "usage_notes": "完整人物落地；与其他身份人物并置；这是不同于绿衬衫患者的独立人物，不作为其换装或同人新姿态。；中老年外观只作普通家属角色，不用来推定疾病、遗传关系或固定年龄。；双手自然下垂，未准备接取或持物姿态；只是一幅站姿。",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "static_source": "reviewed_2026-10-23",
+    "observed": "眼镜、较窄脸、蓝衬衫、米色裤及棕鞋清楚；完整双手两鞋，朝画面左侧，未见作者品牌或医生标识。",
+    "landmark_scope": "原图归一化可见部位；头为安全定位点，脚为共同地面基准；手部位置不表示可持握任意道具。",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "release": "not_approved"
+  },
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_scene_scale_contact_pending",
+    "continuous_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "ce25eae77d2b972a8559b7d354d0a6fb24b48adaca86f873cb08cba3793a2630",
+      "bytes": 1948530
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "0159f32be2322896a58dee4dcd4408941fa7c1e8d90177d1b72103fd1e359ae8",
+      "bytes": 1992
+    },
+    {
+      "path": "evidence/identity-reference.png",
+      "role": "evidence",
+      "sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+      "bytes": 1898958
+    },
+    {
+      "path": "evidence/source-composites.jpg",
+      "role": "evidence",
+      "sha256": "9406fcf9a652afab19aecf19ce72a8fee9a01ffbc48075c3a6e100ebdc8994ce",
+      "bytes": 15376
+    }
+  ],
+  "revision": "0555292d623befaa0c77"
+}

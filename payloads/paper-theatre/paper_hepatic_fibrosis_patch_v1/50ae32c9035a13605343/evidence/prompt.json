@@ -1,0 +1,11 @@
+{
+  "id": "hepatic_fibrosis_patch",
+  "transparent_background": true,
+  "prompt": "Create a separate LIVER FIBROSIS tissue example in the SAME gouache-painted fibrous cut-paper visual style, cellular scale and view as this hepatic cell patch. Keep recognizable polygonal hepatocytes with nuclei, but reduce the conspicuous large lipid vacuoles. Add clear fine blue-green collagen fiber bands in the EXTRACELLULAR spaces around groups of cells and along cell-cord boundaries, with a small branching connective-tissue bridge. The fibers are outside cells, not replacement nuclei or worm-like tubes inside hepatocytes. This is a qualitative fibrosis example, NOT a chronological before/after claim that this fatty patch inevitably progressed. No tumor, blood, cirrhosis staging numbers, whole organ, lens ring, labels, arrows, text, comparison panel or background. One coherent isolated tissue patch, same tactile cut-paper craft and muted palette, genuine RGBA transparent exterior and no outer halo.",
+  "title": "肝组织细胞外纤维·独立机制示意",
+  "topic": "masld",
+  "usage": "胶原纤维位于细胞外、连接细胞群的定性例子；不作为脂肪肝必然进展或纤维化分期。",
+  "referenced_image_paths": [
+    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-63623680-832f-4e5f-9543-b74d9edc9794.png"
+  ]
+}

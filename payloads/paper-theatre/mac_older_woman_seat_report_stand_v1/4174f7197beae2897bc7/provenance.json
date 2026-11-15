@@ -1,0 +1,17 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "tool": "built_in_imagegen",
+      "source_sha256": "aaf0c8dd250159bcc6ef9c8198194ebc355c0e4879803a90e1deeaf3f99a724c",
+      "identity_reference": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120"
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:character_older_woman_stand_v1@533448a63caf5fd9b120",
+      "sha256": "8eddd1227cb34a1799922137bee80073ca2c8be757f23f41966eaa38b9e8bf39"
+    }
+  ],
+  "note": "Complete source image bytes retained; only explicit frame rectangles are used."
+}

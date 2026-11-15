@@ -1,0 +1,56 @@
+{
+  "id": "character_young_man_reach_v1",
+  "prompt": "Use case: identity-preserve. Reference 1 is the exact identity MASTER, not a background. A Chinese young adult man age 27, adult proportions, clean-shaven face, short tidy black hair, muted slate-blue crewneck sweater, beige chinos, dark brown casual shoes. Keep this EXACT SAME person, face, age, hair, clothing and shoe colors, body proportions and textured cut-paper style. Change only pose to: standing facing screen right, image-right arm extended at waist-to-chest level with an OPEN upward palm ready to receive a separate report, other hand visible and relaxed. No held object. Natural connected anatomy, complete hair to both shoes with generous margin. One isolated complete person on genuine transparent alpha; clean opaque paper interior. No backdrop, furniture, floor mark, cast shadow, halo, glow, gradient, checkerboard, text, logo, cropping, separate limbs, additional people or pose sheets.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "eb3b6ec0fdcd1c96084ca9b19f891ed32d0af971f12d2c531ce7883c8f740876",
+  "measurements": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      215,
+      12,
+      977,
+      1498
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88",
+  "review": {
+    "selected": true,
+    "role": "young_man",
+    "pose": "reach",
+    "aliases": [
+      "年轻成年男性",
+      "伸手接取"
+    ],
+    "identity_family": "young_man_cn_20261023",
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "hand_left": {
+        "x": 0.33,
+        "y": 0.56
+      },
+      "hand_right": {
+        "x": 0.85,
+        "y": 0.315
+      }
+    },
+    "inseparable": false,
+    "note": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。"
+  }
+}

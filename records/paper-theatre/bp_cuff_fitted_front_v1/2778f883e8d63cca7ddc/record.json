@@ -1,0 +1,144 @@
+{
+  "schema": "animation_element/v1",
+  "id": "bp_cuff_fitted_front_v1",
+  "title": "蓝灰血压袖带：贴合上臂的前层",
+  "kind": "transparent_subject",
+  "tags": [
+    "paper_collage",
+    "血压计",
+    "袖带",
+    "裸露上臂",
+    "贴合前层"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "bp_action_cuff_front",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "source": "ImageGen；完整生成来源随素材保存",
+    "visual_meaning": "裸露上臂袖带佩戴特写的贴合前层；与完整手臂和气管共同试装",
+    "must_not_imply": "不单独表示人体或通用袖带尺寸；不能用空筒模型代替已佩戴关系，具体佩戴按设备说明",
+    "status": "pending_review",
+    "medical": true,
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "air_port": {
+          "x": 0.905,
+          "y": 0.82
+        }
+      }
+    },
+    "bounds": {
+      "x": 63,
+      "y": 115,
+      "w": 1122,
+      "h": 1017
+    },
+    "prompt_ref": "evidence/0-bp_action_cuff_front-prompt_ref.json",
+    "generation_receipt": "evidence/1-bp_action_cuff_front-generation_receipt.json",
+    "medical_reference": "evidence/2-bp_action_cuff_front-medical_reference.yaml"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/hypertension_paper_theatre/02_sit_and_measure/v2",
+    "series": "hypertension_paper_theatre",
+    "episode": "02_sit_and_measure",
+    "asset_id": "bp_action_cuff_front",
+    "original_manifest": {
+      "asset_id": "bp_action_cuff_front",
+      "path": "assets/imported/bp_action_cuff_front.png",
+      "source_type": "imagegen",
+      "source": "ImageGen；完整生成来源随素材保存",
+      "visual_meaning": "裸露上臂袖带佩戴特写的贴合前层；与完整手臂和气管共同试装",
+      "must_not_imply": "不单独表示人体或通用袖带尺寸；不能用空筒模型代替已佩戴关系，具体佩戴按设备说明",
+      "status": "pending_review",
+      "medical": true,
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchors": {
+          "air_port": {
+            "x": 0.905,
+            "y": 0.82
+          }
+        }
+      },
+      "bounds": {
+        "x": 63,
+        "y": 115,
+        "w": 1122,
+        "h": 1017
+      },
+      "prompt_ref": "assets/evidence/bp_action_cuff_front-prompt_ref.json",
+      "generation_receipt": "assets/evidence/bp_action_cuff_front-generation_receipt.json",
+      "medical_reference": "assets/evidence/bp_action_cuff_front-medical_reference.yaml"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [
+    "新镜头的松紧、位置、前后遮挡、支撑与医学用途重新审查；单件原图不批准完整操作"
+  ],
+  "content_bounds": [
+    63,
+    115,
+    1185,
+    1132
+  ],
+  "content_bounds_format": "pixel_xyxy",
+  "usage": [
+    "与独立手臂装配已佩戴状态",
+    "沿air_port锚点连接气管",
+    "当前镜头按实际臂宽、朝向与肘部重新试装"
+  ],
+  "discovery": {
+    "category": "medical_device",
+    "aliases": [
+      "血压袖带前层",
+      "袖带佩戴",
+      "贴合袖带"
+    ],
+    "story_roles": [
+      "规范测量",
+      "裸露上臂"
+    ],
+    "actions": [
+      "佩戴",
+      "固定",
+      "连接气管"
+    ]
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "f30eb7ad43ee14f12fc20e24d13a0a17e2f30d30185d4c7d65b52c83c35f6931",
+      "bytes": 2066180
+    },
+    {
+      "path": "evidence/0-bp_action_cuff_front-prompt_ref.json",
+      "role": "evidence",
+      "sha256": "5f2aa2dcb087ae2359240004d3d0591bdfa6148aca837705e9d8e0daee5aa652",
+      "bytes": 1973
+    },
+    {
+      "path": "evidence/1-bp_action_cuff_front-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "5f2aa2dcb087ae2359240004d3d0591bdfa6148aca837705e9d8e0daee5aa652",
+      "bytes": 1973
+    },
+    {
+      "path": "evidence/2-bp_action_cuff_front-medical_reference.yaml",
+      "role": "evidence",
+      "sha256": "f0da25906be3d2dd4897c42ac96bd005220d670fee537d8409fd678b5980ecf8",
+      "bytes": 4115
+    }
+  ],
+  "revision": "2778f883e8d63cca7ddc"
+}

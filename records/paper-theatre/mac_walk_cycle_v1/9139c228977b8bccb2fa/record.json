@@ -1,0 +1,264 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_walk_cycle_v1",
+  "title": "同身份成年男性双侧步态循环",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "continuous_action",
+    "walk"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "同身份成年男性双侧步态循环",
+      "walk",
+      "连续动作",
+      "mac_walk_cycle_v1"
+    ],
+    "actions": [
+      "连续步态",
+      "步行循环",
+      "双侧摆臂"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "连续动作",
+      "人物互动"
+    ],
+    "display_title": "同身份成年男性双侧步态循环",
+    "renderers": [
+      "canvas2d"
+    ],
+    "sample_duration_seconds": 6.0
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "not_applicable",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "ground": 620,
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "84ecea87a3f838e769f323a478a2444a7765ce4099c493f81f6729fd763be40a",
+      "bytes": 697
+    },
+    {
+      "path": "assets/stand.png",
+      "role": "payload",
+      "sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+      "bytes": 1898958
+    },
+    {
+      "path": "assets/walk_a.png",
+      "role": "payload",
+      "sha256": "45348bc77ca66e86c5e68557819bd1b3c46c556b0aee93b7e4ad49ef384ebf79",
+      "bytes": 1630862
+    },
+    {
+      "path": "assets/walk_b.png",
+      "role": "payload",
+      "sha256": "3d30c76389cac63716e398d8edf8d238a94aff23049c04b3c17a4264e240f15b",
+      "bytes": 1427177
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "ea474a3a30cb379569bdce8f1105f903cfe671ce49507e40212adb23338957c9",
+      "bytes": 1326
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "043aa59801254c644a765b4b764bf10ba7b30a49956cb42128df47092e6acc41",
+      "bytes": 4343
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+      "bytes": 5899
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "4b9666c3fa61d53570dd7cc245b465d484ee3fbd13f566dbd40237dd3a151946",
+      "bytes": 120117
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "e75efc584e05294de35a5603dfc2ed36ce0135c397a0f7f03c3f92ede8df4cce",
+      "bytes": 118457
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "47b34ed8db787dd245caa720c47745e9757017515e74cf98bdf0f021c771bd5f",
+      "bytes": 121116
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "46aac6f266ea092676cb8f523bc6d570e0303c909f350d1dc1df3b50cbdab2b1",
+      "bytes": 65642
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "190c257b4b626711fd5537808d946bb413d11d236ac34299f8a698d205923ca6",
+      "bytes": 104532
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "a0d2d48bbe5922096db08eb789fcfdb2e42d0ace973a7b6f3e5db9f09f9bd832",
+      "bytes": 110187
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "7c01d14e6e4f21c472926e2e7576a0e39a560c0ac87ff342e9d8abb369c5bcbe",
+      "bytes": 128391
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "fc362427c0075223767b1ace2d6e9bd9a98833ded2c45f905c0e8c5b27f6ffb6",
+      "bytes": 117299
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "6ec50984b21515b43a6ebaacbea0d6c2bc35b7568f81fdf260f83a66f2c7119e",
+      "bytes": 116267
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "90ac985378ed11bc13b318afcf6a9793141dfff6bc2ab49545588d8e1d02a7b7",
+      "bytes": 121816
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "c3e8c3e64b114929da64ef66f955f706296576ddc662d314226d3fb96dbf9765",
+      "bytes": 128266
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "47b34ed8db787dd245caa720c47745e9757017515e74cf98bdf0f021c771bd5f",
+      "bytes": 121116
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "768fe4ef12421fd5e3852c458686b14a518a493ff90cdae3fa5bb56b640c1ec0",
+      "bytes": 115801
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "ae05191086a5af9c483a41eb69d7abacb5eb9c35d7fd4f18bb5aacdea7238fdb",
+      "bytes": 126909
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "ae05191086a5af9c483a41eb69d7abacb5eb9c35d7fd4f18bb5aacdea7238fdb",
+      "bytes": 126909
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "a79100a38933f7cb024e0494381a9355d62176a597021ce825f0d7575356df1e",
+      "bytes": 128335
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "82b85322bc57acd5a1ec19803ecf7c148483ddc43a94053cfd2110d7ee89e249",
+      "bytes": 126948
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "ca5cd9ae7f8c95e05e8681a91a6aae4b37e86b28de098295409c7df0bd7c5239",
+      "bytes": 110107
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "ca5cd9ae7f8c95e05e8681a91a6aae4b37e86b28de098295409c7df0bd7c5239",
+      "bytes": 110107
+    },
+    {
+      "path": "samples/live-contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "f85b07752301b966dfa5447d3249d94f0abca0d926cfa23acf1c36c625823f45",
+      "bytes": 122720
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "1a14a41cb3eed7aa0c77c4789cc323aceab7d6a6812740fd94c89683c840fb9f",
+      "bytes": 13891
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "03fdaada28cdae362d3ef1ec726b329e54a7f6593a2111445ff578632c29ab2b",
+      "bytes": 282255
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "92f1b12913be07f4c39228dfa359b949420772d1487a179e5a2c2e7f3aeb9a09",
+      "bytes": 5496
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "8e733fd9c63dd52b96ef94ee3343e49572819f26661483984065bbebeac8966b",
+      "bytes": 4427
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "9139c228977b8bccb2fa"
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_eye_section_elongated_v1",
+  "title": "眼轴延长·同视角眼球结构",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "myopia"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1506,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "eye_section_elongated"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "眼轴延长·同视角眼球结构",
+      "eye_section_elongated"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "眼轴延长·同视角眼球结构",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1506,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "定性展示后部延长，需按角膜/晶状体锚点重新配准；不作为眼轴测量。"
+    }
+  ],
+  "usage_notes": "定性展示后部延长，需按角膜/晶状体锚点重新配准；不作为眼轴测量。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "896d3074ddfb168ed9e852a69784949d323747820c0d890d87018d411775be5a",
+      "bytes": 1484408
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "769e38bf7ef885a9e15170fa8f15e3a3e92d45fa08d8afb8d16dc9ef36a3e415",
+      "bytes": 1045
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "d58c0b6187ba2d0ec1c032f3db3927e05d4bb62a9c7f15c1b3c5f6670280dad4",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "79a47303d7fb94e7fc48fe8e7b9ecbb20b7e24a5734a1f4c6aff88069cdb0494",
+      "bytes": 23667
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "9f43868880ca526e6ab22982d94207b020479d2d12472d1a3f873ee8c8ec0948",
+      "bytes": 771
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "a010b2278b65358b894c86536903cdd4ea7ddc23e78d78aec927ce6d38aab1f5",
+      "bytes": 71785
+    }
+  ],
+  "revision": "82a6ae7ea00334e6dc55",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_eye_section_elongated_v1@1a356b37bd5dc512a472",
+    "source_record_sha256": "480e860c66fa3efd56a888e905d4d01cbacd0689ef0a9c54897784e3f44a473c",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "c78c075605ca13be0dd6d6450b80b763ec25a07470cc3d82d0a01c01182e603f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_right_pinch_v1",
+  "title": "右手捏持与交接纸件",
+  "kind": "image",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "人物",
+    "接触",
+    "交接"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "content_bounds": [
+    142,
+    203,
+    1490,
+    882
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "指间空隙匹配当前纸件边缘；不烘焙持物",
+  "source": {
+    "kind": "imagegen",
+    "generation": "builtin_edit",
+    "sample_has_brand": false
+  },
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "dae1d4be701b69d95b92f28fcfa63f4d68ad9e4adf16106abf53922a30d1ac61",
+      "bytes": 2184875
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "2dd0f013ab279f3ea09e983284998f3524aaf65d2fff1f47665d5c04eda5965b",
+      "bytes": 438
+    }
+  ],
+  "revision": "953208910f3f2afe0eaa"
+}

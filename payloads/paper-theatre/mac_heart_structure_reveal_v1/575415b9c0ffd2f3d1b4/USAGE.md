@@ -1,0 +1,12 @@
+# 心脏·逐层揭示与局部高亮
+
+心脏正面四腔关系示意，画面左为解剖右；右房右室与左房左室分别表达。血管为连接概览，未表达瓣膜细节、血流动画或真实比例。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。
+
+## 取用
+
+```bash
+python3 scripts/media_asset_library.py use --root <公共库路径> \
+  --project <本集工程路径> --id paper:mac_heart_structure_reveal_v1@<revision>
+```
+
+本地HTTP打开index.html；通过sequence.json编辑层序、节奏与整组相机；renderStudy可接入Canvas。保留所有图层共同原点，不按bounds独立居中；医学与当前镜头仍待终审。

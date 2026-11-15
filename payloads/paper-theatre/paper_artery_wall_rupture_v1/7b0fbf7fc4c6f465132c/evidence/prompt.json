@@ -1,0 +1,8 @@
+{
+  "id": "artery_wall_rupture",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-5fd469d6-3656-4057-bfd1-b63f6f0886a5.png"
+  ],
+  "prompt": "Create a matched VESSEL WALL RUPTURE / BLEEDING educational state of this horizontal arterial cut-paper specimen. Keep the exact horizontal vessel, outer dimensions, center, scale and muted hand-painted fibrous paper craft. Remove the yellow lower-wall plaque, making that wall continuous. At the UPPER wall near the center, show a small localized break which connects the open lumen to the exterior. A few restrained dusty terracotta paper droplets extend upward immediately through this break, clearly OUTSIDE the vessel. The rest of the wall remains intact and the lumen is NOT blocked by a clot. No aneurysm balloon, giant tear, gore, stent, blood cells or medical instruments. One isolated qualitative tissue cutout, no arrows, labels, text, comparison panels, background or halo; genuine RGBA transparency outside the tissue and droplets. The visual must distinguish a broken wall with outward bleeding from a blocked vessel."
+}

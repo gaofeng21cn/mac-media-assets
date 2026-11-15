@@ -1,0 +1,166 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_theatre_kit_1_1_0",
+  "title": "纸剧场 1.1.0 冻结组件与无品牌样本",
+  "kind": "code_component",
+  "entry": "index.html",
+  "tags": [
+    "paper_collage",
+    "Canvas2D",
+    "TypeScript",
+    "镜头",
+    "局部坐标",
+    "纸材",
+    "离线样本"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "type": "local_authored_template",
+    "path": "templates/animation/paper_theatre",
+    "version": "1.1.0"
+  },
+  "usage_notes": "冻结完整通用模块与离线动作样本；不含疾病、医生或品牌。源文件可在新工程中独立构建，不保存 node_modules。模块稳定时间、遮挡和连接点，故事与逐镜构图仍自由设计。",
+  "dependencies": [
+    "Node 22.18+ 或 24",
+    "锁定 npm 依赖",
+    "Chrome/FFmpeg 用于导出"
+  ],
+  "review_status": "技术构建通过；艺术样本待新镜头复核",
+  "files": [
+    {
+      "path": "index.html",
+      "role": "payload",
+      "sha256": "37f4e96d92fb3038914a59fe537dae74ef46267394211602bba8ffc0768eb377",
+      "bytes": 614
+    },
+    {
+      "path": "dist/film.js",
+      "role": "payload",
+      "sha256": "74ab74d25957d529970f2968adfdc97148770caf977f47bc2c35ec1c2a67e911",
+      "bytes": 19622
+    },
+    {
+      "path": "src/main.ts",
+      "role": "payload",
+      "sha256": "805346d17143202593cc3e28b2484b58568f9c1611089a0d8878ba0d469ec68f",
+      "bytes": 2071
+    },
+    {
+      "path": "src/kit/stage.ts",
+      "role": "payload",
+      "sha256": "d2de2b9b9efa15185e4f5bf97ceb4383f963adb3686dfb6052a4b8536837d6c7",
+      "bytes": 8762
+    },
+    {
+      "path": "src/kit/scene.ts",
+      "role": "payload",
+      "sha256": "0684df068a00ba08214ac14e5fa0bfdb1c53dfa70b25f1bcfeaeb7310576c765",
+      "bytes": 978
+    },
+    {
+      "path": "src/kit/types.ts",
+      "role": "payload",
+      "sha256": "2602a98599f8c7ba0c5acfb42ca4537c0f169f46cc7ce4690773cf7ee73f25ec",
+      "bytes": 1898
+    },
+    {
+      "path": "src/kit/motion.ts",
+      "role": "payload",
+      "sha256": "3e73f75aee564886a239374c43a2a5ec4a1984176fa488cfa0da7126ba838179",
+      "bytes": 2159
+    },
+    {
+      "path": "src/kit/props.ts",
+      "role": "payload",
+      "sha256": "74911bbf76faa60658c5c07accc77409ac736b2c040f72a9542d40823fafb2b0",
+      "bytes": 1881
+    },
+    {
+      "path": "src/kit/player.ts",
+      "role": "payload",
+      "sha256": "1e019d83f6fc46d003d6cfc1501ebac09bb9f99ba8d44f5271e49fbce8c651bb",
+      "bytes": 5744
+    },
+    {
+      "path": "src/kit/overlays.ts",
+      "role": "payload",
+      "sha256": "e57abae8837cddd46d94c18d49f7e149e477b160931f5dabe71def2552923537",
+      "bytes": 1230
+    },
+    {
+      "path": "scripts/build.mjs",
+      "role": "payload",
+      "sha256": "d696f86063f29df6e0fafc01141ca641495b3a2c49245554e9dfaa604a302d77",
+      "bytes": 183
+    },
+    {
+      "path": "scripts/mix_audio.py",
+      "role": "payload",
+      "sha256": "339012f044dd9c3c6b4dda58b68dc9ba0c3419327b93f2f0d76b4e1ae9cd4db2",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/motion.test.ts",
+      "role": "payload",
+      "sha256": "d8b02fef664dd65403bec0d5d1d6c40c6e7ee85eefc9620978d1528e8a6630fb",
+      "bytes": 2159
+    },
+    {
+      "path": "tests/scene.test.ts",
+      "role": "payload",
+      "sha256": "e906dadd32b1ad7df88397faef9a2a5d37bea9b6552e76876996505694ce2950",
+      "bytes": 1395
+    },
+    {
+      "path": "score.json",
+      "role": "payload",
+      "sha256": "0755869766c5082fe7dd8729a405c14e3cccb579be3d40064f3e18baeb35f60b",
+      "bytes": 827
+    },
+    {
+      "path": "brand.json",
+      "role": "payload",
+      "sha256": "fade9ffca215ab03da5491f3572eee4b89e4ff2623b16dffbca7d26562445c08",
+      "bytes": 89
+    },
+    {
+      "path": "asset_manifest.json",
+      "role": "payload",
+      "sha256": "b50622eb0c6edcd8d45df7af4458c6318b46328e726b752e09169ba2864cadfd",
+      "bytes": 700
+    },
+    {
+      "path": "tsconfig.json",
+      "role": "payload",
+      "sha256": "bf91fa8cd194bae8ff2abea8a5d6a43323560c33801804268a2fe28c3dbb8f87",
+      "bytes": 338
+    },
+    {
+      "path": "package.json",
+      "role": "payload",
+      "sha256": "efaa4e0a65d80e105d2d5b95d97285f3e2d612b3810a20045fe8400a5508bc19",
+      "bytes": 319
+    },
+    {
+      "path": "package-lock.json",
+      "role": "payload",
+      "sha256": "f457d2ffb559c878a7608664eb7267593d1b7a7b47e7e723c81f682d816c7fff",
+      "bytes": 15045
+    },
+    {
+      "path": "compare.html",
+      "role": "payload",
+      "sha256": "b2193db701be547eb2ff305d7475a0087c521ad41347c5ee94434244e1abf971",
+      "bytes": 2541
+    },
+    {
+      "path": "README.md",
+      "role": "evidence",
+      "sha256": "60a535a578ddeee0947f155868860652b40d1e027d451dbffb08e281e560816c",
+      "bytes": 6213
+    }
+  ],
+  "revision": "1a56b5ce9d17d7e59e63"
+}

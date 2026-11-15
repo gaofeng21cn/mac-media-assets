@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_clock_dial_v1",
+  "title": "时钟表盘·独立空针母版",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    35,
+    1516,
+    998
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "clock_dial"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "时钟表盘·独立空针母版",
+      "clock_dial"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "时钟表盘·独立空针母版",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        35,
+        1516,
+        998
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "十二刻度、中心轴；指针按时间事件另行装配，不能给出虚假的具体时刻。"
+    }
+  ],
+  "usage_notes": "十二刻度、中心轴；指针按时间事件另行装配，不能给出虚假的具体时刻。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "07a80d1ef226325d22accc116042f7758979fab0af8249d59042bd69b5c2e175",
+      "bytes": 1368950
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "47bbfd6aa6f097a0ebfdac1da8ac75ab01b80edb3261b4a2f0caa85d1f56313e",
+      "bytes": 843
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "1c2054baa6c36696a49c4739eddc74623e3b9fb5fbb5ad80b6811d4ed7b00106",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "dca1c7c8cbc82ef5b2bbb174ace8d957793363202ff25af74c9f60f3e92a49cf",
+      "bytes": 610
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "6a5c5d0fdcf957ce607ba1919fb3fb52fb5c74931d48cf9d1511d516d58674c9",
+      "bytes": 55730
+    }
+  ],
+  "revision": "60115f9cac760c55ec9f",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_clock_dial_v1@ae93272f8a29424507bc",
+    "source_record_sha256": "4a8e0b82edff84c9647674c228a4996d1c499903f41df8feaabc58edf9cdf4ed",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "73adad2d935573a93114222ac43bc7d147cc1a6373d5d5728bf743f75ab2ae85",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "mac_medical_process/v1",
+  "scene": "risk",
+  "title": "相同分母下的绝对风险比较",
+  "duration": 10,
+  "viewport": [
+    1280,
+    720
+  ],
+  "medical_review": "pending",
+  "example": {
+    "population": 100,
+    "before": 10,
+    "after": 5
+  }
+}

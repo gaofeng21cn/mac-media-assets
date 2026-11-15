@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "",
+  "source_path": "/Users/gaofeng/workspace/科普视频/assets/characters-v2/teen_girl_stand_v1.png",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      0,
+      994,
+      1522
+    ],
+    "opaque_ratio": 0.2422,
+    "translucent_ratio": 0.0091,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-22T09:41:31.324133+00:00"
+}

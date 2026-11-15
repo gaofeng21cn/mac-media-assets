@@ -1,0 +1,63 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "866ab89d64af7a25b6e4bd10f9108eb6dc7bc81cb5835d2f243806fd8d9d759d",
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "f059a183462d46e3ed34175b3725fbfba0163e92df0fbab2d9013a95ae882c49",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "866ab89d64af7a25b6e4bd10f9108eb6dc7bc81cb5835d2f243806fd8d9d759d",
+    "assets/arm.png": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+    "assets/cuff_open.png": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f",
+    "assets/cuff_wrapped.png": "f30eb7ad43ee14f12fc20e24d13a0a17e2f30d30185d4c7d65b52c83c35f6931",
+    "assets/monitor.png": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b"
+  },
+  "media": {
+    "samples/background-color.png": "4a2b8936fb08d21debbaf16d011a1cd678b13f60d9fcbeb76ce3ab517491d969",
+    "samples/background-dark.png": "f34324430e89b65004fe802543997f9674adde1176245c9d9142b9ea9369bba1",
+    "samples/background-light.png": "823654851eb7b23cf8d05eef972191425105c1f02d17fecf344155df9659d88f",
+    "samples/background-review.jpg": "5329c1dac20ed0976b5dda94c8e560690c485cd5f95ee26fee6d360a74c03de3",
+    "samples/contact-sheet.jpg": "13d4776ac4208463c184ea96fe87ef15660d845aa19ce6a5c335a3c53c5074a3",
+    "samples/keyframes/00.png": "afcc48918c6c2cb3ff4414330e04e94d12fab4f7d190a2f6a8cb56e69f27d8f9",
+    "samples/keyframes/01.png": "afcc48918c6c2cb3ff4414330e04e94d12fab4f7d190a2f6a8cb56e69f27d8f9",
+    "samples/keyframes/02.png": "afcc48918c6c2cb3ff4414330e04e94d12fab4f7d190a2f6a8cb56e69f27d8f9",
+    "samples/keyframes/03.png": "68b074f86c5afdb1bbbef56d8784032c83c20aa9ba2ab19ca619ba75d39e78e4",
+    "samples/keyframes/04.png": "1a3c6b4f94553200afc933a4011107c3040f732c8ee233d9bccc8fc52a7140ab",
+    "samples/keyframes/05.png": "1a3c6b4f94553200afc933a4011107c3040f732c8ee233d9bccc8fc52a7140ab",
+    "samples/keyframes/06.png": "fadaa0cf38229770ffb626ab70182dd0eb266461757ec05d1e0856c7f9d46d75",
+    "samples/keyframes/07.png": "48bec45b20801dbcf103b437a076f081f27fd06ba646c82f89cbb5a5e3a94c33",
+    "samples/keyframes/08.png": "6470c672648c596341def47d954b42eb4e97e514aab114a592c961569b57ec58",
+    "samples/keyframes/09.png": "6470c672648c596341def47d954b42eb4e97e514aab114a592c961569b57ec58",
+    "samples/keyframes/10.png": "7e7e0c09c84d3672e30b4db414cddbb6a9ebf376c859dad215223b45b665f09b",
+    "samples/keyframes/11.png": "ceb0e193a90ffb5fbbdd76218d1285a59637545952888925bbc5a3cef805aaca",
+    "samples/keyframes/12.png": "ceb0e193a90ffb5fbbdd76218d1285a59637545952888925bbc5a3cef805aaca",
+    "samples/keyframes/13.png": "1b4b3c7dd977c8c6f863706dfdbbd40b66bbce1abbfb8542a979faae6cb8ea34",
+    "samples/keyframes/14.png": "1b4b3c7dd977c8c6f863706dfdbbd40b66bbce1abbfb8542a979faae6cb8ea34",
+    "samples/keyframes/15.png": "1b4b3c7dd977c8c6f863706dfdbbd40b66bbce1abbfb8542a979faae6cb8ea34",
+    "samples/keyframes/16.png": "65d0574b6f0e451e72cce4af343b2c01cda6b899fd6886f618a81302fc33bb64",
+    "samples/keyframes/17.png": "6e52c888d6b7cdb31c70f1717499bd6b4011a64c4e5590cd8df168c0910c7f4f",
+    "samples/phone-reading.png": "4f3df045721f286220618c5646b75fb0f0d1efac8d9efef3c2db76eec0d88821",
+    "samples/phone.png": "9f1779ae9fc6a9bd19b8ac0330d059b261c95af83e8de85c7b865ce2766df2c4",
+    "samples/sample.mp4": "6be388ed2dcc28c012ad65248fb33cef09bde9ff8ebf39e1a489ef0787de12d5"
+  },
+  "technical": {
+    "frames": 156,
+    "fps": 24,
+    "duration": 6.5,
+    "random_seek_equal": true,
+    "browser_errors": []
+  },
+  "checked": [
+    "原尺寸关键动作、接触极值、切换前后及浅深彩底和手机宽查看。",
+    "全部浏览器帧已渲染；随机拖动确定性和无报错已回读。"
+  ],
+  "defects_found_and_fixed": [
+    "空筒已佩戴件换为贴合前层，袖带从衣袖移到裸露上臂。",
+    "前臂与主机由同一台面承托，气管按前层原图接口一起变换。"
+  ],
+  "not_reviewed": [
+    "独立医学终审及当前生产镜头 pending；样片无声，不批准听感。"
+  ]
+}

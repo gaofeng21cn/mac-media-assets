@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_hepatic_fibrosis_patch_v1",
+  "title": "肝组织细胞外纤维·独立机制示意",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "masld"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1482,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "hepatic_fibrosis_patch"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肝组织细胞外纤维·独立机制示意",
+      "hepatic_fibrosis_patch"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "肝组织细胞外纤维·独立机制示意",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1482,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "胶原纤维位于细胞外、连接细胞群的定性例子；不作为脂肪肝必然进展或纤维化分期。"
+    }
+  ],
+  "usage_notes": "胶原纤维位于细胞外、连接细胞群的定性例子；不作为脂肪肝必然进展或纤维化分期。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "beb938e7f49af86cc4dc70b351e0440648d369f0d121c3bee01ef87bee8af2d4",
+      "bytes": 2036672
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "2da8446e42c33558dc96b982b0e7fcb5f9e30816c09e2f3581d13b81c0fe95e7",
+      "bytes": 1373
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "a070a4dab5ae25ae69c197c4c0f4a3bb432e864474c8abb6226d3ee2c91875d2",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "45757696b5934a3a9a5c0fcc0699f322beb6b358d6d1caab93edf29bab6be04a",
+      "bytes": 25534
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "b1c46b1f104eb41c68d06ef702587125a9af2ce7e6b92c5df1871affc4d4253e",
+      "bytes": 800
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "7d0acab067a586aa63da45c854ed820fe31e1f2ab533e952689845f5d6afbd6d",
+      "bytes": 104964
+    }
+  ],
+  "revision": "50ae32c9035a13605343",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_hepatic_fibrosis_patch_v1@deaf78fd0640d9a1c69f",
+    "source_record_sha256": "95bfd9c19f26c2f896e2e3c153e3cae075d3a0c72b07445dc36cac98a1807840",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "60e08a607265d0d90a575ad8ed3f001dbf13708d6d60b257113f0d1c6debfd73",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

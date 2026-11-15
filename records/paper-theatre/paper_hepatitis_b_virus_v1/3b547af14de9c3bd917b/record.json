@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_hepatitis_b_virus_v1",
+  "title": "乙型肝炎病毒·定性结构纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "chronic_hepatitis_b"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    9,
+    1308,
+    1199
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "hepatitis_b_virus"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "乙型肝炎病毒·定性结构纸件",
+      "hepatitis_b_virus"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "乙型肝炎病毒·定性结构纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        9,
+        1308,
+        1199
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "HBV定性结构例子，不作真实比例、病毒量、DNA检测或感染程度判断。"
+    }
+  ],
+  "usage_notes": "HBV定性结构例子，不作真实比例、病毒量、DNA检测或感染程度判断。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "a57bc5d0bae8c8f60b17d3692ccaa68c9272c4be622ca706e24f6007fb1a38f2",
+      "bytes": 1405378
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "9ccbbcacff63a6971bf0f0be96bd885cb1bec39891c59f25011c877cbbb7a535",
+      "bytes": 1081
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "bd88b6ded542f66fa1282bafb81bd37aa997a6dc8ae09a59f28adf2404639246",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "1fb4aa9352b789fd8d7eafacbd27d52ef8d52e5b313e5c69f8093562b2981f71",
+      "bytes": 24207
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "e97477cca3ea75fd55035948fecf9d5d90a464ed79feb30dbec3e64decc82ad2",
+      "bytes": 770
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "b4d6f9724d4e70e0ed781b85ef77252eb247de4fc836151840e01e787ecdd090",
+      "bytes": 124554
+    }
+  ],
+  "revision": "3b547af14de9c3bd917b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_hepatitis_b_virus_v1@5105a427271408ac8b2b",
+    "source_record_sha256": "632ecd8b861768eb21e8200e758ae55b5b4f84b10ad275fd8b33eb84a6fa176c",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "17b147d9cd445c5e1085340bc8ccfdd96bbad5227aa068ba0bd44f8c02bfd6ce",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1312,
+        "height": 1199,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "asset_id": "anatomy",
+  "asset_ref": "assets/legacy/anatomy.png",
+  "asset_sha256": "5a10c7725dae5f5ff9d7cb236638063d806ea4569ae2e4691e08508418625ea3",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "纸质结构示意的静态边缘与画风可用，未见抠图残片；位置、比例及医学含义仍待医生复核，不能直接批准医学使用。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "pending",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

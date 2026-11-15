@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_retinal_fundus_v1",
+  "title": "眼底视盘与血管·独立观察示意",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "myopia"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    9,
+    1520,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "retinal_fundus"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "眼底视盘与血管·独立观察示意",
+      "retinal_fundus"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "眼底视盘与血管·独立观察示意",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        9,
+        1520,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "眼底检查观察对象的定性示意，不是患者照片或正常判定标准。"
+    }
+  ],
+  "usage_notes": "眼底检查观察对象的定性示意，不是患者照片或正常判定标准。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "6ef45b7d3714f18b19e9356b454c18c53702afcd9dffd2c3caf7044e6deaa4cc",
+      "bytes": 1613558
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "bb6539d67086984aca8f586bd8c4a9a7b844effa5985c0b589d530bf7dd362ca",
+      "bytes": 1056
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "1f7b71ca5a435cdbb8a704a7ab094227d54c39e2d2a4253baace8ac35213a23f",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "79a47303d7fb94e7fc48fe8e7b9ecbb20b7e24a5734a1f4c6aff88069cdb0494",
+      "bytes": 23667
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "e08227b48ffbb359c574b68e362e36518c7deeb8cb638aa68dd6bbc3034ac429",
+      "bytes": 767
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "98b1acfc1a473133946b2b158172493a592ad4af2ffa3190e40eb003bcbe449a",
+      "bytes": 67027
+    }
+  ],
+  "revision": "52cbd47307ef18cfb543",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_retinal_fundus_v1@b32ce5beef75890dda7a",
+    "source_record_sha256": "260f225fa7653263d368191ceb9b7557d5f5e1dd5ab6d625fbfd4f294d9659c9",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "70ea02a96bee039e9928ffd317090ff917bdcb49520ee134ba0059ed1a68a4c5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

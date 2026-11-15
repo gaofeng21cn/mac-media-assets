@@ -1,0 +1,8 @@
+{
+  "id": "hepatocyte_fat_patch",
+  "transparent_background": true,
+  "prompt": "Use case: scientific-educational. ONE isolated small microscopic LIVER TISSUE PATCH for a refined medical paper-theatre, not an entire liver. Show a coherent group of about seven polygonal hepatocytes with dusty-rose cytoplasm and small muted purple nuclei arranged in loose cell cords. Several cells contain clearly visible large pale cream-to-ochre intracellular lipid vacuoles, with some nuclei pushed toward the edge, illustrating steatosis qualitatively. Do not draw fat as free yellow stones outside cells, and do not show cancer or blood. Exquisite fibrous cut-paper collage with hand-painted gouache and colored-pencil shading, gently layered cell boundaries and tactile paper depth, muted warm colors, high-quality raster rather than vector circles. Single complete tissue patch centered with generous genuine RGBA transparent exterior. No container, lens ring, organ, labels, arrows, text, panel, background or halo. Diagrammatic cell example only, not a real biopsy or a fibrosis assessment.",
+  "title": "肝细胞脂滴·局部组织示意",
+  "topic": "masld",
+  "usage": "脂滴位于肝细胞内的定性机制例子；不能由此判断炎症、纤维化或个人病理程度。"
+}

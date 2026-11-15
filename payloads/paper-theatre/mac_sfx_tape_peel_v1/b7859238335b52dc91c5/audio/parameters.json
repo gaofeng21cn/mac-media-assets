@@ -1,0 +1,15 @@
+{
+  "id": "tape_peel",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 1.15,
+  "seeds": [
+    9112,
+    9113,
+    9114
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_dental_floss_pick_v1",
+  "title": "牙线棒·纤维纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "oral_health"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    61,
+    17,
+    1534,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "dental_floss_pick"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "牙线棒·纤维纸件",
+      "dental_floss_pick"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "牙线棒·纤维纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        61,
+        17,
+        1534,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "独立牙线棒器具；可与邻牙并置说明牙间清洁任务，不示范深推或用力损伤牙龈。"
+    }
+  ],
+  "usage_notes": "独立牙线棒器具；可与邻牙并置说明牙间清洁任务，不示范深推或用力损伤牙龈。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8ad8e901169d2e020f13c9cddbaf8420ecfe4af69bb257609a9c21b0fa321ee8",
+      "bytes": 838958
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "a65f2f2debd1acc935f8c589d7e0e52de0f3227ee60dd1e72acf05e817b58eb0",
+      "bytes": 1075
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "b7d2624d04da49d3c9278598e0b470ae473f182acf18b985c6bc87da0a03f061",
+      "bytes": 621
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "7936286191438c7dba0ceb77932a2a6bffec578bcbb2514888160f1d82c20580",
+      "bytes": 22370
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "70311c74ba7d79ec6f874bb3d9f42071cec36a8c99091963b32871e22cf562a6",
+      "bytes": 773
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "cd144d33f97ec27bc8584f78db549a072884c785f5d618d8a422ea7dedf681f2",
+      "bytes": 38714
+    }
+  ],
+  "revision": "e7e6d25cbf0cbb601a93",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_dental_floss_pick_v1@39b4efbdf87a93f51870",
+    "source_record_sha256": "af7b5a067f1139d4764f393378ff55ce11adf8777e09a53e85dafffb77a059e3",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "0f9b93e320dab2c0eb0d6e56de23d5de2c861a95bc2ae1d8bccd26821b8e594e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

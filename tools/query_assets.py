@@ -1,0 +1,407 @@
+#!/usr/bin/env python3
+"""Read-only semantic discovery. Curated facets assist progress, never approve a shot."""
+from __future__ import annotations
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+WITHDRAWN = {'needs_rebuild', 'superseded'}
+
+
+def load_curation(root):
+    path = Path(root) / 'collections/curation.json'
+    if not path.exists():
+        return {}
+    # A damaged withdrawal register must not silently re-admit old versions.
+    value = json.loads(path.read_text(encoding='utf-8'))
+    if not isinstance(value, dict) or not isinstance(value.get('assets'), dict):
+        raise ValueError('策展登记缺少 assets 对象')
+    if any(not isinstance(item, dict) or not isinstance(item.get('review_boundary', {}), dict)
+           for item in value['assets'].values()):
+        raise ValueError('策展决定必须是对象')
+    decisions = value['assets']
+    marker = Path(root)/'offline-installation.json'
+    if marker.is_file():
+        receipt = json.loads(marker.read_text())
+        source_root = receipt.get('source_library_root')
+        if source_root and Path(source_root).resolve() != Path(root).resolve():
+            from media_store import sha
+            origin = Path(source_root)
+            if sha(origin/'catalog/assets.jsonl') != receipt.get('source_catalog_sha256'):
+                raise ValueError('离线资料的来源索引已更新，请刷新安装')
+            current = load_curation(origin)
+            aliases = load(Path(root)/'catalog/delivery-report.json', {}).get('aliases', {})
+            for original, encoded in aliases.items():
+                if original in current:
+                    decisions[encoded] = {**decisions.get(encoded, {}),
+                        **{key:current[original][key] for key in ('status','reason','review_boundary') if key in current[original]}}
+    return decisions
+
+
+def effective_row(row, curation):
+    """Apply the exact-version decision; immutable source records are evidence."""
+    result = dict(row)
+    decision = curation.get(row.get('id'), row.get('curation', {}))
+    if decision:
+        result['curation'] = decision
+        result['review_boundary'] = {**row.get('review_boundary', {}),
+                                     **decision.get('review_boundary', {})}
+    if row.get('delivery', {}).get('encoding_review') == 'pending':
+        boundary = dict(result.get('review_boundary', {}))
+        boundary['encoding'] = 'pending'
+        boundary['static'] = 'pending' if row['kind'] not in {'audio','music_score'} else boundary.get('static','not_applicable')
+        # Prior reports describe the original bytes. Encoded candidates remain
+        # selectable but do not inherit an original's audiovisual approval.
+        for field in ('static', 'motion', 'listening'):
+            if boundary.get(field) not in (None, 'not_applicable'):
+                boundary[field] = 'pending'
+        result['review_boundary'] = boundary
+    return result
+
+
+def available(row):
+    return (row.get('curation', {}).get('status') not in WITHDRAWN
+            and row.get('review_boundary', {}).get('admission') != 'reference_only')
+
+
+def load(path, default):
+    try:
+        value = json.loads(path.read_text(encoding='utf-8'))
+        return value if isinstance(value, type(default)) else default
+    except (OSError, ValueError):
+        return default
+
+
+def seq(value):
+    return value if isinstance(value, list) else [] if value is None else [value]
+
+
+def mapping(value):
+    return value if isinstance(value, dict) else {}
+
+
+def all_catalog_rows(root):
+    return [json.loads(line) for line in
+            (Path(root) / 'catalog/assets.jsonl').read_text(encoding='utf-8').splitlines()
+            if line.strip()]
+
+
+def selection(row):
+    """Carry an exact catalog identity into the existing shared review view."""
+    return {'asset_id': row['id'], 'revision': row['revision'],
+            'record_ref': row.get('portable_record'),
+            'record_sha256': row.get('portable_record_sha256'),
+            'app_handoff': {'package_id': 'mac-media-assets', 'view_id': 'mac-media-assets.review',
+                            'input': {'asset_id': row['id'], 'revision': row['revision']}}}
+
+
+def review(value, root=ROOT, workspace=None):
+    """Read the same exact record from the package; no paths need retyping."""
+    if not isinstance(value, dict):
+        raise ValueError('输入必须为对象')
+    root = Path(root).resolve()
+    if value.get('asset_id'):
+        rows = query(root, asset_id=value['asset_id'], include_withdrawn=True)
+        row = next((item for item in rows if item['id'] == value['asset_id']), None)
+        if row is None:
+            raise ValueError('需要精确素材 ID，不能用来源 ID 替代已选版本')
+        if value.get('revision') != row['revision']:
+            raise ValueError('素材版本与已选记录不一致，请重新读取')
+        path = (root / row['portable_record']).resolve()
+        if not path.is_relative_to(root):
+            raise ValueError('素材记录越出已安装包')
+        body = path.read_bytes()
+        if hashlib.sha256(body).hexdigest() != row['portable_record_sha256']:
+            raise ValueError('素材记录已变化，请修复安装或重新选择')
+        record = json.loads(body)
+        if record.get('id') != row['source_id'] or record.get('revision') != row['revision']:
+            raise ValueError('素材记录身份与目录不一致')
+        return {'state': 'ready', 'data': {
+            'items': [{**selection(row), 'id': row['id'], 'title': row['display_title'],
+                       'artifact_ref': str(path), 'artifact_kind': 'asset_record',
+                       'status': 'available' if row['available_for_use'] else 'withdrawn',
+                       'record': record, 'review_boundary': row.get('review_boundary', {}),
+                       'curation': row.get('curation', {}), 'maturity': row['maturity']}],
+            'domain_quality_approved': False}}
+    # Existing installed consumers may still hand over an imported workspace
+    # record. Preserve their profile-contained read without enlarging access.
+    if not value.get('asset_record_path') or not workspace or not Path(workspace).is_absolute():
+        raise ValueError('选择精确素材和版本，或已登记工作区内的素材记录')
+    base = Path(workspace).resolve()
+    path = (base / value['asset_record_path']).resolve()
+    if not path.is_relative_to(base):
+        raise ValueError('素材记录越出已登记工作区')
+    return {'state': 'ready', 'data': json.loads(path.read_text(encoding='utf-8'))}
+
+
+def maturity(root, row):
+    record = load(root / row.get('portable_record', '__missing__'), {})
+    review = record.get('review') or {}
+    static = row.get('review_boundary', {}).get('static', review.get('static_alpha') or
+             (record.get('asset') or {}).get('visual_review', {}).get('status'))
+    return {'source': 'registered', 'static': 'reviewed' if static in
+            {'checked_on_light_dark_contact_sheet', 'checked_on_light_dark_color_composites', 'passed'} else 'pending',
+            'assembly': 'see_collection_samples',
+            'sampled_visual': row.get('review_boundary', {}).get('sampled_visual', 'pending'),
+            'motion': row.get('review_boundary', {}).get('motion', 'pending'),
+            'medical': row.get('review_boundary', {}).get('medical', 'pending'),
+            'listening': row.get('review_boundary', {}).get('listening', 'pending'),
+            'current_shot': 'pending'}
+
+
+def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
+          usable_for=None, author_id=None, include_author_assets=False,
+          category=None, action=None, story_role=None, medium=None,
+          collection=None, maturity_stage=None, layering=None,
+          include_provenance=False, limit=None, character_role=None,
+          pose=None, asset_id=None, all_versions=False, include_withdrawn=False,
+          topic=None, system=None, patient_task=None):
+    root = Path(root)
+    pose = {'伸手': 'reach', '接取': 'reach', '递接': 'reach', '伸手接取': 'reach',
+            '行走': 'walk', '站立': 'stand', '站姿': 'stand', '坐姿': 'seated', '坐下': 'seated', '躺卧': 'lying', '躺姿': 'lying',
+            '问诊': 'seated_consult'}.get(pose, pose)
+    aliases = load(root / 'collections/series.json', {}).get('aliases', {})
+    discovery = load(root / 'collections/discovery.json', {}).get('assets', {})
+    coverage = load(root / 'collections/character-coverage.json', {})
+    layer_contracts = load(root / 'collections/layer-contracts.json', {}).get('contracts', {})
+    taxonomy = load(root / 'collections/taxonomy.json', {}).get('categories', [])
+    character_scale = load(root / 'collections/character-scale.json', {}).get('assets', {})
+    category_ids = {item['label']: item['id'] for item in taxonomy}
+    categories = {item['id']: item['label'] for item in taxonomy}
+    category = category_ids.get(category, category)
+    collections = load(root / 'collections/assemblies.json', {}).get('assemblies', []) + load(root / 'collections/event-kits.json', {}).get('kits', [])
+    members = None
+    if collection:
+        selected = next((item for item in collections if item['id'] == collection), None)
+        if not selected:
+            return []
+        members = {part.get('asset_id') or part['source_id'] for part in selected.get('parts', [])}
+    curation = load_curation(root)
+    catalog_rows = [effective_row(row, curation) for row in all_catalog_rows(root)]
+    rows = select_versions(root, catalog_rows, all_versions=all_versions or include_withdrawn or members is not None)
+    if asset_id:
+        exact = [row for row in catalog_rows if row.get('id') == asset_id]
+        if exact:
+            rows = exact
+        else:
+            # A stable source ID means "the reviewed current version"; the
+            # full paper:ID@revision form remains an exact historical lookup.
+            rows = select_versions(
+                root,
+                [row for row in catalog_rows if row.get('source_id') == asset_id],
+                all_versions=False,
+            )
+    role_asset_ids = None
+    requested_roles = set()
+    wants_motion = category == 'motion' or kind == 'motion_recipe' or action is not None
+    if character_role or pose:
+        role_asset_ids = set()
+        for role_id, role in (coverage.get('roles') or {}).items():
+            if character_role:
+                requested = character_role.strip().casefold()
+                role_names = {str(value).strip().casefold() for value in
+                              [role_id, role.get('label', ''), *(role.get('aliases') or [])]}
+                if requested not in role_names:
+                    continue
+            requested_roles.add(role_id)
+            for pose_id, selected_asset_id in (role.get('current_assets') or {}).items():
+                accepted_poses = {pose_id, coverage.get('pose_labels', {}).get(pose_id)}
+                if pose_id == 'stand_explain':
+                    accepted_poses.add('stand')
+                if pose_id == 'seated_consult':
+                    accepted_poses.add('seated')
+                if selected_asset_id and (not pose or pose in accepted_poses):
+                    role_asset_ids.add(selected_asset_id)
+    out = []
+    for original in rows:
+        row = dict(original)
+        fields = dict(mapping(discovery.get(row.get('source_id'), row.get('discovery', {}))))
+        role_motion = (wants_motion and row.get('kind') == 'motion_recipe'
+                       and fields.get('character_role') in requested_roles
+                       and (not pose or pose in fields.get('poses', [])))
+        if role_asset_ids is not None and row.get('id') not in role_asset_ids and row.get('source_id') not in role_asset_ids and not role_motion:
+            continue
+        reuse = row.get('reuse_scope') or {}
+        if reuse.get('kind') == 'author' and not include_author_assets and reuse.get('id') != author_id:
+            continue
+        if not available(row) and not include_withdrawn:
+            continue
+        if kind and row.get('kind') != kind:
+            continue
+        if scope and reuse.get('kind') != scope:
+            continue
+        source = row.get('provenance', {}).get('source_ref') or {}
+        values = set(row.get('series_ids', []))
+        values.update(value for value in [row.get('canonical_series_id'), reuse.get('series_id'),
+                                         reuse.get('series'), source.get('series_id'), source.get('series')] if value)
+        values.update(reuse.get('topics') or [])
+        if series and aliases.get(series, series) not in {aliases.get(value, value) for value in values}:
+            continue
+        if members is not None and row.get('id') not in members and row.get('source_id') not in members:
+            continue
+        contract = mapping(layer_contracts.get(row.get('source_id')))
+        if contract:
+            fields['layer_contract'] = contract
+            fields['layering'] = contract.get('layering')
+            facets_layer = seq(contract.get('movable_layers')) + seq(contract.get('anchors'))
+            if facets_layer:
+                fields['actions'] = list(dict.fromkeys(seq(fields.get('actions')) + facets_layer))
+        if layering and mapping(layer_contracts.get(row.get('source_id'))).get('layering') != layering:
+            continue
+        # Semantic tags can survive a revision; measured geometry cannot.
+        if fields.get('geometry_revision') and fields['geometry_revision'] != row.get('revision'):
+            fields.pop('visible_bounds', None)
+            fields.pop('original_image_size', None)
+        if category and fields.get('category') != category:
+            continue
+        for desired, key in [(action, 'actions'), (story_role, 'story_roles'),
+                             (topic, 'topics'), (system, 'medical_systems'), (patient_task, 'patient_tasks')]:
+            candidates = seq(fields.get(key)) + (seq(fields.get('aliases')) if key == 'actions' else [])
+            if desired and not any(desired.casefold() in str(value).casefold() for value in candidates):
+                break
+        else:
+            if medium and medium not in seq(fields.get('medium')):
+                continue
+            record = load(root / row.get('portable_record', '__missing__'), {})
+            names = [row.get('title', ''), row.get('source_id', ''), fields.get('display_title', '')] + seq(fields.get('aliases'))
+            facets = (seq(row.get('tags')) + seq(fields.get('objects')) + seq(fields.get('topics')) +
+                      seq(fields.get('medical_systems')) + seq(fields.get('patient_tasks')) +
+                      seq(fields.get('mechanisms')) + seq(fields.get('audiences')) +
+                      seq(fields.get('story_roles')) + seq(fields.get('actions')) +
+                      seq(fields.get('layer_contract', {}).get('movable_layers')) +
+                      seq(fields.get('layer_contract', {}).get('anchors')) +
+                      [fields.get('layering', '')] +
+                      [categories.get(fields.get('category'), ''), fields.get('usage_notes', ''), record.get('usage_notes', '')])
+            primary = '\n'.join(map(str, names)).casefold()
+            secondary = '\n'.join(map(str, facets)).casefold()
+            terms = (text or '').casefold().split()
+            score = 0
+            for term in terms:
+                if term in primary:
+                    score += 10
+                elif term in secondary:
+                    score += 3
+                elif include_provenance and term in json.dumps(row.get('provenance', {}), ensure_ascii=False).casefold():
+                    score += 1
+                else:
+                    break
+            else:
+                if usable_for and usable_for.casefold() not in primary + '\n' + secondary:
+                    continue
+                row['discovery'] = fields
+                if row.get('id') in character_scale:
+                    row['human_scale'] = character_scale[row['id']]
+                row['registration'] = record.get('registration') or (record.get('asset') or {}).get('registration') or {}
+                row['display_title'] = fields.get('display_title', row['title'])
+                row['maturity'] = maturity(root, row)
+                row['available_for_use'] = available(row)
+                row['selection'] = selection(row)
+                if (root / 'catalog/media-storage.json').is_file():
+                    from media_store import locate
+                    parts = []
+                    missing = {}
+                    for item in row.get('payload', []):
+                        path = locate(root, item, verify=False)
+                        parts.append({'path': item['path'], 'resolved_path': str(path) if path else None})
+                        if path is None:
+                            missing[item['sha256']] = item['bytes']
+                    row['storage'] = {'profile': load(root / 'catalog/media-storage.json', {}).get('profile','catalog'), 'files': parts,
+                                      'download_bytes': sum(missing.values()),
+                                      'fetch_required': bool(missing)}
+                if maturity_stage and row['maturity'].get(maturity_stage) not in {'reviewed', 'passed'}:
+                    continue
+                row['search_match'] = {'score': score, 'source': 'curated_names_and_use' if not include_provenance else 'curated_with_provenance'}
+                out.append(row)
+    if text:
+        out.sort(key=lambda row: (-row['search_match']['score'], row['display_title']))
+    else:
+        out.sort(key=lambda row: row.get('display_title', row.get('title', '')))
+    return out[:limit] if limit is not None else out
+
+
+def select_versions(root, rows, *, all_versions=False):
+    """Select one current version per asset identity without discarding history."""
+    if all_versions:
+        return rows
+    anchors = load(Path(root) / 'collections/character-anchors.json', {}).get('assets', {})
+    coverage = load(Path(root) / 'collections/character-coverage.json', {})
+    coverage_ids = {
+        asset_id
+        for role in (coverage.get('roles') or {}).values()
+        for asset_id in (role.get('current_assets') or {}).values()
+        if asset_id
+    }
+    grouped = {}
+    curation = load_curation(root)
+    for original in rows:
+        row = effective_row(original, curation)
+        if not available(row):
+            continue
+        grouped.setdefault(row.get('source_id'), []).append(row)
+    selected = []
+    for source_id, candidates in grouped.items():
+        exact = [row for row in candidates if row.get('id') in coverage_ids]
+        if exact:
+            selected.append(exact[-1])
+            continue
+        wanted = anchors.get(source_id)
+        matching = []
+        if wanted:
+            for row in candidates:
+                record = load(Path(root) / row.get('portable_record', '__missing__'), {})
+                registration = record.get('registration') or (record.get('asset') or {}).get('registration') or {}
+                if registration == wanted:
+                    matching.append(row)
+        if matching:
+            selected.append(matching[-1])
+        else:
+            selected.append(candidates[-1])
+    order = {row.get('id'): index for index, row in enumerate(rows)}
+    return sorted(selected, key=lambda row: order.get(row.get('id'), len(order)))
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    for name in ('query', 'kind', 'series', 'scope', 'usable-for', 'author-id', 'category', 'action', 'story-role', 'medium', 'collection', 'maturity', 'layering', 'character-role', 'pose', 'id', 'topic', 'system', 'patient-task'):
+        parser.add_argument('--' + name)
+    parser.add_argument('--limit', type=int)
+    parser.add_argument('--include-provenance', action='store_true')
+    parser.add_argument('--include-author-assets', action='store_true', help='策展只读发现；不授予复用权限')
+    parser.add_argument('--include-reference', action='store_true', help='公共库不包含参考区；兼容旧调用，不扩大结果')
+    parser.add_argument('--all-versions', action='store_true', help='显式查看历史修订，不用于默认制作选择')
+    parser.add_argument('--include-withdrawn', action='store_true', help='只读追溯已撤回版本；不授予导入或复用资格')
+    parser.add_argument('--json', action='store_true')
+    parser.add_argument('--app-review', action='store_true', help='从标准输入读取精确共享视图选择')
+    args = parser.parse_args()
+    if args.app_review:
+        try:
+            result = review(json.load(sys.stdin), workspace=os.environ.get('OPL_PROFILE_WORKSPACE'))
+        except (ValueError, OSError, KeyError, TypeError) as exc:
+            result = {'state': 'unavailable', 'reason': str(exc)}
+        print(json.dumps(result, ensure_ascii=False))
+        return
+    rows = query(text=args.query, kind=args.kind, series=args.series, scope=args.scope,
+                 usable_for=args.usable_for, author_id=args.author_id, include_author_assets=args.include_author_assets,
+                 category=args.category, action=args.action, story_role=args.story_role, medium=args.medium,
+                 collection=args.collection, maturity_stage=args.maturity, layering=args.layering,
+                 include_provenance=args.include_provenance, limit=args.limit,
+                 character_role=getattr(args, 'character_role'), pose=args.pose,
+                 asset_id=getattr(args, 'id'), all_versions=args.all_versions,
+                 include_withdrawn=args.include_withdrawn, topic=args.topic, system=args.system,
+                 patient_task=args.patient_task)
+    if args.json:
+        print(json.dumps(rows, ensure_ascii=False, indent=2))
+    else:
+        print('id\tcategory\ttitle\tmedium\tlayering\tcurrent_shot')
+        for row in rows:
+            print('\t'.join([row['id'], row['discovery'].get('category', '待策展'), row['display_title'],
+                             ', '.join(map(str, seq(row['discovery'].get('medium')))), row['discovery'].get('layering', ''),
+                             row['maturity']['current_shot']]))
+
+
+if __name__ == '__main__':
+    main()

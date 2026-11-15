@@ -1,0 +1,1034 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_breast_structure_reveal_v1",
+  "title": "乳腺·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "乳腺",
+      "逐层揭示",
+      "局部高亮",
+      "breast"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "乳腺·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "乳腺侧视外形示意，附腺体区与乳管走向；不表示肿块大小、分期或触诊结论。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "08a5e00685fce1dd08968e935bd20f979ee0352d4acb657a74473ba51b4b7ca7",
+      "bytes": 621
+    },
+    {
+      "path": "assets/breast_outline.webp",
+      "role": "payload",
+      "sha256": "8e3748b04eca9a613ab96568a604af2c6b36771099b51de29933d93cea01a90c",
+      "bytes": 7634
+    },
+    {
+      "path": "assets/ducts.webp",
+      "role": "payload",
+      "sha256": "b054fc906fcac49469c44f5915af1d36bfdcf3176d5f380171b279e3018f9c80",
+      "bytes": 4002
+    },
+    {
+      "path": "assets/gland_tissue.webp",
+      "role": "payload",
+      "sha256": "fc17c49529685397250c88a2a529a4dd776a0ebe64cde155940727589973d40e",
+      "bytes": 4952
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "50b156e2a2762af0aa0f64a81106cfa8a6f62da5d99417ff92d561afdaefd5af",
+      "bytes": 597
+    },
+    {
+      "path": "original/files/breast_outline.webp",
+      "role": "payload",
+      "sha256": "8e3748b04eca9a613ab96568a604af2c6b36771099b51de29933d93cea01a90c",
+      "bytes": 7634
+    },
+    {
+      "path": "original/files/ducts.webp",
+      "role": "payload",
+      "sha256": "b054fc906fcac49469c44f5915af1d36bfdcf3176d5f380171b279e3018f9c80",
+      "bytes": 4002
+    },
+    {
+      "path": "original/files/gland_tissue.webp",
+      "role": "payload",
+      "sha256": "fc17c49529685397250c88a2a529a4dd776a0ebe64cde155940727589973d40e",
+      "bytes": 4952
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "ad1542a9cc70b5d775797a82070ba94f60564cc962a0ae94130f3d7c8fdadbb8",
+      "bytes": 5823
+    },
+    {
+      "path": "original/samples/preview.webp",
+      "role": "payload",
+      "sha256": "29650395b43e0b385e9b41738331ea3efe72e81836c0920e1a7c9494a9c2d7e1",
+      "bytes": 14946
+    },
+    {
+      "path": "original/source/breast_outline.svg",
+      "role": "payload",
+      "sha256": "0847a727ae6cbfb8d3d7f52dc2518a891bbde018695b0be7329ac53f5e691f66",
+      "bytes": 374
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/ducts.svg",
+      "role": "payload",
+      "sha256": "fc17bf53ad400373a0a9dd671e28f82f597677737d773779c53d3689cf70425f",
+      "bytes": 405
+    },
+    {
+      "path": "original/source/gland_tissue.svg",
+      "role": "payload",
+      "sha256": "d0dbbebe4c50e744596c0c537a1764eae60077ee0a4ab5dd765044350f555e59",
+      "bytes": 268
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "0ef4bc39f2b9553e19cf3a72dfeb1c24dfd1701d2a48772cc1309aafa34407fc",
+      "bytes": 853
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "ce5a0d2eb0414292ae7a1932fbabfcfec1e7b8e56124f2413c8d257189c79efd",
+      "bytes": 369
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "9f4d3c636ea2211aefd4d77effa401857e68066d9d9dd661e7388bfc42d8f8f8",
+      "bytes": 6518
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "98f966aa3c9f123778f1efbef10a682a23f25a01d5448338a2edb703beb28368",
+      "bytes": 25934
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "ba091286264ba45d39dba7ad5869765170439d1fbe4bac51ecaa9318e9f1c89b",
+      "bytes": 29722
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "3f7910cd7d80acc20fa361a838381a8a89e498a2be817f2bcf5a403cfedcccb4",
+      "bytes": 25586
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "740f747503341620e9598e30a460f56654b7f0b808cd34cdac289cabe0506564",
+      "bytes": 38921
+    },
+    {
+      "path": "samples/complete-background-color.webp",
+      "role": "payload",
+      "sha256": "30ff4d1a923d5d413b5a18f8a65c8f34f02d6f5ed7c6781f16557ade4e64bf14",
+      "bytes": 35170
+    },
+    {
+      "path": "samples/complete-background-dark.webp",
+      "role": "payload",
+      "sha256": "e286a711743b8de5e0908d192ef145d1d0296a288497021406d9d994d4beda1f",
+      "bytes": 33706
+    },
+    {
+      "path": "samples/complete-background-light.webp",
+      "role": "payload",
+      "sha256": "093f432431bc501a932aacd852499a0c2d68b9b70c803477fd4ee24b68e80c33",
+      "bytes": 33488
+    },
+    {
+      "path": "samples/complete-phone.webp",
+      "role": "payload",
+      "sha256": "ead268e21bcc03555fe0449cebf3aa6a26255136ed87ade0d2b4667aeedba5f7",
+      "bytes": 6928
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "c0a10efb9b9af1c65f663299a6c9f52ef55400a8b6315aec0e08fde4ed523546",
+      "bytes": 139045
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "aeccf1aef32329a286122ff25b6de6b6a587c1a138f748a6325b9af859f04d02",
+      "bytes": 169544
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline-color.webp",
+      "role": "payload",
+      "sha256": "8e590329286a971bf0a677d9b174c0d19b47411219644593b663316e86d2db08",
+      "bytes": 7642
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline-dark.webp",
+      "role": "payload",
+      "sha256": "49bf6493d76671ad728c72f6d36b62be7d622d328db969ae8ba59846811c983b",
+      "bytes": 7886
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline-light.webp",
+      "role": "payload",
+      "sha256": "1e9e07b2b4d025d21555afcced1df6e51d67722cb69146d045c151968444bfc2",
+      "bytes": 6968
+    },
+    {
+      "path": "samples/focus-phone/0-breast_outline.webp",
+      "role": "payload",
+      "sha256": "1e9e07b2b4d025d21555afcced1df6e51d67722cb69146d045c151968444bfc2",
+      "bytes": 6968
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue-color.webp",
+      "role": "payload",
+      "sha256": "d096d05760ce2ca63277585b1a693324013a90f3a1a9f4656a52f7697c957753",
+      "bytes": 10370
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue-dark.webp",
+      "role": "payload",
+      "sha256": "7371475512b699f1ed18a1a1e236c0b9ae50cd4138736717697a77f730997d47",
+      "bytes": 10404
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue-light.webp",
+      "role": "payload",
+      "sha256": "fd3cd7f64c1494565dc2e01ec144d48528ceed80dfd3a5473a096a420ce46adf",
+      "bytes": 9916
+    },
+    {
+      "path": "samples/focus-phone/1-gland_tissue.webp",
+      "role": "payload",
+      "sha256": "fd3cd7f64c1494565dc2e01ec144d48528ceed80dfd3a5473a096a420ce46adf",
+      "bytes": 9916
+    },
+    {
+      "path": "samples/focus-phone/2-ducts-color.webp",
+      "role": "payload",
+      "sha256": "ea6e3c04b1c0c4f60d89b4b8ce97bebbf5ee4055d22ff00916c9672fb1e3a332",
+      "bytes": 9940
+    },
+    {
+      "path": "samples/focus-phone/2-ducts-dark.webp",
+      "role": "payload",
+      "sha256": "713182db38990721d94c28090a58f2ac2f16ba01671450477e5b68a04820301b",
+      "bytes": 9930
+    },
+    {
+      "path": "samples/focus-phone/2-ducts-light.webp",
+      "role": "payload",
+      "sha256": "f34e841a5e9cc83981b45a35386a9e0a14661a6164b970c4047acbaeee87debb",
+      "bytes": 9476
+    },
+    {
+      "path": "samples/focus-phone/2-ducts.webp",
+      "role": "payload",
+      "sha256": "f34e841a5e9cc83981b45a35386a9e0a14661a6164b970c4047acbaeee87debb",
+      "bytes": 9476
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "093f432431bc501a932aacd852499a0c2d68b9b70c803477fd4ee24b68e80c33",
+      "bytes": 33488
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "093f432431bc501a932aacd852499a0c2d68b9b70c803477fd4ee24b68e80c33",
+      "bytes": 33488
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "79778e7ea516fb6ea077273ee023637a70ac3d21a9d598806254eea06884f61d",
+      "bytes": 14656
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "74761bb42bed46d08e3e8f8ed2d2147731152aca55c5f2f0b5122d43407a91a6",
+      "bytes": 22080
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "74761bb42bed46d08e3e8f8ed2d2147731152aca55c5f2f0b5122d43407a91a6",
+      "bytes": 22080
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "4da1548dfad8821e506e3fae0f60b557669d351e38a775023b76dc707ffe5611",
+      "bytes": 25598
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "4da1548dfad8821e506e3fae0f60b557669d351e38a775023b76dc707ffe5611",
+      "bytes": 25598
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "d2d7f3ae8bdff50bf72c71992c68f08869dd7f07ad95cc15f598fca10a37b00c",
+      "bytes": 33820
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "d2d7f3ae8bdff50bf72c71992c68f08869dd7f07ad95cc15f598fca10a37b00c",
+      "bytes": 33820
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "ef15099df81c21c1ce9188655f40c94d1773774275ee2c967c096da8ee875226",
+      "bytes": 34290
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "ef15099df81c21c1ce9188655f40c94d1773774275ee2c967c096da8ee875226",
+      "bytes": 34290
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "ef15099df81c21c1ce9188655f40c94d1773774275ee2c967c096da8ee875226",
+      "bytes": 34290
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "5ecbee82873c3063a771c5f7e57edaf274ad33b5b8929598bbb5d59776ae6e33",
+      "bytes": 51268
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "5ecbee82873c3063a771c5f7e57edaf274ad33b5b8929598bbb5d59776ae6e33",
+      "bytes": 51268
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "e1aaced55fe14a76497763524ab014794ff5c80f491f744ad2f9a4409d87773e",
+      "bytes": 52474
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "12be792bb11af930aa607c36fba07b3aa3ca256b4388bda20b76f10c72ba86e8",
+      "bytes": 50162
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "12be792bb11af930aa607c36fba07b3aa3ca256b4388bda20b76f10c72ba86e8",
+      "bytes": 50162
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "fd1b3c517df08c936189db288c8194a33c31fa7d15bbbd0119b944a0e93ff901",
+      "bytes": 45286
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "093f432431bc501a932aacd852499a0c2d68b9b70c803477fd4ee24b68e80c33",
+      "bytes": 33488
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "5d7e9571f1c340800e72f61fb2788bbce990035612a8e81f5fd4afeb3e60de3b",
+      "bytes": 11562
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "443ea06ecb0810a7fe3d06ebe8df9fac643559137da50ff468f4ce47243ac85a",
+      "bytes": 6482
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "451275cce27bfc95981e32f54786744c12b224ca1016a32d64b5f175836c3784",
+      "bytes": 175643
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "f771144df2d0a534a4c301c4535fbdb25d8557f3ac5177d3b78d200f07826b82",
+      "bytes": 12820
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "503532037806c8c754c14569956bb959b9b98585d7c9696a61c05313f6ce88a7",
+      "bytes": 5210
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "02d47dbd37c7a53cc3fc",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_breast_structure_reveal_v1@c2c652dca8011d8947c2",
+    "source_record_sha256": "6bb7284d8b1b77c88d7ac4e11fbcb96f788c248760dfeecb61f3c03f760e9546",
+    "encodings": [
+      {
+        "path": "assets/breast_outline.png",
+        "encoded_path": "assets/breast_outline.webp",
+        "source_sha256": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/ducts.png",
+        "encoded_path": "assets/ducts.webp",
+        "source_sha256": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/gland_tissue.png",
+        "encoded_path": "assets/gland_tissue.webp",
+        "source_sha256": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/breast_outline.png",
+        "encoded_path": "original/files/breast_outline.webp",
+        "source_sha256": "05ad4f3b6e68aae45913f8230eaeb3c1e61325d910051468fb0079dfa2784e18",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/ducts.png",
+        "encoded_path": "original/files/ducts.webp",
+        "source_sha256": "eec794d98a4c1a03e777fb6d189b1dcbc17d4d7abffc70ad8de3488f266efbfe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/gland_tissue.png",
+        "encoded_path": "original/files/gland_tissue.webp",
+        "source_sha256": "0e9e296fe66112cb0c40795caaef7807a0d44aeaf7d6a9568ed026027bc44b4c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/samples/preview.png",
+        "encoded_path": "original/samples/preview.webp",
+        "source_sha256": "f39cf8f6e315b2db9f4d1f76fc8eee759ad73e6e1296b0707375f5868467ff51",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "ed99a4bca7d1f3293c68824240998f6279299f530419deab7d4642d55cd0dce2",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "64204011d74907c6f53d6a22332efaf43467ea5c09c1a955ff5fe6548bc611b2",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "e11eb8b9ba67a38c193b2db76f29baf0e396f8daaec64333424cb782362450a7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-color.png",
+        "encoded_path": "samples/complete-background-color.webp",
+        "source_sha256": "ec27e3a535e4939cdce8c3ddc040c7df66c85c9a1b1db842f0efcaae9b8930e0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-dark.png",
+        "encoded_path": "samples/complete-background-dark.webp",
+        "source_sha256": "b490b9ffcc645bdb00d11956b6e8bac1f47395f124d96ecd59d564b8c8912583",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-light.png",
+        "encoded_path": "samples/complete-background-light.webp",
+        "source_sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-phone.png",
+        "encoded_path": "samples/complete-phone.webp",
+        "source_sha256": "09fc0e18518729b0eb0959bf66f13a05ac340ebcc82d34adc08884fe5546043c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-breast_outline-color.png",
+        "encoded_path": "samples/focus-phone/0-breast_outline-color.webp",
+        "source_sha256": "58b04ac7b218b68d7e72bb5415966d125f3dd8e5f001c89c256190f4b4c4bb84",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-breast_outline-dark.png",
+        "encoded_path": "samples/focus-phone/0-breast_outline-dark.webp",
+        "source_sha256": "a1732c927bb0dacb96bfe3cff19c597ae016f5bbf4d71b470ee3e961076e9edd",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-breast_outline-light.png",
+        "encoded_path": "samples/focus-phone/0-breast_outline-light.webp",
+        "source_sha256": "778fd9cbdb89fca62f9ddf86f913094707973e4b2e74a0ae996a0ae4b6d38138",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-breast_outline.png",
+        "encoded_path": "samples/focus-phone/0-breast_outline.webp",
+        "source_sha256": "778fd9cbdb89fca62f9ddf86f913094707973e4b2e74a0ae996a0ae4b6d38138",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-gland_tissue-color.png",
+        "encoded_path": "samples/focus-phone/1-gland_tissue-color.webp",
+        "source_sha256": "2b902686cc306d01848007b21ec48917ea953a2c54b23ee1e9918115d0bda22d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-gland_tissue-dark.png",
+        "encoded_path": "samples/focus-phone/1-gland_tissue-dark.webp",
+        "source_sha256": "26371aa5403a8d912e8ca91d77e913a0c9a43600f17484b500659a36daba3b08",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-gland_tissue-light.png",
+        "encoded_path": "samples/focus-phone/1-gland_tissue-light.webp",
+        "source_sha256": "49e40f68aaa9b840f61bdddcf25ace334b5e55e3d72aaeaa7d0143b2b9341aa5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-gland_tissue.png",
+        "encoded_path": "samples/focus-phone/1-gland_tissue.webp",
+        "source_sha256": "49e40f68aaa9b840f61bdddcf25ace334b5e55e3d72aaeaa7d0143b2b9341aa5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-ducts-color.png",
+        "encoded_path": "samples/focus-phone/2-ducts-color.webp",
+        "source_sha256": "1a67e475a3fe19fa8527d3f5f16e7d6808f461eba488b91b94f43698eff2a2cd",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-ducts-dark.png",
+        "encoded_path": "samples/focus-phone/2-ducts-dark.webp",
+        "source_sha256": "68533f31c2c08c563ed12622c6dd8a7ed3de307df67eba94ec077f0263c23782",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-ducts-light.png",
+        "encoded_path": "samples/focus-phone/2-ducts-light.webp",
+        "source_sha256": "1585154ca6137fdc8a5bacc57cec9c1fb64bb71ea358f84570545e848e7c3b0f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-ducts.png",
+        "encoded_path": "samples/focus-phone/2-ducts.webp",
+        "source_sha256": "1585154ca6137fdc8a5bacc57cec9c1fb64bb71ea358f84570545e848e7c3b0f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "762d5c50a6d20cc894c17c02f2deb731613271fb029813e3b560fc510cdcf234",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "c06c293dc414da6b772506801cf9379209157e3e013f74fb0682e5ca61611521",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "c06c293dc414da6b772506801cf9379209157e3e013f74fb0682e5ca61611521",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "e7e1fe3b08846073cc4559c8f8628f45621cad8da624cf702d2941cdb8596735",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "e7e1fe3b08846073cc4559c8f8628f45621cad8da624cf702d2941cdb8596735",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "fb32f7886909b82a7260b7921d434d000199da2f449467697b9d9e6d1b02b0bd",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "fb32f7886909b82a7260b7921d434d000199da2f449467697b9d9e6d1b02b0bd",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "cf025230c8dad6cc363ee590f629c0b7589da40642cd45914c3c335b3368808e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "cf025230c8dad6cc363ee590f629c0b7589da40642cd45914c3c335b3368808e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "cf025230c8dad6cc363ee590f629c0b7589da40642cd45914c3c335b3368808e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "eeddad9807fe1a803f602771e2576e7dc5b377b839be7d7ae7d65ee0bf8b3296",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "eeddad9807fe1a803f602771e2576e7dc5b377b839be7d7ae7d65ee0bf8b3296",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "486d1cdbacb95fb8c5591d9bda5bbc5387116d231d1989ac355858ea9255c7b9",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "0615c379a50f94275e48250bed9e4b0a960dbdab21239855986aa3700f86824f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "0615c379a50f94275e48250bed9e4b0a960dbdab21239855986aa3700f86824f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "622a39d9b002499fc5483a33a43fe32d793f8749e32eb0605020287412d572ec",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "d3c8b9055d868afb84e8e93e6b41bc1287e92f2ba14a1dde12d3193e057d9f96",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "fc456c5c459fbe0dc1995cd5b78352f0570ff9b97a579b10be80832e5ac7a63f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "1e0785e68f8c9fa64992eadbbae9163e2f8aafd2a144822c1b339c13c56c1943",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

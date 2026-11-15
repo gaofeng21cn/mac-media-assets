@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_writing_pencil_v1",
+  "title": "书写铅笔·独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    31,
+    2123,
+    700
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "writing_pencil"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "书写铅笔·独立纸件",
+      "writing_pencil"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "书写铅笔·独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        31,
+        2123,
+        700
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "书写任务与记录的具体工具，笔尖在原图左侧，动作按真实笔尖定位。"
+    }
+  ],
+  "usage_notes": "书写任务与记录的具体工具，笔尖在原图左侧，动作按真实笔尖定位。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "15293aed9ab28d9b35d396403db6404d59ec944a482dbff4ae53ab9107797142",
+      "bytes": 540724
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "27a9bd3ed102b860af55ca4d0dd7e8a95c643472c36be355e6b8b11d344aa4c3",
+      "bytes": 702
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "34bfb9f18dd2b8a359582b2baa67d9ca6acf0ef6f6ebf36b5204c9ded9583fbc",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f5f62a630dfbbabcd7117d09540c9693027b8308e20b15ea40b5e2e6002fa3f1",
+      "bytes": 598
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "8d97c6a2d738a8b9cc16e482aabab5428bc2000867d178687118b6430bec5543",
+      "bytes": 26661
+    }
+  ],
+  "revision": "89217ac072521a04669b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_writing_pencil_v1@32452718f0c3d841c160",
+    "source_record_sha256": "6549a306b36307fece04a47aa90285111bcc523ebe627e180f8cef8497fb771d",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "3175d463d1801222e4a276c5e3d9c7c4d08209499aa08badac15633da74fe5c4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

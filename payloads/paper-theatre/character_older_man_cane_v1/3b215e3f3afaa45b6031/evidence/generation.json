@@ -1,0 +1,60 @@
+{
+  "id": "character_older_man_cane_v1",
+  "prompt": "Use case: identity-preserve. Exact SAME Chinese elderly man from reference: silver hair, olive rolled sleeve shirt, charcoal trousers, brown lace-up shoes and textured cut-paper collage. Complete standing relaxed three-quarter figure facing screen right, naturally holds one simple curved-handle walking cane in image-right hand at relaxed hip height, cane tip on same floor baseline as feet. Other hand fully visible. Steady dignified posture, no fall or pain, no claim of correct gait teaching. Person AND cane are one inseparable composite pose. Entire hair through shoes/cane tip within generous margins; genuine transparent alpha background, opaque paper interior, no floor/shadow/halo/glow/background/text/logo. Real coherent anatomy.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "671a70c4e15adc80885a08b38000ecedd9fe0838c370343212427d50170cf384",
+  "measurements": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      228,
+      26,
+      829,
+      1468
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f",
+  "review": {
+    "selected": true,
+    "role": "older_man",
+    "pose": "cane",
+    "aliases": [
+      "老年男性",
+      "扶杖站立",
+      "行动辅助"
+    ],
+    "identity_family": "older_man_baseline",
+    "anchors": {
+      "head": {
+        "x": 0.5,
+        "y": 0.085
+      },
+      "feet": {
+        "x": 0.53,
+        "y": 0.948
+      },
+      "hand_left": {
+        "x": 0.335,
+        "y": 0.485
+      },
+      "hand_right": {
+        "x": 0.77,
+        "y": 0.52
+      },
+      "cane_tip": {
+        "x": 0.25,
+        "y": 0.948
+      }
+    },
+    "note": "同身份老人扶杖静态整件，手杖在画面左侧；不可拆出手杖独立运动，不作为步态训练或左右手用杖规范示教。"
+  }
+}

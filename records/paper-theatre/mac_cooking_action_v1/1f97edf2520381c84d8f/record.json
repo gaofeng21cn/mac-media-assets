@@ -1,0 +1,344 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_cooking_action_v1",
+  "title": "连续备餐：切配、入锅、翻动与盛出",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "continuous_action",
+    "cooking"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "连续备餐：切配、入锅、翻动与盛出",
+      "cooking",
+      "连续动作",
+      "mac_cooking_action_v1"
+    ],
+    "actions": [
+      "连续烹饪",
+      "切配",
+      "翻炒",
+      "盛出"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "连续动作",
+      "日常饮食"
+    ],
+    "display_title": "连续备餐：切配、入锅、翻动与盛出",
+    "renderers": [
+      "canvas2d"
+    ],
+    "sample_duration_seconds": 9.0
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "current_shot": "pending",
+    "medical": "not_applicable",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "full_motion_review_pending",
+    "static_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "50859d97f39c4d88ccbcf748c93029181828aecd299a0802308eed06d6bdbf13",
+      "bytes": 517
+    },
+    {
+      "path": "assets/board.png",
+      "role": "payload",
+      "sha256": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4",
+      "bytes": 2376608
+    },
+    {
+      "path": "assets/cooker.png",
+      "role": "payload",
+      "sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3",
+      "bytes": 1166200
+    },
+    {
+      "path": "assets/food.png",
+      "role": "payload",
+      "sha256": "0e5a20f2c2171a364ba470069cb170601ce7b150af5e1d4603f242c4e5008b52",
+      "bytes": 1157949
+    },
+    {
+      "path": "assets/hand.png",
+      "role": "payload",
+      "sha256": "12a3963759118d3a0910a85d3386c5c4cde4a882cfb3b90fd9f14231cfc97dad",
+      "bytes": 2076022
+    },
+    {
+      "path": "assets/knife.png",
+      "role": "payload",
+      "sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5",
+      "bytes": 675776
+    },
+    {
+      "path": "assets/pan.png",
+      "role": "payload",
+      "sha256": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08",
+      "bytes": 1766764
+    },
+    {
+      "path": "assets/plate.png",
+      "role": "payload",
+      "sha256": "87f9c26d0380083348714358a7564d1bd27cc6866090a6dba602c417c73c7761",
+      "bytes": 1628860
+    },
+    {
+      "path": "assets/spatula_hand.png",
+      "role": "payload",
+      "sha256": "644f330dbd87901ec7a52a5ccaf8146d9507f1071b0bf3d6299301daa045821d",
+      "bytes": 1770623
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "941ddf1b18b2b720217d34572628d38cd8291a296c5547193f31e1025689cdac",
+      "bytes": 2481
+    },
+    {
+      "path": "review-request.json",
+      "role": "payload",
+      "sha256": "cc17164e8a7fac42a57c48042b95921161bb98856bddc33043da7c6e562d7f48",
+      "bytes": 4352
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "bc82121512c8c9bce88291a99803d56b9ee0590e3266bf156ee84017946bd788",
+      "bytes": 4351
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "a5609fd719c802a658273fdbace00b23aac22963f2e61361ce3ddcb34b948509",
+      "bytes": 5952
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "e8b1028620342848d6e06585bedb0fd64cc7170e0bab249f823e3b234707637d",
+      "bytes": 440967
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "5d30dbf9ac5e349a7772fa5c865101f28fa13f62d7fd51fd8a0ac1cdf662f9f1",
+      "bytes": 438126
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "c42e8b4e601d0c383a0e8d05c1ba1b39a1b80198e53ef6d90329b99439d15bf8",
+      "bytes": 442640
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "cdd1e3f77ed2c927635a5670d5a23c219d86497186d507cfa27107e82c66224b",
+      "bytes": 38253
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "1a8d063a605d24eebfe733f92de985cfc54ddb5ebaae683adab6e7d1a35e1268",
+      "bytes": 187838
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "04943233bf3627bb52aa807cd1ac602dd03ca7f9025fbaf51361242feb86c1ed",
+      "bytes": 445759
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "04943233bf3627bb52aa807cd1ac602dd03ca7f9025fbaf51361242feb86c1ed",
+      "bytes": 445759
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "7a7b782daadb7b96b7d1a9f47bbe99ed1d3864f42f7a2d92c898ad0d84e194d7",
+      "bytes": 416542
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "384e0bb1590ac4234b8bca4663acf3a83ee37f45e0653e9e9d2f540141f3c812",
+      "bytes": 446320
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "740a7186b8671336aa93ff992cf53fd263fa59da011e224cf197ca1e294c8c5d",
+      "bytes": 417725
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "7d44ebdf74dbb81369a16fa598946bd6ccbc7b12eb65c63823b2d917b8846d37",
+      "bytes": 418722
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "d3993d730d7a2ca15a52d361136ecb2b5ecf78a738a54eacfc39c989e230c644",
+      "bytes": 428128
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "9e0afa5951e8f22314c122098e8d42f1de621a72259b0e6a8adcbb2e9aaaff6a",
+      "bytes": 437475
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "b6851ceccb0b9575098d3e48968f099ca73ab6476165640daeb61797eb370a89",
+      "bytes": 444299
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "4b9626d1913f293610876d2a5c9d9c017e66615b3dfe355d102c12540eee1979",
+      "bytes": 428957
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "2035e1961e90d3027cefcb739420f72c2a362c4e0c23541beec339e4a2e2e165",
+      "bytes": 423857
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "e1cd0fd0722003e2d2a0e08c4b76d3649fb15d54bbc9b1ec410db584152de693",
+      "bytes": 416369
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "4ea9a0c5abcd7dc3d9a226c5260a8f7ae279d1b079889d85e04ea9286dc35419",
+      "bytes": 423096
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "7373dabe46cc1e18915c7eeed9e0eb459dbb249ecaae33105f32e1d625940a11",
+      "bytes": 418918
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "d9e16199e4b4f2bf9fd519019ff96c22b7ce5834e225b08dc039c9154dd904ee",
+      "bytes": 419058
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "2035e1961e90d3027cefcb739420f72c2a362c4e0c23541beec339e4a2e2e165",
+      "bytes": 423857
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "2035e1961e90d3027cefcb739420f72c2a362c4e0c23541beec339e4a2e2e165",
+      "bytes": 423857
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "f6fc21111ddfc285b4cb877658ab7f63e22d770714c0693b7752000936323619",
+      "bytes": 424846
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "f2484f85d7ba8baa7fbaab80155c746848ff1fa2949778856986727e5e6cd26a",
+      "bytes": 431242
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "42e1cd23e3e8e2c84d6a207cf72046b021fc0494091d230b3d0423f2fd41df87",
+      "bytes": 411144
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "42e1cd23e3e8e2c84d6a207cf72046b021fc0494091d230b3d0423f2fd41df87",
+      "bytes": 411144
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "06bfd673adda1274763cb7601f078367cf6ef9ee0584292c49f8b964e8905e20",
+      "bytes": 44698
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "5af11e79d0e4b75ceba2e91cdd851a5197444e5c6983a224ac2eda390f5f4062",
+      "bytes": 49389
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "3ba0a2146ae876f4ab4ecfb9da3e44bb2166ec50a09563af60dd0bea7e5161f2",
+      "bytes": 420691
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "2692a4eb3000bcf52bb487f2bc96fce6ee8ce2d94047b126547aec9e4b5e92c0",
+      "bytes": 9450
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "63459da45a33e9ca2ad71c9d7394c0976dc084f10b8e16a27fadcdcf8c69adef",
+      "bytes": 5056
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "1f97edf2520381c84d8f"
+}

@@ -1,0 +1,2087 @@
+{
+  "schema": "mac_asset_curation/v1",
+  "note": "依据实际原件的模型策展判断；不是按关键词/像素算法评定艺术质量。active只表示有清楚复用用途，不表示当前镜头或医学通过。",
+  "assets": {
+    "paper:character_child_boy_seated_v1@0367bfc9636a451493f5": {
+      "status": "superseded",
+      "reason": "共同身体密度试装确认旧坐姿座高或身体构造不适合默认承托；改用同身份完整低椅新姿态，旧字节保留追溯。",
+      "candidate_replacement_id": "paper:character_child_boy_seated_scale_v2@f4655ee00b8d7de4fa8f",
+      "evidence_ref": "docs/character-scale.md",
+      "replacement_id": "paper:character_child_boy_seated_scale_v2@f4655ee00b8d7de4fa8f"
+    },
+    "paper:character_pregnant_woman_seated_v1@5a7ef8bff17ecd0b0439": {
+      "status": "superseded",
+      "reason": "共同身体密度试装确认旧坐姿座高或身体构造不适合默认承托；改用同身份完整低椅新姿态，旧字节保留追溯。",
+      "candidate_replacement_id": "paper:character_pregnant_woman_seated_scale_v2@6a7c4ce903a91930bb3b",
+      "evidence_ref": "docs/character-scale.md",
+      "replacement_id": "paper:character_pregnant_woman_seated_scale_v2@6a7c4ce903a91930bb3b"
+    },
+    "paper:mac_bp_cuff_action_v1@11d100b67f9ce6aa2681": {
+      "status": "superseded",
+      "replacement_id": "paper:mac_bp_cuff_action_v1@20cb7d6105426516f4bf",
+      "reason": "旧版本袖带落于衣袖，空筒前层不能贴合裸露上臂，改用贴合前层新配方。"
+    },
+    "paper:mac-filmcraft-kit-1-2@c7f326a152d3ee5e49ec": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_blank_report@1ef837c31be5f9dcee48": {
+      "status": "active",
+      "role": "whole_prop",
+      "operations": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_field_landscape@3788168d76e837266102": {
+      "status": "active",
+      "role": "landscape_strip",
+      "operations": [
+        "完整景物带作为中/远景"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "树木、房屋、地面是一个复合层，不适合分别表演。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_folder_stow_v1@7e6342bcf40ff43d560e": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_head_silhouette@c8f12d67a7a83df4c0f4": {
+      "status": "active",
+      "role": "whole_prop",
+      "operations": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_home_environment_v2@091b2eaee375810dc1a7": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_lab_environment_v2@be8fd37c9d925cab4870": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_observation_window@31cf7716b1368ba0b599": {
+      "status": "active",
+      "role": "whole_prop",
+      "operations": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_open_envelope@f450300b82f9dfffa8fa": {
+      "status": "active",
+      "role": "whole_prop",
+      "operations": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_theatre_kit_1_1_0@1a56b5ce9d17d7e59e63": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_torn_masking_tape_v1@685a770c6f2d860a52ad": {
+      "status": "active",
+      "role": "fastener",
+      "operations": [
+        "局部贴合固定",
+        "揭开/压下的整体纸件动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "纸胶带偏不透明，不能当透明膜；不放大成文字底板。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_wood_stamp@db19f53b705abe8c1c0b": {
+      "status": "active",
+      "role": "whole_prop",
+      "operations": [
+        "整体取放",
+        "平移/旋转/缩放",
+        "与其他独立纸件叠贴"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:pituitary_anatomy_collage@d22f4c30fac0f0046434": {
+      "status": "active",
+      "role": "whole_medical_diagram",
+      "operations": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
+        "使用前复核当前医学语境，不继承原集医学批准。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:pituitary_sagittal_layered_v1@74ed983a3a61846dfb23": {
+      "status": "active",
+      "role": "whole_medical_diagram",
+      "operations": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
+        "使用前复核当前医学语境，不继承原集医学批准。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md",
+      "display_title": "头部矢状位完整解剖纸图（单层）"
+    },
+    "paper:six_paper_breast_section@4256d1846ef0685065fb": {
+      "status": "active",
+      "role": "whole_medical_diagram",
+      "operations": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
+        "使用前复核当前医学语境，不继承原集医学批准。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_breast_stage@fe06264fd4a37251b316": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_foot_joint@d1dd464ddcf4faf60cfb": {
+      "status": "active",
+      "role": "whole_medical_diagram",
+      "operations": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
+        "使用前复核当前医学语境，不继承原集医学批准。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_gout_stage@0e13ed67a22531821353": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_graves_stage@47ddd84bfa1b776b269c": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_hashimoto_stage@7ee17cdc7478bd65c3f8": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_kidney_stage@bcbb774cb51fed5df263": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_kidneys_alpha@6a82c02d4522e45e1a1c": {
+      "status": "active",
+      "role": "whole_medical_diagram",
+      "operations": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
+        "使用前复核当前医学语境，不继承原集医学批准。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_music_breast_nodules_paper_theatre@af57cc6ec7164f51cb3b": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_music_ckd_paper_theatre@bf2903a97e1c3d75686b": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_music_gout_paper_theatre@54d02a82eb2cfc7a004a": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_music_graves_paper_theatre@e0c2a92c398e9f7ea237": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_music_hashimoto_paper_theatre@d1a96bf9614801feecc2": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_music_pcos_paper_theatre@b1790cd7c71a1075d22c": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_pcos_stage@15cf1f61c62167e446fc": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_pelvic_organs@78771b96fb07a030618b": {
+      "status": "active",
+      "role": "whole_medical_diagram",
+      "operations": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
+        "使用前复核当前医学语境，不继承原集医学批准。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_staging_modules@0276c523f08372574608": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:six_paper_thyroid_neck@3737a186fe4994dc0f0b": {
+      "status": "active",
+      "role": "whole_medical_diagram",
+      "operations": [
+        "整体取放",
+        "结构总览",
+        "局部相机观察"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "当前PNG没有器官内部可操作分层；揭示、分离或路径演示须另做匹配部件。",
+        "使用前复核当前医学语境，不继承原集医学批准。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_upper_arm_monitor_parts_v1@348a6965d45d1afb9070": {
+      "status": "active",
+      "role": "independent_parts_bundle",
+      "operations": [
+        "主机取放",
+        "袖带取放",
+        "部件分别交接"
+      ],
+      "reason": "六个独立RGBA原件已逐件查看及换底合成；装配静态小样已查看，按明确部件操作复用。",
+      "limitations": [
+        "没有展开/佩戴袖带姿态，不把卷起空袖带当佩戴教学。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_glucose_meter_parts_v1@9b061f3593f5bbe26bb0": {
+      "status": "active",
+      "role": "independent_parts_bundle",
+      "operations": [
+        "仪器取放",
+        "试纸独立移动/插入/取出"
+      ],
+      "reason": "六个独立RGBA原件已逐件查看及换底合成；装配静态小样已查看，按明确部件操作复用。",
+      "limitations": [
+        "无采血动作、读数和诊断阈值，具体结果由当前故事准备。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_medicine_bottle_parts_v1@eb46f4b0bcd3b0a82c0a": {
+      "status": "active",
+      "role": "independent_parts_bundle",
+      "operations": [
+        "瓶身取放",
+        "瓶盖独立提起/转动/移开"
+      ],
+      "reason": "六个独立RGBA原件已逐件查看及换底合成；装配静态小样已查看，按明确部件操作复用。",
+      "limitations": [
+        "瓶盖闭合时的透视、遮挡和压盖位置由当前镜头检查；此静态小样不批准完整旋盖动作。",
+        "无药名、剂量与数量，不用外观指定药物。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_clinic_environment@a69b853513af23d736b9": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_contact_stamp@0890d02304a9b9dc1dcf": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_lab_environment@6e47cd1c9148f602b90f": {
+      "status": "active",
+      "role": "backdrop",
+      "operations": [
+        "作为完整后景",
+        "相机推进/平移"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "已烘焙的门窗、家具、仪器不能独立运动；需要该动作时另取独立部件。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_music_bed@fb2bcc9b61e878b1a917": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_music_pulse@9144d94a62cae0433958": {
+      "status": "active",
+      "role": "music_or_audio_source",
+      "operations": [
+        "按情绪试听选择",
+        "按来源范围剪辑/混音"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "素材保存不证明听感，最终混音重新审听。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_object_handoff@59f2e1b570dea41b5d6c": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:paper_pocket_stow@dfb301e16fe825840757": {
+      "status": "active",
+      "role": "code_or_motion",
+      "operations": [
+        "学习/接入冻结组件",
+        "局部适配命名动作"
+      ],
+      "reason": "已查看原件，适合作为标注用途的复用候选；当前镜头审查仍需完成。",
+      "limitations": [
+        "查依赖与实际样例，不复刻原故事、时间码或风格。"
+      ],
+      "reviewed_on": "2026-10-11",
+      "evidence_ref": "docs/asset-coverage.md"
+    },
+    "paper:character_adult_man_seated_v1@2e7239aa53a9b65dac36": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_adult_man_seated_v1@0e0f00e844d41eb6e923"
+    },
+    "paper:character_adult_man_stand_v1@9ee5f27fd660bed6423a": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_adult_man_stand_v1@fa48c1a5d0c8a6a3193c"
+    },
+    "paper:character_child_girl_stand_v1@cfb23ae39c876a2eda2e": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_child_girl_stand_v1@6eae072205c7df07d6e2"
+    },
+    "paper:character_clinician_man_stand_v1@5b1ee13b4714179c028b": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_clinician_man_stand_v1@1106814b43a98b1e8f38"
+    },
+    "paper:character_clinician_woman_stand_v1@2b60f95b391dd2cec8df": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_woman_stand_v2@00f2cb2943a6ac2afe7b",
+      "reason": "用户确认主要受众为国内用户；旧女医生形象偏欧美，改用同身份中国女性医生姿态包。"
+    },
+    "paper:character_older_man_walk_v1@44ece7c39427842499a8": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_older_man_walk_v1@41d9d469185ca1c5b373"
+    },
+    "paper:character_older_woman_stand_v1@6451b3727af85d3ff8b6": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_older_woman_stand_v1@33a601c6e14b40ae09d7"
+    },
+    "paper:character_pregnant_woman_seated_v1@365ed3eb06f9152e5b72": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_pregnant_woman_seated_v1@5a7ef8bff17ecd0b0439"
+    },
+    "paper:character_pregnant_woman_stand_v1@77e10ca2ab07b1b6e0c6": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_pregnant_woman_stand_v1@f0401afbb4f61f21a57f"
+    },
+    "paper:character_teen_girl_stand_v1@8a63fa4f83c1bbf53a86": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_teen_girl_stand_v1@cf2e3bc0ae20a7d0cb38"
+    },
+    "paper:character_adult_man_seated_v1@abaa8dd722fa6beb112f": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_adult_man_seated_v1@0e0f00e844d41eb6e923"
+    },
+    "paper:reserve_person_stand_v1@305ae80fb0bed58e7b70": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_stand_v1@3c28ed53faed7bdb2097"
+    },
+    "paper:reserve_person_seated_v1@5510a16791829f3ec4dc": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_seated_v1@614a3e2cb69adf8772fe"
+    },
+    "paper:reserve_person_walk_v1@6579b0eb921fd44eeb90": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_walk_v1@1cab2d09694fc62de580"
+    },
+    "paper:reserve_person_reach_v1@513e7e26a2d567f82a90": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_reach_v1@d279322d68036a88358e"
+    },
+    "paper:reserve_person_lying_v1@700b6ad127664279668a": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:reserve_person_lying_v1@320cfdb5c2319276ab33"
+    },
+    "paper:character_pregnant_woman_seated_v1@b90781bfec4f119c5474": {
+      "status": "superseded",
+      "reason": "旧锚点修订未按 animation_element/v1 载荷身份计算，无法精确导入；使用覆盖表中的修正版。",
+      "replacement_id": "paper:character_pregnant_woman_seated_v1@5a7ef8bff17ecd0b0439"
+    },
+    "paper:male_patient_walk_20261023@d62490e89e12051bec27": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "完整头颈、双手和两鞋可见；灰黑短发、绿衬衫、锈红裤与参考站姿连续，左右脚处在不同步相。",
+      "operations": [
+        "完整人物按真实脚底落地",
+        "整件调度",
+        "与同身份姿态有意切换"
+      ],
+      "limitations": [
+        "只有一幅行走中间姿态，不是连续步态或可独立活动的肢体。",
+        "整件平移须保持鞋底、地面与投影一致；跨姿态需另审身份和体量。",
+        "不从外貌判断疾病或活动能力。"
+      ],
+      "evidence_ref": "records/paper-theatre/male_patient_walk_20261023/d62490e89e12051bec27/record.json"
+    },
+    "paper:character_adult_man_upper_abdomen_stool_v1@d9332801d4be8a8e1083": {
+      "status": "superseded",
+      "replacement_id": "paper:character_adult_man_upper_abdomen_stool_v1@940c35c3311ff976dd49",
+      "reason": "本轮静态复核修正坐面锚点为真实臀部后侧承托边缘；旧原件字节保留，不作为当前推荐。"
+    },
+    "paper:character_older_brother_stand_v1@3e1a2ff9045795feea85": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "眼镜、较窄脸、蓝衬衫、米色裤及棕鞋清楚；完整双手两鞋，朝画面左侧，未见作者品牌或医生标识。",
+      "operations": [
+        "完整人物落地",
+        "与其他身份人物并置"
+      ],
+      "limitations": [
+        "这是不同于绿衬衫患者的独立人物，不作为其换装或同人新姿态。",
+        "中老年外观只作普通家属角色，不用来推定疾病、遗传关系或固定年龄。",
+        "双手自然下垂，未准备接取或持物姿态；只是一幅站姿。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_older_brother_stand_v1/3e1a2ff9045795feea85/record.json"
+    },
+    "paper:abpm_patient_20261023@c4701855a2fc3c372fc2": {
+      "status": "needs_rebuild",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-24",
+      "reason": "袖带覆在毛衣上，会误导规范佩戴；退出默认推荐，仅保留来源追溯。裸露上臂及佩戴全过程改用新完整接触包。",
+      "operations": [
+        "精确历史引用与身份来源追溯"
+      ],
+      "limitations": [
+        "人物与袖带、软管、记录器烘焙为单层，只呈现已佩戴状态，不演示穿戴步骤。",
+        "不示范按钮操作、具体设备型号或屏幕数字诊断；需要独立操作时另备部件。",
+        "局部近景须保留袖带—软管—腰夹的真实连续关系；全身小图只作佩戴身份提示。",
+        "不得用于规范佩戴图或佩戴教学；不得由历史身体标尺推定医学可用。"
+      ],
+      "evidence_ref": "records/paper-theatre/abpm_patient_20261023/c4701855a2fc3c372fc2/record.json",
+      "replacement_id": "paper:mac_abpm_wear_cycle_v1@6ea5d67a895bc526e5b1"
+    },
+    "paper:character_adult_man_upper_abdomen_stool_v1@940c35c3311ff976dd49": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "完整头和两鞋、连续两臂两手及可见木凳成立；双手叠在上腹而非大腿，臀部由木凳承托。",
+      "operations": [
+        "人物与木凳整体摆放",
+        "按真实上腹位置添加局部反馈"
+      ],
+      "limitations": [
+        "人物、双手与木凳烘焙为单层整件，不可独立移动木凳或拆手。",
+        "两手已在上腹，不能再叠第三只手；凳脚与鞋底有透视前后，不强行压成一条线。",
+        "上腹不适不是特定疾病诊断，不表示胰腺炎。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_adult_man_upper_abdomen_stool_v1/940c35c3311ff976dd49/record.json"
+    },
+    "paper:male_patient_seated_identity_20261023@4d0b983a84f3a952e1a1": {
+      "status": "superseded",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "共同身体密度试装确认旧坐姿座高或身体构造不适合默认承托；改用同身份完整低椅新姿态，旧字节保留追溯。",
+      "operations": [
+        "按真实臀后承托点试装椅面",
+        "同母版站坐走姿态选择"
+      ],
+      "limitations": [
+        "原件朝画面左侧；镜像时头、手、臀部及脚底锚点须一起变换。",
+        "本图无椅子，使用时重新试装真实承托面；双手已放大腿，不附加第三手。",
+        "单幅坐姿不提供坐下起身过渡帧或连续动作。"
+      ],
+      "evidence_ref": "records/paper-theatre/male_patient_seated_identity_20261023/4d0b983a84f3a952e1a1/record.json",
+      "replacement_id": "paper:character_adult_man_alert_seated_scale_v2@2f8982a413a17ede57e7"
+    },
+    "paper:character_clinician_woman_stand_v1@161804ebe9c3db80578e": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_woman_stand_v2@00f2cb2943a6ac2afe7b",
+      "reason": "用户确认主要受众为国内用户；旧女医生形象偏欧美，改用同身份中国女性医生姿态包。"
+    },
+    "paper:character_clinician_woman_stand_v1@aa709f8be9b996bb84df": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_woman_stand_v2@00f2cb2943a6ac2afe7b",
+      "reason": "用户确认主要受众为国内用户；旧女医生形象偏欧美，改用同身份中国女性医生姿态包。"
+    },
+    "paper:character_man_alert_armchair_v1@237979fb0ab51f69d672": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "同一短灰黑发绿衫蓝裤男性睁眼坐直，双手在大腿，臀腿受座垫承托；全头、双鞋与扶手椅完整。",
+      "operations": [
+        "人物与扶手椅整体摆放",
+        "与同身份低头姿态按当前画面切换"
+      ],
+      "limitations": [
+        "人物和扶手椅烘焙为单层，不可拆椅子或独立摆手。",
+        "睁眼坐直仅是可见状态，不能仅凭外观判定安全吞咽、血糖或意识。",
+        "两幅椅子轮廓非逐像素相同，切换时按各自脚底与椅脚重排，不按PNG外框硬对齐。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_man_alert_armchair_v1/237979fb0ab51f69d672/record.json"
+    },
+    "paper:character_man_unresponsive_armchair_v1@1c789f2f0a894ca77f5f": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "与睁眼图脸型、灰黑发、绿衫蓝裤棕鞋和蓝椅一致；头低垂且眼闭，背部、臀腿及手臂有椅背/座垫/扶手支持。",
+      "operations": [
+        "人物与扶手椅整体摆放",
+        "在医学语境核对后呈现需要帮助的状态"
+      ],
+      "limitations": [
+        "静图只确认闭眼、低头与身体由椅子承托，不据此诊断昏迷或低血糖。",
+        "不是恢复体位、气道开放、喂食或急救操作示范。",
+        "人物与椅子不可拆；没有从清醒到低头或后续恢复的连续过渡帧。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_man_unresponsive_armchair_v1/1c789f2f0a894ca77f5f/record.json"
+    },
+    "paper:character_carer_calling_v1@c6ae15c6783548016f4a": {
+      "status": "active",
+      "role": "complete_character_pose",
+      "reviewed_on": "2026-10-23",
+      "reason": "芥黄开衫、短深发、白内搭、蓝绿阔腿裤和白鞋与参考一致；电话贴耳颊，手腕前臂连续，另一手完整下垂，未见多肢。",
+      "operations": [
+        "完整人物与电话整体摆放",
+        "向患者或画面留白方向通话"
+      ],
+      "limitations": [
+        "电话、持机手与身体为单层整件，不能另叠浮空手机、再造持握手或独立拨号。",
+        "现有自由手自然下垂，不表示可以接取任意道具。",
+        "只有贴耳通话状态，不提供拿起、拨号、放下的连续过渡。"
+      ],
+      "evidence_ref": "records/paper-theatre/character_carer_calling_v1/c6ae15c6783548016f4a/record.json"
+    },
+    "paper:reserve_thyroid_simple_v1@f23e768de6e8ae054137": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_thyroid_simple_v2@42a5906cf1404c20b04d",
+      "reason": "旧远景图与近景分层包外观相同；由真正的轮廓简化版本替代，旧版本只保留来源恢复。"
+    },
+    "paper:exercise_grip@e5689cd6c5f869f260e5": {
+      "status": "active",
+      "role": "hand_object_unit",
+      "reviewed_on": "2026-10-23",
+      "reason": "一只手和连续前臂自然包握青色哑铃，黄色袖口从右下方进入；没有头或躯干，属于有意的纯对象局部。",
+      "operations": [
+        "以对象近景呈现真实握持",
+        "保持前臂从画外连续伸入的整体举落"
+      ],
+      "limitations": [
+        "局部手/前臂与哑铃为不可拆整体，不能当完整人物或拼成新人物。",
+        "未使用人物母版，只能称黄色袖口风格兼容，不声明同一角色身份。",
+        "前臂在右侧画布边缘有意截出，构图需让切边从画外连续进入，不悬放成断臂。",
+        "不推断哑铃重量、运动剂量或个体处方，不当作注射或其他器械操作。"
+      ],
+      "evidence_ref": "records/paper-theatre/exercise_grip/e5689cd6c5f869f260e5/record.json"
+    },
+    "paper:reserve_chopping_board_v1@bf29e73c60c0b2eba40f": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_chopping_board_v1@6104dd91a2368bf31b07",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_frying_pan_v1@eb4136429496a26ab577": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_frying_pan_v1@6d276ea81ca77b6ba30d",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_induction_cooktop_v1@4f0122a030f379bb0e14": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_induction_cooktop_v1@dc6366189c77d875a1da",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_kitchen_knife_v1@12bce77da279a7f6e766": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_kitchen_knife_v1@c0f86850496f46d9900c",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:reserve_wooden_spatula_v1@4fdcfdb98f8a59a9f26e": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_wooden_spatula_v1@89a45953b59078677bf3",
+      "reason": "补齐完整生成提示词、实际可见边界与器具接触点；原图字节不变。"
+    },
+    "paper:character_adult_man_seated_v1@01dc044f8da64299170b": {
+      "status": "superseded",
+      "replacement_id": "paper:character_adult_man_seated_v1@0e0f00e844d41eb6e923",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_adult_man_stand_v1@0a95ce7392f358c8ed6d": {
+      "status": "superseded",
+      "replacement_id": "paper:character_adult_man_stand_v1@fa48c1a5d0c8a6a3193c",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_child_girl_stand_v1@1c2ddf31f6caf6708815": {
+      "status": "superseded",
+      "replacement_id": "paper:character_child_girl_stand_v1@6eae072205c7df07d6e2",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_clinician_man_stand_v1@9381718eafedd7ca8bb6": {
+      "status": "superseded",
+      "replacement_id": "paper:character_clinician_man_stand_v1@1106814b43a98b1e8f38",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_older_man_walk_v1@bc418aac9adacdf209a3": {
+      "status": "superseded",
+      "replacement_id": "paper:character_older_man_walk_v1@41d9d469185ca1c5b373",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_older_woman_stand_v1@e58d9fdb15185eaa3f86": {
+      "status": "superseded",
+      "replacement_id": "paper:character_older_woman_stand_v1@33a601c6e14b40ae09d7",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_pregnant_woman_seated_v1@831d13c4263e07061c83": {
+      "status": "superseded",
+      "replacement_id": "paper:character_pregnant_woman_seated_v1@5a7ef8bff17ecd0b0439",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_pregnant_woman_stand_v1@1bb6be982f7182074c45": {
+      "status": "superseded",
+      "replacement_id": "paper:character_pregnant_woman_stand_v1@f0401afbb4f61f21a57f",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:character_teen_girl_stand_v1@bd02121f2db2f2770c9c": {
+      "status": "superseded",
+      "replacement_id": "paper:character_teen_girl_stand_v1@cf2e3bc0ae20a7d0cb38",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_lying_v1@d2bac5b6b57519f51f5a": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_lying_v1@320cfdb5c2319276ab33",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_reach_v1@06699488519265d1f09e": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_reach_v1@d279322d68036a88358e",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_seated_v1@0d8717db010fff199181": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_seated_v1@614a3e2cb69adf8772fe",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_stand_v1@e84a56ed2a70394297d2": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_stand_v1@3c28ed53faed7bdb2097",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_person_walk_v1@bfd14a6e821ae1093957": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_person_walk_v1@1cab2d09694fc62de580",
+      "reason": "同一原件的重复登记修订，载荷字节完全相同；保留推荐版本，另一个退出推荐。"
+    },
+    "paper:reserve_alveolus_detailed_layers_v1@a7b1ca81d056be9dd943": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_detailed_layers_v1@21f9f29a02e3014140e9",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_alveolus_simple_v1@da6c1ad0ceaa5d101e07": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_simple_v1@49c23515cef6c7bb155f",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_blood_cell_detailed_layers_v1@af5738716b9095cacd3b": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_blood_cell_detailed_layers_v1@28b3eebc5e1223371b05",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_blood_cell_simple_v1@ac642f04d65fedc615db": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_blood_cell_simple_v1@8364a279421c695562bc",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_breast_detailed_layers_v1@05c07447b40ac87b2527": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_breast_detailed_layers_v1@e77900d42445b4559b64",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_breast_simple_v1@4b1c490ec2bb6fb35461": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_breast_simple_v1@6d947fa1918f9cf60832",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_foot_joint_detailed_layers_v1@b23810d694524fc23f98": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_foot_joint_detailed_layers_v1@e3cfe0997c53a8f6568a",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_foot_joint_simple_v1@201e837ca40983f2e7c9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_foot_joint_simple_v1@55deeae4fa89f7b46f7b",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_gallbladder_detailed_layers_v1@452e04074ffb1d36fa66": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_gallbladder_detailed_layers_v1@3bdfc2770d65d076e35f",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_gallbladder_simple_v1@1cf897c4b3dc42cab3a7": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_gallbladder_simple_v1@e49d3fe89b9754c5b012",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_head_sagittal_detailed_layers_v1@5653173d90ea6b5d0fe6": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_detailed_layers_v1@9a253e27360f854309b2",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_head_sagittal_simple_v1@06e5915bd9260937fef4": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_simple_v1@deace99704b7085c6a9d",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_heart_detailed_layers_v1@9fcc3fc1b22ac2baa4c6": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_heart_detailed_layers_v1@790283e8280f807a9c84",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_heart_simple_v1@50a5672437e3bf9d7f1f": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_heart_simple_v1@4a0719a4d1030e51420f",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_intestine_detailed_layers_v1@4ab98927ef024bffd1e9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_intestine_detailed_layers_v1@c487af63c56fe958fbf5",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_intestine_simple_v1@0f3ee5e93abace88edc1": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_intestine_simple_v1@2d0a8dae0e1c5a7d4ebb",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_islet_detailed_layers_v1@2a82edd2654cb2245a7a": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_detailed_layers_v1@6d01baf2b86a6f4a2bca",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_islet_simple_v1@14b2051ac2221d37e2d6": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_simple_v1@b4557d8244facd1a5e96",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_liver_detailed_layers_v1@b2943f56da7fc40f28b8": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_liver_detailed_layers_v1@bc9caf3e1e4c670e2a50",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_liver_simple_v1@b0b6c10803172fee43b8": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_liver_simple_v1@d1b3633de5bd624e8c88",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_lungs_detailed_layers_v1@64533e63afb5c798c859": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_lungs_detailed_layers_v1@f8cfb2689bb328235a18",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_lungs_simple_v1@65b1cc918695271c93f8": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_lungs_simple_v1@6967c475c6a2d78f42d8",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_pelvic_organs_detailed_layers_v1@3c558b623e073d9db7cf": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_pelvic_organs_detailed_layers_v1@ae5edeb0999e0685d05e",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_pelvic_organs_simple_v1@8176d7b0a02ee411b71b": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_pelvic_organs_simple_v1@1b98569e492237e31d67",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_stomach_detailed_layers_v1@1482fc3f158c89391e4e": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_detailed_layers_v1@23401fcbd1e6243c10f7",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:reserve_stomach_simple_v1@ea36558e48b03d527d7f": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_simple_v1@313e124d42dfd53d270a",
+      "reason": "本轮修订基础结构、接触锚点与分层关系；旧版保留恢复，退出默认推荐。"
+    },
+    "paper:mac_glucose_test_action_v1@eed376f892010eb4f94b": {
+      "status": "superseded",
+      "replacement_id": "paper:mac_glucose_test_action_v1@21bc641c6ab3e57b9124",
+      "reason": "旧版本存在试纸比例及采样流程错误，改用保持连接采样的新版本。"
+    },
+    "paper:mac_bp_cuff_action_v1@20cb7d6105426516f4bf": {
+      "status": "superseded",
+      "reason": "可编辑配置与实际画面统一；修正事件到完成时点，移除未使用的旧数值配置。",
+      "replacement_id": "paper:mac_bp_cuff_action_v1@8828a69c69d7506f2fe9"
+    },
+    "paper:reserve_stomach_simple_v1@313e124d42dfd53d270a": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_simple_v1@f9bd1d160545367e053e",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_stomach_detailed_layers_v1@23401fcbd1e6243c10f7": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_stomach_detailed_layers_v1@a0bcadb497019435fce1",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_islet_simple_v1@b4557d8244facd1a5e96": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_simple_v1@73222e15187638a73eb7",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_islet_detailed_layers_v1@6d01baf2b86a6f4a2bca": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_islet_detailed_layers_v1@b6e82449ca22643fdb94",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_alveolus_simple_v1@49c23515cef6c7bb155f": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_simple_v1@b39946c8ed27726b5c8b",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_alveolus_detailed_layers_v1@21f9f29a02e3014140e9": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_alveolus_detailed_layers_v1@0ca379a4c29543ba92bf",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_head_sagittal_simple_v1@deace99704b7085c6a9d": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_simple_v1@959f32ec2b9f3f108e62",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_head_sagittal_detailed_layers_v1@9a253e27360f854309b2": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_detailed_layers_v1@f56a5498aa9373296fa0",
+      "reason": "修正胰岛局部与器官总览混淆、胃与气腔连接关系、头部脑底及鼻旁窦位置。"
+    },
+    "paper:reserve_gallbladder_simple_v1@e49d3fe89b9754c5b012": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_gallbladder_simple_v1@fc67110e5635234821cd",
+      "reason": "简化版保留所声明的识别关系：脑底/垂体位置及胆囊颈管，避免只有泛化轮廓。"
+    },
+    "paper:reserve_head_sagittal_simple_v1@959f32ec2b9f3f108e62": {
+      "status": "superseded",
+      "replacement_id": "paper:reserve_head_sagittal_simple_v1@fd6e6089aa85e795ce7a",
+      "reason": "简化版保留所声明的识别关系：脑底/垂体位置及胆囊颈管，避免只有泛化轮廓。"
+    },
+    "paper:mac_abpm_recording_v1@d2749f0e7a541383cf10": {
+      "status": "superseded",
+      "replacement_id": "paper:mac_abpm_wear_cycle_v1@6ea5d67a895bc526e5b1",
+      "reason": "旧已佩戴状态袖带覆在毛衣上；新版裸露上臂并补佩戴/固定/试测/记录/交回完整过程。"
+    },
+    "paper:mac_sit_stand_cycle_v1@4566cda5964aae090ce4": {
+      "status": "needs_rebuild",
+      "reason": "人物/椅子独立标尺造成椅子过大；坐面透视与髋腿方向冲突，臀部承托关系不成立。",
+      "replacement_id": "paper:mac_young_man_seat_report_stand_v1@ac16dc26346a141b72a7",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "rejected",
+        "motion": "rejected",
+        "sampled_visual": "rejected",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_bp_cuff_action_v1@8828a69c69d7506f2fe9": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_breast_section_open_close_v1@20f3ae1dbaa2e6207599": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_breast_structure_reveal_v1@02d47dbd37c7a53cc3fc": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_child_girl_seat_report_stand_v1@dcec43d66138230ec3ff": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_abpm_wear_cycle_v1@6ea5d67a895bc526e5b1": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_artery_wall_section_open_close_v1@d3b42c1c811ddd9b5a89": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_artery_wall_structure_reveal_v1@ace05efbabd7dc24cc14": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_care_assistance_v1@0824456d2c4a3030b477": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pituitary_structure_reveal_v1@50c991ff650097866d28": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pituitary_section_open_close_v1@f7c12568f5541cbebe0d": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_head_sagittal_section_open_close_v1@7439677f2adf4760d14b": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_head_sagittal_structure_reveal_v1@79c69e95851480bbffaf": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pregnant_woman_seat_report_stand_v1@dbdf3f8b1b8d4da0dd12": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_young_man_seat_report_stand_v1@ac16dc26346a141b72a7": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_heart_section_open_close_v1@ae77e13bee9b9b8fb6c1": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_heart_structure_reveal_v1@575415b9c0ffd2f3d1b4": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_adult_woman_seat_report_stand_v1@e083d01cdecb8a8c3bfc": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_thyroid_section_open_close_v1@7667b1fba0014b663049": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_thyroid_structure_reveal_v1@74b2cf269374f032e66f": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_teen_boy_seat_report_stand_v1@026befb03059088054a6": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_child_boy_seat_report_stand_v1@9eb7f01231eaa0e5fbcd": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pelvic_organs_section_open_close_v1@a8b20ad154ce34674e70": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pelvic_organs_structure_reveal_v1@58186e09da3e55ab2712": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_blood_cell_section_open_close_v1@18b79d483310e3a93876": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_blood_cell_structure_reveal_v1@1796d548fd76b770cc4a": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_older_woman_bed_rest_v1@192c18c68bd1ad5696fd": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_older_woman_seat_report_stand_v1@4174f7197beae2897bc7": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_older_man_seat_report_stand_v1@b33ca88b838e81d699ae": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_liver_section_open_close_v1@a7977be33dd96de214ae": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_liver_structure_reveal_v1@e7e852b962ac2b43adab": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_intestine_section_open_close_v1@e7635ce0fc0ed8682347": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_intestine_structure_reveal_v1@0455ca73b67bba2a3a7d": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_lungs_section_open_close_v1@1ad8eec277c06e117059": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_lungs_structure_reveal_v1@2b7ff940406eddf29d08": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_alveolus_section_open_close_v1@5d5aefbc6f034478f5f6": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_alveolus_structure_reveal_v1@adacda649082a0c7b1cb": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_kidney_section_open_close_v1@b2fb8e841d453a51526e": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_kidney_structure_reveal_v1@87e27d778734f4cecfd9": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_stomach_section_open_close_v1@cf833d5b245065979315": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_stomach_structure_reveal_v1@0c12d2c2490bf53fca6c": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_gallbladder_section_open_close_v1@062b356ec697b6e0fc60": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_gallbladder_structure_reveal_v1@ecf0db3d4b2c841a84ad": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_islet_section_open_close_v1@e4ae9264b9d2663fc54f": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_islet_structure_reveal_v1@cb3f59421274294df2ac": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pancreas_section_open_close_v1@036b35592e6aba9a38cd": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_pancreas_structure_reveal_v1@03e53a4d4d44f1093b67": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_glucose_test_action_v1@21bc641c6ab3e57b9124": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_foot_joint_section_open_close_v1@e4d88e4c8e317e953d94": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_foot_joint_structure_reveal_v1@39850ead089a20c900ac": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_cooking_action_v1@ecd40b78c8d45dae9886": {
+      "status": "superseded",
+      "reason": "餐盘近正视竖立在斜视锅台后方，盛出食材缺少可信承托。新修订将餐盘置于同一台面视角并重设落点。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "rejected",
+        "motion": "rejected",
+        "sampled_visual": "rejected",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      },
+      "replacement_id": "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4"
+    },
+    "paper:mac_teen_girl_seat_report_stand_v1@ea686c0841f587a08ce5": {
+      "status": "active",
+      "reason": "本次已复核所列画面；原审看声明缺少独立范围依据，完整动态及换底结论不再沿用。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    },
+    "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4": {
+      "status": "active",
+      "reason": "餐盘与锅台采用同一俯斜视角；食材在联系表中落在盘内，保持三片身份。",
+      "reviewed_on": "2026-11-01",
+      "evidence_ref": "docs/quality-audit-2026-11-01.md",
+      "review_boundary": {
+        "static": "pending",
+        "motion": "pending",
+        "sampled_visual": "reviewed",
+        "evidence_ref": "docs/quality-audit-2026-11-01.json",
+        "quality_debt": [
+          "static_background_review_pending",
+          "full_motion_review_pending",
+          "current_shot_review_pending"
+        ]
+      }
+    }
+  }
+}

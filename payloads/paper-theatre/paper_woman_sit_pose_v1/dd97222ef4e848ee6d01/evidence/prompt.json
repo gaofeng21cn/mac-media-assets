@@ -1,0 +1,48 @@
+{
+  "id": "woman_sit_pose",
+  "title": "成年女性同身份坐姿·完整纸件",
+  "usage": "沿用芥黄开衫、青色裤成年女性身份的坐姿；椅子另行装配，头段配准同身份母版，不按坐姿外框当身高。",
+  "character_role": "adult_woman",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/gaofeng/workspace/科普视频/work/paper-theatre-restoration-20261115/asset-bank/assets/library/character_adult_woman_reach_v2/fd6d9e040165a718b8be/files/payload.png"
+  ],
+  "prompt": "Create ONE new complete SEATED POSE of exactly the SAME adult Chinese woman as this reference. Preserve her face, short wavy dark bob, adult body proportions, mustard cardigan with brown buttons over cream shirt, teal wide-leg trousers and cream sneakers, same exquisite hand-painted fibrous cut-paper craft, gouache and fine pencil texture. She sits upright in a natural three-quarter view facing RIGHT, hips and knees bent approximately at right angles, both complete feet flat at the same floor level, relaxed shoulders, both hands resting lightly on her thighs, attentive calm expression looking to the right. Keep full head and hair, entire torso, both hands, legs and both shoes intact. Do not add a chair: the complete seated body will be assembled on a separately registered chair in animation. Do not change age, clothes, identity or head-to-body scale. One full coherent character, no extra poses or objects. Generous genuine RGBA transparent exterior with clean cut-paper contours, no scene, floor, cast shadow, glow, backdrop, labels or text.",
+  "human_scale": {
+    "nominal_height_cm": 163,
+    "height_status": "authored_design_reference",
+    "scale_family": "adult_woman_cn_mustard",
+    "pose": "sit",
+    "subject": "character",
+    "calibration": {
+      "status": "calibrated",
+      "from": {
+        "x": 0.45,
+        "y": 0.031
+      },
+      "to": {
+        "x": 0.45,
+        "y": 0.203
+      },
+      "span_cm": 22.82,
+      "basis": "本次查看完整原件，以头顶约48px至下巴约312px的头段，与同身份伸手母版22.82cm设计头段配准；不是以坐姿外框当站立身高。身体体量与椅面另行试装。"
+    }
+  },
+  "registration": {
+    "coordinate_space": "pixel_xy_normalized_to_source_image",
+    "anchors": {
+      "head": {
+        "x": 0.43,
+        "y": 0.11
+      },
+      "feet": {
+        "x": 0.65,
+        "y": 0.974
+      },
+      "seat": {
+        "x": 0.31,
+        "y": 0.64
+      }
+    }
+  }
+}

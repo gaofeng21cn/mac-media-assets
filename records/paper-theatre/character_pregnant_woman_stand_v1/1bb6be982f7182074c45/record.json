@@ -1,0 +1,107 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_pregnant_woman_stand_v1",
+  "title": "孕妇完整站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "pregnant",
+    "stand",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "孕妇完整站姿",
+    "aliases": [
+      "孕妇",
+      "怀孕",
+      "孕期",
+      "产妇",
+      "备孕",
+      "pregnant",
+      "pregnancy"
+    ],
+    "objects": [
+      "完整孕妇人物"
+    ],
+    "story_roles": [
+      "孕期沟通",
+      "备孕咨询",
+      "产科衔接"
+    ],
+    "actions": [
+      "站立",
+      "倾听",
+      "轻扶腹部"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整全身孕妇，不做几何拼人；当前镜头仍需核对身份、尺度和遮挡。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "完整孕妇站姿；用于备孕、孕期与产科沟通。主体全身完整，不做几何拼人。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_pregnant_woman_stand_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    0,
+    29,
+    1004,
+    1517
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      29,
+      1004,
+      1517
+    ],
+    "opaque_ratio": 0.1923,
+    "translucent_ratio": 0.0126,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "e8f74789d703cb48c2ea13a1dd05b6a030508736b808ebe3bd4dc22423e40c56",
+      "bytes": 1590991
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "11941359f11fe6371a83d6c05de56488e4f790b8257228c7eddd3b471cfe3744",
+      "bytes": 506
+    }
+  ],
+  "revision": "1bb6be982f7182074c45"
+}

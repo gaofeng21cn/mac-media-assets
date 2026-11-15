@@ -1,0 +1,8 @@
+{
+  "id": "hand_skeleton_overview",
+  "title": "手与腕部骨骼·骨龄观察对象示意",
+  "topic": "child_growth",
+  "usage": "只表示骨龄评估关注手腕骨骼；不是患者X线、骨龄图谱或年龄判定依据。",
+  "transparent_background": true,
+  "prompt": "ONE isolated fine patient-education HAND SKELETON, palmar view, complete wrist carpals, five metacarpals and correct five digits. Four fingers each have three phalanges; thumb has two. Gently spread natural fingers, no forearm beyond a short distal radius/ulna segment, no skin. Anatomically coherent small ivory/ochre bones with subtle blue-green joint spaces. Sophisticated handmade fibrous cut-paper collage, softly painted gouache and fine colored-pencil texture, delicate layered paper relief. This is an educational anatomical specimen, NOT a real radiograph or an age-standard plate. Entire skeleton complete and centered with generous true RGBA transparent margins, no labels, numbers, arrows, dates, text, frame, backdrop, surface, cast ground shadow or halo."
+}

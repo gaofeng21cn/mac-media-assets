@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MAC 连续动作</title>
+<style>
+body{margin:0;background:#242a28;color:#eee;font:16px system-ui;line-height:1.7}
+main{max-width:1280px;margin:24px auto;padding:0 16px}canvas{width:100%;height:auto;display:block}
+nav{display:flex;gap:14px;align-items:center;margin:14px 0;flex-wrap:wrap}
+button,input,select{font:inherit}input{flex:1;min-width:180px}button,select{padding:6px}
+p{color:#d2d0c8}h1{font-size:22px;font-weight:600}
+</style>
+<main><h1 id="title"></h1><canvas id="stage" width="1280" height="720"></canvas>
+<nav><button id="play">播放</button><input id="time" type="range" min="0" step="0.01" value="0"><output id="clock">0.00</output>
+<select id="background" aria-label="审看底色"><option value="#f4eedf">浅纸底</option><option value="#263b3a">深色底</option><option value="#b3d0c5">彩纸底</option></select></nav>
+<p id="description"></p><p id="scope"></p></main>
+<script type="module" src="viewer.mjs"></script></html>

@@ -1,0 +1,57 @@
+{
+  "id": "character_teen_girl_reach_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_teen_girl_stand_v1/699014f2978da454f37e/files/payload.png",
+  "prompt": "Use case: illustration-story. Reusable complete paper-theatre character pose for Chinese patient education. Input 1 is exact identity and style reference: same Chinese teenage girl, shoulder-length dark hair, mustard cardigan over white collared shirt, blue trousers and pale sneakers; preserve adolescent proportions and age. Create exactly same person, changing only pose to standing grounded facing three-quarter screen right, extending the screen-right forearm with open palm at comfortable lower chest height ready to receive a separate report, other hand relaxed and visible; no object drawn. Preserve face, hairstyle, clothing and footwear colors, paper-cut illustration style, connected natural anatomy. Full body including all hair, visible hands and both shoes, generous transparent margin. Opaque paper interior with subtle texture. One isolated person on GENUINE transparent alpha background; no chair, furniture, props, floor, shadow, aura, glow, vignette, blur, text, watermark or checkerboard. Not a multi-pose sheet.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-72b58e5f-e9fe-4ab3-ab24-6957cebeb535.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "1cdfd2b2ab7a01d872816d8b4f8093278b33338938b0ae563baac475c431c85c",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      41,
+      16,
+      1000,
+      1536
+    ],
+    "opaque_ratio": 0.2482,
+    "translucent_ratio": 0.0098,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      284,
+      18,
+      913,
+      1524
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.47,
+        "y": 0.085
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.975
+      },
+      "hand_left": {
+        "x": 0.55,
+        "y": 0.495
+      },
+      "hand_right": {
+        "x": 0.83,
+        "y": 0.315
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

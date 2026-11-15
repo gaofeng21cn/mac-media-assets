@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_drink_carton_v1",
+  "title": "带吸管饮料纸盒·独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    10,
+    1023,
+    1536
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "drink_carton"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "带吸管饮料纸盒·独立纸件",
+      "drink_carton"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "带吸管饮料纸盒·独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        10,
+        1023,
+        1536
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "饮品选择与替换的生活道具，不表示全部盒装饮品都含糖；片中用途由旁白具体限定。"
+    }
+  ],
+  "usage_notes": "饮品选择与替换的生活道具，不表示全部盒装饮品都含糖；片中用途由旁白具体限定。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "a22fe5a0c7051a2950b7f5ae6cf69ec96015b38177b49e516241ec71a90ab227",
+      "bytes": 1573912
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "bbee67d3a3adffbc086cac42551f849518a69e16bebfd22445153cdfa35e19e9",
+      "bytes": 917
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "2e4b037f68bc4c7dc339a16629c5264857e7c8ca0cd36f2b09886b90c337df9f",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f1d4ee92cb317fc5d739040761201e5a821908754ea0d216cb3af24e641f531c",
+      "bytes": 628
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "6df315d98d68ed1b3de7b1a0d232df401b779bf2447873450dd9997f8473796d",
+      "bytes": 54724
+    }
+  ],
+  "revision": "a36ad03ba47db4406f50",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_drink_carton_v1@a66bf2b43ccd61e597fa",
+    "source_record_sha256": "933b13f2d58a6675234228043596406985945a8b6fd145bd5f41eb68c3b6ec0c",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "69779fe20c38da0c99a24334ff361b57fda3388582a3cf5307243225def82d0f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

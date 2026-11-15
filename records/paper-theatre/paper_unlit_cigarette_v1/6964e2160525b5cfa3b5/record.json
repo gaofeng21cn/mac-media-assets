@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_unlit_cigarette_v1",
+  "title": "未点燃香烟·暴露说明独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    49,
+    13,
+    2158,
+    724
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "unlit_cigarette"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "未点燃香烟·暴露说明独立纸件",
+      "unlit_cigarette"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "未点燃香烟·暴露说明独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        49,
+        13,
+        2158,
+        724
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "烟草暴露与停止暴露的中性道具，无品牌或吸烟示范。"
+    }
+  ],
+  "usage_notes": "烟草暴露与停止暴露的中性道具，无品牌或吸烟示范。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "4ec22ec7d06f6971d73db2186ef11b804e8202629d391c7d97bef8e21c7f035c",
+      "bytes": 740766
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "cee377afd7ebb335144301e629e971645b848997aada3d514603241ea5ffe9c9",
+      "bytes": 837
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "3c4133984c751c4bdbaf8ec1302f5de2c2b1f8c7180d760fa69dce34947be611",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "622b62d81f7e52c7eefbf315c944bbaeafb64f52c34a4e040bc41705784e7cf9",
+      "bytes": 592
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "ea5733ccffd56e6482726ebe5b07a1ecb40ceaab7f1a628f1ee6645c9de3f724",
+      "bytes": 29821
+    }
+  ],
+  "revision": "6964e2160525b5cfa3b5",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_unlit_cigarette_v1@833b4c60ebb89e5971da",
+    "source_record_sha256": "f6289ab0bf29455cc23d4f5fa17fbb0197f416f884a50757d9a3a9bd55dc622a",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a0df6fa37efc0cf72ee1eea479f5fbfc7c7408884051291874b3bf5917ed30a5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

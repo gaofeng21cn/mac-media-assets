@@ -1,0 +1,13 @@
+{
+  "id": "epithelial_cell_sample",
+  "title": "鳞状上皮细胞样本·独立观察示意",
+  "topic": "hpv_prevention",
+  "usage": "表示细胞取样与观察对象；正常示意外观不用于判断HPV感染、细胞学异常或癌症。",
+  "transparent_background": true,
+  "prompt": "Edit this epithelial-cell patch. Preserve the eight hand-painted fibrous paper cells and their small purple nuclei exactly as recognizable ordinary squamous cells. REMOVE ALL the broad dusty-pink fog, glow, blur, cast shadow and soft backdrop surrounding the cut-paper contours. The OUTSIDE of the actual cell silhouettes must be completely transparent, including the holes between cells. Clean crisp natural paper edges, generous empty alpha margin. No ground shadow and no blurred translucent perimeter whatsoever. Keep the paper grain inside the cells, not smeared into their surrounding transparent pixels. No text or added items.",
+  "referenced_image_paths": [
+    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-c68ea85f-6617-4e0c-894f-bd026038a673.png"
+  ],
+  "rejected_source": "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-c68ea85f-6617-4e0c-894f-bd026038a673.png",
+  "rejection_reason": "外围雾状光晕"
+}

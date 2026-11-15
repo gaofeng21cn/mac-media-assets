@@ -1,0 +1,98 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_person_walk_v1",
+  "title": "通用人物步行姿态",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "character",
+    "person_walk"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "person_walk",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    19,
+    1232,
+    1224
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "d3c902e618766786577e5ca8d51536d87223ef0ef0aa91b9b85895f52d1aaf37",
+      "bytes": 597178
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "bd3080d24c8ce94bec34e80c2fb1f7fd7de9a79c6250e2909922cada7dbd8650",
+      "bytes": 1608
+    }
+  ],
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.075
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.974
+      },
+      "hand_left": {
+        "x": 0.319,
+        "y": 0.509
+      },
+      "hand_right": {
+        "x": 0.691,
+        "y": 0.444
+      }
+    }
+  },
+  "revision": "1cab2d09694fc62de580",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_person_walk_v1@64f9cb0a08e0312dbd4d",
+    "source_record_sha256": "c331c01865780c96c4f4a609c66cb44cd5cc9f20af2fc9eb7d394c78f09597b1",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "3516260949062e79eab83f02b95d1555c10af79304590a76ad878f6691ee9ed8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

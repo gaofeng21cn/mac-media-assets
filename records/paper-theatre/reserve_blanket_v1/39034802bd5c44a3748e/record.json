@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_blanket_v1",
+  "title": "独立折叠被褥",
+  "kind": "environment",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "environment",
+    "blanket"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "覆盖/收纳；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "blanket",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1236,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "2fd72721b4c608c44cea0bb7d5f4d3eacb2b1e802d545833cff2e2393a6cc082",
+      "bytes": 1248282
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "28f0dfc06b2f6129efc045fdbe5d8b532a435939a43d2b64d0ea2bf3c2e35e86",
+      "bytes": 1235
+    }
+  ],
+  "revision": "39034802bd5c44a3748e",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_blanket_v1@d85134f364f5fc010470",
+    "source_record_sha256": "f8d50439c3d1f944c3ee2aa5af81571d2c33ba03cb3c829beef83e66a9e24112",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "e79b92d6263f77be6dffa5952caad065d0f14f4ba8ab975334a2e0364c71a0ef",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

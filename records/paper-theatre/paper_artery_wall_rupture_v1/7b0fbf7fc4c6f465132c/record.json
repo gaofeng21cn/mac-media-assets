@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_artery_wall_rupture_v1",
+  "title": "动脉管壁破口与出血·同视角",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "stroke"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    19,
+    26,
+    2146,
+    724
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "artery_wall_rupture"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "动脉管壁破口与出血·同视角",
+      "artery_wall_rupture"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "动脉管壁破口与出血·同视角",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        19,
+        26,
+        2146,
+        724
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "管壁局部破口与向外出血；与腔内阻塞分别表达，不指示统一处置。"
+    }
+  ],
+  "usage_notes": "管壁局部破口与向外出血；与腔内阻塞分别表达，不指示统一处置。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "c3f50e8b9b5118a09d516996b60a45926dd99b0dd0d1368f90f3853ec2d4ce46",
+      "bytes": 1315908
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "99d4cf8cc892de15887bf822d9d56c4f25bef06824b3886ba11d8b7d61416028",
+      "bytes": 1178
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "ae75705d178a474f9cfba9ee6df1955841b6d63a6aa55075598c881915bdc676",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "2f1238d206aea44e56bc5c439d64082f4cb0b39f19ee792fe6085dbc7a0c688f",
+      "bytes": 607
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "a7826d7a5ba9296596864e2962dbdf42ddd3b1ef28a6dfb4b0d8c757f08c12a1",
+      "bytes": 46933
+    }
+  ],
+  "revision": "7b0fbf7fc4c6f465132c",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_artery_wall_rupture_v1@35bd41c27d1e49de4546",
+    "source_record_sha256": "65f84bee0c959bf79a97866f76d0f177b67fe6a7a27af0715374ade671fa97b6",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "38025b24113983484a986158707171de3d6c5b311e8e12fe86e88daae331f642",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

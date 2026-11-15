@@ -1,0 +1,41 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_object_handoff",
+  "title": "纸件跨镜交接",
+  "kind": "motion_recipe",
+  "entry": "src/kit/motion.ts",
+  "tags": [
+    "paper_collage",
+    "连续性",
+    "镜头",
+    "交接",
+    "弧线"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+  "dependencies": [
+    "paper_theatre_kit_1_1_0"
+  ],
+  "review_status": "静帧与邻镜姿态已查；连续动态仍待审",
+  "source": {
+    "project": "productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "sample_has_brand": false
+  },
+  "files": [
+    {
+      "path": "src/kit/motion.ts",
+      "role": "payload",
+      "sha256": "3e73f75aee564886a239374c43a2a5ec4a1984176fa488cfa0da7126ba838179",
+      "bytes": 2159
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "0459d360d8428d703df521691004563b6fc1aa0fe4f3ada4ac10b3cb53eb9f03",
+      "bytes": 251
+    }
+  ],
+  "revision": "59f2e1b570dea41b5d6c"
+}

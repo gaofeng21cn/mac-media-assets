@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "stomach",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1248,
+      1254
+    ],
+    "zero_alpha_fraction": 0.5700425305688464,
+    "nonzero_border": true
+  },
+  {
+    "id": "oil",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      27,
+      23,
+      1224,
+      1235
+    ],
+    "zero_alpha_fraction": 0.8538266065337332,
+    "nonzero_border": false
+  },
+  {
+    "id": "calendar_base",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.5318069895632223,
+    "nonzero_border": true
+  },
+  {
+    "id": "scale",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      33,
+      1224,
+      1184
+    ],
+    "zero_alpha_fraction": 0.4299460228067632,
+    "nonzero_border": true
+  },
+  {
+    "id": "pillow",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      9,
+      1233,
+      1254
+    ],
+    "zero_alpha_fraction": 0.5488592802871323,
+    "nonzero_border": true
+  },
+  {
+    "id": "bowl",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      19,
+      1226,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6109680283062303,
+    "nonzero_border": true
+  },
+  {
+    "id": "thermometer",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      29,
+      1206,
+      1212
+    ],
+    "zero_alpha_fraction": 0.8724102012316568,
+    "nonzero_border": true
+  },
+  {
+    "id": "pin",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      47,
+      25,
+      1234,
+      1240
+    ],
+    "zero_alpha_fraction": 0.8003231763619575,
+    "nonzero_border": false
+  },
+  {
+    "id": "heart_cut",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      33,
+      1238,
+      1231
+    ],
+    "zero_alpha_fraction": 0.5403760597666415,
+    "nonzero_border": true
+  },
+  {
+    "id": "curtain",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      19,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.5383220266121299,
+    "nonzero_border": true
+  },
+  {
+    "id": "salt",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      15,
+      1234,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6747657893464994,
+    "nonzero_border": true
+  },
+  {
+    "id": "kraft",
+    "mode": "RGBA",
+    "size": [
+      1536,
+      1024
+    ],
+    "bounds": [
+      75,
+      21,
+      1418,
+      990
+    ],
+    "zero_alpha_fraction": 0.32254791259765625,
+    "nonzero_border": false
+  },
+  {
+    "id": "tube_cap",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      33,
+      1234,
+      1246
+    ],
+    "zero_alpha_fraction": 0.7367365419493347,
+    "nonzero_border": true
+  },
+  {
+    "id": "blister",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      36,
+      1240,
+      1236
+    ],
+    "zero_alpha_fraction": 0.6485911749069644,
+    "nonzero_border": true
+  },
+  {
+    "id": "liver",
+    "mode": "RGBA",
+    "size": [
+      1454,
+      1082
+    ],
+    "bounds": [
+      0,
+      58,
+      1430,
+      1058
+    ],
+    "zero_alpha_fraction": 0.5494530989786605,
+    "nonzero_border": true
+  },
+  {
+    "id": "couch",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.7004723640331799,
+    "nonzero_border": true
+  },
+  {
+    "id": "oximeter",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1253,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6436475050174371,
+    "nonzero_border": true
+  },
+  {
+    "id": "person_walk",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      19,
+      1232,
+      1224
+    ],
+    "zero_alpha_fraction": 0.7760397986411585,
+    "nonzero_border": true
+  },
+  {
+    "id": "fibre",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      0,
+      35,
+      952,
+      1510
+    ],
+    "zero_alpha_fraction": 0.37897491455078125,
+    "nonzero_border": true
+  },
+  {
+    "id": "clip",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6711232190960219,
+    "nonzero_border": true
+  },
+  {
+    "id": "bed",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1244,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6378027314189489,
+    "nonzero_border": true
+  },
+  {
+    "id": "hand_pinch",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1024
+    ],
+    "bounds": [
+      64,
+      256,
+      996,
+      790
+    ],
+    "zero_alpha_fraction": 0.793797492980957,
+    "nonzero_border": false
+  },
+  {
+    "id": "alveolus",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1024
+    ],
+    "bounds": [
+      202,
+      144,
+      821,
+      808
+    ],
+    "zero_alpha_fraction": 0.7628860473632812,
+    "nonzero_border": false
+  },
+  {
+    "id": "calendar_leaf",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      6,
+      1254,
+      1254
+    ],
+    "zero_alpha_fraction": 0.4930309135169372,
+    "nonzero_border": true
+  },
+  {
+    "id": "shoe",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      14,
+      1230,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6790589094165019,
+    "nonzero_border": true
+  },
+  {
+    "id": "blanket",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1236,
+      1254
+    ],
+    "zero_alpha_fraction": 0.5301236998542463,
+    "nonzero_border": true
+  },
+  {
+    "id": "heart",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      12,
+      1240,
+      1250
+    ],
+    "zero_alpha_fraction": 0.5306941233030379,
+    "nonzero_border": true
+  },
+  {
+    "id": "folder",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      5,
+      1222,
+      1254
+    ],
+    "zero_alpha_fraction": 0.3983514317183418,
+    "nonzero_border": true
+  },
+  {
+    "id": "person_reach",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      25,
+      15,
+      1014,
+      1536
+    ],
+    "zero_alpha_fraction": 0.7503992716471354,
+    "nonzero_border": true
+  },
+  {
+    "id": "apple",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      13,
+      1240,
+      1222
+    ],
+    "zero_alpha_fraction": 0.6368475742059222,
+    "nonzero_border": true
+  },
+  {
+    "id": "probe",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      19,
+      1232,
+      1254
+    ],
+    "zero_alpha_fraction": 0.7960058911960196,
+    "nonzero_border": true
+  },
+  {
+    "id": "pancreas",
+    "mode": "RGBA",
+    "size": [
+      1536,
+      1024
+    ],
+    "bounds": [
+      0,
+      41,
+      1500,
+      1024
+    ],
+    "zero_alpha_fraction": 0.6888224283854166,
+    "nonzero_border": true
+  },
+  {
+    "id": "person_stand",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      73,
+      26,
+      986,
+      1519
+    ],
+    "zero_alpha_fraction": 0.7595748901367188,
+    "nonzero_border": false
+  },
+  {
+    "id": "chair",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      23,
+      29,
+      1236,
+      1254
+    ],
+    "zero_alpha_fraction": 0.7380509959835067,
+    "nonzero_border": true
+  },
+  {
+    "id": "cup",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1238,
+      1198
+    ],
+    "zero_alpha_fraction": 0.6671658666748065,
+    "nonzero_border": true
+  },
+  {
+    "id": "window",
+    "mode": "RGBA",
+    "size": [
+      1312,
+      1199
+    ],
+    "bounds": [
+      0,
+      7,
+      1298,
+      1191
+    ],
+    "zero_alpha_fraction": 0.4933938851481926,
+    "nonzero_border": true
+  },
+  {
+    "id": "gallbladder",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      57,
+      19,
+      1202,
+      1254
+    ],
+    "zero_alpha_fraction": 0.8018741939668659,
+    "nonzero_border": true
+  },
+  {
+    "id": "rice",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1236,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6604403389218297,
+    "nonzero_border": true
+  },
+  {
+    "id": "tube_rack",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      26,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.7080850051764179,
+    "nonzero_border": true
+  },
+  {
+    "id": "notebook_page",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      15,
+      1246,
+      1254
+    ],
+    "zero_alpha_fraction": 0.41335223298204915,
+    "nonzero_border": true
+  },
+  {
+    "id": "dressing",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      3,
+      1234,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6596600606925462,
+    "nonzero_border": true
+  },
+  {
+    "id": "person_side",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      19,
+      31,
+      1224,
+      1230
+    ],
+    "zero_alpha_fraction": 0.8794505111553714,
+    "nonzero_border": false
+  },
+  {
+    "id": "wall",
+    "mode": "RGBA",
+    "size": [
+      1536,
+      1024
+    ],
+    "bounds": [
+      0,
+      0,
+      1489,
+      1024
+    ],
+    "zero_alpha_fraction": 0.2796363830566406,
+    "nonzero_border": true
+  },
+  {
+    "id": "tube",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      32,
+      1224,
+      1217
+    ],
+    "zero_alpha_fraction": 0.8443023791172872,
+    "nonzero_border": true
+  },
+  {
+    "id": "floor",
+    "mode": "RGBA",
+    "size": [
+      1536,
+      1024
+    ],
+    "bounds": [
+      0,
+      19,
+      1514,
+      1024
+    ],
+    "zero_alpha_fraction": 0.6207548777262369,
+    "nonzero_border": true
+  },
+  {
+    "id": "lungs",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      12,
+      1220,
+      1238
+    ],
+    "zero_alpha_fraction": 0.540210719636557,
+    "nonzero_border": true
+  },
+  {
+    "id": "door_leaf",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      21,
+      1230,
+      1228
+    ],
+    "zero_alpha_fraction": 0.6488614424272948,
+    "nonzero_border": true
+  },
+  {
+    "id": "tracing",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      4,
+      1252,
+      1254
+    ],
+    "zero_alpha_fraction": 0.379687710649685,
+    "nonzero_border": true
+  },
+  {
+    "id": "vessel",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      20,
+      1222,
+      1230
+    ],
+    "zero_alpha_fraction": 0.6101152547891404,
+    "nonzero_border": true
+  },
+  {
+    "id": "door_frame",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      15,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.7856129921730526,
+    "nonzero_border": true
+  },
+  {
+    "id": "plate",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      61,
+      1222,
+      1115
+    ],
+    "zero_alpha_fraction": 0.5180405159629536,
+    "nonzero_border": true
+  },
+  {
+    "id": "intestine",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1246,
+      1254
+    ],
+    "zero_alpha_fraction": 0.4539890214153624,
+    "nonzero_border": true
+  },
+  {
+    "id": "person_seated",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      41,
+      38,
+      996,
+      1492
+    ],
+    "zero_alpha_fraction": 0.7109171549479166,
+    "nonzero_border": false
+  },
+  {
+    "id": "islet",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      23,
+      1238,
+      1254
+    ],
+    "zero_alpha_fraction": 0.5075935634359205,
+    "nonzero_border": true
+  },
+  {
+    "id": "inhaler",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      25,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.7690408237499651,
+    "nonzero_border": true
+  },
+  {
+    "id": "table",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      36,
+      1204,
+      1222
+    ],
+    "zero_alpha_fraction": 0.8036128090270623,
+    "nonzero_border": true
+  },
+  {
+    "id": "shelf",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      23,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.680965408301092,
+    "nonzero_border": true
+  },
+  {
+    "id": "ultrasound",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6641554044601136,
+    "nonzero_border": true
+  },
+  {
+    "id": "blood_cell",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      23,
+      1236,
+      1254
+    ],
+    "zero_alpha_fraction": 0.5607510511816732,
+    "nonzero_border": true
+  },
+  {
+    "id": "notebook_cover",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      8,
+      1240,
+      1254
+    ],
+    "zero_alpha_fraction": 0.48282497602568114,
+    "nonzero_border": true
+  },
+  {
+    "id": "fish",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      9,
+      1253,
+      1254
+    ],
+    "zero_alpha_fraction": 0.6080516827809701,
+    "nonzero_border": true
+  },
+  {
+    "id": "mri",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      0,
+      1180,
+      1254
+    ],
+    "zero_alpha_fraction": 0.41304826151212454,
+    "nonzero_border": true
+  },
+  {
+    "id": "pillbox",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      21,
+      1224,
+      1216
+    ],
+    "zero_alpha_fraction": 0.70447486702838,
+    "nonzero_border": true
+  },
+  {
+    "id": "broccoli",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      0,
+      9,
+      1242,
+      1192
+    ],
+    "zero_alpha_fraction": 0.6512334373704306,
+    "nonzero_border": true
+  }
+]

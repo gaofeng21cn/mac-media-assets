@@ -1,0 +1,102 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_hashimoto_stage",
+  "title": "hashimoto_stage 完整纸景",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "hashimoto_stage"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "hashimoto_stage",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": false,
+    "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/hashimoto_stage.png",
+    "source_sha256": "3d36c359cdd481bec25bb1c439f938d7d9d21d5f9de5c455dc636bf84949f403",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/hashimoto_paper_theatre/01_two_different_results/v1",
+    "series": "hashimoto_paper_theatre",
+    "episode": "01_two_different_results",
+    "asset_id": "hashimoto_stage",
+    "original_manifest": {
+      "asset_id": "hashimoto_stage",
+      "path": "assets/hashimoto_stage.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": false,
+      "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/hashimoto_stage.png",
+      "source_sha256": "3d36c359cdd481bec25bb1c439f938d7d9d21d5f9de5c455dc636bf84949f403",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general",
+    "topics": [
+      "hashimoto_paper_theatre"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "alpha_range": [
+    255,
+    255
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "not_applicable"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "3d36c359cdd481bec25bb1c439f938d7d9d21d5f9de5c455dc636bf84949f403",
+      "bytes": 3400598
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "5c40c520be336206c9d8acf238bd14af54113b8f5dfedb30286df80d4c9a2ced",
+      "bytes": 3044
+    }
+  ],
+  "revision": "f60b10a9fad8a9b0a3ee"
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_rectal_outlet_relaxed_v1",
+  "title": "直肠出口协调·放松状态",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "constipation"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    16,
+    1164,
+    1278
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "rectal_outlet_relaxed"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "直肠出口协调·放松状态",
+      "rectal_outlet_relaxed"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "直肠出口协调·放松状态",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        16,
+        1164,
+        1278
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "与原局部结构配对表现角度及出口放松；不暗示人人适用或训练必然成功。"
+    }
+  ],
+  "usage_notes": "与原局部结构配对表现角度及出口放松；不暗示人人适用或训练必然成功。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "fd4e83dc17d730c9918e0cdd5c26fe8378de0d71a45a592721291b956e77ef29",
+      "bytes": 1319996
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "2d828b181b02eb2b5ace5a5a296edfb779e0947dcd2620705510db3c65af3726",
+      "bytes": 1114
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "b6487e1a86c555de2c45b103fd0a1883e5b488dbf1948626305c076eb9380492",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "2004d1a58eb836baf8605af9305e55b7337a7dd0da3d747e4c18ea923922fbd0",
+      "bytes": 18365
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "463ba85b6ea46ea4d282ac5b8da0a29141a8c620e95ff2652c795004e36d4d4c",
+      "bytes": 773
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "70f6be5612e7b0e9b8be8d2ecbc6502cfe13fe930817ec9fc38bc5c87733664f",
+      "bytes": 117581
+    }
+  ],
+  "revision": "a4798a8f54d7c6656067",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_rectal_outlet_relaxed_v1@f4d774f136439a75977a",
+    "source_record_sha256": "28b934e1ebfde908a74198182a3662bcc2a05e1b7ceb222501ab2138f8564ba2",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "075c49bf1a337b66c0d4a6603ec46f98d26f7d18b5d65817e1dd10206a9b0df3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1212,
+        "height": 1298,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

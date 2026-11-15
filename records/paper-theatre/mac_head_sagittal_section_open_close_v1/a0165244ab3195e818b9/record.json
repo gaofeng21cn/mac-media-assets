@@ -1,0 +1,527 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_head_sagittal_section_open_close_v1",
+  "title": "头部矢状位·头部位置图揭层连续开合",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "continuous_section_window",
+    "local_relation_reveal"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "头部矢状位",
+      "头部位置图揭层",
+      "head_sagittal"
+    ],
+    "actions": [
+      "同位局部揭层",
+      "连续揭示与恢复"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "头部矢状位·头部位置图揭层连续开合",
+    "sample_duration_seconds": 6.2
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。 侧面位置图同位揭层；不表示真实颅骨或脑切面。 没有骨/脑膜/脑实质切面层，只有头部侧面位置示意；提供同位的颅面位置图揭层。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "0cb0d9d6fa849774e2fd968bd33d0a96795c249df2cc6cb477cce57a1eeb771a",
+      "bytes": 930
+    },
+    {
+      "path": "assets/brain_and_brainstem.png",
+      "role": "payload",
+      "sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+      "bytes": 30884
+    },
+    {
+      "path": "assets/head_profile.png",
+      "role": "payload",
+      "sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+      "bytes": 29356
+    },
+    {
+      "path": "assets/paranasal_sinuses.png",
+      "role": "payload",
+      "sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+      "bytes": 7442
+    },
+    {
+      "path": "assets/pituitary_and_stalk.png",
+      "role": "payload",
+      "sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+      "bytes": 6573
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "6db51547c2b658a3d1dea04118a2dc126c628e182e59b38b1876a40394965f3b",
+      "bytes": 768
+    },
+    {
+      "path": "original/files/brain_and_brainstem.png",
+      "role": "payload",
+      "sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+      "bytes": 30884
+    },
+    {
+      "path": "original/files/head_profile.png",
+      "role": "payload",
+      "sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+      "bytes": 29356
+    },
+    {
+      "path": "original/files/paranasal_sinuses.png",
+      "role": "payload",
+      "sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+      "bytes": 7442
+    },
+    {
+      "path": "original/files/pituitary_and_stalk.png",
+      "role": "payload",
+      "sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+      "bytes": 6573
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "59935c834c1d6106fce879d687253ff1df5ac229f4ff9f1fd2b4744564eb1460",
+      "bytes": 7421
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "279badfa9cae332f0450d9a64503bf2738e56bb3257d3eedc11af1fa6db06b6a",
+      "bytes": 58565
+    },
+    {
+      "path": "original/source/brain_and_brainstem.svg",
+      "role": "payload",
+      "sha256": "194538f57353dbe47609fa121275c9afcad9d5af77b9ed93d4de4e552f8b83b0",
+      "bytes": 553
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/head_profile.svg",
+      "role": "payload",
+      "sha256": "d8ad749664dbc0fde0e6ba64bf8df7bdfee23e2bd8b003ec614f6e4154ce3040",
+      "bytes": 390
+    },
+    {
+      "path": "original/source/paranasal_sinuses.svg",
+      "role": "payload",
+      "sha256": "4ead560f9af40d295e4daaf11ca02ae4eaab3c2dab55623c0888b51426a8078b",
+      "bytes": 350
+    },
+    {
+      "path": "original/source/pituitary_and_stalk.svg",
+      "role": "payload",
+      "sha256": "9e9265d7c384085e254eeef67ed36d6c45555f3ed4e19456a876bee525f94aeb",
+      "bytes": 313
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "c1e9b4956fa0bcdaf4f575ffa0f2f2d80c13c708b8d9ac8f316263d8e233a6a9",
+      "bytes": 1315
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "ad7b5d8226d55414ef4a2e41415c8035a4ae891a8aedc81ec397e6e4be6db1b8",
+      "bytes": 435
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "ba2ee2a3e237abb3f8cddb7c16b4a1200d75944ddc8a5fbd0f3ac4a69690d7d8",
+      "bytes": 7713
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+      "bytes": 5391
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "7a83b8c14680f4087dae3f6fecdeef7c8b8cc7e967bab17fafeb7d72bafab4b4",
+      "bytes": 109165
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "4eaa37a41f17ff647ce3e0c79adac9a05e8a0da18d81ab254b46df5729ff1dd5",
+      "bytes": 107244
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "630e98a83f71b89257e5cb75b32bd8122951432fb06c4c6bfa4d85022ddc39e9",
+      "bytes": 107887
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "2828bd6b3149a8fc3b4d30d304f706e71a5b3602f84d5c2ca8861de9d2ce7194",
+      "bytes": 53788
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "4e82e7ae0b80343960a77faf5cd1195f9d31502701607d73ff7fecc01b8babdf",
+      "bytes": 199227
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "455dbd001b6cbae632ea1c386788524438e98052ce76b02227fab09803e77a64",
+      "bytes": 67530
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "455dbd001b6cbae632ea1c386788524438e98052ce76b02227fab09803e77a64",
+      "bytes": 67530
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "aab651a4714572e866a3c0d7e1bf285cdf877890e606b39f3bb10375d7b52544",
+      "bytes": 68197
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "44a068921e3c9160f85e2a124d296df1eb0832974d8a4a153360ff4cc2afb376",
+      "bytes": 73565
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "db5997d5823f9143fdfaa19d40da0f858934e714d7906738f8efa643539da43d",
+      "bytes": 80134
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "0ef8ba50bb67bd526c8746c321be11f790d01832df130543584480d125c4dc8a",
+      "bytes": 86344
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "a3711c12f3b45d7e860f1cfe68a254408dea39a01b20541895a378c4e877ad2f",
+      "bytes": 97220
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "630e98a83f71b89257e5cb75b32bd8122951432fb06c4c6bfa4d85022ddc39e9",
+      "bytes": 107887
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "b9bcb4ececad92970d83dba3ab1407b202ce8a3e39d7da6916996a2aec5869cb",
+      "bytes": 99521
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "e56d4098cbdc007e7c85b90576937303ad914476373f8f7a74854ffb2e97e863",
+      "bytes": 99317
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "e56d4098cbdc007e7c85b90576937303ad914476373f8f7a74854ffb2e97e863",
+      "bytes": 99317
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "e56d4098cbdc007e7c85b90576937303ad914476373f8f7a74854ffb2e97e863",
+      "bytes": 99317
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "a27bedd26de7f498bb067c1005b1c27c3277ddb62bc4a1936718cc5daaa20c89",
+      "bytes": 100000
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "f655c31a1de309b9e99374ac7647e0b153e53a752ebf1a7aaf98946c295e37a8",
+      "bytes": 100106
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "f8dcf1e858108edce1160c4e7d80f4c78fce0fcd7e13ef0ce65a5e43e43aca2a",
+      "bytes": 111176
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "98202420c14d078410d126c6a4e12c94a8600449685a19b601b981e6b61cd945",
+      "bytes": 100221
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "318eb7a763a46e7d4aee3fee026782a47463fa6e8e0782dc059d2535782a0fb6",
+      "bytes": 89771
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "57aecd08b7533ea45c225e7088905e787decde7be4a27b473a8aa6412e9c8534",
+      "bytes": 74178
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "632bc0e4d1406389c13229869d1727519007a4061ac28ef9ee525766f20d353b",
+      "bytes": 69331
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "632bc0e4d1406389c13229869d1727519007a4061ac28ef9ee525766f20d353b",
+      "bytes": 69331
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "632bc0e4d1406389c13229869d1727519007a4061ac28ef9ee525766f20d353b",
+      "bytes": 69331
+    },
+    {
+      "path": "samples/open-phone-color.png",
+      "role": "payload",
+      "sha256": "24fc0e2bc21db7f3f74af7fedf27c895b79d19a1c64e5033268deae811e6d792",
+      "bytes": 20585
+    },
+    {
+      "path": "samples/open-phone-dark.png",
+      "role": "payload",
+      "sha256": "9fa0e09d790f1c803c734ef59cb00dabc8605a930d7b8735603165e000ac47ed",
+      "bytes": 20524
+    },
+    {
+      "path": "samples/open-phone-light.png",
+      "role": "payload",
+      "sha256": "b0f586720fd3fca0c744ebcc7d55b18094c723e8ad8fb7792dc106f08134a8ab",
+      "bytes": 20098
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "c7fc47e09cf14b6b449bdcdb3b611f003b1dc9d1b48e5d60888690a1f14f28e0",
+      "bytes": 30680
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "872be187ce33c9da4fc5a56d12de891c928957ea2c2b993240e62bf0a10f45cd",
+      "bytes": 22162
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "4a982184aea7b258fe5610924e46dd1e61b8874a8efc493562cef8d59cf85ab2",
+      "bytes": 203107
+    },
+    {
+      "path": "samples/section-background-review.jpg",
+      "role": "payload",
+      "sha256": "7a55c50c0b63ac82525fc4a05a6ea2fdc1a901dae12cf101c637a3c081486bf0",
+      "bytes": 384278
+    },
+    {
+      "path": "samples/states/closed-color.png",
+      "role": "payload",
+      "sha256": "1123ccc277f2d748b8e9c2d57ee87bb6deb2c5f8de45461ff27da38f6f331191",
+      "bytes": 67699
+    },
+    {
+      "path": "samples/states/closed-dark.png",
+      "role": "payload",
+      "sha256": "456fee815c57925118be000489ffe3cb3adff8729f25d77df93689b9a5b89a16",
+      "bytes": 66464
+    },
+    {
+      "path": "samples/states/closed-light.png",
+      "role": "payload",
+      "sha256": "455dbd001b6cbae632ea1c386788524438e98052ce76b02227fab09803e77a64",
+      "bytes": 67530
+    },
+    {
+      "path": "samples/states/closing-color.png",
+      "role": "payload",
+      "sha256": "278410377ad9409fdfaa4fe8cea6eef3bef9b150e3422b3cf66fad9ffa3c8157",
+      "bytes": 101098
+    },
+    {
+      "path": "samples/states/closing-dark.png",
+      "role": "payload",
+      "sha256": "e62bf767786e077a4a2b5f26eab4d6c2f0039149cdb4eba974ed56387e57206a",
+      "bytes": 99489
+    },
+    {
+      "path": "samples/states/closing-light.png",
+      "role": "payload",
+      "sha256": "98202420c14d078410d126c6a4e12c94a8600449685a19b601b981e6b61cd945",
+      "bytes": 100221
+    },
+    {
+      "path": "samples/states/half-color.png",
+      "role": "payload",
+      "sha256": "979005185f2bbb3cc5f2c00573d3703d505d67cd86358bc40f5a94eae1aee7a6",
+      "bytes": 98197
+    },
+    {
+      "path": "samples/states/half-dark.png",
+      "role": "payload",
+      "sha256": "d2640bdfb1b96a993cec4fc3c4892865ec7a23bfbab9e01530af9265613144fe",
+      "bytes": 96651
+    },
+    {
+      "path": "samples/states/half-light.png",
+      "role": "payload",
+      "sha256": "a3711c12f3b45d7e860f1cfe68a254408dea39a01b20541895a378c4e877ad2f",
+      "bytes": 97220
+    },
+    {
+      "path": "samples/states/open-color.png",
+      "role": "payload",
+      "sha256": "cd26fe988b217302630dd25a12f825e2e7832842cc2d38067c8dcc2246535249",
+      "bytes": 101011
+    },
+    {
+      "path": "samples/states/open-dark.png",
+      "role": "payload",
+      "sha256": "e932419e2314cd95fdad9f099ca35009e735bd94679731ea469e89d26de73fb3",
+      "bytes": 100260
+    },
+    {
+      "path": "samples/states/open-light.png",
+      "role": "payload",
+      "sha256": "e56d4098cbdc007e7c85b90576937303ad914476373f8f7a74854ffb2e97e863",
+      "bytes": 99317
+    },
+    {
+      "path": "samples/states/quarter-color.png",
+      "role": "payload",
+      "sha256": "d3d82efe2e8c81215eb5fb8b2b196697d7f2bab50b87bd367c8e9851708c3df2",
+      "bytes": 86673
+    },
+    {
+      "path": "samples/states/quarter-dark.png",
+      "role": "payload",
+      "sha256": "a93a112e5156ad330c6a95ad8c70084f9d924f33464a7d8fedef5710c7423cbb",
+      "bytes": 85349
+    },
+    {
+      "path": "samples/states/quarter-light.png",
+      "role": "payload",
+      "sha256": "0ef8ba50bb67bd526c8746c321be11f790d01832df130543584480d125c4dc8a",
+      "bytes": 86344
+    },
+    {
+      "path": "samples/states/restored-color.png",
+      "role": "payload",
+      "sha256": "88c54d6489460eab7f8f74e03dd7b35292686834c583e74c4516a263ab2d7593",
+      "bytes": 69455
+    },
+    {
+      "path": "samples/states/restored-dark.png",
+      "role": "payload",
+      "sha256": "00f2d879d521a9b8d32e148c5947f8d8714a740edf346f5e152bf4296918677e",
+      "bytes": 68251
+    },
+    {
+      "path": "samples/states/restored-light.png",
+      "role": "payload",
+      "sha256": "632bc0e4d1406389c13229869d1727519007a4061ac28ef9ee525766f20d353b",
+      "bytes": 69331
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "940a1e0f41ea5f00655c3c77ef7ab6949194ea13d1c94d69b790cbe7b9dccc3b",
+      "bytes": 11595
+    },
+    {
+      "path": "section-visual-review.json",
+      "role": "payload",
+      "sha256": "620ab11606990a173e6ce39e94ba6fb654af9f5d33d9b65044c824f2ff713846",
+      "bytes": 7886
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "009066cd7a9f64cf28a1010e208904d5f397f9d64901ac8077a9d0af51de815e",
+      "bytes": 6163
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "a0165244ab3195e818b9"
+}

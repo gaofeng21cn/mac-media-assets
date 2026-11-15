@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "breast_section",
+      "prompt": "Use case: scientific-educational. A single handmade paper collage educational sagittal breast model, respectful medical diagram, no human nude body. Chest wall on left, gently curved skin with nipple pointing right, fat and glandular lobules with branching ducts converging at nipple. No tumor, no pathology, no labels. Made of actual visible overlapping torn cream and dusty coral rag paper with fine graphite linework and print texture. Irregular cut edge. One coherent medical cutout, not a diagram card or rectangular page. Isolated genuine transparent background around object. No extra objects.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-3a383de5-01a9-4a12-bef1-be7f43cbb7ce.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/breast_section.png"
+    },
+    {
+      "id": "breast_stage",
+      "prompt": "Use case: illustration-story. Asset: full-frame 16:9 1280x720 landscape paper-theatre stage background for imaginative medical hand-drawn collage animation. Every visible surface and room object built from layered torn real paper, magazine scraps, printed textures, graphite hatching, tiny sewing marks and natural contact shadows. Handmade stop-motion cutout craft aesthetic with abundant tactile detail across the entire frame. Avoid large plain color cards, UI panels, infographic, PPT slide, decorative floating lines, gradients, glossy 3D or photorealism. No readable text, no letters, no logo. Natural paper environment depth, leave lower 18% low-contrast textured floor/table edge for subtitles; leave upper left small unobtrusive area for brand. A calm breast imaging consultation room constructed entirely from paper collage. Small paper ultrasound workstation on far right, tilted lightbox on far left with no image in it, visible exam couch and linen along lower left, folded gloves and sample tray on far edge. Center tabletop (x .24-.72, y .18-.68) clear for independent anatomical model and reports. Respectful calm cream, ink-blue, terracotta. No person, no anatomy, no actual medical image.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-8c66f5df-3d04-4543-b188-8e0f1f0f9a74.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/breast_stage.png"
+    }
+  ],
+  "prompt_scope": "器官透明件与完整纸景分别生成"
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_lungs_simple_v1",
+  "title": "肺与气管·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺与气管·payload",
+      "medical": true,
+      "content_bounds": [
+        309,
+        93,
+        715,
+        824
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_lungs_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肺与气管",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肺与气管支气管正面示意，解剖右肺在画面左，三叶由两条裂隙提示；解剖左肺在画面右。不表达支气管肺段、肺功能或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "9e554505a19657bd30ad2f26d3abc091996f553c6de3d5e498ced6cade725afa",
+      "bytes": 1004
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "9fe5a8fd945c1d2a7b5deb06acc8118a1cf1c9f7b4801a52abe1e5d3f4c67ac7",
+      "bytes": 42640
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "9e554505a19657bd30ad2f26d3abc091996f553c6de3d5e498ced6cade725afa",
+      "bytes": 1004
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "9fe5a8fd945c1d2a7b5deb06acc8118a1cf1c9f7b4801a52abe1e5d3f4c67ac7",
+      "bytes": 42640
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "65a1d8601a1a724dd2fad658a8e53d47b6f637bf843ae9c0bac99a0f1801ea9b",
+      "bytes": 660
+    }
+  ],
+  "revision": "6ac400b4984219be4ba7"
+}

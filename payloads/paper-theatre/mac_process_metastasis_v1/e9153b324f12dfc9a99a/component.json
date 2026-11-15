@@ -1,0 +1,11 @@
+{
+  "schema": "mac_medical_process/v1",
+  "scene": "metastasis",
+  "title": "原发病灶与远处转移过程",
+  "duration": 10,
+  "viewport": [
+    1280,
+    720
+  ],
+  "medical_review": "pending"
+}

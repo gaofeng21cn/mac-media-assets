@@ -1,0 +1,260 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 144,
+  "fps": 24,
+  "duration": 6,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "runtime.mjs": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "8e733fd9c63dd52b96ef94ee3343e49572819f26661483984065bbebeac8966b",
+    "assets/walk_a.webp": "f481bb912009770a2751a46270a90b3398caf9159389ba0514aaf98d6ad2c16c",
+    "assets/walk_b.webp": "7adaa9a548d96a9c231a0fa66462eed7e16a11db058d3ecfd2f540f0fc0a3735",
+    "assets/stand.webp": "1f875e81eef6f9b29626a9833a61bc5e22cd92c37c082d2b2c6dd06e14179cba"
+  },
+  "keyframes": [
+    "samples/keyframes/00.webp",
+    "samples/keyframes/01.webp",
+    "samples/keyframes/02.webp",
+    "samples/keyframes/03.webp",
+    "samples/keyframes/04.webp",
+    "samples/keyframes/05.webp",
+    "samples/keyframes/06.webp",
+    "samples/keyframes/07.webp",
+    "samples/keyframes/08.webp",
+    "samples/keyframes/09.webp",
+    "samples/keyframes/10.webp",
+    "samples/keyframes/11.webp",
+    "samples/keyframes/12.webp",
+    "samples/keyframes/13.webp"
+  ],
+  "states": [
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 0,
+      "frame": 8,
+      "phase": "站稳",
+      "world_origin": [
+        280,
+        620
+      ],
+      "scale": 0.3173531397704254,
+      "events": []
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 0.6,
+      "frame": 0,
+      "phase": "右侧接触",
+      "world_origin": [
+        280,
+        620
+      ],
+      "scale": 0.8545454545454545,
+      "events": [
+        "start",
+        "right_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 0.85,
+      "frame": 1,
+      "phase": "承重",
+      "world_origin": [
+        325,
+        620
+      ],
+      "scale": 0.8545454545454545,
+      "events": [
+        "start",
+        "right_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 1.1,
+      "frame": 2,
+      "phase": "经过",
+      "world_origin": [
+        370,
+        620
+      ],
+      "scale": 0.8545454545454545,
+      "events": [
+        "start",
+        "right_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 1.35,
+      "frame": 3,
+      "phase": "抬升",
+      "world_origin": [
+        415,
+        620
+      ],
+      "scale": 0.8545454545454545,
+      "events": [
+        "start",
+        "right_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 1.6,
+      "frame": 4,
+      "phase": "对侧接触",
+      "world_origin": [
+        460,
+        620
+      ],
+      "scale": 0.6225165562913907,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 1.85,
+      "frame": 5,
+      "phase": "对侧承重",
+      "world_origin": [
+        505,
+        620
+      ],
+      "scale": 0.6225165562913907,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 2.1,
+      "frame": 6,
+      "phase": "对侧经过",
+      "world_origin": [
+        550,
+        620
+      ],
+      "scale": 0.6225165562913907,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 2.35,
+      "frame": 7,
+      "phase": "对侧抬升",
+      "world_origin": [
+        595,
+        620
+      ],
+      "scale": 0.6225165562913907,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 2.59,
+      "frame": 7,
+      "phase": "对侧抬升",
+      "world_origin": [
+        595,
+        620
+      ],
+      "scale": 0.6225165562913907,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 2.6,
+      "frame": 0,
+      "phase": "右侧接触",
+      "world_origin": [
+        640,
+        620
+      ],
+      "scale": 0.8545454545454545,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1",
+        "right_contact_2"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 4.59,
+      "frame": 7,
+      "phase": "对侧抬升",
+      "world_origin": [
+        955.0000000000001,
+        620
+      ],
+      "scale": 0.6225165562913907,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1",
+        "right_contact_2",
+        "left_contact_2"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 4.6,
+      "frame": 8,
+      "phase": "站稳",
+      "world_origin": [
+        1000,
+        620
+      ],
+      "scale": 0.3173531397704254,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1",
+        "right_contact_2",
+        "left_contact_2",
+        "stop"
+      ]
+    },
+    {
+      "study": "mac_walk_cycle_v1",
+      "time": 6,
+      "frame": 8,
+      "phase": "站稳",
+      "world_origin": [
+        1000,
+        620
+      ],
+      "scale": 0.3173531397704254,
+      "events": [
+        "start",
+        "right_contact_1",
+        "left_contact_1",
+        "right_contact_2",
+        "left_contact_2",
+        "stop"
+      ]
+    }
+  ]
+}

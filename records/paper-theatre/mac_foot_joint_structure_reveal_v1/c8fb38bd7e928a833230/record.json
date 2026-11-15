@@ -1,0 +1,463 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_foot_joint_structure_reveal_v1",
+  "title": "足关节·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "足关节",
+      "逐层揭示",
+      "局部高亮",
+      "foot_joint"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "足关节·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "踝足侧面关系示意：胫腓骨位于距骨上方、跟骨位于后下方，前足向画面右伸展；关节间隙为窄边界，不画成覆盖骨面的空洞。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "b5ed0f9705359b5c7aeadc52735eaf5deee9b6ba499fb8980e3f0a92e0e581ad",
+      "bytes": 691
+    },
+    {
+      "path": "assets/bones.png",
+      "role": "payload",
+      "sha256": "a3a778f4fdd9dd5f9543404f70e986d28a8d0a8b6b80eef4de4d27721d8c339d",
+      "bytes": 41969
+    },
+    {
+      "path": "assets/joint_space.png",
+      "role": "payload",
+      "sha256": "e72f004c047482197808eb30e92ef81f357605ba37bf805ce2911c022ff4af1b",
+      "bytes": 6250
+    },
+    {
+      "path": "assets/ligaments.png",
+      "role": "payload",
+      "sha256": "69cb706f7a78eaac17d528bc88aadafb3d040e8f1c4140649c37cae53da1b957",
+      "bytes": 7292
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "0432a8cb5c29edc8c3ab341cc9b34f1d2b7c6bcfc233b8f4a2b00fa4079b1588",
+      "bytes": 663
+    },
+    {
+      "path": "original/files/bones.png",
+      "role": "payload",
+      "sha256": "a3a778f4fdd9dd5f9543404f70e986d28a8d0a8b6b80eef4de4d27721d8c339d",
+      "bytes": 41969
+    },
+    {
+      "path": "original/files/joint_space.png",
+      "role": "payload",
+      "sha256": "e72f004c047482197808eb30e92ef81f357605ba37bf805ce2911c022ff4af1b",
+      "bytes": 6250
+    },
+    {
+      "path": "original/files/ligaments.png",
+      "role": "payload",
+      "sha256": "69cb706f7a78eaac17d528bc88aadafb3d040e8f1c4140649c37cae53da1b957",
+      "bytes": 7292
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "5ad34a3c514921a6774e6166536f4a35c87266386a58a85e7465061557023a8c",
+      "bytes": 5852
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "5f4f2a630bb008facfca30e0e1c64343de36af16d697c99670b2eb0e6c940892",
+      "bytes": 45895
+    },
+    {
+      "path": "original/source/bones.svg",
+      "role": "payload",
+      "sha256": "1adaf8055d9ee7bc38d2f8d90a3feed4f602f445bfed2125df85dba8a80518e1",
+      "bytes": 1058
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/joint_space.svg",
+      "role": "payload",
+      "sha256": "8f9b3a212c15bf1ffbe34be67011b2f4ee95d7bc53c098a877bc2a1d9dcabf0d",
+      "bytes": 253
+    },
+    {
+      "path": "original/source/ligaments.svg",
+      "role": "payload",
+      "sha256": "02594d1adc018d9a64ae3d400041c9c4fe3994d2431e56be57b04829e49e2ea6",
+      "bytes": 216
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "c7255b24f65e66d8bec0b0a35faeed4e99a3cf9456eeacdd4e226f0b7b00bd1c",
+      "bytes": 1333
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "ec37c2951956af843366065c3510ac0703573190b62423c900ba4409e63804bd",
+      "bytes": 373
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "9feb86c156d1b7d80ebbd5c5d7bd5219a8d20f80e670f994dcff2135ed4055e9",
+      "bytes": 6488
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "7965534bf7ad2cd2f755135c8a243bbbdd942fe2e86d3883889a6aac6b76bcab",
+      "bytes": 86616
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "ad57aceb15ea4a3dc8f1fd7d5b54cc61fb46c801f0daf8cab5338b4c71b43b04",
+      "bytes": 82161
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "0b57e68d5edd4e857734cab28f5645c9eb557ac77adeac647c0e1a15c419e89c",
+      "bytes": 87368
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "26e8f43e119b6ef551b42afb58cac2f091cbcec8f9037fef97d1f7e3fd76b8e4",
+      "bytes": 44059
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "87707b5297c2e3f14a4a816ebb12dd4a38f9ec04a7e08c1856ff49ca2c7130a2",
+      "bytes": 90025
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "cf771e10dcd94612fc4dcdd369e24cf0bc1ca7affcead126fca263c4bf23f757",
+      "bytes": 85719
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "886a53fbb004ce9d769e3805eb971bd2f1ea81d0491374f555c6af27bb1f7014",
+      "bytes": 90654
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "9f09ce56aab9f4e2f69a66b6e41e4876438553847e4cfaa9eb67413fff08a533",
+      "bytes": 18372
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "59ea39bfb47eafef3abffd21a5aff268aaa7d6dedeff0f0eacdc6fbc482e4c58",
+      "bytes": 153803
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "3ec7fc194c948847e3f3d2574ac3a2fd725235fb5e1ea89929143a0f2e029840",
+      "bytes": 180621
+    },
+    {
+      "path": "samples/focus-phone/0-bones-color.png",
+      "role": "payload",
+      "sha256": "d1da2ee6c17a4e079b51e2a4a27a3eb467a588353f7739f7f9047cc0a956bf57",
+      "bytes": 18676
+    },
+    {
+      "path": "samples/focus-phone/0-bones-dark.png",
+      "role": "payload",
+      "sha256": "74935ac1e13b5d50c58ff373ab8b848015df0c647761e4ab332f4fa3bc213555",
+      "bytes": 18987
+    },
+    {
+      "path": "samples/focus-phone/0-bones-light.png",
+      "role": "payload",
+      "sha256": "7bdae61890c5e2a12becc583d3249afa609ac113984e877f3325012192d81f03",
+      "bytes": 17715
+    },
+    {
+      "path": "samples/focus-phone/0-bones.png",
+      "role": "payload",
+      "sha256": "7bdae61890c5e2a12becc583d3249afa609ac113984e877f3325012192d81f03",
+      "bytes": 17715
+    },
+    {
+      "path": "samples/focus-phone/1-joint_space-color.png",
+      "role": "payload",
+      "sha256": "d81d2d8b8ae1c0dc9d388a92659e0aeac59ad8869f7f908b274d9965fea1e8c4",
+      "bytes": 20135
+    },
+    {
+      "path": "samples/focus-phone/1-joint_space-dark.png",
+      "role": "payload",
+      "sha256": "420205a56feb3f80b25c720a6e3f002343ccf7441ce36cec5eafbfd407b8887b",
+      "bytes": 19566
+    },
+    {
+      "path": "samples/focus-phone/1-joint_space-light.png",
+      "role": "payload",
+      "sha256": "d97fb0f2404bb9fba6b1f8bf5d6b461b204f412305bf69f62523fcedabecf853",
+      "bytes": 20063
+    },
+    {
+      "path": "samples/focus-phone/1-joint_space.png",
+      "role": "payload",
+      "sha256": "d97fb0f2404bb9fba6b1f8bf5d6b461b204f412305bf69f62523fcedabecf853",
+      "bytes": 20063
+    },
+    {
+      "path": "samples/focus-phone/2-ligaments-color.png",
+      "role": "payload",
+      "sha256": "ab6a2d0a7a5a526281ed713e463bfdf3d091065d4211815b46c1d9fd8533a882",
+      "bytes": 20499
+    },
+    {
+      "path": "samples/focus-phone/2-ligaments-dark.png",
+      "role": "payload",
+      "sha256": "cf8a85db70370d9175490e81acc553262a0590100203a22e50cd059cff012f4f",
+      "bytes": 19829
+    },
+    {
+      "path": "samples/focus-phone/2-ligaments-light.png",
+      "role": "payload",
+      "sha256": "ccfe517fb1503749a987cbb8ddea0d23bb1c4c49a76063d5cdef2a0420a5755f",
+      "bytes": 20543
+    },
+    {
+      "path": "samples/focus-phone/2-ligaments.png",
+      "role": "payload",
+      "sha256": "ccfe517fb1503749a987cbb8ddea0d23bb1c4c49a76063d5cdef2a0420a5755f",
+      "bytes": 20543
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "886a53fbb004ce9d769e3805eb971bd2f1ea81d0491374f555c6af27bb1f7014",
+      "bytes": 90654
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "886a53fbb004ce9d769e3805eb971bd2f1ea81d0491374f555c6af27bb1f7014",
+      "bytes": 90654
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "55d971a239cad93982cb4bfa34ad39076a5bb4c7e35a0cec81bba45bf56b0899",
+      "bytes": 46787
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "ef56444f4b516ae11234ae5b3ed96d99d618c7abb72c890ef5e8d09364b03040",
+      "bytes": 85972
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "ef56444f4b516ae11234ae5b3ed96d99d618c7abb72c890ef5e8d09364b03040",
+      "bytes": 85972
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "9dac141efb1671454425a9bf8986f93a0a195da8ea9c3ac04bf4d2d2be9a3cd1",
+      "bytes": 87291
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "9dac141efb1671454425a9bf8986f93a0a195da8ea9c3ac04bf4d2d2be9a3cd1",
+      "bytes": 87291
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "bfb216bf884d861234aabbe76e57e140ef78e18622a52453126495603905fb7a",
+      "bytes": 90110
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "bfb216bf884d861234aabbe76e57e140ef78e18622a52453126495603905fb7a",
+      "bytes": 90110
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "fc9e4459756d4998778e76e537b4a63f6169931086f46b36bd65f420aa1d3f0c",
+      "bytes": 85390
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "fc9e4459756d4998778e76e537b4a63f6169931086f46b36bd65f420aa1d3f0c",
+      "bytes": 85390
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "fc9e4459756d4998778e76e537b4a63f6169931086f46b36bd65f420aa1d3f0c",
+      "bytes": 85390
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "6730e34710d66d9c98249b03c533c73530123ff3364ead5da9083af5f412a09f",
+      "bytes": 96787
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "6730e34710d66d9c98249b03c533c73530123ff3364ead5da9083af5f412a09f",
+      "bytes": 96787
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "58f3699756fe1caf0299f2084bdda9419f734780ef5aa362c2a086bf177744fe",
+      "bytes": 97731
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "f63bcdc03369f12fcc971a42534989dd050ea77ec712d4d937592a5040838493",
+      "bytes": 98210
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "f63bcdc03369f12fcc971a42534989dd050ea77ec712d4d937592a5040838493",
+      "bytes": 98210
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "37b7f62b01cc4d2c5afdb493f7dc6ad19ea16b8de00877a1d199443ec3627da5",
+      "bytes": 93792
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "886a53fbb004ce9d769e3805eb971bd2f1ea81d0491374f555c6af27bb1f7014",
+      "bytes": 90654
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "2c4cd7f64f3b1b571af429478b9fe48a59add6ad8eae40a88330413a9fc97a85",
+      "bytes": 26058
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "a5f607ae012867a45312e75e073c026251c5863752824277e92e885ab7dde4d9",
+      "bytes": 18104
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "b91ca59a9ce3378560012c0a8686da0ae638e16b9d98d724dfdd24b9b3f8fe45",
+      "bytes": 214950
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "8f3b1559f2e60959a96e77f24e2c9b281e07dedcc2265db2c7b103cd3db269e0",
+      "bytes": 12452
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "f1f0884171f5baaf5bad70f1a4160edbe1752f167b4bbdac38a11d4bbad3ef09",
+      "bytes": 5250
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "c8fb38bd7e928a833230"
+}

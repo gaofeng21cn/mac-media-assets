@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_islet_detailed_layers_v1@ab8b99e13ca56d68dec2",
+      "portable_record_sha256": "cb1bd4b16eb1765d42a6411f83408f3b69d08291f6e756cab07ec00d924944e7"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

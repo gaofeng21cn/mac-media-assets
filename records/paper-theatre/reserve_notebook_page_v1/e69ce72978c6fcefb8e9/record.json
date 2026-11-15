@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_notebook_page_v1",
+  "title": "独立空白记录页",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "records",
+    "notebook_page"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "翻页/写入/叠放；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "notebook_page",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    15,
+    1246,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "f760817072d6bac9e588a06822a6bee4909f09bd64635264897123a064b8582b",
+      "bytes": 1225810
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "b2a406f72613fe0e5ccc94df7280ea3b741ebf726bcf9dcfc63f4e390e7825da",
+      "bytes": 1469
+    }
+  ],
+  "revision": "e69ce72978c6fcefb8e9",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_notebook_page_v1@1f2278bcc87208c993c3",
+    "source_record_sha256": "c0d349b5bd002d40d9726175cc95543132c31f8b3036ae78b1b7eed9ad24a7b6",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "87d8f6a07417fa70ead60aaecd18e9d7bb572176ba6877e90922fa7d80cd8c59",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

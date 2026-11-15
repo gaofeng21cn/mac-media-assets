@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "One standalone wooden cooking spatula, transparent paper collage cutout, no hand, pan, food or background.",
+  "source_path": "/Users/gaofeng/workspace/科普视频/work/review/cooking-assets-20261024/sources/wooden-spatula.png",
+  "measured": {
+    "width": 1254,
+    "height": 1254,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      17,
+      23,
+      1176,
+      1234
+    ],
+    "opaque_ratio": 0.1632,
+    "translucent_ratio": 0.0056,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-23T16:26:24.993836+00:00"
+}

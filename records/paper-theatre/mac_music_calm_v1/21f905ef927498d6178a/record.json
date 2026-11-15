@@ -1,0 +1,76 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_music_calm_v1",
+  "title": "配乐情绪：calm",
+  "kind": "music_score",
+  "tags": [
+    "reserve_2026_10_11",
+    "music",
+    "calm",
+    "stems"
+  ],
+  "entry": "music/audition.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+  "source": {
+    "kind": "original_midi_fluidsynth",
+    "license": "MIT soundfont; original MIDI"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "music/audition.wav",
+      "role": "payload",
+      "sha256": "57d208804059e876151458c08aeb53d62d353bf8a3b032f9787af6e77f614a24",
+      "bytes": 5997254
+    },
+    {
+      "path": "music/bed.mid",
+      "role": "payload",
+      "sha256": "8c0f2648f4ca4fe1f10e7a96f5e043326c0b735dad44a5216be8085defa34be3",
+      "bytes": 295
+    },
+    {
+      "path": "music/bed.wav",
+      "role": "payload",
+      "sha256": "59f1d5e2ac7c4ce165f7080356405f18f8cf8289d0b2ab31ca848cd1ff6f9c88",
+      "bytes": 5997254
+    },
+    {
+      "path": "music/motif.mid",
+      "role": "payload",
+      "sha256": "1db735024c293c08223c9318a83e23bb293c72eb35079a79b464d9a338ca6194",
+      "bytes": 148
+    },
+    {
+      "path": "music/motif.wav",
+      "role": "payload",
+      "sha256": "14fabe66fd6c0c40a5fa552309c5f7ce472111e76faf684b62be4a201ee28426",
+      "bytes": 5997254
+    },
+    {
+      "path": "music/performance.json",
+      "role": "evidence",
+      "sha256": "589925fb10af3ea3169bb48d324df467e3f45d719205899af6506876f0682c7f",
+      "bytes": 7333
+    },
+    {
+      "path": "music/pulse.mid",
+      "role": "payload",
+      "sha256": "1b14aab113cad0055bbe2529383b844acce6073ff84a92c27b88a1150e77a614",
+      "bytes": 196
+    },
+    {
+      "path": "music/pulse.wav",
+      "role": "payload",
+      "sha256": "5596c93d79ec33840d7d9e7934fd90faa6b884482ac335c8a153c59efd951e02",
+      "bytes": 5997254
+    }
+  ],
+  "revision": "21f905ef927498d6178a"
+}

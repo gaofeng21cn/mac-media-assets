@@ -1,0 +1,79 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_paper_turn_v1",
+  "title": "拟音：paper_turn",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "paper_turn"
+  ],
+  "entry": "audio/paper_turn-1.flac",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/paper_turn-1.flac",
+      "role": "payload",
+      "sha256": "e0ad369e70ea87bfeaa43c58d40345619b8b1c13c0baf8b366bb0f57698d5bb2",
+      "bytes": 42459
+    },
+    {
+      "path": "audio/paper_turn-2.flac",
+      "role": "payload",
+      "sha256": "ea4392d88c91b14e4f9901deda3493586420acef0b5f262a68d1574453cde613",
+      "bytes": 42640
+    },
+    {
+      "path": "audio/paper_turn-3.flac",
+      "role": "payload",
+      "sha256": "d536bfecb62b8fe8d2c3a103ce82cd8e53fe6a42dd2baafdf54d611818f64bb0",
+      "bytes": 42133
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "ef587b9d03e27114bacbf8576fd065f8a13c59e091879b084ccb441c716bbda8",
+      "bytes": 348
+    }
+  ],
+  "revision": "a7a06ec469063c68d674",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_sfx_paper_turn_v1@6d61879b29999519899d",
+    "source_record_sha256": "cc5b5e8fffc91f04d1607a50ddcfc5adeded50ad35c0d3dad917ee017a6413c0",
+    "encodings": [
+      {
+        "path": "audio/paper_turn-1.wav",
+        "encoded_path": "audio/paper_turn-1.flac",
+        "source_sha256": "3713d07ecc36cde48735bbeec81b6e64669dfbe2c0bd2bc73d5cde526372be7b",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/paper_turn-2.wav",
+        "encoded_path": "audio/paper_turn-2.flac",
+        "source_sha256": "a23a01d96f54886f7999bcc0756b6853ebdf3042eab66354be3e1f20fdc72228",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/paper_turn-3.wav",
+        "encoded_path": "audio/paper_turn-3.flac",
+        "source_sha256": "ed89def1f46664deb9414b92a18b0a3f0e0c14c57ba6293a3c55968963b65125",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      }
+    ]
+  }
+}

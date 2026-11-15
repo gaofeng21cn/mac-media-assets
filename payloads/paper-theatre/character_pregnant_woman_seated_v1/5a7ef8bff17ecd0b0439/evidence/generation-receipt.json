@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "",
+  "source_path": "/Users/gaofeng/workspace/科普视频/assets/characters-v2/pregnant_woman_seated_v1.png",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      30,
+      1002,
+      1492
+    ],
+    "opaque_ratio": 0.2805,
+    "translucent_ratio": 0.0094,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-22T06:06:25.799535+00:00"
+}

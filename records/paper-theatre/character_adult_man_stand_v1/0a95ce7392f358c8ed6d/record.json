@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_adult_man_stand_v1",
+  "title": "成年男性完整站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "adult",
+    "man",
+    "patient",
+    "stand",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "成年男性完整站姿",
+    "aliases": [
+      "男性患者",
+      "成年男性",
+      "男患者",
+      "男性",
+      "adult man",
+      "male patient"
+    ],
+    "objects": [
+      "完整成年男性人物"
+    ],
+    "story_roles": [
+      "男性患者",
+      "男性家属",
+      "成人情境"
+    ],
+    "actions": [
+      "站立",
+      "倾听",
+      "等待"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整成年男性纸剪贴人物；来源为既有项目已使用素材，当前镜头仍需复核身份、尺度、接触和遮挡。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "完整成年男性站姿；不是医生，也不代表品牌人物。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "curated_existing_project_asset",
+    "plan_id": "character_adult_man_stand_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    0,
+    29,
+    1004,
+    1510
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      29,
+      1004,
+      1510
+    ],
+    "opaque_ratio": 0.2741,
+    "translucent_ratio": 0.0103,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797",
+      "bytes": 1898958
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "a1aca5c6652759fe352ff3fe9b1d12232112b3b4dfc3dd75c4182859c03fe991",
+      "bytes": 514
+    }
+  ],
+  "revision": "0a95ce7392f358c8ed6d"
+}

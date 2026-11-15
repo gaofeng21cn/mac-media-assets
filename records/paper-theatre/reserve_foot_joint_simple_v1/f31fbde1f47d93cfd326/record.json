@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_foot_joint_simple_v1",
+  "title": "足关节·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·payload",
+      "medical": true,
+      "content_bounds": [
+        353,
+        147,
+        841,
+        871
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_foot_joint_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "足关节",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "踝足骨性结构示意，区分骨面、关节间隙与韧带走向；不表示关节间隙正常宽度、骨密度或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "5d43164c868337b7169c4f8759de99f0b7787a4c566fde8093297ed4853174ab",
+      "bytes": 538
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "5e01cb59ff1f80220a45a0e834e1ec9408db192bc91e1aa290a1fe0e576e381b",
+      "bytes": 30921
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "5d43164c868337b7169c4f8759de99f0b7787a4c566fde8093297ed4853174ab",
+      "bytes": 538
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "5e01cb59ff1f80220a45a0e834e1ec9408db192bc91e1aa290a1fe0e576e381b",
+      "bytes": 30921
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7783ba03d927467f25cf70bb9c26141a142b6d486732744b98a43af2ad80c21f",
+      "bytes": 618
+    }
+  ],
+  "revision": "f31fbde1f47d93cfd326"
+}

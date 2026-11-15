@@ -1,0 +1,319 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_child_girl_seat_report_stand_v1",
+  "title": "儿童女性·落座、取报告与起身",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "complete_character",
+    "same_identity",
+    "contact_unit",
+    "seated_reach_stand"
+  ],
+  "discovery": {
+    "category": "motion",
+    "character_role": "child_girl",
+    "aliases": [
+      "儿童女性",
+      "落座",
+      "取报告",
+      "起身"
+    ],
+    "actions": [
+      "坐站过渡",
+      "取报告",
+      "持物"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "poses": [
+      "stand",
+      "seated",
+      "reach"
+    ]
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "b6b3f9550438b3a54951442ba76ff151d75d8d067a42ce42f09772b6f8bbc405",
+      "bytes": 556
+    },
+    {
+      "path": "assets/sheet.png",
+      "role": "payload",
+      "sha256": "4552f6604baf20e691d2a8c550ab0916ee4c56a30e3b3c7d3d0ab58925d73ff7",
+      "bytes": 2260373
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "d62095c0520b0b9c148b64295a41aabee2cf2baf0420fbb6295a3029d1583c55",
+      "bytes": 579
+    },
+    {
+      "path": "registration.json",
+      "role": "payload",
+      "sha256": "7f7b407fe522326825f05ca97ad2ce38acad1b9abf38288bbaa44384b26173d0",
+      "bytes": 1588
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "9289feb9932f56e7c7bd2520fefdc88cb644b243b6656db1d039a2b2b6d95ea6",
+      "bytes": 4708
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+      "bytes": 1004
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "10ff02d94618581bff54dcde1facab876b3eaf950b627a01e6fadb99d8a9b457",
+      "bytes": 106271
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "c155e159b6d42362d8da1c13b66a1be8defa0f31c2c89a03f1054e108661e322",
+      "bytes": 103545
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+      "bytes": 106977
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "573c59b38febc604aeab9ad53b4236240a419f1754822ae79cc1db76a155e9da",
+      "bytes": 20663
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "69b410b18c9373abcd3575687c4191897f3a3723d8a153786eae53c9fd5a0e78",
+      "bytes": 113839
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "9e6cfae55d65c46011a572af9931e0e019d60fe71b043914038f953f9ed72f17",
+      "bytes": 121306
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "9e6cfae55d65c46011a572af9931e0e019d60fe71b043914038f953f9ed72f17",
+      "bytes": 121306
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "9e6cfae55d65c46011a572af9931e0e019d60fe71b043914038f953f9ed72f17",
+      "bytes": 121306
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "bdce704322edbe4a6ed47d222170bd8c36f7e40f2cbf4c83438415dbec0f2403",
+      "bytes": 117424
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "bdce704322edbe4a6ed47d222170bd8c36f7e40f2cbf4c83438415dbec0f2403",
+      "bytes": 117424
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "bdce704322edbe4a6ed47d222170bd8c36f7e40f2cbf4c83438415dbec0f2403",
+      "bytes": 117424
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+      "bytes": 106977
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+      "bytes": 106977
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+      "bytes": 106977
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "86ba03d6af52d0c48ba8b486a4ade20bd7ebfbb2cb65c4722ebcd621b4cfd166",
+      "bytes": 101364
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "86ba03d6af52d0c48ba8b486a4ade20bd7ebfbb2cb65c4722ebcd621b4cfd166",
+      "bytes": 101364
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "86ba03d6af52d0c48ba8b486a4ade20bd7ebfbb2cb65c4722ebcd621b4cfd166",
+      "bytes": 101364
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "d19f5456adb780e10b177db5bda2e551d948f8bf8995f16e43581d6915dc5857",
+      "bytes": 107202
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "d19f5456adb780e10b177db5bda2e551d948f8bf8995f16e43581d6915dc5857",
+      "bytes": 107202
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "d19f5456adb780e10b177db5bda2e551d948f8bf8995f16e43581d6915dc5857",
+      "bytes": 107202
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "aed7146969bc5d7ad92052f4cd0ea1b0ae4f08afa687464a43bdc76cf06a2e2d",
+      "bytes": 105689
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "aed7146969bc5d7ad92052f4cd0ea1b0ae4f08afa687464a43bdc76cf06a2e2d",
+      "bytes": 105689
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "aed7146969bc5d7ad92052f4cd0ea1b0ae4f08afa687464a43bdc76cf06a2e2d",
+      "bytes": 105689
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "a7282b7a5c137a30904c54aa81ac143f09c3035b04830b1d1a7440966c3d8cfb",
+      "bytes": 118982
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "a7282b7a5c137a30904c54aa81ac143f09c3035b04830b1d1a7440966c3d8cfb",
+      "bytes": 118982
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "a7282b7a5c137a30904c54aa81ac143f09c3035b04830b1d1a7440966c3d8cfb",
+      "bytes": 118982
+    },
+    {
+      "path": "samples/keyframes/21.png",
+      "role": "payload",
+      "sha256": "088821eaab1815391faef19cc2b9c695ce8d7e728aaf1a1fec9bf5fe230f9a87",
+      "bytes": 128533
+    },
+    {
+      "path": "samples/keyframes/22.png",
+      "role": "payload",
+      "sha256": "088821eaab1815391faef19cc2b9c695ce8d7e728aaf1a1fec9bf5fe230f9a87",
+      "bytes": 128533
+    },
+    {
+      "path": "samples/keyframes/23.png",
+      "role": "payload",
+      "sha256": "088821eaab1815391faef19cc2b9c695ce8d7e728aaf1a1fec9bf5fe230f9a87",
+      "bytes": 128533
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "72f6cbbf270f78a958c184122f9c9da88fb5fad551a4babeb9d7a105861473fc",
+      "bytes": 12629
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "3df9bea3f9fdd67cb81beea554a49cded3e406b4395c44b6439c2f72f5d299fe",
+      "bytes": 13261
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "60eb55ef085045daffc8626b89a84e3284ff8f68badaa7f1b0ac137279f00384",
+      "bytes": 143737
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "6a65ddac2bdd8222d319eb9d8f04eb0c117ee7fb45ae4269b9ed9ce645eed884",
+      "bytes": 10485
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "21295eb348ce8d8ca8699adc6a42c8b87e3d0f03fc46d6a249f80f9eb84c5da8",
+      "bytes": 5710
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "ea17c5496558afc3cc7e"
+}

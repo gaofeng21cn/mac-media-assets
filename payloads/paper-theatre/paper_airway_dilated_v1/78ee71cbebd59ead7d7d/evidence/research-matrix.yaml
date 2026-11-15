@@ -1,0 +1,407 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: asthma
+questions:
+- question_id: AST-Q01
+  question: 哪些反复出现的症状模式需要评估哮喘？
+  priority: must_answer
+  claims:
+  - question_id: AST-Q01
+    claim_id: AST-CLM01
+    claim: 中国指南列出反复发作、随时间和强度变化的喘息、气促、胸闷或咳嗽，常与过敏原、冷空气、刺激物、感染或运动相关；症状模式用于提示评估，不构成自诊。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: AST-001
+      locator: 第3节诊断标准（临床症状和体征）
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 中国指南列出反复发作、随时间和强度变化的喘息、气促、胸闷或咳嗽，常与过敏原、冷空气、刺激物、感染或运动相关；症状模式用于提示评估，不构成自诊。
+    population: 反复喘息/咳嗽的成人、儿童家庭及已确诊患者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AST-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 哪些反复出现的症状模式需要评估哮喘？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 儿童、老年人和不典型哮喘还需年龄及亚型专章审核。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 中国指南列出反复发作、随时间和强度变化的喘息、气促、胸闷或咳嗽，常与过敏原、冷空气、刺激物、感染或运动相关；症状模式用于提示评估，不构成自诊。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: AST-Q02
+  question: 哮喘诊断为什么需要结合客观检查？
+  priority: must_answer
+  claims:
+  - question_id: AST-Q02
+    claim_id: AST-CLM02
+    claim: 中国指南要求相符的症状与体征结合可变气流受限的客观证据，并排除其他原因；吸入治疗可能降低肺功能参数的可变性。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: AST-001
+      locator: 第3节诊断标准及推荐意见1–3
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 中国指南要求相符的症状与体征结合可变气流受限的客观证据，并排除其他原因；吸入治疗可能降低肺功能参数的可变性。
+    population: 反复喘息/咳嗽的成人、儿童家庭及已确诊患者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AST-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 哮喘诊断为什么需要结合客观检查？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 检查方式和结果由临床人员解释，不提供自测阈值。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 中国指南要求相符的症状与体征结合可变气流受限的客观证据，并排除其他原因；吸入治疗可能降低肺功能参数的可变性。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: AST-Q03
+  question: 控制状态要复核哪些信息？
+  priority: must_answer
+  claims:
+  - question_id: AST-Q03
+    claim_id: AST-CLM03
+    claim: 中国指南把症状控制和未来急性发作风险同时纳入长期管理目标，并建议持续评估、调整治疗和监测治疗反应。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: AST-001
+      locator: 第11节哮喘管理
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 中国指南把症状控制和未来急性发作风险同时纳入长期管理目标，并建议持续评估、调整治疗和监测治疗反应。
+    population: 反复喘息/咳嗽的成人、儿童家庭及已确诊患者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AST-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 控制状态要复核哪些信息？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 具体控制工具、药物调整及儿童方案需临床复核。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 中国指南把症状控制和未来急性发作风险同时纳入长期管理目标，并建议持续评估、调整治疗和监测治疗反应。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: AST-Q04
+  question: 吸入装置、长期治疗和发作计划怎样衔接？
+  priority: must_answer
+  claims:
+  - question_id: AST-Q04
+    claim_id: AST-CLM04
+    claim: 中国指南建议对每种处方吸入装置进行实物演示和反复培训，并把依从性、书面治疗计划与持续评估纳入管理。
+    status: context_limited
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: AST-001
+      locator: 第11节患者教育
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 中国指南建议对每种处方吸入装置进行实物演示和反复培训，并把依从性、书面治疗计划与持续评估纳入管理。
+    population: 反复喘息/咳嗽的成人、儿童家庭及已确诊患者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AST-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 吸入装置、长期治疗和发作计划怎样衔接？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 不在本研究包给出装置剂量或个体急性发作处置；需按具体装置和急救指南复核。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 中国指南建议对每种处方吸入装置进行实物演示和反复培训，并把依从性、书面治疗计划与持续评估纳入管理。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ01
+  question: 症状的变化模式
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ01
+    claim_id: AST-MAT01
+    claim: 反复喘息、气促、胸闷或咳嗽，可随时间和强度变化，可能受运动、冷空气、过敏原或感染等影响。单次咳嗽或听到喘声不能确诊，需要看完整模式并排查其他原因。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 第三节：诊断标准
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 反复喘息、气促、胸闷或咳嗽，可随时间和强度变化，可能受运动、冷空气、过敏原或感染等影响。单次咳嗽或听到喘声不能确诊，需要看完整模式并排查其他原因。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 症状的变化模式
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 反复喘息、气促、胸闷或咳嗽，可随时间和强度变化，可能受运动、冷空气、过敏原或感染等影响。单次咳嗽或听到喘声不能确诊，需要看完整模式并排查其他原因。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ02
+  question: 气道炎症与可变气流受限
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ02
+    claim_id: AST-MAT02
+    claim: 指南将慢性气道炎症和可变气流受限联系起来。可把气道壁、分泌物及平滑肌收缩分别画清，解释同一人的症状为何有波动；不把所有哮喘画成黏液完全堵塞。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 定义/机制；第三节诊断
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 指南将慢性气道炎症和可变气流受限联系起来。可把气道壁、分泌物及平滑肌收缩分别画清，解释同一人的症状为何有波动；不把所有哮喘画成黏液完全堵塞。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 气道炎症与可变气流受限
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 指南将慢性气道炎症和可变气流受限联系起来。可把气道壁、分泌物及平滑肌收缩分别画清，解释同一人的症状为何有波动；不把所有哮喘画成黏液完全堵塞。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ03
+  question: 为什么症状好时也可能需要检查
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ03
+    claim_id: AST-MAT03
+    claim: 肺功能、支气管舒张或激发等检查用于寻找可变气流受限证据，检查前后的治疗可能影响表现。需要由临床结合病史选择检查，单次正常结果或单项边界值并不自动结束评估。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 第三节推荐意见1–3
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 肺功能、支气管舒张或激发等检查用于寻找可变气流受限证据，检查前后的治疗可能影响表现。需要由临床结合病史选择检查，单次正常结果或单项边界值并不自动结束评估。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 为什么症状好时也可能需要检查
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 肺功能、支气管舒张或激发等检查用于寻找可变气流受限证据，检查前后的治疗可能影响表现。需要由临床结合病史选择检查，单次正常结果或单项边界值并不自动结束评估。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ04
+  question: 控制要同时看现在和未来
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ04
+    claim_id: AST-MAT04
+    claim: 症状频率、夜间醒来、活动受限和缓解药使用反映当前控制；既往发作、肺功能、依从性等影响未来风险。症状少不等于未来没有发作风险。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 评估章节；第十一节哮喘管理
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 症状频率、夜间醒来、活动受限和缓解药使用反映当前控制；既往发作、肺功能、依从性等影响未来风险。症状少不等于未来没有发作风险。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 控制要同时看现在和未来
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 症状频率、夜间醒来、活动受限和缓解药使用反映当前控制；既往发作、肺功能、依从性等影响未来风险。症状少不等于未来没有发作风险。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ05
+  question: 抗炎与支气管舒张的角色
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ05
+    claim_id: AST-MAT05
+    claim: 含吸入糖皮质激素的方案针对炎症，支气管舒张药帮助缓解气道收缩。中国指南不推荐仅用SABA等作为常规治疗路径；科普应解释两类任务，不根据药罐颜色判断作用。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 慢性持续期治疗；路径1/2及推荐意见11–14
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 含吸入糖皮质激素的方案针对炎症，支气管舒张药帮助缓解气道收缩。中国指南不推荐仅用SABA等作为常规治疗路径；科普应解释两类任务，不根据药罐颜色判断作用。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 抗炎与支气管舒张的角色
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 含吸入糖皮质激素的方案针对炎症，支气管舒张药帮助缓解气道收缩。中国指南不推荐仅用SABA等作为常规治疗路径；科普应解释两类任务，不根据药罐颜色判断作用。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ06
+  question: 吸入装置技巧是治疗的一部分
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ06
+    claim_id: AST-MAT06
+    claim: 不同装置的准备、吸气方式和配合不同，处方后要实物演示并反复复核。动作材料应按具体型号制作，不能用一个通用“深吸一口”覆盖所有装置。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 第十一节患者教育；推荐意见34
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 不同装置的准备、吸气方式和配合不同，处方后要实物演示并反复复核。动作材料应按具体型号制作，不能用一个通用“深吸一口”覆盖所有装置。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 吸入装置技巧是治疗的一部分
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 不同装置的准备、吸气方式和配合不同，处方后要实物演示并反复复核。动作材料应按具体型号制作，不能用一个通用“深吸一口”覆盖所有装置。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ07
+  question: 控制不佳先复核什么
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ07
+    claim_id: AST-MAT07
+    claim: 治疗调整前检查诊断、吸入技术、依从性、暴露和共病，再讨论升降阶治疗。反复不适并不自动意味着药量不足，也可能是装置使用或其他疾病需要处理。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 哮喘评估、长期管理与治疗调整
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 治疗调整前检查诊断、吸入技术、依从性、暴露和共病，再讨论升降阶治疗。反复不适并不自动意味着药量不足，也可能是装置使用或其他疾病需要处理。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 控制不佳先复核什么
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 治疗调整前检查诊断、吸入技术、依从性、暴露和共病，再讨论升降阶治疗。反复不适并不自动意味着药量不足，也可能是装置使用或其他疾病需要处理。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: AST-RQ08
+  question: 书面计划和急性发作
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: AST-RQ08
+    claim_id: AST-MAT08
+    claim: 书面行动计划应由医疗团队根据患者的处方与风险制订，明确日常管理和恶化时的行动。突然严重呼吸困难、意识或说话能力改变等需紧急医疗评估，不在公众材料中推演家庭替代急救。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 急性发作期处理；第十一节患者教育
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 书面行动计划应由医疗团队根据患者的处方与风险制订，明确日常管理和恶化时的行动。突然严重呼吸困难、意识或说话能力改变等需紧急医疗评估，不在公众材料中推演家庭替代急救。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 书面计划和急性发作
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 书面行动计划应由医疗团队根据患者的处方与风险制订，明确日常管理和恶化时的行动。突然严重呼吸困难、意识或说话能力改变等需紧急医疗评估，不在公众材料中推演家庭替代急救。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null

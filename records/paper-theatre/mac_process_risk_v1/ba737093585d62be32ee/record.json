@@ -1,0 +1,109 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_risk_v1",
+  "title": "相同分母下的绝对风险比较",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "communication",
+    "display_title": "相同分母下的绝对风险比较",
+    "aliases": [
+      "风险沟通",
+      "治疗获益",
+      "人群点阵",
+      "绝对人数比较"
+    ],
+    "topics": [
+      "风险沟通",
+      "治疗获益"
+    ],
+    "medical_systems": [
+      "跨系统"
+    ],
+    "patient_tasks": [
+      "比较治疗选择"
+    ],
+    "mechanisms": [
+      "人群点阵",
+      "绝对人数比较"
+    ],
+    "story_roles": [
+      "比较治疗选择"
+    ],
+    "actions": [
+      "人群点阵",
+      "绝对人数比较"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "样例10/100与5/100为演示数据；实际使用须绑定真实终点、相同人群及随访时段。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "样例10/100与5/100为演示数据；实际使用须绑定真实终点、相同人群及随访时段。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "35bb5029219b4578ec919a619f7ee470a7c3d00ca862dae3d292996bbb2e911a",
+      "bytes": 552
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "6e6b51bc8a33979e6531c8f37174642702b14b3272f70892563eb25aa03e3074",
+      "bytes": 275
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "30bef66d17857e0a8661df6241e0abafc474b3e27e38db468c12e50d28f5c387",
+      "bytes": 242
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "ba737093585d62be32ee"
+}

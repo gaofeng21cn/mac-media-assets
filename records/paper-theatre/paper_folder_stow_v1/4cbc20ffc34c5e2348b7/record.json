@@ -1,0 +1,192 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_folder_stow_v1",
+  "title": "无品牌纸夹打开、收纳与夹持组件",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "type": "local_authored",
+    "template": "paper_theatre",
+    "kit_version": "1.2.0",
+    "owner_commit": "b3229fc"
+  },
+  "tags": [
+    "paper_collage",
+    "Canvas2D",
+    "TypeScript",
+    "容器遮挡",
+    "连续动作"
+  ],
+  "usage_notes": "源码冻结并附6秒可看样例。重新使用时按本镜头内容设计位置和大小。完整打开封面退到书脊，夹子只在接触资料时落定。无疾病、医生或品牌。",
+  "dependencies": [
+    "Node.js",
+    "npm ci",
+    "Chrome/FFmpeg用于重新导出"
+  ],
+  "review_status": "实际编码、解码和静帧看图；正常速度完整动态仍待审",
+  "quality_debt": [
+    "模块样例不批准另一集医学、艺术或听感"
+  ],
+  "files": [
+    {
+      "path": ".render-OFxzNE/frame-0.png",
+      "role": "payload",
+      "sha256": "1c89c87051743de39b7c96d91592301f6854058d3236f3c4b32542960a392e22",
+      "bytes": 107531
+    },
+    {
+      "path": ".render-OFxzNE/frame-143.png",
+      "role": "payload",
+      "sha256": "e201a4443c6db5f713f0d1204b7c36c7b035d4e0f6a00053c0e068727ae339d5",
+      "bytes": 111971
+    },
+    {
+      "path": ".render-OFxzNE/frame-72.png",
+      "role": "payload",
+      "sha256": "c8c457e3563c2a0074d701a77f9629675069418b0f471b72dee3ac812a63ca4b",
+      "bytes": 107552
+    },
+    {
+      "path": ".render-OFxzNE/render.json",
+      "role": "payload",
+      "sha256": "916344fe50d83886919d96e6aee63ce83a46b37e2ce1d50882b07e40ff1119cf",
+      "bytes": 644
+    },
+    {
+      "path": "README.md",
+      "role": "payload",
+      "sha256": "0758f5a818b149fe0c88b70f48ceb038bf971a32c0cefe7b0765e3116785490d",
+      "bytes": 363
+    },
+    {
+      "path": "dist/film.js",
+      "role": "payload",
+      "sha256": "f28b0832c89f3d67c10fc914336c222da31f53d66dae156a77480e128da54f0a",
+      "bytes": 19290
+    },
+    {
+      "path": "index.html",
+      "role": "payload",
+      "sha256": "37f4e96d92fb3038914a59fe537dae74ef46267394211602bba8ffc0768eb377",
+      "bytes": 614
+    },
+    {
+      "path": "package-lock.json",
+      "role": "payload",
+      "sha256": "69a13502725a17956083301e04e0e3d5fd2fb02cf6aee3a1b4b8e29ea4f4832d",
+      "bytes": 15045
+    },
+    {
+      "path": "package.json",
+      "role": "payload",
+      "sha256": "d6648015ba14957bc9424f1f35568514741854cfc1a5ed53a20d503b64ce1a86",
+      "bytes": 319
+    },
+    {
+      "path": "poster.png",
+      "role": "poster",
+      "sha256": "ee506ef26025948c11f3af70c0d66a647a0a13ec68a7f896f1617ea5522e655e",
+      "bytes": 134600
+    },
+    {
+      "path": "sample.mp4",
+      "role": "sample",
+      "sha256": "d278778a0dd523c5652ea584c40650da29366523b58b586c9c7ff6383fb713fc",
+      "bytes": 125225
+    },
+    {
+      "path": "sample.receipt.json",
+      "role": "payload",
+      "sha256": "a7579a1e9be9cd4a17ed95d32d363fb42beadc4028dd43a7f741843aab3c89e5",
+      "bytes": 1652
+    },
+    {
+      "path": "score.json",
+      "role": "payload",
+      "sha256": "b1d79b5e530f44744054eed08475d261e93825e4890883135d7f79d31fcfed5d",
+      "bytes": 415
+    },
+    {
+      "path": "scripts/build.mjs",
+      "role": "payload",
+      "sha256": "d696f86063f29df6e0fafc01141ca641495b3a2c49245554e9dfaa604a302d77",
+      "bytes": 183
+    },
+    {
+      "path": "src/kit/materials.ts",
+      "role": "payload",
+      "sha256": "a19629c8f051e822bf1ff0335b242e27a688a7e7e7bc8d2caa633439913c6382",
+      "bytes": 3554
+    },
+    {
+      "path": "src/kit/motion.ts",
+      "role": "payload",
+      "sha256": "3e73f75aee564886a239374c43a2a5ec4a1984176fa488cfa0da7126ba838179",
+      "bytes": 2159
+    },
+    {
+      "path": "src/kit/overlays.ts",
+      "role": "payload",
+      "sha256": "1210bc99d14611f8d97d98aa6a9ba858fb63f17d9da0363de7483e1f2d600594",
+      "bytes": 1376
+    },
+    {
+      "path": "src/kit/paths.ts",
+      "role": "payload",
+      "sha256": "8f6e4259d5fd13917b23f14746a0bfddd9716ecf7201876c87683fd362206f92",
+      "bytes": 2577
+    },
+    {
+      "path": "src/kit/player.ts",
+      "role": "payload",
+      "sha256": "2d550175ef2f24c03086b658c0e2c7ade7e79d3108b65aa08cf379bdf56ee956",
+      "bytes": 5945
+    },
+    {
+      "path": "src/kit/props.ts",
+      "role": "payload",
+      "sha256": "f0aa18a9467fa720671a8b984d2f2598f420d195525db46b9ab68264fe92509e",
+      "bytes": 3363
+    },
+    {
+      "path": "src/kit/scene.ts",
+      "role": "payload",
+      "sha256": "0684df068a00ba08214ac14e5fa0bfdb1c53dfa70b25f1bcfeaeb7310576c765",
+      "bytes": 978
+    },
+    {
+      "path": "src/kit/stage.ts",
+      "role": "payload",
+      "sha256": "d2de2b9b9efa15185e4f5bf97ceb4383f963adb3686dfb6052a4b8536837d6c7",
+      "bytes": 8762
+    },
+    {
+      "path": "src/kit/tracks.ts",
+      "role": "payload",
+      "sha256": "fe9374f59fe5309528cc37345aea9cc3fb4de84f88246ff92f528178677b52dd",
+      "bytes": 1871
+    },
+    {
+      "path": "src/kit/types.ts",
+      "role": "payload",
+      "sha256": "1b6337a19634a50e918922ae4f04528aa2ff0dd232ea005907db92f3f797f1f7",
+      "bytes": 1919
+    },
+    {
+      "path": "src/main.ts",
+      "role": "payload",
+      "sha256": "e79f0ff0556ed0a1affaf92adb3ad5dbd48660ab3d08b529249493cf90e664b4",
+      "bytes": 943
+    },
+    {
+      "path": "tsconfig.json",
+      "role": "payload",
+      "sha256": "bf91fa8cd194bae8ff2abea8a5d6a43323560c33801804268a2fe28c3dbb8f87",
+      "bytes": 338
+    }
+  ],
+  "revision": "4cbc20ffc34c5e2348b7"
+}

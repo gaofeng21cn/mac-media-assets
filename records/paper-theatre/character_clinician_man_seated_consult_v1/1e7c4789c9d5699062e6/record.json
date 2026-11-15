@@ -1,0 +1,137 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_clinician_man_seated_consult_v1",
+  "title": "男性医生·坐姿问诊·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "clinician_man",
+    "seated_consult",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "男性医生",
+      "坐姿问诊"
+    ],
+    "actions": [
+      "seated_consult",
+      "坐姿问诊"
+    ],
+    "character_role": "clinician_man",
+    "identity_family": "clinician_man_baseline",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "character_clinician_man_stand_v1/e3d6196ad0b8ca4dd44e/files/payload.png",
+    "prompt": "Use case: illustration-story. Asset type: reusable complete character pose for medical paper-theatre animation. Input image 1: identity and style reference only. Create exactly the SAME person in a new pose: seated consultation posture, three-quarter view facing screen right, leaning slightly forward attentively, thighs approximately horizontal, shins vertical, feet flat at shared ground level; both visible open hands held naturally near knees. Person alone; no chair or desk so a separate chair can be placed at the visible rear buttock support edge. Preserve reference face, age, ethnicity, hairstyle, body proportions, clothing colors, sleeve length, footwear and textured paper-collage illustration style. Full body from hair to both shoes, complete connected anatomy, generous clean margin all sides, crisp opaque colored-paper interior, subtle printed paper texture, natural hands and expression. Single isolated person on genuinely transparent alpha background. No chair, props, typography, floor mark, cast shadow, aura, vignette, blur, glow, checkerboard or background. Avoid assembly from basic geometric shapes. This is one pose, not a sheet or sequence."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.11
+      },
+      "seat": {
+        "x": 0.328,
+        "y": 0.595
+      },
+      "feet": {
+        "x": 0.66,
+        "y": 0.925
+      },
+      "hand_left": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "hand_right": {
+        "x": 0.78,
+        "y": 0.48
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    154,
+    44,
+    936,
+    1426
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      21,
+      1000,
+      1536
+    ],
+    "opaque_ratio": 0.2976,
+    "translucent_ratio": 0.0096,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      154,
+      44,
+      936,
+      1426
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "87948d362075c6ac101ba4e95f0839b0af0badf699daf4ad6f3b0acb75f2f950",
+      "bytes": 1826020
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "a245b4d45654ef8d614e0faee61a285b7d704b7d6883b908007f8559af2c8e7d",
+      "bytes": 2831
+    }
+  ],
+  "revision": "1e7c4789c9d5699062e6"
+}

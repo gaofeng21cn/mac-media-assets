@@ -1,0 +1,488 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 192,
+  "fps": 24,
+  "duration": 8,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "b2a30975b918ce347b56b8d250da2d261bfc1ffa3d58eb52a39a0a388b46f24a",
+    "assets/sheet.webp": "cd094103b03f96aed8720c9445ac4603a7bcbf0b7d42597db938831388be6b0c"
+  },
+  "keyframes": [
+    "samples/keyframes/00.webp",
+    "samples/keyframes/01.webp",
+    "samples/keyframes/02.webp",
+    "samples/keyframes/03.webp",
+    "samples/keyframes/04.webp",
+    "samples/keyframes/05.webp",
+    "samples/keyframes/06.webp",
+    "samples/keyframes/07.webp",
+    "samples/keyframes/08.webp",
+    "samples/keyframes/09.webp",
+    "samples/keyframes/10.webp",
+    "samples/keyframes/11.webp",
+    "samples/keyframes/12.webp",
+    "samples/keyframes/13.webp",
+    "samples/keyframes/14.webp",
+    "samples/keyframes/15.webp",
+    "samples/keyframes/16.webp",
+    "samples/keyframes/17.webp",
+    "samples/keyframes/18.webp",
+    "samples/keyframes/19.webp",
+    "samples/keyframes/20.webp",
+    "samples/keyframes/21.webp",
+    "samples/keyframes/22.webp",
+    "samples/keyframes/23.webp"
+  ],
+  "states": [
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 0,
+      "frame": 0,
+      "phase": "站稳",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 0.01,
+      "frame": 0,
+      "phase": "站稳",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 0.69,
+      "frame": 0,
+      "phase": "站稳",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 0.7,
+      "frame": 1,
+      "phase": "准备落座",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 0.71,
+      "frame": 1,
+      "phase": "准备落座",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 1.39,
+      "frame": 1,
+      "phase": "准备落座",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 1.4,
+      "frame": 2,
+      "phase": "下降",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 1.41,
+      "frame": 2,
+      "phase": "下降",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 2.09,
+      "frame": 2,
+      "phase": "下降",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 2.1,
+      "frame": 3,
+      "phase": "坐定",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 2.11,
+      "frame": 3,
+      "phase": "坐定",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 3.19,
+      "frame": 3,
+      "phase": "坐定",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 3.2,
+      "frame": 4,
+      "phase": "接触报告",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 3.21,
+      "frame": 4,
+      "phase": "接触报告",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 4.09,
+      "frame": 4,
+      "phase": "接触报告",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "on_table",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 4.1,
+      "frame": 5,
+      "phase": "持纸",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 4.11,
+      "frame": 5,
+      "phase": "持纸",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 5.19,
+      "frame": 5,
+      "phase": "持纸",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 5.2,
+      "frame": 6,
+      "phase": "准备起身",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 5.21,
+      "frame": 6,
+      "phase": "准备起身",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 6.09,
+      "frame": 6,
+      "phase": "准备起身",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 6.1,
+      "frame": 7,
+      "phase": "站立持纸",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身",
+        "站立持纸"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 6.11,
+      "frame": 7,
+      "phase": "站立持纸",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身",
+        "站立持纸"
+      ]
+    },
+    {
+      "study": "mac_child_boy_seat_report_stand_v1",
+      "time": 8,
+      "frame": 7,
+      "phase": "站立持纸",
+      "scale": 0.8050314465408805,
+      "furniture_anchor": [
+        360,
+        610
+      ],
+      "paper_state": "held",
+      "events": [
+        "站稳",
+        "准备落座",
+        "下降",
+        "坐定",
+        "接触报告",
+        "持纸",
+        "准备起身",
+        "站立持纸"
+      ]
+    }
+  ]
+}

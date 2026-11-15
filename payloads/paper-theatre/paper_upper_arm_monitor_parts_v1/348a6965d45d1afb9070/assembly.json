@@ -1,0 +1,21 @@
+{
+  "relationship": "主机与空袖带分别摆放；软管按当前镜头的真实连接关系另做",
+  "operations": [
+    "主机取放",
+    "袖带取放",
+    "部件分别交接"
+  ],
+  "suggested_content_width_ratio": {
+    "cuff_to_body": 0.9
+  },
+  "limits": [
+    "没有展开/佩戴袖带姿态，不把卷起空袖带当佩戴教学。"
+  ],
+  "part_ids": [
+    "body",
+    "cuff"
+  ],
+  "registration": "normalized_original_image",
+  "bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "parameters_are_adaptable": true
+}

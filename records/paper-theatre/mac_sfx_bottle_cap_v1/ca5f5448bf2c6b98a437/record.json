@@ -1,0 +1,51 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_bottle_cap_v1",
+  "title": "拟音：bottle_cap",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "bottle_cap"
+  ],
+  "entry": "audio/bottle_cap-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/bottle_cap-1.wav",
+      "role": "payload",
+      "sha256": "7dc1daa5657d1a822031546beb9dc07a24f92a1844ad925335c741be6df6f63a",
+      "bytes": 76844
+    },
+    {
+      "path": "audio/bottle_cap-2.wav",
+      "role": "payload",
+      "sha256": "47dac7cbbc92880af978c6105f09cf4f07c6ea6d2060d7565548fa352817de4e",
+      "bytes": 76844
+    },
+    {
+      "path": "audio/bottle_cap-3.wav",
+      "role": "payload",
+      "sha256": "7bbdc4de07dd4bc8d080dbec8f4e8324ea1f8c553d4112ebacff169ba8cd7f84",
+      "bytes": 76844
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "e66ae260611bcfe9f2f5fc4f2ad3384a7b535d26cfe7186d68e7988b010ada44",
+      "bytes": 348
+    }
+  ],
+  "revision": "ca5f5448bf2c6b98a437"
+}

@@ -1,0 +1,577 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_older_woman_bed_rest_v1",
+  "title": "老年女性·床沿落座、侧卧休息与起身",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "bed_support",
+    "complete_contact_unit",
+    "same_identity"
+  ],
+  "discovery": {
+    "category": "motion",
+    "character_role": "older_woman",
+    "poses": [
+      "stand",
+      "seated",
+      "lying"
+    ],
+    "aliases": [
+      "床",
+      "侧卧",
+      "老年女性",
+      "休息"
+    ],
+    "actions": [
+      "床沿落座",
+      "侧卧休息",
+      "起身"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ]
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "同身份完整人物与低床接触单元；普通自主休息的六姿态纸上表演，不是失能搬运、术后转移或个体安全指导。人物、枕头、床与承托不能独立拆动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "d74ef713fd32549f31d7787835e8e62f269c4fe5eb73085ba03f6105f56993b5",
+      "bytes": 506
+    },
+    {
+      "path": "assets/sheet.webp",
+      "role": "payload",
+      "sha256": "9f34abcd8faf43a8d6620c57be097705842101db89491b4f22118089af632091",
+      "bytes": 1201658
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "b033e0393f21ea57ba4c4c4e85ba575ec910afa695e53d0098bfafe8e9b99d1a",
+      "bytes": 366
+    },
+    {
+      "path": "registration.json",
+      "role": "payload",
+      "sha256": "21ae969fcb8d5874ac1de0e6794fbcad9a97f852e0ea9d9cfbd675c5117a4cd5",
+      "bytes": 1676
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "79277dad3ef461bb382f92292d9291076ca5e700efcd4f019b80cd55361046fd",
+      "bytes": 4018
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+      "bytes": 1004
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "26f59378d2a808b9dd698b4b587942151461d42fac203b670664cf98422b7522",
+      "bytes": 107500
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "a386926e655ddd5ad5f2a07064d7aec03de016e58027bb3d231ddb9c54038362",
+      "bytes": 106610
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "51a53d9924a6d7d9e02cf4a2997d8a0d08d925c3afd725166bb92e5b40ffe05d",
+      "bytes": 106720
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "716bea87eedd19508d5349ec1f1fa1b197aa08b1990c89252a305a6880c28741",
+      "bytes": 23763
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "f1a1dc81c109bde8a7a0411215f28544b28abb1ef2d020f84aace53f9e236eaa",
+      "bytes": 96231
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "0768252fd1ff69daede99880c3e2cda7a0233ff52f171cbcf5db2063e039dd3d",
+      "bytes": 106494
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "0768252fd1ff69daede99880c3e2cda7a0233ff52f171cbcf5db2063e039dd3d",
+      "bytes": 106494
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "0768252fd1ff69daede99880c3e2cda7a0233ff52f171cbcf5db2063e039dd3d",
+      "bytes": 106494
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "51a53d9924a6d7d9e02cf4a2997d8a0d08d925c3afd725166bb92e5b40ffe05d",
+      "bytes": 106720
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "51a53d9924a6d7d9e02cf4a2997d8a0d08d925c3afd725166bb92e5b40ffe05d",
+      "bytes": 106720
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "51a53d9924a6d7d9e02cf4a2997d8a0d08d925c3afd725166bb92e5b40ffe05d",
+      "bytes": 106720
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "c84e9224287809819f4bd9f60a3226b2eaf3cfa18c22b046142eb66d9573bc5f",
+      "bytes": 101300
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "c84e9224287809819f4bd9f60a3226b2eaf3cfa18c22b046142eb66d9573bc5f",
+      "bytes": 101300
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "c84e9224287809819f4bd9f60a3226b2eaf3cfa18c22b046142eb66d9573bc5f",
+      "bytes": 101300
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "31e5739071b121f5920628c4dcb142e02f442183121e09237bc39815b23d8744",
+      "bytes": 91880
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "31e5739071b121f5920628c4dcb142e02f442183121e09237bc39815b23d8744",
+      "bytes": 91880
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "31e5739071b121f5920628c4dcb142e02f442183121e09237bc39815b23d8744",
+      "bytes": 91880
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "1fbd54d22d2004049ac750e2b3f5e3bed963d27b61adaf19554b4bf77e4905c6",
+      "bytes": 105774
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "1fbd54d22d2004049ac750e2b3f5e3bed963d27b61adaf19554b4bf77e4905c6",
+      "bytes": 105774
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "1fbd54d22d2004049ac750e2b3f5e3bed963d27b61adaf19554b4bf77e4905c6",
+      "bytes": 105774
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "23c759ffe3182c33a47a112e10de9a66a6a3e603a10bd71fa51f064802d39203",
+      "bytes": 108252
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "23c759ffe3182c33a47a112e10de9a66a6a3e603a10bd71fa51f064802d39203",
+      "bytes": 108252
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "23c759ffe3182c33a47a112e10de9a66a6a3e603a10bd71fa51f064802d39203",
+      "bytes": 108252
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "cbc76b22de8bb84db4d52d878bec60a22a842e7c2b56eabe649ac336e1dc650c",
+      "bytes": 10622
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "4a523247e8f19c00f98a66ac9e3d95f6d61892aa6408cad710549d41247cba63",
+      "bytes": 14136
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "491a0a5421cc46daa4d46727422ff82d2991d562921d8f8313a385b3d485e237",
+      "bytes": 172752
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "c58b9b8a13c86fa8be0bb74f126f913a608cee048a6d815e51793aa443fe59d3",
+      "bytes": 8026
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "36445eacb07908ed6e87e54f0bec250e8a06ec2bec5a87739363a71e66ae3d8f",
+      "bytes": 4557
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "192c18c68bd1ad5696fd",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_older_woman_bed_rest_v1@2aca41d871b651678db8",
+    "source_record_sha256": "bbe246997fe09429c9d3d36de9d580332aa3a7591daa4a7a347545cf59dac34d",
+    "encodings": [
+      {
+        "path": "assets/sheet.png",
+        "encoded_path": "assets/sheet.webp",
+        "source_sha256": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "9bc79752f45c793082da8d3a28953ae8cbdf4a525f888bef0cc6ad8b76c3b836",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "161c600240b3b71c622c12f5c26449c0c5a6e0c358702981679b63acea19e667",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "38477744e34ddc5c534ce987cda240978d34866c1c6614af6fbce943b6474c4f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "3a427227035eda4a5305db3d8dc9114de9bc0c8130c575c6454fb7c74bd65737",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

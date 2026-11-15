@@ -1,0 +1,111 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_skin_v1",
+  "title": "皮肤分层与屏障受损",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "anatomy",
+    "display_title": "皮肤分层与屏障受损",
+    "aliases": [
+      "皮肤",
+      "伤口",
+      "正常屏障",
+      "局部受损"
+    ],
+    "topics": [
+      "皮肤",
+      "伤口"
+    ],
+    "medical_systems": [
+      "皮肤"
+    ],
+    "patient_tasks": [
+      "理解结构",
+      "理解疾病机制"
+    ],
+    "mechanisms": [
+      "正常屏障",
+      "局部受损"
+    ],
+    "story_roles": [
+      "理解结构",
+      "理解疾病机制"
+    ],
+    "actions": [
+      "正常屏障",
+      "局部受损"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "不表达伤口深度分级、感染诊断或敷料更换步骤。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "不表达伤口深度分级、感染诊断或敷料更换步骤。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "d6b16c27efd9229cd897ff474f2e7ebd83fc415e50c00779081f43afcfd912f8",
+      "bytes": 505
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "033ada18adba9ac788ea4a60d7e3cc440086ccb802b4a10157c24b5e25012b78",
+      "bytes": 190
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "66410787f3c35dc5838e04f31dcc816496657527d1fb421eb2becff0c3f5899b",
+      "bytes": 235
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "ab9e5cb99cd159f8a8bf"
+}

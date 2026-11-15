@@ -1,0 +1,129 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_older_man_wheelchair_v1",
+  "title": "老年男性·轮椅静坐整件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "generation_receipt": "evidence/generation.json",
+    "prompt": "Use case: identity-preserve. Exact SAME Chinese elderly man from reference: silver hair, olive rolled sleeve shirt, charcoal trousers, brown lace-up shoes, same face and textured cut-paper collage. Calm awake full-body seated pose in a simple manual wheelchair, three-quarter view facing screen right, trunk upright, thighs supported, both hands resting visibly on thighs, feet resting on footplates, all wheels and caster contact coherent on same ground line. One connected person and wheelchair composite static asset; no transfer or propulsion demonstration. Full head, shoes, handles, large wheels, casters and footplates completely framed with margin. Genuinely transparent alpha background, clean opaque cut-paper interior; no floor/shadow/halo/glow/background/text/logo, no second person.",
+    "identity_reference": "evidence/identity-master.png",
+    "identity_reference_sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f"
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    41,
+    30,
+    1000,
+    1411
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "Chinese",
+    "expansion_20261023",
+    "older_man",
+    "wheelchair"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "老年男性",
+      "轮椅静坐",
+      "行动辅助"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "actions": [
+      "wheelchair"
+    ],
+    "character_role": "older_man",
+    "pose": "wheelchair",
+    "identity_family": "older_man_baseline",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      41,
+      30,
+      1000,
+      1411
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.54,
+        "y": 0.105
+      },
+      "seat": {
+        "x": 0.4,
+        "y": 0.59
+      },
+      "feet": {
+        "x": 0.71,
+        "y": 0.85
+      },
+      "hand_left": {
+        "x": 0.52,
+        "y": 0.5
+      },
+      "hand_right": {
+        "x": 0.73,
+        "y": 0.5
+      },
+      "ground": {
+        "x": 0.5,
+        "y": 0.915
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "reviewed",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "同身份老人和轮椅为不可拆静态整件；鞋放脚踏，接地基准取轮胎；不表示推动、转移、刹车或完整照护过程。",
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "34159f2f9f51e92b9ce721d7f2f4d6c7d3adbee7c9e91db624b74a6226d8a7ef",
+      "bytes": 2475182
+    },
+    {
+      "path": "evidence/identity-master.png",
+      "role": "evidence",
+      "sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f",
+      "bytes": 1986372
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "fd176f2fdf267b3a99a079163392c3ef670cdf37700b22060cf5874538a9cac5",
+      "bytes": 2084
+    }
+  ],
+  "revision": "d281630ee35eb59fc601"
+}

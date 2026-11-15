@@ -1,0 +1,181 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_artery_simple_v1",
+  "title": "动脉壁·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "动脉壁·payload",
+      "medical": true,
+      "content_bounds": [
+        145,
+        190,
+        879,
+        834
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "lumen": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_anatomy.py"
+  },
+  "tags": [
+    "anatomy",
+    "artery",
+    "simple",
+    "registered_layers",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "动脉壁",
+      "远景简化"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    145,
+    190,
+    879,
+    834
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "动脉横断面三层壁与管腔，外膜、中膜、内膜逐层套叠；层厚只为可读性，无狭窄/斑块或病理含义，不能用于厚度测量。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "1baace02087a946c1454d2f4c9ecca3090f9aeab43a72236bc42ae1cfc296589",
+      "bytes": 369
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "84eb7279b1b06a862841c93cf69c0ec03a528b16b57682853e2530a27014796f",
+      "bytes": 18758
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "1baace02087a946c1454d2f4c9ecca3090f9aeab43a72236bc42ae1cfc296589",
+      "bytes": 369
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "84eb7279b1b06a862841c93cf69c0ec03a528b16b57682853e2530a27014796f",
+      "bytes": 18758
+    },
+    {
+      "path": "source/build_anatomy.py",
+      "role": "source",
+      "sha256": "68f290eb3ea2b6e1a4da8577364c254c8f87090128e8fa817815614edcbe2817",
+      "bytes": 10158
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "90042c2379a50407aef3d0bc7550a8d104ec8f44da1c50f3c2b95e93ee9b8799",
+      "bytes": 620
+    }
+  ],
+  "revision": "d2db11d5be9bfc9cf043",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_artery_simple_v1@27465952400de22b2f29",
+    "source_record_sha256": "eea2bfc4f802b8208c4e0b937a2ee4fc56e84ed760931f2d7ca8aeb5a27af56b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5a67c5f2ae357c9f9482d4bef5aa0b7c1296daa929dbe8982f36b36d452dc024",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "5a67c5f2ae357c9f9482d4bef5aa0b7c1296daa929dbe8982f36b36d452dc024",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

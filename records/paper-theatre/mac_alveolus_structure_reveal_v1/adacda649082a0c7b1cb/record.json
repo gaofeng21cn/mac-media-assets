@@ -1,0 +1,1034 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_alveolus_structure_reveal_v1",
+  "title": "肺泡·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "肺泡",
+      "逐层揭示",
+      "局部高亮",
+      "alveolus"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "肺泡·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "单个肺泡与相连气道的放大关系示意：气腔连续、薄壁在外、毛细血管环绕壁外。壁厚与血管间距为说明而夸张，双色仅区分血管路径，不表达氧含量、流向或气体交换数值。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "5ffacd80530d1e2476eb8e09e02b2f0bff2e93cda833296c2f186be6f7da67d0",
+      "bytes": 749
+    },
+    {
+      "path": "assets/alveolar_wall.webp",
+      "role": "payload",
+      "sha256": "69224c94e445f0f241ea564ca1338f39fa153b9f0de94358cb21f8b9800e8498",
+      "bytes": 9926
+    },
+    {
+      "path": "assets/continuous_air_space.webp",
+      "role": "payload",
+      "sha256": "eb96f2a51f9a14d6d5a845fa2fa473cfa685042f45f916276b6df6b686a411b3",
+      "bytes": 9194
+    },
+    {
+      "path": "assets/perialveolar_capillaries.webp",
+      "role": "payload",
+      "sha256": "9a23c3449782baba65cb8b86e65b193de4744b8431fda8cb0c4881d68ec75763",
+      "bytes": 16078
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "13ff0f7c9cdcaf50c19a3ae47d4bf131afc44ef97240ea73d65dff4d8381aa61",
+      "bytes": 723
+    },
+    {
+      "path": "original/files/alveolar_wall.webp",
+      "role": "payload",
+      "sha256": "69224c94e445f0f241ea564ca1338f39fa153b9f0de94358cb21f8b9800e8498",
+      "bytes": 9926
+    },
+    {
+      "path": "original/files/continuous_air_space.webp",
+      "role": "payload",
+      "sha256": "eb96f2a51f9a14d6d5a845fa2fa473cfa685042f45f916276b6df6b686a411b3",
+      "bytes": 9194
+    },
+    {
+      "path": "original/files/perialveolar_capillaries.webp",
+      "role": "payload",
+      "sha256": "9a23c3449782baba65cb8b86e65b193de4744b8431fda8cb0c4881d68ec75763",
+      "bytes": 16078
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "0429cc672be172402e89e29c094f291e5e5ba4143ae8dace9d38d49729bf68b5",
+      "bytes": 6091
+    },
+    {
+      "path": "original/samples/preview.webp",
+      "role": "payload",
+      "sha256": "2353a53273e407083b8bccd6d3597e5117be9f840da8ea7c8e8c087c899d0da9",
+      "bytes": 34856
+    },
+    {
+      "path": "original/source/alveolar_wall.svg",
+      "role": "payload",
+      "sha256": "8f00d406f740dfbad3b6f1c4b46f485a6a02be851d614da9c4b63b7ffdbb5b47",
+      "bytes": 311
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/continuous_air_space.svg",
+      "role": "payload",
+      "sha256": "010622ad2013975c97b7e37a0ae6fac6ffa0ea10f5431f11de41fbe28da240e5",
+      "bytes": 311
+    },
+    {
+      "path": "original/source/perialveolar_capillaries.svg",
+      "role": "payload",
+      "sha256": "ebee8214d6daaad6733edc3b513090970975cb2fe3bc7d21f0e7935b225e44e7",
+      "bytes": 511
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "ae7f958c858a43301ff27b7768ed70e75d02bedc702fe5b6978b8a285b7bff22",
+      "bytes": 939
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "1270eb53b7513cb24e66e8f1f0df34ff6904f10511efc9167349020d0bdb9927",
+      "bytes": 371
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "e233466ac5a4032c1333a11b58b375bc65482b334e0b09aaf18146c8b78b4e45",
+      "bytes": 6648
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "8c2687660454c553f3e1f2b35c7175470042c207ae56d06a33a464e36e1b4a9a",
+      "bytes": 36260
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "aef0a398acf18974fb0bfea8543a2f0c0b458ed1e465a465913e3311605799af",
+      "bytes": 39710
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "76d864bddd5ffed4642884971f46f6ece8b06c16892ba31b5b6f722915eaba61",
+      "bytes": 36142
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "354292f11c2baeb3ecf42ed0dd406b167a13f17b0430188164fc0df73ae88bc2",
+      "bytes": 40019
+    },
+    {
+      "path": "samples/complete-background-color.webp",
+      "role": "payload",
+      "sha256": "5ace2a910b976a12e286faa40652af6fdd5df5e5aef1e00a70913ca183a10734",
+      "bytes": 48562
+    },
+    {
+      "path": "samples/complete-background-dark.webp",
+      "role": "payload",
+      "sha256": "c74e4b1390a8d482248e38814167685cabc35e0a2955dffb5cdc69a5b6847e6f",
+      "bytes": 54086
+    },
+    {
+      "path": "samples/complete-background-light.webp",
+      "role": "payload",
+      "sha256": "fdde6bf099ec7b98c48ab2e374825b83f2eaa62df0ef4cabfc20aa36999baa44",
+      "bytes": 48552
+    },
+    {
+      "path": "samples/complete-phone.webp",
+      "role": "payload",
+      "sha256": "3ef3abc88ef9b0a2a767115ad6a1203cc5062a71585d24c3e846e04d3da0e885",
+      "bytes": 10760
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "054c8561b2d3989fdc691251c923f10cff1e9fd7034283745ad335738aa34d2d",
+      "bytes": 149644
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "3f3db8f773eb748a46dd2dcd1dfd05790cea05474b11cd84dc7ff4d0f1fe5b25",
+      "bytes": 176124
+    },
+    {
+      "path": "samples/focus-phone/0-alveolar_wall-color.webp",
+      "role": "payload",
+      "sha256": "7e0562e0a48b13cf88fe202a00b8b7ca795ee563c37f3fef00e300b9b1f3432c",
+      "bytes": 10528
+    },
+    {
+      "path": "samples/focus-phone/0-alveolar_wall-dark.webp",
+      "role": "payload",
+      "sha256": "d726b9daf2f966ef022962aaadf732b5c8637ec4fb4c92877eab74839443a231",
+      "bytes": 11052
+    },
+    {
+      "path": "samples/focus-phone/0-alveolar_wall-light.webp",
+      "role": "payload",
+      "sha256": "e789c3c0f930c2ee50fb99897d252a7b98864d16f2d8d6f9f2a67d3848aabe9a",
+      "bytes": 9878
+    },
+    {
+      "path": "samples/focus-phone/0-alveolar_wall.webp",
+      "role": "payload",
+      "sha256": "e789c3c0f930c2ee50fb99897d252a7b98864d16f2d8d6f9f2a67d3848aabe9a",
+      "bytes": 9878
+    },
+    {
+      "path": "samples/focus-phone/1-continuous_air_space-color.webp",
+      "role": "payload",
+      "sha256": "8b352a08dade0b1b08b7e67d04106af6c25b68cd2968bb9dc926d3c575977e03",
+      "bytes": 10500
+    },
+    {
+      "path": "samples/focus-phone/1-continuous_air_space-dark.webp",
+      "role": "payload",
+      "sha256": "d7d2490f92c67d28eece70e24bf3c1d42e030dba4fe3211dec2109737b247386",
+      "bytes": 11116
+    },
+    {
+      "path": "samples/focus-phone/1-continuous_air_space-light.webp",
+      "role": "payload",
+      "sha256": "7b6f5c737c10e4cbfb911469e57e78a1f59728ab3e9d8384dd9e80781685d3cd",
+      "bytes": 10128
+    },
+    {
+      "path": "samples/focus-phone/1-continuous_air_space.webp",
+      "role": "payload",
+      "sha256": "7b6f5c737c10e4cbfb911469e57e78a1f59728ab3e9d8384dd9e80781685d3cd",
+      "bytes": 10128
+    },
+    {
+      "path": "samples/focus-phone/2-perialveolar_capillaries-color.webp",
+      "role": "payload",
+      "sha256": "028ba85d0419989885a40af2c16256c1714e08a50d83a671ae02484ca79e0a2a",
+      "bytes": 12920
+    },
+    {
+      "path": "samples/focus-phone/2-perialveolar_capillaries-dark.webp",
+      "role": "payload",
+      "sha256": "3cd52b6079a73080cb41bd2329c8d65fd203383e3828bed0b7c74bb84e95c7b8",
+      "bytes": 14166
+    },
+    {
+      "path": "samples/focus-phone/2-perialveolar_capillaries-light.webp",
+      "role": "payload",
+      "sha256": "617c0d45540e8ab1ddc35842b18b3fbeba4ba2cb544b66c562c803cea4f45b07",
+      "bytes": 11692
+    },
+    {
+      "path": "samples/focus-phone/2-perialveolar_capillaries.webp",
+      "role": "payload",
+      "sha256": "617c0d45540e8ab1ddc35842b18b3fbeba4ba2cb544b66c562c803cea4f45b07",
+      "bytes": 11692
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "fdde6bf099ec7b98c48ab2e374825b83f2eaa62df0ef4cabfc20aa36999baa44",
+      "bytes": 48552
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "fdde6bf099ec7b98c48ab2e374825b83f2eaa62df0ef4cabfc20aa36999baa44",
+      "bytes": 48552
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "5d52a13d2678a5326bcd4da0d31a3336dcd998dc8ff05ead0d291e0519e8a803",
+      "bytes": 19676
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "7259638137d7485d12412946b87e6aad2a92aba94b3d5879fdb1b8866a51e192",
+      "bytes": 28830
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "7259638137d7485d12412946b87e6aad2a92aba94b3d5879fdb1b8866a51e192",
+      "bytes": 28830
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "6a74fa3306ea268f8db8cc516557018194f6f9f05647351a2a2805b3d56ea0bc",
+      "bytes": 36194
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "6a74fa3306ea268f8db8cc516557018194f6f9f05647351a2a2805b3d56ea0bc",
+      "bytes": 36194
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "3e9448de64440b1dd8668bedb35c4b054bce46dda3da952667ab192ae28ff4b7",
+      "bytes": 49012
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "3e9448de64440b1dd8668bedb35c4b054bce46dda3da952667ab192ae28ff4b7",
+      "bytes": 49012
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "b312501d854f0f202d87f66dc00cf03b79093ab0aa7b6147bb4f459bb7a35c43",
+      "bytes": 50250
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "b312501d854f0f202d87f66dc00cf03b79093ab0aa7b6147bb4f459bb7a35c43",
+      "bytes": 50250
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "b312501d854f0f202d87f66dc00cf03b79093ab0aa7b6147bb4f459bb7a35c43",
+      "bytes": 50250
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "228e5c24e7527995410a1fb6a5abb720ad7b890559b262194714fda051b51026",
+      "bytes": 51962
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "228e5c24e7527995410a1fb6a5abb720ad7b890559b262194714fda051b51026",
+      "bytes": 51962
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "d6f5cd4683f1a661c3ed8789321143e8fef4f2069390069ab8fe1dd1416582a3",
+      "bytes": 52436
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "a1455ef558d11d2270720e765f9fd75bb95bc9db0f9b90abfed2b685fd4ef210",
+      "bytes": 62900
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "a1455ef558d11d2270720e765f9fd75bb95bc9db0f9b90abfed2b685fd4ef210",
+      "bytes": 62900
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "9812defcaad59a62f8e9130b9961bad14759c9319824520929e73e374dc75779",
+      "bytes": 42454
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "fdde6bf099ec7b98c48ab2e374825b83f2eaa62df0ef4cabfc20aa36999baa44",
+      "bytes": 48552
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "43ee6aecdcf54d36c0937df0c475b4cad4ec0b05ae107e080c68261c3ae55322",
+      "bytes": 15018
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "673e2550922a1c5f22cd03594ce0e7b9ea3d26d003f299942bf6649e17d6854c",
+      "bytes": 8312
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "09bfb263caacd0a0906900efa28ea1b74eba87b5d75d3796e2e6d5bc15c4b132",
+      "bytes": 234302
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "cf7fe003537825f4dac08da2f5834eda655797c7a7435052b29862af2427d4e4",
+      "bytes": 13806
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "8824141d6e7ddaac2f9fd34b5cd92ac97dbf0435b28d0dd9b2ea1eee923b55e5",
+      "bytes": 5455
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "adacda649082a0c7b1cb",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_alveolus_structure_reveal_v1@42ff22a34117b3081b47",
+    "source_record_sha256": "c5c4c09be9134947ffd9c0eced16c80bcd7b92d845f09fb3f215a37d78edf75d",
+    "encodings": [
+      {
+        "path": "assets/alveolar_wall.png",
+        "encoded_path": "assets/alveolar_wall.webp",
+        "source_sha256": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/continuous_air_space.png",
+        "encoded_path": "assets/continuous_air_space.webp",
+        "source_sha256": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/perialveolar_capillaries.png",
+        "encoded_path": "assets/perialveolar_capillaries.webp",
+        "source_sha256": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/alveolar_wall.png",
+        "encoded_path": "original/files/alveolar_wall.webp",
+        "source_sha256": "95b7b48d41a8b0c950e2a4cf455fa61daa1a1fc93c277da3553d186962c8ff7c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/continuous_air_space.png",
+        "encoded_path": "original/files/continuous_air_space.webp",
+        "source_sha256": "467633d329a31971cbbc9dea5799604a81933c251e70c1475f43a546a8c5fcef",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/perialveolar_capillaries.png",
+        "encoded_path": "original/files/perialveolar_capillaries.webp",
+        "source_sha256": "adb9137ac3e5113dbee615f653fc93ae4ac93392708444b5a9eefcdafc99b84f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/samples/preview.png",
+        "encoded_path": "original/samples/preview.webp",
+        "source_sha256": "4b706e42dae363fa51813fabb7f6d9dad288a07ea11af5f3c245b82dde90304b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "e86d2ee1c4f3c9e0accb908a605b527d92e3437e99b2fd897a6b20ae1d520722",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "493fd6c4930399c0d8b18b641c101675ebf51d04b1b27f78e1fb67e3e3675146",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "25cc8c3bb8348afee4c0d2ba55db25f35d2fdd67486191aa9358738981ba8060",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-color.png",
+        "encoded_path": "samples/complete-background-color.webp",
+        "source_sha256": "50d52c1802f7d4b5d9640cac1e28d55801238ca173248671b33813d0af347bfe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-dark.png",
+        "encoded_path": "samples/complete-background-dark.webp",
+        "source_sha256": "3caba651b17495acb20588d5569761af16d396156068b6a7a594656953d2c1c1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-light.png",
+        "encoded_path": "samples/complete-background-light.webp",
+        "source_sha256": "9539683a0fe4906ba122a8004946e75d92b643413f381724d4afe708dd8eb635",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-phone.png",
+        "encoded_path": "samples/complete-phone.webp",
+        "source_sha256": "101a8979ead8797a11265269c2e17954384944dffb8ab1885b9b182106f0f995",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-alveolar_wall-color.png",
+        "encoded_path": "samples/focus-phone/0-alveolar_wall-color.webp",
+        "source_sha256": "195738d1b28b9cd6866558a1c06b6352435c6bd4c88d1cdc0432ba1ca97f89e6",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-alveolar_wall-dark.png",
+        "encoded_path": "samples/focus-phone/0-alveolar_wall-dark.webp",
+        "source_sha256": "afe6669dac4b34a2e9a2419db34e5a4ce75ead34c75e4e85446ec58ee19a27c8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-alveolar_wall-light.png",
+        "encoded_path": "samples/focus-phone/0-alveolar_wall-light.webp",
+        "source_sha256": "02d0361128854dc6c55ef066aaf59748d1a63af07f7ff25151603d630d86b400",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-alveolar_wall.png",
+        "encoded_path": "samples/focus-phone/0-alveolar_wall.webp",
+        "source_sha256": "02d0361128854dc6c55ef066aaf59748d1a63af07f7ff25151603d630d86b400",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-continuous_air_space-color.png",
+        "encoded_path": "samples/focus-phone/1-continuous_air_space-color.webp",
+        "source_sha256": "0b8aa58eddd08167b8a5f2767c30d7a51a7c3c6e88b309e46e08e646ec1927e2",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-continuous_air_space-dark.png",
+        "encoded_path": "samples/focus-phone/1-continuous_air_space-dark.webp",
+        "source_sha256": "bdf5cbe41beeb25b7588dd7fa3d88297616844b674f19a28f6693b719d0b0228",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-continuous_air_space-light.png",
+        "encoded_path": "samples/focus-phone/1-continuous_air_space-light.webp",
+        "source_sha256": "cd513053d104d7602ec77a50893902f6632547345992970e48706b8394a651f1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-continuous_air_space.png",
+        "encoded_path": "samples/focus-phone/1-continuous_air_space.webp",
+        "source_sha256": "cd513053d104d7602ec77a50893902f6632547345992970e48706b8394a651f1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-perialveolar_capillaries-color.png",
+        "encoded_path": "samples/focus-phone/2-perialveolar_capillaries-color.webp",
+        "source_sha256": "27528337d56c34586a0761086509841a1b1375ac2f6a226b19274cebd96675b5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-perialveolar_capillaries-dark.png",
+        "encoded_path": "samples/focus-phone/2-perialveolar_capillaries-dark.webp",
+        "source_sha256": "67831f198f84bef67e9c220989aecc9201ebe365f76c515d8ba38afd75684f1c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-perialveolar_capillaries-light.png",
+        "encoded_path": "samples/focus-phone/2-perialveolar_capillaries-light.webp",
+        "source_sha256": "96cd71cc7385b9819f2c42b171c65aa80a686d42308edadbcb1c17538b6b7aa8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-perialveolar_capillaries.png",
+        "encoded_path": "samples/focus-phone/2-perialveolar_capillaries.webp",
+        "source_sha256": "96cd71cc7385b9819f2c42b171c65aa80a686d42308edadbcb1c17538b6b7aa8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "9539683a0fe4906ba122a8004946e75d92b643413f381724d4afe708dd8eb635",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "9539683a0fe4906ba122a8004946e75d92b643413f381724d4afe708dd8eb635",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "ca275cf8c2f1fd47d258d7362f2f7d338172aa1ec6dc468755bd6afa81576e43",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "785c850d70616e54edc5b53e0229d80732a4b946257d88b13fb94b0c426c1ee8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "785c850d70616e54edc5b53e0229d80732a4b946257d88b13fb94b0c426c1ee8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "baf387de38427fa6145d54da258c2997cc515001cb0440698750dfa10bf7df39",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "baf387de38427fa6145d54da258c2997cc515001cb0440698750dfa10bf7df39",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "bf78e0e477849a9d1bfbc7eaf656b0fae326ac00b98802c49c0f32370e4fb5ed",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "bf78e0e477849a9d1bfbc7eaf656b0fae326ac00b98802c49c0f32370e4fb5ed",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "c2d3b16f56d64a034d4ffce30be60069eeb80ce08bb9eabe0f5cdff0c7fbc4a8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "c2d3b16f56d64a034d4ffce30be60069eeb80ce08bb9eabe0f5cdff0c7fbc4a8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "c2d3b16f56d64a034d4ffce30be60069eeb80ce08bb9eabe0f5cdff0c7fbc4a8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "707d3b2c054994db70c0f8e0a2bc71c130b18e93548cb9ba449495351ab5d146",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "707d3b2c054994db70c0f8e0a2bc71c130b18e93548cb9ba449495351ab5d146",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "b40349846d34485cea52cddd615f804aefa1d4c1fbcd33a2fb3918e31caf711e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "d3114153fd9d5c50e01709961555520bb6f46f39c9c556464a088e647b6a0b08",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "d3114153fd9d5c50e01709961555520bb6f46f39c9c556464a088e647b6a0b08",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "0d8e9e33e7ceae62873aeb692d2a8e0a07a41e7b2f3804bb246bad90bc936d5a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "9539683a0fe4906ba122a8004946e75d92b643413f381724d4afe708dd8eb635",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "70a3fb380b5f4938fbdc6bc5bccb66398d56481112f4fbc26c3225dda28f6ba1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "412a49405f2f763d28792b3432038c3dae7e1230979bbb67ad0fda0f011a8a5d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source_type": "imagegen",
+  "tool": "built-in image_gen",
+  "generated_image": "/Users/gaofeng/.codex/generated_images/01a1673a-3a6a-73f2-9b39-e3783850efc5/exec-ed40dea9-fbb8-4b56-8956-a1242b0c2fcd.png",
+  "reference": "/Users/gaofeng/workspace/科普视频/productions/weight_management_paper_theatre/05_move_and_recover/v1/assets/male_patient.png",
+  "asset_id": "male_patient_seated_identity_20261023",
+  "prompt": "Use case: identity-preserve. Asset type: a complete transparent paper-collage character pose for an animated medical explainer. Reference image is the ONLY identity master: the same East Asian older adult man, same facial structure, short salt-and-pepper hair, age, gentle expression, sage/light olive green button-up shirt with rolled sleeves, rust/brick-red trousers, grey-brown lace-up shoes, identical tactile cut-paper illustration texture. Change ONLY his body pose into a natural seated three-quarter view facing right: upright relaxed torso, hips realistically supported at an implied chair-seat level, thighs approximately horizontal, both knees bent about 90 degrees, both feet fully visible and resting on one common ground line, both hands visible and naturally resting separately on his own thighs. Preserve the exact face, hair, clothing colors and details, body proportions and age from the reference. Single complete connected figure with full uncut head, both arms/hands, both legs and both shoes. Do NOT include a chair, stool, table, ground, background, cast shadow, fog, halo, text, props, extra hands or detached parts. Chair will be constructed later under the actual hip edge. Generous transparent margin around every body extremity. Genuine RGBA transparent background. Portrait canvas, high quality identity matching.",
+  "review": {
+    "identity": "已看生成原图，保留盐灰短发、脸型、浅绿衬衫、砖红裤和灰棕鞋；生成朝左，实际镜头整体镜像朝向记录纸。",
+    "body": "完整头、双手、双腿和双鞋；双手分别放在大腿上；无椅子、道具或几何补手。",
+    "static_alpha": "已看浅、深、彩三底色，无明显外围残片、内洞；alpha50实体bounds[134,41,870,1476]，原始弱alpha边缘保留。",
+    "assembly": "pending_current_scene",
+    "motion": "pending"
+  }
+}

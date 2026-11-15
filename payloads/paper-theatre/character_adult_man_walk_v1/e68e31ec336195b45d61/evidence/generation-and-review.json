@@ -1,0 +1,58 @@
+{
+  "id": "character_adult_man_walk_v1",
+  "ref": "character_adult_man_stand_v1/6792f8b338fba0fae4b7/files/payload.png",
+  "pose": "walking naturally toward screen right, one foot forward contacting a shared baseline, a modest stride, arms gently counter-swinging, both hands visible",
+  "prompt": "Use case: illustration-story. Asset type: reusable complete character pose for medical paper-theatre animation. Input image 1: identity and style reference only. Create exactly the SAME person in a new pose: walking naturally toward screen right, one foot forward contacting a shared baseline, a modest stride, arms gently counter-swinging, both hands visible. Preserve reference face, age, ethnicity, hairstyle, body proportions, clothing colors, sleeve length, footwear and textured paper-collage illustration style. Full body from hair to both shoes, complete connected anatomy, generous clean margin all sides, crisp opaque colored-paper interior, subtle printed paper texture, natural hands and expression. Single isolated person on genuinely transparent alpha background. No chair, props, typography, floor mark, cast shadow, aura, vignette, blur, glow, checkerboard or background. Avoid assembly from basic geometric shapes. This is one pose, not a sheet or sequence.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-7f1420d6-a163-4b2f-b99e-225c169605ed.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "f30cb89c4e070b4f1acedc332885c9d2337b1aa7714040a5f27d644e136930d7",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      17,
+      15,
+      1010,
+      1491
+    ],
+    "opaque_ratio": 0.272,
+    "translucent_ratio": 0.0107,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      183,
+      37,
+      861,
+      1481
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.96
+      },
+      "hand_left": {
+        "x": 0.22,
+        "y": 0.51
+      },
+      "hand_right": {
+        "x": 0.78,
+        "y": 0.49
+      }
+    },
+    "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_heart_simple_v1",
+  "title": "心脏·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "心脏·payload",
+      "medical": true,
+      "content_bounds": [
+        237,
+        117,
+        787,
+        875
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.56
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.58
+          },
+          "apex": {
+            "x": 0.5,
+            "y": 0.85
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_heart_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "心脏",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "心脏正面示意，区分心壁、左右心腔、室间隔与出入大血管；不做血流方向、瓣膜形态或收缩期变化示意。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "b56cd45a5fb5a0b46fb3d2c131c8592e65d0d65908906b7f38733c26e47eecba",
+      "bytes": 710
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "87c67bbc2b3a24984358542bc15d2feb759d801a9f3655af56e55c1f7f1bcfa9",
+      "bytes": 40681
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "b56cd45a5fb5a0b46fb3d2c131c8592e65d0d65908906b7f38733c26e47eecba",
+      "bytes": 710
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "87c67bbc2b3a24984358542bc15d2feb759d801a9f3655af56e55c1f7f1bcfa9",
+      "bytes": 40681
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "327abc9435c0dfca1a6f4c73e280b99f69e487813744110f91c1c259c263e10d",
+      "bytes": 627
+    }
+  ],
+  "revision": "3b7a7cbecf7c10d11e61"
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_alveolus_simple_v1",
+  "title": "肺泡·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·payload",
+      "medical": true,
+      "content_bounds": [
+        229,
+        161,
+        797,
+        845
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.57
+          },
+          "airway_opening": {
+            "x": 0.5,
+            "y": 0.17
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_alveolus_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肺泡",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "单个肺泡与相连气道的放大关系示意：气腔连续、薄壁在外、毛细血管环绕壁外。壁厚与血管间距为说明而夸张，双色仅区分血管路径，不表达氧含量、流向或气体交换数值。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "db037f86d34366940d03b178ce5e10aa81fa7a75652f836c8556c052fee1ba62",
+      "bytes": 525
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "20219aac6f1f93e15ba4ef926c3286af7c9c96613f1e2fcaa20f808a0296c01c",
+      "bytes": 18802
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "db037f86d34366940d03b178ce5e10aa81fa7a75652f836c8556c052fee1ba62",
+      "bytes": 525
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "20219aac6f1f93e15ba4ef926c3286af7c9c96613f1e2fcaa20f808a0296c01c",
+      "bytes": 18802
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "f8c2ae762f8ed95cf0e91def0ee8f0ba0f8ae4a0adbc7dd41905ef53d9b12395",
+      "bytes": 27657
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f18ee6af09fc8264df1e0294f22f0a3e69dea810ffa67b3120adb7a30d2709d1",
+      "bytes": 717
+    }
+  ],
+  "revision": "b39946c8ed27726b5c8b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_alveolus_simple_v1@fcccc41300479885ff2e",
+    "source_record_sha256": "810d6c15864dc73cae3aca2ccc0eff517ae20f0a319afe50b0e9338954e110ec",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "fe9344b54290323ed1f2835b0c52b7ad2d4afc8317917a9aa60a3d54854f3d15",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "fe9344b54290323ed1f2835b0c52b7ad2d4afc8317917a9aa60a3d54854f3d15",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

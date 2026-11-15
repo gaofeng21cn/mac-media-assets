@@ -1,0 +1,125 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_older_man_cane_v1",
+  "title": "老年男性·扶杖站立整件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "generation_receipt": "evidence/generation.json",
+    "prompt": "Use case: identity-preserve. Exact SAME Chinese elderly man from reference: silver hair, olive rolled sleeve shirt, charcoal trousers, brown lace-up shoes and textured cut-paper collage. Complete standing relaxed three-quarter figure facing screen right, naturally holds one simple curved-handle walking cane in image-right hand at relaxed hip height, cane tip on same floor baseline as feet. Other hand fully visible. Steady dignified posture, no fall or pain, no claim of correct gait teaching. Person AND cane are one inseparable composite pose. Entire hair through shoes/cane tip within generous margins; genuine transparent alpha background, opaque paper interior, no floor/shadow/halo/glow/background/text/logo. Real coherent anatomy.",
+    "identity_reference": "evidence/identity-master.png",
+    "identity_reference_sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f"
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    228,
+    26,
+    829,
+    1468
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "Chinese",
+    "expansion_20261023",
+    "older_man",
+    "cane"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "老年男性",
+      "扶杖站立",
+      "行动辅助"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "actions": [
+      "cane"
+    ],
+    "character_role": "older_man",
+    "pose": "cane",
+    "identity_family": "older_man_baseline",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      228,
+      26,
+      829,
+      1468
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.5,
+        "y": 0.085
+      },
+      "feet": {
+        "x": 0.53,
+        "y": 0.948
+      },
+      "hand_left": {
+        "x": 0.335,
+        "y": 0.485
+      },
+      "hand_right": {
+        "x": 0.77,
+        "y": 0.52
+      },
+      "cane_tip": {
+        "x": 0.25,
+        "y": 0.948
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "reviewed",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "同身份老人扶杖静态整件，手杖在画面左侧；不可拆出手杖独立运动，不作为步态训练或左右手用杖规范示教。",
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "671a70c4e15adc80885a08b38000ecedd9fe0838c370343212427d50170cf384",
+      "bytes": 2031859
+    },
+    {
+      "path": "evidence/identity-master.png",
+      "role": "evidence",
+      "sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f",
+      "bytes": 1986372
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "c355cff2268d225ca6131929094c04e07993b052ef1d5d81a7f393ac5931c6e4",
+      "bytes": 1963
+    }
+  ],
+  "revision": "6858cfca3d92926852c9"
+}

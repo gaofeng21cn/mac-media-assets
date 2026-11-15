@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_nasal_cavity_coronal_v1",
+  "title": "鼻腔冠状局部·鼻中隔与外侧壁",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "allergic_rhinitis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    9,
+    1354,
+    1145
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "nasal_cavity_coronal"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "鼻腔冠状局部·鼻中隔与外侧壁",
+      "nasal_cavity_coronal"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "鼻腔冠状局部·鼻中隔与外侧壁",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        9,
+        1354,
+        1145
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "定性辨认鼻中隔与鼻腔外侧壁，供方向解释；不作为个人影像或全部鼻喷器操作说明。"
+    }
+  ],
+  "usage_notes": "定性辨认鼻中隔与鼻腔外侧壁，供方向解释；不作为个人影像或全部鼻喷器操作说明。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "d5a9daaab88bfebb3cb148bd59068b328eefed6f81767644b723f875ca19adc7",
+      "bytes": 1166064
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "05317c3d7a87e4ed83c86a98f2271f96012d0d41b18d7559cbfe9335fed4a02e",
+      "bytes": 1162
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "f8ec11c5eec638024d283d1d22c146030ed8f2176f82ac13efe6bc52b175bad1",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "a2b0b219909f6f90f26198170a362e83c984fecde6046d8e3e3c8a5560f0e7a6",
+      "bytes": 23588
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "720bb9311c5f54534b049ff1c618eee5388f982272f0a92d4081539732573ee9",
+      "bytes": 797
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "6b52ce243bdcfe1953e47b81602c030277666d10173b1d8af263519ecd5655c0",
+      "bytes": 88902
+    }
+  ],
+  "revision": "48e47c11a72dd0807bc0",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_nasal_cavity_coronal_v1@75019c57068af73d36cc",
+    "source_record_sha256": "a833866ec1dc99731016b84eee61c7a1b7b433b25d9d28810be8f9cfc25a8eb3",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "56d2b3bb42ff2ace3f4bd55fc0177c694717447f2b5f0bbe3c455ad5789cab0f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1374,
+        "height": 1145,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

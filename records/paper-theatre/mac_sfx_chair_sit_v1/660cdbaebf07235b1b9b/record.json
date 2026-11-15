@@ -1,0 +1,130 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_chair_sit_v1",
+  "title": "拟音：落座（椅面承重）",
+  "kind": "audio",
+  "tags": [
+    "audio",
+    "sfx",
+    "action_accent",
+    "procedural_original",
+    "20261024"
+  ],
+  "discovery": {
+    "category": "sfx",
+    "display_title": "拟音：落座（椅面承重）",
+    "aliases": [
+      "落座",
+      "坐下",
+      "椅子",
+      "chair",
+      "sit"
+    ],
+    "objects": [
+      "拟音：落座（椅面承重）",
+      "落座",
+      "坐下",
+      "椅子",
+      "chair",
+      "sit"
+    ],
+    "story_roles": [
+      "坐定",
+      "坐站过渡落定",
+      "起身落座"
+    ],
+    "actions": [
+      "坐定",
+      "坐站过渡落定",
+      "起身落座"
+    ],
+    "medium": "audio",
+    "material": null,
+    "renderers": [],
+    "style": [],
+    "topics": [],
+    "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+    "view": "按当前镜头选择",
+    "compatibility": {
+      "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+      "params": "可调整；content bounds 与接触点不固定画面构图"
+    }
+  },
+  "entry": "audio/chair_sit-1.flac",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "程序合成，不是实地录音；用于动作接触点对齐，音量需按当前混音审听。",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition",
+    "generator": "tools/build_action_sfx.py"
+  },
+  "content_bounds": null,
+  "content_bounds_format": null,
+  "medical_review": "not_applicable",
+  "review": {
+    "listening": "pending",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/chair_sit-1.flac",
+      "role": "payload",
+      "sha256": "fcff35e1e0f4fd1b696f0feb597a6ca58f6e361e9ff1abc9d26d4b9f684efac5",
+      "bytes": 56693
+    },
+    {
+      "path": "audio/chair_sit-2.flac",
+      "role": "payload",
+      "sha256": "c71e00c25941864ed777a44d3f9b8d4632655a1de39569e80b2b5777e0464a71",
+      "bytes": 56463
+    },
+    {
+      "path": "audio/chair_sit-3.flac",
+      "role": "payload",
+      "sha256": "f262276b9e52c6d20a4e523247a8d06deb8e7fa28d58435cab67ebaf242debfd",
+      "bytes": 56112
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "6c034ecaa5cd456fa7691c61c07e697549a5123a279cef3b28357215aa6165fe",
+      "bytes": 359
+    }
+  ],
+  "revision": "660cdbaebf07235b1b9b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_sfx_chair_sit_v1@d68aa8911b4cfe4bdb5b",
+    "source_record_sha256": "b4370cb24af448da0fee7777ef01706c8cc5f125c807cdba7e51cfb057bbf6b5",
+    "encodings": [
+      {
+        "path": "audio/chair_sit-1.wav",
+        "encoded_path": "audio/chair_sit-1.flac",
+        "source_sha256": "81638180f62c93a46370c839ab6448e95f6a988843890060aa03fd8008f2a98a",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/chair_sit-2.wav",
+        "encoded_path": "audio/chair_sit-2.flac",
+        "source_sha256": "d939973de274cfe1e1935ebd815961af1d67827da4034454c79db4ed68ea6c6e",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/chair_sit-3.wav",
+        "encoded_path": "audio/chair_sit-3.flac",
+        "source_sha256": "edd36b9980ccde6fc7c4ad85035947296e82bcfe3323364f3c27bec301dcc5a8",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      }
+    ]
+  }
+}

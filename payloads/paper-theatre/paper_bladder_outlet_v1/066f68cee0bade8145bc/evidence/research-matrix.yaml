@@ -1,0 +1,407 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: bph_luts
+questions:
+- question_id: BPH-Q01
+  question: 尿频、夜尿、尿流变细可能提示什么问题？
+  priority: must_answer
+  claims:
+  - question_id: BPH-Q01
+    claim_id: BPH-CLM01
+    claim: NIDDK列出尿频、夜尿、排尿启动困难、尿流无力或断续、排尿后滴沥等表现；这些症状也可能有其他原因，不能仅凭症状诊断BPH。
+    status: context_limited
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: BPH-004
+      locator: Symptoms章节
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: NIDDK列出尿频、夜尿、排尿启动困难、尿流无力或断续、排尿后滴沥等表现；这些症状也可能有其他原因，不能仅凭症状诊断BPH。
+    population: 中老年男性排尿症状者及伴侣/照护者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: BPH-004
+      source_type: patient_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 尿频、夜尿、尿流变细可能提示什么问题？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 海外患者教育仅辅助公众表达，储尿/排尿/排尿后分类和中国临床路径仍需本地泌尿指南核验。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - NIDDK列出尿频、夜尿、排尿启动困难、尿流无力或断续、排尿后滴沥等表现；这些症状也可能有其他原因，不能仅凭症状诊断BPH。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-Q02
+  question: 排尿困难为什么需排查感染、药物和其他泌尿疾病？
+  priority: must_answer
+  claims:
+  - question_id: BPH-Q02
+    claim_id: BPH-CLM02
+    claim: NIDDK指出排尿症状也可能来自膀胱问题、感染、前列腺炎或前列腺癌，部分药物可加重症状，评估需询问病史和用药。
+    status: context_limited
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: BPH-004
+      locator: Symptoms及Diagnosis章节
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: NIDDK指出排尿症状也可能来自膀胱问题、感染、前列腺炎或前列腺癌，部分药物可加重症状，评估需询问病史和用药。
+    population: 中老年男性排尿症状者及伴侣/照护者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: BPH-004
+      source_type: patient_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 排尿困难为什么需排查感染、药物和其他泌尿疾病？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 海外患者教育仅补充鉴别思路，需中国泌尿指南核准。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - NIDDK指出排尿症状也可能来自膀胱问题、感染、前列腺炎或前列腺癌，部分药物可加重症状，评估需询问病史和用药。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-Q03
+  question: 观察、药物和手术各负责什么？
+  priority: must_answer
+  claims:
+  - question_id: BPH-Q03
+    claim_id: BPH-CLM03
+    claim: NIDDK将观察、药物和手术列为不同管理选项，讨论应结合症状严重程度、生活质量及并发症。
+    status: context_limited
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: BPH-004
+      locator: Treatment章节
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: NIDDK将观察、药物和手术列为不同管理选项，讨论应结合症状严重程度、生活质量及并发症。
+    population: 中老年男性排尿症状者及伴侣/照护者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: BPH-004
+      source_type: patient_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 观察、药物和手术各负责什么？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 不据海外材料确定中国治疗适应证、药物或手术方案。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - NIDDK将观察、药物和手术列为不同管理选项，讨论应结合症状严重程度、生活质量及并发症。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-Q04
+  question: 哪些变化需要及时就医？
+  priority: must_answer
+  claims:
+  - question_id: BPH-Q04
+    claim_id: BPH-CLM04
+    claim: 完全不能排尿等需要及时医疗评估；急性尿潴留需医疗处理，不能在家自行导尿。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-005
+      locator: CG97 1.7.1；NIDDK Symptoms
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 完全不能排尿等需要及时医疗评估；急性尿潴留需医疗处理，不能在家自行导尿。
+    population: 中老年男性排尿症状者及伴侣/照护者
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: BPH-004
+      source_type: patient_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 哪些变化需要及时就医？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 公众教育解释不构成个体诊断或处方；具体方案及中国接诊/药物条件需临床核定。
+    - 临床终审待处理。
+    allowed_wording:
+    - 完全不能排尿等需要及时医疗评估；急性尿潴留需医疗处理，不能在家自行导尿。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ01
+  question: 症状先分组描述
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ01
+    claim_id: BPH-MAT01
+    claim: 尿频、尿急、夜尿属于储尿阶段的困扰；启动困难、尿流弱或断续涉及排尿；滴沥和排不尽感出现在排尿后。分类帮助问诊，不能直接把所有症状命名为BPH。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-004
+      locator: Symptoms
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 尿频、尿急、夜尿属于储尿阶段的困扰；启动困难、尿流弱或断续涉及排尿；滴沥和排不尽感出现在排尿后。分类帮助问诊，不能直接把所有症状命名为BPH。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 症状先分组描述
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 海外权威患者教育，仅辅助症状和沟通表述；中国临床治疗仍以本地指南和说明书为准。
+    allowed_wording:
+    - 尿频、尿急、夜尿属于储尿阶段的困扰；启动困难、尿流弱或断续涉及排尿；滴沥和排不尽感出现在排尿后。分类帮助问诊，不能直接把所有症状命名为BPH。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ02
+  question: 为什么会影响尿流
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ02
+    claim_id: BPH-MAT02
+    claim: 前列腺位于膀胱出口周围，组织增大和相关功能变化可影响尿液排出；膀胱也会适应或出现功能问题。需把前列腺、尿道和膀胱画在正确关系中。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-004
+      locator: Definition、Symptoms、Diagnosis
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 前列腺位于膀胱出口周围，组织增大和相关功能变化可影响尿液排出；膀胱也会适应或出现功能问题。需把前列腺、尿道和膀胱画在正确关系中。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 为什么会影响尿流
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 海外权威患者教育，仅辅助症状和沟通表述；中国临床治疗仍以本地指南和说明书为准。
+    allowed_wording:
+    - 前列腺位于膀胱出口周围，组织增大和相关功能变化可影响尿液排出；膀胱也会适应或出现功能问题。需把前列腺、尿道和膀胱画在正确关系中。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ03
+  question: 夜尿要看整天的排尿
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ03
+    claim_id: BPH-MAT03
+    claim: 饮水、睡眠、药物和其他疾病也可能影响夜间排尿；排尿日记帮助区分频次与尿量。不能把夜间醒来次数自动换算为前列腺大小。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-005
+      locator: CG97 1.1.1–1.1.4；1.4.10列举夜间多尿相关病因
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 饮水、睡眠、药物和其他疾病也可能影响夜间排尿；排尿日记帮助区分频次与尿量。不能把夜间醒来次数自动换算为前列腺大小。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 夜尿要看整天的排尿
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 旧英国指南仅补充评估、共同决策和症状分类；不移植过时药物准入、阈值、频率和处方。
+    allowed_wording:
+    - 饮水、睡眠、药物和其他疾病也可能影响夜间排尿；排尿日记帮助区分频次与尿量。不能把夜间醒来次数自动换算为前列腺大小。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ04
+  question: 初诊准备与检查
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ04
+    claim_id: BPH-MAT04
+    claim: 病史和全部用药、体检及尿液检查是初步评估的重要部分；PSA、肾功能、影像和尿流/残余尿等依据具体问题选择。检查不能用一个固定套餐概括。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-005
+      locator: 1.1、1.2；英国路径只作评估框架补充
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 病史和全部用药、体检及尿液检查是初步评估的重要部分；PSA、肾功能、影像和尿流/残余尿等依据具体问题选择。检查不能用一个固定套餐概括。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 初诊准备与检查
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 旧英国指南仅补充评估、共同决策和症状分类；不移植过时药物准入、阈值、频率和处方。
+    allowed_wording:
+    - 病史和全部用药、体检及尿液检查是初步评估的重要部分；PSA、肾功能、影像和尿流/残余尿等依据具体问题选择。检查不能用一个固定套餐概括。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ05
+  question: 观察是一种主动管理
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ05
+    claim_id: BPH-MAT05
+    claim: 症状较轻且无相关并发症时，可讨论观察、生活方式调整和复查；前提是明确什么变化要回来评估。观察不等于永远不管。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-004
+      locator: Treatment
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 症状较轻且无相关并发症时，可讨论观察、生活方式调整和复查；前提是明确什么变化要回来评估。观察不等于永远不管。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 观察是一种主动管理
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 海外权威患者教育，仅辅助症状和沟通表述；中国临床治疗仍以本地指南和说明书为准。
+    allowed_wording:
+    - 症状较轻且无相关并发症时，可讨论观察、生活方式调整和复查；前提是明确什么变化要回来评估。观察不等于永远不管。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ06
+  question: 不同药物任务不同
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ06
+    claim_id: BPH-MAT06
+    claim: α受体阻滞剂、5α还原酶抑制剂和针对储尿症状的药物具有不同作用与适用人群；选择看症状、进展风险、前列腺评估、共病和用药。这里不采用CG97旧剂量、阈值或已变化的药物准入。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-005
+      locator: 1.4.1–1.4.8；只保留类别和共同决策框架
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: α受体阻滞剂、5α还原酶抑制剂和针对储尿症状的药物具有不同作用与适用人群；选择看症状、进展风险、前列腺评估、共病和用药。这里不采用CG97旧剂量、阈值或已变化的药物准入。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 不同药物任务不同
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 旧英国指南仅补充评估、共同决策和症状分类；不移植过时药物准入、阈值、频率和处方。
+    allowed_wording:
+    - α受体阻滞剂、5α还原酶抑制剂和针对储尿症状的药物具有不同作用与适用人群；选择看症状、进展风险、前列腺评估、共病和用药。这里不采用CG97旧剂量、阈值或已变化的药物准入。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ07
+  question: 手术与生活质量
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ07
+    claim_id: BPH-MAT07
+    claim: 严重或持续困扰、保守/药物无效或不合适及并发症情境需要讨论干预。问清预期症状改善、恢复、出血和性功能等影响，由泌尿专科按当前方案比较。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-005
+      locator: 1.5；BPH-004 Treatment
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 严重或持续困扰、保守/药物无效或不合适及并发症情境需要讨论干预。问清预期症状改善、恢复、出血和性功能等影响，由泌尿专科按当前方案比较。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 手术与生活质量
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 旧英国指南仅补充评估、共同决策和症状分类；不移植过时药物准入、阈值、频率和处方。
+    allowed_wording:
+    - 严重或持续困扰、保守/药物无效或不合适及并发症情境需要讨论干预。问清预期症状改善、恢复、出血和性功能等影响，由泌尿专科按当前方案比较。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: BPH-RQ08
+  question: 急性尿潴留及时就医
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: BPH-RQ08
+    claim_id: BPH-MAT08
+    claim: 完全排不出尿，或排尿症状伴发热寒战、血尿或明显下腹痛，需要及时医疗评估；CG97将急性尿潴留作为需立即导尿的医疗问题，家庭不自行实施。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: BPH-005
+      locator: 1.7.1；BPH-004 Symptoms
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 完全排不出尿，或排尿症状伴发热寒战、血尿或明显下腹痛，需要及时医疗评估；CG97将急性尿潴留作为需立即导尿的医疗问题，家庭不自行实施。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 急性尿潴留及时就医
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 旧英国指南仅补充评估、共同决策和症状分类；不移植过时药物准入、阈值、频率和处方。
+    allowed_wording:
+    - 完全排不出尿，或排尿症状伴发热寒战、血尿或明显下腹痛，需要及时医疗评估；CG97将急性尿潴留作为需立即导尿的医疗问题，家庭不自行实施。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null

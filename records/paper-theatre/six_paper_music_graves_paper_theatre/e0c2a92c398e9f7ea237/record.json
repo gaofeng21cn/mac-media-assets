@@ -1,0 +1,150 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_music_graves_paper_theatre",
+  "title": "graves_paper_theatre 原创纸剧场分轨配乐",
+  "kind": "audio",
+  "entry": "music/bed.flac",
+  "reuse_scope": {
+    "kind": "series",
+    "series": "graves_paper_theatre"
+  },
+  "source": {
+    "composer": "本工作台原创程序编曲",
+    "project": "/Users/gaofeng/workspace/科普视频/productions/graves_paper_theatre/01_not_just_a_fast_heart/v1",
+    "sampler": "FluidR3 GM; stable soundfont in assets/audio/instruments/FluidR3"
+  },
+  "external_dependencies": [
+    "本地 FluidR3 GM 音色库，许可随原库保管",
+    "composition/music-plan.json 保留原项目事件位置，复用时重新排时"
+  ],
+  "review": {
+    "listening": "pending"
+  },
+  "quality_debt": [
+    "未实际听辨完整配乐及混音；新镜头重新调整速度、编曲、旁白侧链和落点"
+  ],
+  "files": [
+    {
+      "path": "music/bed-sampler.flac",
+      "role": "payload",
+      "sha256": "f625b0fc0c609b91d791cdd93bad6db6292b2995938f73ab1c25e08e33a6cf47",
+      "bytes": 2673206
+    },
+    {
+      "path": "music/bed.flac",
+      "role": "payload",
+      "sha256": "f8368ad028736798a1aff55bf3e985fef1c10f403f26034551ab112582f0ff37",
+      "bytes": 2247844
+    },
+    {
+      "path": "music/motif.mid",
+      "role": "payload",
+      "sha256": "39d351fb4fb56098a3cf3777249c6f9fc2c21cab3f9f011e713306cfa7ba4e6d",
+      "bytes": 165
+    },
+    {
+      "path": "music/pulse-sampler.flac",
+      "role": "payload",
+      "sha256": "2ad121041217c929ed6fb29a1d911be4ad9cd0d9c3dbcf99fc049e3fb4e98e94",
+      "bytes": 1223911
+    },
+    {
+      "path": "music/motif-sampler.flac",
+      "role": "payload",
+      "sha256": "85d231e06108b22c85ab583701200cf8083792410478cfa133f23a77e4300991",
+      "bytes": 521600
+    },
+    {
+      "path": "music/bed.mid",
+      "role": "payload",
+      "sha256": "f9062c275f58cd124c4f99ed555b9cf87ba44ff74b504f05f8e5b3565b7795b4",
+      "bytes": 540
+    },
+    {
+      "path": "music/motif.flac",
+      "role": "payload",
+      "sha256": "dbd23171d00ec4a1be5168d1bb2b3a06ddc1ee2add0def6e5fdd6300e6e5018c",
+      "bytes": 375745
+    },
+    {
+      "path": "music/performance.json",
+      "role": "payload",
+      "sha256": "1191e84a58a266d07dbf8bb7a83cec3c9a1173f13c4725171072d90dcc9357a6",
+      "bytes": 18880
+    },
+    {
+      "path": "music/pulse.mid",
+      "role": "payload",
+      "sha256": "8ae24a70b9c335d01b81c63f58f89fdf39c904aaed6064adde2dcdb42b369d3e",
+      "bytes": 659
+    },
+    {
+      "path": "music/pulse.flac",
+      "role": "payload",
+      "sha256": "5cfa526b534f83a5ecd830bafb6ec28a24319b08fd86d9fc91f56f77b4c6f41a",
+      "bytes": 1149110
+    },
+    {
+      "path": "composition/compose_music.py",
+      "role": "source",
+      "sha256": "e516d8e8d3cb60c9a59be01149ca06feb33d447c6c384d7aa35ed2f2152be98d",
+      "bytes": 5380
+    },
+    {
+      "path": "composition/music-plan.json",
+      "role": "evidence",
+      "sha256": "d0ac7df4fa71540a158ad28675b2cb25a7e7907672e3eb6184b25a207fdc48b9",
+      "bytes": 632
+    }
+  ],
+  "revision": "e0c2a92c398e9f7ea237",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:six_paper_music_graves_paper_theatre@ac8fe88ece2af2cd5941",
+    "source_record_sha256": "43d497569758f5958dd03d26b475cfba138a6a37b9426b251542b9a0500032f3",
+    "encodings": [
+      {
+        "path": "music/bed-sampler.wav",
+        "encoded_path": "music/bed-sampler.flac",
+        "source_sha256": "994b5411b720e2fe0aebc07569321a6835612d1032d1e50563afa1008c47c265",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "music/bed.wav",
+        "encoded_path": "music/bed.flac",
+        "source_sha256": "8c9e0e1b3c055c8fde02a4e398bb978befa41053baf4dfc9ca550ecf72c0e5c9",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "music/pulse-sampler.wav",
+        "encoded_path": "music/pulse-sampler.flac",
+        "source_sha256": "c1d691d46dc2fa197ae8e7b635340a71676c69d118fb4868ae3cf7d99ab9ba21",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "music/motif-sampler.wav",
+        "encoded_path": "music/motif-sampler.flac",
+        "source_sha256": "f278930b957d81b3fecd56e642a5084d59a2600a625880f75aa81abaedc6ee5c",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "music/motif.wav",
+        "encoded_path": "music/motif.flac",
+        "source_sha256": "6fe46e7401d388141cd95408d83acb9fff812206b54391fbe420d02844cdc5c2",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "music/pulse.wav",
+        "encoded_path": "music/pulse.flac",
+        "source_sha256": "a5e2367408ecc9b3cfdf32fdc796eabdc297dbbeb1c87bd5ef9479d93c0ee10b",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      }
+    ]
+  }
+}

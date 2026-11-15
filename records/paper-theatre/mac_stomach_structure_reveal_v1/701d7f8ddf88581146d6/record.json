@@ -1,0 +1,463 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_stomach_structure_reveal_v1",
+  "title": "胃·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "胃",
+      "逐层揭示",
+      "局部高亮",
+      "stomach"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "胃·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "胃正面关系示意，画面右侧为胃底和胃体，食管入口在上，幽门向画面左侧延续；胃腔与胃壁分别揭示。不表达胃壁组织层、真实容积或胃排空功能。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "aebe4e03c1bf9854e6d13ed2365462fb53498f471b8e6806879b58b38a1e218f",
+      "bytes": 712
+    },
+    {
+      "path": "assets/cardia_pylorus.png",
+      "role": "payload",
+      "sha256": "9e2da7196e9a4c04271210aeb43f405d4e4b93b7d4faf15e42f816a8fa2d1f7c",
+      "bytes": 4372
+    },
+    {
+      "path": "assets/gastric_lumen.png",
+      "role": "payload",
+      "sha256": "eaeea829e104346622e65db9bfaf28d5ff4e799d29f410cf96ee5659a384cc5e",
+      "bytes": 27113
+    },
+    {
+      "path": "assets/stomach_wall.png",
+      "role": "payload",
+      "sha256": "b48e52a866f67bb4091258f12f0e71a7db03a83b87ec2047fc675ed86f1bd37b",
+      "bytes": 28872
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "0461f2a24782d093419e6541e5b6799af0466f30ffd6f45d712d2bad4c8708d0",
+      "bytes": 687
+    },
+    {
+      "path": "original/files/cardia_pylorus.png",
+      "role": "payload",
+      "sha256": "9e2da7196e9a4c04271210aeb43f405d4e4b93b7d4faf15e42f816a8fa2d1f7c",
+      "bytes": 4372
+    },
+    {
+      "path": "original/files/gastric_lumen.png",
+      "role": "payload",
+      "sha256": "eaeea829e104346622e65db9bfaf28d5ff4e799d29f410cf96ee5659a384cc5e",
+      "bytes": 27113
+    },
+    {
+      "path": "original/files/stomach_wall.png",
+      "role": "payload",
+      "sha256": "b48e52a866f67bb4091258f12f0e71a7db03a83b87ec2047fc675ed86f1bd37b",
+      "bytes": 28872
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "2adf6fc0cb2ae59e7aedd82465d94f85fdbc98bed6fd833cafecd997f78c510d",
+      "bytes": 6157
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "8329d81635d85969e8d0105efce1ca6b4ed3b29246153d88566eba03f7712d6a",
+      "bytes": 47779
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/cardia_pylorus.svg",
+      "role": "payload",
+      "sha256": "3a664803b4156d1971d0b243c571d684c22ba8ed5d9968d46103237899ee4998",
+      "bytes": 216
+    },
+    {
+      "path": "original/source/gastric_lumen.svg",
+      "role": "payload",
+      "sha256": "2773a85ce7ac9c4f618328f62f271f8174fb374201f6001669a56e7388aa81b7",
+      "bytes": 363
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "d26af4abf58b48780f248b5deacecc2d65d55ebe676bd964404ad820c0da041a",
+      "bytes": 748
+    },
+    {
+      "path": "original/source/stomach_wall.svg",
+      "role": "payload",
+      "sha256": "431ef95cb9f75d188db6c0e0010fa8898357717e58d75c302330283bc516a727",
+      "bytes": 363
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "29a519f86aa717db7193554497c9535f26db184eef9d4875ec785cdac892a81e",
+      "bytes": 370
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "3e271d06793beeccef98c56b081ba991833be423c8ddb807d8deea2c7af6ca52",
+      "bytes": 6558
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "fc6b2b096c8abbcfa244b2fc0ce42c793d5e7646b4461834ac5e9912e869dd90",
+      "bytes": 71343
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "06550cdc2f556f9a20f69ddd6d82f63486880c4d7fe9aba6ec4a181980214afd",
+      "bytes": 68383
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "7739973f825b2722d34c7173cba3800244748549ade16f64f58f1af5adbd39f8",
+      "bytes": 71199
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "8b9ac281623af8468c3c3f773c00a684c5e2a6c4879fba7ea999ce751e636964",
+      "bytes": 39898
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "752b947e8806949770a55743dcfe78360cefcd4b1cc76e8bb6a9a0e5ec783745",
+      "bytes": 72743
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "c9d8b7712e713decf25be081478b6a9e73271e4f280d4bf07b7257ee28f8c34e",
+      "bytes": 69882
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "4d6ad9db6c3418f47093cce43a3785f63dcefb0fe999b0dbc38e25c3d7b34618",
+      "bytes": 72628
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "a1205e3326325f8550d63f49503569d6662721f5aeba670336efe6e782178fec",
+      "bytes": 14959
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "141bbb33caa47ad3eefc15de6b9c5304acc848535349b2404ceb9aec969f1a18",
+      "bytes": 135782
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "4646ba79c4c4a7115435369bc79891c72e94c5d8d34b25889dbc60cbdec767cb",
+      "bytes": 158413
+    },
+    {
+      "path": "samples/focus-phone/0-stomach_wall-color.png",
+      "role": "payload",
+      "sha256": "9a2cec7a77bd73c08baa2f6470f1b71c3fb95ed73bd93205fc41c43cd6a1e3a5",
+      "bytes": 15599
+    },
+    {
+      "path": "samples/focus-phone/0-stomach_wall-dark.png",
+      "role": "payload",
+      "sha256": "31ebfedb55156bf28d9cf9e3737793bfc54d4d88d06c9c223522306179d792ed",
+      "bytes": 16063
+    },
+    {
+      "path": "samples/focus-phone/0-stomach_wall-light.png",
+      "role": "payload",
+      "sha256": "d45e760eb795aa1dedefe796fb73778d1f1276a475616ef00e8600fc2058592a",
+      "bytes": 14582
+    },
+    {
+      "path": "samples/focus-phone/0-stomach_wall.png",
+      "role": "payload",
+      "sha256": "d45e760eb795aa1dedefe796fb73778d1f1276a475616ef00e8600fc2058592a",
+      "bytes": 14582
+    },
+    {
+      "path": "samples/focus-phone/1-gastric_lumen-color.png",
+      "role": "payload",
+      "sha256": "12b33f93e4f9388b0ad5af7f983b30b6bb9382afffe23e272755437211882334",
+      "bytes": 15618
+    },
+    {
+      "path": "samples/focus-phone/1-gastric_lumen-dark.png",
+      "role": "payload",
+      "sha256": "4faaa09312dbde18e3491e337d35e8ee3e25bbcfbec75fcc4c80a5155da4f588",
+      "bytes": 15586
+    },
+    {
+      "path": "samples/focus-phone/1-gastric_lumen-light.png",
+      "role": "payload",
+      "sha256": "3c45ab39550a6f02abc5d85c68b00d71dd65d856c047982434b834cb1d7c5e8b",
+      "bytes": 15035
+    },
+    {
+      "path": "samples/focus-phone/1-gastric_lumen.png",
+      "role": "payload",
+      "sha256": "3c45ab39550a6f02abc5d85c68b00d71dd65d856c047982434b834cb1d7c5e8b",
+      "bytes": 15035
+    },
+    {
+      "path": "samples/focus-phone/2-cardia_pylorus-color.png",
+      "role": "payload",
+      "sha256": "19247d7be53948dbf6f4ecf4bbd9510a17d125e25a1c44b8e2fa94f836468de1",
+      "bytes": 15855
+    },
+    {
+      "path": "samples/focus-phone/2-cardia_pylorus-dark.png",
+      "role": "payload",
+      "sha256": "2ff5b769e9f46420c0bf5378140587778276423374c4aaa3cb1e03e058448668",
+      "bytes": 15145
+    },
+    {
+      "path": "samples/focus-phone/2-cardia_pylorus-light.png",
+      "role": "payload",
+      "sha256": "da88e085c1f4af64fa0d4b29f613749516dcd021788741e0c55f705be7bd31cb",
+      "bytes": 15767
+    },
+    {
+      "path": "samples/focus-phone/2-cardia_pylorus.png",
+      "role": "payload",
+      "sha256": "da88e085c1f4af64fa0d4b29f613749516dcd021788741e0c55f705be7bd31cb",
+      "bytes": 15767
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "4d6ad9db6c3418f47093cce43a3785f63dcefb0fe999b0dbc38e25c3d7b34618",
+      "bytes": 72628
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "4d6ad9db6c3418f47093cce43a3785f63dcefb0fe999b0dbc38e25c3d7b34618",
+      "bytes": 72628
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "fc68d4c6fd5bd0be782f91bf18b1b8537cbbd39670d93ec1a97f6a2872ecd17b",
+      "bytes": 37105
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "853380c2b1daff134d1433e269447a46810778b72ba9b3e4349879421db9bab7",
+      "bytes": 55921
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "853380c2b1daff134d1433e269447a46810778b72ba9b3e4349879421db9bab7",
+      "bytes": 55921
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "264651bf1b689798a0b96f207226122c2465cfc406f2c74ccc8fa03b002257d2",
+      "bytes": 71518
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "264651bf1b689798a0b96f207226122c2465cfc406f2c74ccc8fa03b002257d2",
+      "bytes": 71518
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "3b4ce1f990657fbef9d82a2eae8e0f21332290d573a7972945091309bc429bbc",
+      "bytes": 72050
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "3b4ce1f990657fbef9d82a2eae8e0f21332290d573a7972945091309bc429bbc",
+      "bytes": 72050
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "3682ce4866a0e5f1aa9e96510524029a555d69dbebe079d67fa4db205d6d5c81",
+      "bytes": 69620
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "3682ce4866a0e5f1aa9e96510524029a555d69dbebe079d67fa4db205d6d5c81",
+      "bytes": 69620
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "3682ce4866a0e5f1aa9e96510524029a555d69dbebe079d67fa4db205d6d5c81",
+      "bytes": 69620
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "0edfe126b00cb48aff16290b7ead339e70fb703110ef62a977a45590a81d6ed3",
+      "bytes": 72724
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "0edfe126b00cb48aff16290b7ead339e70fb703110ef62a977a45590a81d6ed3",
+      "bytes": 72724
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "2006e4d7faaa4b71e556fcf3fc9a873b6bc563c1e9065c3661ae31eed868d03b",
+      "bytes": 64985
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "ae4006defb8a46e4aae39f0aa8b18276b91bd52470e7f77c666c7ae027cb3529",
+      "bytes": 71977
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "ae4006defb8a46e4aae39f0aa8b18276b91bd52470e7f77c666c7ae027cb3529",
+      "bytes": 71977
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "6b227fa10e715107000d4b0c2c696ce8acfd67f1af6a52b3d900c2c377b0b171",
+      "bytes": 67432
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "4d6ad9db6c3418f47093cce43a3785f63dcefb0fe999b0dbc38e25c3d7b34618",
+      "bytes": 72628
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "eab5d2c66285d491f3dae689ab3388931407e0fa607b68c5f65fab2da8632728",
+      "bytes": 21424
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "9cd2a6536422d1721a929c208ae88375c73ad36901d495312a4350774e78b485",
+      "bytes": 14891
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "a059ead76eaead9ef4046d8b90ba0c97d8ebad39380b42c782310ea3f99d1612",
+      "bytes": 181104
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "96efaa557d58d11a58c515b8f89d5c34594ec4ed43d14c16c90b1629cb701de5",
+      "bytes": 13112
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "7c9d6480c486f3ba7d3abf37b0d5ba76cd84e7b5bd985d50065480bab15675b8",
+      "bytes": 5531
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "701d7f8ddf88581146d6"
+}

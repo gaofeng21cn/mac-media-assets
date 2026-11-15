@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "One standalone shallow carbon-steel frying pan with wooden handle, transparent paper collage cutout, empty and no background.",
+  "source_path": "/Users/gaofeng/workspace/科普视频/work/review/cooking-assets-20261024/sources/frying-pan.png",
+  "measured": {
+    "width": 1536,
+    "height": 1024,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      19,
+      1516,
+      1024
+    ],
+    "opaque_ratio": 0.2702,
+    "translucent_ratio": 0.0068,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-23T16:22:14.750859+00:00"
+}

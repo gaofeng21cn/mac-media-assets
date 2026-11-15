@@ -1,0 +1,15 @@
+{
+  "id": "paper_place",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 0.45,
+  "seeds": [
+    9106,
+    9107,
+    9108
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

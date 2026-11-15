@@ -1,0 +1,223 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_care_assistance_v1",
+  "title": "双人照护：接近、协助起身、伴行与松手",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "continuous_action",
+    "care"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "双人照护：接近、协助起身、伴行与松手",
+      "care",
+      "连续动作",
+      "mac_care_assistance_v1"
+    ],
+    "actions": [
+      "照护全过程",
+      "辅助起身",
+      "陪伴行走",
+      "解除支撑"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "连续动作",
+      "人物互动"
+    ],
+    "display_title": "双人照护：接近、协助起身、伴行与松手",
+    "renderers": [
+      "canvas2d"
+    ],
+    "sample_duration_seconds": 6.5
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "日常轻扶陪伴的虚构表演；不作失能者转移、术后搬运或急救操作教学。完整双人/椅子关键姿态为整体帧，不能独立改动接触双方。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "not_applicable",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "ground": 625,
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "c98c3715850fdf052322ee022390072b99b772aca1e33d60cf6a12e507239487",
+      "bytes": 776
+    },
+    {
+      "path": "assets/care.png",
+      "role": "payload",
+      "sha256": "5f983bb039eb4d1236e551abf742ec5479fe6ec854ecacc8b6769e4a8d90cf81",
+      "bytes": 2400898
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "7e7194cf3b6f92d32fdfde13ac7140ad500729678fc8ef56ab6329900e928546",
+      "bytes": 673
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "a0f7a444b950dd20fe483161555df9bf766a9d8024eb436ca49bebfbb6467076",
+      "bytes": 3627
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+      "bytes": 5899
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "77e9c38d9344c474d5392f5dc2598e4a13ac4388cdb6fdee80335a8618286241",
+      "bytes": 289762
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "4023a3c109f6502cb5386cd826c0b983d24917603ae5191b288fe636a363c300",
+      "bytes": 286346
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "dd14ba3c40ecfa44fcca46f4ca5533d86d3350d73372109c8d0a6896c49e794b",
+      "bytes": 291618
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "f16d47fe3ba088f0979c62d04eb15b421bc0c124769fe94cae95efbb19db6816",
+      "bytes": 122242
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "3f53f45daf1b14bfc70422d80eed0b15dcf67b2507b6017eded2f38bf30678b0",
+      "bytes": 132831
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "557a23fa83ff1b91e7cb827cd6a713ff23076086dca9b51ae7d61ec206eb4b7a",
+      "bytes": 269255
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "636c45cf75a8e9ae6779621effbb892867afe558f907ba7d0731a866aeda3416",
+      "bytes": 267697
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "b35520e3e75a3279ad25f4c906c12e6b908aa1b6d6b25f34d606bea90b22d9f4",
+      "bytes": 293251
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "045bfa4f44b2daa39fba6c813b371212e5f8d59c660775d95be00f402c708a66",
+      "bytes": 283728
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "dd14ba3c40ecfa44fcca46f4ca5533d86d3350d73372109c8d0a6896c49e794b",
+      "bytes": 291618
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "2c5a4a6d346eb187bfa8ddb3b7389083639c82920ed45e2e970def11bcbbe09d",
+      "bytes": 283114
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "ff8f53eb36640678d71943a5d113db046edcaebe603636e8307721c8c1ec36ba",
+      "bytes": 294995
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "1df6c3e7687d70bbf4fa8e9ea5ba3348f85cbbc861d456689ee95ec9336306c1",
+      "bytes": 292491
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "1df6c3e7687d70bbf4fa8e9ea5ba3348f85cbbc861d456689ee95ec9336306c1",
+      "bytes": 292491
+    },
+    {
+      "path": "samples/live-contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "82574bfb38e6a4ef4d90c73788c829abb92089eb9319dfa9c7a3bbe1582f5cd0",
+      "bytes": 270652
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "529496bac586e79da302b685a032837f03af553961a56ea912c0fdd2c6639a09",
+      "bytes": 38881
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "50847163b59dd2a31ac4a1e6755854e45be1c6b5180257074a2818238917094c",
+      "bytes": 319649
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "68da2807eddaa9b44a10beebcae0838deb0cfd6c7e780887d2f45d925335bbf1",
+      "bytes": 3705
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "eb4c1edfaaa32d4f5192976c224d1cc194324e7cfb58561c7b1f0b8cd73f56ea",
+      "bytes": 3624
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "7add8a71f20bb1997826"
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_upper_denture_v1",
+  "title": "上颌全口活动义齿·独立纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "oral_health"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    21,
+    1514,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "upper_denture"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "上颌全口活动义齿·独立纸件",
+      "upper_denture"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "上颌全口活动义齿·独立纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        21,
+        1514,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "义齿清洁与复诊任务的具体道具，不用于个体适配或咬合指导。"
+    }
+  ],
+  "usage_notes": "义齿清洁与复诊任务的具体道具，不用于个体适配或咬合指导。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "e5400d38f741b9c11d6a99602ea5999b9baf5a451f3b0edad30f419fe0c86b4f",
+      "bytes": 1649084
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "04872ff8af444c638ab4a3fcf2af3ef12da2f8cd2b049874e7a2f1791310f967",
+      "bytes": 931
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "c6f24b550c4c275d0f289faeec43e6a6063b38230c4fed9fd6a785383de245b9",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "7936286191438c7dba0ceb77932a2a6bffec578bcbb2514888160f1d82c20580",
+      "bytes": 22370
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "903e09a0c0910872b6d699bd80cc1dd32b971dbbace4ba8c8c1d0f92461c9ff0",
+      "bytes": 764
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "f9b8c31d3fb943961ee86251dd66ed0384013c838a853bef7653bddda1b6a76e",
+      "bytes": 65803
+    }
+  ],
+  "revision": "9bf738a268d3da32f63d",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_upper_denture_v1@fe95251194ddf6fd2ed5",
+    "source_record_sha256": "1d7be0ddfe9e788aef6ef2680223e75405a15f0dfd5b16c6ee9bc9a279b7d0a2",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "75245cf88e10cc9d8e010dcff7783029784b36731065a7809b93b0b4c4e5a15e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_paper_fold_v1",
+  "title": "拟音：paper_fold",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "paper_fold"
+  ],
+  "entry": "audio/paper_fold-1.flac",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/paper_fold-1.flac",
+      "role": "payload",
+      "sha256": "cafd141cc016daddf6a16e2589985acdc12c66f67a6f50f9dab6ca304b0b8da8",
+      "bytes": 34729
+    },
+    {
+      "path": "audio/paper_fold-2.flac",
+      "role": "payload",
+      "sha256": "b2443195a9b68a586046525e24b22dc018d99b1d036ed143c1b0c9971fecfdf7",
+      "bytes": 33331
+    },
+    {
+      "path": "audio/paper_fold-3.flac",
+      "role": "payload",
+      "sha256": "c528275fa80829cb0882e622b01dc591a562a0e5cbe4303a3776ec292597487c",
+      "bytes": 35146
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "ae1366769b21bfd4bd7a352204befb86a319f97224aaca26fd7d614a2eb3d895",
+      "bytes": 349
+    }
+  ],
+  "revision": "97ff7e337e073b7ae5d8",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_sfx_paper_fold_v1@f09a8bc7038ce207c15f",
+    "source_record_sha256": "f18438ee83458d0a072f0c32d987ba11fdf1524f376f89e2984890331bbf6033",
+    "encodings": [
+      {
+        "path": "audio/paper_fold-1.wav",
+        "encoded_path": "audio/paper_fold-1.flac",
+        "source_sha256": "c02f2a80ad712214bfefa21009cfd35a4dc6683957572e97c09b8930748d0fd2",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/paper_fold-2.wav",
+        "encoded_path": "audio/paper_fold-2.flac",
+        "source_sha256": "66c157b4b54847bdd8520b180039763a2329a442c5dce63b96e08a7daaa677fc",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/paper_fold-3.wav",
+        "encoded_path": "audio/paper_fold-3.flac",
+        "source_sha256": "a6417b3217ddefd6ebcb95330f1eeea0290331d62e0989f35cf6892bc5e62e5b",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      }
+    ]
+  }
+}

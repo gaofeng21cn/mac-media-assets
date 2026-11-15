@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_toothbrush_soft_v1",
+  "title": "软毛牙刷·独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    31,
+    2140,
+    666
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "toothbrush_soft"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "软毛牙刷·独立纸件",
+      "toothbrush_soft"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "软毛牙刷·独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        31,
+        2140,
+        666
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "完整手动牙刷，刷毛在画面右并朝上；新镜头按实际牙面方向试装。"
+    }
+  ],
+  "usage_notes": "完整手动牙刷，刷毛在画面右并朝上；新镜头按实际牙面方向试装。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "2bd53151ced94530398592762f4533db45d6f64c647d4808a5665175401371a1",
+      "bytes": 563744
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "75440e120e051752293fc6dea85118b1af10b4e0cac5e76e7d54c306ab7ae88f",
+      "bytes": 1008
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "72f8d4092d8b488260dc4da601cdba44373554d70c33a18ec48e727354f5df4d",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "d8a4b2f121bd6124b4be64ec06ba396ef8b5a5f05a53fb87e67283e6fddf196a",
+      "bytes": 595
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "97407bd43ba9b04a5021338924d0b40c6038b3e0122aada5a926bfd1cd68864d",
+      "bytes": 29031
+    }
+  ],
+  "revision": "3bde3f76a2a768e72030",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_toothbrush_soft_v1@d14a7b7a8124020ec91b",
+    "source_record_sha256": "2d011317515a25b9182b12d0dc9731b7d47ccc1f5d500c99d01f2fa3e4dd3c68",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "31704ca6a1d4b986141edf536c0e827ab27c9e9b224143955103106a73efe177",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_open_cuff_v1",
+  "title": "独立展开式上臂袖带",
+  "kind": "image",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "人物",
+    "接触",
+    "交接"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "content_bounds": [
+    323,
+    151,
+    1203,
+    901
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "与独立手臂试装；不含主机与读数",
+  "source": {
+    "kind": "imagegen",
+    "generation": "builtin_edit",
+    "sample_has_brand": false
+  },
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f",
+      "bytes": 3165847
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "c02199f2b0e2ea0a0d75737e22051168f077c26e1f5e46d94d0641ec172897ec",
+      "bytes": 429
+    }
+  ],
+  "revision": "ed384b40d3d5dc3de162"
+}

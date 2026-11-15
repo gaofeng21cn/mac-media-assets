@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_torn_masking_tape_v1",
+  "title": "手撕纤维纸胶带固定件",
+  "kind": "image",
+  "entry": "files/payload.png",
+  "status": "review_candidate",
+  "tags": [
+    "paper_collage",
+    "透明纸件",
+    "纸材与固定件",
+    "胶带",
+    "固定件",
+    "手撕边",
+    "纸材"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "content_bounds": [
+    379,
+    251,
+    1648,
+    494
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "source": {
+    "kind": "imagegen",
+    "collection": "common-medical-paper-props",
+    "generation_receipt": "evidence/generation-receipt.json"
+  },
+  "asset": {
+    "asset_id": "paper_torn_masking_tape_v1",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "prompt_ref": "evidence/prompt.md",
+    "generation_receipt": "evidence/generation-receipt.json",
+    "status": "review_candidate",
+    "visual_review": {
+      "status": "static_candidate_reviewed",
+      "evidence_ref": "evidence/static-review.json"
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.49705738106915154,
+        "y": 0.48313878080415046
+      },
+      "contact_points": {
+        "placement_base": {
+          "x": 0.49705738106915154,
+          "y": 0.6407263294422828
+        }
+      },
+      "coordinate_space": "normalized_original_image",
+      "contact_point_status": "placement_hint_for_current_shot_adaptation"
+    }
+  },
+  "review": {
+    "static_visual": "candidate_reviewed",
+    "full_motion": "pending"
+  },
+  "medical_review": {
+    "status": "not_reviewed"
+  },
+  "usage": [
+    {
+      "family": "纸材与固定件",
+      "uses": [
+        "独立纸件整体取放、交接和场景拼贴"
+      ],
+      "limits": [
+        "实物为偏不透明的纸胶带效果，并非透明胶膜；不声明可看穿底层。",
+        "只用于有真实连接关系的局部固定，不拉伸为大色带或文字底板。"
+      ]
+    }
+  ],
+  "usage_notes": "实物为偏不透明的纸胶带效果，并非透明胶膜；不声明可看穿底层。；只用于有真实连接关系的局部固定，不拉伸为大色带或文字底板。",
+  "quality_debt": [
+    "尚未在具体镜头完成连续动作与医学语境审查"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "a16c2fd82c7f8ba9257eaee3a59c3434acd47b5717d0293637387203a202591c",
+      "bytes": 643658
+    },
+    {
+      "path": "evidence/prompt.md",
+      "role": "evidence",
+      "sha256": "b6449d96fef7b21d02bb32183527205dcce1395e1ab607c442e72d58ede32536",
+      "bytes": 806
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "fa520690a9c0f761187e08d6a081bdd5e217074c699fc26bf90cc537b9a3785c",
+      "bytes": 551
+    },
+    {
+      "path": "evidence/static-review.json",
+      "role": "evidence",
+      "sha256": "916043f7f47f4adb9547313332c418fc8b55277d57bd655998bdeab63e50aa31",
+      "bytes": 1131
+    }
+  ],
+  "revision": "f196e7540ba21c9827dc"
+}

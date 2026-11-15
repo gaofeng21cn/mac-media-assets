@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_school_bag_v1",
+  "title": "随身准备包·敞口独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1522,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "school_bag"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "随身准备包·敞口独立纸件",
+      "school_bag"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "随身准备包·敞口独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1522,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "随身准备包·敞口独立纸件；独立透明原件，当前镜头的朝向、接触与比例重新审查。"
+    }
+  ],
+  "usage_notes": "随身准备包·敞口独立纸件；独立透明原件，当前镜头的朝向、接触与比例重新审查。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "a1d008ef3876169c00b9c7925a3a9b0526961f61d374eaa928444b24f043e29c",
+      "bytes": 1724314
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "e80580f13c4564142c0373ca7758b3539be386c2bf9530a65a1a3661eb4bc4ff",
+      "bytes": 1068
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "c726627fa1fa73319ef475bf6e394f4d486253e91641e1e1484ac09573593da4",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "cfb84c1dd01485a648c19365af9a7404f462b0d40ea567b282f1e64ff459b845",
+      "bytes": 627
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "87e1edab507f5db12a65570a9a816827e3769907dc2460daa33a9330cd3b3ded",
+      "bytes": 83144
+    }
+  ],
+  "revision": "789641cc4ecad26ccd9e",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_school_bag_v1@1f6091a48a2fc964c04e",
+    "source_record_sha256": "35ab0aabc534eff0696094fe94f7627f115ad56072401c67d94fc1bb18ed8105",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "3560b9de2a87b53830a04b32d439746bf9ae8b0e61f4ac4f2d0d2f143cfce11e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

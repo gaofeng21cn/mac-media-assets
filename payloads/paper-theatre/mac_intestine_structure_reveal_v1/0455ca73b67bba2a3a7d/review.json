@@ -1,0 +1,77 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "8fac5302c0ff8cf77735acb72f287528e69ac4bb9e3cc99b2449775bd0b219db",
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "8fac5302c0ff8cf77735acb72f287528e69ac4bb9e3cc99b2449775bd0b219db",
+    "assets/colon.png": "e05cb5703e9e65f10381d94b92b1908ce251305a1b6e42fe99799d2569b5fb7f",
+    "assets/small_intestine.png": "e92bce60068a6edd523508b17a0f1fd8861fad17a9aa1acf2e5e3a22c5270f8f"
+  },
+  "media": {
+    "samples/background-color.png": "bab9aa010e6131a27c6f1c280cdfa074ec86b94391f790081b80eaea49fcbb2a",
+    "samples/background-dark.png": "3c70ae19c5b6b8862301d4a658562feb29e89cdaef9bc115ede61358feeb415d",
+    "samples/background-light.png": "2143b1cdfc3f08948e7cb829355dbd8ad90ae10821ac8fa4ee3c2f87a0d427cd",
+    "samples/background-review.jpg": "b1aae2b1b3c202fe58e71d15bf59ad993a4e0cae573272684ebbae76405d8d75",
+    "samples/complete-background-color.png": "d3b6bea822520928075292a4d63295897c94c729ea2b5de2dd434a923b0c359a",
+    "samples/complete-background-dark.png": "3f1ff5a9f7685dda88dfeebc9db4b1815352be9755ae65e2647269e05a379c44",
+    "samples/complete-background-light.png": "88a6efd24e412146342dc8958af34f7d960d4debe2fe13637f30d46f8795ddcf",
+    "samples/complete-phone.png": "e09ad23d557f08b86da3facc6dee894fa6bcf3681101a5d8ac6187841fe3a8ea",
+    "samples/contact-sheet.jpg": "a36669131394759071ea1c28e5941a3e27a969d203dfd60a8e2c7832a946ecec",
+    "samples/focus-background-review.jpg": "6b26dfac0e39c467cf13d3368371a1693c909a3d2696fe35a3565883eaab0b60",
+    "samples/focus-phone/0-colon-color.png": "ac8affd28dd9519f575c09529114680dc8c608af61e04647cdf28e5780a865dd",
+    "samples/focus-phone/0-colon-dark.png": "941a84754b03ef20e7bc134db9363e89cf2afb0ae19679775829bea5c5297c5d",
+    "samples/focus-phone/0-colon-light.png": "0ed983334bdaa38c5e72c9033f5130abd4965568a64a0a910f768e3451f8f2ad",
+    "samples/focus-phone/0-colon.png": "0ed983334bdaa38c5e72c9033f5130abd4965568a64a0a910f768e3451f8f2ad",
+    "samples/focus-phone/1-small_intestine-color.png": "61a1ad2c28437f0f64feca486fca0fadd5b34c9bdf8928cc3502993684af5db8",
+    "samples/focus-phone/1-small_intestine-dark.png": "b7f2f94b3c4cfc6bbd11b3683a2452fd5d5fc6f6c99e3894e9de4c4f97ebff2d",
+    "samples/focus-phone/1-small_intestine-light.png": "b88cfb918827a2ddf5dde725c51b87fb40ee94342ceca5476c2a9bc654417fe6",
+    "samples/focus-phone/1-small_intestine.png": "b88cfb918827a2ddf5dde725c51b87fb40ee94342ceca5476c2a9bc654417fe6",
+    "samples/keyframes/00.png": "88a6efd24e412146342dc8958af34f7d960d4debe2fe13637f30d46f8795ddcf",
+    "samples/keyframes/01.png": "88a6efd24e412146342dc8958af34f7d960d4debe2fe13637f30d46f8795ddcf",
+    "samples/keyframes/02.png": "3099bd3a781e89c8fccf6f88033d8c7937df17d79590150d3ae36859e9b5211a",
+    "samples/keyframes/03.png": "c2c68e017cf89833500037ab79a62612b2cc7b91da6f23a0af3f674f172ce73a",
+    "samples/keyframes/04.png": "c2c68e017cf89833500037ab79a62612b2cc7b91da6f23a0af3f674f172ce73a",
+    "samples/keyframes/05.png": "8bc7a8a5e5a8a1b51809e41fc5d14d4dd593a3989e71e912055a820506190430",
+    "samples/keyframes/06.png": "285ab43bc9bbd06831223204ac83485c0841daa0a6120601be83225d4fcbe758",
+    "samples/keyframes/07.png": "ec83a214c67e678c8d4066d2da303cfdd0bbfabeb8faba4bb2de0cad0197b438",
+    "samples/keyframes/08.png": "ec83a214c67e678c8d4066d2da303cfdd0bbfabeb8faba4bb2de0cad0197b438",
+    "samples/keyframes/09.png": "1b9a3e532b0dcef98863787ccec8ab17d07e196088b6b5b9b2ce8a7e05918050",
+    "samples/keyframes/10.png": "3228886e063b8f5f0a20e2ca8c5aef6e833cccb82fab6135dc71323634896f61",
+    "samples/keyframes/11.png": "3228886e063b8f5f0a20e2ca8c5aef6e833cccb82fab6135dc71323634896f61",
+    "samples/keyframes/12.png": "fa335ee7ea70474762dd0baa6bf318dab36a5a3b2c847268c2ae69b0a75dda28",
+    "samples/keyframes/13.png": "88a6efd24e412146342dc8958af34f7d960d4debe2fe13637f30d46f8795ddcf",
+    "samples/phone-reading.png": "aae56806dae213ae4f0b929b490843ec488a7c762eda273eef3f4fa0d44946bf",
+    "samples/phone.png": "ad277f361e2b519479a8031ab275509acdc1d7bcfddc1a98ef5362ef38dc74f6",
+    "samples/sample.mp4": "b690d20bbb828805ae8a29bc51095cc53dda8ef52e8446d6b744bff587ed3c9f"
+  },
+  "technical": {
+    "frames": 149,
+    "fps": 24,
+    "duration": 6.2,
+    "random_seek_equal": true,
+    "browser_errors": []
+  },
+  "checked": [
+    "精确原件的全部独立层真实复制，PNG/SVG/登记字节保留",
+    "所有图层按共同原点和同一整组相机绘制",
+    "源层序、遮挡、目标高亮与总览定位一致",
+    "小屏可辨的对象关系和局部阅读面积",
+    "每一相机切换边界连续，所有24fps时点变换有限",
+    "三底色透明边缘与浅色细线可辨"
+  ],
+  "defects_found_and_fixed": [
+    "小屏标注字号过小，已放大",
+    "浅色细线在彩底对比不足，已加仅用于高亮的浅色边缘",
+    "局部切换原先回总览再跳近景，改为前后相机连续过渡"
+  ],
+  "not_reviewed": [
+    "医生医学终审",
+    "具体故事的旁白、字幕与当前镜头接线",
+    "连续剖开、三维旋转、生理运动（本包未提供）"
+  ]
+}

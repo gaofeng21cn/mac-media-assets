@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_smartphone_front_v1",
+  "title": "手机正面·可排字屏幕",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1023,
+    1518
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "smartphone_front"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "手机正面·可排字屏幕",
+      "smartphone_front"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "手机正面·可排字屏幕",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1023,
+        1518
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "手机硬件纸件，屏幕为空白，实际号码与操作文字后期准确排入。"
+    }
+  ],
+  "usage_notes": "手机硬件纸件，屏幕为空白，实际号码与操作文字后期准确排入。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "6100b3399be7b0bffe449290799ebd9478c5304504445b804c1e4233f8c686e3",
+      "bytes": 1707616
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "0d609244f9de3604cde9ff38bd3d44816480734be2516ddba002e135c5466f81",
+      "bytes": 893
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "8cd1306c9dcb7f045cc49131fa0537bcf409654d7c3455612c74dc9430f8cd9a",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f47564d062ae73ca3767f0c7e5106cba5c73c9077b9105ce09d131f5a269dfe0",
+      "bytes": 595
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "c710e9996eca90184e9c994f8031e7cd1a023e5df6dda46043f00c5d934034dc",
+      "bytes": 56158
+    }
+  ],
+  "revision": "263883defd717ff032b8",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_smartphone_front_v1@4d53ec28b0b55ed4ba01",
+    "source_record_sha256": "8a7b9247ebac045e97dd0987c92bd6a6195fb664e1216ea96e3dfe5fd78c130f",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a07553b37ee057c45db99f0fb0e13bd1fa213ab32bc260a07e72071503fc2b58",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

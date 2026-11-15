@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pelvic_organs_simple_v1",
+  "title": "盆腔器官·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·payload",
+      "medical": true,
+      "content_bounds": [
+        202,
+        243,
+        822,
+        762
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_pelvic_organs_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "盆腔器官",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "女性盆腔正面投影示意，子宫连输卵管与两侧卵巢；膀胱为前方半透明投影，直肠为后方虚线投影。前后深度需结合侧视图解释，非同一冠状切面。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "f5636ce32bea5ad63ee406f6295182101b432016f828d31e29ba332459641f0b",
+      "bytes": 1136
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "395f3d71a831153e41ecd73708adb3324008604f7791daaaa732208f5900d483",
+      "bytes": 54021
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "f5636ce32bea5ad63ee406f6295182101b432016f828d31e29ba332459641f0b",
+      "bytes": 1136
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "395f3d71a831153e41ecd73708adb3324008604f7791daaaa732208f5900d483",
+      "bytes": 54021
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "45fbb13ef70e5643f04725067935428d1d2703223e1e15ffd45f3eee761ee321",
+      "bytes": 687
+    }
+  ],
+  "revision": "6948e7f7638ab9acd22d"
+}

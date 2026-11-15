@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_infusion_bag_v1",
+  "title": "输注袋·独立封闭器材纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    18,
+    1021,
+    1496
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "infusion_bag"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "输注袋·独立封闭器材纸件",
+      "infusion_bag"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "输注袋·独立封闭器材纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        18,
+        1021,
+        1496
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "输注途径与口服产品的比较道具；示意液体颜色不指具体药品或给药速度，不展示自行输注。"
+    }
+  ],
+  "usage_notes": "输注途径与口服产品的比较道具；示意液体颜色不指具体药品或给药速度，不展示自行输注。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "7c178ab4cf611c49c94c126c91f0d5a9322ab10bf4104a102a3c8cd765e0c8eb",
+      "bytes": 1708168
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "de89f0bc7822c65e17cb4110e60e0502065cffea06271f4ad65acc0b01b450f0",
+      "bytes": 987
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "392564ac733c84397c049bc1bb9561899b30c37c8e4640ab8cd02eecc580552e",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f4eabf78fe69e66600eb113628ce0c6ae21c7c489e36182f302c170fb29640a3",
+      "bytes": 637
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "7a58b14d55ee1cc0f4b894ddb74a8e0a907bcca6e27441e6998dfdac41d9f475",
+      "bytes": 70584
+    }
+  ],
+  "revision": "f8b5b6a6f342b49f9747",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_infusion_bag_v1@5766acbfe4333327f004",
+    "source_record_sha256": "b962d3b47062758178d6bc124aed3e127eb2f8acd79631e6805d3e2204e3e560",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5cb0559646d9e4a026e9d6203867d982f3bcefa29fe3ef47a1e2e3c515d4eb46",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

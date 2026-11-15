@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_urine_specimen_cup_v1",
+  "title": "尿液标本杯·独立有盖容器",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    18,
+    1274,
+    1176
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "urine_specimen_cup"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "尿液标本杯·独立有盖容器",
+      "urine_specimen_cup"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "尿液标本杯·独立有盖容器",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        18,
+        1274,
+        1176
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "尿样容器的物件身份，液体量不表示标准采样量；采样依医疗机构要求。"
+    }
+  ],
+  "usage_notes": "尿样容器的物件身份，液体量不表示标准采样量；采样依医疗机构要求。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "ef108923aa9b9371bdcc3589b83d6b2dc3f13b68c72a3e3f82be6398688cab2a",
+      "bytes": 1007350
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "8c6d03c1dc52ec2a333e27d3a0f0f11a137dffd6a3fe1daf24aed7fd8ea8d177",
+      "bytes": 1033
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "2ef8a0a8a42175180e614a6a0a6285de7a49acc452f8f0e5b4624feba8740861",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "c15600c8830cca166cb053dc53bc3bc32c0d5349bca8c3a94a5e4e03000e2cac",
+      "bytes": 610
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "ee4a5c9550013df55c9a68f074399c3fc13af50ea139f9e91d342ef84a12be5f",
+      "bytes": 68194
+    }
+  ],
+  "revision": "960e91a875b64537596b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_urine_specimen_cup_v1@6cc6b84bad0df6fecaad",
+    "source_record_sha256": "3eeed3ef27a7a88f195fb1f23cc08b833e3ade141c92322b21400314c9253b26",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "e7420a570904f7a839ac7bb57ab2e7a0eb0c6a1838441519b4509cd6745a363b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1312,
+        "height": 1199,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

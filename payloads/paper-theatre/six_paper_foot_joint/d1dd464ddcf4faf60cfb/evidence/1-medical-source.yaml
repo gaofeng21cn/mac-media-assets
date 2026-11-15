@@ -1,0 +1,94 @@
+schema: medical_video_fact_library/v1
+topic_id: gout
+review_status: AI_editorial_candidate_clinical_review_pending
+facts:
+- fact_id: G01
+  claim: 红肿关节有鉴别诊断；发作时血尿酸正常不能单独排除痛风，病史、关节液/影像按需要评估。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G02
+  claim: 痛风是尿酸盐结晶相关疾病；间歇期无痛不等于结晶消失。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G03
+  claim: 首次红肿关节或伴发热/全身不适需及时就诊，不能漏掉感染；既有患者需个体化发作计划。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G04
+  claim: 发作治疗与降尿酸职责不同；抗炎药选择考虑合并症；已用降尿酸药不因发作自行停。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G05
+  claim: 痛风降尿酸目标通常<360μmol/L，更低目标适用于部分病情；达标、结晶消退和随访是长期过程。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G06
+  claim: 植物来源不能与内脏/大量红肉等机械等同；均衡饮食通常不能替代有指征的药物。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G07
+  claim: 酒精与含糖饮料需关注；水量按合并症；樱桃汁/苏打水不是降尿酸治疗替代。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G08
+  claim: 无症状高尿酸不等于痛风，是否药物需按本地指南与个体风险评估，不能照搬痛风方案。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G09
+  claim: 药物选择、过敏风险、肝肾安全及调整按个体评估；严重皮疹/黏膜症状需及时就医。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: G10
+  claim: 活动与减重须可持续；避免脱水与极端节食，目标是减少发作与生活稳定。
+  source_refs:
+  - gout
+  - ACR2020
+  - CN2020
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。

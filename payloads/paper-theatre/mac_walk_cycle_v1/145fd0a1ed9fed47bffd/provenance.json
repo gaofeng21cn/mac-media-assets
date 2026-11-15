@@ -1,0 +1,29 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "image": "walk_a",
+      "tool": "built_in_imagegen",
+      "source_filename": "exec-a2c67a86-30e9-4f3e-9293-ac1ee0e4b7b1.png",
+      "request_summary": "同一绿衫红裤男性八格步态，明确接触、承重、抬脚经过与前摆；采用前四帧，与反侧摆臂配对。",
+      "sha256": "45348bc77ca66e86c5e68557819bd1b3c46c556b0aee93b7e4ad49ef384ebf79",
+      "processing": "original bytes; frame extraction only at runtime; no alpha threshold rewrite"
+    },
+    {
+      "image": "walk_b",
+      "tool": "built_in_imagegen",
+      "source_filename": "exec-511ae7bb-dca3-4648-94b3-17a60d880900.png",
+      "request_summary": "四格另一半步态；近侧手臂向前、远侧手臂向后，保持同一人物。",
+      "sha256": "3d30c76389cac63716e398d8edf8d238a94aff23049c04b3c17a4264e240f15b",
+      "processing": "original bytes; frame extraction only at runtime; no alpha threshold rewrite"
+    }
+  ],
+  "source_assets": [
+    {
+      "image": "stand",
+      "asset_id": "paper:character_adult_man_stand_v1@6792f8b338fba0fae4b7",
+      "sha256": "cd509b9eeb64729f08ceeb0b5bdf848909e47c1516b1aabcd557f3a48e07d797"
+    }
+  ],
+  "license": "Original code: Apache-2.0. Source media retain their registered provenance and reuse scope."
+}

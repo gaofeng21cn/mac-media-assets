@@ -1,0 +1,410 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: allergic_rhinitis
+questions:
+- question_id: ALL-Q01
+  question: 典型鼻部症状与过敏性炎症机制是什么？
+  priority: must_answer
+  claims:
+  - question_id: ALL-Q01
+    claim_id: ALL-CLM01
+    claim: 中国指南将变应性鼻炎描述为IgE介导的鼻黏膜非感染性慢性炎性疾病，典型症状为阵发性喷嚏、清水样涕、鼻痒和鼻塞。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: AR-001
+      locator: 第2页定义；第3页临床表现
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 中国指南将变应性鼻炎描述为IgE介导的鼻黏膜非感染性慢性炎性疾病，典型症状为阵发性喷嚏、清水样涕、鼻痒和鼻塞。
+    population: 反复鼻痒、喷嚏、鼻塞、流涕的成人和儿童家庭
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AR-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 典型鼻部症状与过敏性炎症机制是什么？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 确诊仍需结合病史、体征和相关检查。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 中国指南将变应性鼻炎描述为IgE介导的鼻黏膜非感染性慢性炎性疾病，典型症状为阵发性喷嚏、清水样涕、鼻痒和鼻塞。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-Q02
+  question: 哪些症状或检查结果需要排查感染、鼻窦病或其他原因？
+  priority: must_answer
+  claims:
+  - question_id: ALL-Q02
+    claim_id: ALL-CLM02
+    claim: 指南列出血管运动性鼻炎、感染性鼻炎、慢性鼻窦炎等鉴别方向，并强调过敏原结果需结合病史和临床表现解释。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: AR-001
+      locator: 第4–5页鉴别诊断与检查解释
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 指南列出血管运动性鼻炎、感染性鼻炎、慢性鼻窦炎等鉴别方向，并强调过敏原结果需结合病史和临床表现解释。
+    population: 反复鼻痒、喷嚏、鼻塞、流涕的成人和儿童家庭
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AR-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 哪些症状或检查结果需要排查感染、鼻窦病或其他原因？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 儿童、单侧或持续加重症状需要耳鼻喉专业评估。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 指南列出血管运动性鼻炎、感染性鼻炎、慢性鼻窦炎等鉴别方向，并强调过敏原结果需结合病史和临床表现解释。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-Q03
+  question: 鼻喷药、抗组胺和免疫治疗怎样选择？
+  priority: must_answer
+  claims:
+  - question_id: ALL-Q03
+    claim_id: ALL-CLM03
+    claim: 指南治疗原则包括环境控制、药物治疗、免疫治疗和健康教育；鼻用糖皮质激素为一线药物之一，具体选择取决于症状严重度、持续性和患者情况。
+    status: context_limited
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: AR-001
+      locator: PDF第6–7页治疗原则/表4；免疫治疗章节
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 指南治疗原则包括环境控制、药物治疗、免疫治疗和健康教育；鼻用糖皮质激素为一线药物之一，具体选择取决于症状严重度、持续性和患者情况。
+    population: 反复鼻痒、喷嚏、鼻塞、流涕的成人和儿童家庭
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AR-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 鼻喷药、抗组胺和免疫治疗怎样选择？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 不在科普包给出药物剂量、年龄限制或自行用药方案。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 指南治疗原则包括环境控制、药物治疗、免疫治疗和健康教育；鼻用糖皮质激素为一线药物之一，具体选择取决于症状严重度、持续性和患者情况。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-Q04
+  question: 鼻炎和哮喘或严重过敏反应如何识别连接？
+  priority: must_answer
+  claims:
+  - question_id: ALL-Q04
+    claim_id: ALL-CLM04
+    claim: 鼻炎与哮喘可能共享气道背景，新发喘息需单独评估；严重呼吸困难或意识改变需要紧急医疗帮助。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 诊断、急性发作和患者教育；鼻炎共病机制见AR-001
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 鼻炎与哮喘可能共享气道背景，新发喘息需单独评估；严重呼吸困难或意识改变需要紧急医疗帮助。
+    population: 反复鼻痒、喷嚏、鼻塞、流涕的成人和儿童家庭
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: AR-002
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    - source_id: AR-003
+      source_type: consensus
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 鼻炎和哮喘或严重过敏反应如何识别连接？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 公众教育解释不构成个体诊断或处方；具体方案及中国接诊/药物条件需临床核定。
+    - 临床终审待处理。
+    allowed_wording:
+    - 鼻炎与哮喘可能共享气道背景，新发喘息需单独评估；严重呼吸困难或意识改变需要紧急医疗帮助。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ01
+  question: 典型症状与炎症
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ01
+    claim_id: ALL-MAT01
+    claim: 阵发性喷嚏、清水样涕、鼻痒和鼻塞是典型表现，背后是鼻黏膜的过敏性炎症和高反应性；单次鼻塞不能自诊。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AR-001
+      locator: 第2–3页
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 阵发性喷嚏、清水样涕、鼻痒和鼻塞是典型表现，背后是鼻黏膜的过敏性炎症和高反应性；单次鼻塞不能自诊。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 典型症状与炎症
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 第三方镜像仅用于原文核验；药品适应证、年龄限制和免疫治疗需按现行中国说明书及专科审核。
+    allowed_wording:
+    - 阵发性喷嚏、清水样涕、鼻痒和鼻塞是典型表现，背后是鼻黏膜的过敏性炎症和高反应性；单次鼻塞不能自诊。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ02
+  question: 季节和环境影响
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ02
+    claim_id: ALL-MAT02
+    claim: 花粉、真菌、尘螨等暴露与季节性或常年性症状有关；记录地点、季节、居住环境和症状时间比笼统说“体质差”更有用。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AR-001
+      locator: 分类与病因章节
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 花粉、真菌、尘螨等暴露与季节性或常年性症状有关；记录地点、季节、居住环境和症状时间比笼统说“体质差”更有用。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 季节和环境影响
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 第三方镜像仅用于原文核验；药品适应证、年龄限制和免疫治疗需按现行中国说明书及专科审核。
+    allowed_wording:
+    - 花粉、真菌、尘螨等暴露与季节性或常年性症状有关；记录地点、季节、居住环境和症状时间比笼统说“体质差”更有用。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ03
+  question: 检查要结合病史
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ03
+    claim_id: ALL-MAT03
+    claim: 过敏原检查结果要与病史和临床表现对应，阳性不等于每次症状都由该过敏原造成，阴性也不能排除其他鼻病。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AR-001
+      locator: 第4–5页检查解释
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 过敏原检查结果要与病史和临床表现对应，阳性不等于每次症状都由该过敏原造成，阴性也不能排除其他鼻病。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 检查要结合病史
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 第三方镜像仅用于原文核验；药品适应证、年龄限制和免疫治疗需按现行中国说明书及专科审核。
+    allowed_wording:
+    - 过敏原检查结果要与病史和临床表现对应，阳性不等于每次症状都由该过敏原造成，阴性也不能排除其他鼻病。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ04
+  question: 鼻喷药是技术动作
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ04
+    claim_id: ALL-MAT04
+    claim: 鼻用糖皮质激素属于常用一线药物之一，但喷头方向、规律使用和疗程影响实际效果；应按具体药品说明书和医生指导，不把喷鼻示意变成通用处方。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AR-001
+      locator: 第6–7页治疗原则/表4
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 鼻用糖皮质激素属于常用一线药物之一，但喷头方向、规律使用和疗程影响实际效果；应按具体药品说明书和医生指导，不把喷鼻示意变成通用处方。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 鼻喷药是技术动作
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 第三方镜像仅用于原文核验；药品适应证、年龄限制和免疫治疗需按现行中国说明书及专科审核。
+    allowed_wording:
+    - 鼻用糖皮质激素属于常用一线药物之一，但喷头方向、规律使用和疗程影响实际效果；应按具体药品说明书和医生指导，不把喷鼻示意变成通用处方。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ05
+  question: 环境控制要有目标
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ05
+    claim_id: ALL-MAT05
+    claim: 减少已知暴露、改善卧室和工作环境可以作为管理的一部分，不能承诺完全隔绝所有过敏原。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AR-001
+      locator: 治疗原则
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 减少已知暴露、改善卧室和工作环境可以作为管理的一部分，不能承诺完全隔绝所有过敏原。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 环境控制要有目标
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 第三方镜像仅用于原文核验；药品适应证、年龄限制和免疫治疗需按现行中国说明书及专科审核。
+    allowed_wording:
+    - 减少已知暴露、改善卧室和工作环境可以作为管理的一部分，不能承诺完全隔绝所有过敏原。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ06
+  question: 免疫治疗需要选人
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ06
+    claim_id: ALL-MAT06
+    claim: 免疫治疗面向经过评估、与特定过敏原相关且符合适应证的人群，需要专科评估、疗程和不良反应管理，不是“增强免疫力”的保健项目。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AR-001
+      locator: 免疫治疗章节
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 免疫治疗面向经过评估、与特定过敏原相关且符合适应证的人群，需要专科评估、疗程和不良反应管理，不是“增强免疫力”的保健项目。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 免疫治疗需要选人
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 第三方镜像仅用于原文核验；药品适应证、年龄限制和免疫治疗需按现行中国说明书及专科审核。
+    allowed_wording:
+    - 免疫治疗面向经过评估、与特定过敏原相关且符合适应证的人群，需要专科评估、疗程和不良反应管理，不是“增强免疫力”的保健项目。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ07
+  question: 同一气道关系
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ07
+    claim_id: ALL-MAT07
+    claim: 鼻炎和哮喘可共享过敏性气道背景，鼻部症状、夜间咳嗽或喘息需要分别评估；鼻炎不等同于哮喘，哮喘也不是鼻炎的严重阶段。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AR-001
+      locator: 发病机制与共病讨论
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 鼻炎和哮喘可共享过敏性气道背景，鼻部症状、夜间咳嗽或喘息需要分别评估；鼻炎不等同于哮喘，哮喘也不是鼻炎的严重阶段。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 同一气道关系
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 第三方镜像仅用于原文核验；药品适应证、年龄限制和免疫治疗需按现行中国说明书及专科审核。
+    allowed_wording:
+    - 鼻炎和哮喘可共享过敏性气道背景，鼻部症状、夜间咳嗽或喘息需要分别评估；鼻炎不等同于哮喘，哮喘也不是鼻炎的严重阶段。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ALL-RQ08
+  question: 出现喘息要另作评估
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ALL-RQ08
+    claim_id: ALL-MAT08
+    claim: 鼻部治疗不能代替对下气道症状的判断；新发或反复喘息、胸闷、咳嗽可就诊评估哮喘，严重呼吸困难或意识改变需紧急医疗帮助。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: AST-001
+      locator: 哮喘指南：诊断、急性发作与患者教育
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 鼻部治疗不能代替对下气道症状的判断；新发或反复喘息、胸闷、咳嗽可就诊评估哮喘，严重呼吸困难或意识改变需紧急医疗帮助。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 出现喘息要另作评估
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 本包不转录个体剂量；儿童年龄分层和药品适应证需另行核对。
+    allowed_wording:
+    - 鼻部治疗不能代替对下气道症状的判断；新发或反复喘息、胸闷、咳嗽可就诊评估哮喘，严重呼吸困难或意识改变需紧急医疗帮助。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null

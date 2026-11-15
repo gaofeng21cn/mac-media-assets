@@ -1,0 +1,11 @@
+{
+  "id": "person_reach",
+  "title": "通用人物接触姿态",
+  "category": "character",
+  "prompt": "One isolated The SAME woman as reference, full body three-quarter facing right, one arm reaching gently forward at waist level to receive a paper object, open natural hand, other arm relaxed. Do not generate any held object.. Simple square transparent PNG. Handmade cut-paper collage, fibrous coloured paper, crisp irregular edges, pencil details. Complete object only, true transparent RGBA outside. No background, no checkerboard, no glow, no shadow, no text, no other objects. Same generic woman as other poses, ochre cardigan and teal trousers, one hand reaching forward, full body. ",
+  "attempt": 5,
+  "path": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-73ef3f74-6396-4034-8a3b-c4a697d831bd.png",
+  "output_hint": "Generated images are saved to /Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856 as /Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-73ef3f74-6396-4034-8a3b-c4a697d831bd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "tool": "built_in_imagegen",
+  "medical_review": "pending"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "character_older_man_reach_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_man_walk_v1/b82355ff8645f0304efb/files/payload.png",
+  "prompt": "Use case: illustration-story. One complete reusable paper-theatre pose. Reference is exact identity and style master. Keep same Chinese elderly man, short silver hair, olive collared shirt with rolled sleeves, charcoal trousers and brown lace-up shoes; preserve face, age, hairstyle, body proportions, garments and shoes. Change only pose to standing balanced three-quarter facing screen right; image-right hand extended at waist height with open upward palm ready to receive a separate document; other hand relaxed, or resting under pregnant belly where relevant; no document or prop. Natural connected complete anatomy, same tactile paper-cut illustration, opaque interior and clean edges. Entire hair/head, visible hands, legs and shoes in frame with generous margin. Single isolated figure, GENUINE transparent background. No chair, environment, floor mark, cast shadow, glow/aura, gradient/vignette, checkerboard, text/logo or props. Do not infantilize older adults or shrink adult anatomy into a child.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-c321ad67-1ab2-4cb2-a491-9ecfe4b00d55.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "b19d70f1c9d1e2a6d77271164188d602d688637acda1a62431420b970e79daaa",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      185,
+      41,
+      968,
+      1474
+    ],
+    "opaque_ratio": 0.2603,
+    "translucent_ratio": 0.0092,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      234,
+      46,
+      945,
+      1470
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.46,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.48,
+        "y": 0.96
+      },
+      "hand_left": {
+        "x": 0.3,
+        "y": 0.55
+      },
+      "hand_right": {
+        "x": 0.82,
+        "y": 0.355
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

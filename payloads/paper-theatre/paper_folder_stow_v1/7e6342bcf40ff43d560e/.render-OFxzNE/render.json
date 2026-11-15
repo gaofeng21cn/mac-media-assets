@@ -1,0 +1,24 @@
+{
+  "status": "rendered",
+  "output": "/Users/gaofeng/workspace/科普视频/work/component-examples/paper-folder-v1/sample.mp4",
+  "frames": 144,
+  "duration": 6,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "evidence_directory": "/Users/gaofeng/workspace/科普视频/work/component-examples/paper-folder-v1/.render-OFxzNE",
+  "renderer_runtime": {
+    "renderer_id": "canvas2d",
+    "requested_style_id": "paper_collage",
+    "style_id": "paper_collage"
+  },
+  "style_sequence": [
+    {
+      "shot": "folder",
+      "renderer_id": "canvas2d",
+      "style_id": "paper_collage",
+      "start": 0
+    }
+  ],
+  "release_eligible": false
+}

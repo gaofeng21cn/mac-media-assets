@@ -1,0 +1,72 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_bare_arm_v1",
+  "title": "独立裸露上臂与屈肘接触姿态",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "tags": [
+    "paper_collage",
+    "人物",
+    "接触",
+    "交接"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "content_bounds": [
+    122,
+    89,
+    1432,
+    860
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "袖带另作独立层；当前穿戴镜头需医学 Review",
+  "source": {
+    "kind": "imagegen",
+    "generation": "builtin_edit",
+    "sample_has_brand": false
+  },
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "09afc5f6c8a64b61bd096a01d9e9a3ab709d5fcb8e640d2810cba1780ffbc022",
+      "bytes": 944342
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "bcb4ae99af266596e50661cbd5e308c93a5b484dbeb6d8fc101445d38bd80e9b",
+      "bytes": 442
+    }
+  ],
+  "revision": "5a9bdd82d50761a60f31",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_bare_arm_v1@199031b83fe2420d595b",
+    "source_record_sha256": "fa3fe8a25614f31aa7f4d0c8e78adf1679ab3b387a0bd44baec919e3ffa74887",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

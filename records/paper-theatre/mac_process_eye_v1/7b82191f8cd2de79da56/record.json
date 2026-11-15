@@ -1,0 +1,111 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_eye_v1",
+  "title": "眼球成像与近视焦点位置",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "anatomy",
+    "display_title": "眼球成像与近视焦点位置",
+    "aliases": [
+      "近视",
+      "屈光",
+      "光线聚焦",
+      "视网膜位置对比"
+    ],
+    "topics": [
+      "近视",
+      "屈光"
+    ],
+    "medical_systems": [
+      "眼"
+    ],
+    "patient_tasks": [
+      "理解结构",
+      "理解身体功能"
+    ],
+    "mechanisms": [
+      "光线聚焦",
+      "视网膜位置对比"
+    ],
+    "story_roles": [
+      "理解结构",
+      "理解身体功能"
+    ],
+    "actions": [
+      "光线聚焦",
+      "视网膜位置对比"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "简化光学关系；不表达个体屈光度、眼轴数值或治疗效果。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "简化光学关系；不表达个体屈光度、眼轴数值或治疗效果。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f0da6286b05c2cb3f92fc7c8360f2687dff52630d14aa7b787eb927dedc3c5eb",
+      "bytes": 523
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "33696ea76005a03e7d63122a71ee76e31d222bd3b6d29ef0803d49771c82a238",
+      "bytes": 195
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "3c0ea79996595ed6e9c6a0bda07f0a403f34b9fdc7194fb675f1d66929844610",
+      "bytes": 279
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "7b82191f8cd2de79da56"
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_head_sagittal_simple_v1",
+  "title": "头部矢状位·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·payload",
+      "medical": true,
+      "content_bounds": [
+        283,
+        145,
+        844,
+        847
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.53,
+            "y": 0.48
+          },
+          "pituitary": {
+            "x": 0.626953125,
+            "y": 0.513671875
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_head_sagittal_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "头部矢状位",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "5111cb1298d69d254b3656401afbb663f23d6da70b5ed39f5bf273c166649138",
+      "bytes": 968
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "b5b4c8c27568f55d377bc543b8194f8b6f5536e1faadf153742c3564e00ec288",
+      "bytes": 20532
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "5111cb1298d69d254b3656401afbb663f23d6da70b5ed39f5bf273c166649138",
+      "bytes": 968
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "b5b4c8c27568f55d377bc543b8194f8b6f5536e1faadf153742c3564e00ec288",
+      "bytes": 20532
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "f6cbb1ce26e5794232eed1c3984aaed9d504d5f2d739f71dd72fb27a306d03f1",
+      "bytes": 27711
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "6ecf88fdafd6eae6e152ed85061769e4f562668d5ff684cb6b87aa756337eee2",
+      "bytes": 762
+    }
+  ],
+  "revision": "fd6e6089aa85e795ce7a",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_head_sagittal_simple_v1@0b5cb5be5bf4d5be2a64",
+    "source_record_sha256": "cce480bf99e285fcb51e35a27d3020a113a074b62948d995c91e9728567f6936",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "51e6e33da75adbe46124be987b3b4bb76b48e7b20d7f1322f7a618d8dea52e58",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "51e6e33da75adbe46124be987b3b4bb76b48e7b20d7f1322f7a618d8dea52e58",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

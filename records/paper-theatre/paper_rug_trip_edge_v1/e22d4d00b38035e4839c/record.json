@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_rug_trip_edge_v1",
+  "title": "地毯与翘起边角·独立生活纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1773,
+    887
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "rug_trip_edge"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "地毯与翘起边角·独立生活纸件",
+      "rug_trip_edge"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "地毯与翘起边角·独立生活纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1773,
+        887
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "跌倒风险与清理通道情境道具；整件有翘角，不宣称代码能在未分层时压平原角。"
+    }
+  ],
+  "usage_notes": "跌倒风险与清理通道情境道具；整件有翘角，不宣称代码能在未分层时压平原角。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "3c850f5f144c113d5349c3706c8143e643475f4d00bcb110a6e586c8cd082614",
+      "bytes": 1280834
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "efb32bfb63af773e98ca408d104723da757a59769e0e4dad6624b3014ac1e419",
+      "bytes": 827
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "e3addf9c86f5d98fcfd69843d1c7b2893d7058862d782fd5922cde06a9aeeaf8",
+      "bytes": 618
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "982bc759c96a90a151d48bb3eea4cfeaaa0992f0e4fa4fa71ed14369eaa99c9d",
+      "bytes": 628
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "6df860472d7d0acf40d4426057baec29ac473316e31f09cb7d9942fe9d3690ee",
+      "bytes": 63722
+    }
+  ],
+  "revision": "e22d4d00b38035e4839c",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_rug_trip_edge_v1@df954385b8222b3f9151",
+    "source_record_sha256": "78dd78347d5302b58d047b637d75ed1ccccc1d7a351fc3a09741b9e6c3fa0e4b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "af777272a73088f8d18d7a3275778a240da96e1dff62f7a9afec56ea52449eb6",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1774,
+        "height": 887,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

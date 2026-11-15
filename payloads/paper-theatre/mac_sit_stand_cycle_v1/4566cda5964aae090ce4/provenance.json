@@ -1,0 +1,21 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "image": "sit",
+      "tool": "built_in_imagegen",
+      "source_filename": "exec-e0c8ec2e-fdb7-4015-8c18-4fb2ca5f03b4.png",
+      "request_summary": "同一绿衫红裤男性站立、降低、坐定、前倾、起身、站稳八格透明完整姿态。",
+      "sha256": "9c3dd780a92ac627d4e73aa58f67705626a5bcc7e748d3ebde13d6fb43aab398",
+      "processing": "original bytes; frame extraction only at runtime; no alpha threshold rewrite"
+    }
+  ],
+  "source_assets": [
+    {
+      "image": "chair",
+      "asset_id": "paper:reserve_chair_v1@f1812703aa41360f72fc",
+      "sha256": "c8365d28bf1404db216ac1521a502cfa5705c669a0d55c8b53eb067285de1c08"
+    }
+  ],
+  "license": "Original code: Apache-2.0. Source media retain their registered provenance and reuse scope."
+}

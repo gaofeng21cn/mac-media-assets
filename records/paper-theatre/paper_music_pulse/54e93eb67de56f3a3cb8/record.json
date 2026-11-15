@@ -1,0 +1,58 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_music_pulse",
+  "title": "纸上下一步 · 节奏分轨",
+  "kind": "audio",
+  "entry": "audio/music/pulse.wav",
+  "tags": [
+    "原创",
+    "音乐",
+    "拨弦",
+    "MIDI",
+    "节奏"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+  "review_status": "完整听审待完成",
+  "quality_debt": [
+    "完整音乐听审 pending"
+  ],
+  "source": {
+    "sample_has_brand": false
+  },
+  "files": [
+    {
+      "path": "audio/music/pulse.wav",
+      "role": "payload",
+      "sha256": "a6978a831fea324527fa780aa77f709a281ede6b91d3330f7418bb196b5481ea",
+      "bytes": 18310674
+    },
+    {
+      "path": "audio/music/pulse.mid",
+      "role": "payload",
+      "sha256": "7f5da0db59487bfaa99eeb2c82c174fd8a4e291fbfaa8a8cb323b3f1bb014ecd",
+      "bytes": 657
+    },
+    {
+      "path": "evidence/performance.json",
+      "role": "evidence",
+      "sha256": "646582b4d6c932a10d1623c7174a054055e6b429a4824d8f53e8864564d2f968",
+      "bytes": 21730
+    },
+    {
+      "path": "evidence/soundfont-license.txt",
+      "role": "evidence",
+      "sha256": "da49177f21a8a760192909bc81b2554a33241502f67e604c92799998ac400ae9",
+      "bytes": 1594
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "cd7e4e69d94b21138e4a9d19fdb5cc7e9f20eefc3530f0b164349c768e856a99",
+      "bytes": 264
+    }
+  ],
+  "revision": "54e93eb67de56f3a3cb8"
+}

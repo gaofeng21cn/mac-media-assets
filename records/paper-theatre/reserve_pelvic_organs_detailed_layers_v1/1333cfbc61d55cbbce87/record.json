@@ -1,0 +1,357 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pelvic_organs_detailed_layers_v1",
+  "title": "盆腔器官·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "pelvis_bone",
+      "path": "files/pelvis_bone.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·pelvis_bone",
+      "medical": true,
+      "content_bounds": [
+        280,
+        439,
+        744,
+        843
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "ovary_left": {
+            "x": 0.42,
+            "y": 0.38
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "bladder",
+      "path": "files/bladder.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·bladder",
+      "medical": true,
+      "content_bounds": [
+        427,
+        450,
+        597,
+        643
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "ovary_left": {
+            "x": 0.42,
+            "y": 0.38
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "uterus",
+      "path": "files/uterus.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·uterus",
+      "medical": true,
+      "content_bounds": [
+        437,
+        297,
+        587,
+        479
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "ovary_left": {
+            "x": 0.42,
+            "y": 0.38
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "ovaries",
+      "path": "files/ovaries.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·ovaries",
+      "medical": true,
+      "content_bounds": [
+        375,
+        349,
+        649,
+        435
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "ovary_left": {
+            "x": 0.42,
+            "y": 0.38
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "rectum",
+      "path": "files/rectum.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·rectum",
+      "medical": true,
+      "content_bounds": [
+        433,
+        697,
+        591,
+        903
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "ovary_left": {
+            "x": 0.42,
+            "y": 0.38
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_pelvic_organs_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "盆腔器官",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "pelvis_bone",
+      "bladder",
+      "uterus",
+      "ovaries",
+      "rectum"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "盆腔器官位置示意（膀胱、子宫、卵巢、直肠），不表示比例、周期变化或病灶。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/pelvis_bone.svg",
+      "role": "source",
+      "sha256": "8525e32aa3cea00b6ae66b0df8654133b794529dbe9b5b9e0baee9b62538e886",
+      "bytes": 304
+    },
+    {
+      "path": "files/pelvis_bone.png",
+      "role": "payload",
+      "sha256": "c1bd170dcefac901387288ba6dd90bef846696bc9b587bfd77a8baf2c5775ee1",
+      "bytes": 28436
+    },
+    {
+      "path": "source/bladder.svg",
+      "role": "source",
+      "sha256": "b8d128e927c0acb99266115015dde9f2dae6af99320fe6b0e9720ef1e4ce506a",
+      "bytes": 268
+    },
+    {
+      "path": "files/bladder.png",
+      "role": "payload",
+      "sha256": "e93075745ccad5480817c8bcd5c45965a748edc170e9923029612d5ca902104d",
+      "bytes": 12798
+    },
+    {
+      "path": "source/uterus.svg",
+      "role": "source",
+      "sha256": "934490267770e18fd9a6495d2312b4430647b6cbce8560c12db836b80d5a8284",
+      "bytes": 293
+    },
+    {
+      "path": "files/uterus.png",
+      "role": "payload",
+      "sha256": "00988ee6676c2bbd8b07dcbd42cb612b75ebad28c193b6941efd63dbe2eba5cd",
+      "bytes": 11986
+    },
+    {
+      "path": "source/ovaries.svg",
+      "role": "source",
+      "sha256": "15a37039cb8b6198040cfa19dd5ceffcdda303bf1f0b9aadf43a810aca64baad",
+      "bytes": 285
+    },
+    {
+      "path": "files/ovaries.png",
+      "role": "payload",
+      "sha256": "a3515a336f001115efa9607e5f8389d7e1734c93ddccbeff733688c8539229f5",
+      "bytes": 9102
+    },
+    {
+      "path": "source/rectum.svg",
+      "role": "source",
+      "sha256": "98e00945c63ffcd19ea661b613486e65833da51693689751bd44439a5ab7a919",
+      "bytes": 293
+    },
+    {
+      "path": "files/rectum.png",
+      "role": "payload",
+      "sha256": "448b159c019f89358ff59f7a147ae393c07cfe4a96c4a074a3d86dd14b406d8e",
+      "bytes": 13106
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "f61af998f3f680cfc87c8441596ab92d7faac683742f2267f45faee9ec98142b",
+      "bytes": 1055
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "8ed2866a1308ec87baf941272e4b628a97cda2e469a5a6d3cb0687d6246c196e",
+      "bytes": 50967
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "c4fb4eba20f7790061826e78b97bbde1ff7e78e0c263a368d697a70d35fbd16f",
+      "bytes": 606
+    }
+  ],
+  "revision": "1333cfbc61d55cbbce87"
+}

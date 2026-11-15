@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_fish_v1",
+  "title": "独立鱼肉纸件",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "lifestyle",
+    "fish"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "餐盘组合；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "fish",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    9,
+    1253,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "bc104aa122dab41b1de4d60a08a368a9220578d7a133a187fd4f7f5755386dc7",
+      "bytes": 1122358
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "9bf01fdda8ab3db926c22ab5d80ccbc96ce5cae47e809d122675f27bc18405fb",
+      "bytes": 1415
+    }
+  ],
+  "revision": "9887d2bf86caf6800dd9",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_fish_v1@2e4296abb2d19883ae2b",
+    "source_record_sha256": "587c4e8ece3cb9c70f3d13dcf714bc812419cc25f76cf36a2254a97028a2e33f",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "d5b75e3c3dcc52faba51bb7c792d01ff8183c7b81372da7177d6f12d56648605",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

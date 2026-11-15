@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_epithelial_cell_sample_v1",
+  "title": "鳞状上皮细胞样本·独立观察示意",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "hpv_prevention"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    15,
+    1498,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "epithelial_cell_sample"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "鳞状上皮细胞样本·独立观察示意",
+      "epithelial_cell_sample"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "鳞状上皮细胞样本·独立观察示意",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        15,
+        1498,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "表示细胞取样与观察对象；正常示意外观不用于判断HPV感染、细胞学异常或癌症。"
+    }
+  ],
+  "usage_notes": "表示细胞取样与观察对象；正常示意外观不用于判断HPV感染、细胞学异常或癌症。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "0efeb6563ffba5d8764a4abb4d5c34998023531185685e7e25e4ca462c212885",
+      "bytes": 1773478
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "e75096a329b9142fa5d7f8449fce2cfa93835fd97e14be4e9a2fbb3408fdc0a8",
+      "bytes": 1285
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "65305ed7242deb583fbd1413dba173c79fc154ae5e73eed57b1380838a4c041c",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "0d1e0002c1cfa84571b4cd6a7f11350b2803237d2ed9aa50abdadd767c3afd09",
+      "bytes": 15783
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "ad8a709470366d7fbd2639fcf607dc2a4ee856f9b1569d87a14f1823bf22b8ae",
+      "bytes": 794
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "b19421d57826c99a989074cc8e86636209d9e6b2ab26645a1dfe19946b624117",
+      "bytes": 73393
+    }
+  ],
+  "revision": "eb692a0646a4e69ff4c7",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_epithelial_cell_sample_v1@8e4615cde9758603a93e",
+    "source_record_sha256": "0083e512dabd162ea2ee03b39d84fecbd59cfd0f3c92c2d3ac8631d7afede321",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "654fd6aaba56ae363fadda4b4b53b53b6ceba3be3a617885dc088177b4292362",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

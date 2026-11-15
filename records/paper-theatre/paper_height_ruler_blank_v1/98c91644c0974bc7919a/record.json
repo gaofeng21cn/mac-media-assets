@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_height_ruler_blank_v1",
+  "title": "身高尺木条母版·可后排刻度",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    253,
+    18,
+    676,
+    2157
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "height_ruler_blank"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "身高尺木条母版·可后排刻度",
+      "height_ruler_blank"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "身高尺木条母版·可后排刻度",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        253,
+        18,
+        676,
+        2157
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "测量场景道具母版；后期刻度仅为示意，不允许观众据视频画面量身高。"
+    }
+  ],
+  "usage_notes": "测量场景道具母版；后期刻度仅为示意，不允许观众据视频画面量身高。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "1dd0d22ea429d925037b0c5eb011ed2801493a768d4e27e3c4c28aa96f82816e",
+      "bytes": 659224
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "7924d2f42d62d68d7708c329a8282d0a4586a591bb169d0ae338924741ef41fb",
+      "bytes": 816
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "0433abd8252c3d1d3de6f3d4ef45c72880efa5765f71afe2a4112a0a91bd0933",
+      "bytes": 621
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "3475c102779d58f86e7685b3d34eac8a5ab2b16d7f3ea1a53bef9f6b8c5f6763",
+      "bytes": 613
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "ae4a8ecba961d9efe1e4ca3bb0617c34b98cd2df64edf82de5cb638818719e0a",
+      "bytes": 28367
+    }
+  ],
+  "revision": "98c91644c0974bc7919a",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_height_ruler_blank_v1@40b6e104b3f59f5625f3",
+    "source_record_sha256": "b37be21308b15f7d223bf8454ebcca7769696ccbcc364dfadd8b6fbbcfd2f7cc",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "fc7241c72ab8cd421b263c1031b79c40f6ff83ac71ff5425932603e9d865d5df",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 724,
+        "height": 2172,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

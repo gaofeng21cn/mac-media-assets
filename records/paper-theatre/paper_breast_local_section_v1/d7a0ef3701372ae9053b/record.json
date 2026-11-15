@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_breast_local_section_v1",
+  "title": "乳腺内部腺体组织·独立局部纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "cancer_screening"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1533,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "breast_local_section"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "乳腺内部腺体组织·独立局部纸件",
+      "breast_local_section"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "乳腺内部腺体组织·独立局部纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1533,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "乳腺内部腺体、导管与脂肪的定性观察对象，不是患者病灶影像，不表示已有结节或肿瘤。"
+    }
+  ],
+  "usage_notes": "乳腺内部腺体、导管与脂肪的定性观察对象，不是患者病灶影像，不表示已有结节或肿瘤。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "3a11072aef43ed00022956c32b40fe3120532ce654d98a4fc03a0e1446f2f7cf",
+      "bytes": 2139334
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "79d65d5a7e9fb6287d9bd81e7c4522c31b09bc567f45c3eb730918912cccdff8",
+      "bytes": 1047
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "750583871f0d2ff3578c6354f0fbe1f93f888c8b07d8ce5b6c99a1049b4f703f",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "461ea1d119c1c850ef2ecf7568c9afe8d1eddacbd7e3c170b10553ee85a63a03",
+      "bytes": 643
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "e379948aad29cb3e985a6c9ff4bfdb8c216668b5ebfab6783ff48d7af28b5b0d",
+      "bytes": 117900
+    }
+  ],
+  "revision": "d7a0ef3701372ae9053b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_breast_local_section_v1@444972acd89004480adf",
+    "source_record_sha256": "b8f513efa8eeb6dfa8009420678840aa6638eeb125b61d875c4a0c236909de3c",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5e724e13cd420294bd6bb43974b3cd62f5fbafb255649a3fbaf5a6bb56b2a94a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

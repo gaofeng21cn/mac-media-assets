@@ -1,0 +1,111 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_screening_v1",
+  "title": "筛查结果与疾病状态四格关系",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "communication",
+    "display_title": "筛查结果与疾病状态四格关系",
+    "aliases": [
+      "癌症筛查",
+      "假阳性",
+      "假阴性",
+      "真实状态分组",
+      "检测结果分组"
+    ],
+    "topics": [
+      "癌症筛查",
+      "假阳性",
+      "假阴性"
+    ],
+    "medical_systems": [
+      "跨系统"
+    ],
+    "patient_tasks": [
+      "理解检查结果"
+    ],
+    "mechanisms": [
+      "真实状态分组",
+      "检测结果分组"
+    ],
+    "story_roles": [
+      "理解检查结果"
+    ],
+    "actions": [
+      "真实状态分组",
+      "检测结果分组"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "样例为演示人数，不是任何检查的准确率；不能把阳性结果等同确诊。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "样例为演示人数，不是任何检查的准确率；不能把阳性结果等同确诊。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "b0ccc68acaf12e6c1a8f643c61e3f870ec12722d7dc4878699d95cffc3ad9a97",
+      "bytes": 544
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "00c16ce5523b0796109f329f95a34ccb6cd8c2a8e7581e8feeb2cbef9b28929f",
+      "bytes": 315
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "6d0cf19000041f019ed60594b6ca1edcbe61f5d9f06bb3ad3027ee123476ae02",
+      "bytes": 258
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "6902e3f48ac293fe5ea9"
+}

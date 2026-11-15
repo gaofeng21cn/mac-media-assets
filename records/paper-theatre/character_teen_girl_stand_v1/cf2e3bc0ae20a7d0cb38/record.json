@@ -1,0 +1,152 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_teen_girl_stand_v1",
+  "title": "青少年女性完整站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "teen",
+    "adolescent",
+    "girl",
+    "stand",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "青少年女性完整站姿",
+    "aliases": [
+      "青少年",
+      "少女",
+      "青春期",
+      "未成年患者",
+      "teen",
+      "adolescent",
+      "teenage girl"
+    ],
+    "objects": [
+      "完整青少年女性人物"
+    ],
+    "story_roles": [
+      "青少年患者",
+      "青春期沟通",
+      "年龄差异"
+    ],
+    "actions": [
+      "站立",
+      "倾听",
+      "交叠双手"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整青少年女性，儿童与成人之间的年龄比例；当前镜头仍需复核身份、尺度、遮挡和接触。"
+  },
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "完整青少年女性站姿；不是缩小成人，也不是幼童。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_teen_girl_stand_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    0,
+    0,
+    994,
+    1522
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      0,
+      994,
+      1522
+    ],
+    "opaque_ratio": 0.2422,
+    "translucent_ratio": 0.0091,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "d294d0be7922959a40ce501ea609c6c9e83c2afbcd0b9f31202f94f767573f12",
+      "bytes": 1072904
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "08e23da6380470681c0a0d9eec43005e7fdda63179defdf2d758622b631e6136",
+      "bytes": 499
+    }
+  ],
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.5,
+        "y": 0.08
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.985
+      },
+      "hand_left": {
+        "x": 0.579,
+        "y": 0.495
+      },
+      "hand_right": {
+        "x": 0.642,
+        "y": 0.49
+      }
+    }
+  },
+  "revision": "cf2e3bc0ae20a7d0cb38",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:character_teen_girl_stand_v1@699014f2978da454f37e",
+    "source_record_sha256": "4cb9c00ab2673ac2e33b9a7f77fd5a1e66b12612776e2d8cb28b3f6a15dec26c",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "f9b55feccb9228cc2595c7fee621a4df73b98f5ba92de91f67dd4b6eb8c194a5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

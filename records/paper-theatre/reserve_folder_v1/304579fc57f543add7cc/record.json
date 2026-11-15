@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_folder_v1",
+  "title": "独立开口资料袋",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "records",
+    "folder"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "收纳；前片遮挡由当前代码裁切；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "folder",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    5,
+    1222,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "6d97f0e9ba02db6c97bc4adf7872ddb29cb5484f55924323c6d35b649a71daa1",
+      "bytes": 1494778
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "0e88f2e583039f77c8be4c98021eee3cf6140f30adfc8aae0e256ccdf3ae6516",
+      "bytes": 1443
+    }
+  ],
+  "revision": "304579fc57f543add7cc",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_folder_v1@f0c51b2287b8630c50c4",
+    "source_record_sha256": "b641ea9546c78f41762d67d2457fca2da24f6f2ecd60cc99c11a31f303394985",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "4842454348749b34b3dfec9c7a4f042e8cda8d1e7e224fadd4a9738593a7af51",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_staging_modules",
+  "title": "六主题纸剧场：物件身份、翻面、归档与舞台模块",
+  "kind": "component",
+  "entry": "src/six_objects.ts",
+  "reuse_scope": {
+    "kind": "topic",
+    "topics": [
+      "gout",
+      "graves",
+      "hashimoto",
+      "breast_nodules",
+      "pcos",
+      "ckd"
+    ]
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/graves_paper_theatre/04_the_eyes_have_a_story/v2",
+    "sample_video_sha256": "efbdf2177642df889415fde295372f3591493ff3db3eb16b9f6193b08682d6b8"
+  },
+  "external_dependencies": [
+    "按六主题 asset_manifest 准备图片；模块不是独立完整视频",
+    "Stage kit冻结随包；导演与声音事件由新故事配置"
+  ],
+  "review": {
+    "visual": "limited_contact_and_original_frame_sampling",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "quality_debt": [
+    "不是通用疾病故事模板，不照搬整篇镜头",
+    "样例为六秒无音轨真实候选，不补填完整动态或医学批准"
+  ],
+  "files": [
+    {
+      "path": "src/paper_objects.ts",
+      "role": "source",
+      "sha256": "9ccb88766c8d217c92323529136562449c745ba4386ea550836966bca0e2f52e",
+      "bytes": 7577
+    },
+    {
+      "path": "src/six_objects.ts",
+      "role": "source",
+      "sha256": "5fc9c0913a46ba1ba55a48234edfe8ca9cf845d5271bdbdd59a05e9dee0ebcf3",
+      "bytes": 7644
+    },
+    {
+      "path": "src/six_shots.ts",
+      "role": "source",
+      "sha256": "1d618e9ec8329f86e23b1e041a4a8d8f7d19883397b8d2b79f6cce419c02061e",
+      "bytes": 11554
+    },
+    {
+      "path": "src/scene_directions.json",
+      "role": "source",
+      "sha256": "b24b2e5f7ecff1a6d32af8cb88bc5936e2ee1923ec1a76f49201caf9ecf96964",
+      "bytes": 83242
+    },
+    {
+      "path": "src/kit/stage.ts",
+      "role": "source",
+      "sha256": "d2de2b9b9efa15185e4f5bf97ceb4383f963adb3686dfb6052a4b8536837d6c7",
+      "bytes": 8762
+    },
+    {
+      "path": "src/kit/props.ts",
+      "role": "source",
+      "sha256": "f0aa18a9467fa720671a8b984d2f2598f420d195525db46b9ab68264fe92509e",
+      "bytes": 3363
+    },
+    {
+      "path": "src/kit/overlays.ts",
+      "role": "source",
+      "sha256": "1210bc99d14611f8d97d98aa6a9ba858fb63f17d9da0363de7483e1f2d600594",
+      "bytes": 1376
+    },
+    {
+      "path": "src/kit/player.ts",
+      "role": "source",
+      "sha256": "2d550175ef2f24c03086b658c0e2c7ade7e79d3108b65aa08cf379bdf56ee956",
+      "bytes": 5945
+    },
+    {
+      "path": "src/kit/motion.ts",
+      "role": "source",
+      "sha256": "3e73f75aee564886a239374c43a2a5ec4a1984176fa488cfa0da7126ba838179",
+      "bytes": 2159
+    },
+    {
+      "path": "src/kit/types.ts",
+      "role": "source",
+      "sha256": "1b6337a19634a50e918922ae4f04528aa2ff0dd232ea005907db92f3f797f1f7",
+      "bytes": 1919
+    },
+    {
+      "path": "src/kit/scene.ts",
+      "role": "source",
+      "sha256": "0684df068a00ba08214ac14e5fa0bfdb1c53dfa70b25f1bcfeaeb7310576c765",
+      "bytes": 978
+    },
+    {
+      "path": "src/kit/materials.ts",
+      "role": "source",
+      "sha256": "a19629c8f051e822bf1ff0335b242e27a688a7e7e7bc8d2caa633439913c6382",
+      "bytes": 3554
+    },
+    {
+      "path": "src/kit/tracks.ts",
+      "role": "source",
+      "sha256": "fe9374f59fe5309528cc37345aea9cc3fb4de84f88246ff92f528178677b52dd",
+      "bytes": 1871
+    },
+    {
+      "path": "src/kit/paths.ts",
+      "role": "source",
+      "sha256": "8f6e4259d5fd13917b23f14746a0bfddd9716ecf7201876c87683fd362206f92",
+      "bytes": 2577
+    },
+    {
+      "path": "samples/tobacco-paper-action.mp4",
+      "role": "sample",
+      "sha256": "6dc8ff370cdda2ebafeb412c4478e3440a0d5004fe64c3a430525e14f7222f2f",
+      "bytes": 1655447
+    },
+    {
+      "path": "package.json",
+      "role": "dependency",
+      "sha256": "d6648015ba14957bc9424f1f35568514741854cfc1a5ed53a20d503b64ce1a86",
+      "bytes": 319
+    },
+    {
+      "path": "samples/contact.jpg",
+      "role": "poster",
+      "sha256": "9e585e5349b4f60bd57575f55de4b3b6e6d3e31ffc1de25a7a3d858270666164",
+      "bytes": 280294
+    }
+  ],
+  "revision": "0276c523f08372574608"
+}

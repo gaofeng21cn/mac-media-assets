@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_salt_v1",
+  "title": "无标签盐容器",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "lifestyle",
+    "salt"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "控盐物件，内盐不独立运动；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "salt",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    15,
+    1234,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "6a0e47bbba6ac858b87c195875860c79b5621c0af5d4664e9b7c034846ec9130",
+      "bytes": 848620
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "0a31d611153c56671a4458ef8fd27ee7353bd22a5d38dd1b20eb5c67084468b7",
+      "bytes": 1271
+    }
+  ],
+  "revision": "5a699cc11ab465d59bcf",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_salt_v1@a430abd3d6a8c308acfc",
+    "source_record_sha256": "ae5b3c31fe44249d58842c93c4806e6e9e0814827221ddb9a5bc2c049000e814",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "e81ef5521c7c273a3bbb957eadd46c520384287dc998c97c9d5f55d69281e5c5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_young_man_reach_v1",
+  "title": "年轻成年男性·伸手接取",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "generation_receipt": "evidence/generation.json",
+    "prompt": "Use case: identity-preserve. Reference 1 is the exact identity MASTER, not a background. A Chinese young adult man age 27, adult proportions, clean-shaven face, short tidy black hair, muted slate-blue crewneck sweater, beige chinos, dark brown casual shoes. Keep this EXACT SAME person, face, age, hair, clothing and shoe colors, body proportions and textured cut-paper style. Change only pose to: standing facing screen right, image-right arm extended at waist-to-chest level with an OPEN upward palm ready to receive a separate report, other hand visible and relaxed. No held object. Natural connected anatomy, complete hair to both shoes with generous margin. One isolated complete person on genuine transparent alpha; clean opaque paper interior. No backdrop, furniture, floor mark, cast shadow, halo, glow, gradient, checkerboard, text, logo, cropping, separate limbs, additional people or pose sheets.",
+    "identity_reference": "evidence/identity-master.png",
+    "identity_reference_sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88"
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    215,
+    12,
+    977,
+    1498
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "Chinese",
+    "expansion_20261023",
+    "young_man",
+    "reach"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "年轻成年男性",
+      "伸手接取"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "actions": [
+      "reach"
+    ],
+    "character_role": "young_man",
+    "pose": "reach",
+    "identity_family": "young_man_cn_20261023",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      215,
+      12,
+      977,
+      1498
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "hand_left": {
+        "x": 0.33,
+        "y": 0.56
+      },
+      "hand_right": {
+        "x": 0.85,
+        "y": 0.315
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "reviewed",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。",
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "eb3b6ec0fdcd1c96084ca9b19f891ed32d0af971f12d2c531ce7883c8f740876",
+      "bytes": 1803209
+    },
+    {
+      "path": "evidence/identity-master.png",
+      "role": "evidence",
+      "sha256": "b22124d03f1ee6b40a994d4bdcfd2c934aa61efe99891830cfd5d4e7f5c0ac88",
+      "bytes": 1777208
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "507f5c167467d8a7d151c71b300a5ba82d1a85b5de672b41679256f7a58a29b4",
+      "bytes": 2117
+    }
+  ],
+  "revision": "e54ee8868155b2cabbe8"
+}

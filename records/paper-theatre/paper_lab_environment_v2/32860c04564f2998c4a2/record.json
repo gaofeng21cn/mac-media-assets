@@ -1,0 +1,67 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_lab_environment_v2",
+  "title": "实验室纸舞台：撕边工作面与固定件",
+  "kind": "environment_plate",
+  "tags": [
+    "paper_collage",
+    "lab-stage"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "lab-stage",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "承载功能方向比喻的纸做实验台",
+    "must_not_imply": "天平不是激素测量设备，纸粒不是检验数值",
+    "medical": false,
+    "status": "review_candidate",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-paper-stages-v6.json",
+    "prompt_ref": "evidence/0-paper-stages-v6.json"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/03_hormone_questions/v6",
+    "series": "pituitary_paper_theatre",
+    "episode": "03_hormone_questions",
+    "asset_id": "lab-stage",
+    "original_manifest": {
+      "asset_id": "lab-stage",
+      "path": "assets/season/lab-stage-paper-stage-v2.png",
+      "source_type": "imagegen",
+      "visual_meaning": "承载功能方向比喻的纸做实验台",
+      "must_not_imply": "天平不是激素测量设备，纸粒不是检验数值",
+      "medical": false,
+      "status": "review_candidate",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/paper-stages-v6.json",
+      "prompt_ref": "preproduction/paper-stages-v6.json"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [
+    "新构图重新核对文字与动作"
+  ],
+  "usage_notes": "环境而非检查报告；不承载诊断内容",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "97337e3b04522e0043a2ce70061553b75988ddd48cc81e28ec0b4be94e547ec9",
+      "bytes": 2593364
+    },
+    {
+      "path": "evidence/0-paper-stages-v6.json",
+      "role": "evidence",
+      "sha256": "c80e79077e7339cf21dc2e7abcc578815c7f435e79b56d7cd20fa3ddd43e483e",
+      "bytes": 1063
+    }
+  ],
+  "revision": "32860c04564f2998c4a2"
+}

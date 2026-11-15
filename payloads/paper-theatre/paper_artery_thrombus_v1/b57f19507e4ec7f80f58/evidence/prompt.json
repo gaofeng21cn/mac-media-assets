@@ -1,0 +1,8 @@
+{
+  "id": "artery_thrombus",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-5fd469d6-3656-4057-bfd1-b63f6f0886a5.png"
+  ],
+  "prompt": "Create a matched THROMBOTIC OCCLUSION state of this exact horizontal arterial cut-paper specimen. Preserve all vessel contours, center, scale, horizontal view, lower-wall ochre plaque and paper craft. At the plaque surface near the center, add an adherent muted deep terracotta-red thrombus extending into the lumen enough to markedly obstruct the channel. The clot must clearly attach to the plaque/wall, not float as a stone; show a small remaining slit or near occlusion, no gore. Keep the artery intact without rupture or stent. Do not add blood cells, arrows, labels, text, detached objects, background or halo. One complete matching isolated tissue cutout with genuine RGBA transparency outside the vessel. Qualitative mechanism example, not a patient-specific image or a promise about symptoms."
+}

@@ -1,0 +1,120 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_teen_boy_walk_v1",
+  "title": "男性青少年·行走关键姿态",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "generation_receipt": "evidence/generation.json",
+    "prompt": "Use case: identity-preserve. Reference 1 is the exact identity MASTER, not a background. A Chinese teenage boy age 15, adolescent proportions distinctly older than a child, straight black short side-swept hair, clean-shaven youthful face, muted denim-blue overshirt over cream T-shirt, dark charcoal trousers, off-white low sneakers. Keep this EXACT SAME person, face, age, hair, clothing and shoe colors, body proportions and textured cut-paper style. Change only pose to: walking calmly to screen right with a modest stride, arms counter-swing, front foot at ground contact and rear foot slightly lifted, both hands visible. Natural connected anatomy, complete hair to both shoes with generous margin. One isolated complete person on genuine transparent alpha; clean opaque paper interior. No backdrop, furniture, floor mark, cast shadow, halo, glow, gradient, checkerboard, text, logo, cropping, separate limbs, additional people or pose sheets.",
+    "identity_reference": "evidence/identity-master.png",
+    "identity_reference_sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e"
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    113,
+    20,
+    932,
+    1447
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "Chinese",
+    "expansion_20261023",
+    "teen_boy",
+    "walk"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "男性青少年",
+      "步行"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "actions": [
+      "walk"
+    ],
+    "character_role": "teen_boy",
+    "pose": "walk",
+    "identity_family": "teen_boy_cn_20261023",
+    "original_image_size": [
+      1024,
+      1536
+    ],
+    "visible_bounds": [
+      113,
+      20,
+      932,
+      1447
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.09
+      },
+      "feet": {
+        "x": 0.52,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.31,
+        "y": 0.555
+      },
+      "hand_right": {
+        "x": 0.78,
+        "y": 0.477
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "reviewed",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "同一母版人物的单幅姿态，保留年龄、发型、衣着与鞋；行走只是关键姿态，未形成步态循环；手按画面左右，当前镜头仍需核对接触与遮挡。",
+  "quality_debt": [
+    "single_static_pose_not_continuous_action",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b05503dc77d1d063717c484744f5162cdb5e77e59edf41e3b45b53551a3063be",
+      "bytes": 1854385
+    },
+    {
+      "path": "evidence/identity-master.png",
+      "role": "evidence",
+      "sha256": "de70668aa91e941d91c137e2023052bc53b01eb043cdd255ef92fa3c5cf5ce6e",
+      "bytes": 1677294
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "e5a5ec4a7b4ed4e62e8610630ee1ae9e534866bea8d7cadae6fe6809b341a717",
+      "bytes": 2146
+    }
+  ],
+  "revision": "5c1ef5a58ad9fd5f4dd9"
+}

@@ -1,0 +1,686 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_child_girl_seat_report_stand_v1",
+  "title": "儿童女性·落座、取报告与起身",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "complete_character",
+    "same_identity",
+    "contact_unit",
+    "seated_reach_stand"
+  ],
+  "discovery": {
+    "category": "motion",
+    "character_role": "child_girl",
+    "aliases": [
+      "儿童女性",
+      "落座",
+      "取报告",
+      "起身"
+    ],
+    "actions": [
+      "坐站过渡",
+      "取报告",
+      "持物"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "poses": [
+      "stand",
+      "seated",
+      "reach"
+    ]
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "b6b3f9550438b3a54951442ba76ff151d75d8d067a42ce42f09772b6f8bbc405",
+      "bytes": 556
+    },
+    {
+      "path": "assets/sheet.webp",
+      "role": "payload",
+      "sha256": "1571587cbd94d2f7b03ce6ae1cbc8a0d878e7087b566527570bc58c09960b915",
+      "bytes": 1511888
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "d62095c0520b0b9c148b64295a41aabee2cf2baf0420fbb6295a3029d1583c55",
+      "bytes": 579
+    },
+    {
+      "path": "registration.json",
+      "role": "payload",
+      "sha256": "08706f4fd149085c559500bd2e88871c505e40226546ee3869f2e9982ea817a8",
+      "bytes": 1588
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "9289feb9932f56e7c7bd2520fefdc88cb644b243b6656db1d039a2b2b6d95ea6",
+      "bytes": 4708
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+      "bytes": 1004
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "6491f2b1fc3ccf3a13d91435ac5af5cbbc84ab6301572bddce26462c7e8c439b",
+      "bytes": 69102
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "a00eab3e129db71e30b98928417f9bbf2a4a3b411fba43a35737b820833aa6d2",
+      "bytes": 66778
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "fc2c6e9915281ff75684fd140452782722b52e517920117a53fec6ddaed1101c",
+      "bytes": 67762
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "573c59b38febc604aeab9ad53b4236240a419f1754822ae79cc1db76a155e9da",
+      "bytes": 20663
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "69b410b18c9373abcd3575687c4191897f3a3723d8a153786eae53c9fd5a0e78",
+      "bytes": 113839
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "0e56fc314e4cab5e4888a5369e3da913fb1fa4a207c1977fde9c223c380befe1",
+      "bytes": 77524
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "0e56fc314e4cab5e4888a5369e3da913fb1fa4a207c1977fde9c223c380befe1",
+      "bytes": 77524
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "0e56fc314e4cab5e4888a5369e3da913fb1fa4a207c1977fde9c223c380befe1",
+      "bytes": 77524
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "396af29a7258c9908f1d40d834c0285f8abe619c8765742a44f2995dcb829ee1",
+      "bytes": 74908
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "396af29a7258c9908f1d40d834c0285f8abe619c8765742a44f2995dcb829ee1",
+      "bytes": 74908
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "396af29a7258c9908f1d40d834c0285f8abe619c8765742a44f2995dcb829ee1",
+      "bytes": 74908
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "fc2c6e9915281ff75684fd140452782722b52e517920117a53fec6ddaed1101c",
+      "bytes": 67762
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "fc2c6e9915281ff75684fd140452782722b52e517920117a53fec6ddaed1101c",
+      "bytes": 67762
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "fc2c6e9915281ff75684fd140452782722b52e517920117a53fec6ddaed1101c",
+      "bytes": 67762
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "68fd49f43078f11a73318229098e490bc8b9aa46e6e1a2bf4890411287cf1959",
+      "bytes": 64698
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "68fd49f43078f11a73318229098e490bc8b9aa46e6e1a2bf4890411287cf1959",
+      "bytes": 64698
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "68fd49f43078f11a73318229098e490bc8b9aa46e6e1a2bf4890411287cf1959",
+      "bytes": 64698
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "90ecf17e510fa177fad16223636faa6a700db87d0ca54259f949cd89e3c35ca4",
+      "bytes": 68310
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "90ecf17e510fa177fad16223636faa6a700db87d0ca54259f949cd89e3c35ca4",
+      "bytes": 68310
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "90ecf17e510fa177fad16223636faa6a700db87d0ca54259f949cd89e3c35ca4",
+      "bytes": 68310
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "9c9a1c2546415727cd6681851a818ff99b8bcbaa527d6be6948c1a453a5e865d",
+      "bytes": 67478
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "9c9a1c2546415727cd6681851a818ff99b8bcbaa527d6be6948c1a453a5e865d",
+      "bytes": 67478
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "9c9a1c2546415727cd6681851a818ff99b8bcbaa527d6be6948c1a453a5e865d",
+      "bytes": 67478
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "94bc59a30f365d3728c16845691481fd0e8fe38c79dda04b45541e16a8bee38f",
+      "bytes": 76312
+    },
+    {
+      "path": "samples/keyframes/19.webp",
+      "role": "payload",
+      "sha256": "94bc59a30f365d3728c16845691481fd0e8fe38c79dda04b45541e16a8bee38f",
+      "bytes": 76312
+    },
+    {
+      "path": "samples/keyframes/20.webp",
+      "role": "payload",
+      "sha256": "94bc59a30f365d3728c16845691481fd0e8fe38c79dda04b45541e16a8bee38f",
+      "bytes": 76312
+    },
+    {
+      "path": "samples/keyframes/21.webp",
+      "role": "payload",
+      "sha256": "06400e28a69eb87716908e3eefb6844bc64ad0c7f2855d88fcf2b07af4071941",
+      "bytes": 81976
+    },
+    {
+      "path": "samples/keyframes/22.webp",
+      "role": "payload",
+      "sha256": "06400e28a69eb87716908e3eefb6844bc64ad0c7f2855d88fcf2b07af4071941",
+      "bytes": 81976
+    },
+    {
+      "path": "samples/keyframes/23.webp",
+      "role": "payload",
+      "sha256": "06400e28a69eb87716908e3eefb6844bc64ad0c7f2855d88fcf2b07af4071941",
+      "bytes": 81976
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "50c1b85dcf52f491b066f7523f5f368f10e9d1b49f3c3a41c3f0d3fb0e732d9e",
+      "bytes": 7992
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "bc4edbd35b6ebaba08815db9dfc1f5e7aefafb8f2e5c427d1f9e71b3fe922ec0",
+      "bytes": 8854
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "60eb55ef085045daffc8626b89a84e3284ff8f68badaa7f1b0ac137279f00384",
+      "bytes": 143737
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "d0b8ff58f3ead96840133332bc7ec4da4dca330b62602fbab9430d6b53417c4c",
+      "bytes": 10510
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "9d499a3fee16104f6a36501ec71eadd986bc64710073cb7db45057c939a984a5",
+      "bytes": 5711
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "dcec43d66138230ec3ff",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_child_girl_seat_report_stand_v1@ea17c5496558afc3cc7e",
+    "source_record_sha256": "3bd87b44b27b05dd7ac7d7b5371334c7b752aec86c9829d1f09c8580a47c866a",
+    "encodings": [
+      {
+        "path": "assets/sheet.png",
+        "encoded_path": "assets/sheet.webp",
+        "source_sha256": "4552f6604baf20e691d2a8c550ab0916ee4c56a30e3b3c7d3d0ab58925d73ff7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "10ff02d94618581bff54dcde1facab876b3eaf950b627a01e6fadb99d8a9b457",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "c155e159b6d42362d8da1c13b66a1be8defa0f31c2c89a03f1054e108661e322",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "9e6cfae55d65c46011a572af9931e0e019d60fe71b043914038f953f9ed72f17",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "9e6cfae55d65c46011a572af9931e0e019d60fe71b043914038f953f9ed72f17",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "9e6cfae55d65c46011a572af9931e0e019d60fe71b043914038f953f9ed72f17",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "bdce704322edbe4a6ed47d222170bd8c36f7e40f2cbf4c83438415dbec0f2403",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "bdce704322edbe4a6ed47d222170bd8c36f7e40f2cbf4c83438415dbec0f2403",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "bdce704322edbe4a6ed47d222170bd8c36f7e40f2cbf4c83438415dbec0f2403",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "fe56d508c278a9ea1f5183230b49337315f81c1576a16700d8a7c8104d1cc04f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "86ba03d6af52d0c48ba8b486a4ade20bd7ebfbb2cb65c4722ebcd621b4cfd166",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "86ba03d6af52d0c48ba8b486a4ade20bd7ebfbb2cb65c4722ebcd621b4cfd166",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "86ba03d6af52d0c48ba8b486a4ade20bd7ebfbb2cb65c4722ebcd621b4cfd166",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "d19f5456adb780e10b177db5bda2e551d948f8bf8995f16e43581d6915dc5857",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "d19f5456adb780e10b177db5bda2e551d948f8bf8995f16e43581d6915dc5857",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "d19f5456adb780e10b177db5bda2e551d948f8bf8995f16e43581d6915dc5857",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "aed7146969bc5d7ad92052f4cd0ea1b0ae4f08afa687464a43bdc76cf06a2e2d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "aed7146969bc5d7ad92052f4cd0ea1b0ae4f08afa687464a43bdc76cf06a2e2d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "aed7146969bc5d7ad92052f4cd0ea1b0ae4f08afa687464a43bdc76cf06a2e2d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "a7282b7a5c137a30904c54aa81ac143f09c3035b04830b1d1a7440966c3d8cfb",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/19.png",
+        "encoded_path": "samples/keyframes/19.webp",
+        "source_sha256": "a7282b7a5c137a30904c54aa81ac143f09c3035b04830b1d1a7440966c3d8cfb",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/20.png",
+        "encoded_path": "samples/keyframes/20.webp",
+        "source_sha256": "a7282b7a5c137a30904c54aa81ac143f09c3035b04830b1d1a7440966c3d8cfb",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/21.png",
+        "encoded_path": "samples/keyframes/21.webp",
+        "source_sha256": "088821eaab1815391faef19cc2b9c695ce8d7e728aaf1a1fec9bf5fe230f9a87",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/22.png",
+        "encoded_path": "samples/keyframes/22.webp",
+        "source_sha256": "088821eaab1815391faef19cc2b9c695ce8d7e728aaf1a1fec9bf5fe230f9a87",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/23.png",
+        "encoded_path": "samples/keyframes/23.webp",
+        "source_sha256": "088821eaab1815391faef19cc2b9c695ce8d7e728aaf1a1fec9bf5fe230f9a87",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "72f6cbbf270f78a958c184122f9c9da88fb5fad551a4babeb9d7a105861473fc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "3df9bea3f9fdd67cb81beea554a49cded3e406b4395c44b6439c2f72f5d299fe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

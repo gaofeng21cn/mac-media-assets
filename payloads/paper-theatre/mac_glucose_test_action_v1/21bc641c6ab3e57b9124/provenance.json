@@ -1,0 +1,28 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "image": "arm",
+      "asset_id": "paper:mac_bare_arm_v1@199031b83fe2420d595b",
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66"
+    },
+    {
+      "image": "meter",
+      "asset_id": "paper:paper_glucose_meter_parts_v1@7d17997f1c1c10d70831",
+      "sha256": "bd6d14da33867213ae79eea07914cb303a39a04b9e3709dcf8bc85a0257c44a8"
+    },
+    {
+      "image": "dressing",
+      "asset_id": "paper:reserve_dressing_v1@8f9b28d110b9489470ed",
+      "sha256": "9368a13f3f03ce993b078d18aa81b03d2576f27cab0e80c8e6693f39c0b5cf4a"
+    },
+    {
+      "image": "strip",
+      "source_type": "original_vector",
+      "source": "assets/strip.svg",
+      "note": "重新绘制正确长度与接点的通用试纸；没有拉伸原件。"
+    }
+  ],
+  "note": "手、血糖仪和敷料复用原字节；试纸重绘为正确长宽比的可编辑 SVG，采血笔为原创代码图形。主机端口、试纸两端、指端和敷料共用原图像素接触点。"
+}

@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_colon_mucosal_polyp_v1",
+  "title": "结肠黏膜与带蒂息肉·局部纸切面",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "colorectal_screening"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1522,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "colon_mucosal_polyp"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "结肠黏膜与带蒂息肉·局部纸切面",
+      "colon_mucosal_polyp"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "结肠黏膜与带蒂息肉·局部纸切面",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1522,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "黏膜上带蒂息肉的连接关系；息肉不等同癌症，不表示个人类型或病理结果。"
+    }
+  ],
+  "usage_notes": "黏膜上带蒂息肉的连接关系；息肉不等同癌症，不表示个人类型或病理结果。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8c56ccc83b2f818ffba8b1a73cc498ec0bb22e9ea7e33f76fb4520a4b3f5e738",
+      "bytes": 1966920
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "271f40e1e2d6e4ef791d610256d1e852594576b1892a6ba1d1f2e222bf790b2a",
+      "bytes": 1209
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "f276b5a7c1daedf995d5bee74833d6aa49606359afc35fb9f3ec0ee9ef8aa1c2",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "af507b4abd1f48e356c745e78175d1e4a6302aad1ff292b005376492f6ea3d6d",
+      "bytes": 625
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "b9240670dfa9b70a11b45a4c92fa7bafc8afd18e3af70d69fc3e49bc32afdcba",
+      "bytes": 87614
+    }
+  ],
+  "revision": "c3084f520eef7c743a76",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_colon_mucosal_polyp_v1@e56d426c8e7a81a1837e",
+    "source_record_sha256": "1362d652a250b2db6861445ed959132ff5809f4918d665582f1dcff6820eed03",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a76201225f8711ad8e9d3918424989c6185712fff58bd128ca64425ed069824e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

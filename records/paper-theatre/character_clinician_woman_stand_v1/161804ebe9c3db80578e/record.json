@@ -1,0 +1,129 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_clinician_woman_stand_v1",
+  "title": "女性医生完整讲解站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "clinician",
+    "woman",
+    "stand",
+    "explain",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "女性医生完整讲解站姿",
+    "aliases": [
+      "医生",
+      "女医生",
+      "医生讲解",
+      "门诊",
+      "会诊",
+      "physician",
+      "clinician"
+    ],
+    "objects": [
+      "完整女性医生人物"
+    ],
+    "story_roles": [
+      "门诊沟通",
+      "解释医学关系",
+      "共同决策"
+    ],
+    "actions": [
+      "讲解",
+      "邀请观看",
+      "侧身指向"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "通用虚构医生，不是作者品牌人物；当前镜头仍需核对身份和手势落点。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "通用虚构女性医生完整站姿，不是作者品牌人物；可用于解释与听众建立视线。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_clinician_woman_stand_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    0,
+    0,
+    1004,
+    1520
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      0,
+      1004,
+      1520
+    ],
+    "opaque_ratio": 0.2333,
+    "translucent_ratio": 0.0151,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "7d7914df72ac5f5542b31cd9b1a47b947c25a9c13ca280259b9a0e3e1d8c3cfb",
+      "bytes": 1676184
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "addc02e5322048a358b76efe432126c90af37047223d42d77d00f6ba895e5807",
+      "bytes": 506
+    }
+  ],
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.45,
+        "y": 0.08
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "hand_right": {
+        "x": 0.742,
+        "y": 0.276
+      }
+    }
+  },
+  "revision": "161804ebe9c3db80578e"
+}

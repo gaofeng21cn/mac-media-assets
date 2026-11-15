@@ -1,0 +1,304 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pelvic_organs_detailed_layers_v1",
+  "title": "盆腔器官·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "pelvis_bone",
+      "path": "files/pelvis_bone.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·pelvis_bone",
+      "medical": true,
+      "content_bounds": [
+        202,
+        243,
+        822,
+        762
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "rectum_posterior_projection",
+      "path": "files/rectum_posterior_projection.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·rectum_posterior_projection",
+      "medical": true,
+      "content_bounds": [
+        548,
+        500,
+        605,
+        764
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "uterus_tubes_ovaries",
+      "path": "files/uterus_tubes_ovaries.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·uterus_tubes_ovaries",
+      "medical": true,
+      "content_bounds": [
+        292,
+        353,
+        732,
+        693
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "bladder_anterior_projection",
+      "path": "files/bladder_anterior_projection.png",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·bladder_anterior_projection",
+      "medical": true,
+      "content_bounds": [
+        396,
+        568,
+        628,
+        725
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_pelvic_organs_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "盆腔器官",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "pelvis_bone",
+      "rectum_posterior_projection",
+      "uterus_tubes_ovaries",
+      "bladder_anterior_projection"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "女性盆腔正面投影示意，子宫连输卵管与两侧卵巢；膀胱为前方半透明投影，直肠为后方虚线投影。前后深度需结合侧视图解释，非同一冠状切面。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/pelvis_bone.svg",
+      "role": "source",
+      "sha256": "26336c54a2223259f0098c4c7fb9f4f20747e2c5982376a32edd5b6462819961",
+      "bytes": 429
+    },
+    {
+      "path": "files/pelvis_bone.png",
+      "role": "payload",
+      "sha256": "82be709fc4a935e478f1012168e1de2a653b3246a0b353a8076dd1a45078afcf",
+      "bytes": 36459
+    },
+    {
+      "path": "source/rectum_posterior_projection.svg",
+      "role": "source",
+      "sha256": "d508f5358d1e7bca9d5226f235f25c344124539609f9191a94a986855aaf7382",
+      "bytes": 244
+    },
+    {
+      "path": "files/rectum_posterior_projection.png",
+      "role": "payload",
+      "sha256": "cf2aa36f1257b9998479969f0239c3af035874b64b0ffdcc6c7a3fd2fd97c737",
+      "bytes": 10380
+    },
+    {
+      "path": "source/uterus_tubes_ovaries.svg",
+      "role": "source",
+      "sha256": "ab14133d55f29d4615cc9e708c9e89ed5b29848a6889839c6119a1c951938a8c",
+      "bytes": 804
+    },
+    {
+      "path": "files/uterus_tubes_ovaries.png",
+      "role": "payload",
+      "sha256": "41eb7ca30750f7cfc145debc2f8ac252375bde879759812e231c464599da4873",
+      "bytes": 23711
+    },
+    {
+      "path": "source/bladder_anterior_projection.svg",
+      "role": "source",
+      "sha256": "17bbef240d0ffce6bd0da60d0a34247da4b3cae05f381c7b8e21875eea798989",
+      "bytes": 266
+    },
+    {
+      "path": "files/bladder_anterior_projection.png",
+      "role": "payload",
+      "sha256": "f6f4bc3d7e8e80b9165c79646a46f60dd7c76adb420568bfb3251f1fece34a64",
+      "bytes": 13030
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "c3c0b7c6e91d018f74476dfd15a538435cf22581f5e79cb914e1fc6852966020",
+      "bytes": 1452
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "7c15c29f390ed67d0414b06f02712987a2e115de4c958dbdc0712ad2025abe1c",
+      "bytes": 68255
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "4d75357e00117fb4e7f272bff1e4815d31fbb87a54f46a9772388704d7e7fbdc",
+      "bytes": 693
+    }
+  ],
+  "revision": "57b76ec7ba5c43d1d01a"
+}

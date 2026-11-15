@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_alveolus_detailed_layers_v1",
+  "title": "肺泡·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "alveolar_sacs",
+      "path": "files/alveolar_sacs.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·alveolar_sacs",
+      "medical": true,
+      "content_bounds": [
+        225,
+        198,
+        807,
+        826
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "capillary_end": {
+            "x": 0.77,
+            "y": 0.7
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "air_space",
+      "path": "files/air_space.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·air_space",
+      "medical": true,
+      "content_bounds": [
+        262,
+        241,
+        771,
+        792
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "capillary_end": {
+            "x": 0.77,
+            "y": 0.7
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "capillary",
+      "path": "files/capillary.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺泡·capillary",
+      "medical": true,
+      "content_bounds": [
+        241,
+        711,
+        799,
+        809
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "capillary_end": {
+            "x": 0.77,
+            "y": 0.7
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_alveolus_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肺泡",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "alveolar_sacs",
+      "air_space",
+      "capillary"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肺泡囊与气腔示意，附一层毛细血管走向；不表示气体交换比例、肺泡数量或通气功能。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/alveolar_sacs.svg",
+      "role": "source",
+      "sha256": "3b485910755cd83b045effe7b216673be15e6b40e871698f198b443900a215f7",
+      "bytes": 701
+    },
+    {
+      "path": "files/alveolar_sacs.png",
+      "role": "payload",
+      "sha256": "d5dbb5d32d6af46b27b122f457bdc4df7ffd803c622b1a934e2b08ec254ca969",
+      "bytes": 52564
+    },
+    {
+      "path": "source/air_space.svg",
+      "role": "source",
+      "sha256": "98e395f240c258974c6fe7d5410893b314872a030c87c9caa66bcf27da7294d9",
+      "bytes": 768
+    },
+    {
+      "path": "files/air_space.png",
+      "role": "payload",
+      "sha256": "048a1f93f74c62ccb384a078e4df907736f8cf8d4d3f8a11832f308a2be2e54a",
+      "bytes": 46714
+    },
+    {
+      "path": "source/capillary.svg",
+      "role": "source",
+      "sha256": "e374d92b67ab662a183dc318cfd87b022b77c590995cff5cfe24eaab19916b0a",
+      "bytes": 245
+    },
+    {
+      "path": "files/capillary.png",
+      "role": "payload",
+      "sha256": "a4b71fb4fa83af3ef0e3c79bd5db8782c3f84874f1df4f0a65f65f6e8a947f18",
+      "bytes": 10691
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "1b618f7c6580a51f2b6128469dd488e4f27f850da01b3fa82b82fb809c4feb02",
+      "bytes": 1520
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "da9b1d09e96931bfbc907fec3a68a55423918f35bf0c8630640b8a3a132d413e",
+      "bytes": 84272
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "5e7ec0c6692af93c0321fc43812d08910bb1609f0c8a14b334a6fc62d91fba5c",
+      "bytes": 609
+    }
+  ],
+  "revision": "ceddb37a9962c9d5672f"
+}

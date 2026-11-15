@@ -1,0 +1,535 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_head_sagittal_structure_reveal_v1",
+  "title": "头部矢状位·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "头部矢状位",
+      "逐层揭示",
+      "局部高亮",
+      "head_sagittal"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "头部矢状位·逐层揭示与局部高亮",
+    "sample_duration_seconds": 10.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "8322273e2b47f37f338986cd420924bab99e935150a02664eb4d056fbad96b06",
+      "bytes": 799
+    },
+    {
+      "path": "assets/brain_and_brainstem.png",
+      "role": "payload",
+      "sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+      "bytes": 30884
+    },
+    {
+      "path": "assets/head_profile.png",
+      "role": "payload",
+      "sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+      "bytes": 29356
+    },
+    {
+      "path": "assets/paranasal_sinuses.png",
+      "role": "payload",
+      "sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+      "bytes": 7442
+    },
+    {
+      "path": "assets/pituitary_and_stalk.png",
+      "role": "payload",
+      "sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+      "bytes": 6573
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "6db51547c2b658a3d1dea04118a2dc126c628e182e59b38b1876a40394965f3b",
+      "bytes": 768
+    },
+    {
+      "path": "original/files/brain_and_brainstem.png",
+      "role": "payload",
+      "sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+      "bytes": 30884
+    },
+    {
+      "path": "original/files/head_profile.png",
+      "role": "payload",
+      "sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+      "bytes": 29356
+    },
+    {
+      "path": "original/files/paranasal_sinuses.png",
+      "role": "payload",
+      "sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+      "bytes": 7442
+    },
+    {
+      "path": "original/files/pituitary_and_stalk.png",
+      "role": "payload",
+      "sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+      "bytes": 6573
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "59935c834c1d6106fce879d687253ff1df5ac229f4ff9f1fd2b4744564eb1460",
+      "bytes": 7421
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "279badfa9cae332f0450d9a64503bf2738e56bb3257d3eedc11af1fa6db06b6a",
+      "bytes": 58565
+    },
+    {
+      "path": "original/source/brain_and_brainstem.svg",
+      "role": "payload",
+      "sha256": "194538f57353dbe47609fa121275c9afcad9d5af77b9ed93d4de4e552f8b83b0",
+      "bytes": 553
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/head_profile.svg",
+      "role": "payload",
+      "sha256": "d8ad749664dbc0fde0e6ba64bf8df7bdfee23e2bd8b003ec614f6e4154ce3040",
+      "bytes": 390
+    },
+    {
+      "path": "original/source/paranasal_sinuses.svg",
+      "role": "payload",
+      "sha256": "4ead560f9af40d295e4daaf11ca02ae4eaab3c2dab55623c0888b51426a8078b",
+      "bytes": 350
+    },
+    {
+      "path": "original/source/pituitary_and_stalk.svg",
+      "role": "payload",
+      "sha256": "9e9265d7c384085e254eeef67ed36d6c45555f3ed4e19456a876bee525f94aeb",
+      "bytes": 313
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "c1e9b4956fa0bcdaf4f575ffa0f2f2d80c13c708b8d9ac8f316263d8e233a6a9",
+      "bytes": 1315
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "7977de5cb74ad2ff1e57f7f47383020e3b2ac71352ecad12f3cb46e114ec7909",
+      "bytes": 376
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "cf60251b9fe91b0a8c94743c91655ac98f6fe05dfb94a669baf17aeababcd313",
+      "bytes": 7711
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "dd7f2129d436c43cd40eaea90020878301c8d6ecd32af62133cb984d0b27e88e",
+      "bytes": 89613
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "23de2bb42022c3e4bf092d136a38c9df9299120d3312836e1d1d822f32c88c5f",
+      "bytes": 87242
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "612b90041e6370dd6120ae8c31df26bfacdf897c3e6ec15814b62fc48a8c9d3a",
+      "bytes": 89681
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "beb7dac7dd2caed8baca370d9a47af89dff1514cee0b654aece3b64faef2d0c6",
+      "bytes": 46960
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "b917b0f5bc6316486acb9214bcfde77981e162ba2f29905fa441bbf24c6c63a5",
+      "bytes": 94610
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "ba64078ee7e3f39e03910ddde2e3eb9b2a77fff4535cd2a116871268b834b31b",
+      "bytes": 92188
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+      "bytes": 94666
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "d50dc2e95314d2f40a1879737544d51f56ff64847aaafca25dff5b83f85d5d9a",
+      "bytes": 19909
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "c69f97024c786252e744d8209798efd3f090bc5d1fa84180bbb984326fb8575b",
+      "bytes": 209280
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "1c90004c3c8e5a1967c67e7df5cc41dd60f4bcc6467131ba0bd649211d222d92",
+      "bytes": 259698
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile-color.png",
+      "role": "payload",
+      "sha256": "39d83396d3b48c57c0f87f0ceee42ca7274e5765f81b0354c31aeb32bf3b93aa",
+      "bytes": 19874
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile-dark.png",
+      "role": "payload",
+      "sha256": "1fc29c420b5b35da2b6454f480d28f9ff92a9e6b26b4d31e73db751b56fb2e1e",
+      "bytes": 20084
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile-light.png",
+      "role": "payload",
+      "sha256": "b16b0a399a70d158b75ab2b1de8e225fefb820670dbbdee79e2114bb96f5ce95",
+      "bytes": 18881
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile.png",
+      "role": "payload",
+      "sha256": "b16b0a399a70d158b75ab2b1de8e225fefb820670dbbdee79e2114bb96f5ce95",
+      "bytes": 18881
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem-color.png",
+      "role": "payload",
+      "sha256": "a702f5de1f32659011b10ca086c16a03b3c4cfbe0a632bb09046712cd64cfe53",
+      "bytes": 22042
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem-dark.png",
+      "role": "payload",
+      "sha256": "c7a8a64bbe10dc0248c4c9811afdb95357e4d2c06aa9e2603e96f285ed5426f8",
+      "bytes": 22007
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem-light.png",
+      "role": "payload",
+      "sha256": "ae789af3725150b3e1b6180029775acc8d799fd5dd0ef44ee5295dbab591d186",
+      "bytes": 21186
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem.png",
+      "role": "payload",
+      "sha256": "ae789af3725150b3e1b6180029775acc8d799fd5dd0ef44ee5295dbab591d186",
+      "bytes": 21186
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk-color.png",
+      "role": "payload",
+      "sha256": "50638bd0a9a5cef8ce375242d5643df1622bab2e951f28cb452a24c1cc395df9",
+      "bytes": 21542
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk-dark.png",
+      "role": "payload",
+      "sha256": "9b4292a6fffef22bf98662b0de78b3b9337dda5c86f72833c62d01968ef5ec26",
+      "bytes": 20642
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk-light.png",
+      "role": "payload",
+      "sha256": "ac23960e92cdcf3981cc934d8a8da29b09508eba07687cdbfd1a65718d236cbe",
+      "bytes": 21464
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk.png",
+      "role": "payload",
+      "sha256": "ac23960e92cdcf3981cc934d8a8da29b09508eba07687cdbfd1a65718d236cbe",
+      "bytes": 21464
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses-color.png",
+      "role": "payload",
+      "sha256": "39e6867500d7db78d04e8aab43dd5cf1e77cb3ac0848b0f5c3d8ec38ff71b437",
+      "bytes": 20495
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses-dark.png",
+      "role": "payload",
+      "sha256": "016a239b8549082b6de813af1e641d146a2e8684532692f41fed1ddd02e3e803",
+      "bytes": 19795
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses-light.png",
+      "role": "payload",
+      "sha256": "a9df22d6c52b3d73fb4adf7a7f76219b673f69916779446507cb2ef256455c77",
+      "bytes": 20371
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses.png",
+      "role": "payload",
+      "sha256": "a9df22d6c52b3d73fb4adf7a7f76219b673f69916779446507cb2ef256455c77",
+      "bytes": 20371
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+      "bytes": 94666
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+      "bytes": 94666
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "d5ae27f7eb75cc452f9d3e09feae112b154b999584ec7c11f00530f3a8f0083f",
+      "bytes": 53742
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "3566b77455b4ed7527aab42993bb07b34f709cb52b0b81461338fe86f81b282e",
+      "bytes": 70876
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "3566b77455b4ed7527aab42993bb07b34f709cb52b0b81461338fe86f81b282e",
+      "bytes": 70876
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "0b6ac29a17e758c0e99d0e09d63eb263eefe31a6dd7f9e951b0b5c1a0454366b",
+      "bytes": 90302
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "0b6ac29a17e758c0e99d0e09d63eb263eefe31a6dd7f9e951b0b5c1a0454366b",
+      "bytes": 90302
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "a215b43bcd0542714c42390f62a7db084aa99fb12711108992aacc40ce216943",
+      "bytes": 91963
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "a215b43bcd0542714c42390f62a7db084aa99fb12711108992aacc40ce216943",
+      "bytes": 91963
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "1d90eb666adde90d258a9239abf1ef53f8e6aaf8dcb0d49d9567953864332802",
+      "bytes": 94139
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "1d90eb666adde90d258a9239abf1ef53f8e6aaf8dcb0d49d9567953864332802",
+      "bytes": 94139
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "b1b6e4d78f9b3d637e99d55301d5a3e1d5bcf55a0218234eaa832e7a5c681b0d",
+      "bytes": 88972
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "b1b6e4d78f9b3d637e99d55301d5a3e1d5bcf55a0218234eaa832e7a5c681b0d",
+      "bytes": 88972
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "b1b6e4d78f9b3d637e99d55301d5a3e1d5bcf55a0218234eaa832e7a5c681b0d",
+      "bytes": 88972
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "8cc067e0405dd45f444cbd573352ec2d89bb7415974d3044fc7a3e22f951b049",
+      "bytes": 103243
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "8cc067e0405dd45f444cbd573352ec2d89bb7415974d3044fc7a3e22f951b049",
+      "bytes": 103243
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "8cc067e0405dd45f444cbd573352ec2d89bb7415974d3044fc7a3e22f951b049",
+      "bytes": 103243
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "9f7db4f5b54c3c5f622daf3aff3fa70ccc011d8c7ad23b0fae03866ba6fb7fca",
+      "bytes": 99281
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "9f7db4f5b54c3c5f622daf3aff3fa70ccc011d8c7ad23b0fae03866ba6fb7fca",
+      "bytes": 99281
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "9f7db4f5b54c3c5f622daf3aff3fa70ccc011d8c7ad23b0fae03866ba6fb7fca",
+      "bytes": 99281
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "4b7948b402a665f048a5f22bc22ae9f964dcda4a0dea299df59982602420933b",
+      "bytes": 95063
+    },
+    {
+      "path": "samples/keyframes/21.png",
+      "role": "payload",
+      "sha256": "4b7948b402a665f048a5f22bc22ae9f964dcda4a0dea299df59982602420933b",
+      "bytes": 95063
+    },
+    {
+      "path": "samples/keyframes/22.png",
+      "role": "payload",
+      "sha256": "9973333beddbdbddc403e727bff9714f8906de2f90159b0997da5d66ee00ee76",
+      "bytes": 91014
+    },
+    {
+      "path": "samples/keyframes/23.png",
+      "role": "payload",
+      "sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+      "bytes": 94666
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "6accee6e4b326d8363b624d8df45ff2e78ddf984577837739262f342e96d5709",
+      "bytes": 30348
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "8fccbe0b0eb2d8e9afd107bdb0a08a4c7f028161867c96624bdc659cf274f22a",
+      "bytes": 19228
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "b374f1065181d1a2f9dfc343965e9d5348105ac9411bfd9c365a6c7ea97f6fac",
+      "bytes": 273178
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "cc1b2808f1abfd3d775d1dc91e324264cd39a9fc4a6dae75d45e1065206f9ab1",
+      "bytes": 18770
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "271135492e577158bda5a45905a30e4a19a0b0ecab23b100a45001725957f8e0",
+      "bytes": 6910
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "ce3141ba0ce1ceb13d9b"
+}

@@ -1,0 +1,1034 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_islet_structure_reveal_v1",
+  "title": "胰岛·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "胰岛",
+      "逐层揭示",
+      "局部高亮",
+      "islet"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "胰岛·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "胰岛局部组织关系示意：中央为成簇内分泌细胞，周围为外分泌腺泡，毛细血管在细胞间分支。颜色不指定细胞类型，数量与分布不代表真实比例；不是胰腺整器官总览，不表达分泌或血糖调节。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "0c85d825eb5109b635494f7cad07d7193e4e093614c4c34116ca939a03dc0a59",
+      "bytes": 773
+    },
+    {
+      "path": "assets/capillary_network.webp",
+      "role": "payload",
+      "sha256": "55393ea4718c51b0192904b88e2950b5cdc78dd9073a4507b0b18e1c8ca3be7e",
+      "bytes": 4178
+    },
+    {
+      "path": "assets/endocrine_cells.webp",
+      "role": "payload",
+      "sha256": "dc9835499e68efd4ce9024c7ba4d5857b154ccc5369fc7b13845119311df08b2",
+      "bytes": 24082
+    },
+    {
+      "path": "assets/exocrine_surroundings.webp",
+      "role": "payload",
+      "sha256": "1eff17091735a31bb1979aac312cc13176b5ee9a9dc760782f7ec5455edf27d6",
+      "bytes": 6524
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "59a69aa7032405cb4b54482a2b590e63ea45173b9bd7677d74524672351f6d24",
+      "bytes": 750
+    },
+    {
+      "path": "original/files/capillary_network.webp",
+      "role": "payload",
+      "sha256": "55393ea4718c51b0192904b88e2950b5cdc78dd9073a4507b0b18e1c8ca3be7e",
+      "bytes": 4178
+    },
+    {
+      "path": "original/files/endocrine_cells.webp",
+      "role": "payload",
+      "sha256": "dc9835499e68efd4ce9024c7ba4d5857b154ccc5369fc7b13845119311df08b2",
+      "bytes": 24082
+    },
+    {
+      "path": "original/files/exocrine_surroundings.webp",
+      "role": "payload",
+      "sha256": "1eff17091735a31bb1979aac312cc13176b5ee9a9dc760782f7ec5455edf27d6",
+      "bytes": 6524
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "21d350681c25976f0f8ac240941407bd71d8e435ed7044cfc60776749dd41447",
+      "bytes": 6058
+    },
+    {
+      "path": "original/samples/preview.webp",
+      "role": "payload",
+      "sha256": "db703b6f2267d03886bb5d6f4e50f56f3a5ebc2a4555f060f5ae2f934b92eb9e",
+      "bytes": 35012
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/capillary_network.svg",
+      "role": "payload",
+      "sha256": "15fc735f671e9ca595648674ebc199be6b381ecae2dda366599c4b50a34afe55",
+      "bytes": 348
+    },
+    {
+      "path": "original/source/endocrine_cells.svg",
+      "role": "payload",
+      "sha256": "68bde491e2977bf5b5376e0cf93d6c5df1810d09a5e7131910d42a4dd40ffb0b",
+      "bytes": 2217
+    },
+    {
+      "path": "original/source/exocrine_surroundings.svg",
+      "role": "payload",
+      "sha256": "d02732f5264792a0654c286870cb70145e3c5949aa2589a37cedad37ca96c971",
+      "bytes": 2729
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "22422b86934fd78a3276f286722b88df654b8f1e5eb59ee58351b6bda6d54df0",
+      "bytes": 5100
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "65d5d3d066081bdc42af1c40718806163684fa36809fff8a1425b7d0ef448cf7",
+      "bytes": 368
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "64e105d7cc4ce0b63cc5dc34f708d5cd5a71650a2f2e32d1d6e93ea9f83a7c4b",
+      "bytes": 6628
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "42731e4a85ec8bca198b4800a1d5f762f99e88126dd4e2cc27058e554da375d7",
+      "bytes": 84330
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "4717fe7f726932a4048975ed16ab6d2a3ce578bbcd597001c9ba4e0a14d67483",
+      "bytes": 84120
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "6ec45a9069dd8fc18dc8bdbfe03bc91e1a2f35bb2cd11bbc9a83a97871589806",
+      "bytes": 83660
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "d3b3ac0f84e0311cd92308fc91733fddfd4db5f0d7e3d911a2bcfa3bef8983b2",
+      "bytes": 54060
+    },
+    {
+      "path": "samples/complete-background-color.webp",
+      "role": "payload",
+      "sha256": "ba0fb67cc0e49f0ef9f2a2559e9a5f4bfaecadfb1d1ec44b50bb4938b3c6f981",
+      "bytes": 88886
+    },
+    {
+      "path": "samples/complete-background-dark.webp",
+      "role": "payload",
+      "sha256": "4265fb22a87dbdfee3e552bff0cae8d5c492f4108436f6b48c6c641a8df1f9f4",
+      "bytes": 89302
+    },
+    {
+      "path": "samples/complete-background-light.webp",
+      "role": "payload",
+      "sha256": "39e8ac602c1563dd3424b94143401f8c57b5e295e29c63db5e0af367006ea377",
+      "bytes": 87350
+    },
+    {
+      "path": "samples/complete-phone.webp",
+      "role": "payload",
+      "sha256": "c7795f311293d6fb87e89f7c701f402560a08f0fec2d9128d85e12b6dd2292ee",
+      "bytes": 15114
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "b366a739a02981f8824d8d1b14248729d0df459dea0504b911c5a107d0b7812c",
+      "bytes": 185329
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "de0d6f911971fa4b55b902e5199faf83ce90dc26fe93dd6ceab76f0fa257a542",
+      "bytes": 222648
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings-color.webp",
+      "role": "payload",
+      "sha256": "0bbc9e049a07797d7b22295e4f30adc562dcb85c3888a3ffa5a81124ec9e0a2b",
+      "bytes": 16454
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings-dark.webp",
+      "role": "payload",
+      "sha256": "c232a475c7965fa65132b38b7f6de30e47c784127ad7026665e00dd8baed5331",
+      "bytes": 19256
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings-light.webp",
+      "role": "payload",
+      "sha256": "235834e8cc87002c42a7d27319184b73e49924e4bbc3c811b4c80852c5734d30",
+      "bytes": 14546
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings.webp",
+      "role": "payload",
+      "sha256": "235834e8cc87002c42a7d27319184b73e49924e4bbc3c811b4c80852c5734d30",
+      "bytes": 14546
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells-color.webp",
+      "role": "payload",
+      "sha256": "bb75bbe82ccc5c4d257a19558ba9cb78532d93ea455b237979c089fe2e378319",
+      "bytes": 17740
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells-dark.webp",
+      "role": "payload",
+      "sha256": "58b46c839e45f926a52f9b2840fc0c70630cdcdbf2e38325eec7e596c99b5404",
+      "bytes": 21172
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells-light.webp",
+      "role": "payload",
+      "sha256": "68268fe14ba4b5e934f1ceef7fa991f3134b8b97a6fcba5d346eec42b1ffb62c",
+      "bytes": 16776
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells.webp",
+      "role": "payload",
+      "sha256": "68268fe14ba4b5e934f1ceef7fa991f3134b8b97a6fcba5d346eec42b1ffb62c",
+      "bytes": 16776
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network-color.webp",
+      "role": "payload",
+      "sha256": "2aa36b9cea65a9be7ea530713f3b965a6508da68460522eee58b4ed45b784505",
+      "bytes": 17766
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network-dark.webp",
+      "role": "payload",
+      "sha256": "0b297400485c1ab3ad46d9f0b72cfa2ba1031f366e05dcbb3b4e72aef4f51a70",
+      "bytes": 20984
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network-light.webp",
+      "role": "payload",
+      "sha256": "8488042827638b3a8e2ed58973351dd60fbeb9d1983cda217e9a120b2d06a07c",
+      "bytes": 17044
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network.webp",
+      "role": "payload",
+      "sha256": "8488042827638b3a8e2ed58973351dd60fbeb9d1983cda217e9a120b2d06a07c",
+      "bytes": 17044
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "39e8ac602c1563dd3424b94143401f8c57b5e295e29c63db5e0af367006ea377",
+      "bytes": 87350
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "39e8ac602c1563dd3424b94143401f8c57b5e295e29c63db5e0af367006ea377",
+      "bytes": 87350
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "031e26c35a9009dca15afef5a3853f6a603cd4526e86a98fd1b92cf1b36cf30a",
+      "bytes": 37402
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "4bb95c8397af8e980ac6c7c0900f1cae6992cf5647f08d23bbc7cf6de2daf59f",
+      "bytes": 62262
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "4bb95c8397af8e980ac6c7c0900f1cae6992cf5647f08d23bbc7cf6de2daf59f",
+      "bytes": 62262
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "f84500a0fce9af35ce5053df4777843216a8f1fc70513ead02270f6fac43ebd5",
+      "bytes": 84854
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "f84500a0fce9af35ce5053df4777843216a8f1fc70513ead02270f6fac43ebd5",
+      "bytes": 84854
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "50df1a4b8f529bc25b8fcee05aea939337e46095bcc0f39b0b0bc0fbce5091bd",
+      "bytes": 88142
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "50df1a4b8f529bc25b8fcee05aea939337e46095bcc0f39b0b0bc0fbce5091bd",
+      "bytes": 88142
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "0df558271e691666d3092e5c4ce2fd194e07fed6466159557c23102502d66dd5",
+      "bytes": 89794
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "0df558271e691666d3092e5c4ce2fd194e07fed6466159557c23102502d66dd5",
+      "bytes": 89794
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "0df558271e691666d3092e5c4ce2fd194e07fed6466159557c23102502d66dd5",
+      "bytes": 89794
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "b0469263911edfa918fb2b2a09f729e59e1fc808edf1736ceb4eff41cc186abe",
+      "bytes": 96926
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "b0469263911edfa918fb2b2a09f729e59e1fc808edf1736ceb4eff41cc186abe",
+      "bytes": 96926
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "b1e71974ca3e6690d66b54e47c0ba886c99ef8e8a19928d675aa606d767e8bce",
+      "bytes": 97128
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "1457a95114329818e047d1e69c4b7247668ac1f1406076816f693ae8c8fd58f0",
+      "bytes": 96594
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "1457a95114329818e047d1e69c4b7247668ac1f1406076816f693ae8c8fd58f0",
+      "bytes": 96594
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "eabf7f4b56e0636125a62af752400bf80d9ba3f8c4f50b9664cb021e7de84bed",
+      "bytes": 88410
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "39e8ac602c1563dd3424b94143401f8c57b5e295e29c63db5e0af367006ea377",
+      "bytes": 87350
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "34bed4a904f68b9cd4845cd604964fcbf6c1d2cdfe14e5b7e06916a2f1133c66",
+      "bytes": 22372
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "7f9c4d05232cd9eb8728777058411b9b0f92655f409cd2bb77a7b4058a5d792b",
+      "bytes": 14730
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "beff107c81d3a74e4f4d442454c73edf94becd668d05d285f9427dc699162590",
+      "bytes": 385175
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "222ac26653da8b2932ad0bfcae76eacb11f0ab7cc33f748d5b0ca36c4e08ff29",
+      "bytes": 13584
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "b1813a63680be2fb4c407f16a070966d8169a9c40b69a4ab6f90a448bbca1351",
+      "bytes": 5442
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "cb3f59421274294df2ac",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_islet_structure_reveal_v1@ac4e9c5a278ddd96ab92",
+    "source_record_sha256": "d3c228d736f3fab9b8ed345100997c38f6baa950b1a02d4202be3bcf184f328e",
+    "encodings": [
+      {
+        "path": "assets/capillary_network.png",
+        "encoded_path": "assets/capillary_network.webp",
+        "source_sha256": "eb0fe01b891b5b40ab9b7189df12a193ba92231a1b2955fab3fd1d5b13d4c004",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/endocrine_cells.png",
+        "encoded_path": "assets/endocrine_cells.webp",
+        "source_sha256": "58884fcb38c5e572912c8815bb2c523556e94cf2bba17701d1d0ccf864998f13",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/exocrine_surroundings.png",
+        "encoded_path": "assets/exocrine_surroundings.webp",
+        "source_sha256": "c1d64c79a5a7c771342690120d37d02d21031187271ac3bf37af2e22ec619b17",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/capillary_network.png",
+        "encoded_path": "original/files/capillary_network.webp",
+        "source_sha256": "eb0fe01b891b5b40ab9b7189df12a193ba92231a1b2955fab3fd1d5b13d4c004",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/endocrine_cells.png",
+        "encoded_path": "original/files/endocrine_cells.webp",
+        "source_sha256": "58884fcb38c5e572912c8815bb2c523556e94cf2bba17701d1d0ccf864998f13",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/exocrine_surroundings.png",
+        "encoded_path": "original/files/exocrine_surroundings.webp",
+        "source_sha256": "c1d64c79a5a7c771342690120d37d02d21031187271ac3bf37af2e22ec619b17",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/samples/preview.png",
+        "encoded_path": "original/samples/preview.webp",
+        "source_sha256": "c248e365a09d606c1b16adc82337b8edc743335937fc44344fe58d338d9a2628",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "12a8ba2d29957c46e106dddb69678e1f8eb13ec4fe62e97763e65cc7b0777d3e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "c960ea010521caeeeb1722bb5d05cf6ceda9514d44472ca62096601f4f1ac04c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "246b6c9c6daeb6d926dfc6362e4a02cf36f13845568f0a02c0c04f4b25d2e403",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-color.png",
+        "encoded_path": "samples/complete-background-color.webp",
+        "source_sha256": "7b930439840a59c28ad648aa03d1d669e270b4b5b152718d0e72d0d4f3c024c9",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-dark.png",
+        "encoded_path": "samples/complete-background-dark.webp",
+        "source_sha256": "1fd314861f407da2c977dbaf611019dbe4aedc6d8b253696ef80c98520ea8204",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-light.png",
+        "encoded_path": "samples/complete-background-light.webp",
+        "source_sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-phone.png",
+        "encoded_path": "samples/complete-phone.webp",
+        "source_sha256": "c41ebe3946c0ec9086e724466c835ef1c0175465a9dbb3d20c281ed8d6594245",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-exocrine_surroundings-color.png",
+        "encoded_path": "samples/focus-phone/0-exocrine_surroundings-color.webp",
+        "source_sha256": "45120e047b8cc86d5f33ae093304682f486d2b60b6dfc15af7e1849a0ea49f7b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-exocrine_surroundings-dark.png",
+        "encoded_path": "samples/focus-phone/0-exocrine_surroundings-dark.webp",
+        "source_sha256": "1f7d263740f9bfdc2ac908c2e8b20afc4c6d50c4b13bb7229af7b668dc057d9e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-exocrine_surroundings-light.png",
+        "encoded_path": "samples/focus-phone/0-exocrine_surroundings-light.webp",
+        "source_sha256": "e2e38f9ff7c0f93793f33c318cbaf354e1cba601f24d3a959bb38822e77c0827",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-exocrine_surroundings.png",
+        "encoded_path": "samples/focus-phone/0-exocrine_surroundings.webp",
+        "source_sha256": "e2e38f9ff7c0f93793f33c318cbaf354e1cba601f24d3a959bb38822e77c0827",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-endocrine_cells-color.png",
+        "encoded_path": "samples/focus-phone/1-endocrine_cells-color.webp",
+        "source_sha256": "3f0b759b30dc0d72e9b39576ade7c75adf5db40fd61d10f96a6e73d7ee459954",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-endocrine_cells-dark.png",
+        "encoded_path": "samples/focus-phone/1-endocrine_cells-dark.webp",
+        "source_sha256": "acac39da4b36975bcba9ae3429ac6e6c8c0fcdc6fe35a6b8f39834f4a639fb0c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-endocrine_cells-light.png",
+        "encoded_path": "samples/focus-phone/1-endocrine_cells-light.webp",
+        "source_sha256": "6c58151130afce7c7d9826f5b43eab0fcef2652c5c43afae6fc5270eb6248a8b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-endocrine_cells.png",
+        "encoded_path": "samples/focus-phone/1-endocrine_cells.webp",
+        "source_sha256": "6c58151130afce7c7d9826f5b43eab0fcef2652c5c43afae6fc5270eb6248a8b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-capillary_network-color.png",
+        "encoded_path": "samples/focus-phone/2-capillary_network-color.webp",
+        "source_sha256": "285f2f5ff632468ca3c52992a4762090c32fb94364aa7f2fe7027395790bba34",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-capillary_network-dark.png",
+        "encoded_path": "samples/focus-phone/2-capillary_network-dark.webp",
+        "source_sha256": "f25cdab451173f1c3572b7917265d39730279d841889457f0ce0f008fd0696aa",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-capillary_network-light.png",
+        "encoded_path": "samples/focus-phone/2-capillary_network-light.webp",
+        "source_sha256": "b5b4de85bbdb577f216cd7e88d7b3dd068c3c4e733bb9a40dbd636f02faf0628",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-capillary_network.png",
+        "encoded_path": "samples/focus-phone/2-capillary_network.webp",
+        "source_sha256": "b5b4de85bbdb577f216cd7e88d7b3dd068c3c4e733bb9a40dbd636f02faf0628",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "92889d57976baff12cdabb9cd92ec10b196aaebe6802f9365e39661878f65356",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "08601a5a8487b54b5b2faca77cab5d4b53c4779113d42bbfeb3d0ebfbba9059f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "08601a5a8487b54b5b2faca77cab5d4b53c4779113d42bbfeb3d0ebfbba9059f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "bf544f1d8bdb8e3355cc2947e54150241e9b7d749d2035937f8c031f291589db",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "bf544f1d8bdb8e3355cc2947e54150241e9b7d749d2035937f8c031f291589db",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "e43d942914e6be48ca6d5e4e883d4df22524ce838f9441810a512ff63dd2b88e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "e43d942914e6be48ca6d5e4e883d4df22524ce838f9441810a512ff63dd2b88e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "102fa3a4e5c702eaec90a7f34a74e227496acb250376db84b06c7e8927dc5313",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "102fa3a4e5c702eaec90a7f34a74e227496acb250376db84b06c7e8927dc5313",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "102fa3a4e5c702eaec90a7f34a74e227496acb250376db84b06c7e8927dc5313",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "2f50191188a326c995f9c534770cbf1383873b2c715b5766814b94ee4c7bf0bf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "2f50191188a326c995f9c534770cbf1383873b2c715b5766814b94ee4c7bf0bf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "c7b7f73b2589f6502325f8cf5a936c2e3a6835dc5ef76f15b60336941488952e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "ae0985628c5a52a703a87eac01721d9a746117c829f02982e39d4a8a03536ec4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "ae0985628c5a52a703a87eac01721d9a746117c829f02982e39d4a8a03536ec4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "afc770d76c61888124d91fbe7aaeb816914c284e1d9a0a9427b5a8baecf2106a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "5cccc3d1e98e452038eb4c7e5d1edb8814104310b8a4f1475463bcddd6e690bc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "b68dc75f0537216055f5831d1ddfacc79f6a94f5c7727f6b24b181e1eb1b13d8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

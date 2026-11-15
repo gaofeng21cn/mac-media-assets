@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_cervical_spine_cord_v1",
+  "title": "颈椎、脊髓与神经根·局部关系",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "neck_pain"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1267,
+    1217
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "cervical_spine_cord"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "颈椎、脊髓与神经根·局部关系",
+      "cervical_spine_cord"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "颈椎、脊髓与神经根·局部关系",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1267,
+        1217
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "颈段脊髓与周围神经根分开辨认；不可替代腰段马尾图。"
+    }
+  ],
+  "usage_notes": "颈段脊髓与周围神经根分开辨认；不可替代腰段马尾图。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "858fa66293509196104d6f93dadc92fbacea1b95515be59eb573d094f4626c41",
+      "bytes": 1569736
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "06648197cbd7773600ba1e6c5274ee1bcfa0b77d1e9b0a9a3a16e08b5dafb662",
+      "bytes": 1201
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "183fc239f773a48ae047841d0cc1426a62d42067bdd7f3908f7f9bef26f8ba63",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "00ccfcb4a49187a4fa6b663f6c45b3a51a4820043cc5b38177c587d8f42a77d1",
+      "bytes": 13385
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "c639bf77dbf3f7cac5dfafda5a7723e7499e494e29705dfaeb254b2e31688b67",
+      "bytes": 758
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "330b645d6729b3de7f95ae7bd6883a9707940c584bd130c437c77f367627e435",
+      "bytes": 132469
+    }
+  ],
+  "revision": "1ed25c3759d3a35b094b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_cervical_spine_cord_v1@17ff3537fd6de6fc5bb9",
+    "source_record_sha256": "cc35bf20dfcf5ad04cb7cdc824d831e589791bc8b1664bbb0711e95b2b917b90",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "72ca3bb8cd6e6fb621dddee4a4eba9a55fbc4361d8a8ca7c0aeb5162052f1187",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1293,
+        "height": 1217,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1238 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_artery_wall_structure_reveal_v1",
+  "title": "动脉壁·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "动脉壁",
+      "逐层揭示",
+      "局部高亮",
+      "artery_wall"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "动脉壁·逐层揭示与局部高亮",
+    "sample_duration_seconds": 10.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "动脉横断面三层壁与管腔，外膜、中膜、内膜逐层套叠；层厚只为可读性，无狭窄/斑块或病理含义，不能用于厚度测量。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "1edd291fffb9a47cd3ef2695016347f21332f9dc23a1890eb07cc2e3242fb811",
+      "bytes": 684
+    },
+    {
+      "path": "assets/adventitia.webp",
+      "role": "payload",
+      "sha256": "3a7771df589efaaa3ed6f1425a0476c436b36aec7e3f9db3294f84f932b0bd03",
+      "bytes": 21124
+    },
+    {
+      "path": "assets/intima.webp",
+      "role": "payload",
+      "sha256": "0bdc6de42d23e85759edc00b3780e0dacaa0651aa8d90c218339868b3fcbc9ee",
+      "bytes": 14370
+    },
+    {
+      "path": "assets/lumen.webp",
+      "role": "payload",
+      "sha256": "6e66f0b7e2e0871fbc7e099fc081c513cec51715a9e95cc4ec0bb50bd5eb7038",
+      "bytes": 3492
+    },
+    {
+      "path": "assets/media.webp",
+      "role": "payload",
+      "sha256": "7bc2c9a09da58e0f6dd39273a696a973f8b7569fbbd78f98fc802a9b73ed87e1",
+      "bytes": 17082
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "2141fdaaccba35b1ae05574c05fa7bf7f4c39e8946dc4a059d3c5cee6e435dd4",
+      "bytes": 629
+    },
+    {
+      "path": "original/files/adventitia.webp",
+      "role": "payload",
+      "sha256": "3a7771df589efaaa3ed6f1425a0476c436b36aec7e3f9db3294f84f932b0bd03",
+      "bytes": 21124
+    },
+    {
+      "path": "original/files/intima.webp",
+      "role": "payload",
+      "sha256": "0bdc6de42d23e85759edc00b3780e0dacaa0651aa8d90c218339868b3fcbc9ee",
+      "bytes": 14370
+    },
+    {
+      "path": "original/files/lumen.webp",
+      "role": "payload",
+      "sha256": "6e66f0b7e2e0871fbc7e099fc081c513cec51715a9e95cc4ec0bb50bd5eb7038",
+      "bytes": 3492
+    },
+    {
+      "path": "original/files/media.webp",
+      "role": "payload",
+      "sha256": "7bc2c9a09da58e0f6dd39273a696a973f8b7569fbbd78f98fc802a9b73ed87e1",
+      "bytes": 17082
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "4d3d3e08ad46ac6dc4a9d02561957167206e2945ed83cbae3bd39d9f65415f75",
+      "bytes": 6911
+    },
+    {
+      "path": "original/samples/preview.webp",
+      "role": "payload",
+      "sha256": "68ae49bbdc37b61a19c5f312338811c37f0787dd31c5df62eb0ddfcc9a75872e",
+      "bytes": 35106
+    },
+    {
+      "path": "original/source/adventitia.svg",
+      "role": "payload",
+      "sha256": "974a0a785d07d16486b1986b38bd38b2fc74f6bf1b82f18d720bff29d64315dc",
+      "bytes": 308
+    },
+    {
+      "path": "original/source/build_anatomy.py",
+      "role": "payload",
+      "sha256": "46ed48086ed7e69f6abb7c1c0a64c24684361b68bd09e21e5d2fa1acf18273cc",
+      "bytes": 10156
+    },
+    {
+      "path": "original/source/intima.svg",
+      "role": "payload",
+      "sha256": "f875116a6eca32f81184099d803a44f2ab2fb02ad6e6660989cb53f705116c1e",
+      "bytes": 308
+    },
+    {
+      "path": "original/source/lumen.svg",
+      "role": "payload",
+      "sha256": "cfe3c3dab69d2bad61af3f9f62a406bb9317b35b39e87abb66c80deaaab8f551",
+      "bytes": 158
+    },
+    {
+      "path": "original/source/media.svg",
+      "role": "payload",
+      "sha256": "a7b62d78294a20e203291535d2603d5d12a9f8cbaa6ac8c14dc5d1068954dc3d",
+      "bytes": 308
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "32dab2da73fa7461cfc45a175c5b6bc3c3b1ff15344a362510222ddd9df6da46",
+      "bytes": 791
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "ecb5643715b53df5d39e2371cf338402f060ae5afbb81ef77dcdea28caee5992",
+      "bytes": 369
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "f214b4a019df6f735bbfe59fd22679f051bcbbc9b8d3276a9018c683092e4c92",
+      "bytes": 7506
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "dcb4a4fe7ef676b6eea96507b26b0c3305f26ca4ae20c1704e7c1f7aa3be4ffe",
+      "bytes": 50456
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "1658d1ac2c24d319dba339cf0862a92a42d545baaf18d2e45312ce5e9b9e0565",
+      "bytes": 53518
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "908b0e84571377e2e1006314130271a8d825c21ede67a035bb15202d6b627d77",
+      "bytes": 50164
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "ae7e37bdb9d0481474b39188a8e1baaef775e3ba8dba5a4b3c3a8c1c5e1854dc",
+      "bytes": 48442
+    },
+    {
+      "path": "samples/complete-background-color.webp",
+      "role": "payload",
+      "sha256": "3c7d74c9e0515fe650499da02f8b8b6cd65e11c773bec8eec3154409b7ff3bcf",
+      "bytes": 57214
+    },
+    {
+      "path": "samples/complete-background-dark.webp",
+      "role": "payload",
+      "sha256": "4b6e43b3ca8bc6e2f9eec5219d7368b7161ba5df2c8b6b12d02638b8dcfc5dbf",
+      "bytes": 61148
+    },
+    {
+      "path": "samples/complete-background-light.webp",
+      "role": "payload",
+      "sha256": "b5b006749d512d16006213097f119284f4d10fcabc4bd49697a2a4f47c086f69",
+      "bytes": 56458
+    },
+    {
+      "path": "samples/complete-phone.webp",
+      "role": "payload",
+      "sha256": "7643eda999965dd783847d5f16a17fd80cba1c14c14aa508a51ca8dfdd728a3b",
+      "bytes": 11942
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "b5e1d74c026149afaf8c4d8a0bb606696ed389ee45e8dfb52699fa5d8adc81e5",
+      "bytes": 219720
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "0342e3867ec1ec0e73bd84ed1b7c8414b12de29aa31543713878af786d4fab7f",
+      "bytes": 252454
+    },
+    {
+      "path": "samples/focus-phone/0-adventitia-color.webp",
+      "role": "payload",
+      "sha256": "d774f609c0f15f9162645484678aeb88d350799cd585a3e628b900d6cabb6dc1",
+      "bytes": 13154
+    },
+    {
+      "path": "samples/focus-phone/0-adventitia-dark.webp",
+      "role": "payload",
+      "sha256": "3e6a7e7ff2d3fd9d2212ce8d1b7a35d7e4bf1429d1e946d289bdf8d6bac6fc6b",
+      "bytes": 14138
+    },
+    {
+      "path": "samples/focus-phone/0-adventitia-light.webp",
+      "role": "payload",
+      "sha256": "4bed42c2a2a5e4cc7df047956e1aaa13451bcdcd2484fe2996359fd9d079e8c3",
+      "bytes": 11234
+    },
+    {
+      "path": "samples/focus-phone/0-adventitia.webp",
+      "role": "payload",
+      "sha256": "4bed42c2a2a5e4cc7df047956e1aaa13451bcdcd2484fe2996359fd9d079e8c3",
+      "bytes": 11234
+    },
+    {
+      "path": "samples/focus-phone/1-media-color.webp",
+      "role": "payload",
+      "sha256": "ac89a09f0c6721af39d8272e0510a7a3ec1550a4ae1fc07bdd37095526d40461",
+      "bytes": 13236
+    },
+    {
+      "path": "samples/focus-phone/1-media-dark.webp",
+      "role": "payload",
+      "sha256": "ba733b02e05a22c64a799dadf15bd25b5998e28ec70e5c856afb650f741d7a09",
+      "bytes": 13800
+    },
+    {
+      "path": "samples/focus-phone/1-media-light.webp",
+      "role": "payload",
+      "sha256": "1ffe233bd239231290d6164993b64ee003fe2a9282391b3e2360d5f0544a711f",
+      "bytes": 11872
+    },
+    {
+      "path": "samples/focus-phone/1-media.webp",
+      "role": "payload",
+      "sha256": "1ffe233bd239231290d6164993b64ee003fe2a9282391b3e2360d5f0544a711f",
+      "bytes": 11872
+    },
+    {
+      "path": "samples/focus-phone/2-intima-color.webp",
+      "role": "payload",
+      "sha256": "874141f6f74ab66b619eb9425939e3b4e58862dc8bb8632d63243d3d8255e677",
+      "bytes": 14696
+    },
+    {
+      "path": "samples/focus-phone/2-intima-dark.webp",
+      "role": "payload",
+      "sha256": "b3c033ee0e41cca448b565643dc32c098b3800cbb8dab4982cfb4c44fc5a8efb",
+      "bytes": 14730
+    },
+    {
+      "path": "samples/focus-phone/2-intima-light.webp",
+      "role": "payload",
+      "sha256": "a218b1d616adb0d4300865d3d4bc670a1e93e54a7b6e0ef3b3a81f31b2146682",
+      "bytes": 13408
+    },
+    {
+      "path": "samples/focus-phone/2-intima.webp",
+      "role": "payload",
+      "sha256": "a218b1d616adb0d4300865d3d4bc670a1e93e54a7b6e0ef3b3a81f31b2146682",
+      "bytes": 13408
+    },
+    {
+      "path": "samples/focus-phone/3-lumen-color.webp",
+      "role": "payload",
+      "sha256": "c08e585bbaa21e4e4c4dd5dd929d2a8c4268ee2f8b997714b84cca0c772a231a",
+      "bytes": 12860
+    },
+    {
+      "path": "samples/focus-phone/3-lumen-dark.webp",
+      "role": "payload",
+      "sha256": "4d905ed4c330a4e13691f8ef1273a238264326108cd245326c11e31a8936cca1",
+      "bytes": 12468
+    },
+    {
+      "path": "samples/focus-phone/3-lumen-light.webp",
+      "role": "payload",
+      "sha256": "4ba9f9ee8509ac499d9b8ceecc2c46eb0f06ebce219c2d116bd096ab57b54556",
+      "bytes": 12170
+    },
+    {
+      "path": "samples/focus-phone/3-lumen.webp",
+      "role": "payload",
+      "sha256": "4ba9f9ee8509ac499d9b8ceecc2c46eb0f06ebce219c2d116bd096ab57b54556",
+      "bytes": 12170
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "b5b006749d512d16006213097f119284f4d10fcabc4bd49697a2a4f47c086f69",
+      "bytes": 56458
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "b5b006749d512d16006213097f119284f4d10fcabc4bd49697a2a4f47c086f69",
+      "bytes": 56458
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "329f00265574de58968b2bbdaa8f733d870c9dd81f5716ca2e155fdbd596b1d7",
+      "bytes": 19652
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "1101e020043aa2d12b55a96c34b8630d83bd85dfe9da64cb5e7d13fc7d34c74e",
+      "bytes": 42050
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "1101e020043aa2d12b55a96c34b8630d83bd85dfe9da64cb5e7d13fc7d34c74e",
+      "bytes": 42050
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "e97d8e03df29bc1cc28121578a5ad4c41108e1af6a2d7f4052d473f6015861c4",
+      "bytes": 49550
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "e97d8e03df29bc1cc28121578a5ad4c41108e1af6a2d7f4052d473f6015861c4",
+      "bytes": 49550
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "0eedbc018bfb506b4facc2e083e22386bd53cb662832767da9244f1fad91e9c1",
+      "bytes": 56524
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "0eedbc018bfb506b4facc2e083e22386bd53cb662832767da9244f1fad91e9c1",
+      "bytes": 56524
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "7f2539d46c88a60f0660f6d1928aef395f4fd407abd7aac119e3d81cf215ae64",
+      "bytes": 56838
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "7f2539d46c88a60f0660f6d1928aef395f4fd407abd7aac119e3d81cf215ae64",
+      "bytes": 56838
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "bc84251d9408322835a6105fe063a5ce96196013f32feb00e5518e7218e39f19",
+      "bytes": 59642
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "bc84251d9408322835a6105fe063a5ce96196013f32feb00e5518e7218e39f19",
+      "bytes": 59642
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "bc84251d9408322835a6105fe063a5ce96196013f32feb00e5518e7218e39f19",
+      "bytes": 59642
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "57d2d10b6c183901c0bd6c12875c7e95a1d74acbba5df35e1e757bf24f988f20",
+      "bytes": 63788
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "57d2d10b6c183901c0bd6c12875c7e95a1d74acbba5df35e1e757bf24f988f20",
+      "bytes": 63788
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "57d2d10b6c183901c0bd6c12875c7e95a1d74acbba5df35e1e757bf24f988f20",
+      "bytes": 63788
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "fae612e19060b7204980af0af166d2af008e84bf7f20f5c3c79f9eef872c5962",
+      "bytes": 73830
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "fae612e19060b7204980af0af166d2af008e84bf7f20f5c3c79f9eef872c5962",
+      "bytes": 73830
+    },
+    {
+      "path": "samples/keyframes/19.webp",
+      "role": "payload",
+      "sha256": "fae612e19060b7204980af0af166d2af008e84bf7f20f5c3c79f9eef872c5962",
+      "bytes": 73830
+    },
+    {
+      "path": "samples/keyframes/20.webp",
+      "role": "payload",
+      "sha256": "8022e64c30a48aab9d39fe4a5c7cf5f8c47cb4a24a530b8c6d66dd9d354c8dbd",
+      "bytes": 64390
+    },
+    {
+      "path": "samples/keyframes/21.webp",
+      "role": "payload",
+      "sha256": "8022e64c30a48aab9d39fe4a5c7cf5f8c47cb4a24a530b8c6d66dd9d354c8dbd",
+      "bytes": 64390
+    },
+    {
+      "path": "samples/keyframes/22.webp",
+      "role": "payload",
+      "sha256": "ce4081f7bb58ace77ae6cb7ac17b9e7f326872bb0db378360161f00423af5c06",
+      "bytes": 59112
+    },
+    {
+      "path": "samples/keyframes/23.webp",
+      "role": "payload",
+      "sha256": "b5b006749d512d16006213097f119284f4d10fcabc4bd49697a2a4f47c086f69",
+      "bytes": 56458
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "4e43d363869d415bf0a2b96f374d07dfe7a446413ae707066758dd6429b9bc92",
+      "bytes": 20100
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "00e1395b705885e6daeeff1e8c3251a03201559d6fbb66f7f65f677421184181",
+      "bytes": 10982
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "8612cb4fd02f9297d65da38bf0f51f4709d6c75fc1446bb340d3409513fc7dce",
+      "bytes": 343625
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "f12c65c75e98a4055c15b1fdd8dd6b69fb6cd4db341087e180d17da3e312262f",
+      "bytes": 16991
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "92e06e758c035fb4aaa1651b5ee893a09bbb9afeb25f6e65dd00a13642f3285f",
+      "bytes": 6442
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "ace05efbabd7dc24cc14",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_artery_wall_structure_reveal_v1@5533f7ee96339311a399",
+    "source_record_sha256": "b8ae0b81eac21b113a1a6060184bd35065c5b0f68890608f255144a5141bd5b4",
+    "encodings": [
+      {
+        "path": "assets/adventitia.png",
+        "encoded_path": "assets/adventitia.webp",
+        "source_sha256": "97b5d1591d4c181382097420db56b4de640aea9ceaab7703512fc2ac7ad2d370",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/intima.png",
+        "encoded_path": "assets/intima.webp",
+        "source_sha256": "f7e6e273961275c38e0dfc66e5e6a92a31baa7821358c8821034d4e6c0a8f4c7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/lumen.png",
+        "encoded_path": "assets/lumen.webp",
+        "source_sha256": "48a20e75a0885235fbd8c263cda62a5fab1ed5dc01addc8c3bcc88ab8e122f62",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/media.png",
+        "encoded_path": "assets/media.webp",
+        "source_sha256": "45553f2808163db6fb2bb66f13ab3779d6bca99f54762af8a8cd064153be427a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/adventitia.png",
+        "encoded_path": "original/files/adventitia.webp",
+        "source_sha256": "97b5d1591d4c181382097420db56b4de640aea9ceaab7703512fc2ac7ad2d370",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/intima.png",
+        "encoded_path": "original/files/intima.webp",
+        "source_sha256": "f7e6e273961275c38e0dfc66e5e6a92a31baa7821358c8821034d4e6c0a8f4c7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/lumen.png",
+        "encoded_path": "original/files/lumen.webp",
+        "source_sha256": "48a20e75a0885235fbd8c263cda62a5fab1ed5dc01addc8c3bcc88ab8e122f62",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/media.png",
+        "encoded_path": "original/files/media.webp",
+        "source_sha256": "45553f2808163db6fb2bb66f13ab3779d6bca99f54762af8a8cd064153be427a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/samples/preview.png",
+        "encoded_path": "original/samples/preview.webp",
+        "source_sha256": "d343bca0bcfe6e40b52755a14d2652466c2fba89ba65c78998ce42e8cd6d1caf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "92ee8845cf3ce1a39070c237f36c5ed9390093ce2fa850efbbabf5a627d27a6e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "71fb4e13b56b49d4718d49beb326ccaaf073b404617b23486c512631b763a916",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "d24ba3da5cfdfc6588a18c6f39a0d4642c59ba34dd6ab38a7fdd6a1348c8d3bc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-color.png",
+        "encoded_path": "samples/complete-background-color.webp",
+        "source_sha256": "cd9a15e8b169edf217eb00c64295c73704c169fd6bf2f9342fe05c1608a78c45",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-dark.png",
+        "encoded_path": "samples/complete-background-dark.webp",
+        "source_sha256": "87b22ea48d771343ca95990aa35ade1a374c615c180995682e29e6fdf47e50a7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-light.png",
+        "encoded_path": "samples/complete-background-light.webp",
+        "source_sha256": "2a346ec99d4dd04eb6b1023dc4c540f515778eb5d30fce925516ee930c439cdf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-phone.png",
+        "encoded_path": "samples/complete-phone.webp",
+        "source_sha256": "f27578ac06c327ec23a7a06633df49fb88722094c1ce7163aaa6b7f93448c25b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-adventitia-color.png",
+        "encoded_path": "samples/focus-phone/0-adventitia-color.webp",
+        "source_sha256": "edaaa413dac8ff94dbcacbd490701e43c5f3c9a28bc313f95801fbe9da356a37",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-adventitia-dark.png",
+        "encoded_path": "samples/focus-phone/0-adventitia-dark.webp",
+        "source_sha256": "42054306666e9ccdd9b3b5e0e0d68f924a415aad569eec78751524b1f54ff443",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-adventitia-light.png",
+        "encoded_path": "samples/focus-phone/0-adventitia-light.webp",
+        "source_sha256": "8b296a4760d8e6393a1286048d5165587808c69190b68adbd3d5619345f24719",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-adventitia.png",
+        "encoded_path": "samples/focus-phone/0-adventitia.webp",
+        "source_sha256": "8b296a4760d8e6393a1286048d5165587808c69190b68adbd3d5619345f24719",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-media-color.png",
+        "encoded_path": "samples/focus-phone/1-media-color.webp",
+        "source_sha256": "d2ac7dff96ac8641453269598b36038341357de11cd363a0a5cd76f850ace660",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-media-dark.png",
+        "encoded_path": "samples/focus-phone/1-media-dark.webp",
+        "source_sha256": "7121c74660b6078d63a283f5d8e39f8319a175a82204e564263e86fdac2dc3cd",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-media-light.png",
+        "encoded_path": "samples/focus-phone/1-media-light.webp",
+        "source_sha256": "77f6a1f1744f33ed53ebf9966d464deb88841d440f5d38c0b6eb82a597600376",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-media.png",
+        "encoded_path": "samples/focus-phone/1-media.webp",
+        "source_sha256": "77f6a1f1744f33ed53ebf9966d464deb88841d440f5d38c0b6eb82a597600376",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-intima-color.png",
+        "encoded_path": "samples/focus-phone/2-intima-color.webp",
+        "source_sha256": "e18133d1c0960da499e2e782e02cbfa5dd912f2291f38a5db8490a9b1e2be5b0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-intima-dark.png",
+        "encoded_path": "samples/focus-phone/2-intima-dark.webp",
+        "source_sha256": "62d27c438d35ded3a4319bf384564bbd90cb8cb49b9fde1dcc7b86fee523c5a5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-intima-light.png",
+        "encoded_path": "samples/focus-phone/2-intima-light.webp",
+        "source_sha256": "fa5d22596fa007dce0d7c36d85dc45e6fcff8c0ab47bf3f6db01b7b4ae2dffbe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-intima.png",
+        "encoded_path": "samples/focus-phone/2-intima.webp",
+        "source_sha256": "fa5d22596fa007dce0d7c36d85dc45e6fcff8c0ab47bf3f6db01b7b4ae2dffbe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-lumen-color.png",
+        "encoded_path": "samples/focus-phone/3-lumen-color.webp",
+        "source_sha256": "edbed81669de8699e15068bc6ed2efc8cee62fefcb71f42dd8efdbd8aa19a23c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-lumen-dark.png",
+        "encoded_path": "samples/focus-phone/3-lumen-dark.webp",
+        "source_sha256": "a8286eda42f7941f7865a154f170d800e88a30045764e678b4123dd3ec6ae9f3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-lumen-light.png",
+        "encoded_path": "samples/focus-phone/3-lumen-light.webp",
+        "source_sha256": "24e2a7c32ac09fd541675d0f326e106889694ca6673cfd6a6f771d38d5a32e00",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-lumen.png",
+        "encoded_path": "samples/focus-phone/3-lumen.webp",
+        "source_sha256": "24e2a7c32ac09fd541675d0f326e106889694ca6673cfd6a6f771d38d5a32e00",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "2a346ec99d4dd04eb6b1023dc4c540f515778eb5d30fce925516ee930c439cdf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "2a346ec99d4dd04eb6b1023dc4c540f515778eb5d30fce925516ee930c439cdf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "01df9fa7d404eecc76c5f571a31d001e4a4a209e4a3ac34289edfb7367fcaf24",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "c61a67a0a376916595242685e397dbd745c5c41d80901d474139ddf6a2d36c93",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "c61a67a0a376916595242685e397dbd745c5c41d80901d474139ddf6a2d36c93",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "cefc3c002d91e24abd4642a7cf1f88cdb74da4ed2f88dfa9fe089d78abe534f5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "cefc3c002d91e24abd4642a7cf1f88cdb74da4ed2f88dfa9fe089d78abe534f5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "712c61be69deae8b7492f1fa37d350bd6d58290be958cbaedb0f9084af2c9716",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "712c61be69deae8b7492f1fa37d350bd6d58290be958cbaedb0f9084af2c9716",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "a1fdc282e557f4e9f0d58fd808fb1b23bf0ce743496772ab3611f153beb45a0c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "a1fdc282e557f4e9f0d58fd808fb1b23bf0ce743496772ab3611f153beb45a0c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "13d7a7f073ba366997d95cbd93433bb5cc3c5031d2b224c6c718f6241295a41c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "13d7a7f073ba366997d95cbd93433bb5cc3c5031d2b224c6c718f6241295a41c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "13d7a7f073ba366997d95cbd93433bb5cc3c5031d2b224c6c718f6241295a41c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "1ff1497c6e385db8a8c198568cfb6be39b4d0b272e952e87a752ef082bb14206",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "1ff1497c6e385db8a8c198568cfb6be39b4d0b272e952e87a752ef082bb14206",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "1ff1497c6e385db8a8c198568cfb6be39b4d0b272e952e87a752ef082bb14206",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "19485c4327a6c07604accf1593a962c4274d6d72fbafe37fcf8b25a464cb1146",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "19485c4327a6c07604accf1593a962c4274d6d72fbafe37fcf8b25a464cb1146",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/19.png",
+        "encoded_path": "samples/keyframes/19.webp",
+        "source_sha256": "19485c4327a6c07604accf1593a962c4274d6d72fbafe37fcf8b25a464cb1146",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/20.png",
+        "encoded_path": "samples/keyframes/20.webp",
+        "source_sha256": "6fe534230e4ce267cbe1e1dd67443e9cc7b3b1f985d46c3dad2bd774ce97b3e5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/21.png",
+        "encoded_path": "samples/keyframes/21.webp",
+        "source_sha256": "6fe534230e4ce267cbe1e1dd67443e9cc7b3b1f985d46c3dad2bd774ce97b3e5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/22.png",
+        "encoded_path": "samples/keyframes/22.webp",
+        "source_sha256": "788e041228258ac7f4da7d27218f35f83c193b0fb1d7f1bcd5ba0ecb55808d00",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/23.png",
+        "encoded_path": "samples/keyframes/23.webp",
+        "source_sha256": "2a346ec99d4dd04eb6b1023dc4c540f515778eb5d30fce925516ee930c439cdf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "9c06f4df58a052b62f9c90182acfed5fa48534fdfd1698b5fb03e61117fa71d1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "79ea1c0949449f7ba516979163de103f2a04cb80d65918d0b1a26d7165c22c61",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

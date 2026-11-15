@@ -1,0 +1,301 @@
+{
+  "schema": "mac_character_coverage/v1",
+  "roles": {
+    "adult_man": {
+      "label": "成年男性",
+      "aliases": [
+        "成年男性",
+        "男性患者",
+        "男性家属",
+        "adult man",
+        "male adult"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_adult_man_stand_v1@fa48c1a5d0c8a6a3193c",
+        "seated": "paper:character_adult_man_alert_seated_scale_v2@2f8982a413a17ede57e7",
+        "walk": "paper:male_patient_walk_20261023@d62490e89e12051bec27",
+        "reach": "paper:character_adult_man_reach_v1@9c7b5df75b54aa5f0cb7",
+        "seated_upper_abdomen_stool": "paper:character_adult_man_upper_abdomen_stool_v1@940c35c3311ff976dd49",
+        "stand_family": "paper:character_older_brother_stand_v1@3e1a2ff9045795feea85",
+        "seated_navy": "paper:character_adult_man_seated_v1@0e0f00e844d41eb6e923",
+        "seated_alert_armchair": "paper:character_man_alert_armchair_v1@237979fb0ab51f69d672",
+        "seated_head_down_armchair": "paper:character_man_unresponsive_armchair_v1@1c789f2f0a894ca77f5f",
+        "seated_head_down_low_chair": "paper:character_adult_man_unresponsive_seated_scale_v2@45d8d8cae12ee5b7db2e"
+      }
+    },
+    "adult_woman": {
+      "label": "成年女性",
+      "aliases": [
+        "成年女性",
+        "女性患者",
+        "女性家属",
+        "adult woman",
+        "female adult"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach",
+        "lying"
+      ],
+      "current_assets": {
+        "stand": "paper:reserve_person_stand_v1@3c28ed53faed7bdb2097",
+        "stand_pregnant": "paper:character_adult_woman_pregnant_v1@c552635572e2fbb7c3c4",
+        "seated_nursing": "paper:character_adult_woman_nursing_v1@f68a6d6e68bb73c1bb28",
+        "seated": "paper:reserve_person_seated_v1@614a3e2cb69adf8772fe",
+        "walk": "paper:reserve_person_walk_v1@1cab2d09694fc62de580",
+        "reach": "paper:character_adult_woman_reach_v2@2f36e0dc661ff52176ad",
+        "lying": "paper:character_adult_woman_lying_v2@bc9d8c78881487eab243",
+        "pointing": "paper:reserve_person_pointing_v1@a953895eb6f55d31a612",
+        "side_stand": "paper:reserve_person_side_v1@85b4c8ad5ed0063f4072",
+        "stand_abpm": null,
+        "care_reach": "paper:character_adult_woman_care_reach_v2@a3af8c9c75393b11a2a8",
+        "calling": "paper:character_carer_calling_v1@c6ae15c6783548016f4a"
+      }
+    },
+    "teen_girl": {
+      "label": "青少年女性",
+      "aliases": [
+        "青少年",
+        "少女",
+        "青春期",
+        "teen girl",
+        "adolescent"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_teen_girl_stand_v1@cf2e3bc0ae20a7d0cb38",
+        "seated": "paper:character_teen_girl_seated_v1@f2d56ccaa7713fd19ee8",
+        "walk": "paper:character_teen_girl_walk_v1@8576b9dfd646679fe5b6",
+        "reach": "paper:character_teen_girl_reach_v1@f2d81a7258d865a29e8c"
+      }
+    },
+    "child_girl": {
+      "label": "儿童女性",
+      "aliases": [
+        "儿童",
+        "小孩",
+        "女童",
+        "child girl"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_child_girl_stand_v1@6eae072205c7df07d6e2",
+        "seated": "paper:character_child_girl_seated_v1@958980be13788add2243",
+        "walk": "paper:character_child_girl_walk_v1@c94420fc990fbf51eca7",
+        "reach": "paper:character_child_girl_reach_v1@333189da6230b181c6f3"
+      }
+    },
+    "older_man": {
+      "label": "老年男性",
+      "aliases": [
+        "老人",
+        "老年男性",
+        "older man",
+        "elderly man"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_older_man_stand_v1@60b696bfa4ad7ada1423",
+        "seated": "paper:character_older_man_seated_v1@a854ca2c4368a6e2938c",
+        "walk": "paper:character_older_man_walk_v1@41d9d469185ca1c5b373",
+        "reach": "paper:character_older_man_reach_v1@d27f63287c9301fbefc2",
+        "sit_transition": "paper:character_older_man_sit_transition_v1@a37805c306aafc2d8cc6",
+        "cane": "paper:character_older_man_cane_v1@3b215e3f3afaa45b6031",
+        "wheelchair": "paper:character_older_man_wheelchair_v1@f59559eaa2dfa5bed078"
+      }
+    },
+    "older_woman": {
+      "label": "老年女性",
+      "aliases": [
+        "老人",
+        "老年女性",
+        "older woman",
+        "elderly woman"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_older_woman_stand_v1@33a601c6e14b40ae09d7",
+        "seated": "paper:character_older_woman_seated_v1@034f2f8f6564675dab8e",
+        "walk": "paper:character_older_woman_walk_v1@3ad362bca43cb907eedb",
+        "reach": "paper:character_older_woman_reach_v1@93299f4bdc181510c122",
+        "sit_transition": "paper:character_older_woman_sit_transition_v1@4847dd9b722d90356cf3"
+      }
+    },
+    "pregnant_woman": {
+      "label": "孕妇",
+      "aliases": [
+        "孕妇",
+        "孕期",
+        "怀孕",
+        "pregnant woman"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_pregnant_woman_stand_v1@f0401afbb4f61f21a57f",
+        "seated": "paper:character_pregnant_woman_seated_scale_v2@6a7c4ce903a91930bb3b",
+        "walk": "paper:character_pregnant_woman_walk_v1@29b190d90f1e9a7c6746",
+        "reach": "paper:character_pregnant_woman_reach_v1@db949ea720b4a6d3e56a"
+      }
+    },
+    "clinician_man": {
+      "label": "男性医生",
+      "aliases": [
+        "医生",
+        "男性医生",
+        "男医生",
+        "clinician man",
+        "male doctor"
+      ],
+      "required_poses": [
+        "stand_explain",
+        "seated_consult",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand_explain": "paper:character_clinician_man_stand_v1@1106814b43a98b1e8f38",
+        "seated_consult": "paper:character_clinician_man_seated_consult_v1@22db91d12eb1c8acdd0e",
+        "walk": "paper:character_clinician_man_walk_v1@34e514d0b3b793204011",
+        "reach": "paper:character_clinician_man_reach_v1@c5d5ef7e8ddb079a58c4"
+      }
+    },
+    "clinician_woman": {
+      "label": "女性医生",
+      "aliases": [
+        "医生",
+        "女性医生",
+        "女医生",
+        "clinician woman",
+        "female doctor"
+      ],
+      "required_poses": [
+        "stand_explain",
+        "seated_consult",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand_explain": "paper:character_clinician_woman_stand_v2@00f2cb2943a6ac2afe7b",
+        "seated_consult": "paper:character_clinician_woman_seated_consult_v2@00c22c74b2a803cd7771",
+        "walk": "paper:character_clinician_woman_walk_v2@523dc9c2ec6332fe9313",
+        "reach": "paper:character_clinician_woman_reach_v2@07be0e3214bd5318a072"
+      }
+    },
+    "child_boy": {
+      "label": "男童",
+      "aliases": [
+        "男童",
+        "儿童男性",
+        "child boy"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_child_boy_stand_v1@91926c78a1be14239de2",
+        "seated": "paper:character_child_boy_seated_scale_v2@f4655ee00b8d7de4fa8f",
+        "walk": "paper:character_child_boy_walk_v1@ee32a2ae403d789b72d5",
+        "reach": "paper:character_child_boy_reach_v1@911c33e675afbac51c2c"
+      }
+    },
+    "teen_boy": {
+      "label": "男性青少年",
+      "aliases": [
+        "男性青少年",
+        "男少年",
+        "teen boy"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_teen_boy_stand_v1@e548f8fd3d075bc8ade2",
+        "seated": "paper:character_teen_boy_seated_v1@152f521603fb3dadaded",
+        "walk": "paper:character_teen_boy_walk_v1@84ebbb45a7eeee1939bb",
+        "reach": "paper:character_teen_boy_reach_v1@062975571f3f75a0e2d9"
+      }
+    },
+    "young_man": {
+      "label": "年轻成年男性",
+      "aliases": [
+        "年轻成年男性",
+        "年轻男性",
+        "young man"
+      ],
+      "required_poses": [
+        "stand",
+        "seated",
+        "walk",
+        "reach"
+      ],
+      "current_assets": {
+        "stand": "paper:character_young_man_stand_v1@caea1b4d1dcdda34d0d8",
+        "seated": "paper:character_young_man_seated_v1@b63e7e4111aecc6bdda8",
+        "walk": "paper:character_young_man_walk_v1@8a2cbd2ee07455944f9c",
+        "reach": "paper:character_young_man_reach_v1@e8181e5c2d5b52d3428d"
+      }
+    }
+  },
+  "pose_labels": {
+    "stand": "站立",
+    "seated": "坐姿",
+    "walk": "步行",
+    "reach": "伸手或接取",
+    "lying": "卧姿",
+    "pointing": "指认讲解",
+    "side_stand": "侧面站姿",
+    "stand_explain": "站立讲解",
+    "seated_consult": "坐姿问诊",
+    "seated_upper_abdomen_stool": "扶上腹坐凳",
+    "stand_family": "男性家属站姿",
+    "stand_abpm": "动态血压已佩戴站姿",
+    "seated_navy": "深绿衫蓝裤坐姿",
+    "sit_transition": "站坐转换中间姿态",
+    "care_reach": "照护伸手",
+    "seated_alert_armchair": "睁眼扶手椅坐姿",
+    "seated_head_down_armchair": "闭眼低头扶手椅坐姿",
+    "calling": "持手机贴耳呼叫",
+    "cane": "扶杖站立",
+    "wheelchair": "轮椅静坐"
+  },
+  "note": "12类角色的49个基础槽位；新增年轻成年男性、男童与男性青少年。单幅姿态覆盖不批准连续动作。"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mac_sfx_cooking_sizzle_v1",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 2.4,
+  "seeds": [
+    9413,
+    9414,
+    9415
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

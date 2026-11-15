@@ -1,0 +1,53 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_person_receive_v1",
+  "title": "通用人物双手接取姿态",
+  "kind": "image",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "人物",
+    "接触",
+    "交接"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "content_bounds": [
+    353,
+    29,
+    784,
+    1506
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "与独立报告试装；角色非品牌医生",
+  "source": {
+    "kind": "imagegen",
+    "generation": "builtin_edit",
+    "sample_has_brand": false
+  },
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "5ba7d9d228b8e113930ee8502d4eb3fcbeb4ae6738705aa1de25e2087eee1d5c",
+      "bytes": 1627256
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "5ffd60877523d18380f7e6deb0776d5712ba0f4689ae1b6f4f3341558879348b",
+      "bytes": 429
+    }
+  ],
+  "revision": "bcd43c994018d84d76c0"
+}

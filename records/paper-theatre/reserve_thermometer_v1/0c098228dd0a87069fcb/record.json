@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_thermometer_v1",
+  "title": "独立体温计",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "monitoring",
+    "thermometer"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "拿取/测量提示；无示例读数；不能宣称具体品牌操作教学",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "thermometer",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    29,
+    1206,
+    1212
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "34b6fe206aac097c10169c7d84f88abdfa114139ee87a5aba950a478c21ce5eb",
+      "bytes": 324660
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "7f8c6e4077cad5ea0ee59ea5561eb4ab0d6ad27358adb7b0dc2459f868a95776",
+      "bytes": 1476
+    }
+  ],
+  "revision": "0c098228dd0a87069fcb",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_thermometer_v1@867d60951653966b638d",
+    "source_record_sha256": "5cc50580905f407930d359538278209429ea27db17eedbf44e8455d8aa9b9c13",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "09971b97a4da23a623ea4a8ebc3d0beab56067f3df2704e2837c4eb295d7e2b3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

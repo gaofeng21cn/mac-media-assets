@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_medicine_carton_front_clean_v1",
+  "title": "无品牌药品纸盒·青绿正面",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    59,
+    6,
+    1378,
+    1000
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "medicine_carton_front_clean"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "无品牌药品纸盒·青绿正面",
+      "medicine_carton_front_clean"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "无品牌药品纸盒·青绿正面",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        59,
+        6,
+        1378,
+        1000
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "通用药品包装空白母版；片中名称与成分须来自具体说明书，不是可购买产品。"
+    }
+  ],
+  "usage_notes": "通用药品包装空白母版；片中名称与成分须来自具体说明书，不是可购买产品。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "b9afcb4f93e313937e42eda5b18c38eeab0c8cb009966a47f6978596fd965c0d",
+      "bytes": 1504604
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "525ba9f7979399b3b0ba8d9b4d98cf988b992047e578d17186f07068e4d968da",
+      "bytes": 1061
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "51e391611aa9f8a183fdd3661d468cc3b16150bf7718c7716c7367daddc3dd32",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "605478523accd740caeb6970911b3fc046bd71113a7cee6a73c3dbb29c988a92",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "c5484d0cd3a88c82a809df8ee815f7e631291071c1ac1addf527f3948beac3ca",
+      "bytes": 56723
+    }
+  ],
+  "revision": "5c0a12c2aff33dfb4707",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_medicine_carton_front_clean_v1@fe9b69c669e0385e048b",
+    "source_record_sha256": "390fd724ea11a77fdcce3d4d4b0a82dca4fd1ac6c0c1c8b933958018ab7bcf63",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "55f72912e7d66723953327450f68484a107d6ef560f37b1563c56b887238280e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

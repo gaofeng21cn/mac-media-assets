@@ -1,0 +1,11 @@
+{
+  "source_type": "imagegen",
+  "tool": "built-in image_gen.imagegen",
+  "generated_file": "/Users/gaofeng/.codex/generated_images/01a16745-2044-79d2-bdf7-d7ecf922265f/exec-64a16188-4726-4818-aba7-f824b9b10ade.png",
+  "reference_file": "assets/library/character_adult_man_seated_v1/01dc044f8da64299170b/files/payload.png",
+  "purpose": "血脂第4集s04，同一中年男性坐在可见木凳上，双手连续连接于袖口并扶住上腹；完整人物和凳面共同承托，替代双手搁腿且无椅的旧素材。",
+  "prompt": "Use case: identity-preserve. Asset type: complete reusable transparent paper-theatre patient pose for a Chinese medical explainer. Image 1 is the EDIT TARGET and identity/style reference. Preserve exactly the same middle-aged East Asian man's face, short black-and-gray hair, muted green button shirt with rolled sleeves, navy trousers, brown lace shoes, handmade textured torn-paper collage style, three-quarter front view facing slightly toward image right, and full head-to-shoes framing. Change the pose to a man sitting naturally on a clearly visible simple low wooden stool, leaning slightly forward with a mildly pained concerned expression. His left forearm crosses his torso and his left palm rests firmly on his UPPER ABDOMEN directly below the sternum and ABOVE THE NAVEL, not chest, groin or thigh. His right palm supports/overlaps the left hand at the same upper-abdomen location. Exactly two anatomically coherent arms and two intact hands, connected continuously to their sleeves. Both thighs are physically supported on the stool seat; stool seat and at least two stool legs remain visibly readable behind/beside the seated body, with both shoes resting on the same ground baseline as stool feet. Preserve a complete coherent character including head, neck, shoulders, torso, elbows, hands, knees, ankles, and shoes; no cropping. Use authentic transparent background alpha with no black/white rectangle, no ambient glow, no ground shadow halo. No pain spot, no red mark, no organ drawing, no extra props, no text, no border, no watermark. Deliver one single integrated full-body patient-plus-stool cutout with generous transparent padding around all edges.",
+  "dimensions": [1024, 1536],
+  "alpha_bounds": [93, 33, 984, 1504],
+  "review_scope": "原尺寸静态检查确认完整头、两臂两手、上腹接触、凳面和双鞋；当前镜头实际装配另行审看。完整动态、音频与医学终审不由本素材审核批准。"
+}

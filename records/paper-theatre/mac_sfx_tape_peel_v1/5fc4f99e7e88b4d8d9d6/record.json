@@ -1,0 +1,51 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_tape_peel_v1",
+  "title": "拟音：tape_peel",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "tape_peel"
+  ],
+  "entry": "audio/tape_peel-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "001f81f2f8956b2dd5d3383ae6466396f2ecdfc106dbb7600b34fd0091b806f0",
+      "bytes": 348
+    },
+    {
+      "path": "audio/tape_peel-1.wav",
+      "role": "payload",
+      "sha256": "b1a950ec22945aa84eeb9d8dc8ea35e735f7b344be86c595130c7bf300f6d7ca",
+      "bytes": 110442
+    },
+    {
+      "path": "audio/tape_peel-2.wav",
+      "role": "payload",
+      "sha256": "b35ddc58331269b6d0221070cd687af0a2f3e3ea89963776feba26d41cae0776",
+      "bytes": 110442
+    },
+    {
+      "path": "audio/tape_peel-3.wav",
+      "role": "payload",
+      "sha256": "1e115e42aa57ad4d029d614085b8decd6f04c01d34ed53d7cce6c9a052220335",
+      "bytes": 110442
+    }
+  ],
+  "revision": "5fc4f99e7e88b4d8d9d6"
+}

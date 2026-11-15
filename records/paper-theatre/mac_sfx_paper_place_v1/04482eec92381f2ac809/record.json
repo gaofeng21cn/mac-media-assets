@@ -1,0 +1,51 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_paper_place_v1",
+  "title": "拟音：paper_place",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "paper_place"
+  ],
+  "entry": "audio/paper_place-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/paper_place-1.wav",
+      "role": "payload",
+      "sha256": "6a1c7bbef761c04ec290f59b8d922de223f9a24f3bc8d326a4e98b96c6f50d05",
+      "bytes": 43244
+    },
+    {
+      "path": "audio/paper_place-2.wav",
+      "role": "payload",
+      "sha256": "b9496ca282587e9782dcb98e813bd3ff2c2a74c9a9401e22ffcae08700d56e91",
+      "bytes": 43244
+    },
+    {
+      "path": "audio/paper_place-3.wav",
+      "role": "payload",
+      "sha256": "01d8431750b972124dc12ae3650c446c305956edc46e02a1de90c6e9ef0309bc",
+      "bytes": 43244
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "18e96635becc4dfc8bf840cb41725fe29ff76777632110ed15377656e80c8247",
+      "bytes": 350
+    }
+  ],
+  "revision": "04482eec92381f2ac809"
+}

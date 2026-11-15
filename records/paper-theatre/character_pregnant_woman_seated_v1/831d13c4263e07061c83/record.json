@@ -1,0 +1,106 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_pregnant_woman_seated_v1",
+  "title": "孕妇完整坐姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "pregnant",
+    "seated",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "孕妇完整坐姿",
+    "aliases": [
+      "孕妇",
+      "怀孕",
+      "孕期",
+      "坐姿",
+      "产检",
+      "pregnant seated"
+    ],
+    "objects": [
+      "完整孕妇人物"
+    ],
+    "story_roles": [
+      "产检沟通",
+      "坐姿休息",
+      "孕期计划"
+    ],
+    "actions": [
+      "坐下",
+      "倾听",
+      "轻扶腹部"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整全身孕妇，无烘焙座椅；当前镜头仍需核对尺度、椅面接触与遮挡。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "完整孕妇坐姿；无烘焙座椅，可放在独立椅子上。主体全身与膝脚完整。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_pregnant_woman_seated_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    0,
+    30,
+    1002,
+    1492
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      30,
+      1002,
+      1492
+    ],
+    "opaque_ratio": 0.2805,
+    "translucent_ratio": 0.0094,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "a366d989e897c55b0a06b09cb6e5c41e441c794b43eda43d58f5fdb26fb460b7",
+      "bytes": 1844862
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "52a98fd50307e6751f78beada9db034b01f56a8eb8ac8da1098e2fc34d19bd77",
+      "bytes": 507
+    }
+  ],
+  "revision": "831d13c4263e07061c83"
+}

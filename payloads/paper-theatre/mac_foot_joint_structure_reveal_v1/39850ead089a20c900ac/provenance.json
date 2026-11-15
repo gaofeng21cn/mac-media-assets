@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_foot_joint_detailed_layers_v1@283c6b2c20073a11d32c",
+      "portable_record_sha256": "5ad34a3c514921a6774e6166536f4a35c87266386a58a85e7465061557023a8c"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

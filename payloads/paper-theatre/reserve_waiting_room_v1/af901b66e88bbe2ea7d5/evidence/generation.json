@@ -1,0 +1,37 @@
+{
+  "id": "reserve_waiting_room_v1",
+  "prompt": "Use case: illustration-story. A quiet contemporary Chinese hospital outpatient waiting area as a reusable EMPTY background plate for medical education paper-theatre animation. Wide landscape composition, tactile layered cut paper and watercolor, soft muted cream and sage palette. Benches along rear wall, unlettered closed doors on far sides, a blank reception window in rear corner. Large uncluttered open foreground floor and blank central wall for separately composited full-body characters. Correct simple perspective, human scale. No people, no writing/signage/numbers/logo/watermark, no emergency drama. Entire opaque illustration. Furniture and architecture are intentionally a single static backdrop; no operation depicted.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "46e8163c3ed5e0bb78b9d4a6943a2a78a5301b5d26c68d89f58fb6c0173b73d4",
+  "measurements": {
+    "size": [
+      1672,
+      941
+    ],
+    "bounds": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "corners": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "opaque": true
+  },
+  "identity_reference_sha256": null,
+  "review": {
+    "selected": true,
+    "title": "候诊区空场背景板",
+    "aliases": [
+      "候诊区",
+      "等候区",
+      "空场",
+      "门诊"
+    ],
+    "note": "已看空场、中央留白与透视；整幅不透明背景，家具、门窗和接待台不可独立操作。"
+  }
+}

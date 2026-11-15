@@ -1,0 +1,463 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_heart_structure_reveal_v1",
+  "title": "心脏·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "心脏",
+      "逐层揭示",
+      "局部高亮",
+      "heart"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "心脏·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "心脏正面四腔关系示意，画面左为解剖右；右房右室与左房左室分别表达。血管为连接概览，未表达瓣膜细节、血流动画或真实比例。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "23ee0732bc05afcdf27d9ceabb970925bb7d2da832c896b0bf502bd9f6c89619",
+      "bytes": 692
+    },
+    {
+      "path": "assets/four_chambers.png",
+      "role": "payload",
+      "sha256": "aca6687aa2abfc5f2b5f569e6729b87ef2881c6ebd9f19092cc309c1713a9fe1",
+      "bytes": 40896
+    },
+    {
+      "path": "assets/great_vessels.png",
+      "role": "payload",
+      "sha256": "3a9effc9906b9ea8467a3759690799455fb613053db3401c738e309bfc9cd5e8",
+      "bytes": 17602
+    },
+    {
+      "path": "assets/heart_wall.png",
+      "role": "payload",
+      "sha256": "4f8ef75cccf663049b2612bd6b531d4748d6f0108d312b2b1638c95f480d8e6e",
+      "bytes": 30987
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "02ccdb4c8e88a4c13e23f783e2dda672f0b61adf2e87936d06107b6f39b1c851",
+      "bytes": 669
+    },
+    {
+      "path": "original/files/four_chambers.png",
+      "role": "payload",
+      "sha256": "aca6687aa2abfc5f2b5f569e6729b87ef2881c6ebd9f19092cc309c1713a9fe1",
+      "bytes": 40896
+    },
+    {
+      "path": "original/files/great_vessels.png",
+      "role": "payload",
+      "sha256": "3a9effc9906b9ea8467a3759690799455fb613053db3401c738e309bfc9cd5e8",
+      "bytes": 17602
+    },
+    {
+      "path": "original/files/heart_wall.png",
+      "role": "payload",
+      "sha256": "4f8ef75cccf663049b2612bd6b531d4748d6f0108d312b2b1638c95f480d8e6e",
+      "bytes": 30987
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "061207e06e31e0b3b2bf97fcdc41edc6b29937ac8184c495230be15e05b4f402",
+      "bytes": 6119
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "f092149cd74ff576b57408e7d379423a9331d75ed0b59525d6ca8b33d996f999",
+      "bytes": 70691
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/four_chambers.svg",
+      "role": "payload",
+      "sha256": "09da04380cb60828ec17cb4e347e9c19480f15968a806d9fbd176bde30b049d4",
+      "bytes": 786
+    },
+    {
+      "path": "original/source/great_vessels.svg",
+      "role": "payload",
+      "sha256": "16ca8494ba275c0f0c36a52b4042168e5e39902b341a04cd8f2690f5d232795e",
+      "bytes": 668
+    },
+    {
+      "path": "original/source/heart_wall.svg",
+      "role": "payload",
+      "sha256": "d18f8e3743c7d080117dc28f258abbfcd14c9826c1b19beedd997b60beb2a6f8",
+      "bytes": 302
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "c3533ce165cbd2e6e89ff799b6aa65868a6cee7c39607aaa57358578f49d21a5",
+      "bytes": 1562
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "4fa2e3abbb44f2748012f4e394f3e309723535ab6f510f712a4c58f545798eae",
+      "bytes": 368
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "83f77dc94acae5c69b8b1599ee827b95cec3bcd927c0585d08fc33bd45cd71ba",
+      "bytes": 6543
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "ffd3d90dd75e8ccfbc64b86a60599ebcf1117cb072acc7a09f6c0745a4061d2f",
+      "bytes": 90120
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "32313bd651e9a2fda57cc7e83848a5ee392e64a2427c0a4b5c7ac359998007d8",
+      "bytes": 87124
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "1e233624adcc8bf3298a11bf2543b293b7f49854d4fdcfc1b748ae4808afc5d0",
+      "bytes": 90678
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "e751a5f49b5fe60034508b2c30b23a5c62cc0ec1c58d4198341e91c16c1051bc",
+      "bytes": 43362
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "f210a989e03593cdd8b2f72561b76b7ac7a7cebdf1b97761795513fd6ef890be",
+      "bytes": 94311
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "47127470ebf42504a22b9e5996d844b85862695925257dba935fa2a62dcf54e9",
+      "bytes": 92046
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "fcddaf5c51d768e93b2db52b8a15eaaf0cc28292c6d69b4d4f986819d1c43c31",
+      "bytes": 95275
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "757c9fad5a3f8da5d405987fb517b1d287fc359e9c3d4e2936885f9550da5c7a",
+      "bytes": 19159
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "18e7dcbf35284843807dbaef2994d161dbe21337d2a4e64ca6a5d7810e478492",
+      "bytes": 162085
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "fde8786db75b725db4cb935f1ef94d1ea8c49cd3d2cbb7d59071500f432dba1e",
+      "bytes": 187927
+    },
+    {
+      "path": "samples/focus-phone/0-heart_wall-color.png",
+      "role": "payload",
+      "sha256": "7aec7343d916c50950902f279cc5316e9fc17f8199534dabed103f9f5536d2db",
+      "bytes": 20440
+    },
+    {
+      "path": "samples/focus-phone/0-heart_wall-dark.png",
+      "role": "payload",
+      "sha256": "d53e911df52c3db4acc7765d2f1e31b2b9d8cf171ac5eef6c60ad47fd3ed7a29",
+      "bytes": 20945
+    },
+    {
+      "path": "samples/focus-phone/0-heart_wall-light.png",
+      "role": "payload",
+      "sha256": "842bbff140babb5aacf9101a4ec79045c0de144a9ba88411199acb0f62a5dc82",
+      "bytes": 19678
+    },
+    {
+      "path": "samples/focus-phone/0-heart_wall.png",
+      "role": "payload",
+      "sha256": "842bbff140babb5aacf9101a4ec79045c0de144a9ba88411199acb0f62a5dc82",
+      "bytes": 19678
+    },
+    {
+      "path": "samples/focus-phone/1-four_chambers-color.png",
+      "role": "payload",
+      "sha256": "8c8754bdaa7d8352fb7fffb3d5b9f3807b7bc819d8461f3eaf83a00240595247",
+      "bytes": 22972
+    },
+    {
+      "path": "samples/focus-phone/1-four_chambers-dark.png",
+      "role": "payload",
+      "sha256": "5875e391c6baeb338a545f18d5aae0b71e6028d858db6f9865806e422d8c5d23",
+      "bytes": 23171
+    },
+    {
+      "path": "samples/focus-phone/1-four_chambers-light.png",
+      "role": "payload",
+      "sha256": "c1e1e0cee8d1a86126dad881b4445a1136c1908ebcf167bbb20713172eeac519",
+      "bytes": 22392
+    },
+    {
+      "path": "samples/focus-phone/1-four_chambers.png",
+      "role": "payload",
+      "sha256": "c1e1e0cee8d1a86126dad881b4445a1136c1908ebcf167bbb20713172eeac519",
+      "bytes": 22392
+    },
+    {
+      "path": "samples/focus-phone/2-great_vessels-color.png",
+      "role": "payload",
+      "sha256": "6d159ef5726386a07656d45bae2bdd01d1efcc801f02dbcbeebc7c8cbf01f336",
+      "bytes": 20642
+    },
+    {
+      "path": "samples/focus-phone/2-great_vessels-dark.png",
+      "role": "payload",
+      "sha256": "71eace701d6a1e2c267346f9c924aaaca7ea2bc63db1bd13e97a1b8b1d53b331",
+      "bytes": 20756
+    },
+    {
+      "path": "samples/focus-phone/2-great_vessels-light.png",
+      "role": "payload",
+      "sha256": "c4b4dc4a87a450bde5cf11cc3547a84637357b47a09866384608b4f1c49cb2f6",
+      "bytes": 19981
+    },
+    {
+      "path": "samples/focus-phone/2-great_vessels.png",
+      "role": "payload",
+      "sha256": "c4b4dc4a87a450bde5cf11cc3547a84637357b47a09866384608b4f1c49cb2f6",
+      "bytes": 19981
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "fcddaf5c51d768e93b2db52b8a15eaaf0cc28292c6d69b4d4f986819d1c43c31",
+      "bytes": 95275
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "fcddaf5c51d768e93b2db52b8a15eaaf0cc28292c6d69b4d4f986819d1c43c31",
+      "bytes": 95275
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "2197ed6833988e433abdfcc09e268e58f4935d577cebbb6700d1dda78283cef7",
+      "bytes": 51242
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "3a379c28f366a5f9c8db6fa5dd0a959fd6c6425b18f3caf8d3a0de82e421deee",
+      "bytes": 68367
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "3a379c28f366a5f9c8db6fa5dd0a959fd6c6425b18f3caf8d3a0de82e421deee",
+      "bytes": 68367
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "a6cdeec90bcda1d9fddfd8cc2d80c17428e9c80068b1ad62dfd426c82007b866",
+      "bytes": 91337
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "a6cdeec90bcda1d9fddfd8cc2d80c17428e9c80068b1ad62dfd426c82007b866",
+      "bytes": 91337
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "b08bd17eca46348f24c6db90f9388c5317e65e1f7a49be9cc7fb187bba906b41",
+      "bytes": 94647
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "b08bd17eca46348f24c6db90f9388c5317e65e1f7a49be9cc7fb187bba906b41",
+      "bytes": 94647
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "894950be213b23a3d6a80374429166b87061b84a1cbba077593072423f5cad92",
+      "bytes": 98164
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "894950be213b23a3d6a80374429166b87061b84a1cbba077593072423f5cad92",
+      "bytes": 98164
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "894950be213b23a3d6a80374429166b87061b84a1cbba077593072423f5cad92",
+      "bytes": 98164
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "a038291fba0d44e88da208f09ab5731bef7688f2cbcc4a0f6c4b4c7390b9e5e3",
+      "bytes": 115607
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "a038291fba0d44e88da208f09ab5731bef7688f2cbcc4a0f6c4b4c7390b9e5e3",
+      "bytes": 115607
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "d1a81b67d6c6e99f9dd2468d38a4b40aa6dbad4f0f902501b7485d98405e380b",
+      "bytes": 109939
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "a70325bc9e76ff9c8e62ebaecd8dae98160177bc57226d6340af12a97ffa49da",
+      "bytes": 98466
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "a70325bc9e76ff9c8e62ebaecd8dae98160177bc57226d6340af12a97ffa49da",
+      "bytes": 98466
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "3a0a05d5e9aa179fadad7a0bcb5d64e51d7eb3ca67fdd222ddc7d88f9ac10bbc",
+      "bytes": 85285
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "fcddaf5c51d768e93b2db52b8a15eaaf0cc28292c6d69b4d4f986819d1c43c31",
+      "bytes": 95275
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "6c5b26d9c93712421af03755e111f722f53902ca8db8571ccdf8a11b32fb91ba",
+      "bytes": 27885
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "17d05f5f5f0fd5673a557a3f44dad46f82251014920056c27f5e13f065989988",
+      "bytes": 18122
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "ee00965883d7924dc313d15edccea20ce6962f547b66b27026167ef4fd93a61e",
+      "bytes": 257177
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "450584dd96a2eddf745d9423b768fbacd324fceaa6dea41e428167a1dd449ce1",
+      "bytes": 12932
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "6d90221b7a10fbe8e0c4b34215e57a8a94fa80e97860f342389fa218da991639",
+      "bytes": 5508
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "0940630b475c6588a8ad"
+}

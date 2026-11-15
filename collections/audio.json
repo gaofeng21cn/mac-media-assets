@@ -1,0 +1,1398 @@
+{
+  "schema": "mac_audio_discovery/v1",
+  "assets": [
+    {
+      "asset_id": "paper:mac_music_calm_v1@f6fcaf7c5e783da182ed",
+      "source_id": "mac_music_calm_v1",
+      "category": "bgm",
+      "title": "情绪配乐：平静",
+      "emotion_or_event": [
+        "平静",
+        "安静",
+        "温和",
+        "calm"
+      ],
+      "bpm": 68,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": "bed",
+          "note_onsets": 32,
+          "onsets_per_second": 1.024
+        },
+        {
+          "stem": "pulse",
+          "note_onsets": 16,
+          "onsets_per_second": 0.512
+        },
+        {
+          "stem": "motif",
+          "note_onsets": 12,
+          "onsets_per_second": 0.384
+        }
+      ],
+      "edit_points_seconds": [
+        0.0,
+        14.118,
+        28.235
+      ],
+      "stems": [
+        "bed",
+        "pulse",
+        "motif"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_music_calm_v1/f6fcaf7c5e783da182ed/music/audition.flac",
+          "duration_seconds": 31.235292,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_calm_v1/f6fcaf7c5e783da182ed/music/bed.flac",
+          "duration_seconds": 31.235292,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_calm_v1/f6fcaf7c5e783da182ed/music/motif.flac",
+          "duration_seconds": 31.235292,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_calm_v1/f6fcaf7c5e783da182ed/music/pulse.flac",
+          "duration_seconds": 31.235292,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_music_curious_v1@84918945d68a493fc064",
+      "source_id": "mac_music_curious_v1",
+      "category": "bgm",
+      "title": "情绪配乐：探索",
+      "emotion_or_event": [
+        "探索",
+        "好奇",
+        "调查",
+        "curious"
+      ],
+      "bpm": 84,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": "bed",
+          "note_onsets": 32,
+          "onsets_per_second": 1.238
+        },
+        {
+          "stem": "pulse",
+          "note_onsets": 32,
+          "onsets_per_second": 1.238
+        },
+        {
+          "stem": "motif",
+          "note_onsets": 12,
+          "onsets_per_second": 0.464
+        }
+      ],
+      "edit_points_seconds": [
+        0.0,
+        11.429,
+        22.857
+      ],
+      "stems": [
+        "bed",
+        "pulse",
+        "motif"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_music_curious_v1/84918945d68a493fc064/music/audition.flac",
+          "duration_seconds": 25.857146,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_curious_v1/84918945d68a493fc064/music/bed.flac",
+          "duration_seconds": 25.857146,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_curious_v1/84918945d68a493fc064/music/motif.flac",
+          "duration_seconds": 25.857146,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_curious_v1/84918945d68a493fc064/music/pulse.flac",
+          "duration_seconds": 25.857146,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_music_relief_v1@7f6d31bd774a87e0420a",
+      "source_id": "mac_music_relief_v1",
+      "category": "bgm",
+      "title": "情绪配乐：释然",
+      "emotion_or_event": [
+        "释然",
+        "缓解",
+        "希望",
+        "relief"
+      ],
+      "bpm": 76,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": "bed",
+          "note_onsets": 32,
+          "onsets_per_second": 1.132
+        },
+        {
+          "stem": "pulse",
+          "note_onsets": 16,
+          "onsets_per_second": 0.566
+        },
+        {
+          "stem": "motif",
+          "note_onsets": 12,
+          "onsets_per_second": 0.425
+        }
+      ],
+      "edit_points_seconds": [
+        0.0,
+        12.632,
+        25.263
+      ],
+      "stems": [
+        "bed",
+        "pulse",
+        "motif"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_music_relief_v1/7f6d31bd774a87e0420a/music/audition.flac",
+          "duration_seconds": 28.263167,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_relief_v1/7f6d31bd774a87e0420a/music/bed.flac",
+          "duration_seconds": 28.263167,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_relief_v1/7f6d31bd774a87e0420a/music/motif.flac",
+          "duration_seconds": 28.263167,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_relief_v1/7f6d31bd774a87e0420a/music/pulse.flac",
+          "duration_seconds": 28.263167,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_music_tension_v1@2d31dd337e51ecb1eeb1",
+      "source_id": "mac_music_tension_v1",
+      "category": "bgm",
+      "title": "情绪配乐：紧张",
+      "emotion_or_event": [
+        "紧张",
+        "悬念",
+        "警觉",
+        "tension"
+      ],
+      "bpm": 70,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": "bed",
+          "note_onsets": 32,
+          "onsets_per_second": 1.052
+        },
+        {
+          "stem": "pulse",
+          "note_onsets": 16,
+          "onsets_per_second": 0.526
+        },
+        {
+          "stem": "motif",
+          "note_onsets": 12,
+          "onsets_per_second": 0.394
+        }
+      ],
+      "edit_points_seconds": [
+        0.0,
+        13.714,
+        27.429
+      ],
+      "stems": [
+        "bed",
+        "pulse",
+        "motif"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_music_tension_v1/2d31dd337e51ecb1eeb1/music/audition.flac",
+          "duration_seconds": 30.428563,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_tension_v1/2d31dd337e51ecb1eeb1/music/bed.flac",
+          "duration_seconds": 30.428563,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_tension_v1/2d31dd337e51ecb1eeb1/music/motif.flac",
+          "duration_seconds": 30.428563,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_music_tension_v1/2d31dd337e51ecb1eeb1/music/pulse.flac",
+          "duration_seconds": 30.428563,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_bottle_cap_v1@856ff3ab3487c1cc97e2",
+      "source_id": "mac_sfx_bottle_cap_v1",
+      "category": "sfx",
+      "title": "事件拟音：旋盖",
+      "emotion_or_event": [
+        "旋盖",
+        "瓶盖",
+        "开瓶",
+        "bottle cap"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_bottle_cap_v1/856ff3ab3487c1cc97e2/audio/bottle_cap-1.flac",
+          "duration_seconds": 0.8,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_bottle_cap_v1/856ff3ab3487c1cc97e2/audio/bottle_cap-2.flac",
+          "duration_seconds": 0.8,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_bottle_cap_v1/856ff3ab3487c1cc97e2/audio/bottle_cap-3.flac",
+          "duration_seconds": 0.8,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_cc0_reference_v1@4477d20eef182cb49d96",
+      "source_id": "mac_sfx_cc0_reference_v1",
+      "category": "sfx",
+      "title": "事件拟音：翻页",
+      "emotion_or_event": [
+        "翻页",
+        "旋盖",
+        "实录",
+        "CC0"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cc0_reference_v1/4477d20eef182cb49d96/audio/page-turn-cc0.mp3",
+          "duration_seconds": 0.588685,
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cc0_reference_v1/4477d20eef182cb49d96/audio/bottle-cap-cc0.mp3",
+          "duration_seconds": 2.92,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_clip_click_v1@41c66540f5e36fe0ce06",
+      "source_id": "mac_sfx_clip_click_v1",
+      "category": "sfx",
+      "title": "事件拟音：夹子",
+      "emotion_or_event": [
+        "夹子",
+        "夹持",
+        "咔哒",
+        "clip"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_clip_click_v1/41c66540f5e36fe0ce06/audio/clip_click-1.flac",
+          "duration_seconds": 0.3,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_clip_click_v1/41c66540f5e36fe0ce06/audio/clip_click-2.flac",
+          "duration_seconds": 0.3,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_clip_click_v1/41c66540f5e36fe0ce06/audio/clip_click-3.flac",
+          "duration_seconds": 0.3,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_drawer_slide_v1@80efa5c65bebb572b8ca",
+      "source_id": "mac_sfx_drawer_slide_v1",
+      "category": "sfx",
+      "title": "事件拟音：抽屉",
+      "emotion_or_event": [
+        "抽屉",
+        "滑动",
+        "drawer"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_drawer_slide_v1/80efa5c65bebb572b8ca/audio/drawer_slide-1.flac",
+          "duration_seconds": 1.1,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_drawer_slide_v1/80efa5c65bebb572b8ca/audio/drawer_slide-2.flac",
+          "duration_seconds": 1.1,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_drawer_slide_v1/80efa5c65bebb572b8ca/audio/drawer_slide-3.flac",
+          "duration_seconds": 1.1,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_folder_rustle_v1@fdb1d9ad637c91018187",
+      "source_id": "mac_sfx_folder_rustle_v1",
+      "category": "sfx",
+      "title": "事件拟音：资料袋",
+      "emotion_or_event": [
+        "资料袋",
+        "收纳",
+        "纸袋摩擦",
+        "folder"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_folder_rustle_v1/fdb1d9ad637c91018187/audio/folder_rustle-1.flac",
+          "duration_seconds": 0.95,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_folder_rustle_v1/fdb1d9ad637c91018187/audio/folder_rustle-2.flac",
+          "duration_seconds": 0.95,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_folder_rustle_v1/fdb1d9ad637c91018187/audio/folder_rustle-3.flac",
+          "duration_seconds": 0.95,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_paper_fold_v1@97ff7e337e073b7ae5d8",
+      "source_id": "mac_sfx_paper_fold_v1",
+      "category": "sfx",
+      "title": "事件拟音：折纸",
+      "emotion_or_event": [
+        "折纸",
+        "折叠",
+        "paper fold"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_fold_v1/97ff7e337e073b7ae5d8/audio/paper_fold-1.flac",
+          "duration_seconds": 0.65,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_fold_v1/97ff7e337e073b7ae5d8/audio/paper_fold-2.flac",
+          "duration_seconds": 0.65,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_fold_v1/97ff7e337e073b7ae5d8/audio/paper_fold-3.flac",
+          "duration_seconds": 0.65,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_paper_place_v1@48695eeeea0fe22e56fe",
+      "source_id": "mac_sfx_paper_place_v1",
+      "category": "sfx",
+      "title": "事件拟音：落纸",
+      "emotion_or_event": [
+        "落纸",
+        "放下",
+        "纸张接触",
+        "paper place"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_place_v1/48695eeeea0fe22e56fe/audio/paper_place-1.flac",
+          "duration_seconds": 0.45,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_place_v1/48695eeeea0fe22e56fe/audio/paper_place-2.flac",
+          "duration_seconds": 0.45,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_place_v1/48695eeeea0fe22e56fe/audio/paper_place-3.flac",
+          "duration_seconds": 0.45,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_paper_turn_v1@a7a06ec469063c68d674",
+      "source_id": "mac_sfx_paper_turn_v1",
+      "category": "sfx",
+      "title": "事件拟音：翻页",
+      "emotion_or_event": [
+        "翻页",
+        "纸张",
+        "page turn"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_turn_v1/a7a06ec469063c68d674/audio/paper_turn-1.flac",
+          "duration_seconds": 0.8,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_turn_v1/a7a06ec469063c68d674/audio/paper_turn-2.flac",
+          "duration_seconds": 0.8,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_paper_turn_v1/a7a06ec469063c68d674/audio/paper_turn-3.flac",
+          "duration_seconds": 0.8,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_tape_peel_v1@b7859238335b52dc91c5",
+      "source_id": "mac_sfx_tape_peel_v1",
+      "category": "sfx",
+      "title": "事件拟音：揭胶带",
+      "emotion_or_event": [
+        "揭胶带",
+        "撕胶带",
+        "胶带",
+        "tape peel"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_tape_peel_v1/b7859238335b52dc91c5/audio/tape_peel-1.flac",
+          "duration_seconds": 1.149979,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_tape_peel_v1/b7859238335b52dc91c5/audio/tape_peel-2.flac",
+          "duration_seconds": 1.149979,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_tape_peel_v1/b7859238335b52dc91c5/audio/tape_peel-3.flac",
+          "duration_seconds": 1.149979,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "editable_midi": false,
+      "contact_sync": "由本镜头命名接触事件驱动",
+      "mix_role": "可选材质回应",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:paper_music_bed@fb2bcc9b61e878b1a917",
+      "source_id": "paper_music_bed",
+      "category": "bgm",
+      "title": "纸上下一步 · 氛围分轨",
+      "emotion_or_event": [
+        "氛围",
+        "配乐",
+        "安静",
+        "bed"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 69,
+          "onsets_per_second": 1.085
+        },
+        {
+          "stem": null,
+          "note_onsets": 72,
+          "onsets_per_second": 1.132
+        },
+        {
+          "stem": null,
+          "note_onsets": 28,
+          "onsets_per_second": 0.44
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/paper_music_bed/fb2bcc9b61e878b1a917/audio/music/bed.flac",
+          "duration_seconds": 63.578375,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:paper_music_pulse@9144d94a62cae0433958",
+      "source_id": "paper_music_pulse",
+      "category": "bgm",
+      "title": "纸上下一步 · 节奏分轨",
+      "emotion_or_event": [
+        "节奏",
+        "配乐",
+        "拨弦",
+        "pulse"
+      ],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 69,
+          "onsets_per_second": 1.085
+        },
+        {
+          "stem": null,
+          "note_onsets": 72,
+          "onsets_per_second": 1.132
+        },
+        {
+          "stem": null,
+          "note_onsets": 28,
+          "onsets_per_second": 0.44
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/paper_music_pulse/9144d94a62cae0433958/audio/music/pulse.flac",
+          "duration_seconds": 63.578375,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:six_paper_music_breast_nodules_paper_theatre@af57cc6ec7164f51cb3b",
+      "source_id": "six_paper_music_breast_nodules_paper_theatre",
+      "category": "bgm",
+      "title": "breast_nodules_paper_theatre 原创纸剧场分轨配乐",
+      "emotion_or_event": [],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 64,
+          "onsets_per_second": 1.133
+        },
+        {
+          "stem": null,
+          "note_onsets": 55,
+          "onsets_per_second": 0.974
+        },
+        {
+          "stem": null,
+          "note_onsets": 12,
+          "onsets_per_second": 0.212
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/six_paper_music_breast_nodules_paper_theatre/af57cc6ec7164f51cb3b/music/bed-sampler.flac",
+          "duration_seconds": 60.018667,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_breast_nodules_paper_theatre/af57cc6ec7164f51cb3b/music/bed.flac",
+          "duration_seconds": 56.485083,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_breast_nodules_paper_theatre/af57cc6ec7164f51cb3b/music/pulse-sampler.flac",
+          "duration_seconds": 59.486667,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_breast_nodules_paper_theatre/af57cc6ec7164f51cb3b/music/motif-sampler.flac",
+          "duration_seconds": 59.486667,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_breast_nodules_paper_theatre/af57cc6ec7164f51cb3b/music/motif.flac",
+          "duration_seconds": 56.485083,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_breast_nodules_paper_theatre/af57cc6ec7164f51cb3b/music/pulse.flac",
+          "duration_seconds": 56.485083,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:six_paper_music_ckd_paper_theatre@bf2903a97e1c3d75686b",
+      "source_id": "six_paper_music_ckd_paper_theatre",
+      "category": "bgm",
+      "title": "ckd_paper_theatre 原创纸剧场分轨配乐",
+      "emotion_or_event": [],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 67,
+          "onsets_per_second": 1.134
+        },
+        {
+          "stem": null,
+          "note_onsets": 58,
+          "onsets_per_second": 0.982
+        },
+        {
+          "stem": null,
+          "note_onsets": 12,
+          "onsets_per_second": 0.203
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/six_paper_music_ckd_paper_theatre/bf2903a97e1c3d75686b/music/bed-sampler.flac",
+          "duration_seconds": 62.606667,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_ckd_paper_theatre/bf2903a97e1c3d75686b/music/bed.flac",
+          "duration_seconds": 59.074083,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_ckd_paper_theatre/bf2903a97e1c3d75686b/music/pulse-sampler.flac",
+          "duration_seconds": 62.076,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_ckd_paper_theatre/bf2903a97e1c3d75686b/music/motif-sampler.flac",
+          "duration_seconds": 62.076,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_ckd_paper_theatre/bf2903a97e1c3d75686b/music/motif.flac",
+          "duration_seconds": 59.074083,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_ckd_paper_theatre/bf2903a97e1c3d75686b/music/pulse.flac",
+          "duration_seconds": 59.074083,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:six_paper_music_gout_paper_theatre@54d02a82eb2cfc7a004a",
+      "source_id": "six_paper_music_gout_paper_theatre",
+      "category": "bgm",
+      "title": "gout_paper_theatre 原创纸剧场分轨配乐",
+      "emotion_or_event": [],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 70,
+          "onsets_per_second": 1.164
+        },
+        {
+          "stem": null,
+          "note_onsets": 50,
+          "onsets_per_second": 0.831
+        },
+        {
+          "stem": null,
+          "note_onsets": 12,
+          "onsets_per_second": 0.2
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/six_paper_music_gout_paper_theatre/54d02a82eb2cfc7a004a/music/bed-sampler.flac",
+          "duration_seconds": 63.674667,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_gout_paper_theatre/54d02a82eb2cfc7a004a/music/bed.flac",
+          "duration_seconds": 60.142208,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_gout_paper_theatre/54d02a82eb2cfc7a004a/music/pulse-sampler.flac",
+          "duration_seconds": 63.145333,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_gout_paper_theatre/54d02a82eb2cfc7a004a/music/motif-sampler.flac",
+          "duration_seconds": 63.145333,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_gout_paper_theatre/54d02a82eb2cfc7a004a/music/motif.flac",
+          "duration_seconds": 60.142208,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_gout_paper_theatre/54d02a82eb2cfc7a004a/music/pulse.flac",
+          "duration_seconds": 60.142208,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:six_paper_music_graves_paper_theatre@e0c2a92c398e9f7ea237",
+      "source_id": "six_paper_music_graves_paper_theatre",
+      "category": "bgm",
+      "title": "graves_paper_theatre 原创纸剧场分轨配乐",
+      "emotion_or_event": [],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 70,
+          "onsets_per_second": 1.157
+        },
+        {
+          "stem": null,
+          "note_onsets": 61,
+          "onsets_per_second": 1.008
+        },
+        {
+          "stem": null,
+          "note_onsets": 12,
+          "onsets_per_second": 0.198
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/six_paper_music_graves_paper_theatre/e0c2a92c398e9f7ea237/music/bed-sampler.flac",
+          "duration_seconds": 64.046667,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_graves_paper_theatre/e0c2a92c398e9f7ea237/music/bed.flac",
+          "duration_seconds": 60.51375,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_graves_paper_theatre/e0c2a92c398e9f7ea237/music/pulse-sampler.flac",
+          "duration_seconds": 63.516,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_graves_paper_theatre/e0c2a92c398e9f7ea237/music/motif-sampler.flac",
+          "duration_seconds": 63.516,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_graves_paper_theatre/e0c2a92c398e9f7ea237/music/motif.flac",
+          "duration_seconds": 60.51375,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_graves_paper_theatre/e0c2a92c398e9f7ea237/music/pulse.flac",
+          "duration_seconds": 60.51375,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:six_paper_music_hashimoto_paper_theatre@d1a96bf9614801feecc2",
+      "source_id": "six_paper_music_hashimoto_paper_theatre",
+      "category": "bgm",
+      "title": "hashimoto_paper_theatre 原创纸剧场分轨配乐",
+      "emotion_or_event": [],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 70,
+          "onsets_per_second": 1.18
+        },
+        {
+          "stem": null,
+          "note_onsets": 61,
+          "onsets_per_second": 1.029
+        },
+        {
+          "stem": null,
+          "note_onsets": 12,
+          "onsets_per_second": 0.202
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/six_paper_music_hashimoto_paper_theatre/d1a96bf9614801feecc2/music/bed-sampler.flac",
+          "duration_seconds": 62.838667,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_hashimoto_paper_theatre/d1a96bf9614801feecc2/music/bed.flac",
+          "duration_seconds": 59.306292,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_hashimoto_paper_theatre/d1a96bf9614801feecc2/music/pulse-sampler.flac",
+          "duration_seconds": 62.308,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_hashimoto_paper_theatre/d1a96bf9614801feecc2/music/motif-sampler.flac",
+          "duration_seconds": 62.308,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_hashimoto_paper_theatre/d1a96bf9614801feecc2/music/motif.flac",
+          "duration_seconds": 59.306292,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_hashimoto_paper_theatre/d1a96bf9614801feecc2/music/pulse.flac",
+          "duration_seconds": 59.306292,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:six_paper_music_pcos_paper_theatre@b1790cd7c71a1075d22c",
+      "source_id": "six_paper_music_pcos_paper_theatre",
+      "category": "bgm",
+      "title": "pcos_paper_theatre 原创纸剧场分轨配乐",
+      "emotion_or_event": [],
+      "bpm": null,
+      "density": "MIDI起音密度只描述谱面，听感密度按分轨试听判断",
+      "onset_density_by_stem": [
+        {
+          "stem": null,
+          "note_onsets": 70,
+          "onsets_per_second": 1.275
+        },
+        {
+          "stem": null,
+          "note_onsets": 61,
+          "onsets_per_second": 1.111
+        },
+        {
+          "stem": null,
+          "note_onsets": 12,
+          "onsets_per_second": 0.219
+        }
+      ],
+      "edit_points_seconds": [],
+      "stems": [],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/six_paper_music_pcos_paper_theatre/b1790cd7c71a1075d22c/music/bed-sampler.flac",
+          "duration_seconds": 58.428,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_pcos_paper_theatre/b1790cd7c71a1075d22c/music/bed.flac",
+          "duration_seconds": 54.8945,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_pcos_paper_theatre/b1790cd7c71a1075d22c/music/pulse-sampler.flac",
+          "duration_seconds": 57.897333,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_pcos_paper_theatre/b1790cd7c71a1075d22c/music/motif-sampler.flac",
+          "duration_seconds": 57.897333,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_pcos_paper_theatre/b1790cd7c71a1075d22c/music/motif.flac",
+          "duration_seconds": 54.8945,
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "path": "payloads/paper-theatre/six_paper_music_pcos_paper_theatre/b1790cd7c71a1075d22c/music/pulse.flac",
+          "duration_seconds": 54.8945,
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "editable_midi": true,
+      "contact_sync": "按旁白空隙与情绪转折调整分轨",
+      "mix_role": "旁白下的可选配乐",
+      "ending": "逐轨试听尾音，短镜头优先选事件变体；不要任意截断音乐尾音",
+      "technical_analysis": "duration_and_format_measured",
+      "listening_review": "pending",
+      "current_mix": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sfx_footstep_soft_v1@049609c816541bb51e5e",
+      "source_id": "mac_sfx_footstep_soft_v1",
+      "category": "sfx",
+      "title": "拟音：脚步（纸舞台轻步）",
+      "emotion_or_event": [
+        "脚步",
+        "走路",
+        "迈步",
+        "footstep",
+        "steps"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_footstep_soft_v1/049609c816541bb51e5e/audio/footstep_soft-1.flac",
+          "duration_seconds": 0.32,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_footstep_soft_v1/049609c816541bb51e5e/audio/footstep_soft-2.flac",
+          "duration_seconds": 0.32,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_footstep_soft_v1/049609c816541bb51e5e/audio/footstep_soft-3.flac",
+          "duration_seconds": 0.32,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_chair_sit_v1@660cdbaebf07235b1b9b",
+      "source_id": "mac_sfx_chair_sit_v1",
+      "category": "sfx",
+      "title": "拟音：落座（椅面承重）",
+      "emotion_or_event": [
+        "落座",
+        "坐下",
+        "椅子",
+        "chair",
+        "sit"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_chair_sit_v1/660cdbaebf07235b1b9b/audio/chair_sit-1.flac",
+          "duration_seconds": 0.75,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_chair_sit_v1/660cdbaebf07235b1b9b/audio/chair_sit-2.flac",
+          "duration_seconds": 0.75,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_chair_sit_v1/660cdbaebf07235b1b9b/audio/chair_sit-3.flac",
+          "duration_seconds": 0.75,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_cloth_rustle_v1@7695035b3dc9801c0e3c",
+      "source_id": "mac_sfx_cloth_rustle_v1",
+      "category": "sfx",
+      "title": "拟音：衣料摩擦",
+      "emotion_or_event": [
+        "衣料",
+        "衣服",
+        "摩擦",
+        "cloth",
+        "rustle"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cloth_rustle_v1/7695035b3dc9801c0e3c/audio/cloth_rustle-1.flac",
+          "duration_seconds": 0.9,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cloth_rustle_v1/7695035b3dc9801c0e3c/audio/cloth_rustle-2.flac",
+          "duration_seconds": 0.9,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cloth_rustle_v1/7695035b3dc9801c0e3c/audio/cloth_rustle-3.flac",
+          "duration_seconds": 0.9,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_device_confirm_v1@d791fd61c898a2493a11",
+      "source_id": "mac_sfx_device_confirm_v1",
+      "category": "sfx",
+      "title": "拟音：器械完成提示音",
+      "emotion_or_event": [
+        "提示音",
+        "完成",
+        "测量完成",
+        "beep",
+        "device"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_device_confirm_v1/d791fd61c898a2493a11/audio/device_confirm-1.flac",
+          "duration_seconds": 0.42,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_device_confirm_v1/d791fd61c898a2493a11/audio/device_confirm-2.flac",
+          "duration_seconds": 0.42,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_device_confirm_v1/d791fd61c898a2493a11/audio/device_confirm-3.flac",
+          "duration_seconds": 0.42,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    },
+    {
+      "asset_id": "paper:mac_sfx_cooking_sizzle_v1@a86de72e40b35fc34040",
+      "source_id": "mac_sfx_cooking_sizzle_v1",
+      "category": "sfx",
+      "title": "拟音：烹饪油声",
+      "emotion_or_event": [
+        "油声",
+        "煎炒",
+        "下锅",
+        "sizzle",
+        "cooking"
+      ],
+      "variants_or_tracks": [
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cooking_sizzle_v1/a86de72e40b35fc34040/audio/cooking_sizzle-1.flac",
+          "duration_seconds": 2.4,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cooking_sizzle_v1/a86de72e40b35fc34040/audio/cooking_sizzle-2.flac",
+          "duration_seconds": 2.4,
+          "sample_rate": "48000",
+          "channels": 1
+        },
+        {
+          "path": "payloads/paper-theatre/mac_sfx_cooking_sizzle_v1/a86de72e40b35fc34040/audio/cooking_sizzle-3.flac",
+          "duration_seconds": 2.4,
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "listening_review": "pending",
+      "note": "程序合成动作拟音；与四套连续动作包配套，先在当前混音里审听。"
+    }
+  ],
+  "policy": "技术测量不替代审听。配乐不是固定循环，拟音不是每次移动都响。"
+}

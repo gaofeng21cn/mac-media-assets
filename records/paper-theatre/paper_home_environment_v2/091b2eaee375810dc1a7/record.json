@@ -1,0 +1,86 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_home_environment_v2",
+  "title": "居家纸舞台：纤维墙面、窗口与书架",
+  "kind": "environment_plate",
+  "tags": [
+    "paper_collage",
+    "home"
+  ],
+  "entry": "files/payload.webp",
+  "asset": {
+    "asset_id": "home",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "visual_meaning": "家庭书桌、窗与阅读空间",
+    "must_not_imply": "背景中本子不能与活动物件重复；不是医学图",
+    "medical": false,
+    "status": "review_candidate",
+    "prompt_ref": "evidence/0-paper-stages-v6.json",
+    "generation_receipt": "evidence/0-paper-stages-v6.json",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/06_prolactin_not_one_number/v6",
+    "series": "pituitary_paper_theatre",
+    "episode": "06_prolactin_not_one_number",
+    "asset_id": "home",
+    "original_manifest": {
+      "asset_id": "home",
+      "path": "assets/season/home-paper-stage-v2.png",
+      "source_type": "imagegen",
+      "visual_meaning": "家庭书桌、窗与阅读空间",
+      "must_not_imply": "背景中本子不能与活动物件重复；不是医学图",
+      "medical": false,
+      "status": "review_candidate",
+      "prompt_ref": "preproduction/paper-stages-v6.json",
+      "generation_receipt": "preproduction/paper-stages-v6.json",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [
+    "连续动态仍按新镜头审看"
+  ],
+  "usage_notes": "低注意力环境层；主体另用透明纸件构建；本次只审实际全季合成的静帧",
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "9f9e489f1034e48c3ab73f6b7363be9b82f2076d4ecd54f1c943d4df184ebc9d",
+      "bytes": 2006666
+    },
+    {
+      "path": "evidence/0-paper-stages-v6.json",
+      "role": "evidence",
+      "sha256": "ab9fd8186c40148c82599376bca9f285e8aea3e73b5b355c03b1eb59ce56827b",
+      "bytes": 1063
+    }
+  ],
+  "revision": "091b2eaee375810dc1a7",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_home_environment_v2@d14ea8056c2f185249b2",
+    "source_record_sha256": "ea216696045d80cee35bcab3609e456b9ee6d32fced87e636abe57b7a03aca31",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "088debfe147b5deefdde825ea430f79d94d754a74c532d193f99d31f901a9918",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1672,
+        "height": 940,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

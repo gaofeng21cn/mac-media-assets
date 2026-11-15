@@ -1,0 +1,740 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_cooking_action_v1",
+  "title": "连续备餐：切配、入锅、翻动与盛出",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "continuous_action",
+    "cooking"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "连续备餐：切配、入锅、翻动与盛出",
+      "cooking",
+      "连续动作",
+      "mac_cooking_action_v1"
+    ],
+    "actions": [
+      "连续烹饪",
+      "切配",
+      "翻炒",
+      "盛出"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "连续动作",
+      "日常饮食"
+    ],
+    "display_title": "连续备餐：切配、入锅、翻动与盛出",
+    "renderers": [
+      "canvas2d"
+    ],
+    "sample_duration_seconds": 9.0
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "not_applicable",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "ground": null,
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "c96b652f4547704be0c69ffef0802f6090393926091ed3d2bfb20f4e059eb801",
+      "bytes": 823
+    },
+    {
+      "path": "assets/board.webp",
+      "role": "payload",
+      "sha256": "9f5dc526a567af7787dcbb918459830b2a939bb72a66b03fa280afb18c14767f",
+      "bytes": 1583242
+    },
+    {
+      "path": "assets/cooker.webp",
+      "role": "payload",
+      "sha256": "4d8117df5620464d9d702a82f8d5b1e3d456c7aa455f45f1874d61da42ea7b50",
+      "bytes": 687902
+    },
+    {
+      "path": "assets/food.webp",
+      "role": "payload",
+      "sha256": "18da67544bb7daf430ac9108e9807c2fbd5072ce1fd0b746695f77ef0db3d11c",
+      "bytes": 805364
+    },
+    {
+      "path": "assets/hand.webp",
+      "role": "payload",
+      "sha256": "b2bd99704efdcbb2731d6a78903600ab920cf43b87f47e674994c06184f271b3",
+      "bytes": 1345238
+    },
+    {
+      "path": "assets/knife.webp",
+      "role": "payload",
+      "sha256": "a72b012fb28d667ec9705dcf07f62b4108ecbac13d938c4c8f39fb0f50c8bc30",
+      "bytes": 379354
+    },
+    {
+      "path": "assets/pan.webp",
+      "role": "payload",
+      "sha256": "165fdddc220f89061b388b7d1a2575950054086dda9abfd9fce222edc0e2ea78",
+      "bytes": 1122696
+    },
+    {
+      "path": "assets/plate.webp",
+      "role": "payload",
+      "sha256": "6b3e693a419844c6cf991238d0835f2e450e6a07e4564e3147e1935b20eb1323",
+      "bytes": 975246
+    },
+    {
+      "path": "assets/spatula_hand.webp",
+      "role": "payload",
+      "sha256": "51a6c402c9ef86332d396f056f0ef156379bee2a3be3f9c5f869f7072c60fc74",
+      "bytes": 1082298
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "8d10c64d778f9cc0f3b94572ab46da240becfb35928b67fceb555a18cad02df6",
+      "bytes": 2454
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "3582df99e5d8c3fa05617b2b8a92826949e81ae9cbd7e60fc759ac6673f66f6e",
+      "bytes": 5484
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "87d24635543296dad1c88001ca31d20ef45472f27000838a0a8b6d984be8214a",
+      "bytes": 5899
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "ce314976e89633ead5de7bb26ad69664135458e19129e425d11044ac5f0bdde4",
+      "bytes": 312216
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "82e3b8105e9bf22f3301e020d6102785c96bfd95a6848d814e01c74a023c3c42",
+      "bytes": 311186
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "15dc8616f32cef9ece259c6b218af31f09f46ce1394d0e0e60b84b0f7ed600d5",
+      "bytes": 309388
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "f63a01c261f0af5edbacd06cab2a193c8a42ad0f3fd0a36be201c96d17e4f452",
+      "bytes": 143611
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "aace91229693443db54dafdbdc9575bf00231117c5ff8dc941afdfa926dc5a07",
+      "bytes": 348033
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "3a5d54093787ecafa893e86dea455bac3d746c8e403fac68eee1982ede48a342",
+      "bytes": 311282
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "3a5d54093787ecafa893e86dea455bac3d746c8e403fac68eee1982ede48a342",
+      "bytes": 311282
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "4108c228d31a871552e8abf0e4de0ba8d00ac279542e527f9decf5396ca2b887",
+      "bytes": 292800
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "3dbd5aae9565f296d70d33097cf8493c37b959c2cba66806bd29dc115c8ac836",
+      "bytes": 312022
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "dd39aa341e4a0a364097cb2554c61801829bee8164d59b286c4d915ac485c479",
+      "bytes": 293456
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "c25c14d106fce730d46bc5624215e54754aeeefcde8ec66f2f163265e3fe1e16",
+      "bytes": 294176
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "ae2b718e836375d0c2f01f8b773ca7cd22ffd7c6a52b0ef9c5e012778284c4c8",
+      "bytes": 300660
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "9726e95ca4d6b26ed8307620a1746419f7240d7cfb68db2f349dde007f7df7d0",
+      "bytes": 306050
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "7e98d09eef8970cd521e09c2743a5ed49f6d1ae99d2a23e6c370ee629fb98657",
+      "bytes": 310476
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "aa76faa1ac84cc6008003356810d80e8e95d062486caf656a722754200285454",
+      "bytes": 295292
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "713651a1a999e15e94a43e0e79351d627e619e2da652f0d7b267593644da8ca9",
+      "bytes": 291540
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "63dac49e5e4d98977606846f096943704847bbfe6b231c7c402044de7bb5b68f",
+      "bytes": 290940
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "e03151439e35af5ccad0d8820f423817f31b0d397de30bf5fbae601135c120f9",
+      "bytes": 292322
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "11dccdb8212617d5021a28d34724cd779549d2491985345213984f7185b8e26b",
+      "bytes": 291116
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "94ed076672867298b4974f791007e0d8dae569a6d75fd4283871d9b44153e8b2",
+      "bytes": 291354
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "713651a1a999e15e94a43e0e79351d627e619e2da652f0d7b267593644da8ca9",
+      "bytes": 291540
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "713651a1a999e15e94a43e0e79351d627e619e2da652f0d7b267593644da8ca9",
+      "bytes": 291540
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "edd5a53e29eeb05ae24823e5389dda2e359997ba235a959b7e787f85123ecc1b",
+      "bytes": 299326
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "ce8eec1362640c33f0cd6a1dafdb206cb7c2bfa5de8d53c514279cb96f2442ad",
+      "bytes": 305540
+    },
+    {
+      "path": "samples/keyframes/19.webp",
+      "role": "payload",
+      "sha256": "0811d40f4ed8305182ca0bec11052824f299e85930bcd6f0d90507cac23b648f",
+      "bytes": 286926
+    },
+    {
+      "path": "samples/keyframes/20.webp",
+      "role": "payload",
+      "sha256": "0811d40f4ed8305182ca0bec11052824f299e85930bcd6f0d90507cac23b648f",
+      "bytes": 286926
+    },
+    {
+      "path": "samples/live-contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "425bb4cb28ffc5405b45607bc7c2d2d05b29be0790efe2899beb89eb7b547d55",
+      "bytes": 409942
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "7a4f437cada7d586214e4721c1ecc2855c4e0dc47e8522be7aa2519ea6316eb5",
+      "bytes": 34598
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "814a195feb99d847a2051bf7cf803704bbe9b78849a77db9322d441661f69b67",
+      "bytes": 437764
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "637cad38ce686600bbbaf9486769ef2d32b4761a6e4698c3ee3cf423d437f769",
+      "bytes": 9479
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "8ce60e0441a531bbefc76a2f4c5d84c4770387e79e1a70d4f693f7beb84eae1a",
+      "bytes": 5065
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "ecd40b78c8d45dae9886",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_cooking_action_v1@4e1f3848364c56d2fe6e",
+    "source_record_sha256": "c91cb9eec664f04995fb09b33d2b3ded14b2afad467247cd7f4574ddd1fd18ed",
+    "encodings": [
+      {
+        "path": "assets/board.png",
+        "encoded_path": "assets/board.webp",
+        "source_sha256": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/cooker.png",
+        "encoded_path": "assets/cooker.webp",
+        "source_sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1448,
+        "height": 1086,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/food.png",
+        "encoded_path": "assets/food.webp",
+        "source_sha256": "0e5a20f2c2171a364ba470069cb170601ce7b150af5e1d4603f242c4e5008b52",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/hand.png",
+        "encoded_path": "assets/hand.webp",
+        "source_sha256": "12a3963759118d3a0910a85d3386c5c4cde4a882cfb3b90fd9f14231cfc97dad",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/knife.png",
+        "encoded_path": "assets/knife.webp",
+        "source_sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1451,
+        "height": 1084,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/pan.png",
+        "encoded_path": "assets/pan.webp",
+        "source_sha256": "941160bce5a959b8475da28d3a74d36f76a546aa75bad76dd23c0babab1e4a08",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/plate.png",
+        "encoded_path": "assets/plate.webp",
+        "source_sha256": "87f9c26d0380083348714358a7564d1bd27cc6866090a6dba602c417c73c7761",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/spatula_hand.png",
+        "encoded_path": "assets/spatula_hand.webp",
+        "source_sha256": "644f330dbd87901ec7a52a5ccaf8146d9507f1071b0bf3d6299301daa045821d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "97aa6d31f66663a7555293cb802dc106233c4d4808fee2b9ebf3fdb2d8417929",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "0266757899b77ed1b56d03f80bf5e85224d7acaf0a05d449b59044c54b928198",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "e70bb0cfdaf7396776029bef33cf2d5a5d89c848a5dde540eb9e4df69f05f1f8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "95cc535693388b92e1a5baad9b15da0100d20bfbd47334c375f86b6f47c07716",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "95cc535693388b92e1a5baad9b15da0100d20bfbd47334c375f86b6f47c07716",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "55780f96bcf2939b2b92b83aee51e0390db090e6f462b9c99f4d2bf5e901f89f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "592e08e7447aad650e03e615511ecceb2c57d6fc565e20b5bf6cad96e46656fc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "3e9982e40ce0fe6fcab2271238ec020029e4db9dcf65db060438af66435ab5d0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "c2317e83045fcf2b9321b50fd0d022957fd9f8bc9a801ae00350c586070e4795",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "1da2f45076dbaa2fd7b66927c3ee594bbd8627d158a99c33245aeae4bb9f66c6",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "23670312cbef67d71c8ad9a1ff5097a34332908e054b1439068e564e236dbfb2",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "25ad63ebcd78ab8c46d1118e5eaefc0f31d3e0e6a66b9b3fff31904847a6198c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "c5a8404797094db9e43f74ba33aca1ed6b384f67e59d867f9bb09b8aa6ce28d4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "737c8b7d5c1821bccd30c09f9cc791f7377f452bf7d6d22c0a42d2a4d50556c8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "8a94719a24cfb64cbe000f92cabd1e4ca781557b59bbbc3d07c788e6bc24291c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "6026b0b59b957a5b80cbe5f7f58658c648ca75290b9848b694b93d78c6e34717",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "1ef53685c3ab8087e3d856aba07cd9caf12165784cf64a44a8864368ad0c8ad4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "9f4003b4b70ac47d67b8469a67659e563ca7373f5fddc9acd233bd44816247da",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "737c8b7d5c1821bccd30c09f9cc791f7377f452bf7d6d22c0a42d2a4d50556c8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "737c8b7d5c1821bccd30c09f9cc791f7377f452bf7d6d22c0a42d2a4d50556c8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "aa6bf6f744fa12a3f9b81467cd0ab3cca6975233c04d475ada2067ab060cf06d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "23f24f04b0b01a031ff9ddedb7eb4aef991722573ab1615583a10e322b582dc0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/19.png",
+        "encoded_path": "samples/keyframes/19.webp",
+        "source_sha256": "540777676ac9ce895c3e55ca3e7db3da29a683861ca9b6dea4e5a9303525a3d3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/20.png",
+        "encoded_path": "samples/keyframes/20.webp",
+        "source_sha256": "540777676ac9ce895c3e55ca3e7db3da29a683861ca9b6dea4e5a9303525a3d3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "97e8404472405ca39709dbcbf3292f789be5daeabf6d65f45ef46b5529c72d2e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_eye_section_normal_v1",
+  "title": "正常眼球纵切面·成像关系近景",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "myopia"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1522,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "eye_section_normal"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "正常眼球纵切面·成像关系近景",
+      "eye_section_normal"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "正常眼球纵切面·成像关系近景",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1522,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "角膜在画面左，晶状体在前部，视网膜沿后壁，视神经向画面右后方；非真实患者影像。"
+    }
+  ],
+  "usage_notes": "角膜在画面左，晶状体在前部，视网膜沿后壁，视神经向画面右后方；非真实患者影像。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "eaf5d391340abe3127aff514f70beab80f750600eb2d206df7ef544c9dcec957",
+      "bytes": 1488206
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "2a92d157b53ecde957bb70d62360797ec419c28cb010c2b3fd5e58145accc631",
+      "bytes": 1209
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "230946ed2b814d744807ef19f677f3ba9598a85b1bf55797e9bff61d19934c84",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "79a47303d7fb94e7fc48fe8e7b9ecbb20b7e24a5734a1f4c6aff88069cdb0494",
+      "bytes": 23667
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "db02c33a136cd24e87abdce22f1e18b1e482306d4f5b9973fcdda9126ad24456",
+      "bytes": 800
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "cf995e0ef325ccf4fb967c2c29748e9ef2b846296d17b48aecaab8d4674a79cd",
+      "bytes": 67108
+    }
+  ],
+  "revision": "c9d1a53f05024532df4d",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_eye_section_normal_v1@0fe769bef4b8162cbece",
+    "source_record_sha256": "edc08d3a371881dc398c4834cad76d6d6553a1412a44b8d469040ef3f368908b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "2d659548196cea29691472f1e846598f3755313de0c6ad8c6c6ef6e7cf53afaa",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

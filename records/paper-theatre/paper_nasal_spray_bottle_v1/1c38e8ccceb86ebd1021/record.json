@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_nasal_spray_bottle_v1",
+  "title": "定量鼻喷装置·独立物件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    16,
+    1004,
+    1508
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "nasal_spray_bottle"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "定量鼻喷装置·独立物件",
+      "nasal_spray_bottle"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "定量鼻喷装置·独立物件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        16,
+        1004,
+        1508
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "鼻喷装置外观，不作为全部品牌的通用操作示范；具体操作核对说明书。"
+    }
+  ],
+  "usage_notes": "鼻喷装置外观，不作为全部品牌的通用操作示范；具体操作核对说明书。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "05759f6d9607d3aaf5a16cc3ae7cdc5249ff9a9bc2a8d7791300ba59c22264e0",
+      "bytes": 1159964
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "2a71c007aadec6b9dad270c884964437e5289fb170e5ea63ae78aedc5d43a322",
+      "bytes": 977
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "7aaa3f117c6b01a4f8765ed5d6d683dbd24be7a0d38c4a72a3a5a1e60a55131b",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "ecdc938adb1cabb2971902025e15afc108edabfbb212236a1693a98e7dc36500",
+      "bytes": 607
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "ebbb81ea519032fe31b6f6b8a09df2395a0f5e66af616eede6fe640dd38f8be1",
+      "bytes": 46703
+    }
+  ],
+  "revision": "1c38e8ccceb86ebd1021",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_nasal_spray_bottle_v1@434eef56f298f58381d1",
+    "source_record_sha256": "0f5011a4ca476ab5622f890a80ca05fd2175bd28054efb4f7877685c2b3a64c4",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "cee61df9b174c404f94dd2585d9e63c3a918a78eb37a0204e1dbce65421c6f88",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

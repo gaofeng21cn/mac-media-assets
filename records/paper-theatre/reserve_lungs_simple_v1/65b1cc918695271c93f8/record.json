@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_lungs_simple_v1",
+  "title": "肺与气管·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "肺与气管·payload",
+      "medical": true,
+      "content_bounds": [
+        309,
+        93,
+        715,
+        824
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_lungs_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肺与气管",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肺与气管支气管示意，左右为画面左右；不表示肺叶分段、肺功能或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "ce2960b0d6354de4e5648e56fed4e746c22214e96b29e5e40c24de4262a15b68",
+      "bytes": 845
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "03148d7e883afe17ce0134dd84609908e35d6cd6ab1fe951567f3ab34d689ff1",
+      "bytes": 15892
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "ce2960b0d6354de4e5648e56fed4e746c22214e96b29e5e40c24de4262a15b68",
+      "bytes": 845
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "03148d7e883afe17ce0134dd84609908e35d6cd6ab1fe951567f3ab34d689ff1",
+      "bytes": 15892
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "b8a1fdb7ecb98f1bddaac3f0f2c0b27a9d0e5816939f278909a78fa8dfed5cc5",
+      "bytes": 24223
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "390cab0d3f74dadc5be8d409e9d9ae5dedabb62dfddfa141f499b18d466b9cfe",
+      "bytes": 591
+    }
+  ],
+  "revision": "65b1cc918695271c93f8",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_lungs_simple_v1@4f55141c0749b1945cb9",
+    "source_record_sha256": "03a1c059d15ab3dd5a96b90d6794fd2c714cf1c3ba90fd95fce4e5caaa609cce",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "d8284d30cabbaf7840bff59e71ea1e66f72e3d47c9a2d2070c55bee1cdbdab52",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "d8284d30cabbaf7840bff59e71ea1e66f72e3d47c9a2d2070c55bee1cdbdab52",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

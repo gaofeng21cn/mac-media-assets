@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_stool_specimen_jar_v1",
+  "title": "粪便标本容器·独立有盖纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    19,
+    1288,
+    1177
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "stool_specimen_jar"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "粪便标本容器·独立有盖纸件",
+      "stool_specimen_jar"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "粪便标本容器·独立有盖纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        19,
+        1288,
+        1177
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "粪便检查容器身份示意；不以外观判断病因或规定采样量。"
+    }
+  ],
+  "usage_notes": "粪便检查容器身份示意；不以外观判断病因或规定采样量。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "cb9a0f8655ec636e4b68f8248c6f744edae827958cbd0b7801292e081c5e066c",
+      "bytes": 1198140
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "85ce135a2d85aa27790a7daf3cbb784637a72a35f60ebeb3d06a6e7730df4553",
+      "bytes": 1008
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "9ec0cf9217b293a8b878bd14f237d79d74deb3c74743a5d34523c39ad32910c5",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "1cce5234b32179dade1b5519df2596831a65b0e84e032e9fe6313c43642ed704",
+      "bytes": 595
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "a251c587a5df7ef588107fe0a43c2d22d0baf14a51f5be2c05e1a00a8320a1ca",
+      "bytes": 80358
+    }
+  ],
+  "revision": "f3c318197bebdb0ac26e",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_stool_specimen_jar_v1@d54ed653876917b0b364",
+    "source_record_sha256": "c3254bedbd494df96be36632552037134956b965a3ccaa59ca5c4a53778d7f2d",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a25528bcec6104b1d7db714f600449ac4b138d15667a99c095c285359639bf62",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1312,
+        "height": 1199,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

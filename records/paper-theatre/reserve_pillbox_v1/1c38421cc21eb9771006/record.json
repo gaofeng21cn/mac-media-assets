@@ -1,0 +1,55 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pillbox_v1",
+  "title": "独立无字药盒",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "care",
+    "pillbox"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "整体取放；逐格开盖需新层；不承诺药品/用法/剂量；按当前故事医学审查",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "pillbox",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    21,
+    1224,
+    1216
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b4023cd648a794db7b4a34f337a7f2250758ea5c2fcff9b40ca577be31f2c942",
+      "bytes": 1124900
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "eab9cd90ed2c50748d4a3fad237ceb9a5ebe2be9e32653154f70baee19409774",
+      "bytes": 1267
+    }
+  ],
+  "revision": "1c38421cc21eb9771006"
+}

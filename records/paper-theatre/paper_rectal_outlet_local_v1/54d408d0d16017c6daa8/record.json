@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_rectal_outlet_local_v1",
+  "title": "直肠出口与盆底·局部结构",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "constipation"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    15,
+    1192,
+    1298
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "rectal_outlet_local"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "直肠出口与盆底·局部结构",
+      "rectal_outlet_local"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "直肠出口与盆底·局部结构",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        15,
+        1192,
+        1298
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "直肠、肛管与肌群的定性局部关系；不作为插管或自行检查示范。"
+    }
+  ],
+  "usage_notes": "直肠、肛管与肌群的定性局部关系；不作为插管或自行检查示范。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "98cad2ad13dd9cf921596858ec5a582d5fe9fcbf0c33c6ebc68b29e4684c9b9c",
+      "bytes": 1348030
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "9f6da6e27e29178afde2f2cef17833abf8ccbc0022f22af24ff1ec16f3dc4c4d",
+      "bytes": 1285
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "5472639ae1f3f3a58827ceb04cc89bfed9f28d4fcd0ad4da19b3458c9b7183f2",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "2004d1a58eb836baf8605af9305e55b7337a7dd0da3d747e4c18ea923922fbd0",
+      "bytes": 18365
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "3143d4d1db154a8034e31bdf1254da1d55201e05a457156d14047d208d2a9090",
+      "bytes": 764
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "344abe649ac50e2025c65bf6c83cfdc30311162f0a1f1034192dafc53710dcf7",
+      "bytes": 116046
+    }
+  ],
+  "revision": "54d408d0d16017c6daa8",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_rectal_outlet_local_v1@b2a20c58f1b249d7a67b",
+    "source_record_sha256": "2bbb588553bd80d8172b845a1e1cafce9fe661571db8ff5bd61484c3091f238a",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "ca7989d5ffc81bdfa2af39a782519b69e1a2fd21dca180ddfaa3640cb603e29b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1212,
+        "height": 1298,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

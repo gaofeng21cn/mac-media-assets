@@ -1,0 +1,8 @@
+{
+  "id": "nasal_cavity_coronal",
+  "title": "鼻腔冠状局部·鼻中隔与外侧壁",
+  "topic": "allergic_rhinitis",
+  "usage": "定性辨认鼻中隔与鼻腔外侧壁，供方向解释；不作为个人影像或全部鼻喷器操作说明。",
+  "transparent_background": true,
+  "prompt": "Use case scientific-educational. ONE isolated local NOSE anatomy cutaway viewed from the front at a shallow CORONAL section. Show two nasal air passages separated by a clear straight central ivory nasal SEPTUM, with softly curved pink mucosal turbinate folds along the outer left and right walls. Small connected bridge at top and two nostril openings below, no eyes, face, brain, mouth or full head. Make lateral walls and central septum distinguishable without labels, educational simplified anatomy, no disease or gore. Exquisite hand-painted fibrous cut-paper collage with gouache, fine pencil detail, muted peach/ivory/dusty-rose colors, delicate layered paper depth. Complete coherent local specimen centered with true RGBA transparent exterior and generous empty margins. No text, arrows, tools, spray droplets, frame, background, halo or ground shadow."
+}

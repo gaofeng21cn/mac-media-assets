@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_femur_trabecula_sparse_v1",
+  "title": "骨小梁稀疏·同视角结构比较",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "osteoporosis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1159,
+    1312
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "femur_trabecula_sparse"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "骨小梁稀疏·同视角结构比较",
+      "femur_trabecula_sparse"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "骨小梁稀疏·同视角结构比较",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1159,
+        1312
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "骨小梁减少、变细与连接丢失的定性结构例子；不声称代表具体患者测量。"
+    }
+  ],
+  "usage_notes": "骨小梁减少、变细与连接丢失的定性结构例子；不声称代表具体患者测量。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "461ad79cd66c677096d301c488f30e3079406392b551802f8990d5e01cf1b2bc",
+      "bytes": 919228
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "aeece805ff60de5e9b4cae93f08b9d861841bd05d598889ac4ece6d827f86626",
+      "bytes": 1152
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "2d9aee795d05b24f084b46e4f09a66de83f4506ea04632da5e72a4a260068c43",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "0b1d0ccedad117ecee2e840222cefb17a5acfe3960f0f2c8c6fcb42b4224b8d8",
+      "bytes": 616
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "b6b055aa7e8e4377ac924e0bfe0c53ad3b28551bbd636c915da47b127b818b0e",
+      "bytes": 86055
+    }
+  ],
+  "revision": "298a397f8f681c0f51ee",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_femur_trabecula_sparse_v1@84dcf5ed89bb20235c68",
+    "source_record_sha256": "efbaed86cbc653b75d692730e3100e7e523cdca314f727bf20f800ce55dd5858",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "b7143a278269bb0ac5273f2f4cb95455f697f1a64ee8af2fb5fcd175c4c2e671",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1199,
+        "height": 1312,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

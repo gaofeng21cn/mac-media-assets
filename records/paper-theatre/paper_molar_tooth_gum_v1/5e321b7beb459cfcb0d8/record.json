@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_molar_tooth_gum_v1",
+  "title": "磨牙、牙龈与牙槽骨·纵切面",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "oral_health"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1183,
+    1312
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "molar_tooth_gum"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "磨牙、牙龈与牙槽骨·纵切面",
+      "molar_tooth_gum"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "磨牙、牙龈与牙槽骨·纵切面",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1183,
+        1312
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "牙釉质、牙本质、牙髓和牙根支持关系；不是所有牙齿或个体的真实形态。"
+    }
+  ],
+  "usage_notes": "牙釉质、牙本质、牙髓和牙根支持关系；不是所有牙齿或个体的真实形态。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "0710edd20fb80639ca0413ba93d71357467d65d18cfed2143ea92a30358f25be",
+      "bytes": 1629748
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "4f94a735597373353e4d04933de5c696d46cf33d00b43018facfca79ba42dc85",
+      "bytes": 1149
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "a9e74e6873e76b8bbb9d3d036d12ee2c1edd057a79ebe351c5511728550c42a7",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "7936286191438c7dba0ceb77932a2a6bffec578bcbb2514888160f1d82c20580",
+      "bytes": 22370
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "023e473e7b1f20c4e42145f07d212d16b0b74343aaafed3fd918d61bfc336d1d",
+      "bytes": 779
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "640fb9fc0f81d506e532005d5060e50ee88013ad15f0655cbfc3374c965b9a12",
+      "bytes": 126522
+    }
+  ],
+  "revision": "5e321b7beb459cfcb0d8",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_molar_tooth_gum_v1@e6bb2b4996970af16212",
+    "source_record_sha256": "735b56f1fd8548cef4b4b06a5ddd9b7d5e8a597b55ef7a1f6b8ddc7615053432",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "54826089ee8b1b2f59ff5b26c2dfb5c16f9162d0d7f15fe10798e2e6ef06b588",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1199,
+        "height": 1312,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

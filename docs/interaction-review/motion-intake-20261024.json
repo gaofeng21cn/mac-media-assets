@@ -1,0 +1,42 @@
+{
+  "schema": "mac_motion_intake/v1",
+  "reviewed_at": "2026-10-24",
+  "imports": [
+    {
+      "asset_id": "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd",
+      "status": "copied_and_verified",
+      "files_checked": 33,
+      "sequence_sha256": "8e2879409f7ad61a8fbca2e2ef3caa7d941a9847dd1b1148c7d6ec35d84869a7",
+      "frame_registration": "preserved_in_sequence",
+      "manifest_registration": "not_applicable_motion_recipe",
+      "current_shot": "pending"
+    },
+    {
+      "asset_id": "paper:mac_sit_stand_cycle_v1@4566cda5964aae090ce4",
+      "status": "copied_and_verified",
+      "files_checked": 28,
+      "sequence_sha256": "dda081cf6d65fa49e3119954288955334094c725884cedb2b5d2a3cf0e2e85f0",
+      "frame_registration": "preserved_in_sequence",
+      "manifest_registration": "not_applicable_motion_recipe",
+      "current_shot": "pending"
+    },
+    {
+      "asset_id": "paper:mac_care_assistance_v1@0824456d2c4a3030b477",
+      "status": "copied_and_verified",
+      "files_checked": 26,
+      "sequence_sha256": "d337e0f795931400974583ce182989ea9e3975745fbea0aa498583c017bea425",
+      "frame_registration": "preserved_in_sequence",
+      "manifest_registration": "not_applicable_motion_recipe",
+      "current_shot": "pending"
+    },
+    {
+      "asset_id": "paper:mac_cooking_action_v1@ecd40b78c8d45dae9886",
+      "status": "copied_and_verified",
+      "files_checked": 45,
+      "sequence_sha256": "8ce60e0441a531bbefc76a2f4c5d84c4770387e79e1a70d4f693f7beb84eae1a",
+      "frame_registration": "preserved_in_sequence",
+      "manifest_registration": "not_applicable_motion_recipe",
+      "current_shot": "pending"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_person_lying_v1",
+  "title": "通用人物侧卧姿态（含独立枕头）",
+  "kind": "transparent_subject",
+  "tags": [
+    "reserve_2026_10_12",
+    "paper_collage",
+    "character",
+    "person_lying",
+    "bed_scene",
+    "sleep"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "卧姿纸件自带独立枕头，可与 reserve_bed_v1、reserve_blanket_v1、reserve_pillow_v1 组合完成床上动作。此前 86 集因缺少卧姿而无法实现任何床上动作。通用虚构角色，非品牌医生形象。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "reserve_person_lying_v1",
+    "prompt": "hand-cut paper collage figure lying on her side with pillow; flat white studio background removed by border flood fill"
+  },
+  "content_bounds": [
+    29,
+    318,
+    1417,
+    787
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1448,
+    "height": 1086,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      29,
+      318,
+      1417,
+      787
+    ],
+    "opaque_ratio": 0.2396,
+    "translucent_ratio": 0.0,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "entry": "files/payload.webp",
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "b146e4e3d7716d18525eedcd5aa7f872180b23b5610fc8623c46db9c5624bc6e",
+      "bytes": 371006
+    }
+  ],
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.19,
+        "y": 0.34
+      },
+      "body": {
+        "x": 0.449,
+        "y": 0.525
+      },
+      "hand_left": {
+        "x": 0.165,
+        "y": 0.56
+      }
+    }
+  },
+  "revision": "320cfdb5c2319276ab33",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_person_lying_v1@db0cfd0463ccf151b5c2",
+    "source_record_sha256": "5bd34b6d4d192a88f232960d362a244bf3b111f26717bf32ab677b8dbe3c2955",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "0c21f2cfa4821b3a50b77fc110ab0a9e8954ab3f875037163cfde3f9e8e60bd8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1448,
+        "height": 1086,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

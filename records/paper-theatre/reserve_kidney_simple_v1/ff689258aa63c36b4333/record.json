@@ -1,0 +1,154 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_kidney_simple_v1",
+  "title": "肾脏·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肾脏·payload",
+      "medical": true,
+      "content_bounds": [
+        198,
+        136,
+        675,
+        887
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.44,
+            "y": 0.48
+          },
+          "renal_pelvis": {
+            "x": 0.506,
+            "y": 0.5
+          },
+          "ureter_end": {
+            "x": 0.587,
+            "y": 0.86
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_anatomy.py"
+  },
+  "tags": [
+    "anatomy",
+    "kidney",
+    "simple",
+    "registered_layers",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肾脏",
+      "远景简化"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    198,
+    136,
+    675,
+    887
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "单肾冠状切面，分开皮质背景、髓质锥体和肾盂/肾盏/输尿管；不表示肾单位微观滤过、血管或精确肾盏数。远景版仅表达肾与输尿管身份。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "e73f9ff35e5377cc688f5aba0688b4a0bbf1bfe06b8b978532f7fe07f06e240c",
+      "bytes": 499
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "1c3d2ebfce26b28625afcfc576311c97328c94cd2dae3abeeab394ea65ba177e",
+      "bytes": 39749
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "e73f9ff35e5377cc688f5aba0688b4a0bbf1bfe06b8b978532f7fe07f06e240c",
+      "bytes": 499
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "1c3d2ebfce26b28625afcfc576311c97328c94cd2dae3abeeab394ea65ba177e",
+      "bytes": 39749
+    },
+    {
+      "path": "source/build_anatomy.py",
+      "role": "source",
+      "sha256": "46ed48086ed7e69f6abb7c1c0a64c24684361b68bd09e21e5d2fa1acf18273cc",
+      "bytes": 10156
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "d7433bc54ccb0f0f4bbc90f14fdf91189a21a3d10cb073cee8a4396b66b84729",
+      "bytes": 642
+    }
+  ],
+  "revision": "ff689258aa63c36b4333"
+}

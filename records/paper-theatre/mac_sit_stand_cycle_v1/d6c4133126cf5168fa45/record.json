@@ -1,0 +1,234 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sit_stand_cycle_v1",
+  "title": "同身份坐下、坐定与起立完整过渡",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "continuous_action",
+    "sit"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "同身份坐下、坐定与起立完整过渡",
+      "sit",
+      "连续动作",
+      "mac_sit_stand_cycle_v1"
+    ],
+    "actions": [
+      "坐站过渡",
+      "坐下",
+      "起立"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "连续动作",
+      "人物互动"
+    ],
+    "display_title": "同身份坐下、坐定与起立完整过渡",
+    "renderers": [
+      "canvas2d"
+    ],
+    "sample_duration_seconds": 6.0
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "not_applicable",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "ground": 620,
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "dd8ea878b0da6f53820849d28990ac2e25c4b2017c962f9831225a472d48a272",
+      "bytes": 697
+    },
+    {
+      "path": "assets/chair.png",
+      "role": "payload",
+      "sha256": "c8365d28bf1404db216ac1521a502cfa5705c669a0d55c8b53eb067285de1c08",
+      "bytes": 1130714
+    },
+    {
+      "path": "assets/sit.png",
+      "role": "payload",
+      "sha256": "9c3dd780a92ac627d4e73aa58f67705626a5bcc7e748d3ebde13d6fb43aab398",
+      "bytes": 2539194
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "ffed0e9dbba7a57609f19c92e7e53e69fc67f2e48306b562bae61886472dd325",
+      "bytes": 838
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "9986deb374e32fedc898832a6cda43170c9040b2721ffdbf805028e966a06029",
+      "bytes": 3771
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+      "bytes": 5899
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "8730f1c05d4525fc84befb31f710b6237dc6abc98e340e03fc421f2206e4a0e5",
+      "bytes": 138028
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "dacaf2caf152f4238fa57a0015062ea4bd667e383160dee235302ba4fa067944",
+      "bytes": 137394
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "15f05b65f8d52bdaffc63dd8049848b4c70d429ad3f1c5a7f4218ecad8306176",
+      "bytes": 138959
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "018d7b52b11b6aca3a7f72e53f7172178eed4beadf6cdc250e2729292a59b0dc",
+      "bytes": 72739
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "b0b6b19af2a240c2d379bba5758df352b3b3e7b522a5db03885b92debda1cd36",
+      "bytes": 84013
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "7a767871ef67bedf9f02342ee1b5c07850602a93a9dfe17f8d862d77c42e6664",
+      "bytes": 150043
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "7a767871ef67bedf9f02342ee1b5c07850602a93a9dfe17f8d862d77c42e6664",
+      "bytes": 150043
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "36ab69f4d21e5bdf4cffa3fdaa56e11f9dc24c5def65332926f2b6cf0ad3dd09",
+      "bytes": 142810
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "49a02a4518c072769b3655977b876e5ad23866c4c2ce00d1951ae7c147bd2975",
+      "bytes": 142572
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "15f05b65f8d52bdaffc63dd8049848b4c70d429ad3f1c5a7f4218ecad8306176",
+      "bytes": 138959
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "f99a323b069dae4d6ae015cd290676daae34403fd03513152bc5bd4fde956cc6",
+      "bytes": 130920
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "9f98bf464facfdf84e99018928c4ac1b269e07ebf6ca17f4221415aae775d1b4",
+      "bytes": 138081
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "0e2ea9171de563aa4ae997bba5ec5b0638a748c0ae52efca270e6d16bededd39",
+      "bytes": 149860
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "0cb4e1f3348a68627015b34aff264d54cdb2e5ebe62cf38320774708177b5208",
+      "bytes": 160055
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "0cb4e1f3348a68627015b34aff264d54cdb2e5ebe62cf38320774708177b5208",
+      "bytes": 160055
+    },
+    {
+      "path": "samples/live-contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "842858f350fe086965ccb8710565e72132b9de062172d535e812ef57b3563c02",
+      "bytes": 144907
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "d08aa1e8d087e35bf832b5140d8b80372a2901e188b3761bd6e065405a1bb3d1",
+      "bytes": 15835
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "fb3ed0acc75c24d081054f453b25767a90b49b4ec4af446cf28cff4ac333c122",
+      "bytes": 166189
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "b023741fbc20251eb108d3ac2af7368619aa613a6f60b94c0cac42f5bcacb925",
+      "bytes": 3774
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "ae6d5bb0039a92ccb0d0ac5db5b13d792b776ab84cc1eb6b5fca7b89a1e25d0b",
+      "bytes": 3901
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "d6c4133126cf5168fa45"
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "1d8a5726759c5d4268e2506b7204ebda2f5a055f5cb8bed37e3ea6c510ef4c09",
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "a94c708c793dfc4b3b7806d560084e90664ee2e43f1fd24f44d353f198614c9c",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "1d8a5726759c5d4268e2506b7204ebda2f5a055f5cb8bed37e3ea6c510ef4c09",
+    "assets/sheet.png": "ed814df39b58278c68bf663580b2a017dc70e06be66e3cfcfc706f947a3dde20"
+  },
+  "media": {
+    "samples/background-color.png": "9bc79752f45c793082da8d3a28953ae8cbdf4a525f888bef0cc6ad8b76c3b836",
+    "samples/background-dark.png": "161c600240b3b71c622c12f5c26449c0c5a6e0c358702981679b63acea19e667",
+    "samples/background-light.png": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+    "samples/background-review.jpg": "716bea87eedd19508d5349ec1f1fa1b197aa08b1990c89252a305a6880c28741",
+    "samples/contact-sheet.jpg": "f1a1dc81c109bde8a7a0411215f28544b28abb1ef2d020f84aace53f9e236eaa",
+    "samples/keyframes/00.png": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+    "samples/keyframes/01.png": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+    "samples/keyframes/02.png": "d8af2027a52275b450f2d94cf552a40743ca2e3940c17debf6cad28d34e3d1f4",
+    "samples/keyframes/03.png": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+    "samples/keyframes/04.png": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+    "samples/keyframes/05.png": "395c0899b19bbea3686b81f268e1cd57299dea24382d9b42b0c8b286188cac83",
+    "samples/keyframes/06.png": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+    "samples/keyframes/07.png": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+    "samples/keyframes/08.png": "ec4d51162e0bcc26c1ddd6b45e053c2d8e7a4fa53587067d9feb8278c27c594f",
+    "samples/keyframes/09.png": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+    "samples/keyframes/10.png": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+    "samples/keyframes/11.png": "81086b52e8703994a2c02571335cc5d01577cc93454e03c53996b183f483ce9f",
+    "samples/keyframes/12.png": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+    "samples/keyframes/13.png": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+    "samples/keyframes/14.png": "f65dc71fc0e12d51108116dee208e6d36aca5a454484ab46b26eca2632080e5c",
+    "samples/keyframes/15.png": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+    "samples/keyframes/16.png": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+    "samples/keyframes/17.png": "2dc00e0a9849b26ef19bdcc8b44ff9087b5b010d617ff2da31aa62a377dc6fc7",
+    "samples/phone-reading.png": "38477744e34ddc5c534ce987cda240978d34866c1c6614af6fbce943b6474c4f",
+    "samples/phone.png": "3a427227035eda4a5305db3d8dc9114de9bc0c8130c575c6454fb7c74bd65737",
+    "samples/sample.mp4": "491a0a5421cc46daa4d46727422ff82d2991d562921d8f8313a385b3d485e237"
+  },
+  "technical": {
+    "frames": 240,
+    "fps": 24,
+    "duration": 10,
+    "random_seek_equal": true,
+    "browser_errors": []
+  },
+  "checked": [
+    "六姿态完整原图、头枕和床垫承托、床沿双脚落地、固定同一床脚、原尺寸/手机宽/三底色。"
+  ],
+  "defects_found_and_fixed": [
+    "完整人物和床同一视角与身体标尺，避免按床或卧姿外框独立拉伸。",
+    "删除床脚ROI估点与自动身体测量，采用逐帧人工核对的同一床脚；用真实头顶至前侧鞋底423px垂直跨度沿158cm身份标尺，保留透视下两鞋高度差。"
+  ],
+  "not_reviewed": [
+    "独立医生终审和当前镜头pending；不作临床转移教学。"
+  ]
+}

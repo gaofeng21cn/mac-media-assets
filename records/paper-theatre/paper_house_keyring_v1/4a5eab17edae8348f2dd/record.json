@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_house_keyring_v1",
+  "title": "家门钥匙串·独立生活纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    9,
+    1218,
+    1266
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "house_keyring"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "家门钥匙串·独立生活纸件",
+      "house_keyring"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "家门钥匙串·独立生活纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        9,
+        1218,
+        1266
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "熟悉环境、固定物品位置和日常记忆提示的具体道具。"
+    }
+  ],
+  "usage_notes": "熟悉环境、固定物品位置和日常记忆提示的具体道具。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "5a7ce6980d5504cda904f757e90d218741629b9a49f3c4ade38cef6f3d9dbf26",
+      "bytes": 711720
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "33a02c971349e00cb377dd3df9c8b3d1ebd9bee2dc5096184616090243cf25d4",
+      "bytes": 864
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "8c112b49485634e3ac25fc0faffad90f7336f8f9af1e3dc5c690eb4238c194b6",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "ebbba66db4f8b4c4d2533bea5ea6e0028663a14347aab4c5e6e85940d714d470",
+      "bytes": 586
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "7c0eb4655c6f3efff15c41da66deb63b737e0df7a2848aab6dd0e6582f0b2448",
+      "bytes": 77679
+    }
+  ],
+  "revision": "4a5eab17edae8348f2dd",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_house_keyring_v1@ede7c1981ad387b07339",
+    "source_record_sha256": "45ef07901490038474028fb88dfc4f67b7bd8d742493055fd496f2828e7a4e8e",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "b17524a7ea7004eef551f07dae487f5251dc28403d2faaf88811fbe4c51f5c54",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1242,
+        "height": 1266,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

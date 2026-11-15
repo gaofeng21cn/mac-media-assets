@@ -1,0 +1,220 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_abpm_recording_v1",
+  "title": "动态血压：日夜周期记录与交回设备",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "monitoring",
+    "contact_repair_20261024"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "动态血压：日夜周期记录与交回设备",
+      "mac_abpm_recording_v1"
+    ],
+    "actions": [
+      "动态血压",
+      "日夜记录",
+      "24小时监测"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ]
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "演示已正确佩戴后日夜周期记录，24 小时压缩成 8 秒；点列代表采样时点，不是血压数值或真实测量频率。佩戴操作与当前镜头另审。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "b0ccaa2c2e5f51f750c46373a7396285af0571251bb89565c35e60488b697f4a",
+      "bytes": 492
+    },
+    {
+      "path": "assets/patient.png",
+      "role": "payload",
+      "sha256": "d43c9ecc0df0ebf3506f4b58a8ba2acf4ff443e3653bdd6636a26b2422b36d26",
+      "bytes": 1848596
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "e8d68c861fc6dffbfb3d69063a5b1cb054fe206dfdaaa43bafce52175ef4be4e",
+      "bytes": 367
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "9cbd3d4aa7f2a958629e049887cbcc5868826aef2fe8e99252fe3cfb96e0503a",
+      "bytes": 3120
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "00dcc17e8603d898b2311f2d3e0b66cf6f6be833804f0428923353b72e5cf775",
+      "bytes": 1917
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "ffe1b3001ec85ff80f509da594ea069b72b699a63a6b6da8e766847ccc844b4a",
+      "bytes": 140272
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "3a2a4c28587bda3f609a4b5de80563e80b748a7961ee5df4776ce6f179cb5bbb",
+      "bytes": 140515
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "c5ca80126724608ece542b1ce41ebec58d35d9854cef0685ca88591652a46078",
+      "bytes": 140580
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "983087f743068866802187fbbf13987a0c4fcf56b10cd02123b78a7726e00187",
+      "bytes": 35900
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "a1cfe677960d392e9262a2883db7a3bde30a69c334dc60a4227e0655d7b23fc3",
+      "bytes": 82951
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "14c0c36b6d65f7b7a4562d6fb15d5f870478d263fd558a293069c263cf986379",
+      "bytes": 140289
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "c41d85fd8393a8cee7a2642d1f13dbbc5446f58f736fd32337a11d5f9d179a9f",
+      "bytes": 140633
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "c5ca80126724608ece542b1ce41ebec58d35d9854cef0685ca88591652a46078",
+      "bytes": 140580
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "41bdd034b126603ae29c10488c63ab9656c6275fe37ab5605a9b44dec2e3e93b",
+      "bytes": 140603
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "463b2d077e2b760784fff9e67c056dfc83e2555bf23be6960741f28fae7c4e4b",
+      "bytes": 140639
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "9137f4fee003a96128288f125fbc6d231b09f319ee89fd6e14c6fb006602ac07",
+      "bytes": 142181
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "0cf99d41c6b8f63bfe6e322ce01ab01d264a9459c81dc15e63082537e03f02e8",
+      "bytes": 142049
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "75a1c4b2215301eb8bbc672542c9a6b18f47f9223e8a29729220adebd18f697c",
+      "bytes": 142084
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "6beb577d12f9cc0985b2a8a570fe331d2ca4196b735ad1ef7c5471ac00ccfbd3",
+      "bytes": 142113
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "4f34fd2b19b64b5a87b1d8a8dfaa2f39dbe8d36e72b4d70a292a342a1f72fd99",
+      "bytes": 141469
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "904cbe4cdcc64421b438ec14017bab8a4680a53bb181ee8f9ae44250f42fdd82",
+      "bytes": 24850
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "a7034eea1697715a006fc5dbe8ada8a7f3aeb90910611b58528f7ac1680a558e",
+      "bytes": 19414
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "6462e1686f02895a4b4f513f3caea92c2a9758e874c2e8c148daa73296b5e078",
+      "bytes": 96255
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "c073fe0d2443a3bff68e895e814e1bea3e657d747353af4ce1c12b3f62c2e698",
+      "bytes": 3346
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "0aa1128c66f9460a7116dd53cf798453589a8c6b0f3e81e35dde649f85c9f84b",
+      "bytes": 1592
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "1478e848a0aa1dcbdfc5"
+}

@@ -1,0 +1,181 @@
+#!/usr/bin/env python3
+"""Register imagegen cutouts with measured bounds, source receipt and review boundary.
+
+This is a curation helper, not creative approval. It refuses a file whose alpha
+is unusable so a glow or opaque-background render cannot quietly enter the
+reusable inventory.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import re
+import shutil
+import subprocess
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def sha(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def measure(path: Path) -> dict:
+    try:
+        from PIL import Image
+    except ImportError as error:
+        raise SystemExit("Pillow is required to measure alpha: %s" % error)
+    rgba = Image.open(path).convert("RGBA")
+    alpha = rgba.getchannel("A")
+    width, height = rgba.size
+    pixels = alpha.load()
+    corners = [pixels[0, 0], pixels[width - 1, 0], pixels[0, height - 1], pixels[width - 1, height - 1]]
+    histogram = alpha.histogram()
+    opaque = sum(histogram[250:])
+    translucent = sum(histogram[25:250])
+    box = alpha.point(lambda value: 255 if value >= 25 else 0).getbbox()
+    return {
+        "width": width,
+        "height": height,
+        "corners": corners,
+        "bbox": list(box) if box else None,
+        "opaque_ratio": round(opaque / max(1, width * height), 4),
+        "translucent_ratio": round(translucent / max(1, width * height), 4),
+        # A cutout that is fully opaque in the corners has a baked background
+        # and cannot be treated as a movable paper layer.
+        "is_cutout": all(value < 24 for value in corners),
+        # A large translucent skirt around the subject is the halo defect that
+        # previously made cached paper pieces unusable on coloured grounds.
+        "halo_suspected": translucent / max(1, width * height) > 0.06,
+    }
+
+
+def ingest(root: Path, spec: Path, cache=None) -> dict:
+    value = json.loads(spec.read_text(encoding="utf-8"))
+    items = value.get("assets", [value])
+    results, rejected = [], []
+    for item in items:
+        source = Path(item["source"]).expanduser()
+        source = (source if source.is_absolute() else spec.parent / source).resolve()
+        identifier = item["id"]
+        if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]*', identifier):
+            rejected.append({"id": identifier, "reason": "invalid asset id"})
+            continue
+        if not source.is_file():
+            rejected.append({"id": identifier, "reason": "missing source %s" % source})
+            continue
+        measurement = measure(source)
+        if not measurement['bbox']:
+            rejected.append({"id": identifier, "reason": "no visible content", "measurement": measurement})
+            continue
+        if item.get("kind", "transparent_subject") == "transparent_subject" and not measurement["is_cutout"]:
+            rejected.append({"id": identifier, "reason": "corners are opaque; baked background cannot be a movable layer", "measurement": measurement})
+            continue
+        if measurement["halo_suspected"] and item.get("allow_halo") is not True:
+            rejected.append({"id": identifier, "reason": "translucent halo above threshold", "measurement": measurement})
+            continue
+        registered_at = item.get("registered_at") or datetime.fromtimestamp(
+            source.stat().st_mtime, timezone.utc
+        ).isoformat()
+        receipt_value = {
+            "tool": item.get("tool", "built_in_imagegen"),
+            "prompt": item.get("prompt", ""),
+            "source_path": str(source),
+            "measured": measurement,
+            "registered_at": registered_at,
+        }
+        receipt_text = json.dumps(receipt_value, ensure_ascii=False, indent=2) + "\n"
+        descriptors = [
+            {
+                "path": "files/payload.png",
+                "role": "payload",
+                "sha256": sha(source),
+                "bytes": source.stat().st_size,
+            },
+            {
+                "path": "evidence/generation-receipt.json",
+                "role": "evidence",
+                "sha256": hashlib.sha256(receipt_text.encode("utf-8")).hexdigest(),
+                "bytes": len(receipt_text.encode("utf-8")),
+            },
+        ]
+        metadata = {
+            "id": identifier,
+            "title": item["title"],
+            "kind": item.get("kind", "transparent_subject"),
+            "tags": item.get("tags", []),
+            "discovery": item.get("discovery", {}),
+            "entry": "files/payload.png",
+            "reuse_scope": {"kind": item.get("reuse_scope", "general")},
+            "status": "pending_review",
+            "usage_notes": item.get("usage_notes", ""),
+            "source": {"kind": "imagegen", "generation": item.get("tool", "built_in_imagegen"),
+                       "plan_id": identifier, "prompt": item.get("prompt", "")},
+            "content_bounds": measurement["bbox"],
+            "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+            **({"registration": item["registration"]} if item.get("registration") else {}),
+            "alpha_measurement": measurement,
+            "quality_debt": item.get("quality_debt", ["static_candidate_only", "continuous_motion_pending"]),
+            "medical_review": item.get("medical_review", "pending" if item.get("category") == "anatomy" else "not_applicable"),
+            "review": {"static_alpha": "measured_on_ingest", "full_motion": "pending"},
+        }
+        body = {**metadata, "files": descriptors}
+        revision = hashlib.sha256(
+            json.dumps(body, ensure_ascii=False, sort_keys=True).encode("utf-8")
+        ).hexdigest()[:20]
+        record_dir = root / "entries" / identifier / revision
+        payload = record_dir / "files" / "payload.png"
+        payload.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, payload)
+        receipt = record_dir / "evidence" / "generation-receipt.json"
+        receipt.parent.mkdir(parents=True, exist_ok=True)
+        receipt.write_text(receipt_text, encoding="utf-8")
+        record = {"schema": "animation_element/v1", **body, "revision": revision}
+        record_path = record_dir / "record.json"
+        record_path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        catalog_path = root / "catalog.json"
+        catalog = json.loads(catalog_path.read_text()) if catalog_path.exists() else {"schema": "animation_element_library/v1", "items": []}
+        relative = str(record_path.relative_to(root))
+        if not any(row.get("record") == relative for row in catalog["items"]):
+            catalog["items"].append({"id": identifier, "revision": revision, "record": relative})
+            catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        from optimize_media import prepare_asset
+        row = {'id': 'paper:' + identifier + '@' + revision, 'source_id': identifier,
+               'revision': revision, 'kind': metadata['kind'], 'discovery': metadata['discovery'],
+               'portable_record': relative, 'portable_record_sha256': sha(record_path),
+               'payload': [{**part, 'path': str(record_dir.relative_to(root) / part['path'])}
+                           for part in descriptors]}
+        try:
+            prepared = prepare_asset(root, row, cache)
+            delivery = {"status": "prepared", "asset_id": prepared['row']['id'], "source_preserved": True}
+        except (OSError, ValueError, subprocess.SubprocessError) as error:
+            delivery = {"status": "diagnostic", "reason": str(error), "source_preserved": True}
+        results.append({"id": identifier, "revision": revision, "record": relative,
+                        "bounds": measurement["bbox"], "is_cutout": measurement["is_cutout"],
+                        "delivery": delivery})
+    from repository_media import notify_library, reconcile
+    ingestion = notify_library(root, [item['record'] for item in results], cache)
+    if (root/'.git').exists():
+        ingestion.append(reconcile(root,cache=cache))
+    return {"schema": "mac_generated_ingest/v1", "registered": results, "rejected": rejected,
+            "repository_ingestion": ingestion}
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--spec", type=Path, required=True, help="JSON describing generated cutouts")
+    parser.add_argument("--root", type=Path, default=ROOT)
+    parser.add_argument("--cache", type=Path)
+    args = parser.parse_args()
+    print(json.dumps(ingest(args.root.resolve(), args.spec.resolve(), args.cache), ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

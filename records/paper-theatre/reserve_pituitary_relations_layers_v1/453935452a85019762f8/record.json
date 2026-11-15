@@ -1,0 +1,380 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pituitary_relations_layers_v1",
+  "title": "垂体邻近关系·同视角关系分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "sinus",
+      "path": "files/sinus.png",
+      "source_type": "original_vector",
+      "visual_meaning": "垂体邻近关系·sinus",
+      "medical": true,
+      "content_bounds": [
+        295,
+        643,
+        727,
+        866
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "sella",
+      "path": "files/sella.png",
+      "source_type": "original_vector",
+      "visual_meaning": "垂体邻近关系·sella",
+      "medical": true,
+      "content_bounds": [
+        308,
+        560,
+        713,
+        685
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "gland",
+      "path": "files/gland.png",
+      "source_type": "original_vector",
+      "visual_meaning": "垂体邻近关系·gland",
+      "medical": true,
+      "content_bounds": [
+        367,
+        492,
+        653,
+        650
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "stalk",
+      "path": "files/stalk.png",
+      "source_type": "original_vector",
+      "visual_meaning": "垂体邻近关系·stalk",
+      "medical": true,
+      "content_bounds": [
+        485,
+        313,
+        544,
+        505
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "hypothalamus",
+      "path": "files/hypothalamus.png",
+      "source_type": "original_vector",
+      "visual_meaning": "垂体邻近关系·hypothalamus",
+      "medical": true,
+      "content_bounds": [
+        376,
+        192,
+        649,
+        337
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "chiasm",
+      "path": "files/chiasm.png",
+      "source_type": "original_vector",
+      "visual_meaning": "垂体邻近关系·chiasm",
+      "medical": true,
+      "content_bounds": [
+        265,
+        374,
+        499,
+        444
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "license": "original_work",
+    "generator": "source/anatomy.py"
+  },
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "垂体邻近关系",
+      "配准分层"
+    ],
+    "detail_level": "registered_relations",
+    "actions": [
+      "逐层揭示",
+      "位置关系"
+    ],
+    "medium": "editable_vector",
+    "story_roles": [
+      "结构定位",
+      "结构解释"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "sinus",
+      "sella",
+      "gland",
+      "stalk",
+      "hypothalamus",
+      "chiasm"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    265,
+    192,
+    727,
+    866
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "概念性相对位置示意：垂体经柄连接上方下丘脑，视交叉在上方偏前，蝶窦在鞍底下方。它不是患者影像或精确矢状断面；不含颈内动脉、神经束或手术通道，不能用作入路示教。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/sinus.svg",
+      "role": "source",
+      "sha256": "fa6d82806afd601a0c4ec6dcb2d453c2ecf23f8a44fc58e00b7b308f3f056d0d",
+      "bytes": 212
+    },
+    {
+      "path": "files/sinus.png",
+      "role": "payload",
+      "sha256": "297257ff9915459f814e16642cff894797190f5f2ca17850e74a8e7b629423da",
+      "bytes": 15108
+    },
+    {
+      "path": "source/sella.svg",
+      "role": "source",
+      "sha256": "669bcb9f37ce3d33534a5d6ef7a2d25722026256d6ff0c2c55043384aee3416c",
+      "bytes": 222
+    },
+    {
+      "path": "files/sella.png",
+      "role": "payload",
+      "sha256": "082b170e06b8cfb126b065099a9b5e71183b35e4dd2609a661362e98a725db5c",
+      "bytes": 10107
+    },
+    {
+      "path": "source/gland.svg",
+      "role": "source",
+      "sha256": "9eb07d898632a1697319b91c651b81668050ccde60775726b4a0e3acc7a660dc",
+      "bytes": 192
+    },
+    {
+      "path": "files/gland.png",
+      "role": "payload",
+      "sha256": "850160cc593061fd02edfa5b3b818c248b96a640f61d92c162a8ef1facf81859",
+      "bytes": 13010
+    },
+    {
+      "path": "source/stalk.svg",
+      "role": "source",
+      "sha256": "3ade674c3d56d7f28d825f3102f23a83cd7f4baa5a682d4b42cf67ac0295df60",
+      "bytes": 211
+    },
+    {
+      "path": "files/stalk.png",
+      "role": "payload",
+      "sha256": "02ef5a186fab1d52d32c5a115014efb8b63a10196ee0f2ca95b477d3e7c49975",
+      "bytes": 8032
+    },
+    {
+      "path": "source/hypothalamus.svg",
+      "role": "source",
+      "sha256": "fae1d179de72d6ccd07ae16025f0c2eca27a88a6ea76746d130c224fee46c896",
+      "bytes": 229
+    },
+    {
+      "path": "files/hypothalamus.png",
+      "role": "payload",
+      "sha256": "606ff171e558e41bc2d4d0c2264c1d44212d6750dd496eda4523cc4defb447f7",
+      "bytes": 12337
+    },
+    {
+      "path": "source/chiasm.svg",
+      "role": "source",
+      "sha256": "6df9b209ac8bca18424bc5959ab342368d5955daf67b1204cacf6e6496843b8e",
+      "bytes": 191
+    },
+    {
+      "path": "files/chiasm.png",
+      "role": "payload",
+      "sha256": "761f26b55ace15f762141b18334ea8fc33d9ad12bed3976c7e858434331dd681",
+      "bytes": 9102
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "12f29b4d50dda899e94aa68a114f5903d1e04ded24961ffba755b7e82a1d61bc",
+      "bytes": 42564
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "9ac0724b2b40a9084e2b5e4fe2e959cc62af8277c0a945259c1dd4b5a9e06909",
+      "bytes": 464
+    },
+    {
+      "path": "source/anatomy.py",
+      "role": "source",
+      "sha256": "92d530ab6abd5ef949dc58ac748bbcb0732bd6a13acac8d2333b6c4e4dee9d91",
+      "bytes": 7424
+    }
+  ],
+  "revision": "453935452a85019762f8"
+}

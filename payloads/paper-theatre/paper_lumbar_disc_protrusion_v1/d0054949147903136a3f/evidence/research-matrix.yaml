@@ -1,0 +1,282 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: low_back_pain
+questions:
+- question_id: LBP-Q01
+  question: 腰痛是不是都来自椎间盘？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C01
+    question_id: LBP-Q01
+    claim: 腰椎间盘突出症属于具有相应临床表现的综合征，不能代表所有腰痛。
+    status: supported
+    original_conclusion_paraphrase: 腰椎间盘突出症属于具有相应临床表现的综合征，不能代表所有腰痛。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 一、定义；三、症状体征；五、诊断标准
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不穷举所有腰痛病因，本题讲诊断任务。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 腰椎间盘突出症属于具有相应临床表现的综合征，不能代表所有腰痛。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q02
+  question: 突出和突出症差一个字意味着什么？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C02
+    question_id: LBP-Q02
+    claim: 影像所见的椎间盘突出，需与病史、症状体征及神经定位相符才能诊断突出症。
+    status: supported
+    original_conclusion_paraphrase: 影像所见的椎间盘突出，需与病史、症状体征及神经定位相符才能诊断突出症。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 五、腰椎间盘突出症诊断标准
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 影像发现不等同临床诊断。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 影像所见的椎间盘突出，需与病史、症状体征及神经定位相符才能诊断突出症。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q03
+  question: 突出为什么会腿痛？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C03
+    question_id: LBP-Q03
+    claim: 突出组织刺激或压迫神经根可引起放射痛、感觉变化和无力。
+    status: supported
+    original_conclusion_paraphrase: 突出组织刺激或压迫神经根可引起放射痛、感觉变化和无力。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 一、定义；二、自然病程；三、症状与体征
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 腿痛模式不能取代临床神经检查。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 突出组织刺激或压迫神经根可引起放射痛、感觉变化和无力。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q04
+  question: MRI、CT和X线怎么分工？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C04
+    question_id: LBP-Q04
+    claim: MRI能较好显示椎间盘和神经根关系，X线不能直接显示椎间盘突出。
+    status: supported
+    original_conclusion_paraphrase: MRI能较好显示椎间盘和神经根关系，X线不能直接显示椎间盘突出。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 四、辅助检查：X线、CT、MRI
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 该指南的“首选MRI”针对突出症影像评估，非所有腰痛筛查。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - MRI能较好显示椎间盘和神经根关系，X线不能直接显示椎间盘突出。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q05
+  question: 不手术是不是在拖延？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C05
+    question_id: LBP-Q05
+    claim: 没有显著神经损害的腰椎间盘突出症，通常先考虑非手术治疗。
+    status: supported
+    original_conclusion_paraphrase: 没有显著神经损害的腰椎间盘突出症，通常先考虑非手术治疗。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 二、自然病程；六、保守治疗
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不把历史成功率转成个人治愈概率，不要求等固定周数后才就医。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 没有显著神经损害的腰椎间盘突出症，通常先考虑非手术治疗。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q06
+  question: 一直卧床和马上高强度跟练哪个更好？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C06
+    question_id: LBP-Q06
+    claim: 严重疼痛需休息时应尽量缩短卧床，症状缓解后逐步恢复适度正常活动。
+    status: supported
+    original_conclusion_paraphrase: 严重疼痛需休息时应尽量缩短卧床，症状缓解后逐步恢复适度正常活动。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 六（二）1卧床休息；3运动疗法
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不提供统一动作、负重或训练次数。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 严重疼痛需休息时应尽量缩短卧床，症状缓解后逐步恢复适度正常活动。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q07
+  question: 慢性腰痛为什么还会谈心理和工作环境？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C07
+    question_id: LBP-Q07
+    claim: WHO对慢性原发性腰痛建议将教育、运动及必要心理等干预综合安排。
+    status: context_limited
+    original_conclusion_paraphrase: WHO对慢性原发性腰痛建议将教育、运动及必要心理等干预综合安排。
+    evidence_type: official_guideline_recommendations
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-WHO23
+      locator: 官方摘要：holistic care；推荐与不常规使用干预
+      relationship: direct_support_with_stated_scope
+    population: 成人慢性原发性腰痛
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2023-12-07来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 范围是成人慢性原发性腰痛，不替代突出症专病判断。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - WHO对慢性原发性腰痛建议将教育、运动及必要心理等干预综合安排。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q08
+  question: 什么时候应讨论手术？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C08
+    question_id: LBP-Q08
+    claim: 严重或进展性神经损害、症状持续影响生活且系统非手术治疗无效等，可进入手术评估。
+    status: supported
+    original_conclusion_paraphrase: 严重或进展性神经损害、症状持续影响生活且系统非手术治疗无效等，可进入手术评估。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 七、手术适应证与疗效评估
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不按MRI严重一项决定手术；具体时机由专科判断。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 严重或进展性神经损害、症状持续影响生活且系统非手术治疗无效等，可进入手术评估。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: LBP-Q09
+  question: 哪些症状不能等下一次复查？
+  priority: must_answer
+  claims:
+  - claim_id: LBP-C09
+    question_id: LBP-Q09
+    claim: 会阴感觉异常、膀胱或直肠功能障碍可见于马尾神经损害。
+    status: supported
+    original_conclusion_paraphrase: 会阴感觉异常、膀胱或直肠功能障碍可见于马尾神经损害。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: LBP-CN20
+      locator: 三、马尾综合征；七、单根神经或马尾神经麻痹
+      relationship: direct_support_with_stated_scope
+    population: 中国腰椎间盘突出症患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2020-04来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 症状提示可能的急症，不是通过视频确诊。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 会阴感觉异常、膀胱或直肠功能障碍可见于马尾神经损害。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null

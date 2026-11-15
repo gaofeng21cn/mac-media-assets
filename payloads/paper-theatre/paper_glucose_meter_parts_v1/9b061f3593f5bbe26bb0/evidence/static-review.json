@@ -1,0 +1,46 @@
+{
+  "reviewed_on": "2026-10-11",
+  "reviewer": "Codex static visual review",
+  "static_parts": "reviewed_as_reusable_candidates",
+  "actual_alpha": "RGBA_present_and_checked",
+  "compositing": "浅/深/彩底均查看，未见烘焙棋盘或大面积外围光晕",
+  "assembly_sample": "已看独立摆放、插槽接触/遮挡或开盖分离静态样例；不等于连续动作通过",
+  "medical": "pending_current_story",
+  "full_motion": "pending",
+  "parts": {
+    "body": {
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "content_bounds": [
+        229,
+        89,
+        916,
+        1064
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "content_bounds_method": "alpha > 8；原图不修改",
+      "transparent_fraction": 0.6391640128906771
+    },
+    "strip": {
+      "dimensions": [
+        887,
+        1774
+      ],
+      "content_bounds": [
+        374,
+        133,
+        514,
+        1586
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "content_bounds_method": "alpha > 8；原图不修改",
+      "transparent_fraction": 0.8684054658991394
+    }
+  },
+  "rejected_trials": [
+    "伪透明棋盘背景未入库",
+    "外围光晕试制版本未入库"
+  ]
+}

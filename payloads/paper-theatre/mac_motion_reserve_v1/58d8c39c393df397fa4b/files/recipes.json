@@ -1,0 +1,12 @@
+{
+  "schema":"mac_motion_recipe_bundle/v1",
+  "recipes":[
+    {"id":"contact_shadow","purpose":"纸件落桌或接触时短暂建立接触阴影，再随分离减弱","inputs":["anchor","contact_point","t"],"failure":"没有真实接触点时不添加"},
+    {"id":"hinge_reveal","purpose":"门扇、纸页、折页绕真实铰接边翻开","inputs":["part","hinge_axis","progress"],"failure":"不得绕图片外框中心旋转"},
+    {"id":"insert_part","purpose":"试纸、标本管、资料页沿插入口进入并被遮挡","inputs":["part","receiver","path","progress"],"failure":"没有接收件时保持独立放置"},
+    {"id":"page_turn","purpose":"资料页沿绑定边翻动，露出下一页","inputs":["page","binding_edge","progress"],"failure":"空白卡片没有叙事动作时不用"},
+    {"id":"pose_crossfade","purpose":"同一角色姿态之间用短遮挡或纸片交换完成替换","inputs":["pose_a","pose_b","progress"],"failure":"角色身份未锁定时不自动混用"},
+    {"id":"stage_occlusion","purpose":"前景桌沿、窗帘或纸景临时遮挡，制造景深与切换","inputs":["foreground","subject","progress"],"failure":"不使用大色块遮挡文字"}
+  ],
+  "quality_boundary":"recipe provides implementation lower bound; continuous motion, physical plausibility, narrative and medical meaning remain current-shot review"
+}

@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_femur_fracture_v1",
+  "title": "股骨颈骨折·脆性骨局部纸切面",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "osteoporosis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1206,
+    1289
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "femur_fracture"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "股骨颈骨折·脆性骨局部纸切面",
+      "femur_fracture"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "股骨颈骨折·脆性骨局部纸切面",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1206,
+        1289
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "脆性骨折的定性局部示意，不用于个体诊断、分型或手术决定。"
+    }
+  ],
+  "usage_notes": "脆性骨折的定性局部示意，不用于个体诊断、分型或手术决定。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "2a0fd2a2a556c326e5e101fad661bfdc7e460ce67700a68e8baca57c5f41fcd8",
+      "bytes": 992682
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "f5efc65275dfc42cd640005e70fc1ff6b10bdcb04e22ed0ee968255dc682488f",
+      "bytes": 1037
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "92b08c99840784c1af367924583aa5159c11135e99529dead22697d7c818a89b",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "20a5e3c636b9f4bd04aaceef451acf85dd391283b1b6da55df50d2223a6b637e",
+      "bytes": 604
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "2a53ed3551080b467dc7a98ee055e8f63144a44ce60169de6d06dcf95fd66e6c",
+      "bytes": 83927
+    }
+  ],
+  "revision": "ff27332792b5276a4f75",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_femur_fracture_v1@76c9ac9d60288489473e",
+    "source_record_sha256": "c7c5a14253156cbb4d4e46479d17c0011ab119b0dc1088ac15d706519ce34759",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "d7ee3cc3cf3ad6b33ec777d169fe3888e10e9c44ca095cd7a15db21c03892903",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1220,
+        "height": 1289,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

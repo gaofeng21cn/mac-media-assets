@@ -1,0 +1,7 @@
+{
+  "schema": "mac_media_audio_sources/v1",
+  "items": [
+    {"id":"page-turn-cc0","title":"Page Turn (1)","url":"https://freesound.org/people/OwlStorm/sounds/151220/","download":"page-turn-cc0.mp3","license":"CC0 1.0 as stated on source page","source_author":"OwlStorm","review":"pending_listening"},
+    {"id":"bottle-cap-cc0","title":"Opening a bottle", "url":"https://freesound.org/people/GregoryC/sounds/334020/","download":"bottle-cap-cc0.mp3","license":"CC0 1.0 as stated on source page","source_author":"GregoryC","review":"pending_listening"}
+  ]
+}

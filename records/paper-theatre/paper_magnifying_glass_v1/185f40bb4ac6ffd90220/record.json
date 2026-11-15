@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_magnifying_glass_v1",
+  "title": "放大镜·透明镜面",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1514,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "magnifying_glass"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "放大镜·透明镜面",
+      "magnifying_glass"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "放大镜·透明镜面",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1514,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "独立观察工具；镜孔透明不意味着真实光学放大，镜头代码另行显示真实局部内容。"
+    }
+  ],
+  "usage_notes": "独立观察工具；镜孔透明不意味着真实光学放大，镜头代码另行显示真实局部内容。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "780b710bc43a6c038cb9a60f191c396c00d6e1e7daa8e7607968f30f1ef1f985",
+      "bytes": 1061238
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "c4f3112ef187770d3862033cad460a6df80786f82493d1193d9d61da8e1186fb",
+      "bytes": 987
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "b4c385c6d5df8894cd886f5c5912041308a9e02b85356ad9fe98be9247bf5ca3",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7748c267aa1ed8c086f3a05c582ed4316d30b950fcadd5f302cdfd7745769acd",
+      "bytes": 613
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "1009a3728079a97b01408373ab85538e2154e0696962e2bb2c28f4920692a71a",
+      "bytes": 51537
+    }
+  ],
+  "revision": "185f40bb4ac6ffd90220",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_magnifying_glass_v1@fab52dcbbe495b27ec39",
+    "source_record_sha256": "6ebd1a60a3c5459eb6de1630f0d1120afeaff792f0f946a2007de370e841dfe0",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "c9c45b69b905f045cacd51d8af3923a5616a8a809fb4a8a3527baa2173c7976b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

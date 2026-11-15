@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pillow_v1",
+  "title": "独立枕头",
+  "kind": "environment",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "environment",
+    "pillow"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "独立调整枕头；",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "pillow",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    9,
+    1233,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "e0878f239c8f85e86b06d88f92340e508096b115a9803fd63e414bea0cc9d09b",
+      "bytes": 967364
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "905da8bb164b4b81c6bac788cf45d12f87cec7c7af72df5286d8dda347686fbb",
+      "bytes": 1345
+    }
+  ],
+  "revision": "1fe2fc6e56c09945aaf3",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_pillow_v1@96e35f791a7cbd333e0e",
+    "source_record_sha256": "26b44fd373b91b6ed050c389948403a0e4146846c1bc16456349825a7f993969",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "9392587f5c156edaf6b12f7ef727e09ea234e3566f7c0826a26cb82bf3877e02",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

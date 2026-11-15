@@ -1,0 +1,102 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_gout_stage",
+  "title": "gout_stage 完整纸景",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "gout_stage"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "gout_stage",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": false,
+    "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/gout_stage.png",
+    "source_sha256": "2bd9c71d432f432985daa66ed6998da0e0667e064d78a0f5f68b4c23c02768de",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/gout_paper_theatre/01_the_night_joint/v1",
+    "series": "gout_paper_theatre",
+    "episode": "01_the_night_joint",
+    "asset_id": "gout_stage",
+    "original_manifest": {
+      "asset_id": "gout_stage",
+      "path": "assets/gout_stage.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": false,
+      "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/gout_stage.png",
+      "source_sha256": "2bd9c71d432f432985daa66ed6998da0e0667e064d78a0f5f68b4c23c02768de",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general",
+    "topics": [
+      "gout_paper_theatre"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1672,
+    941
+  ],
+  "alpha_range": [
+    255,
+    255
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "not_applicable"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "2bd9c71d432f432985daa66ed6998da0e0667e064d78a0f5f68b4c23c02768de",
+      "bytes": 3270230
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "fc70763b21e5a40a39e51ebb802ec273169ae430458fe056b99823808aae826e",
+      "bytes": 3095
+    }
+  ],
+  "revision": "c263234c5f6b4a89c17b"
+}

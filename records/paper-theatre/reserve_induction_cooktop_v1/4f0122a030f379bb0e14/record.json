@@ -1,0 +1,98 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_induction_cooktop_v1",
+  "title": "独立电磁炉",
+  "kind": "transparent_subject",
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "heat"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "电磁炉",
+      "炉台",
+      "加热"
+    ],
+    "objects": [
+      "电磁炉"
+    ],
+    "actions": [
+      "承托锅具",
+      "加热"
+    ],
+    "story_roles": [
+      "烹饪过程",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "独立静态设备层；不含火焰、烟雾或数值显示。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "与炒锅独立叠放；不凭设备图形宣称已经发生加热。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "reserve_induction_cooktop_v1",
+    "prompt": "One standalone compact induction cooktop, transparent paper collage cutout, no pan, flame, smoke or background."
+  },
+  "content_bounds": [
+    0,
+    48,
+    1271,
+    1013
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1448,
+    "height": 1086,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      48,
+      1271,
+      1013
+    ],
+    "opaque_ratio": 0.3103,
+    "translucent_ratio": 0.0042,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_contact_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "f47062c78ccebfb23e3d1c5562d61507bd5b32f600e8f6f98447d5a6b430d3a3",
+      "bytes": 1166200
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "1635432c8353ca465a36ea45af4a65172bed519370799ebbbe1d11d27db53910",
+      "bytes": 634
+    }
+  ],
+  "revision": "4f0122a030f379bb0e14"
+}

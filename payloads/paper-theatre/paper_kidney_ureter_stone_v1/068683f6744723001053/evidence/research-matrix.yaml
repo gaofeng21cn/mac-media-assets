@@ -1,0 +1,442 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: kidney_stones
+questions:
+- question_id: KID-Q01
+  question: 结石位置、梗阻和感染如何改变下一步？
+  priority: must_answer
+  claims:
+  - question_id: KID-Q01
+    claim_id: KID-CLM01
+    claim: 感染或无尿合并梗阻可构成泌尿急症，需要紧急医疗评估和引流等专业处理。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-005
+      locator: EAU 3.3；3.4.2及推荐
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 感染或无尿合并梗阻可构成泌尿急症，需要紧急医疗评估和引流等专业处理。
+    population: 发生过结石/肾绞痛或体检发现结石者及家属
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: STN-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    - source_id: STN-003
+      source_type: consensus
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 结石位置、梗阻和感染如何改变下一步？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 公众教育解释不构成个体诊断或处方；具体方案及中国接诊/药物条件需临床核定。
+    - 临床终审待处理。
+    allowed_wording:
+    - 感染或无尿合并梗阻可构成泌尿急症，需要紧急医疗评估和引流等专业处理。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: KID-Q02
+  question: 无症状结石是否都要立即处理？
+  priority: must_answer
+  claims:
+  - question_id: KID-Q02
+    claim_id: KID-CLM02
+    claim: NICE允许特定无症状肾结石经知情讨论后观察，展示了观察也是决策选项。
+    status: context_limited
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: STN-002
+      locator: 1.5.1
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: NICE允许特定无症状肾结石经知情讨论后观察，展示了观察也是决策选项。
+    population: 发生过结石/肾绞痛或体检发现结石者及家属
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: STN-002
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 无症状结石是否都要立即处理？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 大小阈值属于英国路径。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - NICE允许特定无症状肾结石经知情讨论后观察，展示了观察也是决策选项。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: KID-Q03
+  question: 排出后为什么要讨论结石成分和复发评估？
+  priority: must_answer
+  claims:
+  - question_id: KID-Q03
+    claim_id: KID-CLM03
+    claim: 成分分析、基础代谢评估和风险分层用于指导复发预防；特异代谢检查侧重高风险人群。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-006
+      locator: EAU 4.1.1–4.1.3
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 成分分析、基础代谢评估和风险分层用于指导复发预防；特异代谢检查侧重高风险人群。
+    population: 发生过结石/肾绞痛或体检发现结石者及家属
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: STN-001
+      source_type: clinical_guideline
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 排出后为什么要讨论结石成分和复发评估？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 公众教育解释不构成个体诊断或处方；具体方案及中国接诊/药物条件需临床核定。
+    - 临床终审待处理。
+    allowed_wording:
+    - 成分分析、基础代谢评估和风险分层用于指导复发预防；特异代谢检查侧重高风险人群。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: KID-Q04
+  question: 哪些伴随变化需要及时急诊？
+  priority: must_answer
+  claims:
+  - question_id: KID-Q04
+    claim_id: KID-CLM04
+    claim: 疑似结石伴感染表现、无尿或持续难控制疼痛需及时医疗评估，不能等待自行排石。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-005
+      locator: EAU 3.4.1–3.4.2
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 疑似结石伴感染表现、无尿或持续难控制疼痛需及时医疗评估，不能等待自行排石。
+    population: 发生过结石/肾绞痛或体检发现结石者及家属
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: STN-004
+      source_type: patient_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 哪些伴随变化需要及时急诊？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 公众教育解释不构成个体诊断或处方；具体方案及中国接诊/药物条件需临床核定。
+    - 临床终审待处理。
+    allowed_wording:
+    - 疑似结石伴感染表现、无尿或持续难控制疼痛需及时医疗评估，不能等待自行排石。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ01
+  question: 位置和梗阻比“有颗石头”更多一层
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ01
+    claim_id: KID-MAT01
+    claim: 肾盏、肾盂和输尿管位置会影响表现及处理。评估包括病史、尿液/血液检查和适当影像，目的是确认结石、梗阻、感染及肾功能，而非只报最大直径。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-005
+      locator: EAU 3.3诊断和检查
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 肾盏、肾盂和输尿管位置会影响表现及处理。评估包括病史、尿液/血液检查和适当影像，目的是确认结石、梗阻、感染及肾功能，而非只报最大直径。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 位置和梗阻比“有颗石头”更多一层
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南补充通用机制与决策解释；药物、术式准入及中国服务可及性按本地实践。
+    allowed_wording:
+    - 肾盏、肾盂和输尿管位置会影响表现及处理。评估包括病史、尿液/血液检查和适当影像，目的是确认结石、梗阻、感染及肾功能，而非只报最大直径。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ02
+  question: 感染性梗阻是急症
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ02
+    claim_id: KID-MAT02
+    claim: 梗阻肾合并感染或无尿可构成泌尿外科急症，需要紧急减压和及时抗感染评估。支架和肾造瘘是医疗引流选项，不能把“多喝水等排出”当作这类情境的处理。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-005
+      locator: 3.4.2及3.4.2.a
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 梗阻肾合并感染或无尿可构成泌尿外科急症，需要紧急减压和及时抗感染评估。支架和肾造瘘是医疗引流选项，不能把“多喝水等排出”当作这类情境的处理。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 感染性梗阻是急症
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南补充通用机制与决策解释；药物、术式准入及中国服务可及性按本地实践。
+    allowed_wording:
+    - 梗阻肾合并感染或无尿可构成泌尿外科急症，需要紧急减压和及时抗感染评估。支架和肾造瘘是医疗引流选项，不能把“多喝水等排出”当作这类情境的处理。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ03
+  question: 急性止痛和根本取石不同
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ03
+    claim_id: KID-MAT03
+    claim: 肾绞痛需要有效镇痛并评估肾功能和其他风险；疼痛难控制、梗阻或其他指征可能需要引流/取石。疼痛缓解不能独立证明结石已排出或梗阻已解除。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-005
+      locator: 3.4.1；3.4.9
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 肾绞痛需要有效镇痛并评估肾功能和其他风险；疼痛难控制、梗阻或其他指征可能需要引流/取石。疼痛缓解不能独立证明结石已排出或梗阻已解除。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 急性止痛和根本取石不同
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南补充通用机制与决策解释；药物、术式准入及中国服务可及性按本地实践。
+    allowed_wording:
+    - 肾绞痛需要有效镇痛并评估肾功能和其他风险；疼痛难控制、梗阻或其他指征可能需要引流/取石。疼痛缓解不能独立证明结石已排出或梗阻已解除。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ04
+  question: 无症状并非一律马上手术
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ04
+    claim_id: KID-MAT04
+    claim: 可观察的肾结石要讨论增长、梗阻、感染、症状、职业/出行和随访条件。观察是带有复查计划的选择，未来也可能改变方案。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-005
+      locator: 3.4.10保守治疗及干预指征
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 可观察的肾结石要讨论增长、梗阻、感染、症状、职业/出行和随访条件。观察是带有复查计划的选择，未来也可能改变方案。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 无症状并非一律马上手术
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南补充通用机制与决策解释；药物、术式准入及中国服务可及性按本地实践。
+    allowed_wording:
+    - 可观察的肾结石要讨论增长、梗阻、感染、症状、职业/出行和随访条件。观察是带有复查计划的选择，未来也可能改变方案。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ05
+  question: 取石方式要比较条件
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ05
+    claim_id: KID-MAT05
+    claim: 体外冲击波、输尿管镜和经皮肾镜等方式在位置、大小、解剖、感染、出血风险、清石率及再次治疗方面不同。公众材料展示选择维度，不用一个大小阈值直接给所有人分配手术。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-005
+      locator: 3.4.5–3.4.10；图3.1和3.2
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 体外冲击波、输尿管镜和经皮肾镜等方式在位置、大小、解剖、感染、出血风险、清石率及再次治疗方面不同。公众材料展示选择维度，不用一个大小阈值直接给所有人分配手术。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 取石方式要比较条件
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南补充通用机制与决策解释；药物、术式准入及中国服务可及性按本地实践。
+    allowed_wording:
+    - 体外冲击波、输尿管镜和经皮肾镜等方式在位置、大小、解剖、感染、出血风险、清石率及再次治疗方面不同。公众材料展示选择维度，不用一个大小阈值直接给所有人分配手术。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ06
+  question: 排出后保留成分线索
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ06
+    claim_id: KID-MAT06
+    claim: EAU建议结石成分分析和基础代谢评估，进一步特异代谢检查主要针对高风险人群。结石类型、复发、家族史及系统性疾病影响预防，不能把所有结石归为“钙吃多了”。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-006
+      locator: 4.1.1–4.1.3；图4.1
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: EAU建议结石成分分析和基础代谢评估，进一步特异代谢检查主要针对高风险人群。结石类型、复发、家族史及系统性疾病影响预防，不能把所有结石归为“钙吃多了”。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 排出后保留成分线索
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南；部分监测时间证据有限，饮水目标需结合限液、年龄和合并病。
+    allowed_wording:
+    - EAU建议结石成分分析和基础代谢评估，进一步特异代谢检查主要针对高风险人群。结石类型、复发、家族史及系统性疾病影响预防，不能把所有结石归为“钙吃多了”。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ07
+  question: 饮水与饮食有共同原则
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ07
+    claim_id: KID-MAT07
+    claim: EAU强调以水为主的充足液体、均衡饮食、避免过量盐和动物蛋白，通常保留正常膳食钙；高草酸、尿酸和胱氨酸等还需针对性建议。心肾疾病或限液人群的饮水目标另行个体化。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-006
+      locator: 4.2；表4.5
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: EAU强调以水为主的充足液体、均衡饮食、避免过量盐和动物蛋白，通常保留正常膳食钙；高草酸、尿酸和胱氨酸等还需针对性建议。心肾疾病或限液人群的饮水目标另行个体化。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 饮水与饮食有共同原则
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南；部分监测时间证据有限，饮水目标需结合限液、年龄和合并病。
+    allowed_wording:
+    - EAU强调以水为主的充足液体、均衡饮食、避免过量盐和动物蛋白，通常保留正常膳食钙；高草酸、尿酸和胱氨酸等还需针对性建议。心肾疾病或限液人群的饮水目标另行个体化。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ08
+  question: 预防药物按代谢问题选择
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ08
+    claim_id: KID-MAT08
+    claim: 碱化尿液、纠正尿中异常或其他预防药物与结石类型及检测结果有关，存在禁忌和监测任务；不能把溶石/排石药当成所有结石通用。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-006
+      locator: 4.3–4.9；表4.6
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 碱化尿液、纠正尿中异常或其他预防药物与结石类型及检测结果有关，存在禁忌和监测任务；不能把溶石/排石药当成所有结石通用。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 预防药物按代谢问题选择
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南；部分监测时间证据有限，饮水目标需结合限液、年龄和合并病。
+    allowed_wording:
+    - 碱化尿液、纠正尿中异常或其他预防药物与结石类型及检测结果有关，存在禁忌和监测任务；不能把溶石/排石药当成所有结石通用。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: KID-RQ09
+  question: 复查与结果回路
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: KID-RQ09
+    claim_id: KID-MAT09
+    claim: 长期预防评估结合症状、影像及选定的尿液/血液指标；专项24小时尿采集需和实验室确认操作。EAU也承认部分复查时间的证据有限，科普应解释为什么复查，不强行承诺统一间隔。
+    status: context_limited
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: STN-006
+      locator: 4.1.2–4.1.3
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 长期预防评估结合症状、影像及选定的尿液/血液指标；专项24小时尿采集需和实验室确认操作。EAU也承认部分复查时间的证据有限，科普应解释为什么复查，不强行承诺统一间隔。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 复查与结果回路
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 欧洲指南；部分监测时间证据有限，饮水目标需结合限液、年龄和合并病。
+    allowed_wording:
+    - 长期预防评估结合症状、影像及选定的尿液/血液指标；专项24小时尿采集需和实验室确认操作。EAU也承认部分复查时间的证据有限，科普应解释为什么复查，不强行承诺统一间隔。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null

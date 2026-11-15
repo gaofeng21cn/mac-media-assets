@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_lungs_detailed_layers_v1",
+  "title": "肺与气管·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "trachea_bronchi",
+      "path": "files/trachea_bronchi.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺与气管·trachea_bronchi",
+      "medical": true,
+      "content_bounds": [
+        384,
+        93,
+        640,
+        360
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "left_lung",
+      "path": "files/left_lung.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺与气管·left_lung",
+      "medical": true,
+      "content_bounds": [
+        309,
+        319,
+        494,
+        824
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "right_lung",
+      "path": "files/right_lung.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肺与气管·right_lung",
+      "medical": true,
+      "content_bounds": [
+        530,
+        319,
+        715,
+        824
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "carina": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_lungs_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肺与气管",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "trachea_bronchi",
+      "left_lung",
+      "right_lung"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肺与气管支气管示意，左右为画面左右；不表示肺叶分段、肺功能或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/trachea_bronchi.svg",
+      "role": "source",
+      "sha256": "a617704de1ffce6318dec95aa7aed4343483d49c696397bba79711230789d8b8",
+      "bytes": 612
+    },
+    {
+      "path": "files/trachea_bronchi.png",
+      "role": "payload",
+      "sha256": "cfe3d16f6a8559309329daf4d4a1b74ea2cdd14b447c5f063255eb2fa22eb9cc",
+      "bytes": 14377
+    },
+    {
+      "path": "source/left_lung.svg",
+      "role": "source",
+      "sha256": "cce452d59256253f3a8a15f4c540e12c9605cfb357be78934ed9ad4e8c1a2c05",
+      "bytes": 293
+    },
+    {
+      "path": "files/left_lung.png",
+      "role": "payload",
+      "sha256": "e673fb3fc9480e2e2bc1f93dbcd8d503c1870d8223f82e8556373dd178ecd4c6",
+      "bytes": 20178
+    },
+    {
+      "path": "source/right_lung.svg",
+      "role": "source",
+      "sha256": "0354e0c023a965ce59ac1f9ee6c7fd06abbd62ff3ede64a2a1170ac521de833c",
+      "bytes": 293
+    },
+    {
+      "path": "files/right_lung.png",
+      "role": "payload",
+      "sha256": "c43f40dd5614e77f5b0de464d753f7be7922507e6732535fc72b412198b7fb11",
+      "bytes": 20082
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "9e554505a19657bd30ad2f26d3abc091996f553c6de3d5e498ced6cade725afa",
+      "bytes": 1004
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "9fe5a8fd945c1d2a7b5deb06acc8118a1cf1c9f7b4801a52abe1e5d3f4c67ac7",
+      "bytes": 42640
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "af699431f732baef6866565af75bc3f14bb245640ae24f99c87a903682e3516d",
+      "bytes": 597
+    }
+  ],
+  "revision": "08f2ed81f865687391f9"
+}

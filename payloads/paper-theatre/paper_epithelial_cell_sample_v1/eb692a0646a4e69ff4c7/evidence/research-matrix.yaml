@@ -1,0 +1,297 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: hpv_prevention
+questions:
+- question_id: HPV-Q01
+  question: HPV阳性就是癌吗？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C01
+    question_id: HPV-Q01
+    claim: 高危型HPV持续感染增加癌前病变和癌症风险，单次阳性不等于癌症诊断。
+    status: supported
+    original_conclusion_paraphrase: 高危型HPV持续感染增加癌前病变和癌症风险，单次阳性不等于癌症诊断。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CNQA26
+      locator: 问题1、7
+      relationship: direct_support_with_stated_scope
+    population: 中国公众；适龄女孩及监护人
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2026-08-18来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不向个体保证自行清除，不给统一转阴期限。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 高危型HPV持续感染增加癌前病变和癌症风险，单次阳性不等于癌症诊断。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q02
+  question: 感染结果能证明谁传给谁吗？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C02
+    question_id: HPV-Q02
+    claim: 感染检测不能可靠确定原始传播者，也不能据此判断伴侣不忠。
+    status: supported
+    original_conclusion_paraphrase: 感染检测不能可靠确定原始传播者，也不能据此判断伴侣不忠。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CDC21
+      locator: Counseling key messages
+      relationship: direct_support_with_stated_scope
+    population: 性活跃人群与感染者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2021 guideline; accessed current page来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 一般传播原理不代替具体性健康评估。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 感染检测不能可靠确定原始传播者，也不能据此判断伴侣不忠。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q03
+  question: 疫苗为什么早接种更有利？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C03
+    question_id: HPV-Q03
+    claim: 预防性HPV疫苗用于防止新的相关型别感染，接触前接种获益更大。
+    status: supported
+    original_conclusion_paraphrase: 预防性HPV疫苗用于防止新的相关型别感染，接触前接种获益更大。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CNQA26
+      locator: 问题3、7
+      relationship: direct_support_with_stated_scope
+    population: 中国公众；适龄女孩及监护人
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2026-08-18来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不将可能获益写成所有成人都同样需要接种。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 预防性HPV疫苗用于防止新的相关型别感染，接触前接种获益更大。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q04
+  question: 中国哪些人能免费接种？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C04
+    question_id: HPV-Q04
+    claim: 国家免疫规划为符合出生日期条件、满13周岁的女孩提供两剂双价HPV疫苗。
+    status: supported
+    original_conclusion_paraphrase: 国家免疫规划为符合出生日期条件、满13周岁的女孩提供两剂双价HPV疫苗。
+    evidence_type: official_policy
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CNPOL25
+      locator: 通知：国家免疫规划对象、起始日期、间隔
+      relationship: direct_support_with_stated_scope
+    population: 符合国家免疫规划条件的适龄女孩
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2025-10-30来源版本，截至2026-11-14。
+    effect_or_threshold:
+      age_years: 13
+      birth_condition: 2011-11-10以后出生，按通知原文
+      doses: 2
+      interval_months: 6
+      kind: 国家免疫规划服务条件，非产品通用适应证
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 政策不是所有女性免费，也不与自费产品的全部适用范围等价。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 国家免疫规划为符合出生日期条件、满13周岁的女孩提供两剂双价HPV疫苗。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q05
+  question: 双价、四价、九价怎样理解？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C05
+    question_id: HPV-Q05
+    claim: 价次指覆盖的型别组合，不代表同一个人的保护效果按数字等比例增长。
+    status: supported
+    original_conclusion_paraphrase: 价次指覆盖的型别组合，不代表同一个人的保护效果按数字等比例增长。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CNQA26
+      locator: 问题4、10；型别补充见CDC21 prevention
+      relationship: direct_support_with_stated_scope
+    population: 中国公众；适龄女孩及监护人
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2026-08-18来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不列所有品牌最新适应证，本包不作品牌排名。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 价次指覆盖的型别组合，不代表同一个人的保护效果按数字等比例增长。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q06
+  question: 打过疫苗是不是就不用筛查？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C06
+    question_id: HPV-Q06
+    claim: HPV疫苗不能覆盖全部风险，接种后仍需适龄宫颈筛查。
+    status: supported
+    original_conclusion_paraphrase: HPV疫苗不能覆盖全部风险，接种后仍需适龄宫颈筛查。
+    evidence_type: official_screening_program
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CNSCR22
+      locator: 服务内容与技术流程；HPV-CNQA26问题7
+      relationship: direct_support_with_stated_scope
+    - source_id: HPV-CNQA26
+      locator: 问题1—10
+      relationship: supplemental_support
+    population: 中国公共卫生筛查服务对象
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2022-01来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不把项目目标人群作为所有个人的唯一筛查标准。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - HPV疫苗不能覆盖全部风险，接种后仍需适龄宫颈筛查。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q07
+  question: HPV有没有一吃就转阴的特效药？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C07
+    question_id: HPV-Q07
+    claim: 治疗主要针对疣、癌前病变等，不能凭产品宣传保证清除亚临床HPV感染。
+    status: supported
+    original_conclusion_paraphrase: 治疗主要针对疣、癌前病变等，不能凭产品宣传保证清除亚临床HPV感染。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CDC21
+      locator: Treatment；Counseling
+      relationship: direct_support_with_stated_scope
+    population: 性活跃人群与感染者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2021 guideline; accessed current page来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不把常见清除过程解释为无需管理癌前病变。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 治疗主要针对疣、癌前病变等，不能凭产品宣传保证清除亚临床HPV感染。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q08
+  question: 接种安全怎样说才准确？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C08
+    question_id: HPV-Q08
+    claim: HPV疫苗有持续安全性监测，接种可出现局部反应或晕厥等，需要规范筛查和留观。
+    status: supported
+    original_conclusion_paraphrase: HPV疫苗有持续安全性监测，接种可出现局部反应或晕厥等，需要规范筛查和留观。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CNQA26
+      locator: 问题8、9；HPV-CDC24安全性章节
+      relationship: direct_support_with_stated_scope
+    - source_id: HPV-CDC24
+      locator: Vaccine safety、contraindications、pregnancy
+      relationship: supplemental_support
+    population: 中国公众；适龄女孩及监护人
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2026-08-18来源版本，截至2026-11-14。
+    effect_or_threshold:
+      value: 30
+      unit: 分钟
+      meaning: 中国接种后留观
+      kind: 国内接种流程
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 国内留观用30分钟；不照搬美国页面15分钟。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - HPV疫苗有持续安全性监测，接种可出现局部反应或晕厥等，需要规范筛查和留观。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: HPV-Q09
+  question: 备孕、怀孕和既往严重过敏要注意什么？
+  priority: must_answer
+  claims:
+  - claim_id: HPV-C09
+    question_id: HPV-Q09
+    claim: 妊娠及既往严重过敏等会影响接种安排，需在接种前告知并按说明书判断。
+    status: supported
+    original_conclusion_paraphrase: 妊娠及既往严重过敏等会影响接种安排，需在接种前告知并按说明书判断。
+    evidence_type: official_vaccination_guidance
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: HPV-CDC24
+      locator: Contraindications；Vaccination during pregnancy
+      relationship: direct_support_with_stated_scope
+    population: 美国疫苗受种人群
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2024-07-09来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不在本包对意外孕期接种作个体风险结论。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 妊娠及既往严重过敏等会影响接种安排，需在接种前告知并按说明书判断。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null

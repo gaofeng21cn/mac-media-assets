@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_woman_sit_pose_v1",
+  "title": "成年女性同身份坐姿·完整纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    21,
+    1014,
+    1536
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "woman_sit_pose"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "成年女性同身份坐姿·完整纸件",
+      "woman_sit_pose"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "成年女性同身份坐姿·完整纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        21,
+        1014,
+        1536
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "沿用芥黄开衫、青色裤成年女性身份的坐姿；椅子另行装配，头段配准同身份母版，不按坐姿外框当身高。",
+      "human_scale": {
+        "nominal_height_cm": 163,
+        "height_status": "authored_design_reference",
+        "scale_family": "adult_woman_cn_mustard",
+        "pose": "sit",
+        "subject": "character",
+        "calibration": {
+          "status": "calibrated",
+          "from": {
+            "x": 0.45,
+            "y": 0.031
+          },
+          "to": {
+            "x": 0.45,
+            "y": 0.203
+          },
+          "span_cm": 22.82,
+          "basis": "本次查看完整原件，以头顶约48px至下巴约312px的头段，与同身份伸手母版22.82cm设计头段配准；不是以坐姿外框当站立身高。身体体量与椅面另行试装。",
+          "source_sha256": "c7ea198da4cf581af3c5f4624d7cc25a29ddfa9088b7f54cf07a2052203d4913",
+          "source_size": {
+            "width": 1024,
+            "height": 1536
+          }
+        },
+        "source_sha256": "c7ea198da4cf581af3c5f4624d7cc25a29ddfa9088b7f54cf07a2052203d4913"
+      },
+      "registration": {
+        "coordinate_space": "pixel_xy_normalized_to_source_image",
+        "anchors": {
+          "head": {
+            "x": 0.43,
+            "y": 0.11
+          },
+          "feet": {
+            "x": 0.65,
+            "y": 0.974
+          },
+          "seat": {
+            "x": 0.31,
+            "y": 0.64
+          }
+        }
+      }
+    }
+  ],
+  "usage_notes": "沿用芥黄开衫、青色裤成年女性身份的坐姿；椅子另行装配，头段配准同身份母版，不按坐姿外框当身高。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "character_role": "adult_woman",
+  "pose": "sit",
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "c7ea198da4cf581af3c5f4624d7cc25a29ddfa9088b7f54cf07a2052203d4913",
+      "bytes": 1206054
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "9c1a6906e20659fcf642caf98ed685b9e5ae75e64adb36a11f3f7fe51c0b9e07",
+      "bytes": 2511
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "ae8dab8c8b8e380281eb343a3fc87f88d540b546a9b52ab4539b2e9f64afd48f",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "8af8f2585452699696797108e682473233e623b88daa2982aed98fef2a76b773",
+      "bytes": 661
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "479af9ef18e676c1be90885ed848137f85af9c86bdbd5b2318e72abe98f983cd",
+      "bytes": 64885
+    }
+  ],
+  "revision": "dd97222ef4e848ee6d01",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_woman_sit_pose_v1@86e3f17537f4debc7f25",
+    "source_record_sha256": "766759f885e0a789350aff37477b7eafa445976750980f15aa25915dfbebc189",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "8ba700f28023bf4e6bb40b46e53ccb14eb91deafb95e020c84b628ba85a523fc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

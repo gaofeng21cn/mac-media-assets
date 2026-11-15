@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_intestine_simple_v1",
+  "title": "肠道·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "肠道·payload",
+      "medical": true,
+      "content_bounds": [
+        265,
+        231,
+        809,
+        805
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "loop": {
+            "x": 0.56,
+            "y": 0.52
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_intestine_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肠道",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肠道盘曲外形与腔面示意；不区分小肠各段、结肠分段或吸收部位。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "3dacd5bae7cb5c6bafba8a538daf4433f8615c53f3489bf8aab5742342d4bd41",
+      "bytes": 431
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "4b81e1225059000a817b322ca662a50910c2df99b71f6168e246e8bbedcf60b5",
+      "bytes": 13080
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "3dacd5bae7cb5c6bafba8a538daf4433f8615c53f3489bf8aab5742342d4bd41",
+      "bytes": 431
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "4b81e1225059000a817b322ca662a50910c2df99b71f6168e246e8bbedcf60b5",
+      "bytes": 13080
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "b8a1fdb7ecb98f1bddaac3f0f2c0b27a9d0e5816939f278909a78fa8dfed5cc5",
+      "bytes": 24223
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "a9cfdf4d22269fce884672a9474b954d3a9e3497c5e62fffb58e0ffde3356881",
+      "bytes": 576
+    }
+  ],
+  "revision": "0f3ee5e93abace88edc1",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_intestine_simple_v1@33aff2f4089c89d65453",
+    "source_record_sha256": "1b6e1300f478b00903e35bd42c6986b7a4e32ac44d4fbf24d7f892ba5487070c",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5357c4ebeae8a0c3095a804b68afabddc9853bfccbfeca4fda5f9c26b38f782c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "5357c4ebeae8a0c3095a804b68afabddc9853bfccbfeca4fda5f9c26b38f782c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

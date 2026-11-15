@@ -1,0 +1,535 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_thyroid_structure_reveal_v1",
+  "title": "甲状腺·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "甲状腺",
+      "逐层揭示",
+      "局部高亮",
+      "thyroid"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "甲状腺·逐层揭示与局部高亮",
+    "sample_duration_seconds": 10.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "正面甲状腺与后方气管的简化空间关系；不含甲状软骨、血管、神经或病灶。左右为画面左右，不能据此判断手术层次。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "f55bdcdd88dda76c756a910d59aeb2189132a4f7b466351a7aef8da767281cdc",
+      "bytes": 679
+    },
+    {
+      "path": "assets/isthmus.png",
+      "role": "payload",
+      "sha256": "777e5a6b54abfdbd7263cb408eb5e71314614164b4fef195e8abff6d2da48e96",
+      "bytes": 8577
+    },
+    {
+      "path": "assets/lobe_left.png",
+      "role": "payload",
+      "sha256": "c4cc3bb65150adcf83fc2fb0dfad749e6bc365424a179a6062bb64c8d3051384",
+      "bytes": 21148
+    },
+    {
+      "path": "assets/lobe_right.png",
+      "role": "payload",
+      "sha256": "4c90cd23b6adeeb001bb482118f1e5691a0b5cb767842f29422af6516250d465",
+      "bytes": 21089
+    },
+    {
+      "path": "assets/trachea.png",
+      "role": "payload",
+      "sha256": "1d306b8b2153b845f5992f7fd2d8862fc7e82c84cef393dd3b8c25ba37de7611",
+      "bytes": 22163
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "35fd71a7b1b9b1a9062089645179d15dcb72a12066109ccb9411eb1602cfd3ae",
+      "bytes": 628
+    },
+    {
+      "path": "original/files/isthmus.png",
+      "role": "payload",
+      "sha256": "777e5a6b54abfdbd7263cb408eb5e71314614164b4fef195e8abff6d2da48e96",
+      "bytes": 8577
+    },
+    {
+      "path": "original/files/lobe_left.png",
+      "role": "payload",
+      "sha256": "c4cc3bb65150adcf83fc2fb0dfad749e6bc365424a179a6062bb64c8d3051384",
+      "bytes": 21148
+    },
+    {
+      "path": "original/files/lobe_right.png",
+      "role": "payload",
+      "sha256": "4c90cd23b6adeeb001bb482118f1e5691a0b5cb767842f29422af6516250d465",
+      "bytes": 21089
+    },
+    {
+      "path": "original/files/trachea.png",
+      "role": "payload",
+      "sha256": "1d306b8b2153b845f5992f7fd2d8862fc7e82c84cef393dd3b8c25ba37de7611",
+      "bytes": 22163
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "d8eab1f1e22d7874344c445600bd89ca6ae208e66fbb975b1a199286247bd68c",
+      "bytes": 6975
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "ec065014fd36190b27a32bb4f91039f909b68c91ac2fd8eab1ecda0727818942",
+      "bytes": 54017
+    },
+    {
+      "path": "original/source/build_anatomy.py",
+      "role": "payload",
+      "sha256": "46ed48086ed7e69f6abb7c1c0a64c24684361b68bd09e21e5d2fa1acf18273cc",
+      "bytes": 10156
+    },
+    {
+      "path": "original/source/isthmus.svg",
+      "role": "payload",
+      "sha256": "248935bde3187da6432b78025c1f8ffe4afafe1baffca016037f894e83670d7f",
+      "bytes": 236
+    },
+    {
+      "path": "original/source/lobe_left.svg",
+      "role": "payload",
+      "sha256": "a839077b7de301d7557953517d7e06b2e352836c0788ee0c6795537f87a937a1",
+      "bytes": 293
+    },
+    {
+      "path": "original/source/lobe_right.svg",
+      "role": "payload",
+      "sha256": "4c2157ceb1cabadd51b3f0d03b5815ecf3d53015e3233bdab68522db8227f4ab",
+      "bytes": 293
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "3efa2546a82418e99aa342fef43770c784cc7790a2457f1bbbfa10c6fb136299",
+      "bytes": 1573
+    },
+    {
+      "path": "original/source/trachea.svg",
+      "role": "payload",
+      "sha256": "f914becc0f5a1716091f578c1ea1cfa51a7946b059ce4b454962d96179617727",
+      "bytes": 1042
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "b0882f279c14c3999fc64be7ac3c91986aba3df0ee0bdb6f9d7134cbf7e1ab0f",
+      "bytes": 370
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "e6e93f6631a94810497be80f8df08bc36231616b150b2427539bf9f08cf61cad",
+      "bytes": 7541
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "9e0b85d3b0ee3f08da52b04560124d31b7f8404c51e61a0229d8ba6ce390eebf",
+      "bytes": 61229
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "cc09f26c66c30c75f0eff674c368f071a157c202967467cdc58d787b532613b8",
+      "bytes": 58692
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "b3b8477501d82839ff728aaebecc2804f1521124fcce286eca94942c1a15e55f",
+      "bytes": 61569
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "bbd8fad48972b8b07524c8da1d24aa0d68a78348225f6d6233db89fc5d0d3478",
+      "bytes": 38210
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "30461e3270478f23299d283952579ad74ba5fc5ce81b24bb9e14f2f19671dd70",
+      "bytes": 73487
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "eb49d8a4cdbf45b76e398068264ba0667a9c461ce9eeb6ba10aad00ef38c7f40",
+      "bytes": 69846
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "b1d2962b42518e7139105851821ae027e40ba90e92679005e878d3a6e77c197d",
+      "bytes": 73948
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "e3bb2a7cc215ce013567a605793887ca10ad6e4ff92bbcaab29a7f111c149215",
+      "bytes": 15639
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "2cd37e0d0fe33183a4abbb91f0d92ba9db1f2c37038f24194725121a7ccb329a",
+      "bytes": 178830
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "9ec15d10ce470c0a2109367ebce034a78cd133937e11441a8529effb2145d69c",
+      "bytes": 216280
+    },
+    {
+      "path": "samples/focus-phone/0-trachea-color.png",
+      "role": "payload",
+      "sha256": "f757cf96c6f77106dd7e1a4eafe90846e768062008fa97fdab5b6c5091169135",
+      "bytes": 14667
+    },
+    {
+      "path": "samples/focus-phone/0-trachea-dark.png",
+      "role": "payload",
+      "sha256": "d70678cf2a98ff65063356b89ee6ee439cd38ae77e3981a1c37bb7cea9d468d5",
+      "bytes": 14109
+    },
+    {
+      "path": "samples/focus-phone/0-trachea-light.png",
+      "role": "payload",
+      "sha256": "a0c6dd487c3cafd83c5b419fa92deb40d1144ac0af4ee2e2e3a98fce3869b4fa",
+      "bytes": 14413
+    },
+    {
+      "path": "samples/focus-phone/0-trachea.png",
+      "role": "payload",
+      "sha256": "a0c6dd487c3cafd83c5b419fa92deb40d1144ac0af4ee2e2e3a98fce3869b4fa",
+      "bytes": 14413
+    },
+    {
+      "path": "samples/focus-phone/1-lobe_left-color.png",
+      "role": "payload",
+      "sha256": "6ebb4720464aa6d9b347538bf658a9abee7c6f8a38e7a2f34f87c91274fd5bcd",
+      "bytes": 17269
+    },
+    {
+      "path": "samples/focus-phone/1-lobe_left-dark.png",
+      "role": "payload",
+      "sha256": "e0680241fb438b6f535c297a16d34cbc9d1dad5cd16aaa2883b62bfd54141dbf",
+      "bytes": 16910
+    },
+    {
+      "path": "samples/focus-phone/1-lobe_left-light.png",
+      "role": "payload",
+      "sha256": "b04ba6ef235a3448ad670a9004f0c3c749f49cd80064e03c8adea3855203a677",
+      "bytes": 16820
+    },
+    {
+      "path": "samples/focus-phone/1-lobe_left.png",
+      "role": "payload",
+      "sha256": "b04ba6ef235a3448ad670a9004f0c3c749f49cd80064e03c8adea3855203a677",
+      "bytes": 16820
+    },
+    {
+      "path": "samples/focus-phone/2-lobe_right-color.png",
+      "role": "payload",
+      "sha256": "1daf08deb6c806ddc5866894d2145dd3560ed38e6834afc264221ee282d2f5a2",
+      "bytes": 17082
+    },
+    {
+      "path": "samples/focus-phone/2-lobe_right-dark.png",
+      "role": "payload",
+      "sha256": "fd06cdedfde2a7d72973ae3fb0afd8ae3f7d43d753b6c1297e34267649fc17ce",
+      "bytes": 16854
+    },
+    {
+      "path": "samples/focus-phone/2-lobe_right-light.png",
+      "role": "payload",
+      "sha256": "cc7440c2728aad5c4568dd2e332cf73a89dcce054444ee90cbb0ee340179fd36",
+      "bytes": 16735
+    },
+    {
+      "path": "samples/focus-phone/2-lobe_right.png",
+      "role": "payload",
+      "sha256": "cc7440c2728aad5c4568dd2e332cf73a89dcce054444ee90cbb0ee340179fd36",
+      "bytes": 16735
+    },
+    {
+      "path": "samples/focus-phone/3-isthmus-color.png",
+      "role": "payload",
+      "sha256": "48f4662dc4b0b88c9cb4104b81bee661de79e1bc4005602b8023f142bf047b64",
+      "bytes": 16063
+    },
+    {
+      "path": "samples/focus-phone/3-isthmus-dark.png",
+      "role": "payload",
+      "sha256": "e34d20ba1f960c11609a56dc23867fd096130237ece2f91e627dcbab423df53b",
+      "bytes": 15423
+    },
+    {
+      "path": "samples/focus-phone/3-isthmus-light.png",
+      "role": "payload",
+      "sha256": "550449ef2774e2cafeb389deca5a99a344acbcbf0b87972561309b8ed5aed16e",
+      "bytes": 15773
+    },
+    {
+      "path": "samples/focus-phone/3-isthmus.png",
+      "role": "payload",
+      "sha256": "550449ef2774e2cafeb389deca5a99a344acbcbf0b87972561309b8ed5aed16e",
+      "bytes": 15773
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "b1d2962b42518e7139105851821ae027e40ba90e92679005e878d3a6e77c197d",
+      "bytes": 73948
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "b1d2962b42518e7139105851821ae027e40ba90e92679005e878d3a6e77c197d",
+      "bytes": 73948
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "dba72708575c547638cab781715eb22b9fd9aea49190f3eb7b710e668fa594e1",
+      "bytes": 41165
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "d1f93c52f065c4c39c45d43aeaf67685ff542ef5faf5a31abf32d708325b5ad7",
+      "bytes": 51394
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "d1f93c52f065c4c39c45d43aeaf67685ff542ef5faf5a31abf32d708325b5ad7",
+      "bytes": 51394
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "fb5f3cad60828f620f152b0f3a1cd9125cacdcedefc3ef01306875ba4e62db6d",
+      "bytes": 61823
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "fb5f3cad60828f620f152b0f3a1cd9125cacdcedefc3ef01306875ba4e62db6d",
+      "bytes": 61823
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "e3d3be1b56008e9bba07bbb438c797c92d2c9490cd93efb152bb71be9ec9e72f",
+      "bytes": 72272
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "e3d3be1b56008e9bba07bbb438c797c92d2c9490cd93efb152bb71be9ec9e72f",
+      "bytes": 72272
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "fdac332eae0fbadd3fc42a862570ab0cdbe30eddd0919f127b7f49fd6e93feb5",
+      "bytes": 73393
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "fdac332eae0fbadd3fc42a862570ab0cdbe30eddd0919f127b7f49fd6e93feb5",
+      "bytes": 73393
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "a3e2eb82973118af3dac019279c5ca5dedb4492410956756c21ff21f30fe010f",
+      "bytes": 65105
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "a3e2eb82973118af3dac019279c5ca5dedb4492410956756c21ff21f30fe010f",
+      "bytes": 65105
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "a3e2eb82973118af3dac019279c5ca5dedb4492410956756c21ff21f30fe010f",
+      "bytes": 65105
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "1dc8030af29ee5a33d21614e24a4a5a9c52f621e5fc692ec0ca06007a60e904e",
+      "bytes": 79093
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "1dc8030af29ee5a33d21614e24a4a5a9c52f621e5fc692ec0ca06007a60e904e",
+      "bytes": 79093
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "1dc8030af29ee5a33d21614e24a4a5a9c52f621e5fc692ec0ca06007a60e904e",
+      "bytes": 79093
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "5f00eba04deeda0c1226dadb1744cc830bc8f384d4fa7c01300c454467962d73",
+      "bytes": 79721
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "5f00eba04deeda0c1226dadb1744cc830bc8f384d4fa7c01300c454467962d73",
+      "bytes": 79721
+    },
+    {
+      "path": "samples/keyframes/19.png",
+      "role": "payload",
+      "sha256": "5f00eba04deeda0c1226dadb1744cc830bc8f384d4fa7c01300c454467962d73",
+      "bytes": 79721
+    },
+    {
+      "path": "samples/keyframes/20.png",
+      "role": "payload",
+      "sha256": "3c16ae5df9382c8597a71a97bd7e4db9684ea4364ce4e1d732cab5e9ef71ef0d",
+      "bytes": 73612
+    },
+    {
+      "path": "samples/keyframes/21.png",
+      "role": "payload",
+      "sha256": "3c16ae5df9382c8597a71a97bd7e4db9684ea4364ce4e1d732cab5e9ef71ef0d",
+      "bytes": 73612
+    },
+    {
+      "path": "samples/keyframes/22.png",
+      "role": "payload",
+      "sha256": "33d17b95f633c413f2723a7341cdf993a550039641aaf1a0d28ffd0df59795e3",
+      "bytes": 68824
+    },
+    {
+      "path": "samples/keyframes/23.png",
+      "role": "payload",
+      "sha256": "b1d2962b42518e7139105851821ae027e40ba90e92679005e878d3a6e77c197d",
+      "bytes": 73948
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "90ce5b44d6dbbd84946dc0a6e858fc014bfe933ccc59a29dcce6365f81b35b74",
+      "bytes": 24327
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "4c45cc5ee47b5dec6273d00a7553d90bf5cb447d7d239ddbe9ea22d9daffbf17",
+      "bytes": 13298
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "e69b80d4b4f846e99d6d10e1d84d4577b358bfcd311b93194d8deb8ecc1bb393",
+      "bytes": 233191
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "4ffc60ce454384116d6ad72e7d391112f6517d72d70efcf82162fca2ddc7a592",
+      "bytes": 17050
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "43e04ee0bbc22f7ee5a573dc45e5ba6e5ee60ee7b9305245539ef0147135f01b",
+      "bytes": 6495
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "8b3d44b3cb76a745b3ee"
+}

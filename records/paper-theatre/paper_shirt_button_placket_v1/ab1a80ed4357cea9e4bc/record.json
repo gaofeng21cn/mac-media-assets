@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_shirt_button_placket_v1",
+  "title": "衬衣衣襟与衣扣·日常功能纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    55,
+    31,
+    956,
+    1502
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "shirt_button_placket"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "衬衣衣襟与衣扣·日常功能纸件",
+      "shirt_button_placket"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "衬衣衣襟与衣扣·日常功能纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        55,
+        31,
+        956,
+        1502
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "日常扣纽扣任务的具体对象；整件没有独立手部，不宣称已经完成扣合动作。"
+    }
+  ],
+  "usage_notes": "日常扣纽扣任务的具体对象；整件没有独立手部，不宣称已经完成扣合动作。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "516c7cfd661b355bd10d0c0b69404133c6d3ea799dbefcd00a7589563e5eaabf",
+      "bytes": 1991076
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "eb433a8addb9404e7ff481964e9d566f5e04bcdd1003fce3cca1a360e263c8d3",
+      "bytes": 986
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "3e8e8ce169d50bf853a3b60895736c34faf11b33be58c6dd1437d9a6d0e1c4f0",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "ddf4555ac2e66e60ed9188526614d566b6d6661bd95a4daa92751fed30fd3699",
+      "bytes": 622
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "da17bc459ff816a8735705a04266e65d6d8128bc56c403685677227b3e4530d7",
+      "bytes": 86611
+    }
+  ],
+  "revision": "ab1a80ed4357cea9e4bc",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_shirt_button_placket_v1@298ec2de5e5780e5330c",
+    "source_record_sha256": "275647f47e0fc19d2900e9434dbdbb7d91767770d14dd3fae1c21715f7f7ef9f",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "c96de8b99742ebea0ee99473cd7373b032c8f39db7cb0a9eb5eddeb20494829c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_foot_joint_simple_v1",
+  "title": "足关节·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·payload",
+      "medical": true,
+      "content_bounds": [
+        353,
+        147,
+        841,
+        871
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_foot_joint_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "足关节",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "踝足骨性结构示意，区分骨面、关节间隙与韧带走向；不表示关节间隙正常宽度、骨密度或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "5d43164c868337b7169c4f8759de99f0b7787a4c566fde8093297ed4853174ab",
+      "bytes": 538
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "736d5fe4ce38d46bb174a57c15dc6a09840d205156ce914ba7f12b7d2b3a31d0",
+      "bytes": 10174
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "5d43164c868337b7169c4f8759de99f0b7787a4c566fde8093297ed4853174ab",
+      "bytes": 538
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "736d5fe4ce38d46bb174a57c15dc6a09840d205156ce914ba7f12b7d2b3a31d0",
+      "bytes": 10174
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "b8a1fdb7ecb98f1bddaac3f0f2c0b27a9d0e5816939f278909a78fa8dfed5cc5",
+      "bytes": 24223
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7783ba03d927467f25cf70bb9c26141a142b6d486732744b98a43af2ad80c21f",
+      "bytes": 618
+    }
+  ],
+  "revision": "201e837ca40983f2e7c9",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_foot_joint_simple_v1@f31fbde1f47d93cfd326",
+    "source_record_sha256": "afc17dd0a8b285a642790b3d4fe1e74ba4cb53258416729ce591928eae8617c6",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5e01cb59ff1f80220a45a0e834e1ec9408db192bc91e1aa290a1fe0e576e381b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "5e01cb59ff1f80220a45a0e834e1ec9408db192bc91e1aa290a1fe0e576e381b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

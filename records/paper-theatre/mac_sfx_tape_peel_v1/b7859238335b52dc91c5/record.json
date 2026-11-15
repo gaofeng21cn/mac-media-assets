@@ -1,0 +1,79 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_tape_peel_v1",
+  "title": "拟音：tape_peel",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "tape_peel"
+  ],
+  "entry": "audio/tape_peel-1.flac",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "001f81f2f8956b2dd5d3383ae6466396f2ecdfc106dbb7600b34fd0091b806f0",
+      "bytes": 348
+    },
+    {
+      "path": "audio/tape_peel-1.flac",
+      "role": "payload",
+      "sha256": "0ec5fb82b17c86692498e1466d684820d9baad91551f52997f006ae3739fd8d9",
+      "bytes": 64483
+    },
+    {
+      "path": "audio/tape_peel-2.flac",
+      "role": "payload",
+      "sha256": "5461b259cd6aa7c34710c57c3a6bc5b46a7ed507979ec6d7a88a9a0c20edb814",
+      "bytes": 63228
+    },
+    {
+      "path": "audio/tape_peel-3.flac",
+      "role": "payload",
+      "sha256": "ccac689c528e0fb0b51ce8ae8d1f59c30bec3950aa2b732c2fc25422abcc8548",
+      "bytes": 64480
+    }
+  ],
+  "revision": "b7859238335b52dc91c5",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_sfx_tape_peel_v1@5fc4f99e7e88b4d8d9d6",
+    "source_record_sha256": "6dd80920b3d6a098dbb4147278d81bfc2ded5979cc9ef564c03e2ed770df800d",
+    "encodings": [
+      {
+        "path": "audio/tape_peel-1.wav",
+        "encoded_path": "audio/tape_peel-1.flac",
+        "source_sha256": "b1a950ec22945aa84eeb9d8dc8ea35e735f7b344be86c595130c7bf300f6d7ca",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/tape_peel-2.wav",
+        "encoded_path": "audio/tape_peel-2.flac",
+        "source_sha256": "b35ddc58331269b6d0221070cd687af0a2f3e3ea89963776feba26d41cae0776",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      },
+      {
+        "path": "audio/tape_peel-3.wav",
+        "encoded_path": "audio/tape_peel-3.flac",
+        "source_sha256": "1e115e42aa57ad4d029d614085b8decd6f04c01d34ed53d7cce6c9a052220335",
+        "codec": "flac",
+        "sample_verification": "decoded_pcm_sha256_rate_channels"
+      }
+    ]
+  }
+}

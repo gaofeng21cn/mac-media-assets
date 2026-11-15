@@ -1,0 +1,407 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: oral_health
+questions:
+- question_id: ORA-Q01
+  question: 不同年龄阶段需要哪些口腔检查和家庭清洁？
+  priority: must_answer
+  claims:
+  - question_id: ORA-Q01
+    claim_id: ORA-CLM01
+    claim: 国家卫健委资料提出一般人群至少年度检查、儿童建议半年检查，并按年龄由家长协助清洁。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第1–2项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 国家卫健委资料提出一般人群至少年度检查、儿童建议半年检查，并按年龄由家长协助清洁。
+    population: 婴幼儿家长、孕期女性、成年人和老年人
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: ORL-001
+      source_type: official_public_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 不同年龄阶段需要哪些口腔检查和家庭清洁？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 具体频率仍按个体风险由牙医调整。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 国家卫健委资料提出一般人群至少年度检查、儿童建议半年检查，并按年龄由家长协助清洁。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-Q02
+  question: 含氟牙膏、窝沟封闭、减少游离糖分别负责什么？
+  priority: must_answer
+  claims:
+  - question_id: ORA-Q02
+    claim_id: ORA-CLM02
+    claim: 国家卫健委资料列出含氟牙膏、窝沟封闭和减少高糖饮食作为防龋措施。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第2、3、5项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 国家卫健委资料列出含氟牙膏、窝沟封闭和减少高糖饮食作为防龋措施。
+    population: 婴幼儿家长、孕期女性、成年人和老年人
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: ORL-001
+      source_type: official_public_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 含氟牙膏、窝沟封闭、减少游离糖分别负责什么？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 不能承诺完全避免龋病。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 国家卫健委资料列出含氟牙膏、窝沟封闭和减少高糖饮食作为防龋措施。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-Q03
+  question: 牙龈出血、肿痛和牙齿松动为什么需评估？
+  priority: must_answer
+  claims:
+  - question_id: ORA-Q03
+    claim_id: ORA-CLM03
+    claim: 国家卫健委资料列出这些牙周炎相关表现，并指出自我清洁不能去除牙石。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第6项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 国家卫健委资料列出这些牙周炎相关表现，并指出自我清洁不能去除牙石。
+    population: 婴幼儿家长、孕期女性、成年人和老年人
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: ORL-001
+      source_type: official_public_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 牙龈出血、肿痛和牙齿松动为什么需评估？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 症状仅用于求助识别，不作家庭确诊。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 国家卫健委资料列出这些牙周炎相关表现，并指出自我清洁不能去除牙石。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-Q04
+  question: 孕前、老年根面龋和缺牙有什么额外任务？
+  priority: must_answer
+  claims:
+  - question_id: ORA-Q04
+    claim_id: ORA-CLM04
+    claim: 官方资料分别提出孕前检查、老年根面龋关注和除智齿外缺牙恰当修复。
+    status: supported
+    evidence_type: guideline_or_official_material
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第1、7、8项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 官方资料分别提出孕前检查、老年根面龋关注和除智齿外缺牙恰当修复。
+    population: 婴幼儿家长、孕期女性、成年人和老年人
+    jurisdiction: 中国大陆
+    evidence_setting:
+    - source_id: ORL-001
+      source_type: official_public_education
+      target_scope: 中国大陆患者教育；海外来源仅作补充
+    research_design: 指南/政策/患者教育资料的结论整理；非本包新开展的原始研究或系统综述。
+    time_scope: 按登记版本截至2026-11-13；不代表已穷尽此后更新。
+    conflicts_of_interest: 未独立完成来源作者利益冲突核验；具体治疗推荐接收前回读原文声明。
+    context: 孕前、老年根面龋和缺牙有什么额外任务？
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    limitations:
+    - 修复类型由口腔专业人员评估。
+    - 本研究包未通过临床终审。
+    allowed_wording:
+    - 官方资料分别提出孕前检查、老年根面龋关注和除智齿外缺牙恰当修复。
+    forbidden_wording:
+    - 将研究问题、筛查结果或群体数据直接用于个体诊断/治疗。
+    visual_boundary:
+    - 只表现已核实的关系，不新增诊断、因果或治疗成功暗示。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ01
+  question: 口腔检查不只在疼时做
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ01
+    claim_id: ORA-MAT01
+    claim: 口腔疾病早期可能没有明显症状。中国卫健委资料建议一般人群至少年度检查、儿童约半年检查，孕前做全面检查；频率需结合风险和牙医评估。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第1项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 口腔疾病早期可能没有明显症状。中国卫健委资料建议一般人群至少年度检查、儿童约半年检查，孕前做全面检查；频率需结合风险和牙医评估。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 口腔检查不只在疼时做
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 口腔疾病早期可能没有明显症状。中国卫健委资料建议一般人群至少年度检查、儿童约半年检查，孕前做全面检查；频率需结合风险和牙医评估。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ02
+  question: 刷牙和牙间清洁承担不同任务
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ02
+    claim_id: ORA-MAT02
+    claim: 从第一颗牙萌出开始清洁，每天至少两次，使用含氟牙膏；牙刷难以清洁牙缝时配合牙线或牙间刷。小龄儿童由家长帮助，年龄增大后继续监督。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第2项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 从第一颗牙萌出开始清洁，每天至少两次，使用含氟牙膏；牙刷难以清洁牙缝时配合牙线或牙间刷。小龄儿童由家长帮助，年龄增大后继续监督。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 刷牙和牙间清洁承担不同任务
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 从第一颗牙萌出开始清洁，每天至少两次，使用含氟牙膏；牙刷难以清洁牙缝时配合牙线或牙间刷。小龄儿童由家长帮助，年龄增大后继续监督。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ03
+  question: 游离糖和酸蚀
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ03
+    claim_id: ORA-MAT03
+    claim: 频繁高糖食品饮料增加龋风险，碳酸饮料可导致酸蚀；完整水果与果汁里的糖在口腔中的暴露方式不同。用饮食频率、饮料和睡前进食等具体行为解释。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第3项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 频繁高糖食品饮料增加龋风险，碳酸饮料可导致酸蚀；完整水果与果汁里的糖在口腔中的暴露方式不同。用饮食频率、饮料和睡前进食等具体行为解释。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 游离糖和酸蚀
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 频繁高糖食品饮料增加龋风险，碳酸饮料可导致酸蚀；完整水果与果汁里的糖在口腔中的暴露方式不同。用饮食频率、饮料和睡前进食等具体行为解释。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ04
+  question: 局部用氟和窝沟封闭
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ04
+    claim_id: ORA-MAT04
+    claim: 含氟牙膏、专业涂氟和窝沟封闭各有应用部位和适用时机，不能都画成给整颗牙“穿盔甲”。由口腔专业人员按年龄和龋风险确定。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第5项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 含氟牙膏、专业涂氟和窝沟封闭各有应用部位和适用时机，不能都画成给整颗牙“穿盔甲”。由口腔专业人员按年龄和龋风险确定。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 局部用氟和窝沟封闭
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 含氟牙膏、专业涂氟和窝沟封闭各有应用部位和适用时机，不能都画成给整颗牙“穿盔甲”。由口腔专业人员按年龄和龋风险确定。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ05
+  question: 牙龈出血需要关注
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ05
+    claim_id: ORA-MAT05
+    claim: 牙龈出血、肿痛、口腔异味或牙齿松动提示需要评估；家用清洁去除牙菌斑和软垢，不能刮除牙石。洁治频率按牙周状态安排。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第6项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 牙龈出血、肿痛、口腔异味或牙齿松动提示需要评估；家用清洁去除牙菌斑和软垢，不能刮除牙石。洁治频率按牙周状态安排。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 牙龈出血需要关注
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 牙龈出血、肿痛、口腔异味或牙齿松动提示需要评估；家用清洁去除牙菌斑和软垢，不能刮除牙石。洁治频率按牙周状态安排。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ06
+  question: 儿童牙列与习惯
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ06
+    claim_id: ORA-MAT06
+    claim: 吮指、咬唇、吐舌等习惯持续时可能影响牙弓和牙列；换牙期间短暂间隙或不齐不必先恐慌，完成替换后仍异常再作正畸咨询。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第4项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 吮指、咬唇、吐舌等习惯持续时可能影响牙弓和牙列；换牙期间短暂间隙或不齐不必先恐慌，完成替换后仍异常再作正畸咨询。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 儿童牙列与习惯
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 吮指、咬唇、吐舌等习惯持续时可能影响牙弓和牙列；换牙期间短暂间隙或不齐不必先恐慌，完成替换后仍异常再作正畸咨询。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ07
+  question: 老年根面龋和缺牙
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ07
+    claim_id: ORA-MAT07
+    claim: 牙龈萎缩暴露牙根后可能出现根面龋，需要防护与治疗；缺牙影响咀嚼、邻牙和发音，修复方案需结合口腔条件。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第7–8项
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 牙龈萎缩暴露牙根后可能出现根面龋，需要防护与治疗；缺牙影响咀嚼、邻牙和发音，修复方案需结合口腔条件。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 老年根面龋和缺牙
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 牙龈萎缩暴露牙根后可能出现根面龋，需要防护与治疗；缺牙影响咀嚼、邻牙和发音，修复方案需结合口腔条件。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null
+- question_id: ORA-RQ08
+  question: 孕前准备与就诊沟通
+  priority: material_for_core_patient_task
+  claims:
+  - question_id: ORA-RQ08
+    claim_id: ORA-MAT08
+    claim: 孕前全面口腔检查可提前处理需要治疗的问题。孕期就诊告知孕周、病史和药物，由口腔及产科人员评估具体诊疗安排。
+    status: supported
+    evidence_type: guideline_or_official_education_synthesis
+    source_refs:
+    - source_id: ORL-001
+      locator: 附件2第1项；具体孕期治疗由专科审核
+      relationship: direct_or_limited_support
+    original_conclusion_paraphrase: 孕前全面口腔检查可提前处理需要治疗的问题。孕期就诊告知孕周、病史和药物，由口腔及产科人员评估具体诊疗安排。
+    population: 按主题受众及来源适用人群
+    jurisdiction: 中国大陆科普；海外补充保留来源地区与版本
+    context: 孕前准备与就诊沟通
+    effect_or_threshold: null
+    certainty: not_independently_graded
+    research_design: 已读指南/官方资料的主题整理与公众表达；非新开展系统综述。
+    time_scope: 按来源登记版本，截至2026-11-13。
+    conflicts_of_interest: 本轮未独立核验作者利益冲突；具体治疗推荐使用前回读声明。
+    limitations:
+    - 属于公众健康信息，不能支持复杂治疗方案。
+    allowed_wording:
+    - 孕前全面口腔检查可提前处理需要治疗的问题。孕期就诊告知孕周、病史和药物，由口腔及产科人员评估具体诊疗安排。
+    forbidden_wording:
+    - 将通用解释或海外建议改成个人诊断、处方、保证疗效或本地服务承诺。
+    visual_boundary:
+    - 保持本材料关系和适用条件，不以类比新增医学判断。
+    clinician_review: pending
+    gap: null

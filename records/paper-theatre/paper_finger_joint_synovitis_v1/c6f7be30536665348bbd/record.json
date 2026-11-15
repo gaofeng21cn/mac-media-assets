@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_finger_joint_synovitis_v1",
+  "title": "手指掌指关节与滑膜炎·局部纸切面",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "rheumatoid_arthritis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1472,
+    1006
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "finger_joint_synovitis"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "手指掌指关节与滑膜炎·局部纸切面",
+      "finger_joint_synovitis"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "手指掌指关节与滑膜炎·局部纸切面",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1472,
+        1006
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "掌指关节骨端、软骨与滑膜增厚的定性关系；不将膝关节代替手指，也不用于个体确诊。"
+    }
+  ],
+  "usage_notes": "掌指关节骨端、软骨与滑膜增厚的定性关系；不将膝关节代替手指，也不用于个体确诊。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "f9b27ee554bf0cf76f8d7bcb5309f7dd36d3b4f83976479677d90edb55b95fdb",
+      "bytes": 1553952
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "01079c0f23ce9ac04665fde32898dae5ac42e36a67419fd08dea0a0eaaf8b0a4",
+      "bytes": 1371
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "3cdc98facecc9c7f7a6d7e67cdd36608f120a45e2145d10c7558f7d514a60d01",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "37ce2913f4cf2e625456247d4debd38fd500950f157f7945056d7a5477316868",
+      "bytes": 643
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "5741649162d7cf2b0b02501689a1c7c2f94521c02cdb916eb60dd1232f9d808c",
+      "bytes": 84209
+    }
+  ],
+  "revision": "c6f7be30536665348bbd",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_finger_joint_synovitis_v1@859d6a9b738140d1f87c",
+    "source_record_sha256": "5ffcf3def85590895e9eaf3bd619ea390f268c91ae3eedde8059db2df9cd51e8",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "d8002a33991b4d6f96aed4699ba3c41bd2925a45a7f318476f0afbadfbe275e1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

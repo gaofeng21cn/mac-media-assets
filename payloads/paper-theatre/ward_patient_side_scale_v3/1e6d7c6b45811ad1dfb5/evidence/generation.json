@@ -1,0 +1,10 @@
+{
+  "tool": "built_in_imagegen",
+  "reference": "productions/pituitary_paper_theatre/10_first_days_after_surgery/v11/assets/season/ward-bed-v2.png",
+  "candidate_1": "/Users/gaofeng/.codex/generated_images/01a15a37-2484-7231-9262-3933909cad7e/exec-0c7cc1ab-605c-4aa3-b0eb-c59eea4362f0.png",
+  "selected": "/Users/gaofeng/.codex/generated_images/01a15a37-2484-7231-9262-3933909cad7e/exec-f2adde8e-985a-4ce6-aa75-cc6063a40067.png",
+  "selected_sha256": "3df09326d16c7d8d4ba172248b1ba62b78d2b7e003936b7e37e1fc9d42b698c4",
+  "selection_reason": "侧视头足跨度更明确；第二稿修正第一稿床面过低，头、脚、轮底均保留。",
+  "final_prompt": "Use case: precise-object-edit. Edit target: newly made side elevation patient and bed. Preserve the SAME Chinese adult man, his face/clothes/blanket/body length and head-right feet-left flat side view. Correct ONLY the bed's vertical dimensions: currently floor to mattress is only about 30cm compared with a 175cm adult. Extend the support frame and legs downward so the top of the mattress is 60cm above wheel/floor baseline, i.e. about 34 percent of the patient's crown-to-heel length. Keep the mattress horizontal and bed length unchanged. The whole bed with taller legs and wheels must fit with margin, in a landscape 3:2 canvas, adding transparent room below if necessary. Make a credible medical hospital bed, no perspective foreshortening. Keep the actual crown and socked heel endpoints visible, low end rails. Maintain warm tactile paper collage, opaque interior pigment. Genuine transparent background with clean edge, no floor/shadow/gradient, no text/logos, no other person.",
+  "review_scope": "制作素材，不代表医学体位审定、动作或成片通过。"
+}

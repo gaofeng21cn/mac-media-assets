@@ -1,0 +1,18 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone chef's kitchen knife for a Chinese home cooking preparation scene. Subject: single modest stainless-steel chef knife with matte pale wooden handle, broad clean blade and clear handle/blade connection, shown diagonally with blade edge facing down, no hand, no food, no board. Style/medium: refined tactile cut-paper collage with subtle paper fiber, restrained steel and warm wood, crisp silhouette. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: ordinary kitchen utensil only; no gore, no person, no background card, no cast shadow, no glow, no text, no logo, no watermark.",
+  "source_sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5",
+  "source_size": [
+    1451,
+    1084
+  ],
+  "visible_bounds_alpha_ge_25": [
+    142,
+    48,
+    1332,
+    985
+  ],
+  "review": "static_original_and_composite_checked",
+  "anchors_scope": "approximate_visible_contact_regions",
+  "full_motion": "pending"
+}

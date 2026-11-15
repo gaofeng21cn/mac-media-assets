@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>医学过程组件</title><style>body{font:18px system-ui;background:#f5efdf;color:#294a48;margin:0}main{max-width:1100px;margin:auto;padding:32px}article{padding:20px 0;border-top:1px solid #c8c6b6}h2{font-size:23px}a{color:#294a48}p{line-height:1.7}iframe{width:100%;height:680px;border:0}button{font:inherit;padding:10px 16px;border:1px solid #708a7d;background:transparent;border-radius:7px;cursor:pointer}</style><main><h1>医学过程与风险沟通组件</h1><p>选择一项打开可编辑的动态示意。每项保留医学来源、用途和待审范围；各集可以改变布局、节奏与参数。</p><div id="items"></div><p><a href="motion.html">人物与接触动作</a> · <a href="../../docs/media-storage.md">按需获取与离线使用</a></p></main><script type="module">
+import {loadCatalog,available} from './catalog.mjs';
+const rows=await loadCatalog(new URL('../../',location.href));
+for(const row of rows.filter(r=>available(r)&&r.discovery?.component_family==='medical_process')){
+ const article=document.createElement('article'),h=document.createElement('h2'),p=document.createElement('p'),button=document.createElement('button'),link=document.createElement('a');h.textContent=row.title;p.textContent=row.discovery.usage_notes;button.textContent='打开动态预览';
+ const entry=row.payload.find(x=>x.path.endsWith('/index.html'));const url='../../'+entry.path;link.textContent='独立窗口';link.href=url;
+ button.onclick=()=>{const frame=document.createElement('iframe');frame.src=url;frame.title=row.title;article.append(frame);button.disabled=true;button.textContent='已打开'};article.append(h,p,button,' ',link);document.querySelector('#items').append(article);
+}
+</script></html>

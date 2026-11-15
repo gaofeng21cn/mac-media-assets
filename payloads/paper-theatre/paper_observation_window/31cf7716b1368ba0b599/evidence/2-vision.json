@@ -1,0 +1,16 @@
+{
+  "asset_id": "vision",
+  "asset_ref": "assets/cutouts/vision-window.png",
+  "asset_sha256": "b9588600eb747cee83e7815dff44020f4e57a29b3ff327e7ff6a79c51ab13cfa",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "观察窗为独立透明框，内部需另层景物；不是检查结果，遮片限制在窗内。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

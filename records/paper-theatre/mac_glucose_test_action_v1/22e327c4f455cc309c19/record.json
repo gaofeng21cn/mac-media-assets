@@ -1,0 +1,283 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_glucose_test_action_v1",
+  "title": "血糖仪操作：插试纸、采血、读数与按压止血",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "continuous_action",
+    "monitoring",
+    "glucose_test"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "血糖仪操作：插试纸、采血、读数与按压止血",
+      "血糖仪",
+      "试纸",
+      "采血",
+      "指尖采血",
+      "家庭监测",
+      "mac_glucose_test_action_v1"
+    ],
+    "actions": [
+      "器械操作",
+      "试纸插入",
+      "指尖采血",
+      "读数",
+      "按压止血"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "家庭监测",
+      "糖尿病管理",
+      "连续动作"
+    ],
+    "display_title": "血糖仪操作：插试纸、采血、读数与按压止血",
+    "renderers": [
+      "canvas2d"
+    ],
+    "sample_duration_seconds": 7.0
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "通用指尖血糖采样关系示意，时间被压缩；实际操作沿设备说明。独立医学终审与当前镜头仍待审。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "e6e5dc2f875070705bed9fdfc66196459ba36cf769898c81af6c9b630beaf6bc",
+      "bytes": 686
+    },
+    {
+      "path": "assets/arm.png",
+      "role": "payload",
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+      "bytes": 1585005
+    },
+    {
+      "path": "assets/dressing.png",
+      "role": "payload",
+      "sha256": "9368a13f3f03ce993b078d18aa81b03d2576f27cab0e80c8e6693f39c0b5cf4a",
+      "bytes": 1246459
+    },
+    {
+      "path": "assets/meter.png",
+      "role": "payload",
+      "sha256": "bd6d14da33867213ae79eea07914cb303a39a04b9e3709dcf8bc85a0257c44a8",
+      "bytes": 1282671
+    },
+    {
+      "path": "assets/strip.png",
+      "role": "payload",
+      "sha256": "107c67ac0c7358adfc243db32b03cff14bcff5d5cbdd67ab5f060f2d9bfd98f0",
+      "bytes": 3753
+    },
+    {
+      "path": "assets/strip.svg",
+      "role": "payload",
+      "sha256": "02b1b9bda042bb2c7045df396a81f0d4199a2f3307eefc01094ca029df661a80",
+      "bytes": 365
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "cafa1324d913f9f4d748439b3a1a647fc225354b22eb5c4d555ee283a95f68a9",
+      "bytes": 1070
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "21e68ef707c62439f3fca6b8ca5996157f2331a06d8c04c85057a85cd6112778",
+      "bytes": 4435
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "618980d616e514173faaca4950b33e241f1d698809348ca92828c4a8855dffd8",
+      "bytes": 2849
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "180b6a83394ddea0b2a879a746286e20b67bbbfceb09d3c6ad05927b383ee616",
+      "bytes": 237155
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "323afb46920bd4b7ca878876fc9378bb6d63ec50301092b65a39a60ed19f292c",
+      "bytes": 238632
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "ccd81ad5ad0ef9a45f7b82d4a1a1ec4b29b818759ebba66474a95e9cf668eb04",
+      "bytes": 238185
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "f2b4600523fb73d9c8ff93ab978c7ca6ca35d1577fb4b80764835d39271745ef",
+      "bytes": 31346
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "dfdaa92aa830a5b063e2ecd3f2831a09d761f0d916de59cdc939d373179cc3b3",
+      "bytes": 91524
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "0dacb89210cdbd6a7c3e747347f48e017f22a90b7356930360c8a069fbfccfaa",
+      "bytes": 242781
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "0dacb89210cdbd6a7c3e747347f48e017f22a90b7356930360c8a069fbfccfaa",
+      "bytes": 242781
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "d974f2ba6d94b6b5faa88936b81b28994f8b39eafe54481e1f18a842ba29789b",
+      "bytes": 242004
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "efb3b851c2af0b880d901733f0fd29f6f606451e92de45c6e6d45e752df4be2a",
+      "bytes": 238289
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "47ebe9166968031ef9dd9c54db837c0185d9eda8f1828da4b7cf35278a0c0167",
+      "bytes": 237356
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "7fed6a7ea239c706e1eea8dee5d057b37df49e9562ac0fa782e4b6f7c26a94e0",
+      "bytes": 237433
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "eeabb6a02368f95df941f1d4489a4e42082cdbbbf5d92ff2a48f43b6669b0698",
+      "bytes": 242357
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "fea79413ef13cb9bf0b89272872748de8974e73cc21dc1dfe32a85aee1aae03f",
+      "bytes": 242247
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "9ba3c129a438981190d7e4b7cf2e23254e754dcfc9ca867329a8f382e6ef7a75",
+      "bytes": 241896
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "145984717317956eeace7bb450facf8593b6b1c65f82e71f91d9a1387634fbc9",
+      "bytes": 237300
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "145984717317956eeace7bb450facf8593b6b1c65f82e71f91d9a1387634fbc9",
+      "bytes": 237300
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "09dac55419da77f0897dc6b7401edb7dd74a92cd92fc2087f5696d5ebc74cbf5",
+      "bytes": 241233
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "4019c92e4454fce7abb6b4277e2fd05b3fdcec820a459a2fe2b81de6f8eb3180",
+      "bytes": 239780
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "4019c92e4454fce7abb6b4277e2fd05b3fdcec820a459a2fe2b81de6f8eb3180",
+      "bytes": 239780
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "808f82df4ba52e1bc63857142bededb268cfbd09cc77d86e61e8b00bdc961aa4",
+      "bytes": 26754
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "a06bc738758d260b3f9afff688d99cc47f3476875e2a74c4406cbbed43773793",
+      "bytes": 28207
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "dfcfcd1ca2295072fb81e3938c6fc4052cfcec319337025e1d213b732304b864",
+      "bytes": 125555
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "5d16750fe23aa9aaca0cae56e04c3422a427d99d25a2f5e4ad2ad6c7aae1fcbc",
+      "bytes": 8888
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "0de5e8fd2e3845c4db15056402c3f97563dba6f11b21cfd4680546373aea7a91",
+      "bytes": 4980
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "22e327c4f455cc309c19"
+}

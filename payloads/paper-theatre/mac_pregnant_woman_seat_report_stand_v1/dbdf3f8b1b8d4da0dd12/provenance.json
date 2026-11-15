@@ -1,0 +1,17 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [
+    {
+      "tool": "built_in_imagegen",
+      "source_sha256": "52a62955a42d6e28816b399731104b51cce5b26f1380dc4d5f996d96caad45d5",
+      "identity_reference": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5"
+    }
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+      "sha256": "e8f74789d703cb48c2ea13a1dd05b6a030508736b808ebe3bd4dc22423e40c56"
+    }
+  ],
+  "note": "Complete source image bytes retained; only explicit frame rectangles are used."
+}

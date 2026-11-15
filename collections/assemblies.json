@@ -1,0 +1,755 @@
+{
+  "schema": "mac_asset_assemblies/v1",
+  "assemblies": [
+    {
+      "id": "kitchen_meal",
+      "title": "厨房备餐（台面 + 餐具与药物）",
+      "parts": [
+        {
+          "source_id": "reserve_kitchen_counter_v2",
+          "role": "空白工作面",
+          "revision": "84edbc8ffabc279da944",
+          "asset_id": "paper:reserve_kitchen_counter_v2@84edbc8ffabc279da944"
+        },
+        {
+          "source_id": "reserve_plate_v1",
+          "role": "餐盘",
+          "revision": "1c91f5580f21c4eb6032",
+          "asset_id": "paper:reserve_plate_v1@1c91f5580f21c4eb6032"
+        },
+        {
+          "source_id": "reserve_bowl_v1",
+          "role": "碗",
+          "revision": "137179964ffa2d52601d",
+          "asset_id": "paper:reserve_bowl_v1@137179964ffa2d52601d"
+        },
+        {
+          "source_id": "reserve_cup_v1",
+          "role": "水杯",
+          "revision": "b8d94615e2fd02154c59",
+          "asset_id": "paper:reserve_cup_v1@b8d94615e2fd02154c59"
+        },
+        {
+          "source_id": "reserve_oil_v1",
+          "role": "油容器",
+          "revision": "c48f2358e30461bcaa1e",
+          "asset_id": "paper:reserve_oil_v1@c48f2358e30461bcaa1e"
+        },
+        {
+          "source_id": "reserve_salt_v1",
+          "role": "盐容器",
+          "revision": "5a699cc11ab465d59bcf",
+          "asset_id": "paper:reserve_salt_v1@5a699cc11ab465d59bcf"
+        }
+      ],
+      "operations": [
+        "放置餐盘",
+        "夹取食物",
+        "倒水",
+        "收纳",
+        "推开台面"
+      ],
+      "relationship": "台面是唯一接触面，所有物件底边应对齐台面上沿；容器与餐具不按同一外框缩放。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "timing": "由本集导演决定"
+      },
+      "review": {
+        "assembly": "parts_available",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "door",
+      "title": "纸门铰接",
+      "parts": [
+        {
+          "source_id": "reserve_door_frame_v1",
+          "asset_id": "paper:reserve_door_frame_v1@db2ebb1131508c1ae9ff",
+          "role": "固定框",
+          "revision": "db2ebb1131508c1ae9ff"
+        },
+        {
+          "source_id": "reserve_door_leaf_v1",
+          "asset_id": "paper:reserve_door_leaf_v1@b443398feeb2dbfe0b3c",
+          "role": "运动门扇",
+          "revision": "b443398feeb2dbfe0b3c"
+        }
+      ],
+      "operations": [
+        "开门",
+        "关门"
+      ],
+      "relationship": "门扇绕自身边缘转动；框和扇分开调尺寸，非整图横向缩放。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#door",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "calendar",
+      "title": "随访台历",
+      "parts": [
+        {
+          "source_id": "reserve_calendar_base_v1",
+          "asset_id": "paper:reserve_calendar_base_v1@3c9ce0f355cb54f3868a",
+          "role": "底座",
+          "revision": "3c9ce0f355cb54f3868a"
+        },
+        {
+          "source_id": "reserve_calendar_leaf_v1",
+          "asset_id": "paper:reserve_calendar_leaf_v1@348fbfaa81b88253914a",
+          "role": "翻动纸页",
+          "revision": "348fbfaa81b88253914a"
+        }
+      ],
+      "operations": [
+        "翻页",
+        "随访"
+      ],
+      "relationship": "页在底座前方；日期由故事写入，换页时保留底座。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#calendar",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "notebook",
+      "title": "连续记录本",
+      "parts": [
+        {
+          "source_id": "reserve_notebook_cover_v1",
+          "asset_id": "paper:reserve_notebook_cover_v1@1eac51828ce68ebb3fd0",
+          "role": "封皮",
+          "revision": "1eac51828ce68ebb3fd0"
+        },
+        {
+          "source_id": "reserve_notebook_page_v1",
+          "asset_id": "paper:reserve_notebook_page_v1@e69ce72978c6fcefb8e9",
+          "role": "内页",
+          "revision": "e69ce72978c6fcefb8e9"
+        }
+      ],
+      "operations": [
+        "记录",
+        "翻页"
+      ],
+      "relationship": "封皮与内页相对铰接；不能把空白页面当主要医学信息。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#notebook",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "specimen",
+      "title": "标本管操作",
+      "parts": [
+        {
+          "source_id": "reserve_tube_v1",
+          "asset_id": "paper:reserve_tube_v1@232bc11eaeb40f2f8bf0",
+          "role": "管身",
+          "revision": "232bc11eaeb40f2f8bf0"
+        },
+        {
+          "source_id": "reserve_tube_cap_v1",
+          "asset_id": "paper:reserve_tube_cap_v1@2709515efc887e86c761",
+          "role": "管盖",
+          "revision": "2709515efc887e86c761"
+        },
+        {
+          "source_id": "reserve_tube_rack_v1",
+          "asset_id": "paper:reserve_tube_rack_v1@3ed816eab98638b0a3ac",
+          "role": "管架",
+          "revision": "3ed816eab98638b0a3ac"
+        }
+      ],
+      "operations": [
+        "对齐管口",
+        "封管"
+      ],
+      "relationship": "近景展示管盖对齐管口并落定；管架在旁独立陈列。放入管架需要另做尺寸和前缘遮挡适配。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#specimen",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "bed",
+      "title": "老年女性·床沿落座、侧卧休息与起身",
+      "parts": [
+        {
+          "source_id": "mac_older_woman_bed_rest_v1",
+          "asset_id": "paper:mac_older_woman_bed_rest_v1@192c18c68bd1ad5696fd",
+          "revision": "192c18c68bd1ad5696fd",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "operations": [
+        "躺卧",
+        "盖被",
+        "掀被起身",
+        "拉合窗帘",
+        "枕头移位"
+      ],
+      "relationship": "同身份完整人物与低床接触单元；普通自主休息的六姿态纸上表演，不是失能搬运、术后转移或个体安全指导。人物、枕头、床与承托不能独立拆动。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#bed",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "locks_story": false,
+      "note": "此前库存缺少卧姿，床上镜头只能画空床；此组合补上该断点。",
+      "preview_asset_id": "paper:mac_older_woman_bed_rest_v1@192c18c68bd1ad5696fd",
+      "event_chain": "同身份完整人物与低床接触单元；普通自主休息的六姿态纸上表演，不是失能搬运、术后转移或个体安全指导。人物、枕头、床与承托不能独立拆动。",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "room",
+      "title": "可重组诊室",
+      "parts": [
+        {
+          "source_id": "reserve_wall_v1",
+          "asset_id": "paper:reserve_wall_v1@93a800b10da95ef466dd",
+          "role": "后墙",
+          "revision": "93a800b10da95ef466dd"
+        },
+        {
+          "source_id": "reserve_floor_v1",
+          "asset_id": "paper:reserve_floor_v1@e6ae88d77975e154009f",
+          "role": "地面",
+          "revision": "e6ae88d77975e154009f"
+        },
+        {
+          "source_id": "reserve_table_v1",
+          "asset_id": "paper:reserve_table_v1@71c53d71d011566f329c",
+          "role": "桌面",
+          "revision": "71c53d71d011566f329c"
+        },
+        {
+          "source_id": "reserve_chair_v1",
+          "asset_id": "paper:reserve_chair_v1@c85d057dc8a112e7db63",
+          "role": "座椅",
+          "revision": "c85d057dc8a112e7db63"
+        },
+        {
+          "source_id": "reserve_shelf_v1",
+          "asset_id": "paper:reserve_shelf_v1@7b1379f021dbd262735a",
+          "role": "储物架",
+          "revision": "7b1379f021dbd262735a"
+        }
+      ],
+      "operations": [
+        "建立空间",
+        "对照检查"
+      ],
+      "relationship": "只给相对前后层次，家具位置与比例不固定。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#room",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "meal",
+      "title": "俯视餐盘组合",
+      "parts": [
+        {
+          "source_id": "reserve_plate_v1",
+          "asset_id": "paper:reserve_plate_v1@1c91f5580f21c4eb6032",
+          "role": "餐盘",
+          "revision": "1c91f5580f21c4eb6032"
+        },
+        {
+          "source_id": "reserve_rice_v1",
+          "asset_id": "paper:reserve_rice_v1@c9ce1e4bfb17091d2e41",
+          "role": "主食",
+          "revision": "c9ce1e4bfb17091d2e41"
+        },
+        {
+          "source_id": "reserve_fish_v1",
+          "asset_id": "paper:reserve_fish_v1@9887d2bf86caf6800dd9",
+          "role": "鱼肉",
+          "revision": "9887d2bf86caf6800dd9"
+        },
+        {
+          "source_id": "reserve_broccoli_v1",
+          "asset_id": "paper:reserve_broccoli_v1@037104e0ab28d3d57d99",
+          "role": "蔬菜",
+          "revision": "037104e0ab28d3d57d99"
+        }
+      ],
+      "operations": [
+        "食物分别放入",
+        "餐盘组合"
+      ],
+      "relationship": "食物按餐盘面积调整，数量不是营养处方。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#meal",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "pose",
+      "title": "成年女性·落座、取报告与起身",
+      "parts": [
+        {
+          "source_id": "mac_adult_woman_seat_report_stand_v1",
+          "asset_id": "paper:mac_adult_woman_seat_report_stand_v1@e083d01cdecb8a8c3bfc",
+          "revision": "e083d01cdecb8a8c3bfc",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "operations": [
+        "坐下",
+        "站起",
+        "交接"
+      ],
+      "relationship": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#pose",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_adult_woman_seat_report_stand_v1@e083d01cdecb8a8c3bfc",
+      "event_chain": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "anatomy_focus",
+      "title": "医学结构与局部观察",
+      "parts": [
+        {
+          "source_id": "reserve_heart_v1",
+          "asset_id": "paper:reserve_heart_v1@0d29b5d230e7436d6c93",
+          "role": "外观",
+          "revision": "0d29b5d230e7436d6c93"
+        },
+        {
+          "source_id": "reserve_heart_cut_v1",
+          "asset_id": "paper:reserve_heart_cut_v1@8280a4201856fa135e0c",
+          "role": "切面",
+          "revision": "8280a4201856fa135e0c"
+        },
+        {
+          "source_id": "reserve_lungs_v1",
+          "asset_id": "paper:reserve_lungs_v1@821fde492f1df17c8a6b",
+          "role": "肺总览",
+          "revision": "821fde492f1df17c8a6b"
+        },
+        {
+          "source_id": "reserve_alveolus_v1",
+          "asset_id": "paper:reserve_alveolus_v1@317d0581f4ea12f4ba11",
+          "role": "肺泡局部",
+          "revision": "317d0581f4ea12f4ba11"
+        }
+      ],
+      "operations": [
+        "定位结构",
+        "局部放大",
+        "视图切换"
+      ],
+      "relationship": "局部来源说明与视角区分；外观/切面切换不冒充配准剖开；新医学镜头重新审核。",
+      "parameters": {
+        "positions": "按当前构图调整",
+        "content_scale": "按可见内容和画面重量调整",
+        "timing": "由本集导演决定"
+      },
+      "sample": "tools/preview-engine/index.html#anatomy_focus",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "glucose",
+      "title": "血糖仪试纸插入",
+      "parts": [
+        {
+          "source_id": "paper_glucose_meter_parts_v1",
+          "asset_id": "paper:paper_glucose_meter_parts_v1@9b061f3593f5bbe26bb0",
+          "role": "原分层包",
+          "revision": "9b061f3593f5bbe26bb0"
+        }
+      ],
+      "operations": [
+        "仪器取放",
+        "试纸独立移动/插入/取出"
+      ],
+      "relationship": "试纸接触端朝向主机下缘插槽；主机位于试纸前方形成插入遮挡",
+      "limits": [
+        "无采血动作、读数和诊断阈值，具体结果由当前故事准备。"
+      ],
+      "parameters": {
+        "all": "可调整，沿用原件接触点作为试装起点"
+      },
+      "sample": "tools/preview-engine/index.html#glucose",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "pressure",
+      "title": "血压主机与袖带",
+      "parts": [
+        {
+          "source_id": "paper_upper_arm_monitor_parts_v1",
+          "asset_id": "paper:paper_upper_arm_monitor_parts_v1@348a6965d45d1afb9070",
+          "role": "原分层包",
+          "revision": "348a6965d45d1afb9070"
+        }
+      ],
+      "operations": [
+        "主机取放",
+        "袖带取放",
+        "部件分别交接"
+      ],
+      "relationship": "主机与空袖带分别摆放；软管按当前镜头的真实连接关系另做",
+      "limits": [
+        "没有展开/佩戴袖带姿态，不把卷起空袖带当佩戴教学。"
+      ],
+      "parameters": {
+        "all": "可调整，沿用原件接触点作为试装起点"
+      },
+      "sample": "tools/preview-engine/index.html#pressure",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "medicine",
+      "title": "药瓶开盖",
+      "parts": [
+        {
+          "source_id": "paper_medicine_bottle_parts_v1",
+          "asset_id": "paper:paper_medicine_bottle_parts_v1@eb46f4b0bcd3b0a82c0a",
+          "role": "原分层包",
+          "revision": "eb46f4b0bcd3b0a82c0a"
+        }
+      ],
+      "operations": [
+        "瓶身取放",
+        "瓶盖独立提起/转动/移开"
+      ],
+      "relationship": "瓶盖相对瓶口取放；纸件当前样例为开盖分离状态",
+      "limits": [
+        "瓶盖闭合时的透视、遮挡和压盖位置由当前镜头检查；此静态小样不批准完整旋盖动作。",
+        "无药名、剂量与数量，不用外观指定药物。"
+      ],
+      "parameters": {
+        "all": "可调整，沿用原件接触点作为试装起点"
+      },
+      "sample": "tools/preview-engine/index.html#medicine",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "cuff_contact",
+      "title": "上臂式血压计：贴合袖带、静止测量与取下",
+      "parts": [
+        {
+          "source_id": "mac_bp_cuff_action_v1",
+          "asset_id": "paper:mac_bp_cuff_action_v1@8828a69c69d7506f2fe9",
+          "revision": "8828a69c69d7506f2fe9",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "operations": [
+        "接触",
+        "试装"
+      ],
+      "relationship": "上臂袖带结构与操作关系示意，时间压缩；具体位置与方法按合适袖带及设备说明执行，医学终审和当前镜头待审。",
+      "sample": "tools/preview-engine/index.html#cuff_contact",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_bp_cuff_action_v1@8828a69c69d7506f2fe9",
+      "event_chain": "上臂袖带结构与操作关系示意，时间压缩；具体位置与方法按合适袖带及设备说明执行，医学终审和当前镜头待审。",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "adult_man_green_red_postures",
+      "title": "浅绿衫红裤男性同身份站坐走姿态",
+      "parts": [
+        {
+          "source_id": "character_adult_man_stand_v1",
+          "asset_id": "paper:character_adult_man_stand_v1@fa48c1a5d0c8a6a3193c",
+          "revision": "fa48c1a5d0c8a6a3193c",
+          "role": "同母版完整站姿"
+        },
+        {
+          "source_id": "character_adult_man_alert_seated_scale_v2",
+          "asset_id": "paper:character_adult_man_alert_seated_scale_v2@2f8982a413a17ede57e7",
+          "revision": "2f8982a413a17ede57e7",
+          "role": "同身份完整低椅坐姿"
+        },
+        {
+          "source_id": "male_patient_walk_20261023",
+          "asset_id": "paper:male_patient_walk_20261023@d62490e89e12051bec27",
+          "revision": "d62490e89e12051bec27",
+          "role": "同母版行走中间姿态"
+        }
+      ],
+      "operations": [
+        "选择完整姿态",
+        "按实际镜头切换姿态"
+      ],
+      "relationship": "浅绿衫红裤人物的站、坐、走姿态按需选择；坐姿包含承托椅子，沿共同身体标尺试装。",
+      "parameters": {
+        "positions": "按当前构图与实际接触重新排",
+        "content_scale": "按真实内容保持体量",
+        "timing": "由本集导演决定"
+      },
+      "review": {
+        "assembly": "pending_current_scene",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "limitations": [
+        "单幅姿态不含坐立过渡或完整步态。",
+        "人物及椅子一起变换，切换姿态需复核地面和身体体量。"
+      ],
+      "locks_story": false
+    },
+    {
+      "id": "supported_patient_calling",
+      "title": "扶手椅患者状态与完整呼叫照护者",
+      "parts": [
+        {
+          "source_id": "character_man_alert_armchair_v1",
+          "asset_id": "paper:character_man_alert_armchair_v1@237979fb0ab51f69d672",
+          "revision": "237979fb0ab51f69d672",
+          "role": "睁眼坐直状态"
+        },
+        {
+          "source_id": "character_man_unresponsive_armchair_v1",
+          "asset_id": "paper:character_man_unresponsive_armchair_v1@1c789f2f0a894ca77f5f",
+          "revision": "1c789f2f0a894ca77f5f",
+          "role": "闭眼低头状态"
+        },
+        {
+          "source_id": "character_carer_calling_v1",
+          "asset_id": "paper:character_carer_calling_v1@c6ae15c6783548016f4a",
+          "revision": "c6ae15c6783548016f4a",
+          "role": "完整贴耳通话状态"
+        }
+      ],
+      "operations": [
+        "选择同人完整状态",
+        "与照护者共同排景"
+      ],
+      "relationship": "两种患者状态为替换选择，不同时叠加。人物与各自椅子不可拆，照护者独立排景；可见状态不独自诊断意识或吞咽能力。",
+      "parameters": {
+        "positions": "按各自鞋底/椅脚与当前地面共同排",
+        "content_scale": "按可见体量重排，不能以相同外框硬对齐",
+        "timing": "跟随当前叙事与医学条件"
+      },
+      "review": {
+        "source_static": "reviewed_2026-10-23",
+        "assembly": "pending_current_scene",
+        "continuous_motion": "pending",
+        "medical": "pending"
+      },
+      "limitations": [
+        "不含状态切换、拿机拨号或实际急救的连续动作",
+        "两幅椅子轮廓不完全相同，不能逐像素套位",
+        "不提供固定低血糖或其他诊断故事"
+      ],
+      "locks_story": false
+    },
+    {
+      "id": "cooking_prep",
+      "title": "备餐部件与完整烹饪动作",
+      "parts": [
+        {
+          "source_id": "reserve_kitchen_counter_v2",
+          "asset_id": "paper:reserve_kitchen_counter_v2@84edbc8ffabc279da944",
+          "role": "空白厨房工作面",
+          "revision": "84edbc8ffabc279da944"
+        },
+        {
+          "source_id": "reserve_chopping_board_v1",
+          "asset_id": "paper:reserve_chopping_board_v1@6104dd91a2368bf31b07",
+          "role": "切配承托",
+          "revision": "6104dd91a2368bf31b07"
+        },
+        {
+          "source_id": "reserve_kitchen_knife_v1",
+          "asset_id": "paper:reserve_kitchen_knife_v1@c0f86850496f46d9900c",
+          "role": "切配道具",
+          "revision": "c0f86850496f46d9900c"
+        },
+        {
+          "source_id": "reserve_induction_cooktop_v1",
+          "asset_id": "paper:reserve_induction_cooktop_v1@dc6366189c77d875a1da",
+          "role": "加热设备",
+          "revision": "dc6366189c77d875a1da"
+        },
+        {
+          "source_id": "reserve_frying_pan_v1",
+          "asset_id": "paper:reserve_frying_pan_v1@6d276ea81ca77b6ba30d",
+          "role": "空锅",
+          "revision": "6d276ea81ca77b6ba30d"
+        },
+        {
+          "source_id": "reserve_wooden_spatula_v1",
+          "asset_id": "paper:reserve_wooden_spatula_v1@89a45953b59078677bf3",
+          "role": "翻炒道具",
+          "revision": "89a45953b59078677bf3"
+        },
+        {
+          "source_id": "reserve_broccoli_v1",
+          "asset_id": "paper:reserve_broccoli_v1@037104e0ab28d3d57d99",
+          "role": "可选食材",
+          "revision": "037104e0ab28d3d57d99"
+        },
+        {
+          "source_id": "reserve_oil_v1",
+          "asset_id": "paper:reserve_oil_v1@c48f2358e30461bcaa1e",
+          "role": "可选调味/烹饪物件",
+          "revision": "c48f2358e30461bcaa1e"
+        },
+        {
+          "source_id": "mac_cooking_action_v1",
+          "asset_id": "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4",
+          "revision": "42d682eb6e16a5bcf8e4",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "operations": [
+        "切配准备",
+        "锅具落定",
+        "食材进入",
+        "翻炒接触",
+        "结果停顿"
+      ],
+      "relationship": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+      "parameters": {
+        "positions": "按台面内容边界和接触点重新排",
+        "timing": "由当前镜头决定"
+      },
+      "sample": "tools/preview-engine/index.html#cooking_prep",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "not_applicable",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ],
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4",
+      "event_chain": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。"
+    }
+  ],
+  "policy": "只保管组合关系和小样，取用原精确版本，不复制成固定合图；医学边界随原件保留。"
+}

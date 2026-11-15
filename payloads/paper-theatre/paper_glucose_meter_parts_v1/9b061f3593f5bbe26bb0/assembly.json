@@ -1,0 +1,21 @@
+{
+  "relationship": "试纸接触端朝向主机下缘插槽；主机位于试纸前方形成插入遮挡",
+  "operations": [
+    "仪器取放",
+    "试纸独立移动/插入/取出"
+  ],
+  "suggested_content_height_ratio": {
+    "strip_to_body": 0.4
+  },
+  "strip_rotation_for_contact_end": 180,
+  "limits": [
+    "无采血动作、读数和诊断阈值，具体结果由当前故事准备。"
+  ],
+  "part_ids": [
+    "body",
+    "strip"
+  ],
+  "registration": "normalized_original_image",
+  "bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "parameters_are_adaptable": true
+}

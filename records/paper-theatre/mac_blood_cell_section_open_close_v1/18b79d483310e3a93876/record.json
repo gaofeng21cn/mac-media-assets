@@ -1,0 +1,1164 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_blood_cell_section_open_close_v1",
+  "title": "红细胞·中央淡区连续揭示连续开合",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "continuous_section_window",
+    "local_relation_reveal"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "红细胞",
+      "中央淡区连续揭示",
+      "blood_cell"
+    ],
+    "actions": [
+      "同位局部揭层",
+      "连续揭示与恢复"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "红细胞·中央淡区连续揭示连续开合",
+    "sample_duration_seconds": 6.2
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "红细胞双凹圆盘正视示意，区分膜、胞质与中央淡区；不表示血红蛋白含量、形态学分类或血液病。 中央淡区是正视外观，仍为细胞；不是切开的内腔。 central_pallor 是正视中央淡区，原件没有膜截面或细胞内部剖面；不能把淡区冒充内腔。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "5ac1c651ad6924935b530fba6ffe0524c0ddea4707846d1259a12fc729025b2d",
+      "bytes": 796
+    },
+    {
+      "path": "assets/central_pallor.webp",
+      "role": "payload",
+      "sha256": "b02832d97217a071693804782a65e831629b2257b176b42f657c0316724c265a",
+      "bytes": 5204
+    },
+    {
+      "path": "assets/cytoplasm.webp",
+      "role": "payload",
+      "sha256": "d5a5d63b6847e54f6cf498e63c6ae2b7a7a195671aeb38ffb3da55f997df515e",
+      "bytes": 9904
+    },
+    {
+      "path": "assets/membrane.webp",
+      "role": "payload",
+      "sha256": "dac547aae106eb6cf3d8435ddca4ec14a07aad5144ead0067eb613b161787d49",
+      "bytes": 8398
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "2cdd58a4f49f0c609c47454880422ae9e302f8d6d0a276325154584425fa8193",
+      "bytes": 627
+    },
+    {
+      "path": "original/files/central_pallor.webp",
+      "role": "payload",
+      "sha256": "b02832d97217a071693804782a65e831629b2257b176b42f657c0316724c265a",
+      "bytes": 5204
+    },
+    {
+      "path": "original/files/cytoplasm.webp",
+      "role": "payload",
+      "sha256": "d5a5d63b6847e54f6cf498e63c6ae2b7a7a195671aeb38ffb3da55f997df515e",
+      "bytes": 9904
+    },
+    {
+      "path": "original/files/membrane.webp",
+      "role": "payload",
+      "sha256": "dac547aae106eb6cf3d8435ddca4ec14a07aad5144ead0067eb613b161787d49",
+      "bytes": 8398
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "c5c7b1998edc47b7a16b6950efea707059fee66185a59530a526541f7b6d045c",
+      "bytes": 5825
+    },
+    {
+      "path": "original/samples/preview.webp",
+      "role": "payload",
+      "sha256": "fcd585a5641204e4d821904f1e11ba486091778087c335f8f767995a373df2d3",
+      "bytes": 14480
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/central_pallor.svg",
+      "role": "payload",
+      "sha256": "5f4681ebed7c4bfb4c05a2a0ea4256be49bac07364ee59992ed64bfbf9594970",
+      "bytes": 224
+    },
+    {
+      "path": "original/source/cytoplasm.svg",
+      "role": "payload",
+      "sha256": "0950b5ed7d5da5f5c58c14531c57c4ae04c722e1eaf9252d45a38fcef166a4d5",
+      "bytes": 224
+    },
+    {
+      "path": "original/source/membrane.svg",
+      "role": "payload",
+      "sha256": "6e2f001714667e43d3342aabd007693eceadec1ebc2894218cb100e7829fddd9",
+      "bytes": 221
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "150d033017f8b723b803b8a5c5499229f806fa5e87ab688268725ead68525985",
+      "bytes": 475
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "d534217a21db143a8fec5805aaa34f4c6f548fe664a0a8e4f48670e73972169d",
+      "bytes": 432
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "222131f8b518803c6fe982c210f6ece1c0bda194950d60cb0199710090e7e6f1",
+      "bytes": 7590
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "1c4295ddf1cd842f5fec05bd259aa12c88e8da4e3ea57105895c560def514859",
+      "bytes": 5391
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "6b5cc4bbbad5cccc38af69918623105e2efb7d6ed8a6bfdc650db2f68509fc5f",
+      "bytes": 53312
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "190caa8d332a0b9ea26012461d96f3e4e04cc089271c5f9c91a17b1bf22ed569",
+      "bytes": 52794
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "ed21a4d9e27434dbac5e4bff4966e37e7339cb5f75f8789ec253775cf250ef00",
+      "bytes": 52898
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "7dbefeb9f12242dc3f2d7f86b18548c43752c27c36e1344d2f5fe6cf67883de9",
+      "bytes": 49793
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "26430a9f7d9a624f530290e95b70d94af1c07753503eeb2f2c632ed0fd1ecf7c",
+      "bytes": 197709
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "259fcc20b98b8ba8a7073fa3329b0d82838c3a5f9be7cad0ffc92ea484ad9b5f",
+      "bytes": 31790
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "259fcc20b98b8ba8a7073fa3329b0d82838c3a5f9be7cad0ffc92ea484ad9b5f",
+      "bytes": 31790
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "798cdc57fe0885237b311c85dbece6a30ab9c89e73b40e2f18746bfecb263d19",
+      "bytes": 32082
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "488c67b75e16c3f6275a9d21516e6bb3daf0776ad413c08a5aae45fdaa06878a",
+      "bytes": 36492
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "679440b6bce8dd23bb95cfc90dc1ab512d4be19b7b0593653e4b2e5327d6d626",
+      "bytes": 38052
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "0322aed9edcfdc0ded55e14bc21d9874d9ad1d1f7602ac5836c03904676cb665",
+      "bytes": 39122
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "a9764867a1176001680c69822e208189d1fec545a02e10fdf63d6d0230298751",
+      "bytes": 50448
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "ed21a4d9e27434dbac5e4bff4966e37e7339cb5f75f8789ec253775cf250ef00",
+      "bytes": 52898
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "a4971d6e42f8b06965a8d4c65efec1d3f8aa263b0507bcef1e902eb00b661e0a",
+      "bytes": 55446
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "e5ffed715dbb5d2b38f33fb8aaaac3f1c7915a412ac0e8ba45fc22809dbe961d",
+      "bytes": 55450
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "e5ffed715dbb5d2b38f33fb8aaaac3f1c7915a412ac0e8ba45fc22809dbe961d",
+      "bytes": 55450
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "e5ffed715dbb5d2b38f33fb8aaaac3f1c7915a412ac0e8ba45fc22809dbe961d",
+      "bytes": 55450
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "47d4a6852243df29c3af44f01ee3a5ebe8f577d9bb5ec243cf9a10430b388df7",
+      "bytes": 55834
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "debe3b27d91be3858ef14d4ab3de4af679369f011ca6f45ee111f3184632143b",
+      "bytes": 55726
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "532ad42d6b4e7f7126fe3c9f7c7b4086dfac59751eafc662531dc0d85001d83d",
+      "bytes": 53398
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "2a32f95667a19b0b1f7ebaebe0339cb487cd38ba487215a00748b1e178b8ab92",
+      "bytes": 51626
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "5e9a1d68e684c4dac0e85733f443eb9964b686947d66ed9be2ef676501edf416",
+      "bytes": 39668
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "eff83876de80e98c1b38d32de018b4cee92e75804cd2bcc74193a8cb33181b7a",
+      "bytes": 36648
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "e4ebbedefe9e0d88a3c24772d9e0d83d289cb3118a773fd997eb09a8603fdf8e",
+      "bytes": 32394
+    },
+    {
+      "path": "samples/keyframes/19.webp",
+      "role": "payload",
+      "sha256": "e4ebbedefe9e0d88a3c24772d9e0d83d289cb3118a773fd997eb09a8603fdf8e",
+      "bytes": 32394
+    },
+    {
+      "path": "samples/keyframes/20.webp",
+      "role": "payload",
+      "sha256": "e4ebbedefe9e0d88a3c24772d9e0d83d289cb3118a773fd997eb09a8603fdf8e",
+      "bytes": 32394
+    },
+    {
+      "path": "samples/open-phone-color.webp",
+      "role": "payload",
+      "sha256": "f66e730ed6428d529ae5637fdb815bd7b27fa20102f5613a58acad6fd2b90c4c",
+      "bytes": 9816
+    },
+    {
+      "path": "samples/open-phone-dark.webp",
+      "role": "payload",
+      "sha256": "61224cf56d7c05b284dbe1f53ba179c14180a0be493711db3d87d88158e7b8fd",
+      "bytes": 9814
+    },
+    {
+      "path": "samples/open-phone-light.webp",
+      "role": "payload",
+      "sha256": "331b26b1be94b2674d57e757140e79e4ab49a0a05d64d55fb9571a7cc7d46080",
+      "bytes": 9650
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "d9bd5a4a3bd9a68c323822b00d49c2712049e993c694ceec5d05c16cd355cdbc",
+      "bytes": 16884
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "698ad90dc932a24e948332e24dbe104d624ff7eee67c05829b34141592914465",
+      "bytes": 9506
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "426f235c759923db76a701cdd262eade964af9f7bdda7f3d629dc7d4a1b7d853",
+      "bytes": 118403
+    },
+    {
+      "path": "samples/section-background-review.jpg",
+      "role": "payload",
+      "sha256": "129a1b2bb466c006e56dced164cfb53bbaeb7f95b89bfbb75864ab4bfb882a25",
+      "bytes": 372443
+    },
+    {
+      "path": "samples/states/closed-color.webp",
+      "role": "payload",
+      "sha256": "2d8371be240242903570afb81b5d5534bc898954074e6eecf02044592865ecd1",
+      "bytes": 32588
+    },
+    {
+      "path": "samples/states/closed-dark.webp",
+      "role": "payload",
+      "sha256": "3164c6e7faba6153d83a4afd911b6fcf6e1aaa5ec6119826d7c9d42e3fe808c5",
+      "bytes": 31638
+    },
+    {
+      "path": "samples/states/closed-light.webp",
+      "role": "payload",
+      "sha256": "259fcc20b98b8ba8a7073fa3329b0d82838c3a5f9be7cad0ffc92ea484ad9b5f",
+      "bytes": 31790
+    },
+    {
+      "path": "samples/states/closing-color.webp",
+      "role": "payload",
+      "sha256": "21064ca13338f7d215c6d0db630910872fa674c21d870f3d35d7ad79d95097d8",
+      "bytes": 51708
+    },
+    {
+      "path": "samples/states/closing-dark.webp",
+      "role": "payload",
+      "sha256": "4267896fd06f385ecf13bb39b72bf839186da686625451d1f0f1e61a389b1f2f",
+      "bytes": 51152
+    },
+    {
+      "path": "samples/states/closing-light.webp",
+      "role": "payload",
+      "sha256": "2a32f95667a19b0b1f7ebaebe0339cb487cd38ba487215a00748b1e178b8ab92",
+      "bytes": 51626
+    },
+    {
+      "path": "samples/states/half-color.webp",
+      "role": "payload",
+      "sha256": "e6ff77ba8a36d02a5dece20fce03718d94f70a0e9bf2ff8d5e741e141df69c89",
+      "bytes": 50536
+    },
+    {
+      "path": "samples/states/half-dark.webp",
+      "role": "payload",
+      "sha256": "c47b940ec4f4746614933da577e7742832f6f536aac01e57e90a6d693016db82",
+      "bytes": 50264
+    },
+    {
+      "path": "samples/states/half-light.webp",
+      "role": "payload",
+      "sha256": "a9764867a1176001680c69822e208189d1fec545a02e10fdf63d6d0230298751",
+      "bytes": 50448
+    },
+    {
+      "path": "samples/states/open-color.webp",
+      "role": "payload",
+      "sha256": "e678418479c6c02a9f153870bf7032f728725de4eca0a7f5099f8f7821bdd59b",
+      "bytes": 55826
+    },
+    {
+      "path": "samples/states/open-dark.webp",
+      "role": "payload",
+      "sha256": "eb4e98d7c2fd717a9ff40bb3dcb7e257056ce65c9ae32c8686997a739988e635",
+      "bytes": 54998
+    },
+    {
+      "path": "samples/states/open-light.webp",
+      "role": "payload",
+      "sha256": "e5ffed715dbb5d2b38f33fb8aaaac3f1c7915a412ac0e8ba45fc22809dbe961d",
+      "bytes": 55450
+    },
+    {
+      "path": "samples/states/quarter-color.webp",
+      "role": "payload",
+      "sha256": "32b07ac7ef5e3be7189895eda9f81331d2d6eb8a4fbf836524a172ec1c9f1c10",
+      "bytes": 39540
+    },
+    {
+      "path": "samples/states/quarter-dark.webp",
+      "role": "payload",
+      "sha256": "882162597a6c8236fede460b662f2f36c4207ee4f836712e3160cd19dad5a49a",
+      "bytes": 48344
+    },
+    {
+      "path": "samples/states/quarter-light.webp",
+      "role": "payload",
+      "sha256": "0322aed9edcfdc0ded55e14bc21d9874d9ad1d1f7602ac5836c03904676cb665",
+      "bytes": 39122
+    },
+    {
+      "path": "samples/states/restored-color.webp",
+      "role": "payload",
+      "sha256": "55a20d058e6b6e47b9a6676271cb5c78608787dde48bd5d533bb7d408ec91f6c",
+      "bytes": 33148
+    },
+    {
+      "path": "samples/states/restored-dark.webp",
+      "role": "payload",
+      "sha256": "76418ab783bf990d20dec695fc39ac4f71b629e65f3a2dc5224e59f364f05d28",
+      "bytes": 32264
+    },
+    {
+      "path": "samples/states/restored-light.webp",
+      "role": "payload",
+      "sha256": "e4ebbedefe9e0d88a3c24772d9e0d83d289cb3118a773fd997eb09a8603fdf8e",
+      "bytes": 32394
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "a9a02307456b1a2ed672ecd487293e8db5e79e9c37505e39c3961a8ad13d7993",
+      "bytes": 11433
+    },
+    {
+      "path": "section-visual-review.json",
+      "role": "payload",
+      "sha256": "cb7b0fc973a119e0b67e4a0965eac4bafad7630e7109e70ea83799a84636cd79",
+      "bytes": 7813
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "05a8313ffa2c6f45ffd9f9d7c07a82bb9268695732553a6a810241964a094033",
+      "bytes": 4938
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "18b79d483310e3a93876",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_blood_cell_section_open_close_v1@f3755eb49a37f839362c",
+    "source_record_sha256": "36fb2146a929a9bc70750ecf9c95bd6a1a7f37a895f00191b297333133f2112d",
+    "encodings": [
+      {
+        "path": "assets/central_pallor.png",
+        "encoded_path": "assets/central_pallor.webp",
+        "source_sha256": "81c5b080b2fed47674be9655cb45b413f47dd89c8ffd868dc244e2211cf42407",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/cytoplasm.png",
+        "encoded_path": "assets/cytoplasm.webp",
+        "source_sha256": "96d5ecc99725aeda181cae51e3f5cfb75d8386608c595a63fe1a85f8fce21fbf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/membrane.png",
+        "encoded_path": "assets/membrane.webp",
+        "source_sha256": "c0c05df965d5a6d8284bfa4b8f881366b344a2f3d956b24022a1db8576e8d535",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/central_pallor.png",
+        "encoded_path": "original/files/central_pallor.webp",
+        "source_sha256": "81c5b080b2fed47674be9655cb45b413f47dd89c8ffd868dc244e2211cf42407",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/cytoplasm.png",
+        "encoded_path": "original/files/cytoplasm.webp",
+        "source_sha256": "96d5ecc99725aeda181cae51e3f5cfb75d8386608c595a63fe1a85f8fce21fbf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/membrane.png",
+        "encoded_path": "original/files/membrane.webp",
+        "source_sha256": "c0c05df965d5a6d8284bfa4b8f881366b344a2f3d956b24022a1db8576e8d535",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/samples/preview.png",
+        "encoded_path": "original/samples/preview.webp",
+        "source_sha256": "6e3989565a9b68a9721a1eb7463aa588f9dcef702f67ce0f1940e0077177d69b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "ef8c8b86f3aefef1ba4e591eb79c572a03335eeb28beba5fddae62a534125df0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "7da9ae0ed9ea656d7b95ebd96e9125dbb9a84ce70cb7edf09006f0c36e491432",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "07e28835b80772a3a90c89277580d1ae9b335a2a52f5253665e1a2b142935879",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "32f6cd8b43dc68e084696c9e38a71e0e0ae17c323221c90dd760c8efd38c178f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "32f6cd8b43dc68e084696c9e38a71e0e0ae17c323221c90dd760c8efd38c178f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "6861ff041c7d90ecb6de819ca9388aab4f0eb26df70c52628ececde46901337e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "63c236ebac9e09ce2baf9bb338c8a58f8ace71f8a102d6f8ca9f9e13aad643da",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "934a036ab1e021a69dac5347822124ddd270b25e5d491a1a8c6875deb76d3295",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "ae58c25edc52cdabf11e62bf7dbb0b536e33fd9f353ee9fe2286dc6389f36518",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "12b4d0b3a74a917675edf401ff5894ef8ca908914270ee148d6d6720484c3450",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "07e28835b80772a3a90c89277580d1ae9b335a2a52f5253665e1a2b142935879",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "6f4d0ecd022f42e7319116e7547cc82b09b16c2a4acea16d4f80b0a6eb8e6e3a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "f6150d8d1dbd0b4f8bc1c580369e58a40db3c27e9607138054e0f7607977b1b4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "9646669f3f0c8280d7ba3f42b279116d5eb055a74a31a50f9e18bf90fb69d74a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "d8f45d719caf24b117a0966e7813327b06b7fa4d534cad5381d71275eeedf238",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "4ff11b7a3cfee23fcc1dadf3983946f8bfc7d157f9656fd7a827842fccfe9db1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "b7f7ad920f1e3b0d54c4e7cab0c2c7afa9e466400c8bb4bbd2623c982c7e4355",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "22eaba135c5ca4c12627e41861c67a858cff7c4bfee6d8d7223cd9e6d3171283",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/19.png",
+        "encoded_path": "samples/keyframes/19.webp",
+        "source_sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/20.png",
+        "encoded_path": "samples/keyframes/20.webp",
+        "source_sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/open-phone-color.png",
+        "encoded_path": "samples/open-phone-color.webp",
+        "source_sha256": "2fb15a2c6648704d78579f757436dc26f47b720f350cb76832d5c4fe33aa37d4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/open-phone-dark.png",
+        "encoded_path": "samples/open-phone-dark.webp",
+        "source_sha256": "bfd271e80d9915d4a37f50d862b5d632afd8b6c487f666d70edd613b500b1890",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/open-phone-light.png",
+        "encoded_path": "samples/open-phone-light.webp",
+        "source_sha256": "c608eedb9ac3530de9a1ca335a2f1f3e7c6bfea50d56431542a112bf3ec95598",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "ecd095e1715b3cfd0eb49771039205fd7215df25664d69de91feedbc3caaad0f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "6cd3bfdf14cd4b6d63fc1f2bb24b6dd0cd47799ebf73aa8d4764f4d8d426a5b5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/closed-color.png",
+        "encoded_path": "samples/states/closed-color.webp",
+        "source_sha256": "530036e54b6f44203520c6585e03184b3684a03abc317fa6714e8f9dc6792d5c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/closed-dark.png",
+        "encoded_path": "samples/states/closed-dark.webp",
+        "source_sha256": "6654533221cdea8cb6ff0efe2d4f130b27ed6f2a6c71c4c982d9ebe7edc7a466",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/closed-light.png",
+        "encoded_path": "samples/states/closed-light.webp",
+        "source_sha256": "32f6cd8b43dc68e084696c9e38a71e0e0ae17c323221c90dd760c8efd38c178f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/closing-color.png",
+        "encoded_path": "samples/states/closing-color.webp",
+        "source_sha256": "4cd4658cea5344d504d3449e9c8d0938e1deaff4016efd06c53de8cd08e7edb2",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/closing-dark.png",
+        "encoded_path": "samples/states/closing-dark.webp",
+        "source_sha256": "c9743c359de77d1f9e3f80eba7fc48e037c443875a1a01acfa55b90c79cbcc96",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/closing-light.png",
+        "encoded_path": "samples/states/closing-light.webp",
+        "source_sha256": "4ff11b7a3cfee23fcc1dadf3983946f8bfc7d157f9656fd7a827842fccfe9db1",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/half-color.png",
+        "encoded_path": "samples/states/half-color.webp",
+        "source_sha256": "480d34812e3c6ab3a7494615118cbb3ac2143b5e12f4c4af72280863ce3c1582",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/half-dark.png",
+        "encoded_path": "samples/states/half-dark.webp",
+        "source_sha256": "62e96339a14014fee55172448ebe5a50c186e4b09f1531c1036b366f12db5abc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/half-light.png",
+        "encoded_path": "samples/states/half-light.webp",
+        "source_sha256": "12b4d0b3a74a917675edf401ff5894ef8ca908914270ee148d6d6720484c3450",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/open-color.png",
+        "encoded_path": "samples/states/open-color.webp",
+        "source_sha256": "115b045aa2240a65b0c4b566cef2b412b65785a16dbc8839cc2a659fe023f1ca",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/open-dark.png",
+        "encoded_path": "samples/states/open-dark.webp",
+        "source_sha256": "4a1bf26cdb15e3b692b536bb8f38a6a8c4cfd1b8df5b5b30545a2c69a0455d60",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/open-light.png",
+        "encoded_path": "samples/states/open-light.webp",
+        "source_sha256": "a96f8b4661e182e90a25f4fba35afac2842eda6104a4e947e9cf61e4c3d10781",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/quarter-color.png",
+        "encoded_path": "samples/states/quarter-color.webp",
+        "source_sha256": "a28d6c4a4c25e9c04ba35b905c90b88987540e41ba44b35181d4641465317699",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/quarter-dark.png",
+        "encoded_path": "samples/states/quarter-dark.webp",
+        "source_sha256": "89fd5853f7af55cb06eb483235540d0d944d27be61c31c6410e89a27ddcc94f0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/quarter-light.png",
+        "encoded_path": "samples/states/quarter-light.webp",
+        "source_sha256": "ae58c25edc52cdabf11e62bf7dbb0b536e33fd9f353ee9fe2286dc6389f36518",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/restored-color.png",
+        "encoded_path": "samples/states/restored-color.webp",
+        "source_sha256": "5f2ac581352bdbae7f55e19711584a737ece1349c81dafca5f4fb278a6ab9907",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/restored-dark.png",
+        "encoded_path": "samples/states/restored-dark.webp",
+        "source_sha256": "a6740e44d91f93f0fa71a764028cd845b794db343dadbde3e2d36063af623468",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/states/restored-light.png",
+        "encoded_path": "samples/states/restored-light.webp",
+        "source_sha256": "045baff3518128c0e0e421cd39ac365c0a06e92c58b0a9cc95c04f1f0ddbd685",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

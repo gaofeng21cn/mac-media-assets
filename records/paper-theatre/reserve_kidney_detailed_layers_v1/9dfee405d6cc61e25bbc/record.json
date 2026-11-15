@@ -1,0 +1,268 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_kidney_detailed_layers_v1",
+  "title": "肾脏·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "cortex",
+      "path": "files/cortex.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肾脏·cortex",
+      "medical": true,
+      "content_bounds": [
+        198,
+        136,
+        675,
+        838
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.44,
+            "y": 0.48
+          },
+          "renal_pelvis": {
+            "x": 0.506,
+            "y": 0.5
+          },
+          "ureter_end": {
+            "x": 0.587,
+            "y": 0.86
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "medulla",
+      "path": "files/medulla.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肾脏·medulla",
+      "medical": true,
+      "content_bounds": [
+        261,
+        224,
+        575,
+        759
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.44,
+            "y": 0.48
+          },
+          "renal_pelvis": {
+            "x": 0.506,
+            "y": 0.5
+          },
+          "ureter_end": {
+            "x": 0.587,
+            "y": 0.86
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "collecting_system",
+      "path": "files/collecting_system.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肾脏·collecting_system",
+      "medical": true,
+      "content_bounds": [
+        432,
+        380,
+        618,
+        886
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.44,
+            "y": 0.48
+          },
+          "renal_pelvis": {
+            "x": 0.506,
+            "y": 0.5
+          },
+          "ureter_end": {
+            "x": 0.587,
+            "y": 0.86
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_anatomy.py"
+  },
+  "tags": [
+    "anatomy",
+    "kidney",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肾脏",
+      "配准分层"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "cortex",
+      "medulla",
+      "collecting_system"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    198,
+    136,
+    675,
+    886
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "单肾冠状切面，分开皮质背景、髓质锥体和肾盂/肾盏/输尿管；不表示肾单位微观滤过、血管或精确肾盏数。远景版仅表达肾与输尿管身份。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/cortex.svg",
+      "role": "source",
+      "sha256": "e9b6678ca8d44e68e3a6287da6c18e9a2c6f767160a7cebac9c9560a81588e35",
+      "bytes": 588
+    },
+    {
+      "path": "files/cortex.png",
+      "role": "payload",
+      "sha256": "5e078710568cd3e28defd980a8b8fc138a539a7f3fef6805b2519c2d8c15b017",
+      "bytes": 54506
+    },
+    {
+      "path": "source/medulla.svg",
+      "role": "source",
+      "sha256": "590c8a840a871bbd0af7f096caa80d1a553e4201e6eddd18f2ea59ce7a823b7f",
+      "bytes": 951
+    },
+    {
+      "path": "files/medulla.png",
+      "role": "payload",
+      "sha256": "a9c48ddcfac2c466ee35931188a567941480f09722ae59b73ed6be007aa76262",
+      "bytes": 38241
+    },
+    {
+      "path": "source/collecting_system.svg",
+      "role": "source",
+      "sha256": "382e07525bd9783361440f35f68de8558c03d21f84cf248e67479a3445f12378",
+      "bytes": 967
+    },
+    {
+      "path": "files/collecting_system.png",
+      "role": "payload",
+      "sha256": "4724108b58d2f59e04a6958608b65ee887c940782a54a4d22ad4fbc856b46055",
+      "bytes": 21203
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "d933e80a3575cc70fb2a965a9041bad69cc55ec29f51d4c00c9436130a483979",
+      "bytes": 2312
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "f4b0f536d7e785da51effa59491889dc64b639f8fbf2f965ace35395d7139c3c",
+      "bytes": 93125
+    },
+    {
+      "path": "source/build_anatomy.py",
+      "role": "source",
+      "sha256": "46ed48086ed7e69f6abb7c1c0a64c24684361b68bd09e21e5d2fa1acf18273cc",
+      "bytes": 10156
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "a6ffdb4fe8c0d1415133902b4594cfc6915068d219eca1ff4fc938f0b59ec810",
+      "bytes": 651
+    }
+  ],
+  "revision": "9dfee405d6cc61e25bbc"
+}

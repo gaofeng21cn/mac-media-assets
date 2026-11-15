@@ -1,0 +1,61 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_music_bed",
+  "title": "纸上下一步 · 氛围分轨",
+  "kind": "audio",
+  "entry": "audio/music/bed.wav",
+  "tags": [
+    "原创",
+    "音乐",
+    "氛围",
+    "MIDI",
+    "克制"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+  "review_status": "完整听审待完成",
+  "quality_debt": [
+    "完整音乐听审 pending"
+  ],
+  "dependencies": [
+    "重演奏时需 FluidSynth / mido 与稳定 FluidR3 音源；播放 WAV 无此依赖"
+  ],
+  "source": {
+    "sample_has_brand": false
+  },
+  "files": [
+    {
+      "path": "audio/music/bed.wav",
+      "role": "payload",
+      "sha256": "af52ee6e10a2b33bc7f7b45e94f13287c50946bea8ae8fc31c159d88e853ebba",
+      "bytes": 18310674
+    },
+    {
+      "path": "audio/music/bed.mid",
+      "role": "payload",
+      "sha256": "fe61c3eb3f6310da79eb18399398d8eaef8594f9fd5aac22c015fd485c38333f",
+      "bytes": 552
+    },
+    {
+      "path": "evidence/performance.json",
+      "role": "evidence",
+      "sha256": "646582b4d6c932a10d1623c7174a054055e6b429a4824d8f53e8864564d2f968",
+      "bytes": 21730
+    },
+    {
+      "path": "evidence/soundfont-license.txt",
+      "role": "evidence",
+      "sha256": "da49177f21a8a760192909bc81b2554a33241502f67e604c92799998ac400ae9",
+      "bytes": 1594
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7e6083c7bd45d161dc4c97174e069b6a054d1c4da10b1ae542501deb60720155",
+      "bytes": 264
+    }
+  ],
+  "revision": "8d06f775933caa49ca12"
+}

@@ -1,0 +1,8 @@
+{
+  "source_type": "imagegen",
+  "tool": "built-in image_gen",
+  "generated_image": "/Users/gaofeng/.codex/generated_images/01a16736-b8e6-75c1-97d8-273e6e928c9b/exec-046f4743-d8d5-46a1-b565-30d9e6115a64.png",
+  "reference": "assets/male_patient.png",
+  "prompt": "以绿衣、锈红长裤男性患者完整站姿为编辑参考，保留同一脸型、年龄、盐灰短发、服装、鞋和纸拼贴材质；仅改为自然向右完整步行中间姿态，头、双手、双脚完整，透明RGBA，无文字、道具、地面、地影、辉光或雾。",
+  "review": "已看完整生成原图；脸、绿衣、锈红裤与母版一致，头手脚完整。当前镜头尺度和接地另行预览复核；未批准连续步态。"
+}

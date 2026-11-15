@@ -1,0 +1,306 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_foot_joint_detailed_layers_v1",
+  "title": "足关节·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "bones",
+      "path": "files/bones.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·bones",
+      "medical": true,
+      "content_bounds": [
+        353,
+        147,
+        841,
+        871
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "joint_space",
+      "path": "files/joint_space.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·joint_space",
+      "medical": true,
+      "content_bounds": [
+        388,
+        468,
+        584,
+        628
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "ligaments",
+      "path": "files/ligaments.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·ligaments",
+      "medical": true,
+      "content_bounds": [
+        456,
+        464,
+        566,
+        542
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_foot_joint_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "足关节",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "bones",
+      "joint_space",
+      "ligaments"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "踝足骨性结构示意，区分骨面、关节间隙与韧带走向；不表示关节间隙正常宽度、骨密度或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/bones.svg",
+      "role": "source",
+      "sha256": "07bac75c36452a4d29848a84542d02543d4244c091397819728e808185423145",
+      "bytes": 685
+    },
+    {
+      "path": "files/bones.webp",
+      "role": "payload",
+      "sha256": "39f3aeb35d3381ef17bc8d68b9372a18b3f926a6d51efa0300ade46b54374b4a",
+      "bytes": 11300
+    },
+    {
+      "path": "source/joint_space.svg",
+      "role": "source",
+      "sha256": "4ed438e695418f45d08db8de0e0a964954142be9edd8669e649e15ece691d15e",
+      "bytes": 191
+    },
+    {
+      "path": "files/joint_space.webp",
+      "role": "payload",
+      "sha256": "7259be56b140b6af27b94f07ed4ec40a4a1e139fee1bc6f06b7b7874fe273981",
+      "bytes": 3832
+    },
+    {
+      "path": "source/ligaments.svg",
+      "role": "source",
+      "sha256": "6cd6643ae18435c6f66d38337f5195660ad179fbb44e2451ecee94bd5223ca6d",
+      "bytes": 254
+    },
+    {
+      "path": "files/ligaments.webp",
+      "role": "payload",
+      "sha256": "0606afd3d11a465f65a3f70bb3715bdad233e88f9b8a001093716023d3a55375",
+      "bytes": 1560
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "39dc700718307ab2a1ac72e5ee87517141f75bf4243345c403553899ad635bc8",
+      "bytes": 936
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "42b727814064f48cd933651fe9dde53d14f03c98eac0d9ead23ebc955c4826f7",
+      "bytes": 14214
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "b8a1fdb7ecb98f1bddaac3f0f2c0b27a9d0e5816939f278909a78fa8dfed5cc5",
+      "bytes": 24223
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7faa4934a72d69b763d3c9b5019f16cc560a649501b6ebb47ced623268feb2d2",
+      "bytes": 624
+    }
+  ],
+  "revision": "b23810d694524fc23f98",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_foot_joint_detailed_layers_v1@fa7d7dcd613ad94017d2",
+    "source_record_sha256": "cf3749c4eb3e6802e5399e755fd71761591d735822c2edf712ee1589a431c347",
+    "encodings": [
+      {
+        "path": "files/bones.png",
+        "encoded_path": "files/bones.webp",
+        "source_sha256": "dccac9a89f75617bf11227a1b405322d5fcd582b525d40d17b96110842a4275a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/joint_space.png",
+        "encoded_path": "files/joint_space.webp",
+        "source_sha256": "f47e633db16138d8a524034e3fd03aed89023674e4c01b4d187ebe246b72ca0e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/ligaments.png",
+        "encoded_path": "files/ligaments.webp",
+        "source_sha256": "2df7b3f364b3ee3f25956eb574f2ebf98a6801d709e29fe00a3134e050a891bd",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "c979ec6c9f2498c58b0de99d0cde3caf2f1fc2e0e734a98f453f76244ea65fa7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

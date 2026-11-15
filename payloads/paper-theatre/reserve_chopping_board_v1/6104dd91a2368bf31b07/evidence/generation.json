@@ -1,0 +1,18 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone rectangular wooden chopping board, for a Chinese home kitchen preparation scene. Subject: single flat beech-wood cutting board with softly rounded corners and one small handle notch, seen from a gentle top-down three-quarter angle; no food, no knife, no towel, no hands. Style/medium: refined tactile cut-paper collage with subtle paper grain and warm natural wood fibers, crisp silhouette, simple educational illustration. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: no background card, counter, cast shadow, glow, labels, logo, text, extra objects or watermark.",
+  "source_sha256": "a20dc20c38e2b19c942b0758f7ebc6b3467503061a2bc80c6a3c6a4c2d81bfd4",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "visible_bounds_alpha_ge_25": [
+    37,
+    73,
+    1503,
+    984
+  ],
+  "review": "static_original_and_composite_checked",
+  "anchors_scope": "approximate_visible_contact_regions",
+  "full_motion": "pending"
+}

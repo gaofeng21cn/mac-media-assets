@@ -1,0 +1,8 @@
+{
+  "id": "kidney_ureter_stone",
+  "title": "肾集合系统、输尿管与腔内结石·局部纸切面",
+  "topic": "kidney_stones",
+  "usage": "输尿管腔内结石与集合系统的定性关系；不作为个体位置、大小、梗阻程度或治疗选择依据。",
+  "transparent_background": true,
+  "prompt": "Scientific educational illustration. ONE coherent local urinary-tract specimen showing a SINGLE KIDNEY in frontal cutaway with the renal cortex, several medullary pyramids, a clearly branching collecting system leading into a pale renal pelvis, and ONE continuous ureter descending from the renal pelvis. The kidney is on the upper left, ureter extends down and slightly right. A small irregular ochre calculus is lodged INSIDE the proximal ureter and remains visibly within its lumen. Show the local ureter as an open cutaway around the stone, not a stone outside the kidney or in a vessel. No bladder, other kidney, arteries or veins. Refined fibrous cut-paper collage with gouache, fine pencil detail and tactile layers, muted terracotta/cream/ochre. Complete connected anatomical specimen with true RGBA transparent exterior and generous margins. No text, arrows, labels, numbers, tools, background, frame or halo. Qualitative relation only, no severity or size measurement."
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_vessel_v1",
+  "title": "血管纵向壁层",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "vessel"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "壁层/管腔总览；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "vessel",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    20,
+    1222,
+    1230
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "c3cac8ef21ccbbe9b00b8c42de4c019ed394942ed10dc752aa4f99ad63241528",
+      "bytes": 962310
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "83b8eb5d4044e26e26f67663215cc289e72dc8fddae6a120290b606cd02502ec",
+      "bytes": 1541
+    }
+  ],
+  "revision": "f9ed1966f4c48959664a",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_vessel_v1@9ba9b427374b43fa6a61",
+    "source_record_sha256": "64ed79b8c2610fdb77681aa3731397e3dc2317f73a8f868cc04929cee499d8e6",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5bc379aefa10be796925b6d612624cc4471b8d84e791991350207b9201038768",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

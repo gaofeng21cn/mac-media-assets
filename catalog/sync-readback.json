@@ -1,0 +1,35 @@
+{
+  "schema": "medical_video_asset_sync/v1",
+  "generated_at": "2026-10-24T09:38:29.164399+00:00",
+  "asset_count": 300,
+  "registered_versions": 339,
+  "current_discoverable_identities": 295,
+  "reference_count": 0,
+  "payload_files": 4712,
+  "by_kind_current": {
+    "audio": 22,
+    "image": 79,
+    "motion_recipe": 57,
+    "transparent_subject": 71,
+    "medical_cutout": 37,
+    "code_component": 5,
+    "environment_plate": 5,
+    "component": 1,
+    "environment": 14,
+    "music_score": 4
+  },
+  "by_category_current": {
+    "bgm": 12,
+    "stage": 26,
+    "monitoring": 15,
+    "motion": 63,
+    "characters": 75,
+    "anatomy": 55,
+    "sfx": 14,
+    "paper": 7,
+    "documents": 7,
+    "lifestyle": 16,
+    "care": 5
+  },
+  "note": "登记包含保留的历史精确版本；默认发现另按策展与覆盖表选择。"
+}

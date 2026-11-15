@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_hand_skeleton_overview_v1",
+  "title": "手与腕部骨骼·骨龄观察对象示意",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "child_growth"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    53,
+    15,
+    1113,
+    1346
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "hand_skeleton_overview"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "手与腕部骨骼·骨龄观察对象示意",
+      "hand_skeleton_overview"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "手与腕部骨骼·骨龄观察对象示意",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        53,
+        15,
+        1113,
+        1346
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "只表示骨龄评估关注手腕骨骼；不是患者X线、骨龄图谱或年龄判定依据。"
+    }
+  ],
+  "usage_notes": "只表示骨龄评估关注手腕骨骼；不是患者X线、骨龄图谱或年龄判定依据。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "fe37b9c509eb032e3f07dbbc256db7af9df6c06651b1476d930885a18f3beb80",
+      "bytes": 729342
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "20a1ec1561840cd3fecd7d9f6b07ae110ca87766eaf8e039c86e7efa27ef1442",
+      "bytes": 1053
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "a50612eb45a6bc43f59fd350ede457e3ac3a80066850a6a5ce8450faacf33bd1",
+      "bytes": 621
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "2f273dd9186ab38e0b6af5cc96bddf9835f3c35c724eff0a0ca7cb717d39dc33",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "30cbb88603221dbf890480b719e8e159000d3673d1f061e64223f73c6156e3e6",
+      "bytes": 75081
+    }
+  ],
+  "revision": "04964b4fef5b80d70d6f",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_hand_skeleton_overview_v1@78ffdd3e15ed5119f97e",
+    "source_record_sha256": "29b8bd2f24416fbe1edd2345f34b5532f0cc82fc88a22a9ed41ff91b914a8b3b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "4d361a4ce889751e6fc4e4c53d1830caab6cea292b888f284bef76e12bfbb102",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1157,
+        "height": 1360,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

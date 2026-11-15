@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_clinician_man_walk_v1",
+  "title": "男性医生·步行·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "clinician_man",
+    "walk",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "男性医生",
+      "步行"
+    ],
+    "actions": [
+      "walk",
+      "步行"
+    ],
+    "character_role": "clinician_man",
+    "identity_family": "clinician_man_baseline",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_clinician_man_stand_v1/e3d6196ad0b8ca4dd44e/files/payload.png",
+    "prompt": "Use case: illustration-story. Asset type: complete reusable paper-theatre character pose. Input 1 is identity and paper-style reference. Create exactly SAME Chinese male doctor, same face, black hairstyle, white plain lab coat, blue shirt, charcoal trousers, brown shoes. NEW POSE walking naturally to screen right, modest stride, foot contacts a shared ground baseline, arms counter-swing, visible hands, natural anatomy. Full body hair through shoes, generous margin, textured opaque cut paper interior. Single isolated person on genuine transparent alpha background. No props, chair, floor marks, cast shadow, aura, glow, blur, checkerboard, typography or background."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.48,
+        "y": 0.095
+      },
+      "feet": {
+        "x": 0.52,
+        "y": 0.96
+      },
+      "hand_left": {
+        "x": 0.23,
+        "y": 0.535
+      },
+      "hand_right": {
+        "x": 0.79,
+        "y": 0.47
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    128,
+    32,
+    948,
+    1484
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      25,
+      29,
+      1010,
+      1501
+    ],
+    "opaque_ratio": 0.271,
+    "translucent_ratio": 0.0111,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      128,
+      32,
+      948,
+      1484
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "d690a657767ac4804e0582bffcae1af0e5dab2383c1a275f22a62a13e98e240a",
+      "bytes": 1846701
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "76ba9fa4a4473ba685b3c0eda0d3561684e7fec6086adab2cc1b9e85b37cb5e5",
+      "bytes": 1959
+    }
+  ],
+  "revision": "c23fff8f30de3664d71c"
+}

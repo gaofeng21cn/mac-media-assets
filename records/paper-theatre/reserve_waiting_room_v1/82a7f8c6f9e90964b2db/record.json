@@ -1,0 +1,93 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_waiting_room_v1",
+  "title": "候诊区空场背景板",
+  "kind": "environment_plate",
+  "entry": "files/payload.png",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "generation_receipt": "evidence/generation.json",
+    "prompt": "Use case: illustration-story. A quiet contemporary Chinese hospital outpatient waiting area as a reusable EMPTY background plate for medical education paper-theatre animation. Wide landscape composition, tactile layered cut paper and watercolor, soft muted cream and sage palette. Benches along rear wall, unlettered closed doors on far sides, a blank reception window in rear corner. Large uncluttered open foreground floor and blank central wall for separately composited full-body characters. Correct simple perspective, human scale. No people, no writing/signage/numbers/logo/watermark, no emergency drama. Entire opaque illustration. Furniture and architecture are intentionally a single static backdrop; no operation depicted."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    0,
+    0,
+    1672,
+    941
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "Chinese",
+    "expansion_20261023"
+  ],
+  "discovery": {
+    "category": "environments",
+    "aliases": [
+      "候诊区",
+      "等候区",
+      "空场",
+      "门诊"
+    ],
+    "medium": "background_plate",
+    "style": [
+      "paper_collage"
+    ],
+    "actions": [],
+    "character_role": null,
+    "pose": null,
+    "identity_family": null,
+    "original_image_size": [
+      1672,
+      941
+    ],
+    "visible_bounds": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {},
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "not_applicable",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "已看空场、中央留白与透视；整幅不透明背景，家具、门窗和接待台不可独立操作。",
+  "quality_debt": [
+    "static_backdrop_only",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "46e8163c3ed5e0bb78b9d4a6943a2a78a5301b5d26c68d89f58fb6c0173b73d4",
+      "bytes": 2235823
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "d149c6bb90476be6f571f1eaabd2ac36958714e8bcabdd61565bb90ac0411823",
+      "bytes": 1459
+    }
+  ],
+  "revision": "82a7f8c6f9e90964b2db"
+}

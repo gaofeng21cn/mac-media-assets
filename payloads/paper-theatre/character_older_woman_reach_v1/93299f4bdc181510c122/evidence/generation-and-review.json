@@ -1,0 +1,57 @@
+{
+  "id": "character_older_woman_reach_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_woman_stand_v1/533448a63caf5fd9b120/files/payload.png",
+  "prompt": "Use case: illustration-story. One complete reusable paper-theatre pose. Reference is exact identity and style master. Keep same Chinese elderly woman, short soft silver hair, sage collared blouse, charcoal trousers and brown shoes; preserve face, age, hairstyle, body proportions, garments and shoes. Change only pose to standing balanced three-quarter facing screen right; image-right hand extended at waist height with open upward palm ready to receive a separate document; other hand relaxed, or resting under pregnant belly where relevant; no document or prop. Natural connected complete anatomy, same tactile paper-cut illustration, opaque interior and clean edges. Entire hair/head, visible hands, legs and shoes in frame with generous margin. Single isolated figure, GENUINE transparent background. No chair, environment, floor mark, cast shadow, glow/aura, gradient/vignette, checkerboard, text/logo or props. Do not infantilize older adults or shrink adult anatomy into a child.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-bdfd8b40-1286-4b08-9235-1f662f2422bf.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "838129cc9f079d42660233f05c5869b4649f5bc4d1732ae9d80a5a4d4913a068",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      57,
+      30,
+      1004,
+      1504
+    ],
+    "opaque_ratio": 0.2457,
+    "translucent_ratio": 0.0086,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      303,
+      33,
+      940,
+      1500
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.46,
+        "y": 0.085
+      },
+      "feet": {
+        "x": 0.48,
+        "y": 0.97
+      },
+      "hand_left": {
+        "x": 0.38,
+        "y": 0.54
+      },
+      "hand_right": {
+        "x": 0.81,
+        "y": 0.35
+      }
+    },
+    "note": "完整人物单幅姿态，接触与当前景别需要试装"
+  }
+}

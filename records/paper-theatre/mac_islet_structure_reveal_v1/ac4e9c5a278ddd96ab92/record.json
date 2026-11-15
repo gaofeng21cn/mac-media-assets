@@ -1,0 +1,463 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_islet_structure_reveal_v1",
+  "title": "胰岛·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "胰岛",
+      "逐层揭示",
+      "局部高亮",
+      "islet"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "胰岛·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "胰岛局部组织关系示意：中央为成簇内分泌细胞，周围为外分泌腺泡，毛细血管在细胞间分支。颜色不指定细胞类型，数量与分布不代表真实比例；不是胰腺整器官总览，不表达分泌或血糖调节。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "0c85d825eb5109b635494f7cad07d7193e4e093614c4c34116ca939a03dc0a59",
+      "bytes": 773
+    },
+    {
+      "path": "assets/capillary_network.png",
+      "role": "payload",
+      "sha256": "eb0fe01b891b5b40ab9b7189df12a193ba92231a1b2955fab3fd1d5b13d4c004",
+      "bytes": 15047
+    },
+    {
+      "path": "assets/endocrine_cells.png",
+      "role": "payload",
+      "sha256": "58884fcb38c5e572912c8815bb2c523556e94cf2bba17701d1d0ccf864998f13",
+      "bytes": 72267
+    },
+    {
+      "path": "assets/exocrine_surroundings.png",
+      "role": "payload",
+      "sha256": "c1d64c79a5a7c771342690120d37d02d21031187271ac3bf37af2e22ec619b17",
+      "bytes": 59903
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "59a69aa7032405cb4b54482a2b590e63ea45173b9bd7677d74524672351f6d24",
+      "bytes": 750
+    },
+    {
+      "path": "original/files/capillary_network.png",
+      "role": "payload",
+      "sha256": "eb0fe01b891b5b40ab9b7189df12a193ba92231a1b2955fab3fd1d5b13d4c004",
+      "bytes": 15047
+    },
+    {
+      "path": "original/files/endocrine_cells.png",
+      "role": "payload",
+      "sha256": "58884fcb38c5e572912c8815bb2c523556e94cf2bba17701d1d0ccf864998f13",
+      "bytes": 72267
+    },
+    {
+      "path": "original/files/exocrine_surroundings.png",
+      "role": "payload",
+      "sha256": "c1d64c79a5a7c771342690120d37d02d21031187271ac3bf37af2e22ec619b17",
+      "bytes": 59903
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "cb1bd4b16eb1765d42a6411f83408f3b69d08291f6e756cab07ec00d924944e7",
+      "bytes": 6058
+    },
+    {
+      "path": "original/samples/preview.png",
+      "role": "payload",
+      "sha256": "c248e365a09d606c1b16adc82337b8edc743335937fc44344fe58d338d9a2628",
+      "bytes": 131347
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/capillary_network.svg",
+      "role": "payload",
+      "sha256": "15fc735f671e9ca595648674ebc199be6b381ecae2dda366599c4b50a34afe55",
+      "bytes": 348
+    },
+    {
+      "path": "original/source/endocrine_cells.svg",
+      "role": "payload",
+      "sha256": "68bde491e2977bf5b5376e0cf93d6c5df1810d09a5e7131910d42a4dd40ffb0b",
+      "bytes": 2217
+    },
+    {
+      "path": "original/source/exocrine_surroundings.svg",
+      "role": "payload",
+      "sha256": "d02732f5264792a0654c286870cb70145e3c5949aa2589a37cedad37ca96c971",
+      "bytes": 2729
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "22422b86934fd78a3276f286722b88df654b8f1e5eb59ee58351b6bda6d54df0",
+      "bytes": 5100
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "65d5d3d066081bdc42af1c40718806163684fa36809fff8a1425b7d0ef448cf7",
+      "bytes": 368
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "64e105d7cc4ce0b63cc5dc34f708d5cd5a71650a2f2e32d1d6e93ea9f83a7c4b",
+      "bytes": 6628
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "12a8ba2d29957c46e106dddb69678e1f8eb13ec4fe62e97763e65cc7b0777d3e",
+      "bytes": 141280
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "c960ea010521caeeeb1722bb5d05cf6ceda9514d44472ca62096601f4f1ac04c",
+      "bytes": 143954
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "246b6c9c6daeb6d926dfc6362e4a02cf36f13845568f0a02c0c04f4b25d2e403",
+      "bytes": 142783
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "d3b3ac0f84e0311cd92308fc91733fddfd4db5f0d7e3d911a2bcfa3bef8983b2",
+      "bytes": 54060
+    },
+    {
+      "path": "samples/complete-background-color.png",
+      "role": "payload",
+      "sha256": "7b930439840a59c28ad648aa03d1d669e270b4b5b152718d0e72d0d4f3c024c9",
+      "bytes": 147739
+    },
+    {
+      "path": "samples/complete-background-dark.png",
+      "role": "payload",
+      "sha256": "1fd314861f407da2c977dbaf611019dbe4aedc6d8b253696ef80c98520ea8204",
+      "bytes": 150391
+    },
+    {
+      "path": "samples/complete-background-light.png",
+      "role": "payload",
+      "sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+      "bytes": 149276
+    },
+    {
+      "path": "samples/complete-phone.png",
+      "role": "payload",
+      "sha256": "c41ebe3946c0ec9086e724466c835ef1c0175465a9dbb3d20c281ed8d6594245",
+      "bytes": 28923
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "b366a739a02981f8824d8d1b14248729d0df459dea0504b911c5a107d0b7812c",
+      "bytes": 185329
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "de0d6f911971fa4b55b902e5199faf83ce90dc26fe93dd6ceab76f0fa257a542",
+      "bytes": 222648
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings-color.png",
+      "role": "payload",
+      "sha256": "45120e047b8cc86d5f33ae093304682f486d2b60b6dfc15af7e1849a0ea49f7b",
+      "bytes": 28611
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings-dark.png",
+      "role": "payload",
+      "sha256": "1f7d263740f9bfdc2ac908c2e8b20afc4c6d50c4b13bb7229af7b668dc057d9e",
+      "bytes": 30082
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings-light.png",
+      "role": "payload",
+      "sha256": "e2e38f9ff7c0f93793f33c318cbaf354e1cba601f24d3a959bb38822e77c0827",
+      "bytes": 27042
+    },
+    {
+      "path": "samples/focus-phone/0-exocrine_surroundings.png",
+      "role": "payload",
+      "sha256": "e2e38f9ff7c0f93793f33c318cbaf354e1cba601f24d3a959bb38822e77c0827",
+      "bytes": 27042
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells-color.png",
+      "role": "payload",
+      "sha256": "3f0b759b30dc0d72e9b39576ade7c75adf5db40fd61d10f96a6e73d7ee459954",
+      "bytes": 32764
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells-dark.png",
+      "role": "payload",
+      "sha256": "acac39da4b36975bcba9ae3429ac6e6c8c0fcdc6fe35a6b8f39834f4a639fb0c",
+      "bytes": 33580
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells-light.png",
+      "role": "payload",
+      "sha256": "6c58151130afce7c7d9826f5b43eab0fcef2652c5c43afae6fc5270eb6248a8b",
+      "bytes": 31934
+    },
+    {
+      "path": "samples/focus-phone/1-endocrine_cells.png",
+      "role": "payload",
+      "sha256": "6c58151130afce7c7d9826f5b43eab0fcef2652c5c43afae6fc5270eb6248a8b",
+      "bytes": 31934
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network-color.png",
+      "role": "payload",
+      "sha256": "285f2f5ff632468ca3c52992a4762090c32fb94364aa7f2fe7027395790bba34",
+      "bytes": 33578
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network-dark.png",
+      "role": "payload",
+      "sha256": "f25cdab451173f1c3572b7917265d39730279d841889457f0ce0f008fd0696aa",
+      "bytes": 34214
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network-light.png",
+      "role": "payload",
+      "sha256": "b5b4de85bbdb577f216cd7e88d7b3dd068c3c4e733bb9a40dbd636f02faf0628",
+      "bytes": 32840
+    },
+    {
+      "path": "samples/focus-phone/2-capillary_network.png",
+      "role": "payload",
+      "sha256": "b5b4de85bbdb577f216cd7e88d7b3dd068c3c4e733bb9a40dbd636f02faf0628",
+      "bytes": 32840
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+      "bytes": 149276
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+      "bytes": 149276
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "92889d57976baff12cdabb9cd92ec10b196aaebe6802f9365e39661878f65356",
+      "bytes": 68488
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "08601a5a8487b54b5b2faca77cab5d4b53c4779113d42bbfeb3d0ebfbba9059f",
+      "bytes": 106733
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "08601a5a8487b54b5b2faca77cab5d4b53c4779113d42bbfeb3d0ebfbba9059f",
+      "bytes": 106733
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "bf544f1d8bdb8e3355cc2947e54150241e9b7d749d2035937f8c031f291589db",
+      "bytes": 144043
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "bf544f1d8bdb8e3355cc2947e54150241e9b7d749d2035937f8c031f291589db",
+      "bytes": 144043
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "e43d942914e6be48ca6d5e4e883d4df22524ce838f9441810a512ff63dd2b88e",
+      "bytes": 148660
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "e43d942914e6be48ca6d5e4e883d4df22524ce838f9441810a512ff63dd2b88e",
+      "bytes": 148660
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "102fa3a4e5c702eaec90a7f34a74e227496acb250376db84b06c7e8927dc5313",
+      "bytes": 144601
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "102fa3a4e5c702eaec90a7f34a74e227496acb250376db84b06c7e8927dc5313",
+      "bytes": 144601
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "102fa3a4e5c702eaec90a7f34a74e227496acb250376db84b06c7e8927dc5313",
+      "bytes": 144601
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "2f50191188a326c995f9c534770cbf1383873b2c715b5766814b94ee4c7bf0bf",
+      "bytes": 164278
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "2f50191188a326c995f9c534770cbf1383873b2c715b5766814b94ee4c7bf0bf",
+      "bytes": 164278
+    },
+    {
+      "path": "samples/keyframes/14.png",
+      "role": "payload",
+      "sha256": "c7b7f73b2589f6502325f8cf5a936c2e3a6835dc5ef76f15b60336941488952e",
+      "bytes": 163399
+    },
+    {
+      "path": "samples/keyframes/15.png",
+      "role": "payload",
+      "sha256": "ae0985628c5a52a703a87eac01721d9a746117c829f02982e39d4a8a03536ec4",
+      "bytes": 164252
+    },
+    {
+      "path": "samples/keyframes/16.png",
+      "role": "payload",
+      "sha256": "ae0985628c5a52a703a87eac01721d9a746117c829f02982e39d4a8a03536ec4",
+      "bytes": 164252
+    },
+    {
+      "path": "samples/keyframes/17.png",
+      "role": "payload",
+      "sha256": "afc770d76c61888124d91fbe7aaeb816914c284e1d9a0a9427b5a8baecf2106a",
+      "bytes": 155115
+    },
+    {
+      "path": "samples/keyframes/18.png",
+      "role": "payload",
+      "sha256": "93479819d9e81b7f2ccf154c77e93ade0e5fe5d41ace202934461a448adf8589",
+      "bytes": 149276
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "5cccc3d1e98e452038eb4c7e5d1edb8814104310b8a4f1475463bcddd6e690bc",
+      "bytes": 35625
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "b68dc75f0537216055f5831d1ddfacc79f6a94f5c7727f6b24b181e1eb1b13d8",
+      "bytes": 27896
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "beff107c81d3a74e4f4d442454c73edf94becd668d05d285f9427dc699162590",
+      "bytes": 385175
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "9ed5e120909bb5d66c24d747c7f57641388542a9f12f4d1738814e0cd7f9d1d0",
+      "bytes": 13562
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "efde9f5b807dd76f8024474934ec72a92c4f7e9439d3d7bc6f296dc70a2c7f33",
+      "bytes": 5439
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "ac4e9c5a278ddd96ab92"
+}

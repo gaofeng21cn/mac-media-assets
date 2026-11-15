@@ -1,0 +1,74 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_inhaler_v1",
+  "title": "独立吸入装置",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "care",
+    "inhaler"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "整体拿取；具体操作需另校对；不承诺药品/用法/剂量；按当前故事医学审查",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "inhaler",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    25,
+    1240,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "bc676a8e422244b04a0502924793d5abe0b2e4dd2789571597288662e2f471dd",
+      "bytes": 585394
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "9363a0452b2bd2d2524efc8a4ef2854d3c684431664379461b37a5756ac443b5",
+      "bytes": 1450
+    }
+  ],
+  "revision": "f71df8f81e7f58728a2e",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_inhaler_v1@deb3537c664b4d077f62",
+    "source_record_sha256": "572d2c4f5265a374596ab0ba3961e95c688e2c9b586acc0fe7ddd6d5d8f88d28",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "751c4ae11c9e4688cba000fefe6974deaa2fb1047d312c6b724fbe07945acae5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

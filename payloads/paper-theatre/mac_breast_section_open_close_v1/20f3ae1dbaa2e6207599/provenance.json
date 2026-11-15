@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_breast_detailed_layers_v1@8da7f1dfde15864ade57",
+      "portable_record_sha256": "228f55952024f7af6b4c9498ea2169ab736eea44198781237e69ee9650655bc5"
+    }
+  ],
+  "note": "原始SVG/PNG/记录保持原字节；剪纸窗口按source图轮廓或明确局部关系定义，cut edge与原始外层alpha相交。"
+}

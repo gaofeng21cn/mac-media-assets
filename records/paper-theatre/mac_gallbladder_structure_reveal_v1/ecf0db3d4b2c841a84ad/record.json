@@ -1,0 +1,1034 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_gallbladder_structure_reveal_v1",
+  "title": "胆囊·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "胆囊",
+      "逐层揭示",
+      "局部高亮",
+      "gallbladder"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "胆囊·逐层揭示与局部高亮",
+    "sample_duration_seconds": 8.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "胆囊外形与胆汁示意；不表示胆囊内结石、胆道梗阻或胆囊功能。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "9ad007a8fb8508a5b284644b6cf586be8095dd8a37bc11f4c9e227fec9378547",
+      "bytes": 608
+    },
+    {
+      "path": "assets/bile.webp",
+      "role": "payload",
+      "sha256": "5058254488a7d2e69e2ed5ffc577a09787ba706ee796669172fe2db1eefdf66c",
+      "bytes": 7198
+    },
+    {
+      "path": "assets/cystic_duct.webp",
+      "role": "payload",
+      "sha256": "af4c1c119d47a2fa538a6e7307cc59ea6c05c6fa8b609567bb8252a258be4ced",
+      "bytes": 1156
+    },
+    {
+      "path": "assets/gallbladder_wall.webp",
+      "role": "payload",
+      "sha256": "a8e3cadad9405cd8afdb88a7888212f43e6ee1b91d59f7d88be468c55ffcd72b",
+      "bytes": 9542
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "8e1e15a8abeb9e97ea95e73305c0bdd36154d973cfcd811f3310c5a807c1d4cc",
+      "bytes": 579
+    },
+    {
+      "path": "original/files/bile.webp",
+      "role": "payload",
+      "sha256": "5058254488a7d2e69e2ed5ffc577a09787ba706ee796669172fe2db1eefdf66c",
+      "bytes": 7198
+    },
+    {
+      "path": "original/files/cystic_duct.webp",
+      "role": "payload",
+      "sha256": "af4c1c119d47a2fa538a6e7307cc59ea6c05c6fa8b609567bb8252a258be4ced",
+      "bytes": 1156
+    },
+    {
+      "path": "original/files/gallbladder_wall.webp",
+      "role": "payload",
+      "sha256": "a8e3cadad9405cd8afdb88a7888212f43e6ee1b91d59f7d88be468c55ffcd72b",
+      "bytes": 9542
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "c35e96071e85c39f851f99529dd9d9d421ca69d232d1034d3023c834ab36187c",
+      "bytes": 5781
+    },
+    {
+      "path": "original/samples/preview.webp",
+      "role": "payload",
+      "sha256": "787e82a567dcc1774dc3279674ac861fa8bdba8427263b229fca1104c61c0602",
+      "bytes": 17570
+    },
+    {
+      "path": "original/source/bile.svg",
+      "role": "payload",
+      "sha256": "7ca5897b91e3567371ca2d88a9698733a9c90399f042a70760fbc15f4825fddc",
+      "bytes": 343
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "original/source/cystic_duct.svg",
+      "role": "payload",
+      "sha256": "fba5e005a8fbc8d83ef2b629b7fa17ea981d549768e2b5517b3ba8f7294aa6fe",
+      "bytes": 228
+    },
+    {
+      "path": "original/source/gallbladder_wall.svg",
+      "role": "payload",
+      "sha256": "4ac33f0087650f690ae01677884efcda2d1a4604091b7621e2d7bdb3732b00df",
+      "bytes": 343
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "e83684bdbcd3fe5d05a279153dd3defe801d258f86ab1a130f32af5e7463cffe",
+      "bytes": 720
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "7dd33d619cc7d0c5f2b4fc32ea1284659f7a04983badb6e609a1591964f717ce",
+      "bytes": 374
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "7bb388c051ca47e89629041069afa7065aea2e45ae9fd59309723846167d44ef",
+      "bytes": 6518
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "afb4161ea5396755218cd9e00ed6c08eec58bb035bd75ad74e00abd98c47ff14",
+      "bytes": 28660
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "fb4ef4cc83a406aa13d97df7578b337bd385c9739eb7dfdee3ff539360a0c0a8",
+      "bytes": 27854
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "a81a924af1c2b969ba73eb85ebe6e6eabc773d68cede0ac485608a0a79d60fd7",
+      "bytes": 28682
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "fa5c6d04dcb04eeeafd21195571e7520e73eb4d4c237f9e2e048769eddeb2059",
+      "bytes": 36510
+    },
+    {
+      "path": "samples/complete-background-color.webp",
+      "role": "payload",
+      "sha256": "8080284808d9dcd4f18ed57dede703eaacd4240f3f5a3d5badf786bcf722681a",
+      "bytes": 28794
+    },
+    {
+      "path": "samples/complete-background-dark.webp",
+      "role": "payload",
+      "sha256": "f471188a9ec464c7ae556707b423a873098c6c0f4f873837f75cc4c5a4aaebff",
+      "bytes": 28106
+    },
+    {
+      "path": "samples/complete-background-light.webp",
+      "role": "payload",
+      "sha256": "2eb9c264098937519079c3937fbe992700b31a985257edfaa11eda03f815f6b7",
+      "bytes": 28436
+    },
+    {
+      "path": "samples/complete-phone.webp",
+      "role": "payload",
+      "sha256": "ca85355c1c56916ef87f18b1474a3017c8deccea9366d1103a9471629b96791f",
+      "bytes": 7100
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "e3f7ecaec2b82fd4ca56597343d3ef1aa7561a98d4691855679fe11bad7806dc",
+      "bytes": 125444
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "3e9a03f10171f0c6923997c6bd76634fa744a131a35df2e6c4c6f3a985766ba9",
+      "bytes": 150652
+    },
+    {
+      "path": "samples/focus-phone/0-gallbladder_wall-color.webp",
+      "role": "payload",
+      "sha256": "14310e24a0f56c9c6b8a32d6d94eb89920673f8991ee47cfe5859cbd6ff4f429",
+      "bytes": 8144
+    },
+    {
+      "path": "samples/focus-phone/0-gallbladder_wall-dark.webp",
+      "role": "payload",
+      "sha256": "446a2e0d4374a42a2bbaba8c4afee512ef0c388a164789bd40df3154f3fd8bb7",
+      "bytes": 8420
+    },
+    {
+      "path": "samples/focus-phone/0-gallbladder_wall-light.webp",
+      "role": "payload",
+      "sha256": "11b5abd6be2cba9007c199220bcb8a55ed34f588814703843a1b7202fdee2813",
+      "bytes": 7242
+    },
+    {
+      "path": "samples/focus-phone/0-gallbladder_wall.webp",
+      "role": "payload",
+      "sha256": "11b5abd6be2cba9007c199220bcb8a55ed34f588814703843a1b7202fdee2813",
+      "bytes": 7242
+    },
+    {
+      "path": "samples/focus-phone/1-bile-color.webp",
+      "role": "payload",
+      "sha256": "05e09d7976ab48982046b37d8b36ccf77283cb387f6efaac2a5e1cb1fc5042c0",
+      "bytes": 8602
+    },
+    {
+      "path": "samples/focus-phone/1-bile-dark.webp",
+      "role": "payload",
+      "sha256": "2f7038f71d55a07f72744385c13edcf35bfa893a14511d31fe12ab5d1cd6e1d6",
+      "bytes": 8804
+    },
+    {
+      "path": "samples/focus-phone/1-bile-light.webp",
+      "role": "payload",
+      "sha256": "5a5cc23e4de2776fb0a19f92dc9d599258638fe7aefaee02547769a66edca8ce",
+      "bytes": 8166
+    },
+    {
+      "path": "samples/focus-phone/1-bile.webp",
+      "role": "payload",
+      "sha256": "5a5cc23e4de2776fb0a19f92dc9d599258638fe7aefaee02547769a66edca8ce",
+      "bytes": 8166
+    },
+    {
+      "path": "samples/focus-phone/2-cystic_duct-color.webp",
+      "role": "payload",
+      "sha256": "2797df71ed6bdd50be7765519686ee0ffe46afb59c64e6c7ac698eeec3ae51fd",
+      "bytes": 6394
+    },
+    {
+      "path": "samples/focus-phone/2-cystic_duct-dark.webp",
+      "role": "payload",
+      "sha256": "9c7bb407cc3f8f4ede618b2fd0e9c0f5d01f5ccf4dbed49d83b666074f12cd35",
+      "bytes": 6398
+    },
+    {
+      "path": "samples/focus-phone/2-cystic_duct-light.webp",
+      "role": "payload",
+      "sha256": "2a5bf100df488eb748405ff0be89d499395131f39a75832302b96c02fcaa141e",
+      "bytes": 6274
+    },
+    {
+      "path": "samples/focus-phone/2-cystic_duct.webp",
+      "role": "payload",
+      "sha256": "2a5bf100df488eb748405ff0be89d499395131f39a75832302b96c02fcaa141e",
+      "bytes": 6274
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "2eb9c264098937519079c3937fbe992700b31a985257edfaa11eda03f815f6b7",
+      "bytes": 28436
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "2eb9c264098937519079c3937fbe992700b31a985257edfaa11eda03f815f6b7",
+      "bytes": 28436
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "3b524f135429e2dfa9f2d269161c3194ba83a86895c11f187da011055ebb7f04",
+      "bytes": 13434
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "090f3e8ff9f3a107ea2497216e3b5868c00bdde575a18ec3af27e519541c6d50",
+      "bytes": 23038
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "090f3e8ff9f3a107ea2497216e3b5868c00bdde575a18ec3af27e519541c6d50",
+      "bytes": 23038
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "1a039084dfb82419f8262b0ea23b8fed7a1c5411fa8d74b659cc0962b22b1af5",
+      "bytes": 29492
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "1a039084dfb82419f8262b0ea23b8fed7a1c5411fa8d74b659cc0962b22b1af5",
+      "bytes": 29492
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "968ab86264af00ff0cc442ccfd50fc5ac2c31bec63de543e3d0d626a7f42d73c",
+      "bytes": 28824
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "968ab86264af00ff0cc442ccfd50fc5ac2c31bec63de543e3d0d626a7f42d73c",
+      "bytes": 28824
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "d0af1b1a70507eb5cdebd6d7c9a15239e88bbabdcff11645e38674439fc45f5e",
+      "bytes": 28396
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "d0af1b1a70507eb5cdebd6d7c9a15239e88bbabdcff11645e38674439fc45f5e",
+      "bytes": 28396
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "d0af1b1a70507eb5cdebd6d7c9a15239e88bbabdcff11645e38674439fc45f5e",
+      "bytes": 28396
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "ef5425e7d150072dcec36ccb53d3e737becb75d6901f7d1ef9406af9b78c295b",
+      "bytes": 40124
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "ef5425e7d150072dcec36ccb53d3e737becb75d6901f7d1ef9406af9b78c295b",
+      "bytes": 40124
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "0e2cf54f0834048112bc96ff83a6e261de51afeaa481c529c7c36f2ee20ae69e",
+      "bytes": 29586
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "2f61895610a0a709331dd78024ca2c1f7f8548d0e80a9595c3118bb5d96592d4",
+      "bytes": 25352
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "2f61895610a0a709331dd78024ca2c1f7f8548d0e80a9595c3118bb5d96592d4",
+      "bytes": 25352
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "041aac494cc2326034e0bc6c46530f1bae294fd30611f3e8923d0296a87303b3",
+      "bytes": 23154
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "2eb9c264098937519079c3937fbe992700b31a985257edfaa11eda03f815f6b7",
+      "bytes": 28436
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "bea35791e7a7f71849c2b913d70da1f22a47f36c685628d63ad1fa8b990f432e",
+      "bytes": 12416
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "10f7a8e9774220125668808646e9272cdaed8d0885a5f7c121baa3c4a3c522f6",
+      "bytes": 7118
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "b78c5fe4bba97c1e4570a97123cc8f1c0fad3dae61d536e04a07a9127c60e6d7",
+      "bytes": 161384
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "5be48875b9969c1f21dc1d6594a3b347566372a5681eb2b02e2816a893469408",
+      "bytes": 12899
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "c6cff9cf906a290292b87f0e2be82eb2591140e4fad20e0ff8f65efd79a86237",
+      "bytes": 5162
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "ecf0db3d4b2c841a84ad",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_gallbladder_structure_reveal_v1@9356add0ed20b63a4ccf",
+    "source_record_sha256": "c2fbd245f955d2975a036363eda44daa07092202a593117dad6fcaf17f5b2d7a",
+    "encodings": [
+      {
+        "path": "assets/bile.png",
+        "encoded_path": "assets/bile.webp",
+        "source_sha256": "9b87edba5554990ce23cadb1d0c39c8009cb07bb0131ec26d74d31c1750985df",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/cystic_duct.png",
+        "encoded_path": "assets/cystic_duct.webp",
+        "source_sha256": "7e381c4198a3a3851836734aa27e32e3e25d4580c7b1cc66d60939084db3dcc3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/gallbladder_wall.png",
+        "encoded_path": "assets/gallbladder_wall.webp",
+        "source_sha256": "1dd25d88393e69ae3e8fa84154d3670466bdee1237baca007dbdae1dfd4e759f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/bile.png",
+        "encoded_path": "original/files/bile.webp",
+        "source_sha256": "9b87edba5554990ce23cadb1d0c39c8009cb07bb0131ec26d74d31c1750985df",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/cystic_duct.png",
+        "encoded_path": "original/files/cystic_duct.webp",
+        "source_sha256": "7e381c4198a3a3851836734aa27e32e3e25d4580c7b1cc66d60939084db3dcc3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/gallbladder_wall.png",
+        "encoded_path": "original/files/gallbladder_wall.webp",
+        "source_sha256": "1dd25d88393e69ae3e8fa84154d3670466bdee1237baca007dbdae1dfd4e759f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/samples/preview.png",
+        "encoded_path": "original/samples/preview.webp",
+        "source_sha256": "a50f77984621981cefcad4f505d6f96d3846affc036d5cb80b64817e916b9cdc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "33fc1021e5011951ca91fb6c3145ad8c4749c29600ad36d5e54634d662e36eed",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "ca57d04784526f0b65c8ed36b3a82af96535c76fa501935c79c12367ac973409",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "ef07ca425fa76c7747d395a3585124087ef8d361cafb975c4d72a5a49cf8bb06",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-color.png",
+        "encoded_path": "samples/complete-background-color.webp",
+        "source_sha256": "b67ff49c3a274f4b85718c55f14bc5fda638e2d8688010c327651331670a4953",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-dark.png",
+        "encoded_path": "samples/complete-background-dark.webp",
+        "source_sha256": "9350c414c89fa26beac074deac2cb62129dcae921d27d9be3fbc49bd4408f8ab",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-light.png",
+        "encoded_path": "samples/complete-background-light.webp",
+        "source_sha256": "93adb5e6fbcb613521b116f4e2edb2cc7b8ce522c43d6a7ea01f7b8f6136f363",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-phone.png",
+        "encoded_path": "samples/complete-phone.webp",
+        "source_sha256": "fa8aa460e46880381ee71a77862fbfe9f94f9ef714e09c01fa5d63531a52ae12",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-gallbladder_wall-color.png",
+        "encoded_path": "samples/focus-phone/0-gallbladder_wall-color.webp",
+        "source_sha256": "585ea1f1efcd633faf19d864ec4d0aa5972cec9d028c7780b6bf2484376ec6ad",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-gallbladder_wall-dark.png",
+        "encoded_path": "samples/focus-phone/0-gallbladder_wall-dark.webp",
+        "source_sha256": "703174e733ad296b0827807dd44da6d51ee527bbee1205829c8e6c3b7ba994e0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-gallbladder_wall-light.png",
+        "encoded_path": "samples/focus-phone/0-gallbladder_wall-light.webp",
+        "source_sha256": "8c60fccc0c8d7657a13db538f7ecb929d931e0794ba5eacd5706000b510bb934",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-gallbladder_wall.png",
+        "encoded_path": "samples/focus-phone/0-gallbladder_wall.webp",
+        "source_sha256": "8c60fccc0c8d7657a13db538f7ecb929d931e0794ba5eacd5706000b510bb934",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-bile-color.png",
+        "encoded_path": "samples/focus-phone/1-bile-color.webp",
+        "source_sha256": "3938b531d1bb52f663a047e672596c6f179dc8bf62e8dd920b968313f58d436f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-bile-dark.png",
+        "encoded_path": "samples/focus-phone/1-bile-dark.webp",
+        "source_sha256": "2ea0e3913fae0a71f2c4e718b66ebd712aac7be2487edf3695ba8b2b05755cd7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-bile-light.png",
+        "encoded_path": "samples/focus-phone/1-bile-light.webp",
+        "source_sha256": "ca6f8f013bdd2c8b98748563214ccf1b0cb14b950dc6e0b78bb996c105bf77ae",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-bile.png",
+        "encoded_path": "samples/focus-phone/1-bile.webp",
+        "source_sha256": "ca6f8f013bdd2c8b98748563214ccf1b0cb14b950dc6e0b78bb996c105bf77ae",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-cystic_duct-color.png",
+        "encoded_path": "samples/focus-phone/2-cystic_duct-color.webp",
+        "source_sha256": "235c357b1f9f3a3332b49f87c440921ba8abe07595c5585b20b09e54bd2629f9",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-cystic_duct-dark.png",
+        "encoded_path": "samples/focus-phone/2-cystic_duct-dark.webp",
+        "source_sha256": "aac0e6f5776d08b9579c2d1f9dbc0f8217ab3d3d0f7cdee3c8a184d332a753c5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-cystic_duct-light.png",
+        "encoded_path": "samples/focus-phone/2-cystic_duct-light.webp",
+        "source_sha256": "ab19da3f268e064ea1cebfba7721b8748fb2bcbc829a6f65d6eec98fdafa9240",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-cystic_duct.png",
+        "encoded_path": "samples/focus-phone/2-cystic_duct.webp",
+        "source_sha256": "ab19da3f268e064ea1cebfba7721b8748fb2bcbc829a6f65d6eec98fdafa9240",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "93adb5e6fbcb613521b116f4e2edb2cc7b8ce522c43d6a7ea01f7b8f6136f363",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "93adb5e6fbcb613521b116f4e2edb2cc7b8ce522c43d6a7ea01f7b8f6136f363",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "2ddf934ce0d59328f65cb32b93620497683029fd6223fa2902d848f1ce7d9888",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "9a3a2a702eccc01f337f6f89b51d40685689e8aad1d9d3a4acfc030ff9ef6201",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "9a3a2a702eccc01f337f6f89b51d40685689e8aad1d9d3a4acfc030ff9ef6201",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "b079892bc16f7bc4c06f5da5818e7a0119fc9bd657d1856f7b6fcee083d5e69e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "b079892bc16f7bc4c06f5da5818e7a0119fc9bd657d1856f7b6fcee083d5e69e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "2988993c39ce976e49c0b1b5bd3826c776a9f2d1ac31a4cd9506c499b93ccbcc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "2988993c39ce976e49c0b1b5bd3826c776a9f2d1ac31a4cd9506c499b93ccbcc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "e86699b0c80078f6cffeb69feabaeeafdce7a58b5f8b08f1af90e25646d86108",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "e86699b0c80078f6cffeb69feabaeeafdce7a58b5f8b08f1af90e25646d86108",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "e86699b0c80078f6cffeb69feabaeeafdce7a58b5f8b08f1af90e25646d86108",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "9835028eeadedccd8412095a761dfd8f6b95f6c808df56ff3d1b18ebadfb3c5d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "9835028eeadedccd8412095a761dfd8f6b95f6c808df56ff3d1b18ebadfb3c5d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "ca5a7cf2b6909f0ffff7f963b3e264ec118656d42429b0253eb31174911e3e24",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "d1ad1068cc60644c4a3a942a8219dec79778940de02d7d2eeeffc8e956a963c3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "d1ad1068cc60644c4a3a942a8219dec79778940de02d7d2eeeffc8e956a963c3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "eadb4a2952ff008d7fd78d1605d96802746cd31a9cb636e2b994cdba5fa6b8a2",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "93adb5e6fbcb613521b116f4e2edb2cc7b8ce522c43d6a7ea01f7b8f6136f363",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "af74b13af35f8a2792c5368e42f7c23060edec84d8955320174300c1ceac8ed0",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "60710db7d03f7c31b36852e5e53a5cc7400757e7b3c78bd58abca15f60ec5ded",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

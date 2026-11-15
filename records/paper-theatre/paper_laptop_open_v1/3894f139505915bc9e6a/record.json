@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_laptop_open_v1",
+  "title": "打开的笔记本电脑·独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    26,
+    1500,
+    1010
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "laptop_open"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "打开的笔记本电脑·独立纸件",
+      "laptop_open"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "打开的笔记本电脑·独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        26,
+        1500,
+        1010
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "工作与屏幕使用情境道具，屏幕为空白可准确后排信息。"
+    }
+  ],
+  "usage_notes": "工作与屏幕使用情境道具，屏幕为空白可准确后排信息。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "a65f2192bcaeef8f7753d27057b118e295db4560d88e056099ed698d538d6688",
+      "bytes": 1529270
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "d0346aabe6d6b2b4dd65cca7c9eeb9b25acbb0d541643135057ce573faf9d748",
+      "bytes": 902
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "80166ba87aef05a41aa50ee95e8b7dc5ddf1f875147e6fa6715b3582ce5f2dfa",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "11a561112353c49776cb6b3c41e412c17c504c5bb250fc4ccfd892a0ad9102a9",
+      "bytes": 592
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "34a291677b852952727ff6c2b624d08dc8e207e158197f6df32982b99ee1fec8",
+      "bytes": 66492
+    }
+  ],
+  "revision": "3894f139505915bc9e6a",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_laptop_open_v1@f81a54dc6c8fc15de522",
+    "source_record_sha256": "f065acc989a4719d788946e58a2c020d2e2a7328d377b5604252d7ecad16b6dc",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "4f68fa82a13f8188e24c7f63c8c218286cee26b336ec799fb2218937fa54141c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

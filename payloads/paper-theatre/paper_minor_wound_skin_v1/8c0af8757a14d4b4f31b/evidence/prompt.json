@@ -1,0 +1,8 @@
+{
+  "id": "minor_wound_skin",
+  "title": "浅表擦伤皮肤局部·纸拼贴",
+  "topic": "home_medicine",
+  "usage": "浅表擦伤的清洁与覆盖示意；不代表深伤口、咬伤、刺伤或可在家处理的全部情形。",
+  "transparent_background": true,
+  "prompt": "Use case: scientific-educational. ONE isolated non-graphic LOCAL FOREARM SKIN PATCH with a small superficial scrape, for a Chinese patient-education paper-theatre about basic wound care. A short gently rounded forearm section seen from above, skin intact except for a modest shallow pink-red linear abrasion at the center with a few tiny surface specks. No deep cut, no exposed muscle, no blood pooling, no tool, hand, gauze, water or medicine already applied. Do not include a whole person or detached fingers. Exquisite handmade fibrous cut-paper collage with soft gouache skin washes and colored-pencil texture, layered torn edges, warm calm muted peach/terracotta colors; clearly an educational illustration, not a real injured person's photograph or a flat SVG band. Entire local patch complete with transparent alpha margins, no labels, arrows, text, floor, backing rectangle, background or halo."
+}

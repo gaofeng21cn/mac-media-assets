@@ -1,0 +1,20 @@
+{
+  "schema": "animation_element_library/v1",
+  "items": [
+    {
+      "id": "reserve_person_pointing_v1",
+      "revision": "e6afd7150ef2",
+      "record": "records/paper-theatre/reserve_person_pointing_v1/e6afd7150ef2/record.json"
+    },
+    {
+      "id": "reserve_kitchen_counter_v2",
+      "revision": "d0570c04286e",
+      "record": "records/paper-theatre/reserve_kitchen_counter_v2/d0570c04286e/record.json"
+    },
+    {
+      "id": "reserve_person_lying_v1",
+      "revision": "9678d312d307",
+      "record": "records/paper-theatre/reserve_person_lying_v1/9678d312d307/record.json"
+    }
+  ]
+}

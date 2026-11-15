@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_consultation_table_wide_v1",
+  "title": "宽问诊木桌·可承托桌面",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    2172,
+    724
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "consultation_table_wide"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "宽问诊木桌·可承托桌面",
+      "consultation_table_wide"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "宽问诊木桌·可承托桌面",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "宽桌完整原件；桌面和脚底分别定位，按实际接触关系与人物共同试装。"
+    }
+  ],
+  "usage_notes": "宽桌完整原件；桌面和脚底分别定位，按实际接触关系与人物共同试装。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "167c50b8b6168f6eaf215a49157839c10b01cdd5c21605619601cec84b39333d",
+      "bytes": 1117458
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "8e61689d56b7b43ccb61563ef2c15e4fccd7eab5359f98a0abc5836944e8898c",
+      "bytes": 1137
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "d7ef7840e86e6cb2011619579390c7449bded66435d8cbcddb4e424af0fea75f",
+      "bytes": 618
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "16e653f048c546c1d68ecfc7714c8a3ca9c4f1304ab967c4a99cdbe2d4f8fd0b",
+      "bytes": 607
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "86878038969b4a20ee9befce168187027823f8bcfbb78cedf6bf2a9e7eac0706",
+      "bytes": 44302
+    }
+  ],
+  "revision": "413dbab1cd32bd165644",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_consultation_table_wide_v1@7f9c378d717f394d77e7",
+    "source_record_sha256": "5dc0df1eff976bbd2af7acd3fb668343552566594a97d116499db7e5853b724e",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "d36471a480380503e2553726e243900e2f0c086f8b4fac37d5aff99d3d2d084f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

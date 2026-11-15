@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pelvic_organs_simple_v1",
+  "title": "盆腔器官·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "盆腔器官·payload",
+      "medical": true,
+      "content_bounds": [
+        202,
+        243,
+        822,
+        762
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "ovary_left": {
+            "x": 0.330078125,
+            "y": 0.443359375
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_pelvic_organs_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "盆腔器官",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "女性盆腔正面投影示意，子宫连输卵管与两侧卵巢；膀胱为前方半透明投影，直肠为后方虚线投影。前后深度需结合侧视图解释，非同一冠状切面。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "f5636ce32bea5ad63ee406f6295182101b432016f828d31e29ba332459641f0b",
+      "bytes": 1136
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8e502ae78ff14d587bfffb2e6965712dd1a0cd229d484c058318ebba71622cdf",
+      "bytes": 22040
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "f5636ce32bea5ad63ee406f6295182101b432016f828d31e29ba332459641f0b",
+      "bytes": 1136
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "8e502ae78ff14d587bfffb2e6965712dd1a0cd229d484c058318ebba71622cdf",
+      "bytes": 22040
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e71a04470c7bb78d421537655db3f17c9d5e0753f131578b4db82a45f89da827",
+      "bytes": 25982
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "45fbb13ef70e5643f04725067935428d1d2703223e1e15ffd45f3eee761ee321",
+      "bytes": 687
+    }
+  ],
+  "revision": "1b98569e492237e31d67",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_pelvic_organs_simple_v1@6948e7f7638ab9acd22d",
+    "source_record_sha256": "7c53a38034155433080d3cce6d87bb918a5057c857a74fcc79ec2c124e9ab22c",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "395f3d71a831153e41ecd73708adb3324008604f7791daaaa732208f5900d483",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "395f3d71a831153e41ecd73708adb3324008604f7791daaaa732208f5900d483",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

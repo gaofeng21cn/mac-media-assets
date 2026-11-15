@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_clinician_woman_reach_v2",
+  "title": "女性医生·伸手接取·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "clinician_woman",
+    "reach",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "女性医生",
+      "伸手接取"
+    ],
+    "actions": [
+      "reach",
+      "伸手接取"
+    ],
+    "character_role": "clinician_woman",
+    "identity_family": "clinician_woman_cn_20261023",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-080f2397-28b0-4aa0-b134-4a627ead6f84.png",
+    "prompt": "Use case: identity-preserve. Asset type: one complete reusable medical animation character pose. Reference 1 is the identity MASTER. Keep the EXACT same Chinese female doctor with black low ponytail, no glasses, white lab coat, sage green shirt, gray trousers and brown flats; same facial likeness and paper-collage style. Change only pose: standing grounded three-quarter view screen right, extending image-right forearm at waist level with open palm and gently curved fingers ready to receive a separate report; other hand near torso. No report or other object in image. Preserve age, physique, face, clothing colors and footwear exactly. Complete head, hair, face, hands, both legs and shoes in frame, generous margin, natural connected anatomy. Single isolated figure with opaque paper interior on GENUINE transparent alpha background. No aura, glow, cast shadow, gradient, checkerboard, text/logo, background or furniture. No geometric stick-person construction. One pose only."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.46,
+        "y": 0.085
+      },
+      "feet": {
+        "x": 0.49,
+        "y": 0.97
+      },
+      "hand_left": {
+        "x": 0.5,
+        "y": 0.36
+      },
+      "hand_right": {
+        "x": 0.85,
+        "y": 0.31
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    243,
+    11,
+    936,
+    1511
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      73,
+      1,
+      1004,
+      1518
+    ],
+    "opaque_ratio": 0.2435,
+    "translucent_ratio": 0.0103,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      243,
+      11,
+      936,
+      1511
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "完整人物单幅姿态，接触与当前景别需要试装；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "d873fc23b389fe3601c2d081d596ef0e1ceba0f0ac220d4f05e41c68273be78e",
+      "bytes": 1643588
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "a62e81273d3b8f623644978f484d8d4310a512201b2a951dd982980b3dda9722",
+      "bytes": 2233
+    }
+  ],
+  "revision": "5f3388c282262124ba0a"
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_rehydration_sachet_v1",
+  "title": "口服补液盐袋·独立开角包装",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1286,
+    1199
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "rehydration_sachet"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "口服补液盐袋·独立开角包装",
+      "rehydration_sachet"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "口服补液盐袋·独立开角包装",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1286,
+        1199
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "补液盐包装示意，不承载通用配水量或剂量；实际按所用产品说明书。"
+    }
+  ],
+  "usage_notes": "补液盐包装示意，不承载通用配水量或剂量；实际按所用产品说明书。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "7de87c1219b97323dee44a5a1d03fe7eaed2caf793e10c43b849d267a958df42",
+      "bytes": 1145124
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "b07b5edffa095ebfa5ddbb2ccf9c8ad56228e172cc2ff515e6ed34cb17af1561",
+      "bytes": 1091
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "f928c6426051357a3eeb02a1e3cfeeb7d0c69482cdb4b4be77eac9336e1d5cd2",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "95d0895df584758b45e06ae5593a1ecd952ceb9542ff3dfc67a2af5fc1444daf",
+      "bytes": 610
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "1a917d6994d2ac5567980e074e01c4c52851f3ba896266fed41c45d176ebf4e7",
+      "bytes": 75152
+    }
+  ],
+  "revision": "f130f11e0b6cc89035ba",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_rehydration_sachet_v1@1e686faccca86843fa48",
+    "source_record_sha256": "90791dd86488390c9f9717f6e9ee6a725fe630deb3ca47509e5ac0211f75eae4",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "f0beeb7d6363e6c5b303569f1cbb3e614652df772b88b35afc73ad5e7c57c212",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1312,
+        "height": 1199,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

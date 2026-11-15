@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_knee_joint_healthy_v1",
+  "title": "膝关节软骨与骨端·纸拼贴结构",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "osteoarthritis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1094,
+    1437
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "knee_joint_healthy"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "膝关节软骨与骨端·纸拼贴结构",
+      "knee_joint_healthy"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "膝关节软骨与骨端·纸拼贴结构",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1094,
+        1437
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "骨端、关节软骨、半月板与关节间隙关系；整体近景，不可宣称已分层。"
+    }
+  ],
+  "usage_notes": "骨端、关节软骨、半月板与关节间隙关系；整体近景，不可宣称已分层。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "c08a1b0afbda3c70bc5af6de4571f9c683aaecaa2d383c716fdecc57c7c69de2",
+      "bytes": 1395366
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "3ccdc4831dd4f684d9839b21bc236aa8481b54852e255f00ddc058827d7ba9d4",
+      "bytes": 1333
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "82df4b94686d589605c63f47e6aeb20ce955ae5c5f28496e1478718bacc559e9",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "a31110f6e9918d2399bc16a0c4734359231d61387e25a1cf81193949c9850721",
+      "bytes": 24132
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "1cbb16776774d2e4f78beafb5bc19b3d1053f80c65be74c0d5be63738a7da33e",
+      "bytes": 779
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "4df8a3f3ce748ba8d1fda93547e58f82760c3211ed7c0d415a3a3b4ef982456b",
+      "bytes": 90788
+    }
+  ],
+  "revision": "27a838c1a3870ba6e9d6",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_knee_joint_healthy_v1@4abd551a32a1e0334787",
+    "source_record_sha256": "f35808233bd3821eb67ddbfa4c347e59d3f6defeed047012b81ec28b6ebc6c82",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "11d238714d912ee77e781d386a2a2b6f01408c04e2fead81ea4a5cf094c75bf5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1095,
+        "height": 1437,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

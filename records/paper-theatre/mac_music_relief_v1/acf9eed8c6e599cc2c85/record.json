@@ -1,0 +1,76 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_music_relief_v1",
+  "title": "配乐情绪：relief",
+  "kind": "music_score",
+  "tags": [
+    "reserve_2026_10_11",
+    "music",
+    "relief",
+    "stems"
+  ],
+  "entry": "music/audition.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "保留 MIDI 与分轨，按旁白和镜头事件剪辑，不作为固定循环",
+  "source": {
+    "kind": "original_midi_fluidsynth",
+    "license": "MIT soundfont; original MIDI"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "music/audition.wav",
+      "role": "payload",
+      "sha256": "1318373e6adbdf4c529f1593edd59c5be9d37d9f1e50f94d84f38bd38a823f61",
+      "bytes": 5426606
+    },
+    {
+      "path": "music/bed.mid",
+      "role": "payload",
+      "sha256": "0301e9b7cb76fc5f8ccae0a88fadf3d2a64926253d0253d5bd2a3b772e74dd0b",
+      "bytes": 295
+    },
+    {
+      "path": "music/bed.wav",
+      "role": "payload",
+      "sha256": "b52dbe3e9140383f00d81d4c5453c0867977a6065afa1c4e138c96faa3dda597",
+      "bytes": 5426606
+    },
+    {
+      "path": "music/motif.mid",
+      "role": "payload",
+      "sha256": "6974b8747141818621a52be821178ad2fd8f5d1ae18ccf664b89b4a53ebb8a4f",
+      "bytes": 148
+    },
+    {
+      "path": "music/motif.wav",
+      "role": "payload",
+      "sha256": "dd25e17d4deea1ffd0b0c53a57789d75e046899fb4cb6bb73872b844eb054953",
+      "bytes": 5426606
+    },
+    {
+      "path": "music/performance.json",
+      "role": "evidence",
+      "sha256": "c12a03022de05f60717c648d1be3b324dca9170776182ebb4c3b26ff223874e6",
+      "bytes": 7338
+    },
+    {
+      "path": "music/pulse.mid",
+      "role": "payload",
+      "sha256": "b7d9afc82221184e37de861e7effa50597171f1d54bc18f4c3a4053344137acf",
+      "bytes": 196
+    },
+    {
+      "path": "music/pulse.wav",
+      "role": "payload",
+      "sha256": "ed0a4946e37e4d1fb894f8c16aa9e7d17da4fe1138f1923cb44fd085bfaef5b7",
+      "bytes": 5426606
+    }
+  ],
+  "revision": "acf9eed8c6e599cc2c85"
+}

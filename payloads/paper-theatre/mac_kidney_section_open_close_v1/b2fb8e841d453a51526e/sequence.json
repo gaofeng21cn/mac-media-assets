@@ -1,0 +1,252 @@
+{
+  "schema": "mac_motion_study/v1",
+  "id": "mac_kidney_section_open_close_v1",
+  "type": "structure_section",
+  "label": "肾脏",
+  "title": "肾脏·冠状剖面开合连续开合",
+  "description": "保持同一原点，按本结构边界连续打开，查看原件内部或同位关系，随后关闭并恢复。",
+  "scope": "单肾冠状切面，分开皮质背景、髓质锥体和肾盂/肾盏/输尿管；不表示肾单位微观滤过、血管或精确肾盏数。远景版仅表达肾与输尿管身份。 既有冠状剖面内部连续打开；不表达肾单位与滤过。 ",
+  "medical_review": "pending",
+  "fps": 24,
+  "duration": 6.2,
+  "images": {
+    "cortex": {
+      "path": "assets/cortex.webp",
+      "sha256": "d6c8914669530e5dc160426c2a4fef21a7d4ecd8321a87cd470e40fabfe505ce",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        198,
+        136,
+        675,
+        838
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.44,
+            "y": 0.48
+          },
+          "renal_pelvis": {
+            "x": 0.506,
+            "y": 0.5
+          },
+          "ureter_end": {
+            "x": 0.587,
+            "y": 0.86
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "medulla": {
+      "path": "assets/medulla.webp",
+      "sha256": "ab780b5efac46c464a855f37d3a3bb8f899da172741ce90e1499033199093526",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        261,
+        224,
+        575,
+        759
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.44,
+            "y": 0.48
+          },
+          "renal_pelvis": {
+            "x": 0.506,
+            "y": 0.5
+          },
+          "ureter_end": {
+            "x": 0.587,
+            "y": 0.86
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    "collecting_system": {
+      "path": "assets/collecting_system.webp",
+      "sha256": "2d76ba18ff9c056244353ddd98515bab989181dddacc89f3372900624e173217",
+      "size": [
+        1024,
+        1024
+      ],
+      "bounds": [
+        432,
+        380,
+        618,
+        886
+      ],
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.44,
+            "y": 0.48
+          },
+          "renal_pelvis": {
+            "x": 0.506,
+            "y": 0.5
+          },
+          "ureter_end": {
+            "x": 0.587,
+            "y": 0.86
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "section": {
+    "kind": "two_dimensional_section",
+    "display_kind": "冠状剖面开合",
+    "context_before": [],
+    "cover": [
+      "cortex"
+    ],
+    "interior": [
+      "medulla",
+      "collecting_system"
+    ],
+    "context_after": [],
+    "context_regions": [
+      {
+        "id": "collecting_system",
+        "outside_path": "M593 178 C464 91 280 149 224 340 C166 531 218 762 383 822 C492 863 627 805 647 703 C663 626 594 609 569 541 C545 478 604 450 640 394 C692 313 685 239 593 178 Z"
+      }
+    ],
+    "underlay_alpha": 1,
+    "windows": [
+      {
+        "path": "M593 178 C464 91 280 149 224 340 C166 531 218 762 383 822 C492 863 627 805 647 703 C663 626 594 609 569 541 C545 478 604 450 640 394 C692 313 685 239 593 178 Z",
+        "pivot": [
+          445,
+          490
+        ],
+        "angle": 0,
+        "basis": "原件含肾门的完整冠状切面轮廓，保持肾盂到输尿管连续"
+      }
+    ],
+    "revealed_labels": [
+      "髓质锥体",
+      "肾盂与肾盏",
+      "输尿管延续"
+    ],
+    "source_limit_reason": ""
+  },
+  "presentation_note": "既有冠状剖面内部连续打开；不表达肾单位与滤过。",
+  "timing": {
+    "open_start": 0.7,
+    "open_end": 2.5,
+    "close_start": 3.5,
+    "close_end": 5.3
+  },
+  "composite_bounds": [
+    198,
+    136,
+    675,
+    886
+  ],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_kidney_detailed_layers_v1@9dfee405d6cc61e25bbc",
+      "portable_record_sha256": "4634401ffb37299f490694e97915cc8c84e41320f4e79dec16f1fd1d0d9bae4a"
+    }
+  ],
+  "events": [
+    {
+      "name": "closed",
+      "time": 0,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "open_start",
+      "time": 0.7,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_open",
+      "time": 2.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "close_start",
+      "time": 3.5,
+      "kind": "section_boundary"
+    },
+    {
+      "name": "fully_restored",
+      "time": 5.3,
+      "kind": "section_boundary"
+    }
+  ],
+  "review_times": [
+    0,
+    0.66,
+    0.7,
+    0.74,
+    0.9,
+    1.2,
+    1.6,
+    2,
+    2.46,
+    2.5,
+    3,
+    3.46,
+    3.5,
+    3.54,
+    3.9,
+    4.3,
+    4.7,
+    5.26,
+    5.3,
+    5.34,
+    6.2
+  ]
+}

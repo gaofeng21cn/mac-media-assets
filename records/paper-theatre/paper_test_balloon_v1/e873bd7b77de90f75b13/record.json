@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_test_balloon_v1",
+  "title": "临床功能试验球囊·独立示意物件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    13,
+    996,
+    1480
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "test_balloon"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "临床功能试验球囊·独立示意物件",
+      "test_balloon"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "临床功能试验球囊·独立示意物件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        13,
+        996,
+        1480
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "仅说明临床球囊试验的观察任务；不提供容量、操作、插入或家庭模仿指导。"
+    }
+  ],
+  "usage_notes": "仅说明临床球囊试验的观察任务；不提供容量、操作、插入或家庭模仿指导。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "93a21face950c87cc12b4d9e027b29463a1ff6f7d0f48be41770398efa3c2a65",
+      "bytes": 1016952
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "07206209ceeb6278387fc8d7c1df2d21f00bb4b33d77dfc2e7dece53d166b324",
+      "bytes": 1096
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "93ed512c2c8f095b42b670723cdf3c7442d4db0b9e7b504cbf1efcc9fad392f2",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "c001b2a28bc8b3efda06f6b12506ef3d3310dc8a090f0833146cef20d2108166",
+      "bytes": 625
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "39d9455535a2e72a22eb24bac2ca2de40c086a725eb268588ee365818ae159d4",
+      "bytes": 38841
+    }
+  ],
+  "revision": "e873bd7b77de90f75b13",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_test_balloon_v1@0ecb9c06ecabae90efca",
+    "source_record_sha256": "be63b74ab38b92bb79f999f008a6083285dddf8fef47378eddeeac0dc3e0b37b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "039504849187f188bc7a7ff90a9faedc2bbbdaa495823f4f0a9cc11d7edecf43",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "reviewed_at": "2026-10-11",
+  "scope": "原件静态查看及浅色、深色、彩色底合成；不含连续动作、医学表达或发布审查",
+  "static_visual": "candidate_suitable_for_story_adaptation",
+  "dimensions": [
+    2039,
+    771
+  ],
+  "mode": "RGBA",
+  "transparent_fraction": 0.8188031186926273,
+  "raw_alpha_bounds": [
+    216,
+    47,
+    1887,
+    709
+  ],
+  "content_bounds": [
+    379,
+    251,
+    1648,
+    494
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "content_bounds_method": "alpha > 8；不改原件，极低alpha散点不计入视觉内容范围",
+  "observations": [
+    "手工纸纤维、剪贴边缘与内部层次可辨",
+    "三种底色合成未见大面积背景、假棋盘或外部光晕",
+    "固定件有手撕边、折皱与纸纤维"
+  ],
+  "limitations": [
+    "实物为偏不透明的纸胶带效果，并非透明胶膜；不声明可看穿底层。",
+    "只用于有真实连接关系的局部固定，不拉伸为大色带或文字底板。"
+  ],
+  "motion": "pending_current_shot",
+  "medical": "not_reviewed",
+  "release_approval": false
+}

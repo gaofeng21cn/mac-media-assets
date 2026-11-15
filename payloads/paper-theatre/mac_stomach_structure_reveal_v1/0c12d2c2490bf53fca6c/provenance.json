@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_stomach_detailed_layers_v1@24f78a93bc5dae7f534d",
+      "portable_record_sha256": "2adf6fc0cb2ae59e7aedd82465d94f85fdbc98bed6fd833cafecd997f78c510d"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

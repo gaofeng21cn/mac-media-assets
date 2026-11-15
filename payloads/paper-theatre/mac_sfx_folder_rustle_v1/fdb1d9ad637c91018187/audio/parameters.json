@@ -1,0 +1,15 @@
+{
+  "id": "folder_rustle",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 0.95,
+  "seeds": [
+    9118,
+    9119,
+    9120
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

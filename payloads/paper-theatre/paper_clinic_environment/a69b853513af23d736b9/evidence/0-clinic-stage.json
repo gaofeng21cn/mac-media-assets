@@ -1,0 +1,16 @@
+{
+  "asset_id": "clinic-stage",
+  "asset_ref": "assets/stages/clinic.png",
+  "asset_sha256": "8434023a9ba7e2216379df5595934fbc8d0d901197c63d51926f78b42881f5a0",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "纸做医院入口无特定机构身份；门洞与路径可辨，开门依据登记连接点。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

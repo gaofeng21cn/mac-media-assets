@@ -1,0 +1,106 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_kitchen_knife_v1",
+  "title": "独立家用厨刀",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "prompt": "Use case: illustration-story. Asset type: reusable transparent paper-theatre animation cutout. Primary request: one standalone chef's kitchen knife for a Chinese home cooking preparation scene. Subject: single modest stainless-steel chef knife with matte pale wooden handle, broad clean blade and clear handle/blade connection, shown diagonally with blade edge facing down, no hand, no food, no board. Style/medium: refined tactile cut-paper collage with subtle paper fiber, restrained steel and warm wood, crisp silhouette. Composition/framing: one object centered and fully visible with generous transparent margin. Background: genuinely transparent alpha. Constraints: ordinary kitchen utensil only; no gore, no person, no background card, no cast shadow, no glow, no text, no logo, no watermark.",
+    "generation_receipt": "evidence/generation.json"
+  },
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "prep"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "厨刀",
+      "菜刀",
+      "切配"
+    ],
+    "objects": [
+      "家用厨刀"
+    ],
+    "actions": [
+      "切配",
+      "放下"
+    ],
+    "story_roles": [
+      "烹饪准备",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "独立道具层；不含手、不含食材、不表达具体切割结果。",
+    "original_image_size": [
+      1451,
+      1084
+    ],
+    "visible_bounds": [
+      142,
+      48,
+      1332,
+      985
+    ]
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    142,
+    48,
+    1332,
+    985
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "grip": {
+        "x": 0.8,
+        "y": 0.2
+      },
+      "blade_edge": {
+        "x": 0.38,
+        "y": 0.63
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "与砧板、蔬菜或鱼肉独立排景；不表示真实刀工或食物安全教学。",
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_contact_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b7521078b9e26da80e7400b137db9cd1d00eaf32f9bf89d9d3b7cbc26b37def5",
+      "bytes": 675776
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "4f76dba726cad53af6fd45bb85793cbe08a6bd163b7ef6c7bb198d0334d926f2",
+      "bytes": 1192
+    }
+  ],
+  "revision": "dd728203f4639fca6804"
+}

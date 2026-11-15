@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_hepatocyte_fat_patch_v1",
+  "title": "肝细胞脂滴·局部组织示意",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "masld"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1524,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "hepatocyte_fat_patch"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肝细胞脂滴·局部组织示意",
+      "hepatocyte_fat_patch"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "肝细胞脂滴·局部组织示意",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1524,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "脂滴位于肝细胞内的定性机制例子；不能由此判断炎症、纤维化或个人病理程度。"
+    }
+  ],
+  "usage_notes": "脂滴位于肝细胞内的定性机制例子；不能由此判断炎症、纤维化或个人病理程度。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "6e6f1b8ddda5a3e15141fa3d150ba1cb2e5cc65e445810e582e5f6457ae09265",
+      "bytes": 1842868
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "9d5ef29060083dc31dca7d05043ade179eb59adbb45b3e7986b8abee4a80c81b",
+      "bytes": 1280
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "1b1dabbe80d684f6234c2e105cd122f558cb71d0428c160a28d580507b06f282",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "45757696b5934a3a9a5c0fcc0699f322beb6b358d6d1caab93edf29bab6be04a",
+      "bytes": 25534
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "606a41fe14fcc73b15dcd66574c427d9896acd2cf9d65763530f3bc762521982",
+      "bytes": 785
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "59ef5ac313a870344845ebc796b39968dcafe64292350ee66b9b58bea9785150",
+      "bytes": 85228
+    }
+  ],
+  "revision": "f9aa14e51663bcca2414",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_hepatocyte_fat_patch_v1@250834d5bb794a0073ee",
+    "source_record_sha256": "869e0279c28c4f9bc010e09a0f31c38f62debad00e8c3e2975125443ded93eb2",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "9c505fc11897d72d7e7d3c5f5ae3db3079b7fa68bc61e0c3329a052abd94a56d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

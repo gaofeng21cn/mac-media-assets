@@ -1,0 +1,101 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_music_graves_paper_theatre",
+  "title": "graves_paper_theatre 原创纸剧场分轨配乐",
+  "kind": "audio",
+  "entry": "music/bed.wav",
+  "reuse_scope": {
+    "kind": "series",
+    "series": "graves_paper_theatre"
+  },
+  "source": {
+    "composer": "本工作台原创程序编曲",
+    "project": "/Users/gaofeng/workspace/科普视频/productions/graves_paper_theatre/01_not_just_a_fast_heart/v1",
+    "sampler": "FluidR3 GM; stable soundfont in assets/audio/instruments/FluidR3"
+  },
+  "external_dependencies": [
+    "本地 FluidR3 GM 音色库，许可随原库保管",
+    "composition/music-plan.json 保留原项目事件位置，复用时重新排时"
+  ],
+  "review": {
+    "listening": "pending"
+  },
+  "quality_debt": [
+    "未实际听辨完整配乐及混音；新镜头重新调整速度、编曲、旁白侧链和落点"
+  ],
+  "files": [
+    {
+      "path": "music/bed-sampler.wav",
+      "role": "payload",
+      "sha256": "994b5411b720e2fe0aebc07569321a6835612d1032d1e50563afa1008c47c265",
+      "bytes": 12297004
+    },
+    {
+      "path": "music/bed.wav",
+      "role": "payload",
+      "sha256": "8c9e0e1b3c055c8fde02a4e398bb978befa41053baf4dfc9ca550ecf72c0e5c9",
+      "bytes": 17428062
+    },
+    {
+      "path": "music/motif.mid",
+      "role": "payload",
+      "sha256": "39d351fb4fb56098a3cf3777249c6f9fc2c21cab3f9f011e713306cfa7ba4e6d",
+      "bytes": 165
+    },
+    {
+      "path": "music/pulse-sampler.wav",
+      "role": "payload",
+      "sha256": "c1d691d46dc2fa197ae8e7b635340a71676c69d118fb4868ae3cf7d99ab9ba21",
+      "bytes": 12195116
+    },
+    {
+      "path": "music/motif-sampler.wav",
+      "role": "payload",
+      "sha256": "f278930b957d81b3fecd56e642a5084d59a2600a625880f75aa81abaedc6ee5c",
+      "bytes": 12195116
+    },
+    {
+      "path": "music/bed.mid",
+      "role": "payload",
+      "sha256": "f9062c275f58cd124c4f99ed555b9cf87ba44ff74b504f05f8e5b3565b7795b4",
+      "bytes": 540
+    },
+    {
+      "path": "music/motif.wav",
+      "role": "payload",
+      "sha256": "6fe46e7401d388141cd95408d83acb9fff812206b54391fbe420d02844cdc5c2",
+      "bytes": 17428062
+    },
+    {
+      "path": "music/performance.json",
+      "role": "payload",
+      "sha256": "1191e84a58a266d07dbf8bb7a83cec3c9a1173f13c4725171072d90dcc9357a6",
+      "bytes": 18880
+    },
+    {
+      "path": "music/pulse.mid",
+      "role": "payload",
+      "sha256": "8ae24a70b9c335d01b81c63f58f89fdf39c904aaed6064adde2dcdb42b369d3e",
+      "bytes": 659
+    },
+    {
+      "path": "music/pulse.wav",
+      "role": "payload",
+      "sha256": "a5e2367408ecc9b3cfdf32fdc796eabdc297dbbeb1c87bd5ef9479d93c0ee10b",
+      "bytes": 17428062
+    },
+    {
+      "path": "composition/compose_music.py",
+      "role": "source",
+      "sha256": "e516d8e8d3cb60c9a59be01149ca06feb33d447c6c384d7aa35ed2f2152be98d",
+      "bytes": 5380
+    },
+    {
+      "path": "composition/music-plan.json",
+      "role": "evidence",
+      "sha256": "d0ac7df4fa71540a158ad28675b2cb25a7e7907672e3eb6184b25a207fdc48b9",
+      "bytes": 632
+    }
+  ],
+  "revision": "ac8fe88ece2af2cd5941"
+}

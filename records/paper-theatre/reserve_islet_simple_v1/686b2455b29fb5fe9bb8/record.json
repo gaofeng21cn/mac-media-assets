@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_islet_simple_v1",
+  "title": "胰岛·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胰岛·payload",
+      "medical": true,
+      "content_bounds": [
+        193,
+        435,
+        842,
+        704
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.56
+          },
+          "islet": {
+            "x": 0.46,
+            "y": 0.58
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_islet_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胰岛",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "胰腺与胰岛位置示意，胰岛细胞为示意点；不表示胰岛数量、细胞比例或血糖调节机制。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "63a896c3495c68d2f4d0dcd0c7aa1c55f8720e75f17de764195fbfb050bd3308",
+      "bytes": 318
+    },
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "0989b807ddb47b161d4dfe5044724f2d035c734ff5176a89e174886ddc459e44",
+      "bytes": 24640
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "63a896c3495c68d2f4d0dcd0c7aa1c55f8720e75f17de764195fbfb050bd3308",
+      "bytes": 318
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "0989b807ddb47b161d4dfe5044724f2d035c734ff5176a89e174886ddc459e44",
+      "bytes": 24640
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "b411e3aef60306e853939c1d1d352391cce3b3948e4e42b95d98c39f11ff7481",
+      "bytes": 603
+    }
+  ],
+  "revision": "686b2455b29fb5fe9bb8"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "clip_click",
+  "kind": "original_procedural_material_accent",
+  "not_field_recording": true,
+  "sample_rate": 48000,
+  "duration": 0.3,
+  "seeds": [
+    9109,
+    9110,
+    9111
+  ],
+  "license": "MIT original composition and code",
+  "usage": "contact-aligned, quiet, optional; listen in current mix",
+  "listening_review": "pending"
+}

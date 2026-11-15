@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_minor_wound_skin_v1",
+  "title": "浅表擦伤皮肤局部·纸拼贴",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "home_medicine"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    23,
+    1774,
+    887
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "minor_wound_skin"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "浅表擦伤皮肤局部·纸拼贴",
+      "minor_wound_skin"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "浅表擦伤皮肤局部·纸拼贴",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        23,
+        1774,
+        887
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "浅表擦伤的清洁与覆盖示意；不代表深伤口、咬伤、刺伤或可在家处理的全部情形。"
+    }
+  ],
+  "usage_notes": "浅表擦伤的清洁与覆盖示意；不代表深伤口、咬伤、刺伤或可在家处理的全部情形。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "37057d67c8cc845d2dc25edb6b36940445fee3e66000c1313ab4b0630c9cb2d6",
+      "bytes": 1615202
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "859e388e0d886194253f91d0e7e1c9e8004a96a8bfdb450d1bcc92c1e3ce7775",
+      "bytes": 1187
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "d91f46374b09975996ef2485211e47d3af7f116d0761ba588a4a0cfc76e47894",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "59e0f6993b2cad0a5eb6a42d3fcc55a14e6c9cf22c73cd6f987d0f9bdaf8467c",
+      "bytes": 625
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "ffa6ce782bf7fae65387c8c86e9e131094f78f4961019ee4c45b271d2366fe93",
+      "bytes": 51127
+    }
+  ],
+  "revision": "8c0af8757a14d4b4f31b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_minor_wound_skin_v1@5d1a023567e2063a4190",
+    "source_record_sha256": "e72737f2cc749390fd9922030f6cfd90a00e4e5f57889e5d33bcc8e55d34b824",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "c53d22e7cdb9234855c3e361bbf92cd3c0d45e514dc51f13ab4066e950d122e3",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1774,
+        "height": 887,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

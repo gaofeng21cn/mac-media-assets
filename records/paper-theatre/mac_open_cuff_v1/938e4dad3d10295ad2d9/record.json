@@ -1,0 +1,72 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_open_cuff_v1",
+  "title": "独立展开式上臂袖带",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "tags": [
+    "paper_collage",
+    "人物",
+    "接触",
+    "交接"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "content_bounds": [
+    323,
+    151,
+    1203,
+    901
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "与独立手臂试装；不含主机与读数",
+  "source": {
+    "kind": "imagegen",
+    "generation": "builtin_edit",
+    "sample_has_brand": false
+  },
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "pending"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_motion_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "bd90df032d74d933d61a0560b799ed2dc5625e3c9b1930845b48117d4dca43e7",
+      "bytes": 2131266
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "c02199f2b0e2ea0a0d75737e22051168f077c26e1f5e46d94d0641ec172897ec",
+      "bytes": 429
+    }
+  ],
+  "revision": "938e4dad3d10295ad2d9",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_open_cuff_v1@ed384b40d3d5dc3de162",
+    "source_record_sha256": "675efe783e3dcd1ffbd2818acfc2376a5b2448511eaf9c6d152a36411beba937",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

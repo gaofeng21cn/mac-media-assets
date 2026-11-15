@@ -1,0 +1,7 @@
+{
+  "id": "airway_inflamed",
+  "referenced_image_paths": [
+    "airway_normal"
+  ],
+  "prompt": "Create the INFLAMED NARROWED state of this exact same isolated bronchiole paper-theatre cutout. Keep the same face-on view, outer paper silhouette, exact center and outer diameter, identical muted gouache and fibrous torn paper craft, scale and lighting. Change only the airway tissue state: the inner salmon mucosal layer is now much thicker, edematous and redder with a few gentle inward folds; the ivory central lumen is clearly narrowed to about half the normal diameter. The ochre outer smooth-muscle band is slightly contracted but remains distinct from the swollen inner mucosa. No giant mucus plug, no blood, no cartilage, no extra structures. Preserve true transparent alpha outside the paper silhouette with no background plate or outer haze. One complete object only, no text, labels, arrows, frame, comparison layout or additional object. This matched state will be crossfaded and compared with the normal state in a patient explanation; do not change the underlying anatomy or turn it into a flat vector symbol."
+}

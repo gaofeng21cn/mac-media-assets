@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_esophagus_stomach_junction_v1",
+  "title": "食管、胃与连接部·连续腔道纸切面",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "gerd"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    10,
+    1270,
+    1219
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "esophagus_stomach_junction"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "食管、胃与连接部·连续腔道纸切面",
+      "esophagus_stomach_junction"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "食管、胃与连接部·连续腔道纸切面",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        10,
+        1270,
+        1219
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "食管与胃连接部的定性关系，肌性区域不是机械闸门；不等于个人反流诊断或疾病严重度。"
+    }
+  ],
+  "usage_notes": "食管与胃连接部的定性关系，肌性区域不是机械闸门；不等于个人反流诊断或疾病严重度。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "3d2693e58b8e8d9a969847ac87f5a869a2e26ea5a9ad16e5f88d272a25a7ada1",
+      "bytes": 1069678
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "a013143407fe4ceadd22c63da86bb96c0ea3e168a68122030bd60178e3323780",
+      "bytes": 1201
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "10f29b7c3b258f323dbf6c9651ecc6e5ad8a2e208b149b741f58eab4c87f6ac4",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "167971d7139b1a71077a69f062c5570345d75c9587ecd73ae29d327950d8ad12",
+      "bytes": 15132
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "e326595cc4c47fa8234c1c92a2237bfcb5f95295311588e92a070cfd4e95ecaf",
+      "bytes": 809
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "c4259340bf974d2b5852c3fd2708c8119f01ba4ee994f4eab1ffd66ff2b58668",
+      "bytes": 92281
+    }
+  ],
+  "revision": "0bbc3dc6a8aac4412ed9",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_esophagus_stomach_junction_v1@958dd787e7f6ef7d0cb2",
+    "source_record_sha256": "483384338c9a6a492c8df094c11ee30961c86a4f4b761afaa1fd6984edef73f7",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "f7bf77258866ea3289055f52a55bddc122d8b3b2a5625f7d6cd51975feab0135",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1290,
+        "height": 1219,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

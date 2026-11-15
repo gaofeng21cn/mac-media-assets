@@ -1,0 +1,304 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_head_sagittal_detailed_layers_v1",
+  "title": "头部矢状位·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "skull_profile",
+      "path": "files/skull_profile.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·skull_profile",
+      "medical": true,
+      "content_bounds": [
+        300,
+        169,
+        762,
+        805
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "pituitary": {
+            "x": 0.54,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "brain",
+      "path": "files/brain.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·brain",
+      "medical": true,
+      "content_bounds": [
+        408,
+        289,
+        734,
+        585
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "pituitary": {
+            "x": 0.54,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "pituitary",
+      "path": "files/pituitary.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·pituitary",
+      "medical": true,
+      "content_bounds": [
+        511,
+        535,
+        593,
+        597
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "pituitary": {
+            "x": 0.54,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "sinus",
+      "path": "files/sinus.png",
+      "source_type": "original_vector",
+      "visual_meaning": "头部矢状位·sinus",
+      "medical": true,
+      "content_bounds": [
+        594,
+        654,
+        692,
+        726
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "pituitary": {
+            "x": 0.54,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_head_sagittal_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "头部矢状位",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "skull_profile",
+      "brain",
+      "pituitary",
+      "sinus"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "头部矢状位示意，区分颅骨、脑、垂体与鼻窦位置；不表示脑沟回细节、垂体大小或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/skull_profile.svg",
+      "role": "source",
+      "sha256": "127f40f38dcbdffc6d698a6cd91dd7486a5621db82bab6e47b5311f24d22c3c2",
+      "bytes": 377
+    },
+    {
+      "path": "files/skull_profile.png",
+      "role": "payload",
+      "sha256": "5c9322483d8ad6e4977006c5242906e9906af078b60111c61116ef2c5481856e",
+      "bytes": 30087
+    },
+    {
+      "path": "source/brain.svg",
+      "role": "source",
+      "sha256": "d8b3b1be51b3b1bd0627ac0f69eb37284f7e461b1aede538c61e3d8c5728a871",
+      "bytes": 318
+    },
+    {
+      "path": "files/brain.png",
+      "role": "payload",
+      "sha256": "43370094429fee7f7011ca1a73b02c31184c730567a98dc8696ff76cd19300fb",
+      "bytes": 18359
+    },
+    {
+      "path": "source/pituitary.svg",
+      "role": "source",
+      "sha256": "62e2102db5328b57067854f5d69edc66926b2ccff8cca5ddd208dcbfa13e33a7",
+      "bytes": 191
+    },
+    {
+      "path": "files/pituitary.png",
+      "role": "payload",
+      "sha256": "7966f6ede48fae98a86c0905d23d8bef13df1fea17b0bcafa40fc21c21a765be",
+      "bytes": 7274
+    },
+    {
+      "path": "source/sinus.svg",
+      "role": "source",
+      "sha256": "58b1b37c34e59ee2d1fd4e0662b04a1ac8572767b985529640cb3885c930550b",
+      "bytes": 227
+    },
+    {
+      "path": "files/sinus.png",
+      "role": "payload",
+      "sha256": "a57f8c6ce77515891700bd871a6044f0d705e894ceb14593f4159e807d7b3c05",
+      "bytes": 7769
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "bc87226a963af2ef18a421ab433b0c5dd7fb28c9d2931843c919ec1770ce5c1d",
+      "bytes": 822
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "d17a55fab8869df421e3ccb616e001cd2b5a8cfa5993d9cbbb83a7c04836f1c9",
+      "bytes": 48478
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "3927cae8c8e78323d7c5efb1d646c09a7ce56e53696689605726d83c49d71463",
+      "bytes": 621
+    }
+  ],
+  "revision": "5876653be107272eaec9"
+}

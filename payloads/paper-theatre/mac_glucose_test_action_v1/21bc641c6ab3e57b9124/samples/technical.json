@@ -1,0 +1,474 @@
+{
+  "schema": "mac_motion_render/v1",
+  "status": "passed",
+  "frames": 168,
+  "fps": 24,
+  "duration": 7,
+  "random_seek_equal": true,
+  "browser_errors": [],
+  "inputs": {
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+    "runtime.mjs": "618980d616e514173faaca4950b33e241f1d698809348ca92828c4a8855dffd8",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "0de5e8fd2e3845c4db15056402c3f97563dba6f11b21cfd4680546373aea7a91",
+    "assets/arm.webp": "09afc5f6c8a64b61bd096a01d9e9a3ab709d5fcb8e640d2810cba1780ffbc022",
+    "assets/meter.webp": "86345532a82391673b5730b25e040acad375a017b33efddadadb87293c1905a8",
+    "assets/strip.webp": "9523ce90d822a7268dc4ebc5423aaed26e4c0d3fc4ac817f77fd9ea1846099de",
+    "assets/dressing.webp": "ef296c40175ebf150d53ff945a27dacbb5a78f41ee39949abec97c94bd039a62"
+  },
+  "keyframes": [
+    "samples/keyframes/00.webp",
+    "samples/keyframes/01.webp",
+    "samples/keyframes/02.webp",
+    "samples/keyframes/03.webp",
+    "samples/keyframes/04.webp",
+    "samples/keyframes/05.webp",
+    "samples/keyframes/06.webp",
+    "samples/keyframes/07.webp",
+    "samples/keyframes/08.webp",
+    "samples/keyframes/09.webp",
+    "samples/keyframes/10.webp",
+    "samples/keyframes/11.webp",
+    "samples/keyframes/12.webp",
+    "samples/keyframes/13.webp"
+  ],
+  "states": [
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 0,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 0,
+        "stripPort": [
+          1090,
+          390
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": []
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 0.4,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 0,
+        "stripPort": [
+          1090,
+          390
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": []
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 1.2,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": [
+        "insert"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 1.35,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": [
+        "insert"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 2.15,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": [
+        "insert",
+        "lance_contact"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 2.2,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 2.8,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 3.2,
+      "geometry": {
+        "port": [
+          1005,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1005,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1005,
+          310
+        ],
+        "sample": false,
+        "reading": false,
+        "press": 0
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 3.6,
+      "geometry": {
+        "port": [
+          920,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          920,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          920,
+          310
+        ],
+        "sample": true,
+        "reading": false,
+        "press": 0
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood",
+        "sample_contact"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 4.3,
+      "geometry": {
+        "port": [
+          920,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          920,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          920,
+          310
+        ],
+        "sample": true,
+        "reading": true,
+        "press": 0
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood",
+        "sample_contact",
+        "reading"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 4.9,
+      "geometry": {
+        "port": [
+          920,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          920,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          920,
+          310
+        ],
+        "sample": false,
+        "reading": true,
+        "press": 0
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood",
+        "sample_contact",
+        "reading"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 5.6,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": true,
+        "press": 0.055393586005830504
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood",
+        "sample_contact",
+        "reading",
+        "withdraw"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 6.2,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": true,
+        "press": 1
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood",
+        "sample_contact",
+        "reading",
+        "withdraw",
+        "press"
+      ]
+    },
+    {
+      "study": "mac_glucose_test_action_v1",
+      "time": 7,
+      "geometry": {
+        "port": [
+          1090,
+          310
+        ],
+        "finger": [
+          920,
+          400
+        ],
+        "stripEnd": [
+          1090,
+          400
+        ],
+        "insert": 1,
+        "stripPort": [
+          1090,
+          310
+        ],
+        "sample": false,
+        "reading": true,
+        "press": 1
+      },
+      "events": [
+        "insert",
+        "lance_contact",
+        "blood",
+        "sample_contact",
+        "reading",
+        "withdraw",
+        "press"
+      ]
+    }
+  ]
+}

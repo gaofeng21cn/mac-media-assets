@@ -1,0 +1,26 @@
+{
+  "generator": "builtin_image_gen",
+  "transparent_background": true,
+  "assets": {
+    "mac_left_receive_v1": {
+      "reference": "reserve_hand_pinch_v1",
+      "prompt": "Edit this existing generic paper-collage hand asset into a different LEFT receiving hand pose. Preserve the tactile peach paper skin, mustard cardigan cuff, fibrous texture and hand-drawn collage family. Change pose: isolated LEFT hand with palm upward, wrist enters from LEFT, relaxed fingers extend RIGHT to receive an independently animated report. No report or other object in hand. Anatomically plausible five fingers and thumb placement, no extra fingers. Fully visible wrist and fingertips with margins. REAL transparent background; preserve alpha, remove any residual glow/halo/backdrop and bake no shadows. Output one clean animation cutout only, no text, logo, brand, furniture, labels or scene."
+    },
+    "mac_right_pinch_v1": {
+      "reference": "mac_left_receive_v1",
+      "prompt": "Edit only the pose of this single paper-collage hand. Turn it into a RIGHT hand entering from the right side, fingers pointing LEFT. The thumb and index finger gently pinch an empty gap; the remaining three fingers curl naturally. Anatomically plausible five fingers. Preserve the same peach textured paper skin, mustard cardigan cuff and hand-drawn collage look. No object in hand. Preserve actual transparency. Remove any glow, halo and baked shadow. One isolated reusable hand cutout, no background, text, brands or other objects."
+    },
+    "mac_person_receive_v1": {
+      "reference": "reserve_person_stand_v1",
+      "prompt": "Edit the pose of the provided generic fictional patient cutout. Preserve face, bob haircut, mustard cardigan, white shirt, teal trousers, cream shoes and tactile paper-collage material. Change ONLY pose to both forearms reaching gently forward at waist level, palms angled up to receive a separately animated paper report. Hands EMPTY, anatomically correct fingers, relaxed shoulders and calm face. Full body with generous transparent margins. No report, furniture, medical device, writing, logo or brand. Real alpha transparency, no glow, halo, backdrop, checkerboard or baked shadow. One reusable hand-drawn collage character pose."
+    },
+    "mac_bare_arm_v1": {
+      "reference": "mac_person_receive_v1",
+      "prompt": "Edit the reference into an isolated reusable paper-collage ARM ONLY, rather than a whole person. Match the same generic person's peach textured skin and mustard sleeve. Left upper arm exposed below a short sleeve at upper-left, elbow gently bent, forearm extends to the RIGHT with relaxed five-finger hand. Upper-arm midpoint must be bare and unobstructed so another independently animated cuff can be placed there. No cuff, body, table or device. Cut-paper and hand-drawn style, complete arm with margins, genuine alpha transparency, no backdrop, checkerboard, halo, glow, shadow or text. One independent generic animation part, no brand."
+    },
+    "mac_open_cuff_v1": {
+      "reference": "mac_bare_arm_v1",
+      "prompt": "Create the matching SEPARATE cuff animation part for the exposed upper arm in this reference. Output ONLY one generic upper-arm blood-pressure cuff, opened slightly in a three-quarter side view, charcoal/blue-grey textured paper with a short fastening flap and a small hose attachment port. No arm, skin, hand, monitor, long tube or other object. It should read as a flexible textile cuff made of hand-cut paper, not a rectangular label or card, and should wrap around an independently rendered arm. Match the reference tactile torn-paper/hand-drawn collage style. Empty blank cuff, no numbers, text, logos or brand. Genuine transparent background, clean alpha, no glow, halo, baked shadow or backdrop. One complete reusable cutout with generous margins."
+    }
+  }
+}

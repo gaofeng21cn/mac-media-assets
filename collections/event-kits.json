@@ -1,0 +1,617 @@
+{
+  "schema": "mac_event_kits/v1",
+  "kits": [
+    {
+      "id": "attention_handoff",
+      "title": "注意力交接（指认人物 → 视觉锚点）",
+      "parts": [
+        {
+          "source_id": "reserve_person_pointing_v1",
+          "asset_id": "paper:reserve_person_pointing_v1@a953895eb6f55d31a612",
+          "role": "指认姿态人物",
+          "revision": "a953895eb6f55d31a612"
+        }
+      ],
+      "partner": "任意医学结构、监测物件或资料纸件，由当前故事决定",
+      "operations": [
+        "指向旁侧物件",
+        "抬手强调",
+        "锚点接手画面注意力"
+      ],
+      "relationship": "人物与被指物件是两个独立部件；指向端可登记为接触锚点。被指对象不是固定部件，因此这是事件组合而不是部件装配。",
+      "review": {
+        "assembly": "parts_available",
+        "continuous_motion": "pending",
+        "current_shot": "pending"
+      },
+      "locks_story": false
+    },
+    {
+      "id": "report_handoff",
+      "title": "报告交接与归档",
+      "parts": [
+        {
+          "source_id": "paper_blank_report",
+          "asset_id": "paper:paper_blank_report@1ef837c31be5f9dcee48",
+          "role": "故事候选物件",
+          "revision": "1ef837c31be5f9dcee48"
+        },
+        {
+          "source_id": "paper_open_envelope",
+          "asset_id": "paper:paper_open_envelope@f450300b82f9dfffa8fa",
+          "role": "故事候选物件",
+          "revision": "f450300b82f9dfffa8fa"
+        },
+        {
+          "source_id": "reserve_hand_pinch_v1",
+          "asset_id": "paper:reserve_hand_pinch_v1@03be5473d0c9320eefef",
+          "role": "故事候选物件",
+          "revision": "03be5473d0c9320eefef"
+        },
+        {
+          "source_id": "mac_sfx_paper_place_v1",
+          "asset_id": "paper:mac_sfx_paper_place_v1@48695eeeea0fe22e56fe",
+          "role": "故事候选物件",
+          "revision": "48695eeeea0fe22e56fe"
+        },
+        {
+          "source_id": "mac_sfx_folder_rustle_v1",
+          "asset_id": "paper:mac_sfx_folder_rustle_v1@fdb1d9ad637c91018187",
+          "role": "故事候选物件",
+          "revision": "fdb1d9ad637c91018187"
+        },
+        {
+          "source_id": "mac_left_receive_v1",
+          "asset_id": "paper:mac_left_receive_v1@3200a0751c5698f93976",
+          "role": "接取手",
+          "revision": "3200a0751c5698f93976"
+        },
+        {
+          "source_id": "mac_right_pinch_v1",
+          "asset_id": "paper:mac_right_pinch_v1@c1e77d9237daf0bbefe4",
+          "role": "交出手",
+          "revision": "c1e77d9237daf0bbefe4"
+        },
+        {
+          "source_id": "mac_person_receive_v1",
+          "asset_id": "paper:mac_person_receive_v1@e22ae90ada0d06db6980",
+          "role": "人物接取姿态",
+          "revision": "e22ae90ada0d06db6980"
+        }
+      ],
+      "story_roles": [
+        "发现线索",
+        "资料交接"
+      ],
+      "event_chain": "靠近→手纸接触→交接→袋口遮挡→落定",
+      "sample": "tools/preview-engine/index.html#report_handoff",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "followup",
+      "title": "翻页与连续随访",
+      "parts": [
+        {
+          "source_id": "reserve_calendar_base_v1",
+          "asset_id": "paper:reserve_calendar_base_v1@3c9ce0f355cb54f3868a",
+          "role": "故事候选物件",
+          "revision": "3c9ce0f355cb54f3868a"
+        },
+        {
+          "source_id": "reserve_calendar_leaf_v1",
+          "asset_id": "paper:reserve_calendar_leaf_v1@348fbfaa81b88253914a",
+          "role": "故事候选物件",
+          "revision": "348fbfaa81b88253914a"
+        },
+        {
+          "source_id": "reserve_notebook_cover_v1",
+          "asset_id": "paper:reserve_notebook_cover_v1@1eac51828ce68ebb3fd0",
+          "role": "故事候选物件",
+          "revision": "1eac51828ce68ebb3fd0"
+        },
+        {
+          "source_id": "reserve_notebook_page_v1",
+          "asset_id": "paper:reserve_notebook_page_v1@e69ce72978c6fcefb8e9",
+          "role": "故事候选物件",
+          "revision": "e69ce72978c6fcefb8e9"
+        },
+        {
+          "source_id": "mac_sfx_paper_turn_v1",
+          "asset_id": "paper:mac_sfx_paper_turn_v1@a7a06ec469063c68d674",
+          "role": "故事候选物件",
+          "revision": "a7a06ec469063c68d674"
+        },
+        {
+          "source_id": "mac_music_calm_v1",
+          "asset_id": "paper:mac_music_calm_v1@f6fcaf7c5e783da182ed",
+          "role": "故事候选物件",
+          "revision": "f6fcaf7c5e783da182ed"
+        }
+      ],
+      "story_roles": [
+        "记录随访"
+      ],
+      "event_chain": "前次记录留下→日期变化→新记录叠入→下一次复诊",
+      "sample": "tools/preview-engine/index.html#followup",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "evidence_compare",
+      "title": "检查资料汇入会诊",
+      "parts": [
+        {
+          "source_id": "paper_blank_report",
+          "asset_id": "paper:paper_blank_report@1ef837c31be5f9dcee48",
+          "role": "故事候选物件",
+          "revision": "1ef837c31be5f9dcee48"
+        },
+        {
+          "source_id": "reserve_mri_v1",
+          "asset_id": "paper:reserve_mri_v1@0fddebf4320c6bcaecc6",
+          "role": "故事候选物件",
+          "revision": "0fddebf4320c6bcaecc6"
+        },
+        {
+          "source_id": "reserve_tube_v1",
+          "asset_id": "paper:reserve_tube_v1@232bc11eaeb40f2f8bf0",
+          "role": "故事候选物件",
+          "revision": "232bc11eaeb40f2f8bf0"
+        },
+        {
+          "source_id": "reserve_folder_v1",
+          "asset_id": "paper:reserve_folder_v1@304579fc57f543add7cc",
+          "role": "故事候选物件",
+          "revision": "304579fc57f543add7cc"
+        },
+        {
+          "source_id": "mac_sfx_folder_rustle_v1",
+          "asset_id": "paper:mac_sfx_folder_rustle_v1@fdb1d9ad637c91018187",
+          "role": "故事候选物件",
+          "revision": "fdb1d9ad637c91018187"
+        },
+        {
+          "source_id": "mac_music_curious_v1",
+          "asset_id": "paper:mac_music_curious_v1@84918945d68a493fc064",
+          "role": "故事候选物件",
+          "revision": "84918945d68a493fc064"
+        }
+      ],
+      "story_roles": [
+        "对照检查",
+        "共同决策"
+      ],
+      "event_chain": "结构资料和功能资料分别取出→共同观察→汇入资料袋",
+      "sample": "tools/preview-engine/index.html#evidence_compare",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "pending",
+        "listening": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "medicine_action",
+      "title": "药瓶开合与用药记录",
+      "parts": [
+        {
+          "source_id": "paper_medicine_bottle_parts_v1",
+          "asset_id": "paper:paper_medicine_bottle_parts_v1@eb46f4b0bcd3b0a82c0a",
+          "role": "故事候选物件",
+          "revision": "eb46f4b0bcd3b0a82c0a"
+        },
+        {
+          "source_id": "reserve_pillbox_v1",
+          "asset_id": "paper:reserve_pillbox_v1@133bddccbe8adb03f483",
+          "role": "故事候选物件",
+          "revision": "133bddccbe8adb03f483"
+        },
+        {
+          "source_id": "reserve_notebook_page_v1",
+          "asset_id": "paper:reserve_notebook_page_v1@e69ce72978c6fcefb8e9",
+          "role": "故事候选物件",
+          "revision": "e69ce72978c6fcefb8e9"
+        },
+        {
+          "source_id": "mac_sfx_bottle_cap_v1",
+          "asset_id": "paper:mac_sfx_bottle_cap_v1@856ff3ab3487c1cc97e2",
+          "role": "故事候选物件",
+          "revision": "856ff3ab3487c1cc97e2"
+        },
+        {
+          "source_id": "mac_music_relief_v1",
+          "asset_id": "paper:mac_music_relief_v1@7f6d31bd774a87e0420a",
+          "role": "故事候选物件",
+          "revision": "7f6d31bd774a87e0420a"
+        }
+      ],
+      "story_roles": [
+        "治疗过程"
+      ],
+      "event_chain": "接触→移盖→独立药盒进入→记录→收纳",
+      "sample": "tools/preview-engine/index.html#medicine_action",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "glucose_action",
+      "title": "血糖仪操作：插试纸、采血、读数与按压止血",
+      "parts": [
+        {
+          "source_id": "mac_glucose_test_action_v1",
+          "asset_id": "paper:mac_glucose_test_action_v1@21bc641c6ab3e57b9124",
+          "revision": "21bc641c6ab3e57b9124",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "story_roles": [
+        "收集线索"
+      ],
+      "event_chain": "通用指尖血糖采样关系示意，时间被压缩；实际操作沿设备说明。独立医学终审与当前镜头仍待审。",
+      "sample": "tools/preview-engine/index.html#glucose_action",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。",
+      "preview_asset_id": "paper:mac_glucose_test_action_v1@21bc641c6ab3e57b9124",
+      "relationship": "通用指尖血糖采样关系示意，时间被压缩；实际操作沿设备说明。独立医学终审与当前镜头仍待审。",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "daily_activity",
+      "title": "同身份成年男性双侧步态循环",
+      "parts": [
+        {
+          "source_id": "mac_walk_cycle_v1",
+          "asset_id": "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd",
+          "revision": "145fd0a1ed9fed47bffd",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "story_roles": [
+        "日常行动"
+      ],
+      "event_chain": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+      "sample": "tools/preview-engine/index.html#daily_activity",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "not_applicable",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。",
+      "preview_asset_id": "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd",
+      "relationship": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "meal_action",
+      "title": "餐盘组合与食物夹取",
+      "parts": [
+        {
+          "source_id": "reserve_plate_v1",
+          "asset_id": "paper:reserve_plate_v1@1c91f5580f21c4eb6032",
+          "role": "故事候选物件",
+          "revision": "1c91f5580f21c4eb6032"
+        },
+        {
+          "source_id": "reserve_rice_v1",
+          "asset_id": "paper:reserve_rice_v1@c9ce1e4bfb17091d2e41",
+          "role": "故事候选物件",
+          "revision": "c9ce1e4bfb17091d2e41"
+        },
+        {
+          "source_id": "reserve_fish_v1",
+          "asset_id": "paper:reserve_fish_v1@9887d2bf86caf6800dd9",
+          "role": "故事候选物件",
+          "revision": "9887d2bf86caf6800dd9"
+        },
+        {
+          "source_id": "reserve_broccoli_v1",
+          "asset_id": "paper:reserve_broccoli_v1@037104e0ab28d3d57d99",
+          "role": "故事候选物件",
+          "revision": "037104e0ab28d3d57d99"
+        },
+        {
+          "source_id": "reserve_hand_pinch_v1",
+          "asset_id": "paper:reserve_hand_pinch_v1@03be5473d0c9320eefef",
+          "role": "故事候选物件",
+          "revision": "03be5473d0c9320eefef"
+        },
+        {
+          "source_id": "mac_sfx_paper_place_v1",
+          "asset_id": "paper:mac_sfx_paper_place_v1@48695eeeea0fe22e56fe",
+          "role": "故事候选物件",
+          "revision": "48695eeeea0fe22e56fe"
+        }
+      ],
+      "story_roles": [
+        "日常行动"
+      ],
+      "event_chain": "盘先落定→食物分别放入→手与食物接触→选择后落定",
+      "sample": "tools/preview-engine/index.html#meal_action",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "not_applicable",
+        "listening": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "structure_focus",
+      "title": "器官定位与局部观察",
+      "parts": [
+        {
+          "source_id": "reserve_heart_v1",
+          "asset_id": "paper:reserve_heart_v1@0d29b5d230e7436d6c93",
+          "role": "故事候选物件",
+          "revision": "0d29b5d230e7436d6c93"
+        },
+        {
+          "source_id": "reserve_heart_cut_v1",
+          "asset_id": "paper:reserve_heart_cut_v1@8280a4201856fa135e0c",
+          "role": "故事候选物件",
+          "revision": "8280a4201856fa135e0c"
+        },
+        {
+          "source_id": "reserve_lungs_v1",
+          "asset_id": "paper:reserve_lungs_v1@821fde492f1df17c8a6b",
+          "role": "故事候选物件",
+          "revision": "821fde492f1df17c8a6b"
+        },
+        {
+          "source_id": "reserve_alveolus_v1",
+          "asset_id": "paper:reserve_alveolus_v1@317d0581f4ea12f4ba11",
+          "role": "故事候选物件",
+          "revision": "317d0581f4ea12f4ba11"
+        },
+        {
+          "source_id": "mac_music_curious_v1",
+          "asset_id": "paper:mac_music_curious_v1@84918945d68a493fc064",
+          "role": "故事候选物件",
+          "revision": "84918945d68a493fc064"
+        }
+      ],
+      "story_roles": [
+        "定位结构",
+        "揭示内部"
+      ],
+      "event_chain": "总览定位→有来源的局部放大→视图切换→回到整体",
+      "sample": "tools/preview-engine/index.html#structure_focus",
+      "timeline": "仅样例；无固定集数、镜头数、台词或疾病结论",
+      "review": {
+        "motion": "pending",
+        "medical": "pending",
+        "listening": "pending",
+        "assembly": "sampled_frames_reviewed",
+        "continuous_motion": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md"
+      },
+      "adaptation": "可删改物件、换风格、改动作、新创；不能为匹配套件改变故事。"
+    },
+    {
+      "id": "meal_preparation",
+      "title": "连续备餐：切配、入锅、翻动与盛出",
+      "parts": [
+        {
+          "source_id": "mac_cooking_action_v1",
+          "asset_id": "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4",
+          "revision": "42d682eb6e16a5bcf8e4",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "story_roles": [
+        "日常饮食",
+        "生活方式"
+      ],
+      "event_chain": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+      "sample": "tools/preview-engine/index.html#meal_preparation",
+      "timeline": "仅装配小样；不表示完整切配、加热时长、熟度或食品安全指导",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "not_applicable",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ],
+      "adaptation": "可删改部件、改料理主题和镜头，不沿用固定构图或故事。",
+      "preview_asset_id": "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4",
+      "relationship": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。"
+    },
+    {
+      "id": "walk_cycle",
+      "title": "同身份成年男性双侧步态循环",
+      "parts": [
+        {
+          "source_id": "mac_walk_cycle_v1",
+          "asset_id": "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd",
+          "revision": "145fd0a1ed9fed47bffd",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "event_chain": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+      "relationship": "公共虚构角色与日常动作样本。无旁白、无作者身份；当前镜头另按具体故事审看。",
+      "sample": "tools/preview-engine/index.html#walk_cycle",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "not_applicable",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "sit_stand",
+      "title": "年轻成年男性·落座、取报告与起身",
+      "parts": [
+        {
+          "source_id": "mac_young_man_seat_report_stand_v1",
+          "asset_id": "paper:mac_young_man_seat_report_stand_v1@ac16dc26346a141b72a7",
+          "revision": "ac16dc26346a141b72a7",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "event_chain": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+      "relationship": "同身份完整人物与家具接触单元；纸上八姿态切换，支持落座、取纸与起身。不是步态循环或临床转移教学；改变家具或持握关系须重做对应姿态。",
+      "sample": "tools/preview-engine/index.html#sit_stand",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "pending",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_young_man_seat_report_stand_v1@ac16dc26346a141b72a7",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "care_assistance",
+      "title": "双人照护：接近、协助起身、伴行与松手",
+      "parts": [
+        {
+          "source_id": "mac_care_assistance_v1",
+          "asset_id": "paper:mac_care_assistance_v1@0824456d2c4a3030b477",
+          "revision": "0824456d2c4a3030b477",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "人物互动"
+      ],
+      "event_chain": "日常轻扶陪伴的虚构表演；不作失能者转移、术后搬运或急救操作教学。完整双人/椅子关键姿态为整体帧，不能独立改动接触双方。",
+      "relationship": "日常轻扶陪伴的虚构表演；不作失能者转移、术后搬运或急救操作教学。完整双人/椅子关键姿态为整体帧，不能独立改动接触双方。",
+      "sample": "tools/preview-engine/index.html#care_assistance",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "not_applicable",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_care_assistance_v1@0824456d2c4a3030b477",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    },
+    {
+      "id": "cooking_complete",
+      "title": "连续备餐：切配、入锅、翻动与盛出",
+      "parts": [
+        {
+          "source_id": "mac_cooking_action_v1",
+          "asset_id": "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4",
+          "revision": "42d682eb6e16a5bcf8e4",
+          "role": "完整动作与接触单元"
+        }
+      ],
+      "story_roles": [
+        "连续动作",
+        "日常饮食"
+      ],
+      "event_chain": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+      "relationship": "道具与食材的日常动作样本；不把动画时长解释成实际加热时间，不推断温度、熟度或营养疗效。手、器具和食材独立可调，接触后才生成切片，转运保持三片身份与数量。",
+      "sample": "tools/preview-engine/index.html#cooking_complete",
+      "review": {
+        "assembly": "sampled_frames_reviewed",
+        "motion": "pending",
+        "medical": "not_applicable",
+        "current_shot": "pending",
+        "evidence_ref": "docs/quality-audit-2026-11-01.md",
+        "continuous_motion": "pending"
+      },
+      "adaptation": "沿完整姿态或独立部件适配当前故事；改变人物接触时重做对应姿态，当前镜头另审。",
+      "locks_story": false,
+      "preview_asset_id": "paper:mac_cooking_action_v1@42d682eb6e16a5bcf8e4",
+      "limitations": [
+        "样例中的原件比例和接触绑定到此精确版本；改人物、器具或场景后重新试装。",
+        "抽帧审查范围及完整动态待审项见当前策展记录。"
+      ]
+    }
+  ]
+}

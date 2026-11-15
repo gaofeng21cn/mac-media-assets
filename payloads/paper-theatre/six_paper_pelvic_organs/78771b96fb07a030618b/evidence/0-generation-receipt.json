@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "pelvic_organs",
+      "prompt": "Use case: scientific-educational. Single simple front-facing adult uterus with cervix below, paired fallopian tubes arching outward above, and two small proportionate ovaries lateral, coherent anatomical assembly. No body, no fetus, no cysts, no tumor, no text. Handmade torn-paper collage, overlapping soft coral and ochre paper tissue layers, pencil edging, paper fibers, halftone print accents. Delicate tubes, small ovaries, clear central uterine silhouette. Single object, NOT a rectangular illustration page. True transparent background. No arrows, no labels, no extra objects.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-1d14968e-9c36-431d-8762-252a09842534.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/pelvic_organs.png"
+    },
+    {
+      "id": "pcos_stage",
+      "prompt": "Use case: illustration-story. Landscape 16:9 full-frame handmade paper collage bedroom and personal diary studio for an adult woman's medical educational paper-theatre animation. Entire room built from torn rag paper, magazine-print scraps, pencil shading, soft coral, cream, dusty green, visible layers and tiny cloth stitches. Paper curtains, plants, books, an oval mirror on a shelf at far right, a woven-paper rug along foreground, side cabinet far left. A beautiful complete physical set. Keep middle .22-.75 width and .20-.65 height naturally clear for separately animated cutout objects. No people, no words, no letters, no baby, no anatomical organs, no floating decoration, no big color cards, no central blank page or calendar. Lower 18% uncluttered textured foreground for subtitles. Calm warm daylight.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-07a60898-0dcb-4ff3-9923-23ce82bd842d.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/pcos_stage.png"
+    }
+  ],
+  "prompt_scope": "器官透明件与完整纸景分别生成"
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_airway_dilated_v1",
+  "title": "舒张后气道横断面·炎症仍保留",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "asthma"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    15,
+    1514,
+    1004
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "airway_dilated"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "舒张后气道横断面·炎症仍保留",
+      "airway_dilated"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "舒张后气道横断面·炎症仍保留",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        15,
+        1514,
+        1004
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "管腔扩大而炎症未消失；不能将舒张等同抗炎。"
+    }
+  ],
+  "usage_notes": "管腔扩大而炎症未消失；不能将舒张等同抗炎。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8beba981d724cffaed8b5b4390dd6ae86a5659d5a4a2b4becc92bd65df3e0ef6",
+      "bytes": 1526968
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "c50674a530b36454b5877b1f1a6f5301aaaf5c60a6acadd00eab9ce1761b2914",
+      "bytes": 1000
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "e502cb8cd04e3afc6b8c88fe882599d72d520635ccb4049e4425912885196c20",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "2bc3459333417a51cb23c806df0eced57a2446e2506bbb4e563955439627e477",
+      "bytes": 24593
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "81062159da5d31ee5c1d3f23aefeadb56747785425ee6b3ab315a9bad4681220",
+      "bytes": 746
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "099c1e302466a56951fe26ee707f856f96668e7714a561de0cd19472ed92b540",
+      "bytes": 84223
+    }
+  ],
+  "revision": "78ee71cbebd59ead7d7d",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_airway_dilated_v1@de4f2ff5002e686166f7",
+    "source_record_sha256": "843cd102703cf6b0e2f63f65ae2d250e00fa83394677d70ed9a7cc65499828ac",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "97326b12f02b0a02d5038a02af6a37883fb3a9a6b0f080d6f2ebe34f07bc10e9",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

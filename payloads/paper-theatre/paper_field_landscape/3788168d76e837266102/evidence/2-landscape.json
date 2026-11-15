@@ -1,0 +1,16 @@
+{
+  "asset_id": "landscape",
+  "asset_ref": "assets/cutouts/field-landscape.png",
+  "asset_sha256": "89bced654d548e9f9c613206f1e859c50949dc49228bdd92e8ce22e5641e5425",
+  "visual_review": "passed",
+  "reviewer": "Codex 图像审看；不代替医学终审",
+  "notes": "树、房屋构成被观察的独立剪贴场景；无真实视野数据或医疗身份。",
+  "evidence": [
+    "qa/assets-contact.jpg",
+    "qa/encoded-contact.jpg",
+    "qa/packing-corrected/contact.jpg"
+  ],
+  "medical_review": "not_applicable",
+  "full_motion": "not_assessed_by_static_asset_review",
+  "date": "2026-09-30"
+}

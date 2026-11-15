@@ -1,0 +1,102 @@
+{
+  "schema": "animation_element/v1",
+  "id": "six_paper_pcos_stage",
+  "title": "pcos_stage 完整纸景",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "six_series_20261010",
+    "pcos_stage"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "pcos_stage",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "status": "review_candidate",
+    "medical": false,
+    "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+    "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/pcos_stage.png",
+    "source_sha256": "de721b6769acc1b9f943debe99e977fc09c174e847d2d1efcdcbdb5c7c219493",
+    "visual_review": {
+      "status": "pending_current_scene_review"
+    },
+    "generation_receipt": "evidence/0-generation-receipt.json",
+    "prompt_ref": "evidence/0-generation-receipt.json"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pcos_paper_theatre/01_more_than_an_ultrasound/v1",
+    "series": "pcos_paper_theatre",
+    "episode": "01_more_than_an_ultrasound",
+    "asset_id": "pcos_stage",
+    "original_manifest": {
+      "asset_id": "pcos_stage",
+      "path": "assets/pcos_stage.png",
+      "source_type": "imagegen",
+      "status": "review_candidate",
+      "medical": false,
+      "visual_meaning": "已存纸景/普通物件，本集有独立叙事职责",
+      "must_not_imply": "不是患者真实影像、诊断或作者医生；不能以素材存在批准当前医学/视觉含义。",
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "source": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/pcos_stage.png",
+      "source_sha256": "de721b6769acc1b9f943debe99e977fc09c174e847d2d1efcdcbdb5c7c219493",
+      "visual_review": {
+        "status": "pending_current_scene_review"
+      },
+      "generation_receipt": "preproduction/generation-receipt.json",
+      "prompt_ref": "preproduction/generation-receipt.json"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general",
+    "topics": [
+      "pcos_paper_theatre"
+    ]
+  },
+  "quality_debt": [
+    "当前镜头需重新检查认知比例、接触与遮挡；生成图不构成临床解剖批准"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "alpha_range": [
+    255,
+    255
+  ],
+  "source_rights": "内置 ImageGen 生成，提示词和回执随原件保管；不推断第三方许可或医学批准",
+  "review": {
+    "visual": "limited_still_sampling",
+    "full_motion": "pending",
+    "medical": "not_applicable"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "de721b6769acc1b9f943debe99e977fc09c174e847d2d1efcdcbdb5c7c219493",
+      "bytes": 3288142
+    },
+    {
+      "path": "evidence/0-generation-receipt.json",
+      "role": "evidence",
+      "sha256": "8aa4dd654d7a1b7f751d3285ee5d66e1eea11e20b27c80be41c3029b49ad583d",
+      "bytes": 2155
+    }
+  ],
+  "revision": "b14e073941d64eff2575"
+}

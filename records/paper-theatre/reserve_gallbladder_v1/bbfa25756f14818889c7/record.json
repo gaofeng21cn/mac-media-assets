@@ -1,0 +1,75 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_gallbladder_v1",
+  "title": "独立胆囊",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "gallbladder"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "放置于肝下，当前医学位置另审；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "gallbladder",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    57,
+    19,
+    1202,
+    1254
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "aa599f995f44fd7ae6518f7c3427121c983c62052cb298b502b2071abead1859",
+      "bytes": 507656
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "1789b08b7f167e1b8eef707c8c9460680d5f165381c2c73503bd3a730ac91c6f",
+      "bytes": 1453
+    }
+  ],
+  "revision": "bbfa25756f14818889c7",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_gallbladder_v1@f39efa7a626c82ecb592",
+    "source_record_sha256": "1622671229d5755e3ca74773be121a7b4636bfa24e1b795ea459bc451d8b98b9",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "638952966d2ac93ec15541a950e405b72831c66cb9078dbde7ed781ea11b4564",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

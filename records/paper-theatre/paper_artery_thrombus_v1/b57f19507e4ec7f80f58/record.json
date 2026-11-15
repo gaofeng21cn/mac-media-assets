@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_artery_thrombus_v1",
+  "title": "血栓附着与管腔阻塞·同视角",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "coronary_disease"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    17,
+    41,
+    2144,
+    706
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "artery_thrombus"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "血栓附着与管腔阻塞·同视角",
+      "artery_thrombus"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "血栓附着与管腔阻塞·同视角",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        17,
+        41,
+        2144,
+        706
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "血栓附着斑块表面而阻塞管腔，不暗示所有患者已有血栓。"
+    }
+  ],
+  "usage_notes": "血栓附着斑块表面而阻塞管腔，不暗示所有患者已有血栓。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "eec46142a1efce646d1c7eeadb1e5a0b890a76385957ab6fe0081334f38727a9",
+      "bytes": 1339690
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "0f07eb603c6dc9df54c00b36e140b8d11c5d2bccf76819931ecb0e786d17e2e3",
+      "bytes": 1044
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "452f8dc48cfcd2ce25e720087470a8d4951870f2585a6506e1ba0987a2407e48",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "aebe2bca985df43dd95c2ad44f614e5fbf71c87cd6f38656ea70d56986a20d40",
+      "bytes": 595
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "0e57c1fb752995097ec3cc13a5f0588e6fc60bd353959c0db1a97235671bf4f5",
+      "bytes": 50700
+    }
+  ],
+  "revision": "b57f19507e4ec7f80f58",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_artery_thrombus_v1@462eeb32b7d8fbc42c61",
+    "source_record_sha256": "12ae82c53d105732aa04a6109be936e9278e5ae20fe40bb4e4bd0371515e6a1f",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "0a64def09b932981178b3f7c898a54583af515f7c40993cf87672f8bc3fa55dc",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

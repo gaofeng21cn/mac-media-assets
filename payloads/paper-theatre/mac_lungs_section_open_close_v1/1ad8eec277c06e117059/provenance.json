@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_lungs_detailed_layers_v1@9f9a99e02eec4b0bec03",
+      "portable_record_sha256": "82279a56b1d445ae2efea9958e69406fd4125b6a870e1246ca67762308130d4e"
+    }
+  ],
+  "note": "原始SVG/PNG/记录保持原字节；剪纸窗口按source图轮廓或明确局部关系定义，cut edge与原始外层alpha相交。"
+}

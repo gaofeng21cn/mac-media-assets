@@ -1,0 +1,165 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_thyroid_simple_v2",
+  "title": "甲状腺·远景轮廓简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "whole",
+      "path": "files/whole.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "甲状腺·whole",
+      "medical": true,
+      "content_bounds": [
+        256,
+        263,
+        768,
+        721
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "license": "original_work",
+    "generator": "source/anatomy.py"
+  },
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "甲状腺",
+      "远景简化"
+    ],
+    "detail_level": "simplified",
+    "actions": [
+      "整体定位"
+    ],
+    "medium": "editable_vector",
+    "story_roles": [
+      "结构定位",
+      "结构解释"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "whole"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    256,
+    263,
+    768,
+    721
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "前面观双叶与峡部轮廓；远景仅辨认甲状腺，不显示气管环、内部组织或手术关系。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/whole.svg",
+      "role": "source",
+      "sha256": "c4358fd0ab2806404ed04275465564392956f9999f9d658a6d45e5a1d2408aaf",
+      "bytes": 378
+    },
+    {
+      "path": "files/whole.webp",
+      "role": "payload",
+      "sha256": "edffeed538121ab672a25135fe1178f0b1828587c27143bc35392b22777e6af8",
+      "bytes": 11848
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "edffeed538121ab672a25135fe1178f0b1828587c27143bc35392b22777e6af8",
+      "bytes": 11848
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "15c281ae4458e0aee84ebe1ef23d8159addab1a2e29f426442a74e0d6d96709d",
+      "bytes": 329
+    },
+    {
+      "path": "source/anatomy.py",
+      "role": "source",
+      "sha256": "bb948a6c9efcf78b03eb31da4dd5a363be316fe660734880ff73cfbe33c51260",
+      "bytes": 7426
+    }
+  ],
+  "revision": "42a5906cf1404c20b04d",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_thyroid_simple_v2@72cad923d36490b2dcc9",
+    "source_record_sha256": "0d9ab9bf0ac0536ed32f9f499fbfc37871a6d9c96ca6feff067d0ca978c1e31c",
+    "encodings": [
+      {
+        "path": "files/whole.png",
+        "encoded_path": "files/whole.webp",
+        "source_sha256": "39441c2598d0b3f5de333e43445968ce8b8dca377d452ce2fcf4ea937110c270",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "a54f7109f7ce812ddde4cb36f5d55966a182d967f7a56b46db163ce2c7032806",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

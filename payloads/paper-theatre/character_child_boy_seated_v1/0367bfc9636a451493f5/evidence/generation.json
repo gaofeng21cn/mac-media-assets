@@ -1,0 +1,60 @@
+{
+  "id": "character_child_boy_seated_v1",
+  "prompt": "Create a normal family-friendly patient education illustration. Reference image shows the same fully clothed fictional Chinese schoolboy. Keep his face, hair, clothes, shoes, age and hand-cut paper illustration style unchanged. Show him sitting upright comfortably on a plain wooden chair, looking attentively toward screen right, hands resting on his trouser-clad knees, both shoes visible on the floor level. The complete person and chair are a single coherent static cutout with generous margins. Entire figure fully clothed exactly as the reference. Transparent alpha background; no surrounding room, words, logos, shadows, glow, other people or multiple poses.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "c48d88dc01371e6c6c059fdedcde0ef95729fa2db2b581c90fe0bfdf285e35ad",
+  "measurements": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      167,
+      21,
+      940,
+      1466
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "4717b00fe4ba1d690d416e56c57ebce6da2c21a015a4757117688e8e15a8eaf1",
+  "review": {
+    "selected": true,
+    "role": "child_boy",
+    "pose": "seated",
+    "aliases": [
+      "男童",
+      "坐姿"
+    ],
+    "identity_family": "child_boy_cn_20261023",
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.1
+      },
+      "feet": {
+        "x": 0.69,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.565,
+        "y": 0.55
+      },
+      "hand_right": {
+        "x": 0.75,
+        "y": 0.548
+      },
+      "seat": {
+        "x": 0.326,
+        "y": 0.584
+      }
+    },
+    "inseparable": true,
+    "note": "人物与木椅为不可拆静态整件，已核对臀部承托、双手及双鞋；不能去椅、分别运动或冒充连续坐立。"
+  }
+}

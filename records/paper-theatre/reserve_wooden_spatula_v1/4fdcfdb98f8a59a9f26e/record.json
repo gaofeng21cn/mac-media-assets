@@ -1,0 +1,99 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_wooden_spatula_v1",
+  "title": "独立木质锅铲",
+  "kind": "transparent_subject",
+  "tags": [
+    "paper_collage",
+    "kitchen",
+    "cooking",
+    "stir"
+  ],
+  "discovery": {
+    "category": "lifestyle",
+    "aliases": [
+      "锅铲",
+      "铲子",
+      "翻炒"
+    ],
+    "objects": [
+      "木质锅铲"
+    ],
+    "actions": [
+      "翻炒",
+      "搅拌",
+      "放下"
+    ],
+    "story_roles": [
+      "烹饪过程",
+      "日常饮食"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "usage_notes": "独立接触道具层；不含手和锅内食物。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "与炒锅独立叠放；可作为翻炒动作的接触道具，仍需命名事件和落定审看。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "reserve_wooden_spatula_v1",
+    "prompt": "One standalone wooden cooking spatula, transparent paper collage cutout, no hand, pan, food or background."
+  },
+  "content_bounds": [
+    17,
+    23,
+    1176,
+    1234
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1254,
+    "height": 1254,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      17,
+      23,
+      1176,
+      1234
+    ],
+    "opaque_ratio": 0.1632,
+    "translucent_ratio": 0.0056,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "current_shot_contact_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "1dcaea4006959ef9c21dfc4d6a6bbb6f520f6ef60e5abbfa4785e4eae26bc553",
+      "bytes": 769525
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "754e48ef0ac74ade35fcdfc8fb53c8113afca42886b26203fd9796b3e2a58815",
+      "bytes": 627
+    }
+  ],
+  "revision": "4fdcfdb98f8a59a9f26e"
+}

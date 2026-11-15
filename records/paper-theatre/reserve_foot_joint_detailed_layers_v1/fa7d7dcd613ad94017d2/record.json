@@ -1,0 +1,251 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_foot_joint_detailed_layers_v1",
+  "title": "足关节·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "bones",
+      "path": "files/bones.png",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·bones",
+      "medical": true,
+      "content_bounds": [
+        353,
+        147,
+        841,
+        871
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "joint_space",
+      "path": "files/joint_space.png",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·joint_space",
+      "medical": true,
+      "content_bounds": [
+        388,
+        468,
+        584,
+        628
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "ligaments",
+      "path": "files/ligaments.png",
+      "source_type": "original_vector",
+      "visual_meaning": "足关节·ligaments",
+      "medical": true,
+      "content_bounds": [
+        456,
+        464,
+        566,
+        542
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.49,
+            "y": 0.55
+          },
+          "ankle_joint": {
+            "x": 0.48,
+            "y": 0.53
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_foot_joint_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "足关节",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "bones",
+      "joint_space",
+      "ligaments"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "踝足骨性结构示意，区分骨面、关节间隙与韧带走向；不表示关节间隙正常宽度、骨密度或病变。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/bones.svg",
+      "role": "source",
+      "sha256": "07bac75c36452a4d29848a84542d02543d4244c091397819728e808185423145",
+      "bytes": 685
+    },
+    {
+      "path": "files/bones.png",
+      "role": "payload",
+      "sha256": "dccac9a89f75617bf11227a1b405322d5fcd582b525d40d17b96110842a4275a",
+      "bytes": 34421
+    },
+    {
+      "path": "source/joint_space.svg",
+      "role": "source",
+      "sha256": "4ed438e695418f45d08db8de0e0a964954142be9edd8669e649e15ece691d15e",
+      "bytes": 191
+    },
+    {
+      "path": "files/joint_space.png",
+      "role": "payload",
+      "sha256": "f47e633db16138d8a524034e3fd03aed89023674e4c01b4d187ebe246b72ca0e",
+      "bytes": 12295
+    },
+    {
+      "path": "source/ligaments.svg",
+      "role": "source",
+      "sha256": "6cd6643ae18435c6f66d38337f5195660ad179fbb44e2451ecee94bd5223ca6d",
+      "bytes": 254
+    },
+    {
+      "path": "files/ligaments.png",
+      "role": "payload",
+      "sha256": "2df7b3f364b3ee3f25956eb574f2ebf98a6801d709e29fe00a3134e050a891bd",
+      "bytes": 7208
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "39dc700718307ab2a1ac72e5ee87517141f75bf4243345c403553899ad635bc8",
+      "bytes": 936
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "c979ec6c9f2498c58b0de99d0cde3caf2f1fc2e0e734a98f453f76244ea65fa7",
+      "bytes": 37899
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "e34f7d8c64bc9af4d40f53f516ccc6bfec694af2b646d038ab79e7995e6f4e3c",
+      "bytes": 24221
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7faa4934a72d69b763d3c9b5019f16cc560a649501b6ebb47ced623268feb2d2",
+      "bytes": 624
+    }
+  ],
+  "revision": "fa7d7dcd613ad94017d2"
+}

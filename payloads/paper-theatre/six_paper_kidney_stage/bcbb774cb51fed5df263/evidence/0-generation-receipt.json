@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "kidneys_alpha",
+      "prompt": "Use case: background-extraction. Remove the entire brown blurred background from this bilateral kidney/ureter/bladder paper collage illustration. Preserve the organ structure, exact shapes, paper textures and all internal colors. Deliver genuine transparent RGBA alpha outside organs and in all spaces between them, no gray/checkerboard baked background, no brown halo, no rectangle. Do not add text, organs or decorative objects.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-4a926c61-8642-4390-9a1a-a4fc84d9f553.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/kidneys_alpha.png"
+    },
+    {
+      "id": "kidney_stage",
+      "prompt": "Use case: illustration-story. Asset: full-frame 16:9 1280x720 landscape paper-theatre stage background for imaginative medical hand-drawn collage animation. Every visible surface and room object built from layered torn real paper, magazine scraps, printed textures, graphite hatching, tiny sewing marks and natural contact shadows. Handmade stop-motion cutout craft aesthetic with abundant tactile detail across the entire frame. Avoid large plain color cards, UI panels, infographic, PPT slide, decorative floating lines, gradients, glossy 3D or photorealism. No readable text, no letters, no logo. Natural paper environment depth, leave lower 18% low-contrast textured floor/table edge for subtitles; leave upper left small unobtrusive area for brand. A calm renal-clinic specimen counter built entirely from paper collage: small centrifuge far left, capped specimen racks and blank labels at far right, notebook corner, torn-paper wall cabinets with translucent tissue-paper glass, woven linen edge in foreground. The central counter (x .23-.74, y .17-.68) is clear for a kidney model and two reports. Gentle cream, ochre and muted turquoise, no data, no medical symbols, no person.",
+      "source": "/Users/gaofeng/.codex/generated_images/01a0e72d-4ef3-7e73-8d46-bcb75d23a856/exec-48a30dce-cb89-4ef7-b514-e2020e8a3c27.png",
+      "tool": "built_in_imagegen",
+      "path": "/Users/gaofeng/workspace/科普视频/work/six-new-paper-series/art/kidney_stage.png"
+    }
+  ],
+  "prompt_scope": "器官透明件与完整纸景分别生成"
+}

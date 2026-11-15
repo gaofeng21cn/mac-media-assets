@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_urinary_stone_specimen_v1",
+  "title": "尿路结石标本·独立纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "kidney_stones"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    31,
+    17,
+    1524,
+    1005
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "urinary_stone_specimen"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "尿路结石标本·独立纸件",
+      "urinary_stone_specimen"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "尿路结石标本·独立纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        31,
+        17,
+        1524,
+        1005
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "收集与分析任务中的结石样本；颜色与外形不判断成分或治疗。"
+    }
+  ],
+  "usage_notes": "收集与分析任务中的结石样本；颜色与外形不判断成分或治疗。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "4dfc5f02eb4c141ccf1da0f6b71bfe3a6bf7436142fe6038a979ff6f7218fa3f",
+      "bytes": 1061582
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "e358e39ef8a516e2301d9e46cf0b4e52139da95cfbeea6f976dc5bb7025e57c2",
+      "bytes": 895
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "0426ea17d7d3315d8416a9eabc11d0c5f205b78c687565a6a337611f550a0596",
+      "bytes": 621
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "f6c7071a1419bed436f98b2c6323a6425a6d6b4efa02fc9842f03ae4cde6172d",
+      "bytes": 25913
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "6246805ce550ba0bd4657c28d192dd6c861fa00c17c9f6657f9b8df97a4b126f",
+      "bytes": 758
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "c850573015b03be2a282e455239c2f2e48875887b02db493e3dbd9dfb3ff4375",
+      "bytes": 48996
+    }
+  ],
+  "revision": "1c1762ea37c5e114d540",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_urinary_stone_specimen_v1@1645b5f3ad73f98dba33",
+    "source_record_sha256": "c590fadda22082b6ca5bc9932b913690f011140392afe8e5656ab967f014c63b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "0ffb1b9ac4df38a80fc31d9b12d3e27412d70dac6f92686831de011a0af823fa",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

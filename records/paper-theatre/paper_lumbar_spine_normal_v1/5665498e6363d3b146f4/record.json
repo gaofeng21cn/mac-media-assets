@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_lumbar_spine_normal_v1",
+  "title": "腰椎、椎间盘与马尾神经·正常局部关系",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "low_back_pain"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1217,
+    1291
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "lumbar_spine_normal"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "腰椎、椎间盘与马尾神经·正常局部关系",
+      "lumbar_spine_normal"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "腰椎、椎间盘与马尾神经·正常局部关系",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1217,
+        1291
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "前方椎体、椎间盘与后方神经通路；下腰椎局部，不作为颈椎或脊髓图。"
+    }
+  ],
+  "usage_notes": "前方椎体、椎间盘与后方神经通路；下腰椎局部，不作为颈椎或脊髓图。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "958d53ddca0f95b44b12266c5f07a8552fccc676b2eac0083f7eea0ecb73cddc",
+      "bytes": 2002444
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "3955e474b9982e889d0d0fabee497b5c27456b57a0e25ccc1180ab141014c4a8",
+      "bytes": 1312
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "6e135a8c6a3479218da9a2ed6f957c4cec1c0db4739d7013f586d7845e5f278c",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "8b9049b15d2f449b7867763538e99606804d49b37f35918ea39872b0c487e1a4",
+      "bytes": 15231
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7641aadc0afa898b677527a87e048f3d89a673356b1a1e16511cd5d1f8c034d6",
+      "bytes": 791
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "44a42ffd5fac07a66cd2f8ad0a53748df8477ed1329102b48f8e5d8d6a862945",
+      "bytes": 149471
+    }
+  ],
+  "revision": "5665498e6363d3b146f4",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_lumbar_spine_normal_v1@67863091759e3c76f3fe",
+    "source_record_sha256": "a11ee5815a79f6b75c5cc41f5113f70317f1740294c4db0c005e0b7d1df47ccc",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "653ad51a803606a3c632cc97f42e2f5453d945abbf939fec3e24283d7eceecf9",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1218,
+        "height": 1291,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_wood_stamp",
+  "title": "木柄印章纸件",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "透明件",
+    "印章",
+    "接触",
+    "收尾"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "stamp",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "可接触信封的木柄印章",
+    "must_not_imply": "品牌署名，不代表医学审核",
+    "prompt_ref": "evidence/0-ASSETS.md",
+    "generation_receipt": "evidence/1-generation_receipt.json",
+    "status": "approved_direct_use",
+    "medical": false,
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/2-stamp.json"
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "contact": {
+          "x": 0.51,
+          "y": 0.88
+        }
+      }
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "series": "pituitary_paper_theatre",
+    "episode": "01_report_next_steps",
+    "asset_id": "stamp",
+    "original_manifest": {
+      "asset_id": "stamp",
+      "path": "assets/cutouts/stamp.png",
+      "source_type": "imagegen",
+      "visual_meaning": "可接触信封的木柄印章",
+      "must_not_imply": "品牌署名，不代表医学审核",
+      "prompt_ref": "preproduction/ASSETS.md",
+      "generation_receipt": "preproduction/generation_receipt.json",
+      "status": "approved_direct_use",
+      "medical": false,
+      "visual_review": {
+        "status": "passed",
+        "evidence_ref": "qa/asset-reviews/stamp.json"
+      },
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchors": {
+          "contact": {
+            "x": 0.51,
+            "y": 0.88
+          }
+        }
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "usage_notes": "印章接触点来自本件 registration。盖章动作可通用复用，实际印文由作者或系列档案提供，不写死具体品牌，也不表示医学审核通过。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "6ea19d5c5bb987e6962f089029a336bef10346bc5b02c7145198fd0294213ff6",
+      "bytes": 1223004
+    },
+    {
+      "path": "evidence/0-ASSETS.md",
+      "role": "evidence",
+      "sha256": "eaf69ae126f9a5d7b75b6ccc789230c6bf5bf29a8ab510b42324578e2f256fbf",
+      "bytes": 954
+    },
+    {
+      "path": "evidence/1-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "c6469ba9922e7825d7bba613bfa3c031a4d2beacdad823774824044e0ea7f89c",
+      "bytes": 367
+    },
+    {
+      "path": "evidence/2-stamp.json",
+      "role": "evidence",
+      "sha256": "d2d014fd7610aa27b6f3f11ceed1771f32d25dfd5b37cb3333e222e9df92ff48",
+      "bytes": 586
+    }
+  ],
+  "revision": "cc591cd5afaedc22686b"
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_vaccine_vial_v1",
+  "title": "疫苗西林瓶·无品牌独立纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    19,
+    1018,
+    1536
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "vaccine_vial"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "疫苗西林瓶·无品牌独立纸件",
+      "vaccine_vial"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "疫苗西林瓶·无品牌独立纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        19,
+        1018,
+        1536
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "表示接种产品与计划，空白包装不指具体疫苗、剂量或接种程序。"
+    }
+  ],
+  "usage_notes": "表示接种产品与计划，空白包装不指具体疫苗、剂量或接种程序。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "220bb24088c8e253c642a241353c16e5c235b17b0eb9532924390adddcab0941",
+      "bytes": 1404672
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "9a8e8d346402db96a93c16e978304349647546cd5c53d0a59a7ffdf72527fc7d",
+      "bytes": 970
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "0fbd6729453cb3b121fdc587470b1a449b203e840774da513f4a7fb802cc2930",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "bf177808762b0546f501959a1895ee1d0216422cf7bee546466be4cda5a8cb29",
+      "bytes": 604
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "b151a44b52268b9b52d5a604b86e167c51350af92ecff6dbd2b436e063ce8c4d",
+      "bytes": 55611
+    }
+  ],
+  "revision": "0311402e8fe823a4adb8",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_vaccine_vial_v1@1b10f8b127ae8f0e052f",
+    "source_record_sha256": "7142ae4ed4524365a20a34c9640e367082bda543236c3f639e654998162781a2",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "00122a8f6ad40683c5561474f208f3b425fec90715cf3ce199a99aad450bc3e4",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

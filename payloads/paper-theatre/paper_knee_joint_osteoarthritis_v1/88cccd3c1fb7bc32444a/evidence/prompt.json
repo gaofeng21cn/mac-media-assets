@@ -1,0 +1,8 @@
+{
+  "id": "knee_joint_osteoarthritis",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-93212e52-a70e-40d1-aa50-d9c8fbf5aff1.png"
+  ],
+  "prompt": "Create an OSTEOARTHRITIS comparison state of this exact knee-joint paper cutaway. Preserve the exact same frontal anatomy, bone shafts, outer silhouette, center, scale, crop, paper-fiber gouache craft and light. Change only the joint condition: on the viewer's RIGHT compartment the articular cartilage becomes visibly thinner and irregular, joint space narrows there, with one small marginal bony osteophyte at that joint edge. Keep the opposite compartment relatively preserved for clear comparison. No fracture, no dislocation, no giant red lesion, no floating bone, no reconstruction, no hardware, no injection. Do not imply that all pain severity follows this image. No text, labels, arrows or background. ONE isolated matched cutout with real alpha outside tissue. This is an educational structural example, not an actual patient scan."
+}

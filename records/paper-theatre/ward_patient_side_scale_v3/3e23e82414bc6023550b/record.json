@@ -1,0 +1,151 @@
+{
+  "schema": "animation_element/v1",
+  "id": "ward_patient_side_scale_v3",
+  "title": "成年患者侧视病床·身体标尺版",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "reference": "ward-bed-v2",
+    "prompt_ref": "evidence/generation.json"
+  },
+  "human_scale": {
+    "nominal_height_cm": 175,
+    "height_status": "authored_design_reference",
+    "scale_family": "ward_patient_blue_shirt_v1",
+    "pose": "supine_side",
+    "measurement": "侧视卧姿头端到可见足跟的设计体轴跨度；175cm设计成人，轻微抬头的制作近似，非临床测量。",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "3df09326d16c7d8d4ba172248b1ba62b78d2b7e003936b7e37e1fc9d42b698c4",
+      "source_size": {
+        "width": 1536,
+        "height": 1024
+      },
+      "from": {
+        "x": 0.9140625,
+        "y": 0.25390625
+      },
+      "to": {
+        "x": 0.15169270833333334,
+        "y": 0.3876953125
+      },
+      "span_cm": 175,
+      "basis": "侧视卧姿头端到可见足跟的设计体轴跨度；175cm设计成人，轻微抬头的制作近似，非临床测量。"
+    }
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.869140625
+    },
+    "anchors": {
+      "floor": {
+        "x": 0.5,
+        "y": 0.869140625
+      },
+      "crown": {
+        "x": 0.9140625,
+        "y": 0.25390625
+      },
+      "heel": {
+        "x": 0.15169270833333334,
+        "y": 0.3876953125
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "discovery": {
+    "category": "characters",
+    "character_role": "adult_man",
+    "actions": [
+      "lying",
+      "supine_side"
+    ],
+    "aliases": [
+      "成年患者",
+      "侧视病床",
+      "躺卧"
+    ]
+  },
+  "review": {
+    "identity": "same_patient_reference_compared",
+    "static_alpha": "pending_composite",
+    "motion": "pending",
+    "current_shot": "pending"
+  },
+  "usage_notes": "病床与患者烘焙整件；不能独立改变患者肢体或床背。按人体标尺缩放，轮底接同一地面。",
+  "asset": {
+    "asset_id": "ward_patient_side_scale_v3",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "成年患者休息与床旁观察",
+    "must_not_imply": "非真实患者；不表示某一种术式的特定体位医嘱。",
+    "medical": false,
+    "human_scale": {
+      "nominal_height_cm": 175,
+      "height_status": "authored_design_reference",
+      "scale_family": "ward_patient_blue_shirt_v1",
+      "pose": "supine_side",
+      "measurement": "侧视卧姿头端到可见足跟的设计体轴跨度；175cm设计成人，轻微抬头的制作近似，非临床测量。",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "3df09326d16c7d8d4ba172248b1ba62b78d2b7e003936b7e37e1fc9d42b698c4",
+        "source_size": {
+          "width": 1536,
+          "height": 1024
+        },
+        "from": {
+          "x": 0.9140625,
+          "y": 0.25390625
+        },
+        "to": {
+          "x": 0.15169270833333334,
+          "y": 0.3876953125
+        },
+        "span_cm": 175,
+        "basis": "侧视卧姿头端到可见足跟的设计体轴跨度；175cm设计成人，轻微抬头的制作近似，非临床测量。"
+      }
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.869140625
+      },
+      "anchors": {
+        "floor": {
+          "x": 0.5,
+          "y": 0.869140625
+        },
+        "crown": {
+          "x": 0.9140625,
+          "y": 0.25390625
+        },
+        "heel": {
+          "x": 0.15169270833333334,
+          "y": 0.3876953125
+        }
+      },
+      "coordinate_space": "pixel_xy_normalized_to_source_image"
+    }
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "3df09326d16c7d8d4ba172248b1ba62b78d2b7e003936b7e37e1fc9d42b698c4",
+      "bytes": 1705842
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "5ba67bb42ee1aefee1a6c628797ceddc0a803f08f2a029d41f25acb013f87ac4",
+      "bytes": 1745
+    }
+  ],
+  "revision": "3e23e82414bc6023550b"
+}

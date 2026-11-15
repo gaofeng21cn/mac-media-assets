@@ -1,0 +1,64 @@
+{
+  "id": "character_older_man_wheelchair_v1",
+  "prompt": "Use case: identity-preserve. Exact SAME Chinese elderly man from reference: silver hair, olive rolled sleeve shirt, charcoal trousers, brown lace-up shoes, same face and textured cut-paper collage. Calm awake full-body seated pose in a simple manual wheelchair, three-quarter view facing screen right, trunk upright, thighs supported, both hands resting visibly on thighs, feet resting on footplates, all wheels and caster contact coherent on same ground line. One connected person and wheelchair composite static asset; no transfer or propulsion demonstration. Full head, shoes, handles, large wheels, casters and footplates completely framed with margin. Genuinely transparent alpha background, clean opaque cut-paper interior; no floor/shadow/halo/glow/background/text/logo, no second person.",
+  "tool": "built_in_imagegen",
+  "source_sha256": "34159f2f9f51e92b9ce721d7f2f4d6c7d3adbee7c9e91db624b74a6226d8a7ef",
+  "measurements": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      41,
+      30,
+      1000,
+      1411
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque": false
+  },
+  "identity_reference_sha256": "6a9aa882084e3dbbc9007144dbeb7b78a49357f1e3f8f86295e930bb5a8bde7f",
+  "review": {
+    "selected": true,
+    "role": "older_man",
+    "pose": "wheelchair",
+    "aliases": [
+      "老年男性",
+      "轮椅静坐",
+      "行动辅助"
+    ],
+    "identity_family": "older_man_baseline",
+    "anchors": {
+      "head": {
+        "x": 0.54,
+        "y": 0.105
+      },
+      "seat": {
+        "x": 0.4,
+        "y": 0.59
+      },
+      "feet": {
+        "x": 0.71,
+        "y": 0.85
+      },
+      "hand_left": {
+        "x": 0.52,
+        "y": 0.5
+      },
+      "hand_right": {
+        "x": 0.73,
+        "y": 0.5
+      },
+      "ground": {
+        "x": 0.5,
+        "y": 0.915
+      }
+    },
+    "note": "同身份老人和轮椅为不可拆静态整件；鞋放脚踏，接地基准取轮胎；不表示推动、转移、刹车或完整照护过程。"
+  }
+}

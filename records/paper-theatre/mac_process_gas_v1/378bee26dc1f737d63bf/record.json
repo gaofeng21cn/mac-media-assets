@@ -1,0 +1,109 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_gas_v1",
+  "title": "肺泡与毛细血管气体交换",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "physiology",
+    "display_title": "肺泡与毛细血管气体交换",
+    "aliases": [
+      "呼吸",
+      "氧合",
+      "氧气进入血液",
+      "二氧化碳进入肺泡"
+    ],
+    "topics": [
+      "呼吸",
+      "氧合"
+    ],
+    "medical_systems": [
+      "呼吸"
+    ],
+    "patient_tasks": [
+      "理解身体功能"
+    ],
+    "mechanisms": [
+      "氧气进入血液",
+      "二氧化碳进入肺泡"
+    ],
+    "story_roles": [
+      "理解身体功能"
+    ],
+    "actions": [
+      "氧气进入血液",
+      "二氧化碳进入肺泡"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "二维局部关系；不表达通气灌注定量或氧疗处方。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "二维局部关系；不表达通气灌注定量或氧疗处方。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "9ad7e95a6996b73783da97b9cadf79762b96e2ce0c016e51023e6e0a91502c57",
+      "bytes": 511
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "6e330566c7020f6670300d3a3d44c304d983e48464b1ecd45b0b98cf3629be4b",
+      "bytes": 195
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "788d35f46cb23be06f8ac7d29f99ff5b0e188b5e7a2e1908dab81f9413e87d1a",
+      "bytes": 239
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "378bee26dc1f737d63bf"
+}

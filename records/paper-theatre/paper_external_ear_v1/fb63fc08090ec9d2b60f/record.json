@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_external_ear_v1",
+  "title": "耳廓与外耳道入口·局部纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "dementia_cognition"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1066,
+    1454
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "external_ear"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "耳廓与外耳道入口·局部纸件",
+      "external_ear"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "耳廓与外耳道入口·局部纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1066,
+        1454
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "听力条件作为认知测试表现的背景因素，仅为局部观察对象，不表示听力测量或诊断。"
+    }
+  ],
+  "usage_notes": "听力条件作为认知测试表现的背景因素，仅为局部观察对象，不表示听力测量或诊断。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "46b47172f7fa3f23fcbce8a9d30ee5383349e5fcae0281b72b7c57854d884f32",
+      "bytes": 1507618
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "575baad9ab0d4404930a802f9fcdcb70a05a24b5a78b6a5c658b69aa4da65322",
+      "bytes": 931
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "5d6b5486bb374df99415aaf19859dc5777e28cebf4ded88d376e881f6798333b",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "8f975cb1e5416e1097e204574bdade30e67c867d27f4579c7f3cad16649c218f",
+      "bytes": 23746
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "06da9e1c3c3c49f31697065d269ae28b4ce652b774c408513425e0612a8ba5de",
+      "bytes": 794
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "872f7f25643d6f98d1746bf2b750daf7755e6f6775a27baca5b7811a00423668",
+      "bytes": 84900
+    }
+  ],
+  "revision": "fb63fc08090ec9d2b60f",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_external_ear_v1@9bcf91e119bd1f5f07c2",
+    "source_record_sha256": "6d11a887df2d25c1bd86cc41d607908850083d0b7cc99bd47b3b09d1fe895d0b",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "b5802ec0a5fa03fe2b4c192c1331a976a9d60cc23a7083a2e961a0b20770cf8a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1082,
+        "height": 1454,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

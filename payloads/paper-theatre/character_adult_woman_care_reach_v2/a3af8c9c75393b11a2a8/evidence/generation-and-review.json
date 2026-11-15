@@ -1,0 +1,57 @@
+{
+  "id": "character_adult_woman_care_reach_v2",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/reserve_person_stand_v1/4b5293ee4731114cfac1/files/payload.png",
+  "prompt": "Use case: identity-preserve. Asset type: complete reusable paper theatre pose. Input 1 exact identity and clothing reference. Create same short-haired Chinese adult woman in ochre cardigan, cream top, teal trousers and cream sneakers. New caregiving-ready stance: slight forward hinge from hips, knees relaxed, arms extended forward and down at waist level with two open upward palms ready to offer support under a separate older person's elbow. No other person or prop; not dragging, lifting or pulling. Preserve reference face, age, hairstyle, body proportions, clothes and footwear, tactile paper illustration. Complete connected natural anatomy, entire hair, all visible hands and both shoes in frame with margin all sides. Single isolated full person on genuine transparent alpha, opaque paper interior, crisp edge. No environment, furniture, floor, cast shadow, glow, aura, vignette, checkerboard, typography or watermark. One pose only.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-ec755e1b-3c3b-422a-a729-4957e6cf3d67.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "8a2a49b61530fe8b93489acc31b04194827668973f582826f4fb03ff1c8d4555",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      57,
+      23,
+      1002,
+      1520
+    ],
+    "opaque_ratio": 0.2581,
+    "translucent_ratio": 0.0117,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      257,
+      28,
+      890,
+      1513
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.47,
+        "y": 0.1
+      },
+      "feet": {
+        "x": 0.48,
+        "y": 0.965
+      },
+      "hand_left": {
+        "x": 0.64,
+        "y": 0.44
+      },
+      "hand_right": {
+        "x": 0.8,
+        "y": 0.415
+      }
+    },
+    "note": "照护准备姿态，手势用于接触试装，不代表已完成扶起/转移"
+  }
+}

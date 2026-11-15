@@ -1,0 +1,233 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_pancreas_relations_layers_v1",
+  "title": "胰腺与胰管·同视角关系分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "organ",
+      "path": "files/organ.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胰腺与胰管·organ",
+      "medical": true,
+      "content_bounds": [
+        150,
+        299,
+        856,
+        616
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "duct",
+      "path": "files/duct.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胰腺与胰管·duct",
+      "medical": true,
+      "content_bounds": [
+        228,
+        333,
+        822,
+        541
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "branches",
+      "path": "files/branches.png",
+      "source_type": "original_vector",
+      "visual_meaning": "胰腺与胰管·branches",
+      "medical": true,
+      "content_bounds": [
+        261,
+        349,
+        668,
+        572
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "license": "original_work",
+    "generator": "source/anatomy.py"
+  },
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胰腺与胰管",
+      "配准分层"
+    ],
+    "detail_level": "registered_relations",
+    "actions": [
+      "逐层揭示",
+      "位置关系"
+    ],
+    "medium": "editable_vector",
+    "story_roles": [
+      "结构定位",
+      "结构解释"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "organ",
+      "duct",
+      "branches"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    150,
+    299,
+    856,
+    616
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "概念性胰腺外形与主胰管示意，画面左侧为胰头、右侧为胰尾；并非患者影像。胰管分支只表达汇流关系，不表达精确分支数；不包含胆管、十二指肠、胰岛或微观细胞，不能演示手术、病灶或内分泌细胞比例。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/organ.svg",
+      "role": "source",
+      "sha256": "57ef6a4f83e6f86bb2e7ce7a703fcc2682aa01a0ca09599e55e0c3920d29eb97",
+      "bytes": 344
+    },
+    {
+      "path": "files/organ.png",
+      "role": "payload",
+      "sha256": "1ddb9e0236a82e4c89a72c299c8bfe3b374ebff5c66172d7b89bcf128192525b",
+      "bytes": 25372
+    },
+    {
+      "path": "source/duct.svg",
+      "role": "source",
+      "sha256": "7948a866ae9a1e7cf4c9bcb604fe69e55ded3b4c19ada57f720ed6ee960f50d5",
+      "bytes": 339
+    },
+    {
+      "path": "files/duct.png",
+      "role": "payload",
+      "sha256": "74a28876f6d39d7f5aa3cf91415b9bba89e462e4e903d91f038f59cc1490997b",
+      "bytes": 18928
+    },
+    {
+      "path": "source/branches.svg",
+      "role": "source",
+      "sha256": "2222673dda7dd0697a4bbc8ccac09d8326751ed7b398dec14cb2fffe3b12153c",
+      "bytes": 346
+    },
+    {
+      "path": "files/branches.png",
+      "role": "payload",
+      "sha256": "f94f261d88a687ffbbc290fac5eb7023160b0fde7b20c7236e0d8dac7a1c001a",
+      "bytes": 13155
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "bbfeb4521c9b495aaaddc9d79641ad5b9d0d775f83bb8818fdf5aac6f5cd0839",
+      "bytes": 42919
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "bf8c0baa4e0c234ca8f5c1336fc8416ece0d725c9518865a910593da56963daa",
+      "bytes": 503
+    },
+    {
+      "path": "source/anatomy.py",
+      "role": "source",
+      "sha256": "92d530ab6abd5ef949dc58ac748bbcb0732bd6a13acac8d2333b6c4e4dee9d91",
+      "bytes": 7424
+    }
+  ],
+  "revision": "fb8e5808d6bc5662575c"
+}

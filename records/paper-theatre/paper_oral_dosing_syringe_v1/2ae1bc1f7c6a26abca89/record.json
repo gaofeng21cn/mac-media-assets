@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_oral_dosing_syringe_v1",
+  "title": "口服给药量具·无针口服注射器",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    17,
+    15,
+    2156,
+    725
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "oral_dosing_syringe"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "口服给药量具·无针口服注射器",
+      "oral_dosing_syringe"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "口服给药量具·无针口服注射器",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        17,
+        15,
+        2156,
+        725
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "无针口服量具外观；刻度不对应实际剂量，具体浓度与用量按本品说明书和专业指导。"
+    }
+  ],
+  "usage_notes": "无针口服量具外观；刻度不对应实际剂量，具体浓度与用量按本品说明书和专业指导。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "b8df464e6eb32c23edf685d7d7500efb7c0185160ea18c84170728e12c4be51a",
+      "bytes": 1014088
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "f4f5d2c225a83bc65e4617bdbfaf45d756fdb870f09a29c75c34f228254ec60f",
+      "bytes": 1105
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "d13634cd7f0c10a298e7a16ffe4cc87ae39b90d4b8474ca3de5d804597e6f589",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "b84179dcfa7abfdb5be542e147aa93a533ac5fdb325b04ef229b45ddf01f9ca7",
+      "bytes": 634
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "b11c308c987ce1580fb0647d4b0dda0617359dfbbc954ff57f359ea1f225ec4d",
+      "bytes": 37033
+    }
+  ],
+  "revision": "2ae1bc1f7c6a26abca89",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_oral_dosing_syringe_v1@bb41946476d3e48170d9",
+    "source_record_sha256": "0026bd29d4b50da77f622e1713945008bbd47e6c917b354c3db6dd60c219461d",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "ab4b09dac7a3a9a62cf5b31afeb4682c0045a9b63f615253c5057173c5f68f8b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2170,
+        "height": 725,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

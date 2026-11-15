@@ -1,0 +1,346 @@
+schema: medical_video_evidence_matrix/v1
+topic_id: constipation
+questions:
+- question_id: CON-Q01
+  question: 每天排便还会便秘吗？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C01
+    question_id: CON-Q01
+    claim: 便秘可表现为费力、干硬、排不尽或堵塞感，不仅看排便次数。
+    status: supported
+    original_conclusion_paraphrase: 便秘可表现为费力、干硬、排不尽或堵塞感，不仅看排便次数。
+    evidence_type: expert_consensus
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-CN24
+      locator: 背景p1192
+      relationship: direct_support_with_stated_scope
+    population: 中国慢性便秘患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2024-12来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不把每一项症状独立等同慢性功能性便秘诊断。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 便秘可表现为费力、干硬、排不尽或堵塞感，不仅看排便次数。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q02
+  question: 排便过程为什么会卡在不同环节？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C02
+    question_id: CON-Q02
+    claim: 便秘可涉及结肠传输慢、出口排便困难或两者并存。
+    status: supported
+    original_conclusion_paraphrase: 便秘可涉及结肠传输慢、出口排便困难或两者并存。
+    evidence_type: expert_consensus
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-CN24
+      locator: 背景及推荐1、3、4
+      relationship: direct_support_with_stated_scope
+    population: 中国慢性便秘患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2024-12来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 症状不能单独完成分型；也存在正常传输便秘。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 便秘可涉及结肠传输慢、出口排便困难或两者并存。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q03
+  question: 为什么医生先问药物和既往疾病？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C03
+    question_id: CON-Q03
+    claim: 铁剂、部分镇痛药等可以加重便秘，疾病及生活变化也可能参与。
+    status: supported
+    original_conclusion_paraphrase: 铁剂、部分镇痛药等可以加重便秘，疾病及生活变化也可能参与。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-NIDDK-S
+      locator: Certain medicines；Health and nutrition problems
+      relationship: direct_support_with_stated_scope
+    population: 公众
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2018-05 reviewed来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 列举是病因线索，不用于归罪某种药物或擅自停药。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 铁剂、部分镇痛药等可以加重便秘，疾病及生活变化也可能参与。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q04
+  question: 哪些情况要及时就医？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C04
+    question_id: CON-Q04
+    claim: 便秘合并持续腹痛、呕吐、不能排气或便血等需要医疗评估。
+    status: supported
+    original_conclusion_paraphrase: 便秘合并持续腹痛、呕吐、不能排气或便血等需要医疗评估。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-NIDDK-S
+      locator: When should I see a doctor
+      relationship: direct_support_with_stated_scope
+    population: 公众
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2018-05 reviewed来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 具体紧急程度结合症状；疑似急性梗阻直接急诊评估。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 便秘合并持续腹痛、呕吐、不能排气或便血等需要医疗评估。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q05
+  question: 纤维、水和活动怎样安排？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C05
+    question_id: CON-Q05
+    claim: 适当膳食纤维、液体、活动及固定排便机会是基础管理内容。
+    status: supported
+    original_conclusion_paraphrase: 适当膳食纤维、液体、活动及固定排便机会是基础管理内容。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-NIDDK-T
+      locator: How can I prevent constipation；Eating and diet链接；AGA23纤维实施建议
+      relationship: direct_support_with_stated_scope
+    population: 公众
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2018-05 reviewed来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不把饮水量或纤维剂量设为所有人的统一目标。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 适当膳食纤维、液体、活动及固定排便机会是基础管理内容。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q06
+  question: 通便药为什么不只是强弱之分？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C06
+    question_id: CON-Q06
+    claim: 成人特发性便秘治疗包含纤维、渗透性、刺激性、促分泌和促动力等不同类别。
+    status: context_limited
+    original_conclusion_paraphrase: 成人特发性便秘治疗包含纤维、渗透性、刺激性、促分泌和促动力等不同类别。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-AGA23
+      locator: Table 1及PEG、stimulant、secretagogue推荐
+      relationship: direct_support_with_stated_scope
+    population: 成人慢性特发性便秘
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2023-06来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 地区药品准入、肾功能、孕期等适用性须个别核对；本包不写剂量。
+    conflicts_of_interest: 原文Management of conflict of interest and guideline funding：作者披露并按相关政策管理利益冲突；指南由AGA/ACG资助，无行业支持。
+    allowed_wording:
+    - 成人特发性便秘治疗包含纤维、渗透性、刺激性、促分泌和促动力等不同类别。
+    forbidden_wording: &id001
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary: &id002
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q07
+  question: 肛门直肠测压、球囊试验查什么？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C07
+    question_id: CON-Q07
+    claim: 肛门直肠功能检查可帮助评估感觉、推进力和排便协调。
+    status: supported
+    original_conclusion_paraphrase: 肛门直肠功能检查可帮助评估感觉、推进力和排便协调。
+    evidence_type: expert_consensus
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-CN24
+      locator: 推荐1、3、4；p1192—1195
+      relationship: direct_support_with_stated_scope
+    population: 中国慢性便秘患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2024-12来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 需按检查规范与临床综合判断；不复制患者在家做测试。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 肛门直肠功能检查可帮助评估感觉、推进力和排便协调。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q08
+  question: 盆底协调异常为什么可能做生物反馈？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C08
+    question_id: CON-Q08
+    claim: 排便肌肉协调问题可通过专业生物反馈训练进行再学习。
+    status: supported
+    original_conclusion_paraphrase: 排便肌肉协调问题可通过专业生物反馈训练进行再学习。
+    evidence_type: official_patient_education
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-NIDDK-T
+      locator: Biofeedback therapy；CON-CN24推荐3
+      relationship: direct_support_with_stated_scope
+    - source_id: CON-CN24
+      locator: 背景；推荐1、3、4、6
+      relationship: supplemental_support
+    population: 公众
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2018-05 reviewed来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 仅对适合的功能问题，不推广给所有便秘者。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 排便肌肉协调问题可通过专业生物反馈训练进行再学习。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q09
+  question: 为什么一次通畅不等于解决原因？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C09
+    question_id: CON-Q09
+    claim: 便秘管理还需观察排便舒适度、症状持续和原有病因。
+    status: supported
+    original_conclusion_paraphrase: 便秘管理还需观察排便舒适度、症状持续和原有病因。
+    evidence_type: expert_consensus
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-CN24
+      locator: 病因/分型评估；CON-NIDDK-S症状与原因
+      relationship: direct_support_with_stated_scope
+    - source_id: CON-NIDDK-S
+      locator: Symptoms、When should I see a doctor、Causes
+      relationship: supplemental_support
+    population: 中国慢性便秘患者
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2024-12来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 记录表为沟通工具；“未纳入”不等于证明所有产品均无效。
+    conflicts_of_interest: 本包未对作者利益关系独立评级；引用来源的临床建议和证据边界，不作品牌推广。
+    allowed_wording:
+    - 便秘管理还需观察排便舒适度、症状持续和原有病因。
+    forbidden_wording:
+    - 将一般原理变成个人诊断、处方、保证疗效或地区服务承诺。
+    visual_boundary:
+    - 画面应保留本条适用范围；具体视觉参考见04_visual_research.yaml。
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q10
+  question: 渗透性、刺激性和促分泌药在做什么？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C10
+    question_id: CON-Q10
+    claim: 便秘药物可通过保留水分、刺激肠道活动或增加分泌等不同机制改善排便。
+    status: context_limited
+    original_conclusion_paraphrase: 便秘药物可通过保留水分、刺激肠道活动或增加分泌等不同机制改善排便。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-AGA23
+      locator: Table 1、Table 4：intervention mechanisms
+      relationship: direct_support_with_stated_scope
+    population: 成人慢性特发性便秘
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2023-06来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不包括儿童、孕期和所有继发性便秘；美国药品可及性不直接外推中国。
+    conflicts_of_interest: 原文Management of conflict of interest and guideline funding：作者披露并按相关政策管理利益冲突；指南由AGA/ACG资助，无行业支持。
+    allowed_wording:
+    - 便秘药物可通过保留水分、刺激肠道活动或增加分泌等不同机制改善排便。
+    forbidden_wording: *id001
+    visual_boundary: *id002
+    clinician_review: pending
+    gap: null
+- question_id: CON-Q11
+  question: 肾功能不好能照着买含镁通便药吗？
+  priority: must_answer
+  claims:
+  - claim_id: CON-C11
+    question_id: CON-Q11
+    claim: 含镁药物在肾功能不全人群可增加高镁血症风险。
+    status: context_limited
+    original_conclusion_paraphrase: 含镁药物在肾功能不全人群可增加高镁血症风险。
+    evidence_type: clinical_guideline
+    research_design: 原文指南/综述/官方资料的范围内转译；非本任务新开展系统综述或疗效比较试验。
+    source_refs:
+    - source_id: CON-AGA23
+      locator: Table 1：magnesium oxide；lactulose；stimulant与secretagogue实施建议
+      relationship: direct_support_with_stated_scope
+    population: 成人慢性特发性便秘
+    jurisdiction: 面向中国大陆；保留来源原始人群与地区
+    time_scope: 按2023-06来源版本，截至2026-11-14。
+    effect_or_threshold: null
+    certainty: 采用所引原文陈述的条件；未另行作GRADE评级，不把推荐强度等同效应大小。
+    limitations:
+    - 不包括儿童、孕期和所有继发性便秘；美国药品可及性不直接外推中国。
+    conflicts_of_interest: 原文Management of conflict of interest and guideline funding：作者披露并按相关政策管理利益冲突；指南由AGA/ACG资助，无行业支持。
+    allowed_wording:
+    - 含镁药物在肾功能不全人群可增加高镁血症风险。
+    forbidden_wording: *id001
+    visual_boundary: *id002
+    clinician_review: pending
+    gap: null

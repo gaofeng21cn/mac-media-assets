@@ -1,0 +1,51 @@
+{
+  "schema": "mac_motion_review/v1",
+  "status": "passed",
+  "reviewer": "Codex model visual review",
+  "reviewed_at": "2026-10-24",
+  "sequence_sha256": "ae6d5bb0039a92ccb0d0ac5db5b13d792b776ab84cc1eb6b5fca7b89a1e25d0b",
+  "inputs": {
+    "runtime.mjs": "02368dc510a3b079c99a31e968b652cf0e5a400652a3492e4985972e27e56874",
+    "viewer.mjs": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+    "sequence.json": "ae6d5bb0039a92ccb0d0ac5db5b13d792b776ab84cc1eb6b5fca7b89a1e25d0b",
+    "assets/sit.png": "9c3dd780a92ac627d4e73aa58f67705626a5bcc7e748d3ebde13d6fb43aab398",
+    "assets/chair.png": "c8365d28bf1404db216ac1521a502cfa5705c669a0d55c8b53eb067285de1c08",
+    "index.html": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa"
+  },
+  "media": {
+    "samples/background-color.png": "8730f1c05d4525fc84befb31f710b6237dc6abc98e340e03fc421f2206e4a0e5",
+    "samples/background-dark.png": "dacaf2caf152f4238fa57a0015062ea4bd667e383160dee235302ba4fa067944",
+    "samples/background-light.png": "15f05b65f8d52bdaffc63dd8049848b4c70d429ad3f1c5a7f4218ecad8306176",
+    "samples/background-review.jpg": "018d7b52b11b6aca3a7f72e53f7172178eed4beadf6cdc250e2729292a59b0dc",
+    "samples/contact-sheet.jpg": "b0b6b19af2a240c2d379bba5758df352b3b3e7b522a5db03885b92debda1cd36",
+    "samples/keyframes/00.png": "7a767871ef67bedf9f02342ee1b5c07850602a93a9dfe17f8d862d77c42e6664",
+    "samples/keyframes/01.png": "7a767871ef67bedf9f02342ee1b5c07850602a93a9dfe17f8d862d77c42e6664",
+    "samples/keyframes/02.png": "36ab69f4d21e5bdf4cffa3fdaa56e11f9dc24c5def65332926f2b6cf0ad3dd09",
+    "samples/keyframes/03.png": "49a02a4518c072769b3655977b876e5ad23866c4c2ce00d1951ae7c147bd2975",
+    "samples/keyframes/04.png": "15f05b65f8d52bdaffc63dd8049848b4c70d429ad3f1c5a7f4218ecad8306176",
+    "samples/keyframes/05.png": "f99a323b069dae4d6ae015cd290676daae34403fd03513152bc5bd4fde956cc6",
+    "samples/keyframes/06.png": "9f98bf464facfdf84e99018928c4ac1b269e07ebf6ca17f4221415aae775d1b4",
+    "samples/keyframes/07.png": "0e2ea9171de563aa4ae997bba5ec5b0638a748c0ae52efca270e6d16bededd39",
+    "samples/keyframes/08.png": "0cb4e1f3348a68627015b34aff264d54cdb2e5ebe62cf38320774708177b5208",
+    "samples/keyframes/09.png": "0cb4e1f3348a68627015b34aff264d54cdb2e5ebe62cf38320774708177b5208",
+    "samples/live-contact-sheet.jpg": "842858f350fe086965ccb8710565e72132b9de062172d535e812ef57b3563c02",
+    "samples/phone.png": "d08aa1e8d087e35bf832b5140d8b80372a2901e188b3761bd6e065405a1bb3d1",
+    "samples/sample.mp4": "fb3ed0acc75c24d081054f453b25767a90b49b4ec4af446cf28cff4ac333c122",
+    "samples/technical.json": "b023741fbc20251eb108d3ac2af7368619aa613a6f60b94c0cac42f5bcacb925"
+  },
+  "review_method": {
+    "keyframes": "查看当前完整关键姿态总览与原尺寸接触帧",
+    "normal_playback": "浏览器点击播放，以实际时钟运行至终点，逐次采集画面并查看整段顺序；参见 live-contact-sheet.jpg",
+    "backgrounds": "实际浅纸底、深底、彩纸底合成",
+    "phone": "432px浏览器视口预览；phone.png 为其实际Canvas截图"
+  },
+  "observations": [
+    "站立、屈膝、降低、坐定、停留、前倾起身、伸展和站稳八个姿态按序出现。坐姿头顶低于站姿，没有按坐姿外框放大人物。",
+    "固定椅子独立保管，坐面承托臀部、鞋底与椅脚的地面关系可读。上排/下排裁切未漏入邻格。",
+    "正常播放至6秒保持站稳，反复拖动没有重新跳回坐姿；适用于同身份纸剧场坐站表演。"
+  ],
+  "scope": "仅批准本精确版本样本的纸剧场日常连续动作复用；当前故事镜头独立审看。",
+  "current_shot": "pending",
+  "medical": "not_applicable",
+  "listening": "not_applicable_no_audio"
+}

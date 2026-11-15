@@ -1,0 +1,51 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_drawer_slide_v1",
+  "title": "拟音：drawer_slide",
+  "kind": "audio",
+  "tags": [
+    "reserve_2026_10_11",
+    "sfx",
+    "drawer_slide"
+  ],
+  "entry": "audio/drawer_slide-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "candidate",
+  "usage_notes": "动作接触对齐后低混入；当前集独立审听",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/drawer_slide-1.wav",
+      "role": "payload",
+      "sha256": "d5234820b951568c43c9fe409071567063e1d6d273cf384c5fc2e03cd2d9e4a3",
+      "bytes": 105644
+    },
+    {
+      "path": "audio/drawer_slide-2.wav",
+      "role": "payload",
+      "sha256": "0bf34d8534eae60a6404f435f344495ba4d2c93f5543c0809d268c1fc4943d77",
+      "bytes": 105644
+    },
+    {
+      "path": "audio/drawer_slide-3.wav",
+      "role": "payload",
+      "sha256": "d51917e3429f95de372dd79d4dadb6f8439549c5d1bdcb8ec3c858dd9c1779cd",
+      "bytes": 105644
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "74dfd17315a65fc72a2275328676d2ecb1bdc3bdfd1102e99fe11730de0f0656",
+      "bytes": 350
+    }
+  ],
+  "revision": "1a3978ab850bc98ef05b"
+}

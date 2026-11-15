@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_airway_inflamed_v1",
+  "title": "炎症狭窄气道横断面·同视角状态",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "asthma"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    9,
+    1522,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "airway_inflamed"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "炎症狭窄气道横断面·同视角状态",
+      "airway_inflamed"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "炎症狭窄气道横断面·同视角状态",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        9,
+        1522,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "黏膜肿胀与管腔狭窄；不等同具体患者严重程度。"
+    }
+  ],
+  "usage_notes": "黏膜肿胀与管腔狭窄；不等同具体患者严重程度。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "13af38bb054cabd3878d9319f4e2daa6b4545921d44ab90f34e1e2f1a84bf777",
+      "bytes": 1628054
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "65c7e62b21959e26a1414c05e2a0578c876fa070f778aa51e58efa60f2f66ec7",
+      "bytes": 1125
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "64aa881ed4bb430bdd608ef388785c501e5bba5d670d41062fad17d477a7574f",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "2bc3459333417a51cb23c806df0eced57a2446e2506bbb4e563955439627e477",
+      "bytes": 24593
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7bdff8b2571a7f1d2c76c563d3c865d542248f336b1b976ac71fc7bb98c2388b",
+      "bytes": 752
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "9db9e3791509996c5b588b84fd46017f5ec9e7eb1fc9128bdbdc7473aa39cf28",
+      "bytes": 84451
+    }
+  ],
+  "revision": "dfec21b01903f4f99670",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_airway_inflamed_v1@fb58a595518ff213707d",
+    "source_record_sha256": "0a0dc48441338b76ab9f6f90503929107648895a0fd673a0abe96f4158463ae4",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "659fb2bb6732dbdfaeada6ee0c777831196cdbd0816c9a84e8a2bf4513dc9464",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

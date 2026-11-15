@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_femur_trabecula_healthy_v1",
+  "title": "股骨近端骨小梁·结构近景",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "osteoporosis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1142,
+    1312
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "femur_trabecula_healthy"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "股骨近端骨小梁·结构近景",
+      "femur_trabecula_healthy"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "股骨近端骨小梁·结构近景",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1142,
+        1312
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "骨皮质及骨小梁连接关系；不代表骨密度数值。"
+    }
+  ],
+  "usage_notes": "骨皮质及骨小梁连接关系；不代表骨密度数值。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "e1a799fcc1bc98459d4120413bd3f27385f63f9efc5dd4b3ed7fbd41018e8f7c",
+      "bytes": 1133308
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "748cdd1bdcb444f983a7ffdbfee91d2fdc932bdd2c451074ca93b2d8c43b86ae",
+      "bytes": 1177
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "3015354ac1fbdf1c23a1652fad988b7d0424e3a7b96a8a98a9dc213f7c3ed51b",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "8aa133768ce9154f30039371a92ef8e0cfbd833a27d25aa43c361d21b0ea4437",
+      "bytes": 577
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "1b292011a960bb43500d7bfb011896b21343a0d221ceabea1d9317412a885fe9",
+      "bytes": 104149
+    }
+  ],
+  "revision": "9b5f344e688184ccf7e6",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_femur_trabecula_healthy_v1@0cb70b99ddf89bce80f9",
+    "source_record_sha256": "5caff917a9132af2e0f69d40f1645794b699ec2b5601c6e793a48811c072cbd8",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "6f209a9025bdd8ad37814af25a361f552726ffaf95193a3b075bc4bc77f3be2b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1199,
+        "height": 1312,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

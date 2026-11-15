@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_bladder_outlet_v1",
+  "title": "膀胱与尿道出口·独立局部",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "bph_luts"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1348,
+    1149
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "bladder_outlet"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "膀胱与尿道出口·独立局部",
+      "bladder_outlet"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "膀胱与尿道出口·独立局部",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1348,
+        1149
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "仅膀胱和排尿通路，不加入前列腺作为所有尿潴留的病因；输尿管精确开口位置不在本图解释范围。"
+    }
+  ],
+  "usage_notes": "仅膀胱和排尿通路，不加入前列腺作为所有尿潴留的病因；输尿管精确开口位置不在本图解释范围。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "cf88755cdfe332121a055d21f9b806d2d4f62c341e9455adca291e1e5d0f1846",
+      "bytes": 1474064
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "d54ff4c3600db8f38d8a13f958dedbbde43f88238b5f4ff08dc70bbef74bd9ac",
+      "bytes": 1034
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "f1d297e72b5987a242b4a2aea4e21b6275aec869fcb92294fb6680adb7d8e3c8",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "28084a2cba6e6948735449e634e8ad58ab48bd7c4771a62b8b0245d0bfb5e7af",
+      "bytes": 23946
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "2f157e96a2d31af8996489744933989ddb3bc714dd2c499534f1fe442bc5cc35",
+      "bytes": 809
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "b879c799d3e00dd24d7603ecdc2da8ced6f541028fbf48de3edb3114be9ccd11",
+      "bytes": 96886
+    }
+  ],
+  "revision": "066f68cee0bade8145bc",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_bladder_outlet_v1@ab6e34c5d9955dc69def",
+    "source_record_sha256": "2049bf4d5432b40010cba8b6225cbc4e875ad11bda4aa0f0c4ffb0d9182be765",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a9ba43891f847c3c7366c8b8c0ffc1e7a404f841004fc887a3d9c3a428529b34",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1368,
+        "height": 1149,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_h_pylori_organism_v1",
+  "title": "幽门螺杆菌·微观形态纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "h_pylori"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    17,
+    36,
+    2118,
+    704
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "h_pylori_organism"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "幽门螺杆菌·微观形态纸件",
+      "h_pylori_organism"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "幽门螺杆菌·微观形态纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        17,
+        36,
+        2118,
+        704
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "定性菌体形态，不代表真实比例、菌量或个人感染诊断。"
+    }
+  ],
+  "usage_notes": "定性菌体形态，不代表真实比例、菌量或个人感染诊断。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "b575090afe3d17db20d96356056cf520872d988c2e332c29972e3d650739ddc1",
+      "bytes": 695302
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "0abe19ea863d211ae8f76163c3eb2c2341c03df930db970f90c1ad0cc16a2553",
+      "bytes": 999
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "2b69266af5c4410cc5a00d77d2b9263c3d8af7fed8e3b0a473d50e59f059be32",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "b05ba1a40c0216955d1d1062327c88923c89341959f2f1d253e26cb2d2b9b286",
+      "bytes": 20209
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "a524a47bcaefafba42eb58ccbc61aa074c83fc92cf7e31d7bd6c8c7c8bf8718c",
+      "bytes": 752
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "fe2e184cfe795891e2363c87b3373d79792e26c1e32c2e6bf64f9588001335c0",
+      "bytes": 35928
+    }
+  ],
+  "revision": "fc240f966aef211308f7",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_h_pylori_organism_v1@bf525e0f43944a75ec9b",
+    "source_record_sha256": "f1a77abae2f5a6673aa11db14fb0844e83c47f3ec759a1185907e4b75f8463b0",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "b274e2ffcb7ccd1629ff4957d124856d3b3c1fa75e68a2ee8728d2ce76482720",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

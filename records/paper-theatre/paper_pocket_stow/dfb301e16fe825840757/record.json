@@ -1,0 +1,48 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_pocket_stow",
+  "title": "纸口袋收纳与真实前景遮挡",
+  "kind": "motion_recipe",
+  "entry": "src/kit/props.ts",
+  "tags": [
+    "paper_collage",
+    "收纳",
+    "信封",
+    "局部坐标",
+    "遮挡"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+  "dependencies": [
+    "paper_theatre_kit_1_1_0",
+    "已登记 mouth / front 的纸口袋素材"
+  ],
+  "review_status": "静帧与姿态 strip 已查；连续动态仍待审",
+  "source": {
+    "project": "productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "sample_has_brand": false
+  },
+  "files": [
+    {
+      "path": "src/kit/props.ts",
+      "role": "payload",
+      "sha256": "74911bbf76faa60658c5c07accc77409ac736b2c040f72a9542d40823fafb2b0",
+      "bytes": 1881
+    },
+    {
+      "path": "src/kit/motion.ts",
+      "role": "payload",
+      "sha256": "3e73f75aee564886a239374c43a2a5ec4a1984176fa488cfa0da7126ba838179",
+      "bytes": 2159
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f5bbab23a9f48faba01380fb689618d774e7d1d7dec578249b6d500bc3ca85db",
+      "bytes": 269
+    }
+  ],
+  "revision": "dfb301e16fe825840757"
+}

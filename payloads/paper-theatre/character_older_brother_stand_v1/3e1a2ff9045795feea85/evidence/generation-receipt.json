@@ -1,0 +1,14 @@
+{
+  "schema": "episode_character_generation/v1",
+  "generated_at": "2026-10-23",
+  "tool": "image_gen.imagegen",
+  "mode": "built_in",
+  "use_case": "illustration-story",
+  "role": "兄长",
+  "reference_role": "style_reference_and_distinct_younger_brother",
+  "reference_image": "assets/male_patient.png",
+  "generated_original": "/Users/gaofeng/.codex/generated_images/01a16737-6a7e-7803-be4d-9cd4ad198c21/exec-9dea7faf-6213-4535-8a4d-23e66f8f7988.png",
+  "prompt": "Use case: illustration-story. Asset type: one transparent full-body character cutout for an existing Chinese patient-education paper theatre. Input image is a STYLE REFERENCE and the younger-brother character, not an edit target. Create a DIFFERENT Chinese adult male, the older brother around age 58-62, in exactly the same warm realistic watercolor-on-textured-paper cutout material and restrained natural illustration style. Short salt-and-pepper dark hair, a visibly different narrower face and thin rectangular glasses, dark muted blue long-sleeve casual collared shirt, beige trousers, plain brown walking shoes. Neutral attentive expression, relaxed complete standing pose, head turned slightly toward viewer's left, arms naturally at sides, both hands fully visible. Preserve a plausible adult male silhouette and natural joints. Whole figure must be complete from hair top to both shoe soles with comfortable margin, centered portrait framing. No props, no writing, no badges, no medical uniform. Genuinely transparent background, clean alpha around all edges, no floor or cast shadow baked into image, no outer glow. Single coherent full body, no separate limbs, no multiple views.",
+  "static_source_observation": "完整男性站姿，眼镜、蓝衬衫、米色裤与绿色衬衫本人及灰发父亲可区分；实际alpha角点为0，alpha大于24的主体边界约为273,26,752,1509。",
+  "review_scope": "原件形体和透明信息；当前镜头另行复核，不继承连续运动或医疗批准。"
+}

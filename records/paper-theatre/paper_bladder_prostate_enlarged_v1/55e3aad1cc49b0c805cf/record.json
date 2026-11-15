@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_bladder_prostate_enlarged_v1",
+  "title": "膀胱颈、前列腺与尿道·局部关系",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "bph_luts"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1286,
+    1149
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "bladder_prostate_enlarged"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "膀胱颈、前列腺与尿道·局部关系",
+      "bladder_prostate_enlarged"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "膀胱颈、前列腺与尿道·局部关系",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1286,
+        1149
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "前列腺位于膀胱颈下、环绕近端尿道；大小不单独决定症状与治疗。"
+    }
+  ],
+  "usage_notes": "前列腺位于膀胱颈下、环绕近端尿道；大小不单独决定症状与治疗。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "710794471a9ed501e60387d989204dc852c3f98dbd7e6548b84a61d3c0807fba",
+      "bytes": 1418580
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "68087377c1637a71d94dce389e27ff71ef6847a617a90be9ac38ccd4463b3515",
+      "bytes": 1258
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "2891bdee0b86045e368504eea9c986e0ab6581bbf86704dea595ed062cbf3263",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "28084a2cba6e6948735449e634e8ad58ab48bd7c4771a62b8b0245d0bfb5e7af",
+      "bytes": 23946
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "526e01bb40d367c058f1dd0e541489f844fa8fa32cc52afd8127dc516527264e",
+      "bytes": 776
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "cdf6f8fd3a2d5cb650c5213d7bfd0feec699993f81105876da484fb09b088549",
+      "bytes": 102980
+    }
+  ],
+  "revision": "55e3aad1cc49b0c805cf",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_bladder_prostate_enlarged_v1@81da7864a4d4398a44d0",
+    "source_record_sha256": "939eac560cb569694a0b1318d9dbd77a8faa2d54182853326da6724349d7d424",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "29d0905929cd60882feb179df67953c523175bc4d3d741e697eeaa7ac300b4c7",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1368,
+        "height": 1149,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

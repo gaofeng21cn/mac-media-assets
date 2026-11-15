@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_spirometer_device_v1",
+  "title": "肺功能仪与口端·连接器械整件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1535,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "spirometer_device"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "肺功能仪与口端·连接器械整件",
+      "spirometer_device"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "肺功能仪与口端·连接器械整件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1535,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "肺功能测试器械身份，完整管路整件不可宣称分层；结果曲线另排，不替代具体产品操作。"
+    }
+  ],
+  "usage_notes": "肺功能测试器械身份，完整管路整件不可宣称分层；结果曲线另排，不替代具体产品操作。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "faf142366deba8fcb2d86a480bf0bc86da90026a54a168ae96de22924f659ccc",
+      "bytes": 1479140
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "860734438208654528cc778f6b363a96c8414ef374b4894e820e20d1e81ac98d",
+      "bytes": 1086
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "c16d73593caf62d36f9fc0801030ef8c20529e8ef67d08133285ad78f7945dc8",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "e63f833703351c009be1249560252bee1fc38c4c20dd5680655eca50f4bdd028",
+      "bytes": 640
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "bd63a05396d4e27f49c70579169502dd609c4269e5dc7675dd24366947a0084b",
+      "bytes": 66492
+    }
+  ],
+  "revision": "cd98c6e067c2550f4fb4",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_spirometer_device_v1@e94f39e13b07405dff31",
+    "source_record_sha256": "34938e04f4c1a9030f828cd781ae55446b526315e6a8e650ca04bf4c354e9f12",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "77269be102b117ae7c5d448e8886f5661f2a3324736a1e0a1fefad7d00398305",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

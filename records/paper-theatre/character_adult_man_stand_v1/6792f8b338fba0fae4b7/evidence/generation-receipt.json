@@ -1,0 +1,26 @@
+{
+  "tool": "curated_existing_project_asset",
+  "prompt": "",
+  "source_path": "/Users/gaofeng/workspace/科普视频/assets/characters-v2/adult_man_stand_v1.png",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      29,
+      1004,
+      1510
+    ],
+    "opaque_ratio": 0.2741,
+    "translucent_ratio": 0.0103,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-22T09:58:21.672265+00:00"
+}

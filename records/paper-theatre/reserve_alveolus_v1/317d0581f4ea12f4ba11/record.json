@@ -1,0 +1,75 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_alveolus_v1",
+  "title": "肺泡局部",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "alveolus"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "局部放大转换；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "alveolus",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    202,
+    144,
+    821,
+    808
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "54553963367464d55f667ca67c2e4ef1ebdf010e76dc5565e695baa49066c99d",
+      "bytes": 988790
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "c8db9be2536c5a36153b5854dd0ccb6f2cf5edc6a1127f0143094d07defdfabb",
+      "bytes": 1527
+    }
+  ],
+  "revision": "317d0581f4ea12f4ba11",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_alveolus_v1@95ebc2a8691ac43497f3",
+    "source_record_sha256": "3c94d15dfb247ae2d414f9f3aab53dbfa3cdf1a22876e58e48d491e748ef6879",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "48d47aa4b94d26462f5aa88f6f8ab84be4262584b0000015d4be8e88ca9cdc0a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_child_girl_stand_v1",
+  "title": "儿童女性完整站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "child",
+    "girl",
+    "stand",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "儿童女性完整站姿",
+    "aliases": [
+      "儿童",
+      "小孩",
+      "孩子",
+      "女童",
+      "小女孩",
+      "child",
+      "girl"
+    ],
+    "objects": [
+      "完整儿童人物"
+    ],
+    "story_roles": [
+      "儿童患者",
+      "家庭情境",
+      "年龄差异"
+    ],
+    "actions": [
+      "站立",
+      "倾听",
+      "伸手"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整儿童女性，采用儿童比例；不能把成人素材等比缩小冒充儿童。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "完整儿童女性站姿；采用儿童比例，不能把成人素材等比缩小冒充儿童。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_child_girl_stand_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    27,
+    23,
+    1004,
+    1473
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      27,
+      23,
+      1004,
+      1473
+    ],
+    "opaque_ratio": 0.2337,
+    "translucent_ratio": 0.0151,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "90f2dfe4829feaeb30d90ccf510f271d972afcb699b69a141c882c27592f7369",
+      "bytes": 1752436
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "35f80c5fe79a96bfecbce1fa52ddcfe89927ba3f3d56a3140f367c27f9ef9b93",
+      "bytes": 503
+    }
+  ],
+  "revision": "1c2ddf31f6caf6708815"
+}

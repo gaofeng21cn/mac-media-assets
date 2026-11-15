@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_heart_detailed_layers_v1@add90d3fadd1ea02a5c3",
+      "portable_record_sha256": "061207e06e31e0b3b2bf97fcdc41edc6b29937ac8184c495230be15e05b4f402"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_sun_umbrella_v1",
+  "title": "打开的遮阳伞·独立生活纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    11,
+    1520,
+    1012
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "sun_umbrella"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "打开的遮阳伞·独立生活纸件",
+      "sun_umbrella"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "打开的遮阳伞·独立生活纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        11,
+        1520,
+        1012
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "生活防晒情境的遮挡物件，不指具体产品防晒能力。"
+    }
+  ],
+  "usage_notes": "生活防晒情境的遮挡物件，不指具体产品防晒能力。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "c069aa4dd98e2fbb4164eaf6d7aabdf953d021ef9dfe88dcf452627f122305c7",
+      "bytes": 1150894
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "e6eebca87e5665920a152ff257695f1688c6e88bbb7dcc5841c739e755b0c9c2",
+      "bytes": 801
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "23704ba08fd860ecb4bf69c0f0883c9cf1093e7c5a66c3d6e5b011d142a02454",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "b18d6006b00de9b35cf7b9934fbbc6d37451d87cb611dd4674695d10ad744647",
+      "bytes": 586
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "886c5c1f4a7f7e1f174f39308ca45b4895f74a90ad858e0418a8e206773264fe",
+      "bytes": 49411
+    }
+  ],
+  "revision": "a5978fe548b868f65cab",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_sun_umbrella_v1@2435af6193c5a395d139",
+    "source_record_sha256": "5cb3c6141607081f957cf06fb53128d5be1983aa7daf2eadd10e23b18dfa4e37",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "aae858f0b42febb4c48cf992f6341b428627292cf80b516cc80b8ba25c42ee78",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

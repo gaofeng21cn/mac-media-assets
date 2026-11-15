@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_older_woman_stand_v1",
+  "title": "老年女性完整站姿",
+  "kind": "transparent_subject",
+  "tags": [
+    "character",
+    "older_adult",
+    "woman",
+    "stand",
+    "paper_collage",
+    "complete_figure"
+  ],
+  "discovery": {
+    "category": "characters",
+    "display_title": "老年女性完整站姿",
+    "aliases": [
+      "老人",
+      "老年",
+      "老年女性",
+      "老太太",
+      "银发",
+      "older woman",
+      "elderly"
+    ],
+    "objects": [
+      "完整老年女性人物"
+    ],
+    "story_roles": [
+      "老年患者",
+      "家庭支持者",
+      "长期管理"
+    ],
+    "actions": [
+      "站立",
+      "倾听",
+      "查看资料"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "usage_notes": "完整老年女性，年龄表达靠面部与发型，不做脆弱化漫画。"
+  },
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "完整老年女性站姿；年龄通过发型与面部表达，不靠缩小或折断身体。",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "character_older_woman_stand_v1",
+    "prompt": ""
+  },
+  "content_bounds": [
+    0,
+    47,
+    974,
+    1487
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      47,
+      974,
+      1487
+    ],
+    "opaque_ratio": 0.2263,
+    "translucent_ratio": 0.0101,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "measured_on_ingest",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "8eddd1227cb34a1799922137bee80073ca2c8be757f23f41966eaa38b9e8bf39",
+      "bytes": 1689218
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "df6654162a2e7920c44a104ed66ec667ae924dcea50f8912ddd9f8ff1bdeb271",
+      "bytes": 502
+    }
+  ],
+  "revision": "e58d9fdb15185eaa3f86"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "mac_motion_sources/v1",
+  "generation": [],
+  "source_assets": [
+    {
+      "asset_id": "paper:reserve_intestine_detailed_layers_v1@0b0994a7cc8dbcf9d2ff",
+      "portable_record_sha256": "e7fa75cbd842840b82852f07e079fee17cb488e62e4b6d5f8ded03c81eacfc98"
+    }
+  ],
+  "note": "源图与可编辑SVG原字节在original/，全部层沿用共同viewbox。"
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_parked_car_v1",
+  "title": "停放小汽车·独立生活纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    9,
+    32,
+    1773,
+    887
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "parked_car"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "停放小汽车·独立生活纸件",
+      "parked_car"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "停放小汽车·独立生活纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        9,
+        32,
+        1773,
+        887
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "困倦时停止驾车等生活情境道具，不展示驾驶中使用电话。"
+    }
+  ],
+  "usage_notes": "困倦时停止驾车等生活情境道具，不展示驾驶中使用电话。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "fbfe076ee8ceeb580ff6b87f76f8743240203d659066a66a769b6c719622405d",
+      "bytes": 1249092
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "5f95d70a61f07f183d47de08b6789593dbc29b26d23139443768eacba237909e",
+      "bytes": 817
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "637fbeab02566b08e1381fb41ebeabe4337cd32d532455be525884d2f3d8df16",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "b4b7661069c651cd7aa77689ce62b8575be48a23053bdff584725c08c319d492",
+      "bytes": 592
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "c84f8d949c04ca350172e56b7fb9c02f782ed21e4658f3828dbb7e78ad9bda19",
+      "bytes": 58342
+    }
+  ],
+  "revision": "2b705c8d3f8827334d97",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_parked_car_v1@9012b38b9507f6b42d31",
+    "source_record_sha256": "b8a6def53c27c4fe9ad227cad3dce47d7bc7ecde4cef4205ea93329fbad74117",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a609791bb248cf0a3c66729a02c1750d1ffc0fcd725899f0117ea109ffb10509",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1774,
+        "height": 887,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

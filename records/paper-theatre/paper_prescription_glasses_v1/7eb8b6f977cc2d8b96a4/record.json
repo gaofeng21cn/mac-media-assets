@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_prescription_glasses_v1",
+  "title": "框架眼镜·独立透明镜面纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    17,
+    9,
+    1760,
+    887
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "prescription_glasses"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "框架眼镜·独立透明镜面纸件",
+      "prescription_glasses"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "框架眼镜·独立透明镜面纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        17,
+        9,
+        1760,
+        887
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "视力矫正情境道具，不表示防控效果或具体处方，镜面透明。"
+    }
+  ],
+  "usage_notes": "视力矫正情境道具，不表示防控效果或具体处方，镜面透明。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "70c87a05728bcaf32bc1af4af5977747bff64c827805e633540e81209f508125",
+      "bytes": 544028
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "c68b3efe6e81ffb7e6ab4fc16e98c7bed8792ae8022c8d305c2ddad61c4f83d2",
+      "bytes": 907
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "2cd309a0e97b5dbcefb917348685c7f0f758d99a4c05aee0c6dc6c679daf5d8e",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "f4a8a5944a4657577e9b0c50b6dfd5d620312780e70660c8bb6d3f7d7fb99a9d",
+      "bytes": 598
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "de08039c616eab0b4555aa4c2a2a150719a699169a42211135f7d67ceb39a325",
+      "bytes": 38938
+    }
+  ],
+  "revision": "7eb8b6f977cc2d8b96a4",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_prescription_glasses_v1@5830d15bb1603580bcfc",
+    "source_record_sha256": "35ee2db95f2a3c97a8890b5a5ec03c696831d0ffa0ac8461dddc67886c49ba31",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "c5f3c0b6af49825f368a8c52df194ec6f2c8d1e5b78df5a71776dd9c5ee6ff05",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1774,
+        "height": 887,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

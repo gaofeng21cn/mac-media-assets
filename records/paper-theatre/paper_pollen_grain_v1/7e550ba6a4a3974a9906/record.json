@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_pollen_grain_v1",
+  "title": "花粉颗粒·独立微观纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "allergic_rhinitis"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    10,
+    1520,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "pollen_grain"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "花粉颗粒·独立微观纸件",
+      "pollen_grain"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "花粉颗粒·独立微观纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        10,
+        1520,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "花粉暴露的定性例子，不代表具体植物种类、实际比例或个体致敏诊断。"
+    }
+  ],
+  "usage_notes": "花粉暴露的定性例子，不代表具体植物种类、实际比例或个体致敏诊断。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "7db712dc1af825debc3eeea0f88b7b8efa75c723c34e08c7eeddede273204e0c",
+      "bytes": 1528306
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "573f542bc6f3ca53fd90dff95ac960c76ab216068034569f8fab51e7173b0e1c",
+      "bytes": 913
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "a43c9caf8ed295c9272e03a16318cda18e1b8e953bd7a46cd7a3cc58bc3da8f9",
+      "bytes": 620
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "a2b0b219909f6f90f26198170a362e83c984fecde6046d8e3e3c8a5560f0e7a6",
+      "bytes": 23588
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "2f66acef75f270045850bb4db7f6169a2d318a000a719b5b7542ddb1bb4b1ecd",
+      "bytes": 770
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "8b913114e78b2f51dd3da5a2c085d5faa7c29fc56821056bc1354700b3470de7",
+      "bytes": 75405
+    }
+  ],
+  "revision": "7e550ba6a4a3974a9906",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_pollen_grain_v1@16420e341e9ecaa36dd1",
+    "source_record_sha256": "3eebd8770fdc87de57388c5612c5f29dd6bf7bac00596bee1940a64b7d5231f6",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "4b7755d60aa128fcdfb087fcd74d788bd1053e4e9c51e02a7ba5b96d41e368bf",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

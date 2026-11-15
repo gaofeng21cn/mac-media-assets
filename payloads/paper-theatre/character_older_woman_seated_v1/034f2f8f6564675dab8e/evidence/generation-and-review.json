@@ -1,0 +1,61 @@
+{
+  "id": "character_older_woman_seated_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_woman_stand_v1/533448a63caf5fd9b120/files/payload.png",
+  "prompt": "Use case: illustration-story. One complete reusable paper-theatre pose. Reference is exact identity and style master. Keep same Chinese elderly woman, short soft silver hair, sage collared blouse, charcoal trousers and brown shoes; preserve face, age, hairstyle, body proportions, garments and shoes. Change only pose to seated naturally three-quarter facing screen right, thighs approximately horizontal, calves vertical, both feet flat on shared ground baseline, hands resting on thighs; no chair or furniture, visible rear buttock support edge for a separate chair. Natural connected complete anatomy, same tactile paper-cut illustration, opaque interior and clean edges. Entire hair/head, visible hands, legs and shoes in frame with generous margin. Single isolated figure, GENUINE transparent background. No chair, environment, floor mark, cast shadow, glow/aura, gradient/vignette, checkerboard, text/logo or props. Do not infantilize older adults or shrink adult anatomy into a child.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-0cc80d87-bb58-4ae6-aab7-8532d38a1af3.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "bd73fddb1db536bfdabaa6a83dace2e34cb0ba77862e13e4e788413b9d591f93",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      19,
+      1002,
+      1479
+    ],
+    "opaque_ratio": 0.3035,
+    "translucent_ratio": 0.0091,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      198,
+      22,
+      938,
+      1461
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.46,
+        "y": 0.09
+      },
+      "seat": {
+        "x": 0.28,
+        "y": 0.6
+      },
+      "feet": {
+        "x": 0.63,
+        "y": 0.96
+      },
+      "hand_left": {
+        "x": 0.56,
+        "y": 0.555
+      },
+      "hand_right": {
+        "x": 0.73,
+        "y": 0.55
+      }
+    },
+    "note": "坐姿原件不含椅子，先以臀部承托边缘试装独立椅面，检查脚底地面"
+  }
+}

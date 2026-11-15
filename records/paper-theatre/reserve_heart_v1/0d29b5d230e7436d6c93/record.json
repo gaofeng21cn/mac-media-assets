@@ -1,0 +1,75 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_heart_v1",
+  "title": "心脏外观",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "anatomy",
+    "heart"
+  ],
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "整体定位与搏动；简化科普结构；不是手术导航/诊断图；疾病形态按故事新创",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "heart",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    0,
+    12,
+    1240,
+    1250
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending",
+    "medical_review_pending"
+  ],
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "7ce16e73b8035883d37c8971b8e9d01db4e0a01c2332de8363ae44542c2fa6db",
+      "bytes": 1165292
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "d267261deff04308f8451ecc09450747f67151ef7f6c0c84dde3ea8b68eae31b",
+      "bytes": 1657
+    }
+  ],
+  "revision": "0d29b5d230e7436d6c93",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_heart_v1@6e009b5ce7fba2978c7b",
+    "source_record_sha256": "0128e5953db0d317d6ad2b32a7e21013ae3649feaf8bdae630df284e959eec6a",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "a08551adae9d4186758dddaaf965ebe69cc9f3acd6c6b4d7f3ef576ec762d8fa",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

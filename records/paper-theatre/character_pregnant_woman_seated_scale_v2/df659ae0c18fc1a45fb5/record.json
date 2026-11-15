@@ -1,0 +1,91 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_pregnant_woman_seated_scale_v2",
+  "title": "高发髻孕妇完整坐姿",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "mode": "built_in_edit",
+    "generation_file": "exec-3a0bc9bc-7eb0-4af9-9b5f-c223c68c419f.png",
+    "identity_reference": "paper:character_pregnant_woman_stand_v1@5d532fdeb77505763bc5",
+    "identity_reference_sha256": "e8f74789d703cb48c2ea13a1dd05b6a030508736b808ebe3bd4dc22423e40c56"
+  },
+  "tags": [
+    "完整人物",
+    "坐姿",
+    "身体标尺",
+    "pregnant_woman"
+  ],
+  "content_bounds": [
+    132,
+    35,
+    1017,
+    1449
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "registration": {
+    "pivot": {
+      "x": 0.7275390625,
+      "y": 0.9401041666666666
+    },
+    "anchors": {
+      "head": {
+        "x": 0.439453125,
+        "y": 0.024739583333333332
+      },
+      "feet": {
+        "x": 0.7275390625,
+        "y": 0.9401041666666666
+      },
+      "seat": {
+        "x": 0.37109375,
+        "y": 0.6223958333333334
+      }
+    }
+  },
+  "human_scale": {
+    "nominal_height_cm": 163,
+    "height_status": "authored_design_reference",
+    "scale_family": "pregnant_woman_cn",
+    "pose": "seated",
+    "subject": "character",
+    "source_sha256": "75a26c86699e3f46fdc7676f45205eb5ebd17d487c2f13c2f9177d9076b00e19",
+    "calibration": {
+      "status": "calibrated",
+      "source_sha256": "75a26c86699e3f46fdc7676f45205eb5ebd17d487c2f13c2f9177d9076b00e19",
+      "source_size": {
+        "width": 1024,
+        "height": 1536
+      },
+      "from": {
+        "x": 0.439453125,
+        "y": 0.024739583333333332
+      },
+      "to": {
+        "x": 0.439453125,
+        "y": 0.216796875
+      },
+      "span_cm": 25.85,
+      "basis": "同身份站姿身体段配准头段[[450, 38], [450, 333]]，对应25.85cm；脚底和椅面单独登记；待共同标尺实际试装，不由生成文字批准。"
+    }
+  },
+  "usage_notes": "人物和椅子为完整固定姿态；同场按身体段密度配准，不按整件宽高匹配。当前静态组合审查、连续动作与医学分别记录。",
+  "review": {
+    "static_combination": "pending",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "75a26c86699e3f46fdc7676f45205eb5ebd17d487c2f13c2f9177d9076b00e19",
+      "bytes": 2071136
+    }
+  ],
+  "revision": "df659ae0c18fc1a45fb5"
+}

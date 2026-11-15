@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_medicine_carton_rust_v1",
+  "title": "无品牌药品纸盒·陶红正面",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    41,
+    16,
+    1472,
+    1007
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "medicine_carton_rust"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "无品牌药品纸盒·陶红正面",
+      "medicine_carton_rust"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "无品牌药品纸盒·陶红正面",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        41,
+        16,
+        1472,
+        1007
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "与青绿包装并置的第二种外观；颜色不表示有效成分或疗效。"
+    }
+  ],
+  "usage_notes": "与青绿包装并置的第二种外观；颜色不表示有效成分或疗效。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "9870dd05e9ccbc748d22051a2076706070aaff440c2c12bea04fe63a32a283c5",
+      "bytes": 1436326
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "eb06763db05cc2671538c305cbbc9feae33ea2a4b6a0c66fe1599a6b25dd01de",
+      "bytes": 932
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "5b15cef52239c27af3d611828ba3074aec3d4bc1bdc8772ce142509ec24077d1",
+      "bytes": 621
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "7570ebb3346e9aff28ed0bd407502e8cd7411dbaf6e7885e6c52f6d6b9e947f8",
+      "bytes": 595
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "93d391096a17f07eb81b24ffd71b1fa4a09b45335828709eab34e845bc69dcac",
+      "bytes": 56555
+    }
+  ],
+  "revision": "ab177ecaaa71f84cfd99",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_medicine_carton_rust_v1@a3f347b4cb63b85950ed",
+    "source_record_sha256": "dba9de746d9e8434ab6414be11463fa93f6b2b2a85cd35bea80b7e0f913180e1",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "ef108a92045cc5fdb30763142bcb42d3e0044efe9b24037e580aea17b9ae5e05",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

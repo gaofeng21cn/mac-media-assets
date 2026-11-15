@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_device_confirm_v1",
+  "title": "拟音：器械完成提示音",
+  "kind": "audio",
+  "tags": [
+    "audio",
+    "sfx",
+    "action_accent",
+    "procedural_original",
+    "20261024"
+  ],
+  "discovery": {
+    "category": "sfx",
+    "display_title": "拟音：器械完成提示音",
+    "aliases": [
+      "提示音",
+      "完成",
+      "测量完成",
+      "beep",
+      "device"
+    ],
+    "objects": [
+      "拟音：器械完成提示音",
+      "提示音",
+      "完成",
+      "测量完成",
+      "beep",
+      "device"
+    ],
+    "story_roles": [
+      "血糖仪读数完成",
+      "血压测量完成",
+      "设备提示"
+    ],
+    "actions": [
+      "血糖仪读数完成",
+      "血压测量完成",
+      "设备提示"
+    ],
+    "medium": "audio",
+    "material": null,
+    "renderers": [],
+    "style": [],
+    "topics": [],
+    "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+    "view": "按当前镜头选择",
+    "compatibility": {
+      "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+      "params": "可调整；content bounds 与接触点不固定画面构图"
+    }
+  },
+  "entry": "audio/device_confirm-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "程序合成，不是实地录音；用于动作接触点对齐，音量需按当前混音审听。",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition",
+    "generator": "tools/build_action_sfx.py"
+  },
+  "content_bounds": null,
+  "content_bounds_format": null,
+  "medical_review": "not_applicable",
+  "review": {
+    "listening": "pending",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/device_confirm-1.wav",
+      "role": "payload",
+      "sha256": "c01ed7786d2228a852822c2280b6a46ec6415915eaec5da11f1ed9c47d8b7adf",
+      "bytes": 40364,
+      "seed": 9410,
+      "duration_seconds": 0.42
+    },
+    {
+      "path": "audio/device_confirm-2.wav",
+      "role": "payload",
+      "sha256": "0b8df00ec85bd30bde6436b8512c3fdb2c0c6e809c9abae9341ae531c1b80443",
+      "bytes": 40364,
+      "seed": 9411,
+      "duration_seconds": 0.42
+    },
+    {
+      "path": "audio/device_confirm-3.wav",
+      "role": "payload",
+      "sha256": "e9a0418b4ec5aeccb626581f67a5e96d9c0b821bedaf78d88312edd80bfede61",
+      "bytes": 40364,
+      "seed": 9412,
+      "duration_seconds": 0.42
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "d27b8b7236202784d05443fa1b939dc7831d163791b503f1008865caf37fb663",
+      "bytes": 364
+    }
+  ],
+  "revision": "9d3b468f1e9453ca1317"
+}

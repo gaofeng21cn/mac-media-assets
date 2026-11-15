@@ -1,0 +1,57 @@
+{
+  "id": "character_teen_girl_walk_v1",
+  "ref": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_teen_girl_stand_v1/699014f2978da454f37e/files/payload.png",
+  "prompt": "Use case: illustration-story. Reusable complete paper-theatre character pose for Chinese patient education. Input 1 is exact identity and style reference: same Chinese teenage girl, shoulder-length dark hair, mustard cardigan over white collared shirt, blue trousers and pale sneakers; preserve adolescent proportions and age. Create exactly same person, changing only pose to walking naturally to screen right with modest stride and gentle arm counter-swing, one shoe resting on shared ground baseline, both hands visible. Preserve face, hairstyle, clothing and footwear colors, paper-cut illustration style, connected natural anatomy. Full body including all hair, visible hands and both shoes, generous transparent margin. Opaque paper interior with subtle texture. One isolated person on GENUINE transparent alpha background; no chair, furniture, props, floor, shadow, aura, glow, vignette, blur, text, watermark or checkerboard. Not a multi-pose sheet.",
+  "source": "/Users/gaofeng/.codex/generated_images/01a1673a-987d-77c3-bfb9-7ad26c933936/exec-35ce686f-ce02-434a-8125-b908fa270c16.png",
+  "completed": true,
+  "tool": "built_in_imagegen",
+  "source_sha256": "6e108c62055072f608c44fdc648c9bd7cb83a40f2029bea41f246ee2e19279dd",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      49,
+      16,
+      980,
+      1474
+    ],
+    "opaque_ratio": 0.2853,
+    "translucent_ratio": 0.0118,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      119,
+      18,
+      966,
+      1470
+    ]
+  },
+  "review": {
+    "selected": true,
+    "anchors": {
+      "head": {
+        "x": 0.47,
+        "y": 0.08
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.95
+      },
+      "hand_left": {
+        "x": 0.28,
+        "y": 0.52
+      },
+      "hand_right": {
+        "x": 0.79,
+        "y": 0.47
+      }
+    },
+    "note": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环"
+  }
+}

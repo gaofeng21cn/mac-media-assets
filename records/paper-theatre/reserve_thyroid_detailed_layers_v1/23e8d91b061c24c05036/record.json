@@ -1,0 +1,309 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_thyroid_detailed_layers_v1",
+  "title": "甲状腺·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "trachea",
+      "path": "files/trachea.png",
+      "source_type": "original_vector",
+      "visual_meaning": "甲状腺·trachea",
+      "medical": true,
+      "content_bounds": [
+        451,
+        109,
+        573,
+        869
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "lobe_left",
+      "path": "files/lobe_left.png",
+      "source_type": "original_vector",
+      "visual_meaning": "甲状腺·lobe_left",
+      "medical": true,
+      "content_bounds": [
+        223,
+        218,
+        452,
+        736
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "lobe_right",
+      "path": "files/lobe_right.png",
+      "source_type": "original_vector",
+      "visual_meaning": "甲状腺·lobe_right",
+      "medical": true,
+      "content_bounds": [
+        572,
+        218,
+        801,
+        736
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "isthmus",
+      "path": "files/isthmus.png",
+      "source_type": "original_vector",
+      "visual_meaning": "甲状腺·isthmus",
+      "medical": true,
+      "content_bounds": [
+        416,
+        479,
+        608,
+        560
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.51
+          },
+          "isthmus": {
+            "x": 0.5,
+            "y": 0.515
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_anatomy.py"
+  },
+  "tags": [
+    "anatomy",
+    "thyroid",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "甲状腺",
+      "配准分层"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "trachea",
+      "lobe_left",
+      "lobe_right",
+      "isthmus"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": [
+    223,
+    109,
+    801,
+    869
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "正面甲状腺与后方气管的简化空间关系；不含甲状软骨、血管、神经或病灶。左右为画面左右，不能据此判断手术层次。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/trachea.svg",
+      "role": "source",
+      "sha256": "f914becc0f5a1716091f578c1ea1cfa51a7946b059ce4b454962d96179617727",
+      "bytes": 1042
+    },
+    {
+      "path": "files/trachea.png",
+      "role": "payload",
+      "sha256": "1d306b8b2153b845f5992f7fd2d8862fc7e82c84cef393dd3b8c25ba37de7611",
+      "bytes": 22163
+    },
+    {
+      "path": "source/lobe_left.svg",
+      "role": "source",
+      "sha256": "a839077b7de301d7557953517d7e06b2e352836c0788ee0c6795537f87a937a1",
+      "bytes": 293
+    },
+    {
+      "path": "files/lobe_left.png",
+      "role": "payload",
+      "sha256": "c4cc3bb65150adcf83fc2fb0dfad749e6bc365424a179a6062bb64c8d3051384",
+      "bytes": 21148
+    },
+    {
+      "path": "source/lobe_right.svg",
+      "role": "source",
+      "sha256": "4c2157ceb1cabadd51b3f0d03b5815ecf3d53015e3233bdab68522db8227f4ab",
+      "bytes": 293
+    },
+    {
+      "path": "files/lobe_right.png",
+      "role": "payload",
+      "sha256": "4c90cd23b6adeeb001bb482118f1e5691a0b5cb767842f29422af6516250d465",
+      "bytes": 21089
+    },
+    {
+      "path": "source/isthmus.svg",
+      "role": "source",
+      "sha256": "248935bde3187da6432b78025c1f8ffe4afafe1baffca016037f894e83670d7f",
+      "bytes": 236
+    },
+    {
+      "path": "files/isthmus.png",
+      "role": "payload",
+      "sha256": "777e5a6b54abfdbd7263cb408eb5e71314614164b4fef195e8abff6d2da48e96",
+      "bytes": 8577
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "3efa2546a82418e99aa342fef43770c784cc7790a2457f1bbbfa10c6fb136299",
+      "bytes": 1573
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "ec065014fd36190b27a32bb4f91039f909b68c91ac2fd8eab1ecda0727818942",
+      "bytes": 54017
+    },
+    {
+      "path": "source/build_anatomy.py",
+      "role": "source",
+      "sha256": "46ed48086ed7e69f6abb7c1c0a64c24684361b68bd09e21e5d2fa1acf18273cc",
+      "bytes": 10156
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "35fd71a7b1b9b1a9062089645179d15dcb72a12066109ccb9411eb1602cfd3ae",
+      "bytes": 628
+    }
+  ],
+  "revision": "23e8d91b061c24c05036"
+}

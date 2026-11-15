@@ -1,0 +1,108 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_sfx_cloth_rustle_v1",
+  "title": "拟音：衣料摩擦",
+  "kind": "audio",
+  "tags": [
+    "audio",
+    "sfx",
+    "action_accent",
+    "procedural_original",
+    "20261024"
+  ],
+  "discovery": {
+    "category": "sfx",
+    "display_title": "拟音：衣料摩擦",
+    "aliases": [
+      "衣料",
+      "衣服",
+      "摩擦",
+      "cloth",
+      "rustle"
+    ],
+    "objects": [
+      "拟音：衣料摩擦",
+      "衣料",
+      "衣服",
+      "摩擦",
+      "cloth",
+      "rustle"
+    ],
+    "story_roles": [
+      "转身",
+      "伸手取物",
+      "起身"
+    ],
+    "actions": [
+      "转身",
+      "伸手取物",
+      "起身"
+    ],
+    "medium": "audio",
+    "material": null,
+    "renderers": [],
+    "style": [],
+    "topics": [],
+    "usage_notes": "动作接触对齐后低混入；与四套连续动作包配套使用；当前集独立审听。",
+    "view": "按当前镜头选择",
+    "compatibility": {
+      "dependencies": "代码包先查实际依赖；图像可供多种后端使用",
+      "params": "可调整；content bounds 与接触点不固定画面构图"
+    }
+  },
+  "entry": "audio/cloth_rustle-1.wav",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "程序合成，不是实地录音；用于动作接触点对齐，音量需按当前混音审听。",
+  "source": {
+    "kind": "procedural_original",
+    "license": "MIT original code/composition",
+    "generator": "tools/build_action_sfx.py"
+  },
+  "content_bounds": null,
+  "content_bounds_format": null,
+  "medical_review": "not_applicable",
+  "review": {
+    "listening": "pending",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "listening_review_pending"
+  ],
+  "files": [
+    {
+      "path": "audio/cloth_rustle-1.wav",
+      "role": "payload",
+      "sha256": "fa137fe2c1188090b20deca8c9e905ebf2dbc723a915f6ac483e78e19954af5e",
+      "bytes": 86444,
+      "seed": 9407,
+      "duration_seconds": 0.9
+    },
+    {
+      "path": "audio/cloth_rustle-2.wav",
+      "role": "payload",
+      "sha256": "b4029d7985663c1d0b3e8d61094c27eca07d2752150d261ab76e6a1d1c165e94",
+      "bytes": 86444,
+      "seed": 9408,
+      "duration_seconds": 0.9
+    },
+    {
+      "path": "audio/cloth_rustle-3.wav",
+      "role": "payload",
+      "sha256": "f7577a977ea912a75f2c639ee58384a3e47a2f9e93a81fc247145990d48bb5b2",
+      "bytes": 86444,
+      "seed": 9409,
+      "duration_seconds": 0.9
+    },
+    {
+      "path": "audio/parameters.json",
+      "role": "evidence",
+      "sha256": "d3a392d9e06f5a673b6485e29df87f8ca3b6b526cdca9a869cc771330e47c082",
+      "bytes": 361
+    }
+  ],
+  "revision": "bd8c2ef99ee758df95eb"
+}

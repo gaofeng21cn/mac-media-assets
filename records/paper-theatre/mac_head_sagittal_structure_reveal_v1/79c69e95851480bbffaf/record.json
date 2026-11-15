@@ -1,0 +1,1238 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_head_sagittal_structure_reveal_v1",
+  "title": "头部矢状位·逐层揭示与局部高亮",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "anatomy",
+    "registered_layers",
+    "structure_reveal",
+    "2d_highlight"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "头部矢状位",
+      "逐层揭示",
+      "局部高亮",
+      "head_sagittal"
+    ],
+    "actions": [
+      "逐层揭示",
+      "原位高亮",
+      "局部近景"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ],
+    "renderers": [
+      "canvas2d"
+    ],
+    "display_title": "头部矢状位·逐层揭示与局部高亮",
+    "sample_duration_seconds": 10.200000000000001
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "头部向画面右的矢状位关系示意：大脑在颅内、小脑在后下、脑干向下，垂体经柄位于脑底，鼻旁窦位于面部后方。仅作位置说明，非影像切面；细节需独立近景，不表达脑沟回、垂体真实大小或病变。 仅二维揭示和高亮；不表示连续剖开、三维旋转或生理运动。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "pending",
+  "quality_debt": [
+    "current_shot_review_pending",
+    "medical_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "8322273e2b47f37f338986cd420924bab99e935150a02664eb4d056fbad96b06",
+      "bytes": 799
+    },
+    {
+      "path": "assets/brain_and_brainstem.webp",
+      "role": "payload",
+      "sha256": "594eec8e7fcd1ae1f98296f6afdfb51ed99fde11c6f2f64e30a71dd8b9cbd302",
+      "bytes": 11910
+    },
+    {
+      "path": "assets/head_profile.webp",
+      "role": "payload",
+      "sha256": "dc4080d2a1cf173d9367a10a58b363055085b9962fad053f099707e245f4466a",
+      "bytes": 9920
+    },
+    {
+      "path": "assets/paranasal_sinuses.webp",
+      "role": "payload",
+      "sha256": "38714783bf35538308df8fc91afe9f78b4b237f225b0341701d195c77fd76942",
+      "bytes": 1878
+    },
+    {
+      "path": "assets/pituitary_and_stalk.webp",
+      "role": "payload",
+      "sha256": "15a328d20474b4adf677f2a515284c5caca5afe69e87c4a76ee83c03ac3f98e4",
+      "bytes": 1564
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "original/USAGE.md",
+      "role": "payload",
+      "sha256": "6db51547c2b658a3d1dea04118a2dc126c628e182e59b38b1876a40394965f3b",
+      "bytes": 768
+    },
+    {
+      "path": "original/files/brain_and_brainstem.webp",
+      "role": "payload",
+      "sha256": "594eec8e7fcd1ae1f98296f6afdfb51ed99fde11c6f2f64e30a71dd8b9cbd302",
+      "bytes": 11910
+    },
+    {
+      "path": "original/files/head_profile.webp",
+      "role": "payload",
+      "sha256": "dc4080d2a1cf173d9367a10a58b363055085b9962fad053f099707e245f4466a",
+      "bytes": 9920
+    },
+    {
+      "path": "original/files/paranasal_sinuses.webp",
+      "role": "payload",
+      "sha256": "38714783bf35538308df8fc91afe9f78b4b237f225b0341701d195c77fd76942",
+      "bytes": 1878
+    },
+    {
+      "path": "original/files/pituitary_and_stalk.webp",
+      "role": "payload",
+      "sha256": "15a328d20474b4adf677f2a515284c5caca5afe69e87c4a76ee83c03ac3f98e4",
+      "bytes": 1564
+    },
+    {
+      "path": "original/library-record.json",
+      "role": "payload",
+      "sha256": "87e722f85f596d08d175a6f4ae388617faac469e3c8303ba3b46e8e4266b78af",
+      "bytes": 7421
+    },
+    {
+      "path": "original/samples/preview.webp",
+      "role": "payload",
+      "sha256": "5406a550d8149dedc9ba359b19ee732e078f658ee2c594dac54b6f8515d69fd8",
+      "bytes": 23616
+    },
+    {
+      "path": "original/source/brain_and_brainstem.svg",
+      "role": "payload",
+      "sha256": "194538f57353dbe47609fa121275c9afcad9d5af77b9ed93d4de4e552f8b83b0",
+      "bytes": 553
+    },
+    {
+      "path": "original/source/build_structure_schematics.py",
+      "role": "payload",
+      "sha256": "266e1d43e71f362330ed5e982350b2249b1325398736a4daa6ac368389c40227",
+      "bytes": 27655
+    },
+    {
+      "path": "original/source/head_profile.svg",
+      "role": "payload",
+      "sha256": "d8ad749664dbc0fde0e6ba64bf8df7bdfee23e2bd8b003ec614f6e4154ce3040",
+      "bytes": 390
+    },
+    {
+      "path": "original/source/paranasal_sinuses.svg",
+      "role": "payload",
+      "sha256": "4ead560f9af40d295e4daaf11ca02ae4eaab3c2dab55623c0888b51426a8078b",
+      "bytes": 350
+    },
+    {
+      "path": "original/source/pituitary_and_stalk.svg",
+      "role": "payload",
+      "sha256": "9e9265d7c384085e254eeef67ed36d6c45555f3ed4e19456a876bee525f94aeb",
+      "bytes": 313
+    },
+    {
+      "path": "original/source/preview.svg",
+      "role": "payload",
+      "sha256": "c1e9b4956fa0bcdaf4f575ffa0f2f2d80c13c708b8d9ac8f316263d8e233a6a9",
+      "bytes": 1315
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "7977de5cb74ad2ff1e57f7f47383020e3b2ac71352ecad12f3cb46e114ec7909",
+      "bytes": 376
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "cf60251b9fe91b0a8c94743c91655ac98f6fe05dfb94a669baf17aeababcd313",
+      "bytes": 7711
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "7f7e639dc82569e5b44400154624310d7a2d0a7b5ed09c37bab125d801df39cf",
+      "bytes": 4694
+    },
+    {
+      "path": "samples/background-color.webp",
+      "role": "payload",
+      "sha256": "03ea9b56e1d80971b247e8efb8044ff49c6cffc98d1ea7d40df41623d8dcfdc0",
+      "bytes": 39658
+    },
+    {
+      "path": "samples/background-dark.webp",
+      "role": "payload",
+      "sha256": "5c25db02a40a884e8a26930a41cbc5608347f7cea89d89acf24a423193c86bfb",
+      "bytes": 38732
+    },
+    {
+      "path": "samples/background-light.webp",
+      "role": "payload",
+      "sha256": "fbce8332c975d838d3eb91079023f4168ac94f9c70e3a6bcfceff23cf812c344",
+      "bytes": 39322
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "beb7dac7dd2caed8baca370d9a47af89dff1514cee0b654aece3b64faef2d0c6",
+      "bytes": 46960
+    },
+    {
+      "path": "samples/complete-background-color.webp",
+      "role": "payload",
+      "sha256": "feebc109735923f9ddf78fd9c63768f799ea02421afbe9c76d3d0d8ccdb9ea32",
+      "bytes": 41914
+    },
+    {
+      "path": "samples/complete-background-dark.webp",
+      "role": "payload",
+      "sha256": "86e265a49f63efeda0b15cb732ebdb94233f5c46f77b6bf834000fcd7942a219",
+      "bytes": 40966
+    },
+    {
+      "path": "samples/complete-background-light.webp",
+      "role": "payload",
+      "sha256": "279592d2b2b6e5996ee69e80e9041c0c3beb34e013c070cfbca2ab7857bd43f7",
+      "bytes": 41032
+    },
+    {
+      "path": "samples/complete-phone.webp",
+      "role": "payload",
+      "sha256": "ce6407b92d789b6d42c37732189a671e40f9d5a0c61730fdf02a1965d89ba4f8",
+      "bytes": 10158
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "c69f97024c786252e744d8209798efd3f090bc5d1fa84180bbb984326fb8575b",
+      "bytes": 209280
+    },
+    {
+      "path": "samples/focus-background-review.jpg",
+      "role": "payload",
+      "sha256": "1c90004c3c8e5a1967c67e7df5cc41dd60f4bcc6467131ba0bd649211d222d92",
+      "bytes": 259698
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile-color.webp",
+      "role": "payload",
+      "sha256": "91b32dda6d0a34c270d977989f5ada85f0232025c60c232f38e9146b1d960d3e",
+      "bytes": 10766
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile-dark.webp",
+      "role": "payload",
+      "sha256": "e4a949f5cafb89cceea34ed56fef7863228896dee52a0871f7c1b00dfc920904",
+      "bytes": 10988
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile-light.webp",
+      "role": "payload",
+      "sha256": "9cc3b9ac467489f125a44533b61fbc7f6d4bca0fb8ba88f9bd079788bef3c661",
+      "bytes": 9742
+    },
+    {
+      "path": "samples/focus-phone/0-head_profile.webp",
+      "role": "payload",
+      "sha256": "9cc3b9ac467489f125a44533b61fbc7f6d4bca0fb8ba88f9bd079788bef3c661",
+      "bytes": 9742
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem-color.webp",
+      "role": "payload",
+      "sha256": "89a05d76e1a1c7f7aa17c6bf0d3cee23dba2e8818e9cf4a5ac0c232229dd1557",
+      "bytes": 11962
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem-dark.webp",
+      "role": "payload",
+      "sha256": "779c3775261d37ee579296dc5346a43d24436a1da960aeb99ba8190458337310",
+      "bytes": 12026
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem-light.webp",
+      "role": "payload",
+      "sha256": "017122f67ca7a1d018944e06dbcb89d55780bc7201ce4ec3fc2f885f6977ada1",
+      "bytes": 11288
+    },
+    {
+      "path": "samples/focus-phone/1-brain_and_brainstem.webp",
+      "role": "payload",
+      "sha256": "017122f67ca7a1d018944e06dbcb89d55780bc7201ce4ec3fc2f885f6977ada1",
+      "bytes": 11288
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk-color.webp",
+      "role": "payload",
+      "sha256": "ed996b73c9db977d7848d04ec36105b53a65790c8bfd3588bea694f2c884e3d8",
+      "bytes": 11286
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk-dark.webp",
+      "role": "payload",
+      "sha256": "3112c27f05617f9df1ed39ee1a29f2cef8eab7f7f2588421ef46148fb995524d",
+      "bytes": 10932
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk-light.webp",
+      "role": "payload",
+      "sha256": "a20d5385a51daaa522a1ea0956c49c79c53101ae3cef9f3492cb1edcb088e6bb",
+      "bytes": 11366
+    },
+    {
+      "path": "samples/focus-phone/2-pituitary_and_stalk.webp",
+      "role": "payload",
+      "sha256": "a20d5385a51daaa522a1ea0956c49c79c53101ae3cef9f3492cb1edcb088e6bb",
+      "bytes": 11366
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses-color.webp",
+      "role": "payload",
+      "sha256": "8c1cc8b0ba583015fcbcddf314f053d67a9146a4bd1c4669888fb6b86c948c2c",
+      "bytes": 10700
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses-dark.webp",
+      "role": "payload",
+      "sha256": "1be042dc4019b2daeee51c0668fb04b9c34f4de9f7d2af735357416e1279c020",
+      "bytes": 10376
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses-light.webp",
+      "role": "payload",
+      "sha256": "4d24744d8aee73295edcd8e916db76615b556d627df75a2c03c662bfcf55309e",
+      "bytes": 10578
+    },
+    {
+      "path": "samples/focus-phone/3-paranasal_sinuses.webp",
+      "role": "payload",
+      "sha256": "4d24744d8aee73295edcd8e916db76615b556d627df75a2c03c662bfcf55309e",
+      "bytes": 10578
+    },
+    {
+      "path": "samples/keyframes/00.webp",
+      "role": "payload",
+      "sha256": "279592d2b2b6e5996ee69e80e9041c0c3beb34e013c070cfbca2ab7857bd43f7",
+      "bytes": 41032
+    },
+    {
+      "path": "samples/keyframes/01.webp",
+      "role": "payload",
+      "sha256": "279592d2b2b6e5996ee69e80e9041c0c3beb34e013c070cfbca2ab7857bd43f7",
+      "bytes": 41032
+    },
+    {
+      "path": "samples/keyframes/02.webp",
+      "role": "payload",
+      "sha256": "117f5011e3c6ab9b868c832c286ba4b9e6d76db61317fc7eb4ee04d1457a66a1",
+      "bytes": 20210
+    },
+    {
+      "path": "samples/keyframes/03.webp",
+      "role": "payload",
+      "sha256": "9f997a9d3de5787e2f071b29b78a86c6ea2d93127d77f35f46a0f870cd150f80",
+      "bytes": 29342
+    },
+    {
+      "path": "samples/keyframes/04.webp",
+      "role": "payload",
+      "sha256": "9f997a9d3de5787e2f071b29b78a86c6ea2d93127d77f35f46a0f870cd150f80",
+      "bytes": 29342
+    },
+    {
+      "path": "samples/keyframes/05.webp",
+      "role": "payload",
+      "sha256": "82551fbdc97f76751a5739c02eac5fdbd01dd74ec3657dcec3c4ae0b9d8581ce",
+      "bytes": 39614
+    },
+    {
+      "path": "samples/keyframes/06.webp",
+      "role": "payload",
+      "sha256": "82551fbdc97f76751a5739c02eac5fdbd01dd74ec3657dcec3c4ae0b9d8581ce",
+      "bytes": 39614
+    },
+    {
+      "path": "samples/keyframes/07.webp",
+      "role": "payload",
+      "sha256": "59f1eee8669e1f2711f85fa9db8087e522fc353a28f6e0038c95f3e399bd59b2",
+      "bytes": 40130
+    },
+    {
+      "path": "samples/keyframes/08.webp",
+      "role": "payload",
+      "sha256": "59f1eee8669e1f2711f85fa9db8087e522fc353a28f6e0038c95f3e399bd59b2",
+      "bytes": 40130
+    },
+    {
+      "path": "samples/keyframes/09.webp",
+      "role": "payload",
+      "sha256": "d5d1bc092aa22aa64dfcbb21f017e21b764cd0b96ac405f189e7ea6c62af8857",
+      "bytes": 41406
+    },
+    {
+      "path": "samples/keyframes/10.webp",
+      "role": "payload",
+      "sha256": "d5d1bc092aa22aa64dfcbb21f017e21b764cd0b96ac405f189e7ea6c62af8857",
+      "bytes": 41406
+    },
+    {
+      "path": "samples/keyframes/11.webp",
+      "role": "payload",
+      "sha256": "1d67ed3819d67a6231e8559c2fe89847a60f234595a526373f8853d9569f0fbe",
+      "bytes": 47118
+    },
+    {
+      "path": "samples/keyframes/12.webp",
+      "role": "payload",
+      "sha256": "1d67ed3819d67a6231e8559c2fe89847a60f234595a526373f8853d9569f0fbe",
+      "bytes": 47118
+    },
+    {
+      "path": "samples/keyframes/13.webp",
+      "role": "payload",
+      "sha256": "1d67ed3819d67a6231e8559c2fe89847a60f234595a526373f8853d9569f0fbe",
+      "bytes": 47118
+    },
+    {
+      "path": "samples/keyframes/14.webp",
+      "role": "payload",
+      "sha256": "f4f3b2aa2b4fa6b459b423abf15c5d65c3a5b127f775ec7348a668b6d330183b",
+      "bytes": 58142
+    },
+    {
+      "path": "samples/keyframes/15.webp",
+      "role": "payload",
+      "sha256": "f4f3b2aa2b4fa6b459b423abf15c5d65c3a5b127f775ec7348a668b6d330183b",
+      "bytes": 58142
+    },
+    {
+      "path": "samples/keyframes/16.webp",
+      "role": "payload",
+      "sha256": "f4f3b2aa2b4fa6b459b423abf15c5d65c3a5b127f775ec7348a668b6d330183b",
+      "bytes": 58142
+    },
+    {
+      "path": "samples/keyframes/17.webp",
+      "role": "payload",
+      "sha256": "db7b039e065288cc1f68eb9f0df23b06f82cb90cef7287fd9d5f956583602d16",
+      "bytes": 55574
+    },
+    {
+      "path": "samples/keyframes/18.webp",
+      "role": "payload",
+      "sha256": "db7b039e065288cc1f68eb9f0df23b06f82cb90cef7287fd9d5f956583602d16",
+      "bytes": 55574
+    },
+    {
+      "path": "samples/keyframes/19.webp",
+      "role": "payload",
+      "sha256": "db7b039e065288cc1f68eb9f0df23b06f82cb90cef7287fd9d5f956583602d16",
+      "bytes": 55574
+    },
+    {
+      "path": "samples/keyframes/20.webp",
+      "role": "payload",
+      "sha256": "7640d7378d9f2ba444ab108e3c91bfccb77159e13250e99f1fecb538c0f857d2",
+      "bytes": 53088
+    },
+    {
+      "path": "samples/keyframes/21.webp",
+      "role": "payload",
+      "sha256": "7640d7378d9f2ba444ab108e3c91bfccb77159e13250e99f1fecb538c0f857d2",
+      "bytes": 53088
+    },
+    {
+      "path": "samples/keyframes/22.webp",
+      "role": "payload",
+      "sha256": "b0a7bbbbddf0b9c74f96083d363f03f456a993715ae89dd8f8e57b9a88088d3a",
+      "bytes": 48446
+    },
+    {
+      "path": "samples/keyframes/23.webp",
+      "role": "payload",
+      "sha256": "279592d2b2b6e5996ee69e80e9041c0c3beb34e013c070cfbca2ab7857bd43f7",
+      "bytes": 41032
+    },
+    {
+      "path": "samples/phone-reading.webp",
+      "role": "payload",
+      "sha256": "8adb2cad2e53dc80a5d080df1b607c4834fbb883c00dd2c3ec31cf94f856f036",
+      "bytes": 17976
+    },
+    {
+      "path": "samples/phone.webp",
+      "role": "payload",
+      "sha256": "5117eda2fd8a716ba19080d35199cc522bc2bdc46810203a2bdf0f3abbb61d68",
+      "bytes": 9932
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "b374f1065181d1a2f9dfc343965e9d5348105ac9411bfd9c365a6c7ea97f6fac",
+      "bytes": 273178
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "16bfb9e7f882f475baf39e7a00c545b0bdfe28cd00eee661bd785dc031f04562",
+      "bytes": 18798
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "c689d3c9a6db804c01a38108b091d48d1ecfc3c1dba9da1be0ffb56f2dc1fc8e",
+      "bytes": 6914
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "79c69e95851480bbffaf",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:mac_head_sagittal_structure_reveal_v1@ce3141ba0ce1ceb13d9b",
+    "source_record_sha256": "df4d94022a9bbb3f0d0129d48c678a55e2abfbd731a25f9f87174fbc2be3ec52",
+    "encodings": [
+      {
+        "path": "assets/brain_and_brainstem.png",
+        "encoded_path": "assets/brain_and_brainstem.webp",
+        "source_sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/head_profile.png",
+        "encoded_path": "assets/head_profile.webp",
+        "source_sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/paranasal_sinuses.png",
+        "encoded_path": "assets/paranasal_sinuses.webp",
+        "source_sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "assets/pituitary_and_stalk.png",
+        "encoded_path": "assets/pituitary_and_stalk.webp",
+        "source_sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/brain_and_brainstem.png",
+        "encoded_path": "original/files/brain_and_brainstem.webp",
+        "source_sha256": "a4a159f52fcb6c27dad2a45ad1a75019acbbf2db79f65b46dd8cab19cf09fa41",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/head_profile.png",
+        "encoded_path": "original/files/head_profile.webp",
+        "source_sha256": "238f640915e59e59f389a2f19981697c057d6f131fd3174679018b487d79eb2f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/paranasal_sinuses.png",
+        "encoded_path": "original/files/paranasal_sinuses.webp",
+        "source_sha256": "f7be91e546f2aa9d44d5b30aa8e7249fb263f77186577cba25b8a8b376c184ba",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/files/pituitary_and_stalk.png",
+        "encoded_path": "original/files/pituitary_and_stalk.webp",
+        "source_sha256": "0857575bdddc4e61a2a4ba888d5f6cffabc006cafed3568993faa992877f17e5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "original/samples/preview.png",
+        "encoded_path": "original/samples/preview.webp",
+        "source_sha256": "279badfa9cae332f0450d9a64503bf2738e56bb3257d3eedc11af1fa6db06b6a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/background-color.png",
+        "encoded_path": "samples/background-color.webp",
+        "source_sha256": "dd7f2129d436c43cd40eaea90020878301c8d6ecd32af62133cb984d0b27e88e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-dark.png",
+        "encoded_path": "samples/background-dark.webp",
+        "source_sha256": "23de2bb42022c3e4bf092d136a38c9df9299120d3312836e1d1d822f32c88c5f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/background-light.png",
+        "encoded_path": "samples/background-light.webp",
+        "source_sha256": "612b90041e6370dd6120ae8c31df26bfacdf897c3e6ec15814b62fc48a8c9d3a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-color.png",
+        "encoded_path": "samples/complete-background-color.webp",
+        "source_sha256": "b917b0f5bc6316486acb9214bcfde77981e162ba2f29905fa441bbf24c6c63a5",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-dark.png",
+        "encoded_path": "samples/complete-background-dark.webp",
+        "source_sha256": "ba64078ee7e3f39e03910ddde2e3eb9b2a77fff4535cd2a116871268b834b31b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-background-light.png",
+        "encoded_path": "samples/complete-background-light.webp",
+        "source_sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/complete-phone.png",
+        "encoded_path": "samples/complete-phone.webp",
+        "source_sha256": "d50dc2e95314d2f40a1879737544d51f56ff64847aaafca25dff5b83f85d5d9a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-head_profile-color.png",
+        "encoded_path": "samples/focus-phone/0-head_profile-color.webp",
+        "source_sha256": "39d83396d3b48c57c0f87f0ceee42ca7274e5765f81b0354c31aeb32bf3b93aa",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-head_profile-dark.png",
+        "encoded_path": "samples/focus-phone/0-head_profile-dark.webp",
+        "source_sha256": "1fc29c420b5b35da2b6454f480d28f9ff92a9e6b26b4d31e73db751b56fb2e1e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-head_profile-light.png",
+        "encoded_path": "samples/focus-phone/0-head_profile-light.webp",
+        "source_sha256": "b16b0a399a70d158b75ab2b1de8e225fefb820670dbbdee79e2114bb96f5ce95",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/0-head_profile.png",
+        "encoded_path": "samples/focus-phone/0-head_profile.webp",
+        "source_sha256": "b16b0a399a70d158b75ab2b1de8e225fefb820670dbbdee79e2114bb96f5ce95",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-brain_and_brainstem-color.png",
+        "encoded_path": "samples/focus-phone/1-brain_and_brainstem-color.webp",
+        "source_sha256": "a702f5de1f32659011b10ca086c16a03b3c4cfbe0a632bb09046712cd64cfe53",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-brain_and_brainstem-dark.png",
+        "encoded_path": "samples/focus-phone/1-brain_and_brainstem-dark.webp",
+        "source_sha256": "c7a8a64bbe10dc0248c4c9811afdb95357e4d2c06aa9e2603e96f285ed5426f8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-brain_and_brainstem-light.png",
+        "encoded_path": "samples/focus-phone/1-brain_and_brainstem-light.webp",
+        "source_sha256": "ae789af3725150b3e1b6180029775acc8d799fd5dd0ef44ee5295dbab591d186",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/1-brain_and_brainstem.png",
+        "encoded_path": "samples/focus-phone/1-brain_and_brainstem.webp",
+        "source_sha256": "ae789af3725150b3e1b6180029775acc8d799fd5dd0ef44ee5295dbab591d186",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-pituitary_and_stalk-color.png",
+        "encoded_path": "samples/focus-phone/2-pituitary_and_stalk-color.webp",
+        "source_sha256": "50638bd0a9a5cef8ce375242d5643df1622bab2e951f28cb452a24c1cc395df9",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-pituitary_and_stalk-dark.png",
+        "encoded_path": "samples/focus-phone/2-pituitary_and_stalk-dark.webp",
+        "source_sha256": "9b4292a6fffef22bf98662b0de78b3b9337dda5c86f72833c62d01968ef5ec26",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-pituitary_and_stalk-light.png",
+        "encoded_path": "samples/focus-phone/2-pituitary_and_stalk-light.webp",
+        "source_sha256": "ac23960e92cdcf3981cc934d8a8da29b09508eba07687cdbfd1a65718d236cbe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/2-pituitary_and_stalk.png",
+        "encoded_path": "samples/focus-phone/2-pituitary_and_stalk.webp",
+        "source_sha256": "ac23960e92cdcf3981cc934d8a8da29b09508eba07687cdbfd1a65718d236cbe",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-paranasal_sinuses-color.png",
+        "encoded_path": "samples/focus-phone/3-paranasal_sinuses-color.webp",
+        "source_sha256": "39e6867500d7db78d04e8aab43dd5cf1e77cb3ac0848b0f5c3d8ec38ff71b437",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-paranasal_sinuses-dark.png",
+        "encoded_path": "samples/focus-phone/3-paranasal_sinuses-dark.webp",
+        "source_sha256": "016a239b8549082b6de813af1e641d146a2e8684532692f41fed1ddd02e3e803",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-paranasal_sinuses-light.png",
+        "encoded_path": "samples/focus-phone/3-paranasal_sinuses-light.webp",
+        "source_sha256": "a9df22d6c52b3d73fb4adf7a7f76219b673f69916779446507cb2ef256455c77",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/focus-phone/3-paranasal_sinuses.png",
+        "encoded_path": "samples/focus-phone/3-paranasal_sinuses.webp",
+        "source_sha256": "a9df22d6c52b3d73fb4adf7a7f76219b673f69916779446507cb2ef256455c77",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/00.png",
+        "encoded_path": "samples/keyframes/00.webp",
+        "source_sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/01.png",
+        "encoded_path": "samples/keyframes/01.webp",
+        "source_sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/02.png",
+        "encoded_path": "samples/keyframes/02.webp",
+        "source_sha256": "d5ae27f7eb75cc452f9d3e09feae112b154b999584ec7c11f00530f3a8f0083f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/03.png",
+        "encoded_path": "samples/keyframes/03.webp",
+        "source_sha256": "3566b77455b4ed7527aab42993bb07b34f709cb52b0b81461338fe86f81b282e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/04.png",
+        "encoded_path": "samples/keyframes/04.webp",
+        "source_sha256": "3566b77455b4ed7527aab42993bb07b34f709cb52b0b81461338fe86f81b282e",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/05.png",
+        "encoded_path": "samples/keyframes/05.webp",
+        "source_sha256": "0b6ac29a17e758c0e99d0e09d63eb263eefe31a6dd7f9e951b0b5c1a0454366b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/06.png",
+        "encoded_path": "samples/keyframes/06.webp",
+        "source_sha256": "0b6ac29a17e758c0e99d0e09d63eb263eefe31a6dd7f9e951b0b5c1a0454366b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/07.png",
+        "encoded_path": "samples/keyframes/07.webp",
+        "source_sha256": "a215b43bcd0542714c42390f62a7db084aa99fb12711108992aacc40ce216943",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/08.png",
+        "encoded_path": "samples/keyframes/08.webp",
+        "source_sha256": "a215b43bcd0542714c42390f62a7db084aa99fb12711108992aacc40ce216943",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/09.png",
+        "encoded_path": "samples/keyframes/09.webp",
+        "source_sha256": "1d90eb666adde90d258a9239abf1ef53f8e6aaf8dcb0d49d9567953864332802",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/10.png",
+        "encoded_path": "samples/keyframes/10.webp",
+        "source_sha256": "1d90eb666adde90d258a9239abf1ef53f8e6aaf8dcb0d49d9567953864332802",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/11.png",
+        "encoded_path": "samples/keyframes/11.webp",
+        "source_sha256": "b1b6e4d78f9b3d637e99d55301d5a3e1d5bcf55a0218234eaa832e7a5c681b0d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/12.png",
+        "encoded_path": "samples/keyframes/12.webp",
+        "source_sha256": "b1b6e4d78f9b3d637e99d55301d5a3e1d5bcf55a0218234eaa832e7a5c681b0d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/13.png",
+        "encoded_path": "samples/keyframes/13.webp",
+        "source_sha256": "b1b6e4d78f9b3d637e99d55301d5a3e1d5bcf55a0218234eaa832e7a5c681b0d",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/14.png",
+        "encoded_path": "samples/keyframes/14.webp",
+        "source_sha256": "8cc067e0405dd45f444cbd573352ec2d89bb7415974d3044fc7a3e22f951b049",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/15.png",
+        "encoded_path": "samples/keyframes/15.webp",
+        "source_sha256": "8cc067e0405dd45f444cbd573352ec2d89bb7415974d3044fc7a3e22f951b049",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/16.png",
+        "encoded_path": "samples/keyframes/16.webp",
+        "source_sha256": "8cc067e0405dd45f444cbd573352ec2d89bb7415974d3044fc7a3e22f951b049",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/17.png",
+        "encoded_path": "samples/keyframes/17.webp",
+        "source_sha256": "9f7db4f5b54c3c5f622daf3aff3fa70ccc011d8c7ad23b0fae03866ba6fb7fca",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/18.png",
+        "encoded_path": "samples/keyframes/18.webp",
+        "source_sha256": "9f7db4f5b54c3c5f622daf3aff3fa70ccc011d8c7ad23b0fae03866ba6fb7fca",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/19.png",
+        "encoded_path": "samples/keyframes/19.webp",
+        "source_sha256": "9f7db4f5b54c3c5f622daf3aff3fa70ccc011d8c7ad23b0fae03866ba6fb7fca",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/20.png",
+        "encoded_path": "samples/keyframes/20.webp",
+        "source_sha256": "4b7948b402a665f048a5f22bc22ae9f964dcda4a0dea299df59982602420933b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/21.png",
+        "encoded_path": "samples/keyframes/21.webp",
+        "source_sha256": "4b7948b402a665f048a5f22bc22ae9f964dcda4a0dea299df59982602420933b",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/22.png",
+        "encoded_path": "samples/keyframes/22.webp",
+        "source_sha256": "9973333beddbdbddc403e727bff9714f8906de2f90159b0997da5d66ee00ee76",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/keyframes/23.png",
+        "encoded_path": "samples/keyframes/23.webp",
+        "source_sha256": "5177b0c3c9cd7c161b0024b34ad4b381502a159c6fc5d2b400ea8f37d16ccfe8",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1280,
+        "height": 721,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone-reading.png",
+        "encoded_path": "samples/phone-reading.webp",
+        "source_sha256": "6accee6e4b326d8363b624d8df45ff2e78ddf984577837739262f342e96d5709",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      },
+      {
+        "path": "samples/phone.png",
+        "encoded_path": "samples/phone.webp",
+        "source_sha256": "8fccbe0b0eb2d8e9afd107bdb0a08a4c7f028161867c96624bdc659cf274f22a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 400,
+        "height": 226,
+        "alpha_min": 255
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_person_reach_v1",
+  "title": "通用人物接触姿态",
+  "kind": "image",
+  "tags": [
+    "reserve_2026_10_11",
+    "paper_collage",
+    "character",
+    "person_reach"
+  ],
+  "entry": "files/payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "pending_review",
+  "usage_notes": "姿态替换/接触小样；非连续步行循环；不是医生形象/品牌；整姿态不能宣称肢体可拆",
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "plan_id": "person_reach",
+    "source_plan": "/Users/gaofeng/workspace/科普视频/work/mac-media-assets/reserve-2026-10-11/plan.json"
+  },
+  "content_bounds": [
+    25,
+    15,
+    1014,
+    1536
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "quality_debt": [
+    "static_candidate_only",
+    "continuous_motion_pending"
+  ],
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_contact_sheet",
+    "full_motion": "pending"
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "ae40821b15d1ea52ce4b7bbe7463eea58ad2cc1fed3fc6f4109490cdf39d123e",
+      "bytes": 1805423
+    },
+    {
+      "path": "evidence/generation-receipt.json",
+      "role": "evidence",
+      "sha256": "ba97b33abca40f33eae2dd32c9d4092f19a61a3f6bb942eb952286b9f6038779",
+      "bytes": 1458
+    }
+  ],
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.064
+      },
+      "feet": {
+        "x": 0.5,
+        "y": 0.984
+      },
+      "hand_left": {
+        "x": 0.361,
+        "y": 0.52
+      },
+      "hand_right": {
+        "x": 0.767,
+        "y": 0.352
+      }
+    }
+  },
+  "revision": "e160c989f583b79e7503"
+}

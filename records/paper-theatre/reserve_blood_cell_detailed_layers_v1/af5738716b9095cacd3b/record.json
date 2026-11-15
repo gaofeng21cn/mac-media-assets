@@ -1,0 +1,306 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_blood_cell_detailed_layers_v1",
+  "title": "红细胞·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "membrane",
+      "path": "files/membrane.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "红细胞·membrane",
+      "medical": true,
+      "content_bounds": [
+        184,
+        261,
+        840,
+        763
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "cytoplasm",
+      "path": "files/cytoplasm.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "红细胞·cytoplasm",
+      "medical": true,
+      "content_bounds": [
+        257,
+        324,
+        767,
+        700
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "central_pallor",
+      "path": "files/central_pallor.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "红细胞·central_pallor",
+      "medical": true,
+      "content_bounds": [
+        355,
+        400,
+        669,
+        624
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "centre": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_blood_cell_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "红细胞",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "membrane",
+      "cytoplasm",
+      "central_pallor"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "红细胞双凹圆盘正视示意，区分膜、胞质与中央淡区；不表示血红蛋白含量、形态学分类或血液病。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/membrane.svg",
+      "role": "source",
+      "sha256": "6e2f001714667e43d3342aabd007693eceadec1ebc2894218cb100e7829fddd9",
+      "bytes": 221
+    },
+    {
+      "path": "files/membrane.webp",
+      "role": "payload",
+      "sha256": "dac547aae106eb6cf3d8435ddca4ec14a07aad5144ead0067eb613b161787d49",
+      "bytes": 8398
+    },
+    {
+      "path": "source/cytoplasm.svg",
+      "role": "source",
+      "sha256": "6e3220fe016fd0a2b48337547c0707ba5d746aadc20ab4f44a83658950ed6da0",
+      "bytes": 224
+    },
+    {
+      "path": "files/cytoplasm.webp",
+      "role": "payload",
+      "sha256": "05a534e025a696e74dd0f2db9d131449fb8fc1f3eb04b482bc2fb99cf0de27a6",
+      "bytes": 7804
+    },
+    {
+      "path": "source/central_pallor.svg",
+      "role": "source",
+      "sha256": "5f4681ebed7c4bfb4c05a2a0ea4256be49bac07364ee59992ed64bfbf9594970",
+      "bytes": 224
+    },
+    {
+      "path": "files/central_pallor.webp",
+      "role": "payload",
+      "sha256": "b02832d97217a071693804782a65e831629b2257b176b42f657c0316724c265a",
+      "bytes": 5204
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "defd052e85d2fe5a7853e7ed3a79e8292eb1fb95ceedb7a93498370e90be1b3c",
+      "bytes": 475
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "136c77ab28d04150a4f5c3e4717547181a445db52cc3323d777fa54dfa1beacb",
+      "bytes": 21726
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "b8a1fdb7ecb98f1bddaac3f0f2c0b27a9d0e5816939f278909a78fa8dfed5cc5",
+      "bytes": 24223
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "2cdd58a4f49f0c609c47454880422ae9e302f8d6d0a276325154584425fa8193",
+      "bytes": 627
+    }
+  ],
+  "revision": "af5738716b9095cacd3b",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_blood_cell_detailed_layers_v1@0c143d9631cd28a9c75f",
+    "source_record_sha256": "196bc074e243154846b89079533c1e5fa3499b75869c2ceb1f489617d302931a",
+    "encodings": [
+      {
+        "path": "files/membrane.png",
+        "encoded_path": "files/membrane.webp",
+        "source_sha256": "c0c05df965d5a6d8284bfa4b8f881366b344a2f3d956b24022a1db8576e8d535",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/cytoplasm.png",
+        "encoded_path": "files/cytoplasm.webp",
+        "source_sha256": "c097a662c07f1b17bccf4f83a8049dd419901d4ef148abde703e843ae1995404",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/central_pallor.png",
+        "encoded_path": "files/central_pallor.webp",
+        "source_sha256": "81c5b080b2fed47674be9655cb45b413f47dd89c8ffd868dc244e2211cf42407",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "a3c1678f1244f8d8fcc7d899329a71b99fb2a9c0e459fd4613db192b08a9860f",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

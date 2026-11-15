@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_bedside_lamp_v1",
+  "title": "床头台灯·独立生活纸件",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    17,
+    29,
+    1258,
+    1204
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "bedside_lamp"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "床头台灯·独立生活纸件",
+      "bedside_lamp"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "床头台灯·独立生活纸件",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        17,
+        29,
+        1258,
+        1204
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "夜间环境与照明安排道具，发光效果由场景按语境另行控制。"
+    }
+  ],
+  "usage_notes": "夜间环境与照明安排道具，发光效果由场景按语境另行控制。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "f0d0f133742bc628181598aa7ce5cfd8f772c24dc58249eb3d6856a6c64e8d37",
+      "bytes": 745596
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "0aea673ff1f803e7a673e03945dd063d4eb10847c219670d065202be44ed722d",
+      "bytes": 797
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "18235b3a68e3818071a8b673d3245882c52c4704c36179efac466c2607012fd7",
+      "bytes": 621
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "42ae8191576e9c0aa11996d802b37cd0c28dda1a0b46ad97de2f54633bbe09c5",
+      "bytes": 592
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "9b7f33936dcb7c2b9e0a8c29038d9977af59674a3c45d54e1ff1f8737a79abd9",
+      "bytes": 63912
+    }
+  ],
+  "revision": "64f0182dfbb2ef3de426",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_bedside_lamp_v1@c0df1872bd2e0e2ef28b",
+    "source_record_sha256": "3b53c1c06295287d6a47e89cd64f7c13b86184564c368ed90aefb319472c0fea",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "42beaeb0bf30a5c2497d627000f83cb3c8a9af52b5d05e6a1d383d0c424d9824",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1278,
+        "height": 1230,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

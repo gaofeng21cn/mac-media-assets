@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_smartwatch_v1",
+  "title": "智能手表·可排心电屏幕",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    12,
+    1085,
+    1434
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "smartwatch"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "智能手表·可排心电屏幕",
+      "smartwatch"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "智能手表·可排心电屏幕",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        12,
+        1085,
+        1434
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "手表外观纸件，心电波形和报警信息另按当前镜头准确叠入；不自行诊断房颤。"
+    }
+  ],
+  "usage_notes": "手表外观纸件，心电波形和报警信息另按当前镜头准确叠入；不自行诊断房颤。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "0f1e12f4bd6b4f0f265fd64de5a27afa7e31108107b1e7dfd0c2f411bb2a9ec6",
+      "bytes": 1419564
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "7a961c787f67109458fc38ec5afd29b019f8389d4fb6995da4f9c6aafd536edc",
+      "bytes": 884
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "8b039ba621bd9a09350c10e14a49885dd812b511fee4eca1799fb01c51424ca7",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "5e9cefbdcbd2d279e26732f939d4def105e6f8eaae945024b22fde126219cb96",
+      "bytes": 616
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "9f06d6d08b06811663002345c3a824b731298379cd55226d72f116de40287cf6",
+      "bytes": 81494
+    }
+  ],
+  "revision": "bdd5bfa2a24fda17a00a",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_smartwatch_v1@d0293d5a31dacb0afbb8",
+    "source_record_sha256": "b52e33acbb0c0d9dbd234863f12ebc2c0fb296699b005de3df8c957f433eea60",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "748f5a917a0c3eb453eafb1d6f6b10e0ba8a29c5dab034ff0b32beb79411fc80",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1086,
+        "height": 1448,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

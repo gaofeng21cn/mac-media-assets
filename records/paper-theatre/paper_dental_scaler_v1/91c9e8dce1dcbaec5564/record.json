@@ -1,0 +1,139 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_dental_scaler_v1",
+  "title": "手用牙科洁治器·纤维纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "topic",
+    "topic": "oral_health"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    0,
+    1494,
+    990
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "dental_scaler"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "手用牙科洁治器·纤维纸件",
+      "dental_scaler"
+    ],
+    "story_roles": [
+      "机制解释"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "手用牙科洁治器·纤维纸件",
+      "medical": true,
+      "medical_reference": "USAGE.md",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        0,
+        1494,
+        990
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "手用牙科洁治器，专业清洁情境中的器械身份；不作为患者自行刮治的操作示范。"
+    }
+  ],
+  "usage_notes": "手用牙科洁治器，专业清洁情境中的器械身份；不作为患者自行刮治的操作示范。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "27441a1750d7f319f63beb2f124279696c0ec7d820900c5d076b8b3073d096b4",
+      "bytes": 803392
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "d8ca8e6465bb9383f68dcbd82c68fa9a1b918f4def67175474593962d696ffa6",
+      "bytes": 1298
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "caf9644e169efda32154c0e5af4a79b8cf8a2ffeca8e01d09c9634f35339313b",
+      "bytes": 618
+    },
+    {
+      "path": "evidence/research-matrix.yaml",
+      "role": "evidence",
+      "sha256": "7936286191438c7dba0ceb77932a2a6bffec578bcbb2514888160f1d82c20580",
+      "bytes": 22370
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "5a634caf08b43c30ba9cb13ddb5fa9caa8fdb7fca4bea2b4112a5ae5120e0d18",
+      "bytes": 785
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "914df04da9f53a88071908569d1ef7d04a08a5fa51506c4b5b2b25a128d9d50b",
+      "bytes": 33510
+    }
+  ],
+  "revision": "91c9e8dce1dcbaec5564",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_dental_scaler_v1@1f9406cb8e43a1d86a43",
+    "source_record_sha256": "4b860912ac692d1bf161c20a31859b7293100f63b02e5795f09f70c6373982dc",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "53c35cfc250ad6708ff62065d365982e5a979e4ea71a7607ee137f8c3a6e634c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

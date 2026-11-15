@@ -1,0 +1,304 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_liver_detailed_layers_v1",
+  "title": "肝脏·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "right_lobe",
+      "path": "files/right_lobe.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肝脏·right_lobe",
+      "medical": true,
+      "content_bounds": [
+        219,
+        210,
+        707,
+        512
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "left_lobe",
+      "path": "files/left_lobe.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肝脏·left_lobe",
+      "medical": true,
+      "content_bounds": [
+        651,
+        353,
+        814,
+        517
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "gallbladder",
+      "path": "files/gallbladder.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肝脏·gallbladder",
+      "medical": true,
+      "content_bounds": [
+        425,
+        497,
+        515,
+        629
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "bile_duct",
+      "path": "files/bile_duct.png",
+      "source_type": "original_vector",
+      "visual_meaning": "肝脏·bile_duct",
+      "medical": true,
+      "content_bounds": [
+        491,
+        463,
+        623,
+        519
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.46,
+            "y": 0.38
+          },
+          "gallbladder": {
+            "x": 0.47,
+            "y": 0.55
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_liver_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肝脏",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "right_lobe",
+      "left_lobe",
+      "gallbladder",
+      "bile_duct"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肝脏外形示意，区分左右叶、胆囊与胆道走向；不表示肝内血管分段、肝功能或病灶。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/right_lobe.svg",
+      "role": "source",
+      "sha256": "be804877a8c70f2b46da6d6b7d2a810ae475696ca8de901c8c0fccefe67a7153",
+      "bytes": 310
+    },
+    {
+      "path": "files/right_lobe.png",
+      "role": "payload",
+      "sha256": "fbbcae8ce59c45886aec9884db1b5c1d930c94b2a886a48f1ab524f16c4e0fef",
+      "bytes": 20431
+    },
+    {
+      "path": "source/left_lobe.svg",
+      "role": "source",
+      "sha256": "239583fb8d32e7550351b25b65eea3a9115765bcc3addb34ecf974aa16364921",
+      "bytes": 268
+    },
+    {
+      "path": "files/left_lobe.png",
+      "role": "payload",
+      "sha256": "0cc93558b48b5c95bafac73691068fad8a958aa8cd0e554c99a65337939e2ecb",
+      "bytes": 11806
+    },
+    {
+      "path": "source/gallbladder.svg",
+      "role": "source",
+      "sha256": "a9ecca74e1af751d36feec73bfdac3ff372e963337ca8ebb94f64da9cf22f0ea",
+      "bytes": 243
+    },
+    {
+      "path": "files/gallbladder.png",
+      "role": "payload",
+      "sha256": "132834aa04dc6e48b00cfc7a1b13ee9c50639abcdef1bbff05882d44b81ac2d3",
+      "bytes": 8836
+    },
+    {
+      "path": "source/bile_duct.svg",
+      "role": "source",
+      "sha256": "8e0d94ea4096bcb8e001c31b2106d63d2c976b131bfb3998b72604f238fc5aed",
+      "bytes": 228
+    },
+    {
+      "path": "files/bile_duct.png",
+      "role": "payload",
+      "sha256": "8e78c0f5e1a2b130125405b99713e4965076a7c9465f1eea129e73d1f6bf4442",
+      "bytes": 6208
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "1298fa8f3238ab4d2f8cb2515b56c54452d425f85c5513de52fc5ca6a0461519",
+      "bytes": 758
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "0bb5e99df3ea40ccb63720d76fdcda50057656b9752ed2cf0e92eb6c856e2227",
+      "bytes": 30034
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "35d5b6581ca11b387ba14a7d3dd20c9b672d20ee7cfead27704bddfb44445a76",
+      "bytes": 606
+    }
+  ],
+  "revision": "b23153ea3cbdb7062dbc"
+}

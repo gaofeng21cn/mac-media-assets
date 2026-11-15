@@ -1,0 +1,274 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_bp_cuff_action_v1",
+  "title": "上臂式血压计：展开袖带、套上、缠紧、读数与拆下",
+  "kind": "motion_recipe",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_animation",
+    "generation_receipt": "provenance.json"
+  },
+  "tags": [
+    "paper_collage",
+    "continuous_action",
+    "monitoring",
+    "bp_cuff"
+  ],
+  "discovery": {
+    "category": "motion",
+    "aliases": [
+      "上臂式血压计：展开袖带、套上、缠紧、读数与拆下",
+      "血压计",
+      "袖带",
+      "上臂测量",
+      "器械操作",
+      "mac_bp_cuff_action_v1"
+    ],
+    "actions": [
+      "器械操作",
+      "袖带佩戴",
+      "血压测量",
+      "读数"
+    ],
+    "medium": "code",
+    "story_roles": [
+      "家庭监测",
+      "诊室检查",
+      "连续动作"
+    ],
+    "display_title": "上臂式血压计：展开袖带、套上、缠紧、读数与拆下",
+    "renderers": [
+      "canvas2d"
+    ],
+    "sample_duration_seconds": 6.5
+  },
+  "status": "reusable_candidate",
+  "usage_notes": "器械操作部件级样本：手臂、袖带与主机各自独立可调，接触点固定在同一条上臂。读数是示意，不表示真实测量时长、测量方法或任何医学结论；临床测量数值与流程由具体故事提供。",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "full_motion": "passed",
+    "current_shot": "pending",
+    "medical": "not_applicable",
+    "full_listening": "not_applicable",
+    "evidence_ref": "review.json"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "registration": {
+    "coordinate_space": "sequence_frames_and_runtime_world",
+    "frames_ref": "sequence.json",
+    "contact_events_ref": "sequence.json#events"
+  },
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "payload",
+      "sha256": "eaed64683866d1f9c79e675fe5b569cbb940a253ed22cad86756373dca485708",
+      "bytes": 859
+    },
+    {
+      "path": "assets/arm.png",
+      "role": "payload",
+      "sha256": "71f203a4897bd8beac6753605612e0236f3592e1dbcb694313fea2f0c42b4a66",
+      "bytes": 1585005
+    },
+    {
+      "path": "assets/cuff_open.png",
+      "role": "payload",
+      "sha256": "b413f1943833aeec008d4ca529a3c3b581763d835144b47db1ba7dbf2a4f054f",
+      "bytes": 3165847
+    },
+    {
+      "path": "assets/cuff_wrapped.png",
+      "role": "payload",
+      "sha256": "c932df4d172fd791c3d85a5e34dad7a2c06d3a4e0e341cdc66c6e6c783a6b598",
+      "bytes": 1971962
+    },
+    {
+      "path": "assets/monitor.png",
+      "role": "payload",
+      "sha256": "92031f681cab3a87e02ea98030e6828443eecdf366c40114fd09523867816a9b",
+      "bytes": 1951379
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "f56b9548a5b1ab4a30fc9eb80c984cc6c08032ec2662a093916110c11f2eb6fa",
+      "bytes": 1081
+    },
+    {
+      "path": "provenance.json",
+      "role": "evidence",
+      "sha256": "c27e7f7812c5cee35443c11c1b26203170ee820618e22519877e0f35ad3001ca",
+      "bytes": 1046
+    },
+    {
+      "path": "review.json",
+      "role": "evidence",
+      "sha256": "1fd531de970677a5ff220b390d2b2b74ffe069ef21696b555c2d7bf16a920a49",
+      "bytes": 4377
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "c513ce45b4535b3323072537e48e7d91dea73cd1cf9554d2c98c8f48fdad746c",
+      "bytes": 3382
+    },
+    {
+      "path": "samples/background-color.png",
+      "role": "payload",
+      "sha256": "b0cc3146679e1feaded47491d0c60a2c328b0fe4936d77b4af81bdd7370e94f7",
+      "bytes": 352045
+    },
+    {
+      "path": "samples/background-dark.png",
+      "role": "payload",
+      "sha256": "c3b3e1a537e2676d4fcfc0c3f9556a1a61dd3a03820a2e3008a974b0c9c8a695",
+      "bytes": 354726
+    },
+    {
+      "path": "samples/background-light.png",
+      "role": "payload",
+      "sha256": "8dacd9cd098f4f8afbfe1b0dadb12507521a8d1ca1b23e82d637eb1bcb69f5e9",
+      "bytes": 353871
+    },
+    {
+      "path": "samples/background-review.jpg",
+      "role": "payload",
+      "sha256": "6b7f4b25e09bf9ba4d963867de4f7295b84da5f7934035165a8d3ff682f19144",
+      "bytes": 32433
+    },
+    {
+      "path": "samples/contact-sheet.jpg",
+      "role": "poster",
+      "sha256": "296278b3f1ba755c7243c9359a31724565424bf6c8474cd36a09e72f69c12c37",
+      "bytes": 107051
+    },
+    {
+      "path": "samples/keyframes/00.png",
+      "role": "payload",
+      "sha256": "b47ef5a3a8a63cb026200783e275c7568137a0eefe18f9b290cacb2e270a84b0",
+      "bytes": 424427
+    },
+    {
+      "path": "samples/keyframes/01.png",
+      "role": "payload",
+      "sha256": "b47ef5a3a8a63cb026200783e275c7568137a0eefe18f9b290cacb2e270a84b0",
+      "bytes": 424427
+    },
+    {
+      "path": "samples/keyframes/02.png",
+      "role": "payload",
+      "sha256": "eda03db37e918f3ffc1c749ab5c081a48435178878269494064796006d1d75aa",
+      "bytes": 417297
+    },
+    {
+      "path": "samples/keyframes/03.png",
+      "role": "payload",
+      "sha256": "8dacd9cd098f4f8afbfe1b0dadb12507521a8d1ca1b23e82d637eb1bcb69f5e9",
+      "bytes": 353871
+    },
+    {
+      "path": "samples/keyframes/04.png",
+      "role": "payload",
+      "sha256": "7afbd693194dac00b94bb2bb56cd81be003dd722470ec3dc8f82fdddbefa0caf",
+      "bytes": 335943
+    },
+    {
+      "path": "samples/keyframes/05.png",
+      "role": "payload",
+      "sha256": "24703cf1a308baf4ab58e34fb2c3716b89bb4a6e040e10bc92ead4271a88c72b",
+      "bytes": 333487
+    },
+    {
+      "path": "samples/keyframes/06.png",
+      "role": "payload",
+      "sha256": "063ff4b8424f624a8a48228f84d2a1cce5c8014e218837669a4d3cfacb6f757b",
+      "bytes": 335751
+    },
+    {
+      "path": "samples/keyframes/07.png",
+      "role": "payload",
+      "sha256": "821e09e42e2aa050c43ffd23889f58ed24eb33010348f8c463a9d1eb32e039ac",
+      "bytes": 311930
+    },
+    {
+      "path": "samples/keyframes/08.png",
+      "role": "payload",
+      "sha256": "32013c1a14ea5029a52575035cd8375c1f1ed81800dcbdd8f928090270ffc2f1",
+      "bytes": 310597
+    },
+    {
+      "path": "samples/keyframes/09.png",
+      "role": "payload",
+      "sha256": "34ecefef2e280b431f4d1b4ce4b0f36dce0f89a07df789f811e32afe357beb33",
+      "bytes": 316770
+    },
+    {
+      "path": "samples/keyframes/10.png",
+      "role": "payload",
+      "sha256": "b10c8eb82613d2c3b253e191c794a3b86bf939a1536b9508b06877cbd594af7e",
+      "bytes": 318978
+    },
+    {
+      "path": "samples/keyframes/11.png",
+      "role": "payload",
+      "sha256": "4df63afaa7c0e6db2b0bac4dc521efac0b61de3263dc0ee6ab17aeffae4b0450",
+      "bytes": 319185
+    },
+    {
+      "path": "samples/keyframes/12.png",
+      "role": "payload",
+      "sha256": "419527912f90a1da436e9e66f58178b05329597f72c29b93e71f837540b635ff",
+      "bytes": 375546
+    },
+    {
+      "path": "samples/keyframes/13.png",
+      "role": "payload",
+      "sha256": "b47ef5a3a8a63cb026200783e275c7568137a0eefe18f9b290cacb2e270a84b0",
+      "bytes": 424427
+    },
+    {
+      "path": "samples/phone-reading.png",
+      "role": "payload",
+      "sha256": "3fe630b650bfd7c22f8357a8783541303540678062b2b0bb7f9a19062d89a716",
+      "bytes": 36474
+    },
+    {
+      "path": "samples/phone.png",
+      "role": "payload",
+      "sha256": "1a01e5de0f22dc27f78c938153a96ae8a1ce9eb271d47720c7375d9d92e15c07",
+      "bytes": 40511
+    },
+    {
+      "path": "samples/sample.mp4",
+      "role": "sample",
+      "sha256": "c2568fe5f7af705f1d4f24a49cfd4dea2f0419bf4e48720a5fcce6a1ded5eac9",
+      "bytes": 572069
+    },
+    {
+      "path": "samples/technical.json",
+      "role": "payload",
+      "sha256": "6f51c4081fba04a577588174a296d2e1ba956ab0d33d981181c625c513a526e8",
+      "bytes": 6099
+    },
+    {
+      "path": "sequence.json",
+      "role": "payload",
+      "sha256": "0191d1fa77a9076883ff86f4543169170baf3626d33770320272501a2b914f4f",
+      "bytes": 4190
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "522b97fcef7c7d977a70c803c49edb2333128865c099b62eb068522080e705c8",
+      "bytes": 1639
+    }
+  ],
+  "revision": "0244129dd1f55ad2550b"
+}

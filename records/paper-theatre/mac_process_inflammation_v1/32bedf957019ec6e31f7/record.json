@@ -1,0 +1,109 @@
+{
+  "schema": "animation_element/v1",
+  "id": "mac_process_inflammation_v1",
+  "title": "炎症与免疫细胞局部募集",
+  "kind": "code_component",
+  "entry": "index.html",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "original_diagram",
+    "license": "Apache-2.0",
+    "evidence_ref": "sources.json"
+  },
+  "discovery": {
+    "category": "pathology",
+    "display_title": "炎症与免疫细胞局部募集",
+    "aliases": [
+      "炎症",
+      "免疫",
+      "细胞募集",
+      "跨血管壁迁移"
+    ],
+    "topics": [
+      "炎症",
+      "免疫"
+    ],
+    "medical_systems": [
+      "感染与免疫"
+    ],
+    "patient_tasks": [
+      "理解疾病机制"
+    ],
+    "mechanisms": [
+      "细胞募集",
+      "跨血管壁迁移"
+    ],
+    "story_roles": [
+      "理解疾病机制"
+    ],
+    "actions": [
+      "细胞募集",
+      "跨血管壁迁移"
+    ],
+    "medium": "code",
+    "renderers": [
+      "canvas2d"
+    ],
+    "component_family": "medical_process",
+    "usage_notes": "简化局部反应；不表达感染病原体、疾病分型或治疗指征。",
+    "audiences": [
+      "成人",
+      "患者与家属"
+    ]
+  },
+  "tags": [
+    "medical_process",
+    "editable",
+    "canvas2d"
+  ],
+  "review": {
+    "static_alpha": "pending",
+    "full_motion": "pending",
+    "medical": "pending",
+    "full_listening": "not_applicable",
+    "current_shot": "pending"
+  },
+  "medical_review": "pending",
+  "usage_notes": "简化局部反应；不表达感染病原体、疾病分型或治疗指征。",
+  "files": [
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "db323ab69066f0552275eaee7819b41fd5a315457bde8877a5f020692922199d",
+      "bytes": 523
+    },
+    {
+      "path": "component.json",
+      "role": "payload",
+      "sha256": "046cf66e61d2f6471238dfc5a1edd95f6dd593278b0bd01113442b27a5953546",
+      "bytes": 204
+    },
+    {
+      "path": "index.html",
+      "role": "source",
+      "sha256": "a679c42d8d9da85554f3356d06ec8f7c99a44bfc28d6d19d5085649f6c933e28",
+      "bytes": 801
+    },
+    {
+      "path": "runtime.mjs",
+      "role": "source",
+      "sha256": "60fd5c0ae84e30919560ec953961ef0873da620950c824e27e01246f17b3aeaf",
+      "bytes": 10197
+    },
+    {
+      "path": "sources.json",
+      "role": "evidence",
+      "sha256": "b12c90f198153e020007b81f81a0f4d40627c3214375f9c7e414e5a45fea91e1",
+      "bytes": 229
+    },
+    {
+      "path": "viewer.mjs",
+      "role": "source",
+      "sha256": "a881dabaa859e1f57a8abfad9e3fabb6383f28076815e1e108b39d22d83aa17a",
+      "bytes": 806
+    }
+  ],
+  "revision": "32bedf957019ec6e31f7"
+}

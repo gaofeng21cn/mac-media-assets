@@ -1,0 +1,241 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_intestine_detailed_layers_v1",
+  "title": "肠道·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "bowel_wall",
+      "path": "files/bowel_wall.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "肠道·bowel_wall",
+      "medical": true,
+      "content_bounds": [
+        265,
+        231,
+        809,
+        805
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "loop": {
+            "x": 0.56,
+            "y": 0.52
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "bowel_lumen",
+      "path": "files/bowel_lumen.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "肠道·bowel_lumen",
+      "medical": true,
+      "content_bounds": [
+        286,
+        251,
+        789,
+        782
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.52,
+            "y": 0.52
+          },
+          "loop": {
+            "x": 0.56,
+            "y": 0.52
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_intestine_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "肠道",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "bowel_wall",
+      "bowel_lumen"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "肠道盘曲外形与腔面示意；不区分小肠各段、结肠分段或吸收部位。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/bowel_wall.svg",
+      "role": "source",
+      "sha256": "3dacd5bae7cb5c6bafba8a538daf4433f8615c53f3489bf8aab5742342d4bd41",
+      "bytes": 431
+    },
+    {
+      "path": "files/bowel_wall.webp",
+      "role": "payload",
+      "sha256": "4b81e1225059000a817b322ca662a50910c2df99b71f6168e246e8bbedcf60b5",
+      "bytes": 13080
+    },
+    {
+      "path": "source/bowel_lumen.svg",
+      "role": "source",
+      "sha256": "8f8628903067b9d97f4e80733f68214c09430ee210d55ccc8b2f8099439e20b8",
+      "bytes": 431
+    },
+    {
+      "path": "files/bowel_lumen.webp",
+      "role": "payload",
+      "sha256": "fd8fe3e0366993c3bf4fea31f0b60270957b31d389fc685193465c184c75105a",
+      "bytes": 12082
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "f420dec24d433ea789324c3528e52c36b2bc656951442c2504f808fdb163a045",
+      "bytes": 765
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "067b8051a31fb4153648add605e3ee03a68dabcf4665f312b12bbdda546b4872",
+      "bytes": 23990
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "b8a1fdb7ecb98f1bddaac3f0f2c0b27a9d0e5816939f278909a78fa8dfed5cc5",
+      "bytes": 24223
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "78fd162381e757ef1b7cc2d436c5947dcdf7e6d12dece141a94f389cec4ad73a",
+      "bytes": 582
+    }
+  ],
+  "revision": "4ab98927ef024bffd1e9",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_intestine_detailed_layers_v1@d854e5fc73a39e1d3812",
+    "source_record_sha256": "2680577e52c5e47c3ea39f660a3aadcb591489572227106f1de70ff0eced498f",
+    "encodings": [
+      {
+        "path": "files/bowel_wall.png",
+        "encoded_path": "files/bowel_wall.webp",
+        "source_sha256": "5357c4ebeae8a0c3095a804b68afabddc9853bfccbfeca4fda5f9c26b38f782c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "files/bowel_lumen.png",
+        "encoded_path": "files/bowel_lumen.webp",
+        "source_sha256": "e2c0a900c2875f15d05aac922a01a484fc8e9db6bcc6e249a9679df30da92e63",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "e8154e30f639d052aac8b98b656a52c8a169fba311fa29ffe5389195dd753812",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

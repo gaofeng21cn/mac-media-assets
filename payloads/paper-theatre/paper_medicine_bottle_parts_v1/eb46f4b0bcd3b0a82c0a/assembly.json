@@ -1,0 +1,21 @@
+{
+  "relationship": "瓶盖相对瓶口取放；纸件当前样例为开盖分离状态",
+  "operations": [
+    "瓶身取放",
+    "瓶盖独立提起/转动/移开"
+  ],
+  "suggested_content_width_ratio": {
+    "cap_to_body": 0.66
+  },
+  "limits": [
+    "瓶盖闭合时的透视、遮挡和压盖位置由当前镜头检查；此静态小样不批准完整旋盖动作。",
+    "无药名、剂量与数量，不用外观指定药物。"
+  ],
+  "part_ids": [
+    "body",
+    "cap"
+  ],
+  "registration": "normalized_original_image",
+  "bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "parameters_are_adaptable": true
+}

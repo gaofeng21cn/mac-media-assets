@@ -1,0 +1,176 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_gallbladder_simple_v1",
+  "title": "胆囊·远景简化版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.webp",
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "original_vector",
+      "visual_meaning": "胆囊·payload",
+      "medical": true,
+      "content_bounds": [
+        349,
+        124,
+        675,
+        815
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.5,
+            "y": 0.52
+          },
+          "duct_end": {
+            "x": 0.55,
+            "y": 0.16
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_gallbladder_simple_v1",
+    "simple",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "胆囊",
+      "simple"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "simple",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "payload"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "胆囊外形与胆汁示意；不表示胆囊内结石、胆道梗阻或胆囊功能。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/payload.svg",
+      "role": "source",
+      "sha256": "0509b70b00379493be3374b3e792b09086997df6bb0646d83fd35fa1f721757a",
+      "bytes": 474
+    },
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "7be9d3aced450b388e956a9c14f0ac6e7f9c119193ee4c8747654b4689b9219d",
+      "bytes": 10292
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "0509b70b00379493be3374b3e792b09086997df6bb0646d83fd35fa1f721757a",
+      "bytes": 474
+    },
+    {
+      "path": "samples/preview.webp",
+      "role": "poster",
+      "sha256": "7be9d3aced450b388e956a9c14f0ac6e7f9c119193ee4c8747654b4689b9219d",
+      "bytes": 10292
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "f6cbb1ce26e5794232eed1c3984aaed9d504d5f2d739f71dd72fb27a306d03f1",
+      "bytes": 27711
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "8c1ee089c95ac01d4d383f08bde3e4f0236731b4e01d87ea960fc20ef92783e9",
+      "bytes": 573
+    }
+  ],
+  "revision": "fc67110e5635234821cd",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:reserve_gallbladder_simple_v1@24151fc3de928b2e0399",
+    "source_record_sha256": "fbac3ffb6593f252e3d831c452e2b8f686437e3956cb4dd697adb0e33baa00be",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "b4d542b7e923396ac7da6c1a00636af6bbf856cdad2b6d539340ad943ec98560",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      },
+      {
+        "path": "samples/preview.png",
+        "encoded_path": "samples/preview.webp",
+        "source_sha256": "b4d542b7e923396ac7da6c1a00636af6bbf856cdad2b6d539340ad943ec98560",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

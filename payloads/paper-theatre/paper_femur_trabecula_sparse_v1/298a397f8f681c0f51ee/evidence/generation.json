@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "caller_receipt": true,
+  "original_output": "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-ceeecdd2-c240-41b5-8498-cd9fb9bdb17a.png",
+  "original_sha256": "b7143a278269bb0ac5273f2f4cb95455f697f1a64ee8af2fb5fcd175c4c2e671",
+  "stored_sha256": "b7143a278269bb0ac5273f2f4cb95455f697f1a64ee8af2fb5fcd175c4c2e671",
+  "request": "evidence/prompt.json",
+  "transparent_background_requested": true,
+  "actual_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1159,
+    1312
+  ],
+  "production_ready": false
+}

@@ -1,0 +1,26 @@
+{
+  "tool": "built_in_imagegen",
+  "prompt": "",
+  "source_path": "/Users/gaofeng/workspace/科普视频/assets/characters-v2/older_woman_stand_v1.png",
+  "measured": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      47,
+      974,
+      1487
+    ],
+    "opaque_ratio": 0.2263,
+    "translucent_ratio": 0.0101,
+    "is_cutout": true,
+    "halo_suspected": false
+  },
+  "registered_at": "2026-10-22T06:06:25.802162+00:00"
+}

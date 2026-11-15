@@ -1,0 +1,101 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_clinic_environment",
+  "title": "医院入口纸面环境板",
+  "kind": "environment",
+  "tags": [
+    "paper_collage",
+    "环境",
+    "医院",
+    "入口",
+    "门轴"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "clinic-stage",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "visual_meaning": "急诊例外的医院入口纸剧场",
+    "must_not_imply": "不是实际医院或特定机构",
+    "medical": false,
+    "status": "approved_direct_use",
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/0-clinic-stage.json"
+    },
+    "generation_receipt": "evidence/1-v18-generation-receipts.json",
+    "prompt_ref": "evidence/2-DIRECTOR-v18.md",
+    "registration": {
+      "anchors": {
+        "doorTopLeft": {
+          "x": 0.729,
+          "y": 0.319
+        },
+        "doorBottomRight": {
+          "x": 0.87,
+          "y": 0.637
+        }
+      }
+    }
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/pituitary_paper_theatre/01_report_next_steps/v20",
+    "series": "pituitary_paper_theatre",
+    "episode": "01_report_next_steps",
+    "asset_id": "clinic-stage",
+    "original_manifest": {
+      "asset_id": "clinic-stage",
+      "path": "assets/stages/clinic.png",
+      "source_type": "imagegen",
+      "visual_meaning": "急诊例外的医院入口纸剧场",
+      "must_not_imply": "不是实际医院或特定机构",
+      "medical": false,
+      "status": "approved_direct_use",
+      "visual_review": {
+        "status": "passed",
+        "evidence_ref": "qa/asset-reviews/clinic-stage.json"
+      },
+      "generation_receipt": "preproduction/v18-generation-receipts.json",
+      "prompt_ref": "preproduction/DIRECTOR-v18.md",
+      "registration": {
+        "anchors": {
+          "doorTopLeft": {
+            "x": 0.729,
+            "y": 0.319
+          },
+          "doorBottomRight": {
+            "x": 0.87,
+            "y": 0.637
+          }
+        }
+      }
+    },
+    "sample_has_brand": false
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "usage_notes": "通用代码按当前故事和作者档案调用，不包含作者专属素材。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "8434023a9ba7e2216379df5595934fbc8d0d901197c63d51926f78b42881f5a0",
+      "bytes": 2709599
+    },
+    {
+      "path": "evidence/0-clinic-stage.json",
+      "role": "evidence",
+      "sha256": "56a480d6c6207766314450c62f6fa561a283628de8401ce2375e4bc1a4da8762",
+      "bytes": 599
+    },
+    {
+      "path": "evidence/1-v18-generation-receipts.json",
+      "role": "evidence",
+      "sha256": "a5e07bb97420d8291b22a80f8bbd81eb764ce38b03b3e7f585cd8eae0d8fbd47",
+      "bytes": 7471
+    }
+  ],
+  "revision": "c87ee54ad989185ce55e"
+}

@@ -1,0 +1,263 @@
+{
+  "schema": "animation_element/v1",
+  "id": "reserve_heart_detailed_layers_v1",
+  "title": "心脏·近景配准分层版",
+  "kind": "medical_cutout",
+  "entry": "samples/preview.png",
+  "asset_bundle": [
+    {
+      "asset_id": "heart_wall",
+      "path": "files/heart_wall.png",
+      "source_type": "original_vector",
+      "visual_meaning": "心脏·heart_wall",
+      "medical": true,
+      "content_bounds": [
+        276,
+        306,
+        743,
+        893
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.51,
+            "y": 0.55
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "apex": {
+            "x": 0.58,
+            "y": 0.87
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "four_chambers",
+      "path": "files/four_chambers.png",
+      "source_type": "original_vector",
+      "visual_meaning": "心脏·four_chambers",
+      "medical": true,
+      "content_bounds": [
+        317,
+        352,
+        691,
+        838
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.51,
+            "y": 0.55
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "apex": {
+            "x": 0.58,
+            "y": 0.87
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "asset_id": "great_vessels",
+      "path": "files/great_vessels.png",
+      "source_type": "original_vector",
+      "visual_meaning": "心脏·great_vessels",
+      "medical": true,
+      "content_bounds": [
+        317,
+        139,
+        788,
+        628
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "registration": {
+        "pivot": {
+          "x": 0,
+          "y": 0
+        },
+        "anchors": {
+          "focus": {
+            "x": 0.51,
+            "y": 0.55
+          },
+          "septum": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "apex": {
+            "x": 0.58,
+            "y": 0.87
+          }
+        },
+        "canvas_origin": {
+          "x": 0,
+          "y": 0
+        },
+        "shared_viewbox": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "source": {
+    "kind": "original_vector",
+    "generator": "source/build_structure_schematics.py"
+  },
+  "tags": [
+    "anatomy",
+    "reserve_heart_detailed_layers_v1",
+    "detailed_layers",
+    "registered_layers",
+    "reserve_20261024"
+  ],
+  "discovery": {
+    "category": "anatomy",
+    "aliases": [
+      "心脏",
+      "detailed_layers"
+    ],
+    "actions": [
+      "逐层揭示",
+      "局部放大"
+    ],
+    "detail_level": "detailed_layers",
+    "story_roles": [
+      "结构解释",
+      "位置关系"
+    ]
+  },
+  "assembly": {
+    "shared_viewbox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "order": [
+      "heart_wall",
+      "four_chambers",
+      "great_vessels"
+    ],
+    "operation": "shared_transform_reveal",
+    "pre_registered": true
+  },
+  "content_bounds": null,
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage_notes": "心脏正面四腔关系示意，画面左为解剖右；右房右室与左房左室分别表达。血管为连接概览，未表达瓣膜细节、血流动画或真实比例。",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "measured",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_scale_pending"
+  ],
+  "files": [
+    {
+      "path": "source/heart_wall.svg",
+      "role": "source",
+      "sha256": "d18f8e3743c7d080117dc28f258abbfcd14c9826c1b19beedd997b60beb2a6f8",
+      "bytes": 302
+    },
+    {
+      "path": "files/heart_wall.png",
+      "role": "payload",
+      "sha256": "4f8ef75cccf663049b2612bd6b531d4748d6f0108d312b2b1638c95f480d8e6e",
+      "bytes": 30987
+    },
+    {
+      "path": "source/four_chambers.svg",
+      "role": "source",
+      "sha256": "09da04380cb60828ec17cb4e347e9c19480f15968a806d9fbd176bde30b049d4",
+      "bytes": 786
+    },
+    {
+      "path": "files/four_chambers.png",
+      "role": "payload",
+      "sha256": "aca6687aa2abfc5f2b5f569e6729b87ef2881c6ebd9f19092cc309c1713a9fe1",
+      "bytes": 40896
+    },
+    {
+      "path": "source/great_vessels.svg",
+      "role": "source",
+      "sha256": "16ca8494ba275c0f0c36a52b4042168e5e39902b341a04cd8f2690f5d232795e",
+      "bytes": 668
+    },
+    {
+      "path": "files/great_vessels.png",
+      "role": "payload",
+      "sha256": "3a9effc9906b9ea8467a3759690799455fb613053db3401c738e309bfc9cd5e8",
+      "bytes": 17602
+    },
+    {
+      "path": "source/preview.svg",
+      "role": "source",
+      "sha256": "c3533ce165cbd2e6e89ff799b6aa65868a6cee7c39607aaa57358578f49d21a5",
+      "bytes": 1562
+    },
+    {
+      "path": "samples/preview.png",
+      "role": "poster",
+      "sha256": "f092149cd74ff576b57408e7d379423a9331d75ed0b59525d6ca8b33d996f999",
+      "bytes": 70691
+    },
+    {
+      "path": "source/build_structure_schematics.py",
+      "role": "source",
+      "sha256": "bc8267561e0b9ac07a6e3efc6d3409a3726a6a88a58a62ac8ade8fdd70b5a51d",
+      "bytes": 25980
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "02ccdb4c8e88a4c13e23f783e2dda672f0b61adf2e87936d06107b6f39b1c851",
+      "bytes": 669
+    }
+  ],
+  "revision": "add90d3fadd1ea02a5c3"
+}

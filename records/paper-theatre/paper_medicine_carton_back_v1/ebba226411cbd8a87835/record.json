@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_medicine_carton_back_v1",
+  "title": "无品牌药品纸盒·可排成分背面",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    23,
+    1470,
+    1024
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "medicine_carton_back"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "无品牌药品纸盒·可排成分背面",
+      "medicine_carton_back"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "无品牌药品纸盒·可排成分背面",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        23,
+        1470,
+        1024
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "同套药盒的背面；空白信息区后期准确排入，不属于实际药品说明书。"
+    }
+  ],
+  "usage_notes": "同套药盒的背面；空白信息区后期准确排入，不属于实际药品说明书。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "0022ba9ff15dce96f584ac1adcf9906537902ef721411ada5a3cb172a31a7a88",
+      "bytes": 1443398
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "2e0fbf59ae5d22a82a91a62fd97ab7f8050dc667f45934ea7c5bd3a2e215fd61",
+      "bytes": 1023
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "6140eebd0b825a53603cb36ebe58cef8d515a12bcec3d4ca2952c27bda63e70c",
+      "bytes": 620
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "b148edaf22b6cb004e81c4c878c948eda084a5398d6520c66f0406f89e57d306",
+      "bytes": 613
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "01887e00f60011bb9b76a2b45ad9a12997d09d4d4c6e1b85595a92a8307e8ce4",
+      "bytes": 51904
+    }
+  ],
+  "revision": "ebba226411cbd8a87835",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_medicine_carton_back_v1@0da9ceb3b2eb94cde9fc",
+    "source_record_sha256": "da3637f58f0dcc9af3e7ed031fb11a15fc2b3b400ef5706ebd44f7a3604692d8",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "3cd58465ac61f04c3c5cb676847d499decf502569f1b4dec07d605f48f297653",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1536,
+        "height": 1024,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

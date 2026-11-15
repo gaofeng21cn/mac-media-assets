@@ -1,0 +1,208 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_adult_woman_nursing_v1",
+  "title": "中国成年女性·芥黄开衫·完整坐姿哺乳母婴",
+  "kind": "transparent_subject",
+  "tags": [
+    "人物",
+    "哺乳期",
+    "哺乳",
+    "母婴",
+    "坐姿",
+    "adult_woman_cn_mustard"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "nursing_mother",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "source": "ImageGen，同身份完整母婴姿态，来源随素材保存",
+    "visual_meaning": "表示哺乳期的完整坐姿母婴，按身体标尺与站姿角色同场试装",
+    "must_not_imply": "不作为喂养技巧、药物安全性或医学操作指导；座椅外框不作为站立身高标尺",
+    "status": "pending_review",
+    "medical": false,
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "feet": {
+          "x": 0.67,
+          "y": 0.9713541666666666
+        },
+        "head": {
+          "x": 0.48,
+          "y": 0.13
+        },
+        "seat": {
+          "x": 0.39,
+          "y": 0.585
+        }
+      }
+    },
+    "content_bounds": [
+      152,
+      19,
+      972,
+      1492
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "human_scale": {
+      "nominal_height_cm": 163,
+      "height_status": "authored_design_reference",
+      "scale_family": "adult_woman_cn_mustard",
+      "pose": "seated_nursing",
+      "measurement": "同母版完整哺乳姿态，按母体头部标尺配准；坐姿高度与椅子外框不当站立身高。",
+      "calibration": {
+        "status": "calibrated",
+        "source_sha256": "73cc68475a0b3c0f2299ab1ef98645ee5eaa0cb11afd497fc665fadf7c7bbb4e",
+        "source_size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "from": {
+          "x": 0.48,
+          "y": 0.016276041666666668
+        },
+        "to": {
+          "x": 0.48,
+          "y": 0.19856770833333334
+        },
+        "span_cm": 25,
+        "basis": "同身份站姿母版头部约占设计25厘米，当前头顶y25至下巴y305；以该身体段配准坐姿。为虚构插画制作标尺，需检查多人同场与承托。"
+      }
+    },
+    "prompt_ref": "evidence/0-nursing_mother-prompt_ref.json",
+    "generation_receipt": "evidence/1-nursing_mother-generation_receipt.json"
+  },
+  "source": {
+    "project": "/Users/gaofeng/workspace/科普视频/productions/graves_paper_theatre/06_a_pregnancy_plan/v5",
+    "series": "graves_paper_theatre",
+    "episode": "06_a_pregnancy_plan",
+    "asset_id": "nursing_mother",
+    "original_manifest": {
+      "asset_id": "nursing_mother",
+      "path": "assets/imported/nursing_mother.png",
+      "source_type": "imagegen",
+      "source": "ImageGen，同身份完整母婴姿态，来源随素材保存",
+      "visual_meaning": "表示哺乳期的完整坐姿母婴，按身体标尺与站姿角色同场试装",
+      "must_not_imply": "不作为喂养技巧、药物安全性或医学操作指导；座椅外框不作为站立身高标尺",
+      "status": "pending_review",
+      "medical": false,
+      "registration": {
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchors": {
+          "feet": {
+            "x": 0.67,
+            "y": 0.9713541666666666
+          },
+          "head": {
+            "x": 0.48,
+            "y": 0.13
+          },
+          "seat": {
+            "x": 0.39,
+            "y": 0.585
+          }
+        }
+      },
+      "content_bounds": [
+        152,
+        19,
+        972,
+        1492
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "human_scale": {
+        "nominal_height_cm": 163,
+        "height_status": "authored_design_reference",
+        "scale_family": "adult_woman_cn_mustard",
+        "pose": "seated_nursing",
+        "measurement": "同母版完整哺乳姿态，按母体头部标尺配准；坐姿高度与椅子外框不当站立身高。",
+        "calibration": {
+          "status": "calibrated",
+          "source_sha256": "73cc68475a0b3c0f2299ab1ef98645ee5eaa0cb11afd497fc665fadf7c7bbb4e",
+          "source_size": {
+            "width": 1024,
+            "height": 1536
+          },
+          "from": {
+            "x": 0.48,
+            "y": 0.016276041666666668
+          },
+          "to": {
+            "x": 0.48,
+            "y": 0.19856770833333334
+          },
+          "span_cm": 25,
+          "basis": "同身份站姿母版头部约占设计25厘米，当前头顶y25至下巴y305；以该身体段配准坐姿。为虚构插画制作标尺，需检查多人同场与承托。"
+        }
+      },
+      "prompt_ref": "assets/evidence/nursing_mother-prompt_ref.json",
+      "generation_receipt": "assets/evidence/nursing_mother-generation_receipt.json"
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [
+    "完整固定姿态不表示连续哺乳表演；当前镜头的医学含义与完整动态分别审查"
+  ],
+  "content_bounds": [
+    152,
+    19,
+    972,
+    1492
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "usage": [
+    "整体表示哺乳期",
+    "同身份母版的完整坐姿母婴",
+    "按母体身体段密度缩放后，与其他人物共用场景像素/厘米"
+  ],
+  "usage_notes": "母亲、婴儿和椅子是完整固定姿态，不能宣称独立摇抱、转头或喂养动作；不作为哺乳技巧教学。已在Graves06的站坐组合试装，当前完整动态、医学另审。",
+  "discovery": {
+    "category": "character",
+    "aliases": [
+      "哺乳母亲",
+      "哺乳期",
+      "喂奶",
+      "母婴",
+      "坐姿哺乳"
+    ],
+    "actions": [
+      "哺乳姿态",
+      "坐姿",
+      "抱婴儿"
+    ],
+    "story_roles": [
+      "哺乳期治疗沟通",
+      "家庭照护"
+    ]
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "73cc68475a0b3c0f2299ab1ef98645ee5eaa0cb11afd497fc665fadf7c7bbb4e",
+      "bytes": 2373998
+    },
+    {
+      "path": "evidence/0-nursing_mother-prompt_ref.json",
+      "role": "evidence",
+      "sha256": "8ab49accd0209a31aaccbb77b4b5b51ee183021825e5c18d59ace1029e2ab906",
+      "bytes": 1985
+    },
+    {
+      "path": "evidence/1-nursing_mother-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "8ab49accd0209a31aaccbb77b4b5b51ee183021825e5c18d59ace1029e2ab906",
+      "bytes": 1985
+    }
+  ],
+  "revision": "a6aff7e5e135dae9e132"
+}

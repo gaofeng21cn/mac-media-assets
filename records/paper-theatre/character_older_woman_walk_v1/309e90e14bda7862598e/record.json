@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "character_older_woman_walk_v1",
+  "title": "老年女性·步行·同身份完整纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.png",
+  "tags": [
+    "paper_collage",
+    "character",
+    "Chinese",
+    "older_woman",
+    "walk",
+    "reserve_20261023"
+  ],
+  "discovery": {
+    "category": "characters",
+    "aliases": [
+      "老年女性",
+      "步行"
+    ],
+    "actions": [
+      "walk",
+      "步行"
+    ],
+    "character_role": "older_woman",
+    "identity_family": "older_woman_baseline",
+    "story_roles": [
+      "人物操作",
+      "问诊与照护"
+    ],
+    "medium": [
+      "paper_collage"
+    ],
+    "ethnicity": "Chinese",
+    "locale": "zh-CN"
+  },
+  "source": {
+    "kind": "imagegen",
+    "generation": "built_in_imagegen",
+    "identity_reference": "/Users/gaofeng/workspace/mac-media-assets/payloads/paper-theatre/character_older_woman_stand_v1/533448a63caf5fd9b120/files/payload.png",
+    "prompt": "Use case: illustration-story. One complete reusable paper-theatre pose. Reference is exact identity and style master. Keep same Chinese elderly woman, short soft silver hair, sage collared blouse, charcoal trousers and brown shoes; preserve face, age, hairstyle, body proportions, garments and shoes. Change only pose to walking gently toward screen right with comfortable short stride, arms counter-swing, both hands visible, one shoe grounded on baseline; natural balance appropriate to age and pregnancy where applicable. Natural connected complete anatomy, same tactile paper-cut illustration, opaque interior and clean edges. Entire hair/head, visible hands, legs and shoes in frame with generous margin. Single isolated figure, GENUINE transparent background. No chair, environment, floor mark, cast shadow, glow/aura, gradient/vignette, checkerboard, text/logo or props. Do not infantilize older adults or shrink adult anatomy into a child."
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "head": {
+        "x": 0.49,
+        "y": 0.1
+      },
+      "feet": {
+        "x": 0.51,
+        "y": 0.94
+      },
+      "hand_left": {
+        "x": 0.24,
+        "y": 0.55
+      },
+      "hand_right": {
+        "x": 0.8,
+        "y": 0.49
+      }
+    },
+    "coordinate_space": "pixel_xy_normalized_to_source_image"
+  },
+  "status": "reusable_candidate",
+  "content_bounds": [
+    177,
+    50,
+    876,
+    1447
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "alpha_measurement": {
+    "width": 1024,
+    "height": 1536,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      0,
+      47,
+      1002,
+      1496
+    ],
+    "opaque_ratio": 0.2553,
+    "translucent_ratio": 0.01,
+    "is_cutout": true,
+    "halo_suspected": false,
+    "visible_bbox_alpha_ge_25": [
+      177,
+      50,
+      876,
+      1447
+    ]
+  },
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "checked_on_light_dark_color_composites",
+    "identity": "compared_with_named_master",
+    "anatomy": "static_full_figure_checked",
+    "full_motion": "pending",
+    "current_shot": "pending"
+  },
+  "quality_debt": [
+    "continuous_motion_pending",
+    "current_shot_contact_pending"
+  ],
+  "usage_notes": "单幅行走关键姿态，使用脚底共同基准配准；不是完整步态循环；手按画面左右，锚点用于试装，不代表可以持握任意物件。按同一人物的头身比例配准，不按PNG外框统一高度。",
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "e15aafe510d3d543b5aa6f37c8903f9fbb2d07dabaa7af72c29a83ae17a2cf70",
+      "bytes": 1867694
+    },
+    {
+      "path": "evidence/generation-and-review.json",
+      "role": "evidence",
+      "sha256": "4506e5da3bfa083f0c65e0d9651377277b2b3ff170c30ff325f74fe16e6b5264",
+      "bytes": 2226
+    }
+  ],
+  "revision": "309e90e14bda7862598e"
+}

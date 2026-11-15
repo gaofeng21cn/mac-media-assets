@@ -1,0 +1,131 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_ingredient_token_v1",
+  "title": "成分量比喻纸片·独立琥珀色六角片",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "original_manifest": {
+      "source_type": "imagegen",
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json"
+    }
+  },
+  "status": "reusable_candidate",
+  "medical_review": "not_applicable",
+  "review": {
+    "static_alpha": "qa_composites_created_pending_view",
+    "original_image": "viewed_in_generation_result",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    0,
+    4,
+    1298,
+    1147
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "ingredient_token"
+  ],
+  "discovery": {
+    "category": "props",
+    "aliases": [
+      "成分量比喻纸片·独立琥珀色六角片",
+      "ingredient_token"
+    ],
+    "story_roles": [
+      "生活物件"
+    ],
+    "actions": [
+      "独立位移",
+      "局部放大",
+      "状态对照"
+    ]
+  },
+  "asset_bundle": [
+    {
+      "asset_id": "payload",
+      "path": "files/payload.webp",
+      "source_type": "imagegen",
+      "visual_meaning": "成分量比喻纸片·独立琥珀色六角片",
+      "medical": false,
+      "medical_reference": null,
+      "prompt_ref": "evidence/prompt.json",
+      "generation_receipt": "evidence/generation.json",
+      "content_bounds": [
+        0,
+        4,
+        1298,
+        1147
+      ],
+      "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+      "must_not_imply": "仅作同种成分累计的比喻，不是药片，不表示片数、毫克或安全剂量。"
+    }
+  ],
+  "usage_notes": "仅作同种成分累计的比喻，不是药片，不表示片数、毫克或安全剂量。",
+  "quality_debt": [
+    "current_shot_review_pending"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "07b40e98a45c7c9cfcef27cc017d2d6f3d5af09dbad24d2e46fe724fe6ac7cce",
+      "bytes": 1344902
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "d91b0d8912d039a3b1f91943483008dde50b4b05e125e5830c5b0599197c9693",
+      "bytes": 846
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "c5e5e4fdc28472a7b3d0ff8905d85c424561e9dfe0b78e40f2bfb0cdd0fde07a",
+      "bytes": 619
+    },
+    {
+      "path": "USAGE.md",
+      "role": "evidence",
+      "sha256": "c36b828a93099c803ca987eee57b65c69bc8f8f824f4ea54a79d4a86552ab694",
+      "bytes": 619
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "6c1ec713866a70764a9ae2f3a673110faf07a1c568d5cb488b83b1b3d049a56e",
+      "bytes": 86542
+    }
+  ],
+  "revision": "633a809de3ca75cd1df2",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_ingredient_token_v1@7d987cf1c4b045912978",
+    "source_record_sha256": "8e25ef88037f4c097766a4a535d9ddb10a99b712432a7a3cef3cd2badf2a1a57",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "f5d437898d632dbd3bd4b351ff282c563810d817256c511b2122653dfef0586a",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1312,
+        "height": 1199,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

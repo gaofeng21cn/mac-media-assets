@@ -1,0 +1,76 @@
+schema: medical_video_fact_library/v1
+topic_id: graves
+review_status: AI_editorial_candidate_clinical_review_pending
+facts:
+- fact_id: T01
+  claim: 症状非特异，甲状腺激素过多可影响多系统，但并非每个人症状齐全。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: T02
+  claim: 先确认功能异常再判病因；Graves是甲亢病因之一，抗体/病史等支持病因判断。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: T03
+  claim: 抗甲状腺药、放射性碘、手术依适应情况选择；妊娠哺乳禁放射性碘；持续甲功随访。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: T04
+  claim: 抗甲状腺药相关粒细胞缺乏可突然发生；发热/明显咽痛暂停该药及时查血常规；肝损伤信号需评估。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: T05
+  claim: 眼病与甲功非完全同步；活动度严重度评估；吸烟风险；视功能变坏急诊评估。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: T06
+  claim: 避免大量补碘；活动按甲功/症状恢复，生活改善不授权自行停药。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: T07
+  claim: 孕前/孕期需团队协调用药与监测，妊娠哺乳禁放射性碘，不能自行全停。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
+- fact_id: T08
+  claim: 指标恢复速度可不同，疗程与缓解判断综合评估；停药后仍需随访。
+  source_refs:
+  - graves
+  - ATAgraves
+  - ATAmed
+  scope: 成年患者及家属；青少年仅明确区分诊断边界，不提供具体用药剂量
+  medical_review: pending_clinician_review
+  visual_boundary: 画面不得增加必然恶化、诊断保证、用药操作或虚构患者数值。
