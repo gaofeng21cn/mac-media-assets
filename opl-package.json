@@ -418,6 +418,7 @@
       "records/paper-theatre/paper_blank_report/1ef837c31be5f9dcee48/record.json",
       "records/paper-theatre/paper_breast_local_section_v1/d7a0ef3701372ae9053b/record.json",
       "records/paper-theatre/paper_breath_sample_bag_v1/50f253a2669a46df9ac2/record.json",
+      "records/paper-theatre/paper_cell_sample_slide_concept_v1/4ac12e3f17f0dedbcc62/record.json",
       "records/paper-theatre/paper_cervical_spine_cord_v1/1ed25c3759d3a35b094b/record.json",
       "records/paper-theatre/paper_clinic_environment/a69b853513af23d736b9/record.json",
       "records/paper-theatre/paper_clock_dial_v1/60115f9cac760c55ec9f/record.json",
@@ -737,7 +738,7 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:338401f01df7140580ea06ae4ee91bf0d6d49374673ab832dd0105bf0fa516c7"
+    "digest": "sha256:2803850680e5d011a8bcccea1a923c8eae8b24e3e72c0bd4f9f5f2b38c9df0af"
   },
   "entrypoints": [
     {

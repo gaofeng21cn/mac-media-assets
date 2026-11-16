@@ -87,7 +87,6 @@
       "bytes": 1374034
     }
   ],
-  "revision": "2f8982a413a17ede57e7",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:character_adult_man_alert_seated_scale_v2@56c5f8313651f77cd734",
@@ -106,5 +105,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "2f8982a413a17ede57e7"
 }

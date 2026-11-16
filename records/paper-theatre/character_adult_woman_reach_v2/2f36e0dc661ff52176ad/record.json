@@ -129,7 +129,6 @@
       "bytes": 2194
     }
   ],
-  "revision": "2f36e0dc661ff52176ad",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:character_adult_woman_reach_v2@fd6d9e040165a718b8be",
@@ -148,5 +147,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "2f36e0dc661ff52176ad"
 }

@@ -260,7 +260,6 @@
       "bytes": 1639
     }
   ],
-  "revision": "145fd0a1ed9fed47bffd",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:mac_walk_cycle_v1@9139c228977b8bccb2fa",
@@ -519,5 +518,6 @@
         "alpha_min": 255
       }
     ]
-  }
+  },
+  "revision": "145fd0a1ed9fed47bffd"
 }

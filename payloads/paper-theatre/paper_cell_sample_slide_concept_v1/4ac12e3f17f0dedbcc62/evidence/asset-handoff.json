@@ -1,0 +1,25 @@
+{
+  "schema": "paper_asset_candidate_handoff/v1",
+  "title": "细胞样本玻片·解释性纸件",
+  "file": "thyroid_cell_sample_slide.png",
+  "sha256": "830915d1091334187b06d8e37e6655a3569fe8ad19d732265cdca215a19e7d36",
+  "size_px": [2172, 724],
+  "visible_bounds_alpha16_xyxy": [16, 91, 2156, 628],
+  "source": {
+    "tool": "image_gen.imagegen",
+    "transparent_background_requested": true,
+    "source_path": "/Users/gaofeng/.codex/generated_images/01a1e30d-d8f5-7cb1-9440-4d2922a2e299/exec-da959b6d-5d77-40d8-b0cb-9222906a44ef.png",
+    "prompt": "Use case: scientific-educational. Create one single independent transparent-background paper-theatre prop: an unlabeled rectangular microscope glass slide viewed from slightly above, with a small centrally placed, stylized cluster of roughly eight pale pink follicular cells with small mauve round nuclei. The cells are an abstract representation of a sample for microscopic examination; do not imply normality, malignancy or a diagnosis, do not simulate photomicrograph, and do not depict clinical features. Warm tactile hand-cut paper collage and softly painted watercolor, fine paper fiber, gentle handmade edges, like a carefully crafted medical education animation. Fully visible slide and complete edges, clear transparent negative space, no text, numerals, arrows, hands, needles, labels, shadows beyond the object, paper background, frame, watermark, or checkerboard. Return actual transparent alpha."
+  },
+  "visual_review": {
+    "source_inspection": "original and three-background composite viewed",
+    "composite": "alpha-review.jpg",
+    "observation": "单个玻片与细胞为一体；浅色、深色及彩色背景可区分主体，未观察到不透明矩形底；alpha 1 至 15 在主体以外有零散低透明像素，需在目标画面核对细小边缘",
+    "current_shot": "pending",
+    "motion": "pending"
+  },
+  "medical_review": "pending",
+  "intended_use": "作为取样后供观察的概念性物件，画面和旁白不承诺细胞类型、病理判读或诊断结果；不作形态学教材。",
+  "limitations": ["玻片和细胞不可独立运动", "非甲状腺真实患者或真实显微图像", "不用于演示取样操作", "不用于判断良恶性", "实际纸剧场构图、动作与医学意义须另审"],
+  "library_status": "candidate_not_ingested"
+}

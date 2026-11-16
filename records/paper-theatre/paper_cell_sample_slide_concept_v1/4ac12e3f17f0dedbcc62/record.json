@@ -1,0 +1,122 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_cell_sample_slide_concept_v1",
+  "title": "细胞样本玻片·解释性纸件",
+  "kind": "medical_cutout",
+  "entry": "files/payload.webp",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "tool": "image_gen.imagegen",
+    "receipt": "evidence/asset-handoff.json"
+  },
+  "status": "reusable_candidate",
+  "medical_review": "pending",
+  "review": {
+    "static_alpha": "viewed_on_three_backgrounds",
+    "current_shot": "pending",
+    "full_motion": "pending"
+  },
+  "content_bounds": [
+    16,
+    91,
+    2156,
+    628
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "tags": [
+    "paper_collage",
+    "imagegen",
+    "transparent",
+    "sample_slide",
+    "cells"
+  ],
+  "discovery": {
+    "category": "medical_prop",
+    "aliases": [
+      "细胞标本玻片",
+      "细胞学样本",
+      "pathology sample slide"
+    ],
+    "story_roles": [
+      "送检与观察"
+    ],
+    "actions": [
+      "整件位移",
+      "整件显现"
+    ]
+  },
+  "usage_notes": "玻片及细胞为一体的概念性纸件，用来表示样本送检与观察；不可用于识别细胞类别或良恶性、不可当作真实显微图像或取样操作说明。医学及新镜头审核待完成。",
+  "quality_debt": [
+    "medical_review_pending",
+    "current_shot_review_pending",
+    "full_motion_pending",
+    "faint_alpha_fragments_require_scene_check"
+  ],
+  "asset": {
+    "asset_id": "cell_sample_slide_concept",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "visual_meaning": "细胞样本送检与观察的纸质概念玻片",
+    "medical": true,
+    "medical_review": {
+      "status": "pending"
+    },
+    "prompt_ref": "evidence/asset-handoff.json",
+    "generation_receipt": "evidence/asset-handoff.json",
+    "content_bounds": [
+      16,
+      91,
+      2156,
+      628
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "requires_alpha": true,
+    "visual_review": {
+      "status": "pending"
+    },
+    "must_not_imply": "不能用于判断真实细胞形态、类别或诊断，不表示癌症确诊；玻片和细胞不能分层活动。"
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "22266df97e351865aeefa16fba4e7f5a1074b9284611c7f886a42ba0ca367de5",
+      "bytes": 1368052
+    },
+    {
+      "path": "evidence/asset-handoff.json",
+      "role": "evidence",
+      "sha256": "aa8a2c1e987f33c3dfa0896aa51ad2e9d4075a92b7a78bd7ff1e0531e4290241",
+      "bytes": 2354
+    },
+    {
+      "path": "evidence/alpha-review.jpg",
+      "role": "evidence",
+      "sha256": "9f4ce29ac83748262b728184291dfcbec6647102a9d7c9c3f514c78854679334",
+      "bytes": 87377
+    }
+  ],
+  "revision": "4ac12e3f17f0dedbcc62",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_cell_sample_slide_concept_v1@3b0a7bbf8b04da8339ee",
+    "source_record_sha256": "0e0527413f659fca96e079228f394dc5813136716c0df3ba2f2664a2d918b094",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "830915d1091334187b06d8e37e6655a3569fe8ad19d732265cdca215a19e7d36",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 2172,
+        "height": 724,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

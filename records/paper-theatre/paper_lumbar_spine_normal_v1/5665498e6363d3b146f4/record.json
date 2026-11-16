@@ -116,7 +116,6 @@
       "bytes": 149471
     }
   ],
-  "revision": "5665498e6363d3b146f4",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_lumbar_spine_normal_v1@67863091759e3c76f3fe",
@@ -135,5 +134,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "5665498e6363d3b146f4"
 }

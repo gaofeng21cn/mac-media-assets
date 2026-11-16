@@ -108,7 +108,6 @@
       "bytes": 2024
     }
   ],
-  "revision": "caea1b4d1dcdda34d0d8",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:character_young_man_stand_v1@c6ac515b2a0e4b3824c5",
@@ -127,5 +126,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "caea1b4d1dcdda34d0d8"
 }

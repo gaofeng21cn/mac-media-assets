@@ -436,6 +436,16 @@
     "paper:six_paper_pelvic_organs@b23cfa24edc8b99fcad3": "paper:six_paper_pelvic_organs@78771b96fb07a030618b",
     "paper:six_paper_staging_modules@0276c523f08372574608": "paper:six_paper_staging_modules@0276c523f08372574608",
     "paper:six_paper_thyroid_neck@01644949a5fe8bd8e3c6": "paper:six_paper_thyroid_neck@3737a186fe4994dc0f0b",
-    "paper:ward_patient_side_scale_v3@3e23e82414bc6023550b": "paper:ward_patient_side_scale_v3@1e6d7c6b45811ad1dfb5"
+    "paper:ward_patient_side_scale_v3@3e23e82414bc6023550b": "paper:ward_patient_side_scale_v3@1e6d7c6b45811ad1dfb5",
+    "paper:paper_cell_sample_slide_concept_v1@3b0a7bbf8b04da8339ee": "paper:paper_cell_sample_slide_concept_v1@4ac12e3f17f0dedbcc62",
+    "paper:paper_lumbar_spine_normal_v1@5665498e6363d3b146f4": "paper:paper_lumbar_spine_normal_v1@5665498e6363d3b146f4",
+    "paper:paper_femur_fracture_v1@ff27332792b5276a4f75": "paper:paper_femur_fracture_v1@ff27332792b5276a4f75",
+    "paper:reserve_shoe_v1@020173fb0d264cb70101": "paper:reserve_shoe_v1@020173fb0d264cb70101",
+    "paper:paper_writing_pencil_v1@89217ac072521a04669b": "paper:paper_writing_pencil_v1@89217ac072521a04669b",
+    "paper:character_young_man_stand_v1@caea1b4d1dcdda34d0d8": "paper:character_young_man_stand_v1@caea1b4d1dcdda34d0d8",
+    "paper:character_adult_woman_reach_v2@2f36e0dc661ff52176ad": "paper:character_adult_woman_reach_v2@2f36e0dc661ff52176ad",
+    "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd": "paper:mac_walk_cycle_v1@145fd0a1ed9fed47bffd",
+    "paper:mac_right_pinch_v1@c1e77d9237daf0bbefe4": "paper:mac_right_pinch_v1@c1e77d9237daf0bbefe4",
+    "paper:character_adult_man_alert_seated_scale_v2@2f8982a413a17ede57e7": "paper:character_adult_man_alert_seated_scale_v2@2f8982a413a17ede57e7"
   }
 }

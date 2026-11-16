@@ -49,7 +49,6 @@
       "bytes": 438
     }
   ],
-  "revision": "c1e77d9237daf0bbefe4",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:mac_right_pinch_v1@953208910f3f2afe0eaa",
@@ -68,5 +67,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "c1e77d9237daf0bbefe4"
 }

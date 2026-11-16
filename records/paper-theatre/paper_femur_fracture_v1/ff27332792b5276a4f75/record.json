@@ -110,7 +110,6 @@
       "bytes": 83927
     }
   ],
-  "revision": "ff27332792b5276a4f75",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_femur_fracture_v1@76c9ac9d60288489473e",
@@ -129,5 +128,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "ff27332792b5276a4f75"
 }

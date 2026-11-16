@@ -108,7 +108,6 @@
       "bytes": 26661
     }
   ],
-  "revision": "89217ac072521a04669b",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_writing_pencil_v1@32452718f0c3d841c160",
@@ -127,5 +126,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "89217ac072521a04669b"
 }
