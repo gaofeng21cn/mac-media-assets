@@ -108,7 +108,6 @@
       "bytes": 83144
     }
   ],
-  "revision": "789641cc4ecad26ccd9e",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_school_bag_v1@1f6091a48a2fc964c04e",
@@ -127,5 +126,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "789641cc4ecad26ccd9e"
 }

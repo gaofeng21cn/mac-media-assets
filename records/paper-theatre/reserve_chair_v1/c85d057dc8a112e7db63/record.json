@@ -51,7 +51,6 @@
       "bytes": 1253
     }
   ],
-  "revision": "c85d057dc8a112e7db63",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:reserve_chair_v1@f1812703aa41360f72fc",
@@ -70,5 +69,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "c85d057dc8a112e7db63"
 }

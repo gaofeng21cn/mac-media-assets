@@ -51,7 +51,6 @@
       "bytes": 1469
     }
   ],
-  "revision": "e69ce72978c6fcefb8e9",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:reserve_notebook_page_v1@1f2278bcc87208c993c3",
@@ -70,5 +69,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "e69ce72978c6fcefb8e9"
 }

@@ -108,7 +108,6 @@
       "bytes": 56158
     }
   ],
-  "revision": "263883defd717ff032b8",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_smartphone_front_v1@4d53ec28b0b55ed4ba01",
@@ -127,5 +126,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "263883defd717ff032b8"
 }

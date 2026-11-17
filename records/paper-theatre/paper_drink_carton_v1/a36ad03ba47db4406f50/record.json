@@ -108,7 +108,6 @@
       "bytes": 54724
     }
   ],
-  "revision": "a36ad03ba47db4406f50",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_drink_carton_v1@a66bf2b43ccd61e597fa",
@@ -127,5 +126,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "a36ad03ba47db4406f50"
 }
