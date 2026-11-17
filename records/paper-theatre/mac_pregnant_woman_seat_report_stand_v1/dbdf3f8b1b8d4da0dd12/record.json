@@ -315,7 +315,6 @@
       "bytes": 1639
     }
   ],
-  "revision": "dbdf3f8b1b8d4da0dd12",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:mac_pregnant_woman_seat_report_stand_v1@aaa95674cb25cdcd55bd",
@@ -682,5 +681,6 @@
         "alpha_min": 255
       }
     ]
-  }
+  },
+  "revision": "dbdf3f8b1b8d4da0dd12"
 }

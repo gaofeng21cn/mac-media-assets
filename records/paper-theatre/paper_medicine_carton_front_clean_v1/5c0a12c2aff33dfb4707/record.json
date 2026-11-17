@@ -108,7 +108,6 @@
       "bytes": 56723
     }
   ],
-  "revision": "5c0a12c2aff33dfb4707",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_medicine_carton_front_clean_v1@fe9b69c669e0385e048b",
@@ -127,5 +126,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "5c0a12c2aff33dfb4707"
 }

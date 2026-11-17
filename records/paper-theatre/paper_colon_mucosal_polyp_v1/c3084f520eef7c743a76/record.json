@@ -110,7 +110,6 @@
       "bytes": 87614
     }
   ],
-  "revision": "c3084f520eef7c743a76",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_colon_mucosal_polyp_v1@e56d426c8e7a81a1837e",
@@ -129,5 +128,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "c3084f520eef7c743a76"
 }

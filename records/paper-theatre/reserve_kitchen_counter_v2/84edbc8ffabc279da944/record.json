@@ -67,7 +67,6 @@
       "bytes": 2094946
     }
   ],
-  "revision": "84edbc8ffabc279da944",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:reserve_kitchen_counter_v2@7e89239e364e80d7af82",
@@ -86,5 +85,6 @@
         "alpha_min": 236
       }
     ]
-  }
+  },
+  "revision": "84edbc8ffabc279da944"
 }

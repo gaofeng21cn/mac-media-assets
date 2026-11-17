@@ -188,7 +188,6 @@
       "bytes": 338
     }
   ],
-  "revision": "7e6342bcf40ff43d560e",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:paper_folder_stow_v1@4cbc20ffc34c5e2348b7",
@@ -243,5 +242,6 @@
         "alpha_min": 255
       }
     ]
-  }
+  },
+  "revision": "7e6342bcf40ff43d560e"
 }

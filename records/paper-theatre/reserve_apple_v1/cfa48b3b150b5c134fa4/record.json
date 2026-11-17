@@ -51,7 +51,6 @@
       "bytes": 1414
     }
   ],
-  "revision": "cfa48b3b150b5c134fa4",
   "delivery": {
     "policy": "webp-exact-flac-verified-v2",
     "source_asset_id": "paper:reserve_apple_v1@d16ec119a05b878eb6b0",
@@ -70,5 +69,6 @@
         "alpha_min": 0
       }
     ]
-  }
+  },
+  "revision": "cfa48b3b150b5c134fa4"
 }
