@@ -145,7 +145,7 @@ def row_for_record(library, record_path, record):
             'provenance':{'source_type':record.get('source',{}).get('kind','registered'),'source_ref':record.get('source',{})}}
 
 
-def admit(root, library, record_path, cache=None, *, existing=False, direct=False):
+def admit(root, library, record_path, cache=None, *, existing=False, direct=False, current=None):
     from sync_from_workbench import public_reusable
     record=read(record_path)
     if not public_reusable(record) or (not existing and not direct and record.get('reuse_scope',{}).get('kind') not in {'general','topic'}):
@@ -160,17 +160,29 @@ def admit(root, library, record_path, cache=None, *, existing=False, direct=Fals
         catalog_rows=[json.loads(s) for s in (root/'catalog/assets.jsonl').read_text().splitlines() if s.strip()]
         row=next((r for r in catalog_rows if r['portable_record']==str(record_path.relative_to(root))),row)
     result=prepare_asset(library,row,cache,validate_movable=False)
+    derived=result['record'];newrow=result['row']
+    for part in newrow['payload']:
+        part['storage']='object'
+    ref='records/paper-theatre/'+record['id']+'/'+derived['revision']+'/record.json'
+    previous=(current or {}).get(newrow['id'])
+    already_materialized=bool(previous and previous.get('repository_storage'))
+    if already_materialized:
+        stored=contained(root,previous['portable_record'])
+        if (previous['portable_record']!=ref or sha(stored)!=previous['portable_record_sha256']
+                or read(stored)!=derived or previous['payload']!=newrow['payload']):
+            raise ValueError('同一素材版本的登记或载荷不同：'+newrow['id'])
     # Archive masters outside Git before changing any repository path.
     for part in record['files']:
         suffix='/'+record['id']+'/'+record['revision']+'/'+part['path']
         source=next((contained(library,p['path']) for p in row['payload'] if p['path'].endswith(suffix)),record_path.parent/part['path'])
         put(root,source,part)
-    master=object_root(root)/'masters'/record['id']/record['revision']/'record.json';write(master,record)
-    derived=result['record'];newrow=result['row']
+    if not already_materialized or identifier!=newrow['id']:
+        master=object_root(root)/'masters'/record['id']/record['revision']/'record.json';write(master,record)
     for part in newrow['payload']:
         put(root,Path(result['resolved'][part['path']]),part)
-        part['storage']='object'
-    ref='records/paper-theatre/'+record['id']+'/'+derived['revision']+'/record.json'
+    if already_materialized:
+        # Keep the existing record bytes and its richer catalog projection.
+        return {'id':newrow['id'],'_already_materialized':True}
     write(root/ref,derived)
     newrow['portable_record']=ref;newrow['portable_record_sha256']=sha(root/ref)
     newrow['repository_storage']={'kind':'content_addressed_object','policy':POLICY,'source_asset_id':identifier}
@@ -271,7 +283,7 @@ def reconcile(root=ROOT, *, source_library=None, source_record=None, cache=None)
         def prepare(job):
             library,path,fingerprint=job
             try:
-                return job,admit(root,library,path,cache,existing=library==root,direct=library==root),None
+                return job,admit(root,library,path,cache,existing=library==root,direct=library==root,current=current),None
             except (OSError,ValueError,subprocess.SubprocessError) as error:
                 return job,None,str(error)
         with ThreadPoolExecutor(max_workers=4) as executor:prepared=list(executor.map(prepare,jobs))
@@ -281,10 +293,11 @@ def reconcile(root=ROOT, *, source_library=None, source_record=None, cache=None)
         for (library,path,fingerprint),row,error in prepared:
             if error:warnings.append(str(path)+': '+error);continue
             if row is None:continue
+            receipt['processed'][str(path)]={'source_record_sha256':fingerprint,'asset_id':row['id']}
+            if row.pop('_already_materialized',False):continue
             source_id=row['repository_storage']['source_asset_id']
             mapping.update(row.pop('_normalization_map'))
             current.pop(source_id,None);current[row['id']]=row;aliases[source_id]=row['id']
-            receipt['processed'][str(path)]={'source_record_sha256':fingerprint,'asset_id':row['id']}
             processed.append({'source_asset_id':source_id,'asset_id':row['id']})
             if library==root:
                 original=next((r for r in rows if r['portable_record']==str(path.relative_to(root))),None)

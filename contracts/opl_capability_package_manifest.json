@@ -738,7 +738,7 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:31c14bf1610a6724ba2a61ac33edaa2e45cba1754e65ca77eae5fb7bde14bdeb"
+    "digest": "sha256:15c711f0a739dc2d7ed5f4d5cb177d70a90fa21259466cdcbcd95a86caf42895"
   },
   "entrypoints": [
     {

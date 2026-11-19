@@ -106,6 +106,40 @@ class RepositoryMediaTests(unittest.TestCase):
         self.assertEqual(result['processed'][0]['source_asset_id'],'paper:new_after_setup@'+second['revision'])
         self.assertEqual(repository.reconcile(self.root,cache=self.cache)['processed'],[])
 
+    def test_rescanning_delivered_revision_preserves_its_canonical_projection(self):
+        self.direct_write()
+        repository.reconcile(self.root,cache=self.cache)
+        catalog=self.root/'catalog/assets.jsonl'
+        row=json.loads(catalog.read_text())
+        row['discovery']={'category':'lifestyle','aliases':['Existing alias']}
+        row['provenance']['record_ref']='existing-source/record.json'
+        catalog.write_text(json.dumps(row)+'\n')
+        record_path=self.root/row['portable_record']
+        stored=record_path.read_bytes()
+        record=json.loads(stored)
+        library=self.base/'workbench'
+        duplicate=library/'entries'/record['id']/record['revision']/'record.json'
+        write(duplicate,dict(reversed(tuple(record.items()))))
+        for part, payload in zip(record['files'],row['payload']):
+            destination=duplicate.parent/part['path']
+            destination.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(self.root/payload['path'],destination)
+        write(library/'catalog.json',{'items':[]})
+        repository.configure(self.root,library,None)
+        write(library/'catalog.json',{'items':[{'record':str(duplicate.relative_to(library))}]})
+        self.direct_write(identifier='new_piece')
+
+        result=repository.reconcile(self.root,cache=self.cache)
+
+        self.assertEqual(result['errors'],[])
+        self.assertEqual(result['notes'],[])
+        persisted={item['id']:item for item in map(json.loads,catalog.read_text().splitlines())}
+        self.assertEqual(persisted[row['id']],row)
+        self.assertEqual(record_path.read_bytes(),stored)
+        self.assertEqual(len(result['processed']),1)
+        self.assertTrue(result['processed'][0]['asset_id'].startswith('paper:new_piece@'))
+        self.assertEqual(repository.reconcile(self.root,cache=self.cache)['processed'],[])
+
     def test_master_retention_is_independent_of_disposable_encoding_cache(self):
         record,path,source=self.direct_write()
         result=repository.reconcile(self.root,cache=self.cache)
