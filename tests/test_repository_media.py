@@ -14,7 +14,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
 import repository_media as repository
 import media_store
 import materialize_package
-from optimize_media import canonical,write
+from optimize_media import canonical,prepare_asset,write
 
 
 class RepositoryMediaTests(unittest.TestCase):
@@ -127,6 +127,8 @@ class RepositoryMediaTests(unittest.TestCase):
         write(library/'catalog.json',{'items':[]})
         repository.configure(self.root,library,None)
         write(library/'catalog.json',{'items':[{'record':str(duplicate.relative_to(library))}]})
+        local_duplicate=self.root/duplicate.relative_to(library)
+        shutil.copytree(duplicate.parent,local_duplicate.parent)
         self.direct_write(identifier='new_piece')
 
         result=repository.reconcile(self.root,cache=self.cache)
@@ -136,9 +138,41 @@ class RepositoryMediaTests(unittest.TestCase):
         persisted={item['id']:item for item in map(json.loads,catalog.read_text().splitlines())}
         self.assertEqual(persisted[row['id']],row)
         self.assertEqual(record_path.read_bytes(),stored)
+        self.assertTrue(all(not (local_duplicate.parent/part['path']).exists() for part in record['files']))
+        self.assertNotIn(row['id'],media_store.read(self.root/'catalog/delivery-report.json')['aliases'])
         self.assertEqual(len(result['processed']),1)
         self.assertTrue(result['processed'][0]['asset_id'].startswith('paper:new_piece@'))
         self.assertEqual(repository.reconcile(self.root,cache=self.cache)['processed'],[])
+
+    def test_original_import_updates_references_to_an_already_delivered_revision(self):
+        library=self.base/'workbench'
+        record,source_path,_=self.direct_write(library)
+        source_id='paper:'+record['id']+'@'+record['revision']
+        prepared=prepare_asset(library,repository.row_for_record(library,source_path,record),self.cache)
+        delivered=prepared['record'];asset_id=prepared['row']['id']
+        self.assertNotEqual(asset_id,source_id)
+        delivered_path=source_path.parent.parent/delivered['revision']/'record.json'
+        write(delivered_path,delivered)
+        for part in prepared['row']['payload']:
+            target=delivered_path.parent/Path(part['path']).relative_to(
+                'payloads/paper-theatre/'+record['id']+'/'+delivered['revision'])
+            target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(prepared['resolved'][part['path']],target)
+        repository.reconcile(self.root,source_library=library,source_record=delivered_path,cache=self.cache)
+        catalog=self.root/'catalog/assets.jsonl'
+        row=json.loads(catalog.read_text());row['usage']=['Existing guidance']
+        catalog.write_text(json.dumps(row)+'\n')
+        collection=self.root/'collections/character-scale.json'
+        write(collection,{'assets':{source_id:{'source_asset_id':source_id,'source_sha256':record['files'][0]['sha256']}}})
+
+        result=repository.reconcile(self.root,source_library=library,source_record=source_path,cache=self.cache)
+
+        self.assertEqual(result['notes'],[])
+        self.assertEqual(json.loads(catalog.read_text()),row)
+        self.assertEqual(media_store.read(collection),{'assets':{asset_id:{
+            'source_asset_id':asset_id,'source_sha256':row['payload'][0]['sha256']}}})
+        self.assertEqual(media_store.read(self.root/'catalog/delivery-report.json')['aliases'][source_id],asset_id)
+        self.assertEqual(repository.reconcile(self.root,source_library=library,source_record=source_path,cache=self.cache)['processed'],[])
 
     def test_master_retention_is_independent_of_disposable_encoding_cache(self):
         record,path,source=self.direct_write()
