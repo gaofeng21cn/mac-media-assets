@@ -1,0 +1,149 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_grocery_tote_v1",
+  "title": "帆布购物袋透明纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.webp",
+  "status": "review_candidate",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "builtin_imagegen",
+    "asset_id": "grocery_tote",
+    "source_evidence_ref": "evidence/imagegen.json"
+  },
+  "usage_notes": "适用于买菜回家和台面置物。袋底以右侧最低点落台；真实手持需匹配袋带方向和接触素材。图像不代表允许负重。",
+  "tags": [
+    "paper_collage",
+    "transparent_asset",
+    "提袋",
+    "布袋",
+    "购物袋",
+    "买菜"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    670,
+    1232
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "discovery": {
+    "category": "lifestyle",
+    "display_title": "帆布购物袋透明纸件",
+    "aliases": [
+      "提袋",
+      "布袋",
+      "购物袋",
+      "买菜"
+    ],
+    "objects": [
+      "提袋",
+      "布袋",
+      "购物袋",
+      "买菜"
+    ],
+    "story_roles": [
+      "日常行动",
+      "自我照护"
+    ],
+    "actions": [
+      "落台",
+      "台面移位"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "material": "纤维纸与水彩剪贴",
+    "usage_notes": "适用于买菜回家和台面置物。袋底以右侧最低点落台；真实手持需匹配袋带方向和接触素材。图像不代表允许负重。"
+  },
+  "asset": {
+    "asset_id": "grocery_tote",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "requires_alpha": true,
+    "status": "pending_review",
+    "medical": false,
+    "visual_meaning": "帆布购物袋透明纸件",
+    "must_not_imply": "图片没有提供实际负重或尺寸，使用时应明确表现双手分担、改用推行或放回台面。",
+    "content_bounds": [
+      0,
+      0,
+      670,
+      1232
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "visible_bounds": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 1.0,
+      "h": 1.0
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "base_contact": {
+          "x": 0.73,
+          "y": 0.994
+        },
+        "handle_top": {
+          "x": 0.52,
+          "y": 0.012
+        }
+      }
+    },
+    "generation_receipt": "evidence/imagegen.json",
+    "source_review": {
+      "status": "three_background_composites_reviewed",
+      "evidence_ref": "evidence/three-backgrounds.jpg"
+    },
+    "visual_review": {
+      "status": "pending"
+    }
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "aa2112789526a66afa4e60e0e5100d42c3fea0908cb19757ad696c4f31c6f9d1",
+      "bytes": 881190
+    },
+    {
+      "path": "evidence/imagegen.json",
+      "role": "evidence",
+      "sha256": "3bd8d966c0024f4117e3020bc9270deaf0176165e76332e06b4085064f368791",
+      "bytes": 990
+    },
+    {
+      "path": "evidence/three-backgrounds.jpg",
+      "role": "evidence",
+      "sha256": "901ff3a7cc84e397e9fb9bcc26cfc70df6bbbc627cd342e282a43eb7caa06ad4",
+      "bytes": 224279
+    }
+  ],
+  "revision": "a99a8aa4bffe5de3bfc8",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_grocery_tote_v1@d905ed2157b192ee3c6c",
+    "source_record_sha256": "b6607327384fd8b4fa3aa2c32c07682d2755b80073b3d1fb92981f4d27dcd194",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "74d4fce17e3a22ab571ee25115201841c70fdeddb581ca2fac001752393cd51c",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 670,
+        "height": 1232,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

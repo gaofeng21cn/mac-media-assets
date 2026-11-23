@@ -1,0 +1,145 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_open_wrist_support_v1",
+  "title": "开放式腕部支具透明纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.webp",
+  "status": "review_candidate",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "builtin_imagegen",
+    "asset_id": "wrist_support",
+    "source_evidence_ref": "evidence/imagegen.json"
+  },
+  "usage_notes": "演示咨询时认识器具外形。人物同场按真实体量，细节由独立近景承担。具体型号、尺寸、适用性和佩戴方法由专业人员评估。",
+  "tags": [
+    "paper_collage",
+    "transparent_asset",
+    "护腕",
+    "腕部支具",
+    "腕托",
+    "前臂支具"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    1096,
+    1073
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "discovery": {
+    "category": "care",
+    "display_title": "开放式腕部支具透明纸件",
+    "aliases": [
+      "护腕",
+      "腕部支具",
+      "腕托",
+      "前臂支具"
+    ],
+    "objects": [
+      "护腕",
+      "腕部支具",
+      "腕托",
+      "前臂支具"
+    ],
+    "story_roles": [
+      "日常行动",
+      "自我照护"
+    ],
+    "actions": [
+      "桌面陈列",
+      "外形近景"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "material": "纤维纸与水彩剪贴",
+    "usage_notes": "演示咨询时认识器具外形。人物同场按真实体量，细节由独立近景承担。具体型号、尺寸、适用性和佩戴方法由专业人员评估。"
+  },
+  "asset": {
+    "asset_id": "wrist_support",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "requires_alpha": true,
+    "status": "pending_review",
+    "medical": false,
+    "visual_meaning": "开放式腕部支具透明纸件",
+    "must_not_imply": "用于门诊沟通示例；临床尺寸、型号、佩戴时间和适用性需专业评估。",
+    "content_bounds": [
+      0,
+      0,
+      1096,
+      1073
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "visible_bounds": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 1.0,
+      "h": 1.0
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "rest_contact": {
+          "x": 0.36,
+          "y": 0.992
+        }
+      }
+    },
+    "generation_receipt": "evidence/imagegen.json",
+    "source_review": {
+      "status": "three_background_composites_reviewed",
+      "evidence_ref": "evidence/three-backgrounds.jpg"
+    },
+    "visual_review": {
+      "status": "pending"
+    }
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "a77aae2439ff8e7c8cbd44f116ab6a81fe6facd9e91248febf888967c9a07a18",
+      "bytes": 1200196
+    },
+    {
+      "path": "evidence/imagegen.json",
+      "role": "evidence",
+      "sha256": "d5ca8b40dd37cf96556f8309c2c8ca63d03a8af2ed2a2002a91fff602952e133",
+      "bytes": 992
+    },
+    {
+      "path": "evidence/three-backgrounds.jpg",
+      "role": "evidence",
+      "sha256": "901ff3a7cc84e397e9fb9bcc26cfc70df6bbbc627cd342e282a43eb7caa06ad4",
+      "bytes": 224279
+    }
+  ],
+  "revision": "152f8ca15d0e8507b36f",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_open_wrist_support_v1@848a6a03fa0423ae77cf",
+    "source_record_sha256": "576ccab1da41ecb624d9611dfd056d8633df02fc91c1b0c4b239bd18e905992f",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5aaeef93a8a85f491f7d900def04b19888953c8462e987a20812c1132d410d98",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1096,
+        "height": 1073,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

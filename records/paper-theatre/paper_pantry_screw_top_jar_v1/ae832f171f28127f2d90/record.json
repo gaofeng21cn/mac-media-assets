@@ -1,0 +1,149 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_pantry_screw_top_jar_v1",
+  "title": "旋盖玻璃罐透明纸件",
+  "kind": "transparent_subject",
+  "entry": "files/payload.webp",
+  "status": "review_candidate",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "builtin_imagegen",
+    "asset_id": "jam_jar",
+    "source_evidence_ref": "evidence/imagegen.json"
+  },
+  "usage_notes": "用作厨房桌面参照、开盖辅助工具的并列说明。瓶盖固定在这张纸件上，实际旋开须拆出独立盖和罐体。",
+  "tags": [
+    "paper_collage",
+    "transparent_asset",
+    "玻璃罐",
+    "果酱罐",
+    "旋盖瓶",
+    "开盖"
+  ],
+  "content_bounds": [
+    0,
+    0,
+    642,
+    971
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "discovery": {
+    "category": "lifestyle",
+    "display_title": "旋盖玻璃罐透明纸件",
+    "aliases": [
+      "玻璃罐",
+      "果酱罐",
+      "旋盖瓶",
+      "开盖"
+    ],
+    "objects": [
+      "玻璃罐",
+      "果酱罐",
+      "旋盖瓶",
+      "开盖"
+    ],
+    "story_roles": [
+      "日常行动",
+      "自我照护"
+    ],
+    "actions": [
+      "厨房陈列",
+      "换工具开盖"
+    ],
+    "medium": "cutout",
+    "style": [
+      "paper_collage"
+    ],
+    "material": "纤维纸与水彩剪贴",
+    "usage_notes": "用作厨房桌面参照、开盖辅助工具的并列说明。瓶盖固定在这张纸件上，实际旋开须拆出独立盖和罐体。"
+  },
+  "asset": {
+    "asset_id": "jam_jar",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "requires_alpha": true,
+    "status": "pending_review",
+    "medical": false,
+    "visual_meaning": "旋盖玻璃罐透明纸件",
+    "must_not_imply": "家庭生活道具，不表示特定疗法或食物建议；只为解释不同开盖工具的接触。",
+    "content_bounds": [
+      0,
+      0,
+      642,
+      971
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "visible_bounds": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 1.0,
+      "h": 1.0
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "base_contact": {
+          "x": 0.5,
+          "y": 0.996
+        },
+        "lid_center": {
+          "x": 0.5,
+          "y": 0.085
+        }
+      }
+    },
+    "generation_receipt": "evidence/imagegen.json",
+    "source_review": {
+      "status": "three_background_composites_reviewed",
+      "evidence_ref": "evidence/three-backgrounds.jpg"
+    },
+    "visual_review": {
+      "status": "pending"
+    }
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "a51ebbe8eb6fc68dbae92c68f07495e4cde12f67a50f927f4e6c726fcce8c0ff",
+      "bytes": 909346
+    },
+    {
+      "path": "evidence/imagegen.json",
+      "role": "evidence",
+      "sha256": "8fba26fe8a18cac9a9dddde0c0ea5a15503f021a75b8e32d007b35c27819bf6b",
+      "bytes": 1137
+    },
+    {
+      "path": "evidence/three-backgrounds.jpg",
+      "role": "evidence",
+      "sha256": "901ff3a7cc84e397e9fb9bcc26cfc70df6bbbc627cd342e282a43eb7caa06ad4",
+      "bytes": 224279
+    }
+  ],
+  "revision": "ae832f171f28127f2d90",
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_pantry_screw_top_jar_v1@d8a5ceaff199a596e8ec",
+    "source_record_sha256": "134884691c18617866b8eb4389fec3c9166365b77d8670b4de98979d1c339ba7",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "6b7c9f5a7db827c6f6b09b7ba8b8583d0e4818c2c5c316a84324f71aa56d2178",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 642,
+        "height": 971,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

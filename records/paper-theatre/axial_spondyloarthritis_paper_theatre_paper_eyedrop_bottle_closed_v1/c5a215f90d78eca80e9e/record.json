@@ -1,0 +1,102 @@
+{
+  "schema": "animation_element/v1",
+  "id": "axial_spondyloarthritis_paper_theatre_paper_eyedrop_bottle_closed_v1",
+  "title": "滴眼液瓶｜青绿色闭合瓶盖",
+  "kind": "transparent_subject",
+  "tags": [
+    "滴眼液",
+    "药瓶",
+    "透明纸件",
+    "眼科"
+  ],
+  "entry": "files/payload.png",
+  "asset": {
+    "asset_id": "paper_eyedrop_bottle_closed_v1",
+    "path": "files/payload.png",
+    "source_type": "imagegen",
+    "source": "内置 ImageGen，单件滴眼液蜡笔纸片，单色底转透明",
+    "visual_meaning": "在纸剧场普通场景表示一只闭合的滴眼液瓶",
+    "must_not_imply": "无品牌和浓度，用于识别和收纳，不演示开盖、滴药或给出用药指导",
+    "status": "pending_review",
+    "medical": false,
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {}
+    },
+    "prompt_ref": "evidence/0-paper_eyedrop_bottle_closed_v1-prompt_ref.txt",
+    "generation_receipt": "evidence/1-paper_eyedrop_bottle_closed_v1-generation_receipt.json"
+  },
+  "source": {
+    "kind": "imagegen",
+    "source_workbench_record": "axial_spondyloarthritis_paper_theatre_paper_eyedrop_bottle_closed_v1@b0ee47f5c5059924ca8a",
+    "source_sha256": "b229e98f72c03080f45e641e807846b33305639cfd71b67c6ffe4acbc968423f",
+    "prompt_ref": "evidence/0-paper_eyedrop_bottle_closed_v1-prompt_ref.txt",
+    "generation_receipt": "evidence/1-paper_eyedrop_bottle_closed_v1-generation_receipt.json"
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "status": "reusable_candidate",
+  "usage_notes": "纸剧场收纳、携带与就医沟通的通用滴眼液瓶纸件。无具体药名和浓度，不作为用药指导。瓶盖与瓶身为整体，只支持整体调度。",
+  "content_bounds": [
+    0,
+    0,
+    493,
+    1136
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "review": {
+    "source_static": "reviewed",
+    "alpha_composites": "reviewed",
+    "current_shot": "pending",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "discovery": {
+    "aliases": [
+      "滴眼液",
+      "眼药水",
+      "闭合滴眼液瓶"
+    ],
+    "actions": [
+      "完整药瓶平移",
+      "按内容边界等比缩放"
+    ],
+    "story_roles": [
+      "识别药瓶",
+      "收纳",
+      "就医沟通"
+    ]
+  },
+  "files": [
+    {
+      "path": "files/payload.png",
+      "role": "payload",
+      "sha256": "b229e98f72c03080f45e641e807846b33305639cfd71b67c6ffe4acbc968423f",
+      "bytes": 1034445
+    },
+    {
+      "path": "evidence/0-paper_eyedrop_bottle_closed_v1-prompt_ref.txt",
+      "role": "evidence",
+      "sha256": "1b18a9220b60fb7ad04de44dfe96484775a1e1c76d9fad27184ce035389cbf76",
+      "bytes": 663
+    },
+    {
+      "path": "evidence/1-paper_eyedrop_bottle_closed_v1-generation_receipt.json",
+      "role": "evidence",
+      "sha256": "f724950a5bb0ed0e670b8c0dcfde67dce805a20f77630b85b32bacb19bb5b4ec",
+      "bytes": 375
+    },
+    {
+      "path": "samples/three-backgrounds.jpg",
+      "role": "sample",
+      "sha256": "57aee1c45c43cafb00184f95509553a5d246bef2ef6c37b0931f6cb3768b5804",
+      "bytes": 139905
+    }
+  ],
+  "revision": "c5a215f90d78eca80e9e"
+}
