@@ -174,6 +174,42 @@ class RepositoryMediaTests(unittest.TestCase):
         self.assertEqual(media_store.read(self.root/'catalog/delivery-report.json')['aliases'][source_id],asset_id)
         self.assertEqual(repository.reconcile(self.root,source_library=library,source_record=source_path,cache=self.cache)['processed'],[])
 
+    def test_same_scan_original_and_delivered_records_share_one_exact_projection(self):
+        library = self.base / 'workbench'
+        original, source_path, _ = self.direct_write(library)
+        source_row = repository.row_for_record(library, source_path, original)
+        prepared = prepare_asset(library, source_row, self.cache)
+        delivered = prepared['record']
+        delivered_row = prepared['row']
+        self.assertNotEqual(source_row['id'], delivered_row['id'])
+        delivered_path = source_path.parent.parent / delivered['revision'] / 'record.json'
+        write(delivered_path, dict(reversed(tuple(delivered.items()))))
+        self.assertNotEqual(media_store.sha(delivered_path), delivered_row['portable_record_sha256'])
+        for part in delivered['files']:
+            stored_path = str(Path('payloads/paper-theatre') / original['id'] / delivered['revision'] / part['path'])
+            output = delivered_path.parent / part['path']
+            output.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(prepared['resolved'][stored_path], output)
+        write(library / 'catalog.json', {'items': []})
+        repository.configure(self.root, library, None)
+        write(library / 'catalog.json', {'items': [
+            {'record': str(path.relative_to(library))} for path in (source_path, delivered_path)
+        ]})
+
+        result = repository.reconcile(self.root, cache=self.cache)
+
+        self.assertEqual(result['notes'], [])
+        self.assertEqual(result['processed'], [{'source_asset_id': source_row['id'], 'asset_id': delivered_row['id']}])
+        catalog = self.root / 'catalog/assets.jsonl'
+        before = catalog.read_bytes()
+        row = json.loads(before)
+        self.assertEqual(row['id'], delivered_row['id'])
+        self.assertEqual(row['repository_storage']['source_asset_id'], source_row['id'])
+        self.assertEqual(row['portable_record_sha256'], delivered_row['portable_record_sha256'])
+        self.assertEqual(media_store.sha(self.root / row['portable_record']), row['portable_record_sha256'])
+        self.assertEqual(repository.reconcile(self.root, cache=self.cache)['processed'], [])
+        self.assertEqual(catalog.read_bytes(), before)
+
     def test_master_retention_is_independent_of_disposable_encoding_cache(self):
         record,path,source=self.direct_write()
         result=repository.reconcile(self.root,cache=self.cache)
