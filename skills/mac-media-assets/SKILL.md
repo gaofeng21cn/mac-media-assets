@@ -13,14 +13,14 @@ MAC 默认自动依赖轻量目录包，OPL App Full 也携带小核心。查询
 
 导演准备先按患者问题、视觉锚点和拟承担动作检索，再实际查看原件和动作样例。环境板、透明主体、纸材固定件、组件和声音各有职责；按内容 bounds、认知关系和当前构图决定比例。库里已有的故事、构图、镜头时码和颜色不成为新集模板。
 
-按观看任务区分主焦点、支持组和背景；复杂核心需要解释近景或拆解，小尺寸只承载简单轮廓或已解释归档内容。总览、解释近景与简化版分别记录用途和精确版本关系，不能把缩小详细原件称为简化版；只将真实存在且审看的候选列为可用。人物与椅面、投影、手持物共同试装，并看手机宽预览和动作极值；当前覆盖边界见[尺寸用途与版本覆盖](../../docs/asset-coverage.md#尺寸用途与版本覆盖)。
+按观看任务区分主焦点、支持组和背景；复杂核心需要解释近景或拆解，小尺寸只承载简单轮廓或已解释归档内容。总览、解释近景与简化版分别记录用途和精确版本关系，不能把缩小详细原件称为简化版；只将真实存在且审看的候选列为可用。人物与椅面、投影、手持物共同试装，并看手机宽预览和动作极值；当前覆盖边界见[覆盖与复用范围](../../docs/asset-coverage.md)。
 
-类别覆盖与储备批次见[覆盖评估](../../docs/asset-coverage.md)，现成候选见[资产清单](../../docs/asset-inventory.md)。登记快照可读 catalog/sync-readback.json，当前数量以实时 query 为准，实际可发现与可取用范围分别查询核对，不沿用说明中的旧总数。优先储备能跨主题独立操作的部件，不按成片截图或整场合图充数。库不完整时继续新创，不为补齐类别或复用率改变故事。
+类别覆盖与可用范围见[覆盖评估](../../docs/asset-coverage.md)，登记快照可读 `catalog/sync-readback.json`，当前数量与精确版本以实时 `python3 tools/query_assets.py` 为准，实际可发现与可取用范围分别查询核对，不沿用说明中的旧总数。优先储备能跨主题独立操作的部件，不按成片截图或整场合图充数。库不完整时继续新创，不为补齐类别或复用率改变故事。
 
 ```sh
 python3 tools/query_assets.py --query 垂体 --json
 python3 tools/query_assets.py --character-role 老年男性 --pose walk --json
-python3 tools/audit_character_coverage.py --output docs/character-coverage.json
+python3 tools/audit_character_coverage.py
 python3 tools/query_assets.py --kind code_component --json
 python3 tools/query_assets.py --kind audio --author-id <当前作者档案ID> --json
 ```

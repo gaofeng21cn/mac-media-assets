@@ -53,6 +53,33 @@ def verify_remote_source(root, rows, spec):
                 raise ValueError('固定来源与登记媒体字节不一致：' + name)
 
 
+def collection_docs_evidence_refs(root):
+    refs = set()
+    collections_dir = root / 'collections'
+    if not collections_dir.is_dir():
+        return refs
+
+    def walk(node):
+        if isinstance(node, dict):
+            ref = node.get('evidence_ref')
+            if isinstance(ref, str):
+                rel = ref.split('#', 1)[0]
+                if rel.startswith('docs/'):
+                    refs.add(rel)
+            for value in node.values():
+                walk(value)
+        elif isinstance(node, list):
+            for value in node:
+                walk(value)
+
+    for path in collections_dir.glob('*.json'):
+        try:
+            walk(json.loads(path.read_text(encoding='utf-8')))
+        except (OSError, ValueError):
+            continue
+    return refs
+
+
 def build_manifest(root=ROOT, profile='catalog'):
     manifest_path = root / 'contracts/opl_capability_package_manifest.json'
     manifest = json.loads(manifest_path.read_text())
@@ -67,11 +94,21 @@ def build_manifest(root=ROOT, profile='catalog'):
     else:
         payload_paths = sorted({part['path'] for row in rows if row['source_id'] in bundled for part in row['payload']})
     record_paths = sorted({row['portable_record'] for row in rows})
+    evidence_refs = collection_docs_evidence_refs(root)
     icon = manifest.get('presentation', {}).get('icon_ref')
-    paths = sorted(['plugin.json', '.codex-plugin/plugin.json', '.agents/plugins/marketplace.json', 'app-contribution-adapter.json'] + ([icon] if icon else []) + payload_paths + record_paths +
-                   [str(path.relative_to(root)) for folder in
-                    ['skills','tools','catalog','collections','schemas','docs']
-                    for path in (root/folder).rglob('*') if path.is_file() and '__pycache__' not in path.parts])
+    folder_paths = [
+        str(path.relative_to(root))
+        for folder in ['skills', 'tools', 'catalog', 'collections', 'schemas']
+        for path in (root / folder).rglob('*')
+        if path.is_file() and '__pycache__' not in path.parts
+    ]
+    docs_paths = [
+        str(path.relative_to(root))
+        for path in (root / 'docs').rglob('*')
+        if path.is_file()
+        and (path.suffix == '.md' or str(path.relative_to(root)) in evidence_refs)
+    ] if (root / 'docs').is_dir() else []
+    paths = sorted(['plugin.json', '.codex-plugin/plugin.json', '.agents/plugins/marketplace.json', 'app-contribution-adapter.json'] + ([icon] if icon else []) + payload_paths + record_paths + folder_paths + docs_paths)
     digest = hashlib.sha256()
     for relative in paths:
         encoded = relative.encode()

@@ -4,19 +4,18 @@
 
 ## 使用入口
 
-- [根 README](../README.md)：素材预览、分类与用途、MAC 接入和独立浏览。
-- [资产清单](asset-inventory.md)：按类别列出当前公共版本及原记录链接。
-- [覆盖与储备规划](asset-coverage.md)：角色姿态、组合、成熟度、已知缺口和下一批补充顺序。
-- [初稿质量基线](first-draft-quality.md)：写分镜前的查询、实看、代表镜头和当前镜头复核。
-- [交互审看入口](interaction-review/README.md)：组合小样、关键帧和回读证据。
-- [动作样片与取用](motion-studies.md)：人物接触、监测、生活与结构解释的样片、精确版本与取用方法。
-- [轻量安装与缓存](media-storage.md)：默认目录包、精确媒体取用、压缩完整离线包及内容去重。
-- [医学任务覆盖](../collections/medical-coverage.json)：20类任务的已有候选、缺口与补充优先级。
+- [根 README](../README.md)：素材预览、分类职责、MAC 接入和独立查询。
+- [覆盖与复用范围](asset-coverage.md)：角色姿态、结构解释、组合类别和已知缺口（实时数量以 `tools/query_assets.py` 为准）。
+- [生产基线身份](asset-identity-baseline.md)：生产人物身份家族与已识别漂移规则。
+- [人物原图标尺](character-scale.md)：原图身体像素/厘米标定、锚点分离与多帧坐标换算。
+- [动作样片与取用](motion-studies.md)：人物接触、监测、生活与结构解释的可复用动作包与取用方法。
+- [轻量安装与缓存](media-storage.md)：默认目录包、精确媒体取用、压缩完整离线包及两层自动整理流程。
+- [医学任务覆盖](../collections/medical-coverage.json)：科普任务的已有候选、缺口与补充优先级。
 
 ## 治理与技术入口
 
-- [本轮比例与接触检查](quality-audit-2026-11-01.md)：已撤回版本、修复范围和审核机制。
-- [资产库治理与 Review 边界](governance-and-review.md)：公共库职责、版本、复用和独立审看层级。
+- [资产库治理、初稿准备与 Review 边界](governance-and-review.md)：公共库职责、状态与版本复用、初稿准备检查及独立审看层级。
+- [比例与接触撤回审计收据](quality-audit-2026-11-01.md)：`collections/` 引用的历史撤回与修复审核依据（配套机读记录见 [quality-audit-2026-11-01.json](quality-audit-2026-11-01.json)）。
 - [catalog 说明](../catalog/README.md)：`catalog/assets.jsonl` 的字段职责和精确版本引用。
 - [公共载荷说明](../payloads/README.md)：`payloads/`、来源证据、SHA-256 和离线校验。
 - [资产发现](../tools/query_assets.py)：按名称、别名、类别、角色、姿态、组合和叙事用途只读查询。
@@ -36,8 +35,10 @@
 
 ```bash
 uv run --with Pillow python -m unittest discover -s tests -v
+node --test tests/medical-processes.test.mjs
+python3 tools/repository_media.py audit
 python3 tools/apply_curation.py --check
-python3 tools/verify_catalog.py
+python3 tools/verify_catalog.py --metadata-only
 python3 tools/query_assets.py --query 肾脏 --limit 5
 node tools/check_motion_studies.mjs
 python3 tools/materialize_package.py --check
