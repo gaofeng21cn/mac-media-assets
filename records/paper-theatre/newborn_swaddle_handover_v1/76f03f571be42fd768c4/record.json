@@ -1,0 +1,135 @@
+{
+  "schema": "animation_element/v1",
+  "id": "newborn_swaddle_handover_v1",
+  "title": "新生儿包巾交接纸偶",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "产后交接",
+    "新生儿",
+    "包巾"
+  ],
+  "entry": "files/payload.webp",
+  "asset": {
+    "asset_id": "newborn_swaddle",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "visual_meaning": "新生儿包巾纸偶，母婴交接的概念标记",
+    "must_not_imply": "不表示现实护理姿势、比例、喂养或治疗操作",
+    "requires_alpha": true,
+    "status": "pending_review",
+    "visual_review": {
+      "status": "viewed_alpha_light_dark",
+      "scope": "S05_encoded_pending"
+    },
+    "visible_bounds": {
+      "x": 0.208,
+      "y": 0.022,
+      "w": 0.596,
+      "h": 0.959
+    },
+    "world_size_reference": {
+      "width_cm": 34,
+      "height_cm": 48,
+      "basis": "概念交接图解，不作为婴儿现实比例或护理操作示范"
+    },
+    "generation_receipt": "evidence/0-newborn_swaddle_generation.json",
+    "prompt_ref": "evidence/1-newborn_swaddle_prompt.txt",
+    "medical": false,
+    "medical_scope": "non_medical_care_handover_concept",
+    "medical_review": {
+      "status": "not_applicable_prop",
+      "reason": "不表示诊断、护理操作或现实婴儿比例"
+    }
+  },
+  "source": {
+    "series": "gestational_diabetes_paper_theatre",
+    "episode": "06_before_delivery",
+    "asset_id": "newborn_swaddle",
+    "original_manifest": {
+      "asset_id": "newborn_swaddle",
+      "path": "assets/imported/newborn_swaddle_handover_20261119.png",
+      "source_type": "imagegen",
+      "visual_meaning": "新生儿包巾纸偶，母婴交接的概念标记",
+      "must_not_imply": "不表示现实护理姿势、比例、喂养或治疗操作",
+      "requires_alpha": true,
+      "status": "pending_review",
+      "visual_review": {
+        "status": "viewed_alpha_light_dark",
+        "scope": "S05_encoded_pending"
+      },
+      "visible_bounds": {
+        "x": 0.208,
+        "y": 0.022,
+        "w": 0.596,
+        "h": 0.959
+      },
+      "world_size_reference": {
+        "width_cm": 34,
+        "height_cm": 48,
+        "basis": "概念交接图解，不作为婴儿现实比例或护理操作示范"
+      },
+      "generation_receipt": "assets/evidence/newborn_swaddle_generation.json",
+      "prompt_ref": "assets/evidence/newborn_swaddle_prompt.txt",
+      "medical": false,
+      "medical_scope": "non_medical_care_handover_concept",
+      "medical_review": {
+        "status": "not_applicable_prop",
+        "reason": "不表示诊断、护理操作或现实婴儿比例"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "topic"
+  },
+  "quality_debt": [],
+  "usage_notes": "透明单件，作为母婴观察和照护交接的概念对象。设计参考宽34厘米、高48厘米，只用于解释层排景。不能表示现实婴儿比例、睡姿、包裹教程、喂养或治疗操作。",
+  "discovery": {
+    "category": "care_handover",
+    "aliases": [
+      "新生儿包巾",
+      "宝宝交接",
+      "母婴交接"
+    ]
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8d2abee9deabe6c858373e15773653b8edadcffa18d8aee92a21de145cb207e3",
+      "bytes": 1320382
+    },
+    {
+      "path": "evidence/0-newborn_swaddle_generation.json",
+      "role": "evidence",
+      "sha256": "0fe2f4dd5838cb0172bd4d3fdb1d5e89f102aaefe5c798435346752eddf26901",
+      "bytes": 428
+    },
+    {
+      "path": "evidence/1-newborn_swaddle_prompt.txt",
+      "role": "evidence",
+      "sha256": "25bbe74464b0c76f1cb7382c59acab37cbb7b4211e7e997392fd7705f45ab3f7",
+      "bytes": 305
+    }
+  ],
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:newborn_swaddle_handover_v1@c3233f7707e281b8726e",
+    "source_record_sha256": "a8d221d44955c1f5dadbbb442f9f70ae80362fbf596d1fb1a34b271407688dec",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "71227a86986813f5720f4c0a34b6892a3d6f25ef4c02c81eeb102f7168f55458",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1024,
+        "height": 1536,
+        "alpha_min": 0
+      }
+    ]
+  },
+  "revision": "76f03f571be42fd768c4"
+}

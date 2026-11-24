@@ -1,0 +1,124 @@
+{
+  "schema": "animation_element/v1",
+  "id": "cooked_mixed_grain_bowl_v1",
+  "title": "纸剧场熟杂粮饭碗",
+  "kind": "image",
+  "tags": [
+    "paper_collage",
+    "主食",
+    "熟饭",
+    "杂粮饭",
+    "饭碗"
+  ],
+  "entry": "files/payload.webp",
+  "asset": {
+    "asset_id": "cooked_bowl",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "visual_meaning": "完整熟杂粮饭碗，日常主食而非生米",
+    "must_not_imply": "碗中图形不表示统一标准份量；不能当克数处方",
+    "medical": false,
+    "prompt_ref": "evidence/0-cooked_bowl_prompt.txt",
+    "generation_receipt": "evidence/1-cooked_bowl_generation.json",
+    "requires_alpha": true,
+    "status": "pending_review",
+    "visual_review": {
+      "status": "pending"
+    },
+    "visible_bounds": {
+      "x": 0.10365853658536585,
+      "y": 0.1292743953294412,
+      "w": 0.791920731707317,
+      "h": 0.7231025854879066
+    },
+    "world_size_reference": {
+      "width_cm": 15,
+      "height_cm": 12,
+      "basis": "常见小饭碗设计参考；不计量食物克数"
+    }
+  },
+  "source": {
+    "series": "gestational_diabetes_paper_theatre",
+    "episode": "02_build_the_meal",
+    "asset_id": "cooked_bowl",
+    "original_manifest": {
+      "asset_id": "cooked_bowl",
+      "path": "assets/imported/cooked_mixed_grain_bowl_20261117.png",
+      "source_type": "imagegen",
+      "visual_meaning": "完整熟杂粮饭碗，日常主食而非生米",
+      "must_not_imply": "碗中图形不表示统一标准份量；不能当克数处方",
+      "medical": false,
+      "prompt_ref": "assets/evidence/cooked_bowl_prompt.txt",
+      "generation_receipt": "assets/evidence/cooked_bowl_generation.json",
+      "requires_alpha": true,
+      "status": "pending_review",
+      "visual_review": {
+        "status": "pending"
+      },
+      "visible_bounds": {
+        "x": 0.10365853658536585,
+        "y": 0.1292743953294412,
+        "w": 0.791920731707317,
+        "h": 0.7231025854879066
+      },
+      "world_size_reference": {
+        "width_cm": 15,
+        "height_cm": 12,
+        "basis": "常见小饭碗设计参考；不计量食物克数"
+      }
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "usage_notes": "单层透明物件，用于完整饭碗整体移动或餐食图标。纸碗约宽15 cm、高12 cm；图形面积不表示食品克数。已看原件浅、深、彩底和本集编码状态。复用时核对餐具共同尺度；盛饭或进食须另备分层和接触表演。",
+  "discovery": {
+    "category": "food",
+    "aliases": [
+      "饭碗",
+      "熟饭",
+      "主食"
+    ]
+  },
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "ef9f326d34f58cf1dcc1a72f6baaf9206de6c98b292cdf2f4e7bed792901aaf6",
+      "bytes": 979378
+    },
+    {
+      "path": "evidence/0-cooked_bowl_prompt.txt",
+      "role": "evidence",
+      "sha256": "4664d4615eff1ad1d5f2c6475a621efb40229eaad94c9afe3a3dabaa0dd4d33e",
+      "bytes": 325
+    },
+    {
+      "path": "evidence/1-cooked_bowl_generation.json",
+      "role": "evidence",
+      "sha256": "1d6b1ff6cb31f42b0d26c94273e4c202f3d3208adc6682d8df84094b67564ed3",
+      "bytes": 284
+    }
+  ],
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:cooked_mixed_grain_bowl_v1@3dff3f3b2875e5eab4c5",
+    "source_record_sha256": "fab798d0b4c05d6f663d3f5ac78f19baab79f6f4b05da9584320fe95dab41b49",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "8182b817d443d4e88f4194d78d20278384137a0af79981ac1522e8393e382b32",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1312,
+        "height": 1199,
+        "alpha_min": 0
+      }
+    ]
+  },
+  "revision": "a49adc7a02a42c303765"
+}

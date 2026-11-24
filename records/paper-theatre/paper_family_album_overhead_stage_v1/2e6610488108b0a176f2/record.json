@@ -1,0 +1,118 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_family_album_overhead_stage_v1",
+  "title": "家庭相簿俯拍空景",
+  "kind": "environment_plate",
+  "tags": [
+    "paper_collage",
+    "家庭",
+    "俯拍",
+    "相簿",
+    "空工作面"
+  ],
+  "entry": "files/payload.webp",
+  "asset": {
+    "asset_id": "album_stage",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "visual_meaning": "铺在家庭木桌上的空白家族相簿俯拍环境",
+    "must_not_imply": "固定装订和桌面没有独立翻页图层",
+    "prompt_ref": "evidence/0-family-album-stage-prompt.txt",
+    "generation_receipt": "evidence/1-family-album-stage-generation.json",
+    "status": "pending_review",
+    "medical": false,
+    "visual_review": {
+      "status": "pending"
+    },
+    "visible_bounds": {
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1
+    },
+    "requires_alpha": false
+  },
+  "source": {
+    "series": "colorectal_screening_paper_theatre",
+    "episode": "02_episode",
+    "asset_id": "album_stage",
+    "original_manifest": {
+      "asset_id": "album_stage",
+      "path": "assets/imported/family-album-stage-20261119.png",
+      "source_type": "imagegen",
+      "visual_meaning": "铺在家庭木桌上的空白家族相簿俯拍环境",
+      "must_not_imply": "固定装订和桌面没有独立翻页图层",
+      "prompt_ref": "assets/evidence/family-album-stage-prompt.txt",
+      "generation_receipt": "assets/evidence/family-album-stage-generation.json",
+      "status": "pending_review",
+      "medical": false,
+      "visual_review": {
+        "status": "pending"
+      },
+      "visible_bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "requires_alpha": false
+    }
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "quality_debt": [],
+  "discovery": {
+    "category": "environment",
+    "aliases": [
+      "打开的相簿",
+      "家庭相册",
+      "俯拍相簿"
+    ]
+  },
+  "usage": [
+    "固定纸景承托照片、笔和记录纸",
+    "适配画面时为字幕保留充足木桌空区",
+    "相簿的书页和装订在此源文件内固定"
+  ],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "859efcdb1cc8c60b3d2546886b29fa486730d7917629e6755694466a2b25d66c",
+      "bytes": 1469312
+    },
+    {
+      "path": "evidence/0-family-album-stage-prompt.txt",
+      "role": "evidence",
+      "sha256": "7f4aae843413592127bca2ddd157f403605eac9c719e9bd9d715e4f3e6a2c4e8",
+      "bytes": 947
+    },
+    {
+      "path": "evidence/1-family-album-stage-generation.json",
+      "role": "evidence",
+      "sha256": "df9b366af771c95b6f6cc0cda540d27df54c862db279dea852e1c0d96566ea5a",
+      "bytes": 546
+    }
+  ],
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_family_album_overhead_stage_v1@07dbaeaba976867fce89",
+    "source_record_sha256": "c11c0e4808d131ba8c60fc0b20c5939ae5b983ca218da99e050afa50c6a5c5b2",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "5f3b54bf9d1fae5a05b0a4f0c9cba355df31e9eb9628b08c8b9dc5cc8364a405",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1672,
+        "height": 941,
+        "alpha_min": 255
+      }
+    ]
+  },
+  "revision": "2e6610488108b0a176f2"
+}

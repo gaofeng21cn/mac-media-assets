@@ -1,0 +1,104 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_ignition_key_overhead_v1",
+  "title": "俯拍汽车钥匙",
+  "kind": "image",
+  "entry": "files/payload.webp",
+  "asset": {
+    "asset_id": "ignition_key",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "source": "Codex 内置 ImageGen",
+    "generation_receipt": "evidence/generation.json",
+    "alpha_evidence": "evidence/three-bases.jpg",
+    "status": "approved_direct_use",
+    "medical": false,
+    "visual_meaning": "俯拍汽车钥匙",
+    "must_not_imply": "仅用于生活情境与接触，不能表达诊断或驾驶资格。",
+    "visible_bounds": {
+      "x": 0.007174887892376682,
+      "y": 0.016913319238900635,
+      "w": 0.9856502242152466,
+      "h": 0.9661733615221987
+    },
+    "registration": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchors": {
+        "contact_center": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "scale_mode": "world_scale",
+    "requires_alpha": true,
+    "prompt_ref": "evidence/prompt.json",
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/visual-review.json"
+    }
+  },
+  "usage_notes": "钥匙刃向右；接触点为钥匙几何中心，环内保留真实 alpha。",
+  "tags": [
+    "paper_collage",
+    "transport",
+    "overhead_prop",
+    "ignition_key"
+  ],
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "source": {
+    "kind": "imagegen",
+    "episode_reference": "sleep_health_paper_theatre/07_daytime_safety"
+  },
+  "status": "approved_direct_use",
+  "review": {
+    "static_alpha": "checked_light_dark_colour_backgrounds",
+    "full_motion": "per_shot"
+  },
+  "medical_review": "not_applicable",
+  "quality_debt": [],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "8b76544a86e3e0bf76aa55868f8132ad81d8257070a76f3b6a57f9b254ee2d5a",
+      "bytes": 440534
+    },
+    {
+      "path": "evidence/three-bases.jpg",
+      "role": "evidence",
+      "sha256": "113fd8c9795e29ae58c20fb3935d795dac922518e57d4c292220ba3c4a9f5d1b",
+      "bytes": 31104
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "f137c1fbc89bed7d242890f8c2f9e1cd4c4f5d96780c7732236551834f015bf2",
+      "bytes": 521
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "1a82e82a8a8b72e43045880da06de3dd7b6fd76d56aeb9c8f0d8e7a3c0a8c3a8",
+      "bytes": 253
+    },
+    {
+      "path": "evidence/imagegen-source.webp",
+      "role": "evidence",
+      "sha256": "7588b88d0ea58e63b6d1feb42dfe8414177bb6585861caa8957121ca59b34dbf",
+      "bytes": 1052042
+    },
+    {
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "19279ce7d89777abd049e12f5556deb7dd4d605833277c2844f9f9032b1c095e",
+      "bytes": 313
+    }
+  ],
+  "revision": "26f93125f50131f05c16"
+}

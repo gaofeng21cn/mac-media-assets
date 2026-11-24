@@ -1,0 +1,78 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_radiology_film_sheet_v1",
+  "title": "放射影像胶片纸件",
+  "kind": "transparent_subject",
+  "entry": "payload.png",
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "review_candidate",
+  "tags": [
+    "影像资料",
+    "胶片",
+    "放射影像",
+    "会诊"
+  ],
+  "content_bounds": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 1.0
+  },
+  "content_bounds_format": "normalized_xywh",
+  "usage_notes": "可摆放或压叠在资料桌、病历夹、会诊报告内。始终用作无诊断内容的影像资料道具。没有可辨认解剖、病灶、单位或患者数据。实际试装的俯拍需要确认纸面承托和标题留白。",
+  "registration": {
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "anchors": {
+      "paper_center": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "source": {
+    "kind": "ImageGen",
+    "prompt_ref": "evidence/prompt.json",
+    "generation_receipt": "evidence/generation.json",
+    "source_bytes": "evidence/generation.json#source_sha256"
+  },
+  "review": {
+    "source_static": "reviewed",
+    "alpha_composites": "reviewed",
+    "current_shot": "reviewed",
+    "full_motion": "pending",
+    "medical": "pending"
+  },
+  "medical_review": "pending",
+  "files": [
+    {
+      "path": "payload.png",
+      "role": "payload",
+      "sha256": "39ff28ab8ad04db720b71f98117e3be13be4827006c0ada4b97d42fe44207154",
+      "bytes": 539895
+    },
+    {
+      "path": "evidence/prompt.json",
+      "role": "evidence",
+      "sha256": "d1a18792d447b6fb4b0c95bfd179bde15fb7566b71cc092986b4b099cf642ac9",
+      "bytes": 296
+    },
+    {
+      "path": "evidence/generation.json",
+      "role": "evidence",
+      "sha256": "7726c55a4c82bc07ddf3eee3d3ca602ad3eca27b24ea9c5748ed2a1b46e81f71",
+      "bytes": 443
+    },
+    {
+      "path": "samples/three-backgrounds.jpg",
+      "role": "sample",
+      "sha256": "0504f84038de4e4a1fd1c35b2d519b235a2d50aafe3e707aac7e66986037729b",
+      "bytes": 64370
+    }
+  ],
+  "revision": "61cab50353d7fd72282e"
+}
