@@ -118,3 +118,5 @@ python3 tools/optimize_media.py --export <库外新目录> --archive <完整离�
 ```
 
 独立人物、器官和可拼接部件是否透明、内容是否合适，仍由实际素材与当前镜头审看决定。存储整理只改变编码和路径；作者形象、声线、品牌和签名音乐继续保管在私有作者工作区，不随通用库公共同步。
+
+> Git 跟踪分层说明：仓库默认只随 Git 跟踪轻量核心元数据和随包组件、CI 动作测试件及 README 展示样例；其余已发布至 OCI 的 `payloads/` 已切出 Git 跟踪并纳入 `/payloads/` 忽略列表，通过 `tools/repository_media.py reconcile` 在本机以 APFS/同盘只读硬链接方式刷新零额外占用的本地预览视图。一次性专题研究生成与试装脚本统一归档在 `scripts/studies/`，`tools/` 保留稳定 CLI 与日常运行管线。

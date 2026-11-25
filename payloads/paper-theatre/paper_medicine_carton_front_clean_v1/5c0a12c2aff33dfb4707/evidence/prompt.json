@@ -1,8 +1,0 @@
-{
-  "id": "medicine_carton_front_clean",
-  "transparent_background": true,
-  "referenced_image_paths": [
-    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-992e41f8-93d3-4d36-9988-735c48f6112d.png"
-  ],
-  "prompt": "Correct this generic medicine carton asset. REMOVE ALL botanical illustrations, flowers, leaves, berries, ginseng roots, mountains, wave/cloud decorations and any other front-face artwork. Replace all of those areas with the same plain cream fibrous cardboard. The only printed design permitted is the existing single muted teal horizontal band. The carton is a generic modern medicine box, NOT herbal medicine, NOT a supplement box. Preserve the exact 3D folded box, proportions, camera view, paper fibers, intrinsic shadows and outer silhouette. Absolutely no text, logo, barcode, decorative motif, symbol, object or ingredient illustration. True RGBA transparency outside the carton; no table, floor or background. The broad cream area remains entirely blank for separately rendered accurate typography."
-}

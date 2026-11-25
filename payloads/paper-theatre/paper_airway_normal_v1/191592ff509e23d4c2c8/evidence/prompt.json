@@ -1,7 +1,0 @@
-{
-  "id": "airway_normal",
-  "referenced_image_paths": [
-    "airway-normal-v1.png"
-  ],
-  "prompt": "Edit only the alpha separation of this single medical cut-paper airway asset. Preserve all tissue shapes, paper fibers, internal colors and shading, lumen, composition and scale. Completely remove the broad tan/brown outer glow, diffuse ambient shadow, and every background-like haze outside the actual torn paper silhouette. The exterior must be perfectly clean RGBA transparency, not colored translucent pixels extending far beyond the silhouette. Keep only a very thin crisp edge/contact shadow immediately on the paper's own perimeter, no ambient shadow beyond it. Make the paper itself fully opaque. Do not add any background, text, anatomy or other objects. The goal is a clean independent moving collage element which composites naturally on any colored paper stage."
-}

@@ -243,4 +243,12 @@ class CharacterDiscoveryTests(unittest.TestCase):
             self.assertEqual(row['revision'], canonical_revision(record))
             self.assertEqual(record['registration'], expected)
 
+    def test_kind_aliases_include_environment_plates_and_components(self):
+        env_kinds = {row['kind'] for row in query(kind='environment')}
+        self.assertIn('environment', env_kinds)
+        self.assertIn('environment_plate', env_kinds)
+        comp_kinds = {row['kind'] for row in query(kind='code_component')}
+        self.assertIn('code_component', comp_kinds)
+        self.assertIn('component', comp_kinds)
+
 if __name__=='__main__':unittest.main()

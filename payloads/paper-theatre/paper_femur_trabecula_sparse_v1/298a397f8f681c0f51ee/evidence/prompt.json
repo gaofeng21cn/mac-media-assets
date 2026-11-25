@@ -1,8 +1,0 @@
-{
-  "id": "femur_trabecula_sparse",
-  "transparent_background": true,
-  "referenced_image_paths": [
-    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-55393b60-f654-4d5d-aa77-bec3b0c3da11.png"
-  ],
-  "prompt": "Create a matched OSTEOPOROTIC structural comparison state of this exact proximal femur paper cutaway. Preserve the same anatomy, outer bone contour, orientation, scale, cutaway plane, warm ivory/ochre paper textures and lighting. Change only the internal architecture: visibly thinner and fewer trabeculae, several lost connections in the neck, larger spaces between the remaining struts, and a somewhat thinner cortical shell. Maintain a plausible interconnected skeleton rather than a few floating dots or honeycomb wallpaper. No fracture, no implant, no collapse, no red marks. The change must be clearly readable as reduced structural connectivity, not a darker color filter. ONE isolated complete matching specimen, no words, labels, arrows, side-by-side panel, background or halo. True RGBA transparency outside the bone. This is a qualitative educational example, not a bone density measurement."
-}

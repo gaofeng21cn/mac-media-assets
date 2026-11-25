@@ -10,6 +10,12 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 WITHDRAWN = {'needs_rebuild', 'superseded'}
+KIND_ALIASES = {
+    'environment': {'environment', 'environment_plate'},
+    'environment_plate': {'environment', 'environment_plate'},
+    'code_component': {'code_component', 'component'},
+    'component': {'code_component', 'component'},
+}
 
 
 def load_curation(root):
@@ -230,7 +236,7 @@ def query(root=ROOT, *, text=None, kind=None, series=None, scope=None,
             continue
         if not available(row) and not include_withdrawn:
             continue
-        if kind and row.get('kind') != kind:
+        if kind and row.get('kind') not in KIND_ALIASES.get(kind, {kind}):
             continue
         if scope and reuse.get('kind') != scope:
             continue

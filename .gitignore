@@ -9,3 +9,7 @@ output/
 
 # Direct intake records are swept by the daily repository owner.
 /entries/
+
+# Local hardlinked OCI object views refreshed by repository_media.py reconcile.
+# Essential bundled, CI motion-study, and README showcase files remain tracked.
+/payloads/

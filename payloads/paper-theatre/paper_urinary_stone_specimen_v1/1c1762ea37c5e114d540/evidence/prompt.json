@@ -1,8 +1,0 @@
-{
-  "id": "urinary_stone_specimen",
-  "title": "尿路结石标本·独立纸件",
-  "topic": "kidney_stones",
-  "usage": "收集与分析任务中的结石样本；颜色与外形不判断成分或治疗。",
-  "transparent_background": true,
-  "prompt": "ONE isolated small URINARY CALCULUS specimen for patient education, an irregular rounded pebble with a slightly rough granular ochre and pale cream surface, asymmetrical fine facets, no sparkling gem or crystal spikes. Whole small stone centered with generous true RGBA transparent margins. Exquisite fibrous cut-paper collage with painted gouache and colored-pencil detail and tactile paper grain, consistent with refined medical paper props. No organ, sample cup, plate, hand, ruler, text, numbers, labels, arrows, ground shadow, background or halo. Qualitative collected specimen only, no chemical composition implied by its color."
-}

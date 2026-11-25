@@ -115,6 +115,11 @@ def main() -> int:
         for sid in row.get("series_ids", []):
             if sid not in series_ids:
                 errors.append(f"unknown_series:{sid}:{rid}")
+    records_dir = root / "records"
+    if records_dir.is_dir():
+        for rec_file in sorted(records_dir.rglob("*")):
+            if rec_file.is_file() and rec_file.name != "record.json":
+                errors.append(f"orphan_record_file:{rec_file.relative_to(root)}")
     anchors_path = root / "collections/character-anchors.json"
     coverage_path = root / "collections/character-coverage.json"
     scale_path = root / "collections/character-scale.json"

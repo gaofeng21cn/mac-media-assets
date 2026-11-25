@@ -1,8 +1,0 @@
-{
-  "id": "artery_stent_supported",
-  "transparent_background": true,
-  "referenced_image_paths": [
-    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-5fd469d6-3656-4057-bfd1-b63f6f0886a5.png"
-  ],
-  "prompt": "Create a matched STENT-SUPPORTED state of this exact horizontal arterial paper specimen. Preserve the arterial outer contour, view, center, scale and tactile gouache-paper tissues. At the central narrowed segment show a short expanded fine silver-gray cylindrical mesh stent lining the lumen and supporting it open. The ochre plaque remains part of the lower wall, slightly compressed outward; it must NOT vanish. The stent is hollow mesh with clearly open central flow channel, not a solid metal plug or an external clamp. No balloon catheter, wire, surgical tool, hands, blood clot, blood cells, arrows, labels, text or background. One complete isolated matching tissue/implant cutout with genuine RGBA transparency. Keep the stent small and plausible relative to the vessel; this is a qualitative device-role explanation, not a claim that a stent cures all coronary disease."
-}

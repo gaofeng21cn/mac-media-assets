@@ -219,5 +219,24 @@ class RepositoryMediaTests(unittest.TestCase):
         self.assertEqual(master.read_bytes(),before)
         self.assertEqual(source.read_bytes(),before)
 
+    def test_verify_catalog_rejects_orphan_binary_under_records(self):
+        write(self.root / 'app-contribution-adapter.json', {'reads': {'mac.media.v1#review': {'kind': 'command'}}})
+        write(self.root / 'opl-package.json', {
+            'codex_surface': {'app_contribution_adapter': {'manifest': 'app-contribution-adapter.json'}},
+            'content_lock': {'paths': ['app-contribution-adapter.json']},
+        })
+        stray = self.root / 'records/paper-theatre/stray_item/rev1/files/payload.png'
+        stray.parent.mkdir(parents=True, exist_ok=True)
+        stray.write_bytes(b'not-a-record-json')
+        write(self.root / 'collections/series.json', {'series': {}, 'aliases': {}})
+        write(self.root / 'collections/curation.json', {'assets': {}})
+        res = subprocess.run(
+            [sys.executable, str(Path(__file__).resolve().parents[1] / 'tools/verify_catalog.py'),
+             '--root', str(self.root), '--metadata-only'],
+            capture_output=True, text=True,
+        )
+        self.assertNotEqual(res.returncode, 0)
+        self.assertIn('orphan_record_file:records/paper-theatre/stray_item/rev1/files/payload.png', res.stdout)
+
 
 if __name__=='__main__':unittest.main()

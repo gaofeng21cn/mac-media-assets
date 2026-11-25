@@ -1,7 +1,0 @@
-{
-  "id": "airway_dilated",
-  "referenced_image_paths": [
-    "airway_inflamed"
-  ],
-  "prompt": "Make the bronchodilator / RELAXED SMOOTH MUSCLE state of this exact inflamed bronchiole cross section. Keep the same artisanal gouache-painted fibrous cut paper, overall center and outer paper silhouette, face-on view and scale, illumination and colors. The key medical distinction: relaxation of the ochre smooth-muscle band widens the airway lumen, but DOES NOT remove the mucosal inflammation. Therefore open the cream lumen clearly to about 65 percent of the normal lumen diameter while keeping the inner mucosal band visibly swollen, reddish and thicker than normal, with residual folds. Do not return it to a healthy normal airway and do not remove the inflammatory redness. Single isolated complete matching cutout only. No text, labels, arrows, comparison arrangement, extra object, white plate or background. Real RGBA transparency outside the paper silhouette; no ambient haze outside it."
-}

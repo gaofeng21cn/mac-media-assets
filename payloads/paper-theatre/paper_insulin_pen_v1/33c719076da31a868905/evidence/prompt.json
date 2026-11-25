@@ -1,7 +1,0 @@
-{
-  "id": "insulin_pen",
-  "title": "胰岛素笔·带保护帽外观",
-  "usage": "胰岛素笔外观示意，未指定品牌和剂量，不作为注射步骤示范。",
-  "transparent_background": true,
-  "prompt": "ONE isolated reusable INSULIN INJECTION PEN, horizontal side/three-quarter view, for a refined handmade medical paper-theatre. Recognizable long cylindrical unbranded muted teal pen body, a small blank cream dose-window area near the push button at the LEFT, a subtle cartridge viewing section and a closed protective cap at the RIGHT; the needle is fully covered, never exposed. This must look like a pen injector, not an oral syringe or a generic hypodermic syringe. No dose numerals, words, brand, logos, graduation values, drug labeling, hand, body or other object. Exquisite fibrous cut-paper collage with hand-painted gouache, fine pencil shading and softly layered paper edges, warm muted cream/teal/ochre palette. Full object within transparent margins, genuine RGBA alpha outside it, no table, floor, background or halo. Appearance only, no injection or dosage demonstration."
-}

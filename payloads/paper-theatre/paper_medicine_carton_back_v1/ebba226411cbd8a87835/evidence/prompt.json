@@ -1,8 +1,0 @@
-{
-  "id": "medicine_carton_back",
-  "transparent_background": true,
-  "referenced_image_paths": [
-    "/Users/gaofeng/.codex/generated_images/01a1c804-b59d-7243-a01a-76b352730a1b/exec-78b3a7c7-d2d2-4152-ab21-588f3d1787c4.png"
-  ],
-  "prompt": "Create the BACK SIDE view of this exact plain generic medicine carton, as if the same box has turned around its vertical axis. Preserve its physical cream fibrous cardboard, width/height/thickness, teal band design, folded top, warm gouache paper texture and soft internal shadows. Show a broad plain cream BACK face and the narrow LEFT side/top, not the old front/right view. Back face has a large completely blank cream information area for later accurate Chinese ingredient text; only a thin teal header band is permitted. No botanical decoration, no plants, logo, number, barcode, fake small text, dosing, stamp, label, other object, floor or background. Full box isolated in genuine RGBA transparency. The object must remain a folded carton, not become a sheet of paper."
-}

@@ -1,8 +1,0 @@
-{
-  "id": "finger_joint_synovitis",
-  "transparent_background": true,
-  "prompt": "Use case: scientific-educational. ONE isolated local human FINGER METACARPOPHALANGEAL JOINT cutaway for explaining inflammatory arthritis in a refined medical paper-theatre. Two correctly opposed small bone ends from a metacarpal and proximal phalanx, smooth ivory articular cartilage, a small continuous joint space and a thin surrounding joint capsule. Show a modest salmon-red THICKENED SYNOVIAL LINING just inside the capsule at the margins, without destroying the cartilage or making a giant red tumor. Recognizable small hand-joint anatomy, NOT a knee joint, no kneecap, no whole hand, no skin or person. Exquisite fibrous cut-paper collage with painted gouache and fine pencil shadows, warm ivory/ochre bone, muted teal cartilage, dusty rose synovium, tactile layered paper relief; high-detail raster, not SVG blocks. Complete coherent tissue specimen centered with genuine RGBA transparent margins. No text, labels, arrows, syringe, tools, frame, background or halo. A qualitative inflammation example, not an individual's diagnosis or radiograph.",
-  "title": "手指掌指关节与滑膜炎·局部纸切面",
-  "topic": "rheumatoid_arthritis",
-  "usage": "掌指关节骨端、软骨与滑膜增厚的定性关系；不将膝关节代替手指，也不用于个体确诊。"
-}

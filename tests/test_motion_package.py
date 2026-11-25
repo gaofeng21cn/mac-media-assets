@@ -7,6 +7,7 @@ import unittest
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts/studies'))
 import build_structure_schematics
 
 SPEC = importlib.util.spec_from_file_location('motion_package', Path(__file__).resolve().parents[1] / 'tools/motion_package.py')
