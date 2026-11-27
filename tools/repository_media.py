@@ -70,14 +70,20 @@ def put(root, source, item):
     return target
 
 
-def git_tree(root, ref):
-    result=subprocess.run(['git','-C',str(root),'ls-tree','-rlz',ref],capture_output=True,check=True)
-    tree={}
+def legacy_blob_paths(root, ref):
+    # The baseline only supplies path membership. Blob sizes would hydrate
+    # historical media in the release controller's blobless clone.
+    result = subprocess.run(['git', '-C', str(root), 'ls-tree', '-rz', ref],
+                            capture_output=True, check=True)
+    paths = set()
     for part in result.stdout.split(b'\0'):
-        if not part:continue
-        header,path=part.split(b'\t',1);mode,kind,oid,size=header.split()
-        if kind==b'blob':tree[path.decode()]=(oid.decode(),int(size))
-    return tree
+        if not part:
+            continue
+        header, path = part.split(b'\t', 1)
+        _, kind, _ = header.split()
+        if kind == b'blob':
+            paths.add(os.fsdecode(path))
+    return paths
 
 
 def media_file(path):
@@ -108,8 +114,8 @@ def repository_files(root):
 def audit(root=ROOT, *, require_published=False):
     root=Path(root).resolve();policy=storage(root).get('repository_storage')
     if not policy:return {'status':'disabled','errors':[]}
-    errors=[];baseline={}
-    if (root/'.git').exists():baseline=git_tree(root,policy['legacy_git_ref'])
+    errors=[];baseline=set()
+    if (root/'.git').exists():baseline=legacy_blob_paths(root,policy['legacy_git_ref'])
     rows=[json.loads(s) for s in (root/'catalog/assets.jsonl').read_text().splitlines() if s.strip()]
     managed={p['path'] for r in rows for p in r['payload'] if p.get('storage')=='object'}
     raw=[];metadata_bytes=0
@@ -244,7 +250,7 @@ def reconcile(root=ROOT, *, source_library=None, source_record=None, cache=None)
                 if item['record'] not in known or item['record'] in backlog:
                     candidates.append((library,contained(library,item['record'])))
         if source_library and source_record:candidates.append((Path(source_library).resolve(),Path(source_record).resolve()))
-        baseline=git_tree(root,policy['legacy_git_ref']) if (root/'.git').exists() else {}
+        baseline=legacy_blob_paths(root,policy['legacy_git_ref']) if (root/'.git').exists() else set()
         if not source_record:
             candidates.extend((root,path) for path in (root/'entries').glob('*/*/record.json') if str(path.relative_to(root)) not in baseline)
             for row in rows:
