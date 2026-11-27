@@ -3,7 +3,7 @@
   "package_id": "mac-media-assets",
   "display_name": "Med Auto Cast Assets",
   "publisher": "one-person-lab",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "source": "first_party_repo_local",
   "source_repo": "https://github.com/gaofeng21cn/mac-media-assets.git",
   "package_role": "capability_package",
@@ -690,7 +690,7 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:0bc14f1e23f52e64052044a2a292066e24627c1d669f3abab956acaba2f0cec3"
+    "digest": "sha256:1f1d03de8c792badd7609ba145e8558458f40979d396e0e940b798196b56fe98"
   },
   "entrypoints": [
     {
