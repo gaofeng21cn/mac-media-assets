@@ -50,6 +50,20 @@ class RepositoryMediaTests(unittest.TestCase):
         write(path,record);(path.parent/'files').mkdir();shutil.copy2(image,path.parent/'files/payload.png')
         return record,path,image
 
+    def test_legacy_baseline_paths_do_not_fetch_blob_contents(self):
+        subprocess.run(['git', '-C', str(self.root), 'config', 'uploadpack.allowFilter', 'true'],
+                       check=True, capture_output=True)
+        clone = self.base / 'blobless'
+        subprocess.run(['git', 'clone', '--filter=blob:none', '--no-checkout', self.root.as_uri(), str(clone)],
+                       check=True, capture_output=True)
+        local_objects = ['git', '-C', str(clone), 'cat-file', '--batch-all-objects', '--batch-check=%(objecttype)']
+        self.assertNotIn('blob', subprocess.check_output(local_objects, text=True).splitlines())
+
+        paths = repository.legacy_blob_paths(clone, 'HEAD')
+
+        self.assertIn('catalog/assets.jsonl', paths)
+        self.assertNotIn('blob', subprocess.check_output(local_objects, text=True).splitlines())
+
     def test_build_sweeps_direct_registered_media_into_durable_objects_and_is_repeatable(self):
         record,path,source=self.direct_write()
         original=source.read_bytes()
