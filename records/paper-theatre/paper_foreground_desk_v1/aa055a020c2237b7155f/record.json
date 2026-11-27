@@ -1,0 +1,133 @@
+{
+  "schema": "animation_element/v1",
+  "id": "paper_foreground_desk_v1",
+  "title": "实心贴底前景问诊木桌",
+  "kind": "transparent_subject",
+  "tags": [
+    "paper_collage",
+    "furniture",
+    "desk",
+    "foreground",
+    "close_up",
+    "solid_bottom"
+  ],
+  "discovery": {
+    "category": "scenery",
+    "aliases": [
+      "前景实心桌",
+      "问诊近景桌",
+      "bg_foreground_desk"
+    ]
+  },
+  "reuse_scope": {
+    "kind": "general"
+  },
+  "status": "reusable_candidate",
+  "asset_id": "bg_foreground_desk",
+  "path": "assets/library/paper_foreground_desk_v1/acd51be40f6b5b666df7/files/payload.png",
+  "visual_meaning": "实心贴底前景问诊木桌·专配中近景半身人物表演，无镂空桌腿",
+  "must_not_imply": "无特定医疗设备；只作中近景半身人物前景遮挡桌面与字幕底衬，不可用于需展示地面与桌腿的中全景。",
+  "usage_notes": "配合 src/kit/actor.ts 的 drawForegroundDesk(c.stage, { topY }) 与 bez/wall 无地板背景使用。",
+  "requires_alpha": true,
+  "medical": false,
+  "visible_bounds": {
+    "x": 0.0,
+    "y": 0.070018,
+    "w": 1.0,
+    "h": 0.929982
+  },
+  "content_bounds": [
+    0,
+    39,
+    1396,
+    557
+  ],
+  "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+  "sha256": "6ef04d4f327e297e7df4f56eca47adb2bd9a55d840903066325a1338441f6838",
+  "size": [
+    1396,
+    557
+  ],
+  "source": {
+    "schema": "paper_foreground_desk_generation_receipt/v1",
+    "generator": "codex_skill_imagegen_builtin_image_gen",
+    "source_raw": "external_master",
+    "source_raw_sha256": "2ef20dbfa20c892b4f360b88692e32e526495481577fb17c11254a68693c25cf",
+    "crop_cleanup": "cropped flat edge x=[70..1466], y=[466..1023], zeroed alpha<=10 mist above desk, normalized opaque interior alpha>=235 -> 255"
+  },
+  "review": {
+    "static_alpha": "checked_wall_and_dark_backdrop_clean_pending_visual_qa",
+    "full_motion": "pending"
+  },
+  "revision": "aa055a020c2237b7155f",
+  "entry": "files/payload.webp",
+  "quality_debt": [],
+  "files": [
+    {
+      "path": "files/payload.webp",
+      "role": "payload",
+      "sha256": "6ef04d4f327e297e7df4f56eca47adb2bd9a55d840903066325a1338441f6838",
+      "bytes": 825466
+    },
+    {
+      "path": "evidence/generation_receipt.json",
+      "role": "evidence",
+      "sha256": "2509ffa6e83154a3492281b169ab4e9a3db1883ca61aa3ab8b089652b5fefcae",
+      "bytes": 392
+    },
+    {
+      "path": "evidence/alpha-review.png",
+      "role": "evidence",
+      "sha256": "3303dd76090628ba67b9ebaa02a94ebb6aa52fa32dab5e660d45f295c8a1380f",
+      "bytes": 2139327
+    }
+  ],
+  "asset": {
+    "asset_id": "bg_foreground_desk",
+    "path": "files/payload.webp",
+    "source_type": "imagegen",
+    "visual_meaning": "实心贴底前景问诊木桌·专配中近景半身人物表演，无镂空桌腿",
+    "must_not_imply": "无特定医疗设备；只作中近景半身人物前景遮挡桌面与字幕底衬，不可用于需展示地面与桌腿的中全景。",
+    "requires_alpha": true,
+    "medical": false,
+    "visible_bounds": {
+      "x": 0.0,
+      "y": 0.070018,
+      "w": 1.0,
+      "h": 0.929982
+    },
+    "content_bounds": [
+      0,
+      39,
+      1396,
+      557
+    ],
+    "content_bounds_format": "pixel_xyxy_right_bottom_exclusive",
+    "generation_receipt": "evidence/generation_receipt.json",
+    "prompt_ref": "evidence/generation_receipt.json",
+    "visual_review": {
+      "status": "passed",
+      "evidence_ref": "evidence/alpha-review.png"
+    },
+    "status": "approved_direct_use"
+  },
+  "delivery": {
+    "policy": "webp-exact-flac-verified-v2",
+    "source_asset_id": "paper:paper_foreground_desk_v1@acd51be40f6b5b666df7",
+    "source_record_sha256": "55ba61ab24313be9838bdb48d5dd4eb2ffa1ce187e1cfd3fa1aedc1dc39396cc",
+    "encodings": [
+      {
+        "path": "files/payload.png",
+        "encoded_path": "files/payload.webp",
+        "source_sha256": "acd51be40f6b5b666df7c8256b5d8591a6d0bb2ed4c00d0d23c6d721e0fb86ab",
+        "codec": "webp_lossless",
+        "rgba": "exact",
+        "alpha": "exact",
+        "color_metadata": "preserved",
+        "width": 1396,
+        "height": 557,
+        "alpha_min": 0
+      }
+    ]
+  }
+}

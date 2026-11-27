@@ -406,6 +406,7 @@
       "records/paper-theatre/paper_finger_joint_synovitis_v1/c6f7be30536665348bbd/record.json",
       "records/paper-theatre/paper_flexible_endoscope_v1/7c5488dc8e9dd9ca04fe/record.json",
       "records/paper-theatre/paper_folder_stow_v1/7e6342bcf40ff43d560e/record.json",
+      "records/paper-theatre/paper_foreground_desk_v1/aa055a020c2237b7155f/record.json",
       "records/paper-theatre/paper_glucose_chew_tube_v1/1720d6e84c39db4e24b5/record.json",
       "records/paper-theatre/paper_glucose_meter_parts_v1/9b061f3593f5bbe26bb0/record.json",
       "records/paper-theatre/paper_grocery_tote_v1/a99a8aa4bffe5de3bfc8/record.json",
@@ -689,7 +690,7 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:fa166472235d87421c39c596d54f9464c0b0c6080198871dc12cef650eedaea5"
+    "digest": "sha256:538ecee75f6f0fc78a9af97a0b730cd12014d6eb0212c4a10c456d8c932eccd5"
   },
   "entrypoints": [
     {
