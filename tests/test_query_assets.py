@@ -89,14 +89,27 @@ class ReviewHandoffTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, '越出'):
             review({'asset_record_path': '../outside.json'}, self.root, self.root)
 
-    def test_no_ui_adapter_reads_real_selected_asset_without_workspace_configuration(self):
+    def test_v2_contribution_reads_real_selection_without_workspace_configuration(self):
         import subprocess
         root = Path(__file__).resolve().parents[1]
-        value = query(root, text='MRI', limit=1)[0]['selection']['app_handoff']['input']
-        adapter = json.loads((root / 'app-contribution-adapter.json').read_text())['reads']['mac.media.v1#review']
-        result = subprocess.run(adapter['argv'], cwd=root, input=json.dumps(value), text=True,
-                                capture_output=True, env={key: val for key, val in os.environ.items() if key != 'OPL_PROFILE_WORKSPACE'}, check=True)
-        self.assertEqual(json.loads(result.stdout)['data']['items'][0]['asset_id'], value['asset_id'])
+        handoff = query(root, text='MRI', limit=1)[0]['selection']['app_handoff']
+        package = json.loads((root / 'opl-package.json').read_text())
+        self.assertEqual(package['schema_version'], 'opl.package.v2')
+        view, = package['ui']['declarative']['views']
+        self.assertEqual(view['id'], handoff['view_id'])
+        handler = package['provides']['contribution_handler']
+        request = {'schema_version': 'opl-package-app-contribution-request.v1',
+                   'operation': 'read', 'ref': view['data_ref'], 'input': handoff['input']}
+        env = {key: val for key, val in os.environ.items() if key != 'OPL_PROFILE_WORKSPACE'}
+        for message in (request, {**request, 'package_id': handoff['package_id']}):
+            with self.subTest(message=message):
+                result = subprocess.run(handler['argv'], cwd=root, input=json.dumps(message), text=True,
+                                        capture_output=True, env=env, check=True)
+                response = json.loads(result.stdout)
+                self.assertEqual(response['schema_version'], 'opl-package-app-contribution-response.v1')
+                self.assertEqual(response['result']['data']['items'][0]['asset_id'], handoff['input']['asset_id'])
+
+
 class SemanticDiscoveryTests(unittest.TestCase):
     def test_medical_system_task_and_topic_filters_return_actual_components(self):
         self.assertEqual([r['source_id'] for r in query(system='呼吸',patient_task='理解身体功能')],['mac_process_gas_v1'])

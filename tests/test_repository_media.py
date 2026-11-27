@@ -24,9 +24,14 @@ class RepositoryMediaTests(unittest.TestCase):
         self.env=patch.dict(os.environ,{'MAC_MEDIA_STATE':str(self.base/'state')});self.env.start();self.addCleanup(self.env.stop)
         write(self.root/'catalog/media-storage.json',{'profile':'catalog'})
         (self.root/'catalog/assets.jsonl').write_text('')
-        for name in ['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json','app-contribution-adapter.json']:
+        for name in ['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json']:
             write(self.root/name,{})
-        write(self.root/'contracts/opl_capability_package_manifest.json',{'version':'1.0.0'})
+        descriptor={'schema_version':'opl.package.v2','identity':{
+            'id':'mac-media-assets','version':'1.0.0','intent':'extension',
+            'name':{'zh-CN':'测试','en-US':'Test'},'summary':{'zh-CN':'测试','en-US':'Test'},
+            'publisher':'test'}}
+        write(self.root/'opl-package.json',descriptor)
+        write(self.root/'contracts/opl_capability_package_manifest.json',descriptor)
         subprocess.run(['git','init',str(self.root)],check=True,capture_output=True)
         subprocess.run(['git','-C',str(self.root),'add','.'],check=True,capture_output=True)
         subprocess.run(['git','-C',str(self.root),'-c','user.name=Test','-c','user.email=test@example.invalid','commit','-m','baseline'],check=True,capture_output=True)
@@ -234,11 +239,19 @@ class RepositoryMediaTests(unittest.TestCase):
         self.assertEqual(source.read_bytes(),before)
 
     def test_verify_catalog_rejects_orphan_binary_under_records(self):
-        write(self.root / 'app-contribution-adapter.json', {'reads': {'mac.media.v1#review': {'kind': 'command'}}})
-        write(self.root / 'opl-package.json', {
-            'codex_surface': {'app_contribution_adapter': {'manifest': 'app-contribution-adapter.json'}},
-            'content_lock': {'paths': ['app-contribution-adapter.json']},
-        })
+        manifest = {
+            'schema_version': 'opl.package.v2',
+            'identity': {'id': 'mac-media-assets', 'version': '1.0.0', 'intent': 'extension',
+                         'name': {'zh-CN': '测试', 'en-US': 'Test'},
+                         'summary': {'zh-CN': '测试', 'en-US': 'Test'}, 'publisher': 'test'},
+            'provides': {'contribution_handler': {'kind': 'cli', 'argv': ['python3', 'tools/query_assets.py', '--app-review'],
+                                                  'transport': 'stdin_json_stdout_json'}},
+            'ui': {'declarative': {'views': [{'id': 'mac-media-assets.review', 'view_type': 'list_detail',
+                'slot': 'settings.section', 'title': {'zh-CN': '审看', 'en-US': 'Review'},
+                'data_ref': 'mac.media.v1#review'}]}}
+        }
+        write(self.root / 'opl-package.json', manifest)
+        write(self.root / 'contracts/opl_capability_package_manifest.json', manifest)
         stray = self.root / 'records/paper-theatre/stray_item/rev1/files/payload.png'
         stray.parent.mkdir(parents=True, exist_ok=True)
         stray.write_bytes(b'not-a-record-json')
@@ -250,7 +263,9 @@ class RepositoryMediaTests(unittest.TestCase):
             capture_output=True, text=True,
         )
         self.assertNotEqual(res.returncode, 0)
-        self.assertIn('orphan_record_file:records/paper-theatre/stray_item/rev1/files/payload.png', res.stdout)
+        self.assertEqual(json.loads(res.stdout)['errors'], [
+            'orphan_record_file:records/paper-theatre/stray_item/rev1/files/payload.png',
+        ])
 
 
 if __name__=='__main__':unittest.main()

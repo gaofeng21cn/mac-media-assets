@@ -62,7 +62,7 @@ Med Auto Cast Assets 是面向医生、健康教育工作者和医学内容创�
 通过 OPL 安装 MAC 时，会一并安装本库：
 
 ```bash
-opl packages install med-autocast --json
+opl pack install med-autocast --json
 ```
 
 安装后，在新的 MAC 任务中说明主题、受众和制作目录，例如：

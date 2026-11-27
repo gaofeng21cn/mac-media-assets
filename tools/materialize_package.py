@@ -1,18 +1,31 @@
 #!/usr/bin/env python3
-"""Refresh/check the independent capability's content lock, never creative approval."""
+"""Prepare or check the asset package and its offline export."""
 import argparse
 import hashlib
 import json
 from pathlib import Path
 import shutil
 import subprocess
+from media_store import ROOT, contained, read, storage
+from query_assets import all_catalog_rows
 
-ROOT = Path(__file__).resolve().parents[1]
+PACKAGE_MANIFEST = 'opl-package.json'
+MANIFEST_COPY = 'contracts/opl_capability_package_manifest.json'
+OFFLINE_DIGEST = 'contracts/offline-content.json'
+
+
+def read_package_manifest(root):
+    manifest = read(Path(root) / PACKAGE_MANIFEST)
+    if (manifest.get('schema_version') != 'opl.package.v2'
+            or manifest.get('identity', {}).get('id') != 'mac-media-assets'
+            or not manifest['identity'].get('version')):
+        raise ValueError('素材包必须使用 opl.package.v2，且包含素材库身份和版本')
+    return manifest
 
 
 def verify_remote_source(root, rows, spec):
     """A slim build may omit media only when its pinned Git tree owns the bytes."""
-    from media_store import contained, source_url
+    from media_store import source_url
     remote = {item['path']: item for row in rows
               if row['source_id'] not in spec.get('bundled_source_ids', [])
               for item in row['payload']}
@@ -28,7 +41,7 @@ def verify_remote_source(root, rows, spec):
         return
     source_url(spec, next(iter(remote.values())))
     if not (root/'.git').exists():
-        return  # Installed directory: its Framework content lock owns the index.
+        return  # Installed directory: no local Git tree to inspect.
     completed = subprocess.run(['git', '-C', str(root), 'ls-tree', '-rlz', spec['source']['revision']],
                                capture_output=True, check=True)
     tree = {}
@@ -80,50 +93,55 @@ def collection_docs_evidence_refs(root):
     return refs
 
 
-def build_manifest(root=ROOT, profile='catalog'):
-    manifest_path = root / 'contracts/opl_capability_package_manifest.json'
-    manifest = json.loads(manifest_path.read_text())
-    spec = json.loads((root / 'catalog/media-storage.json').read_text()) if (root / 'catalog/media-storage.json').is_file() else {}
-    bundled = set(spec.get('bundled_source_ids', []))
-    rows = [json.loads(line) for line in (root/'catalog/assets.jsonl').read_text().splitlines() if line.strip()]
-    if profile == 'catalog':
-        verify_remote_source(root, rows, spec)
-    payload_paths = []
-    if profile == 'full':
-        payload_paths = sorted({part['path'] for row in rows for part in row['payload']})
-    else:
-        payload_paths = sorted({part['path'] for row in rows if row['source_id'] in bundled for part in row['payload']})
-    record_paths = sorted({row['portable_record'] for row in rows})
+def package_paths(root=ROOT, profile='catalog', rows=None):
+    """List files belonging to the selected asset package profile."""
+    root = Path(root)
+    bundled = set(storage(root).get('bundled_source_ids', []))
+    if rows is None:
+        rows = all_catalog_rows(root)
+    paths = {PACKAGE_MANIFEST, 'plugin.json', '.codex-plugin/plugin.json',
+             '.agents/plugins/marketplace.json', 'catalog/assets.jsonl'}
+    paths.update(row['portable_record'] for row in rows)
+    paths.update(part['path'] for row in rows if profile == 'full' or row['source_id'] in bundled
+                 for part in row['payload'])
     evidence_refs = collection_docs_evidence_refs(root)
-    icon = manifest.get('presentation', {}).get('icon_ref')
-    folder_paths = [
+    icon = read(root / PACKAGE_MANIFEST)['identity'].get('icon')
+    if icon:
+        paths.add(icon.removeprefix('./'))
+    paths.update(
         str(path.relative_to(root))
         for folder in ['skills', 'tools', 'catalog', 'collections', 'schemas']
         for path in (root / folder).rglob('*')
         if path.is_file() and '__pycache__' not in path.parts
-    ]
-    docs_paths = [
+        and path.name != '.DS_Store' and path.suffix != '.pyc'
+    )
+    paths.update(
         str(path.relative_to(root))
         for path in (root / 'docs').rglob('*')
         if path.is_file()
         and (path.suffix == '.md' or str(path.relative_to(root)) in evidence_refs)
-    ] if (root / 'docs').is_dir() else []
-    paths = sorted(['plugin.json', '.codex-plugin/plugin.json', '.agents/plugins/marketplace.json', 'app-contribution-adapter.json'] + ([icon] if icon else []) + payload_paths + record_paths + folder_paths + docs_paths)
+    )
+    return sorted(paths)
+
+
+def content_digest(root, paths):
+    """Fingerprint the package paths and their bytes."""
     digest = hashlib.sha256()
-    for relative in paths:
-        encoded = relative.encode()
-        body = (root/relative).read_bytes()
-        digest.update(len(encoded).to_bytes(8,'big'))
-        digest.update(encoded)
-        digest.update(len(body).to_bytes(8,'big'))
-        digest.update(body)
-    lock = {'algorithm':'sha256','canonicalization':'ordered_path_length_file_length_bytes',
-            'paths':paths,'digest':'sha256:'+digest.hexdigest()}
-    manifest['content_lock'] = lock
-    return manifest
+    for name in paths:
+        encoded = name.encode('utf-8')
+        with contained(root, name).open('rb') as source:
+            digest.update(len(encoded).to_bytes(8, 'big'))
+            digest.update(encoded)
+            digest.update(source.seek(0, 2).to_bytes(8, 'big'))
+            source.seek(0)
+            for block in iter(lambda: source.read(1024 * 1024), b''):
+                digest.update(block)
+    return 'sha256:' + digest.hexdigest()
 
 
 def materialize(root=ROOT, check=False, profile='catalog'):
+    root = Path(root)
+    manifest = read_package_manifest(root)
     if profile == 'catalog' and (root/'.git').exists():
         from repository_media import audit, reconcile
         result = audit(root) if check else reconcile(root)
@@ -131,12 +149,28 @@ def materialize(root=ROOT, check=False, profile='catalog'):
             if check:
                 return False
             raise ValueError('仓库媒体处理未完成：' + '; '.join(result['errors']))
-    manifest_path = root / 'contracts/opl_capability_package_manifest.json'
-    manifest = build_manifest(root, profile)
+    rows = all_catalog_rows(root)
+    paths = package_paths(root, profile, rows)
+    if profile == 'catalog':
+        verify_remote_source(root, rows, storage(root))
+    missing = [name for name in paths if not contained(root, name).is_file()]
+    if missing:
+        if check:
+            return False
+        raise ValueError('包缺少文件：' + ', '.join(missing))
+    manifest_path = root / MANIFEST_COPY
+    digest_path = root / OFFLINE_DIGEST
     if check:
-        return json.loads(manifest_path.read_text()) == manifest and json.loads((root/'opl-package.json').read_text()) == manifest
-    for path in [manifest_path, root/'opl-package.json']:
-        path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+        if not manifest_path.is_file() or read(manifest_path) != manifest:
+            return False
+        return profile != 'full' or (
+            digest_path.is_file()
+            and read(digest_path) == {'digest': content_digest(root, paths)}
+        )
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(root / PACKAGE_MANIFEST, manifest_path)
+    if profile == 'full':
+        digest_path.write_text(json.dumps({'digest': content_digest(root, paths)}) + '\n', encoding='utf-8')
     return True
 
 
@@ -147,34 +181,33 @@ def export(root, destination, profile='catalog', cache=None):
         raise ValueError('导出目标须是库外尚不存在的目录')
     if (root/'.git').exists():
         materialize(root)
-    manifest = build_manifest(root, profile)
-    paths = manifest['content_lock']['paths'] + ['opl-package.json', 'contracts/opl_capability_package_manifest.json']
+    rows = all_catalog_rows(root)
+    paths = package_paths(root, profile, rows)
+    parts = {part['path']: part for row in rows for part in row['payload']}
     for optional in ['README.md', 'README.en.md', 'LICENSE', 'NOTICE']:
         if (root/optional).is_file():
             paths.append(optional)
     for value in paths:
-        target = destination/value
+        target = contained(destination, value)
         target.parent.mkdir(parents=True, exist_ok=True)
-        source = root/value
+        source = contained(root, value)
         if not source.is_file():
             from media_store import locate
-            rows = [json.loads(s) for s in (root/'catalog/assets.jsonl').read_text().splitlines() if s.strip()]
-            part = next((p for r in rows for p in r['payload'] if p['path'] == value), None)
+            part = parts.get(value)
             source = locate(root, part, cache) if part else None
             if source is None:
                 raise ValueError('导出缺少已登记媒体：' + value)
         shutil.copy2(source, target)
     if profile == 'full':
-        storage = json.loads((destination/'catalog/media-storage.json').read_text())
-        storage['profile'] = 'full'
-        (destination/'catalog/media-storage.json').write_text(json.dumps(storage,ensure_ascii=False,indent=2)+'\n')
+        spec = storage(destination)
+        spec['profile'] = 'full'
+        (destination/'catalog/media-storage.json').write_text(json.dumps(spec,ensure_ascii=False,indent=2)+'\n')
         materialize(destination,profile='full')
-        if storage.get('offline_media_optimization') and not storage.get('delivery_policy'):
+        if spec.get('offline_media_optimization') and not spec.get('delivery_policy'):
             from optimize_media import optimize
             optimize(destination, cache=cache)
     else:
-        for name in ['opl-package.json','contracts/opl_capability_package_manifest.json']:
-            (destination/name).write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+        materialize(destination)
     actual=[p for p in destination.rglob('*') if p.is_file()]
     unique={(p.stat().st_dev,p.stat().st_ino):p for p in actual}
     return {'directory': str(destination), 'files': len(actual),
@@ -189,7 +222,7 @@ if __name__ == '__main__':
     parser.add_argument('--export', type=Path)
     args = parser.parse_args()
     if args.profile == 'full' and not args.export:
-        parser.error('完整版使用 --profile full --export <新目录>，保留源码的默认轻量内容锁')
+        parser.error('完整版使用 --profile full --export <新目录>')
     valid = materialize(check=args.check) if args.profile == 'catalog' else True
     result = {'status':'passed' if valid else 'stale', 'creative_approval':False, 'profile': args.profile}
     if args.export and valid:

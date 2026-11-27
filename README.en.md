@@ -62,7 +62,7 @@ Source builds now default to a small catalog package, with exact-version media f
 Installing MAC through OPL also installs this library:
 
 ```bash
-opl packages install med-autocast --json
+opl pack install med-autocast --json
 ```
 
 Start a new MAC task and describe your topic, audience, and production folder. For example:

@@ -97,8 +97,7 @@ class DistributionBudgetTests(unittest.TestCase):
     def test_core_is_small_and_bundled_components_are_complete(self):
         root=Path(__file__).resolve().parents[1]
         self.assertTrue(materialize_package.materialize(root,check=True))
-        descriptor=json.loads((root/'opl-package.json').read_text())
-        paths=descriptor['content_lock']['paths']
+        paths=materialize_package.package_paths(root)
         self.assertLess(sum((root/p).stat().st_size for p in paths),50*1024**2)
         spec=store.storage(root)
         self.assertTrue(spec['bundled_source_ids'])

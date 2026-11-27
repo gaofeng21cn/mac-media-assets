@@ -37,9 +37,14 @@ class IntakeTests(unittest.TestCase):
             (public/'catalog').mkdir()
             (public/'catalog/assets.jsonl').write_text(json.dumps(rows[0])+'\n')
             optimize_media.write(public/'catalog/media-storage.json', {'profile':'catalog'})
-            for name in ['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json','app-contribution-adapter.json']:
+            for name in ['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json']:
                 optimize_media.write(public/name, {})
-            optimize_media.write(public/'contracts/opl_capability_package_manifest.json', {'version':'1.0.0'})
+            optimize_media.write(public/'opl-package.json', {'schema_version':'opl.package.v2','identity':{
+                'id':'mac-media-assets','version':'1.0.0','intent':'extension',
+                'name':{'zh-CN':'测试','en-US':'Test'},'summary':{'zh-CN':'测试','en-US':'Test'},
+                'publisher':'test'}})
+            optimize_media.write(public/'contracts/opl_capability_package_manifest.json',
+                                 json.loads((public/'opl-package.json').read_text()))
             with patch.object(optimize_media, 'encode', side_effect=AssertionError('use must reuse encoding')):
                 used = prepare(public, rows[0]['id'], cache)
             self.assertEqual(used['row']['id'], registered['registered'][0]['delivery']['asset_id'])
