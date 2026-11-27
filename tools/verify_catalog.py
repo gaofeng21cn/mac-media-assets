@@ -21,22 +21,36 @@ def main() -> int:
     ap.add_argument('--metadata-only', action='store_true', help='校验轻量安装的登记与已缓存字节；未获取媒体保留缺项计数')
     args = ap.parse_args()
     root = args.root.resolve()
-    adapter = json.loads((root / "app-contribution-adapter.json").read_text(encoding="utf-8"))
     package = json.loads((root / "opl-package.json").read_text(encoding="utf-8"))
+    handler = package.get("provides", {}).get("contribution_handler", {})
+    views = package.get("ui", {}).get("declarative", {}).get("views", [])
+    package_errors = []
+    if not isinstance(views, list):
+        views = []
     if (
-        package.get("codex_surface", {}).get("app_contribution_adapter")
-        != {"manifest": "app-contribution-adapter.json"}
-        or set(adapter.get("reads", {})) != {"mac.media.v1#review"}
-        or adapter.get("actions")
-        or "app-contribution-adapter.json" not in package.get("content_lock", {}).get("paths", [])
+        package.get("schema_version") != "opl.package.v2"
+        or package.get("identity", {}).get("id") != "mac-media-assets"
+        or not package.get("identity", {}).get("version")
+        or handler != {"kind": "cli", "argv": ["python3", "tools/query_assets.py", "--app-review"],
+                       "transport": "stdin_json_stdout_json"}
+        or len(views) != 1
+        or views[0].get("id") != "mac-media-assets.review"
+        or views[0].get("view_type") != "list_detail"
+        or views[0].get("slot") != "settings.section"
+        or views[0].get("data_ref") != "mac.media.v1#review"
     ):
-        raise SystemExit("MCP App review adapter is not package-bound")
+        package_errors.append("v2_contribution_not_package_bound")
+    owner_manifest = root / "contracts/opl_capability_package_manifest.json"
+    if not owner_manifest.is_file() or json.loads(owner_manifest.read_text(encoding="utf-8")) != package:
+        package_errors.append("v2_owner_manifest_mismatch")
+    if (root / "app-contribution-adapter.json").exists():
+        package_errors.append("deprecated_contribution_adapter_present")
     catalog = root / "catalog/assets.jsonl"
     collections = root / "collections/series.json"
     rows = [json.loads(line) for line in catalog.read_text(encoding="utf-8").splitlines() if line.strip()]
     known = json.loads(collections.read_text(encoding="utf-8"))
     series_ids = set(known.get("series", {})) | set(known.get("aliases", {}))
-    errors: list[str] = []
+    errors: list[str] = package_errors
     ids: set[str] = set()
     source_revisions: dict[str, set[str]] = {}
     payloads = 0

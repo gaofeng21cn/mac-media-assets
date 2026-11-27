@@ -13,21 +13,21 @@ import sys
 import tarfile
 import tempfile
 from urllib.request import urlopen
-from media_store import ROOT, cache_root, contained, locked, matches, read, relative, sha, storage
+from materialize_package import content_digest, materialize, package_paths, read_package_manifest
+from media_store import ROOT, cache_root, contained, locked, matches, read, sha, storage
 
 
 def index_identity(root=ROOT):
     return sha(Path(root)/'catalog/assets.jsonl')
 
 
-def installation_identity(root=ROOT):
-    descriptor=read(Path(root)/'opl-package.json')
-    return hashlib.sha256((index_identity(root)+descriptor['content_lock'].get('digest','')+descriptor['version']).encode()).hexdigest()
+def installation_identity(catalog_digest, core_digest, version):
+    return hashlib.sha256((catalog_digest + core_digest + version).encode()).hexdigest()
 
 
 def inspect(root=ROOT, cache=None):
     root,cache=Path(root),cache_root(cache)
-    version=read(root/'opl-package.json')['version']
+    version=read_package_manifest(root)['identity']['version']
     pointer=cache/'offline/current.json'
     rows=[]
     if pointer.is_file():
@@ -42,7 +42,10 @@ def inspect(root=ROOT, cache=None):
                        'catalog_sha256':receipt['catalog_sha256'],'file_count':receipt['file_count'],
                        'size_bytes':receipt.get('physical_media_bytes',receipt['size_bytes']),
                        'delivery_policy':receipt.get('delivery_policy')}]
-    current=bool(rows and read(Path(rows[0]['location'])/'offline-installation.json').get('installation_fingerprint')==installation_identity(root))
+    current = False
+    if rows:
+        fingerprint = installation_identity(index_identity(root), content_digest(root, package_paths(root)), version)
+        current = receipt.get('installation_fingerprint') == fingerprint
     return {'package_id':'mac-media-assets','version':version,'installations':rows,
             'installed_profiles':['offline'] if current else [],'active_installation_status':'inactive'}
 
@@ -71,16 +74,17 @@ def install(root=ROOT,cache=None,source_root=None):
                 archive.extractall(folder,members=members,filter='data')
             unpacked=Path(folder)/'mac-media-assets'
             return install(root,cache,unpacked)
+    identity = read_package_manifest(root)['identity']
+    catalog_digest = index_identity(root)
     encoded_source=None
     if source_root and storage(source_root).get('delivery_policy'):
-        if storage(source_root).get('source_catalog_sha256')!=index_identity(root):
+        if storage(source_root).get('source_catalog_sha256')!=catalog_digest:
             raise ValueError('压缩离线包与所选核心索引不一致')
-        selected=read(root/'opl-package.json');delivered=read(source_root/'opl-package.json')
-        if delivered.get('package_id')!=selected.get('package_id') or delivered.get('version')!=selected.get('version'):
+        delivered = read_package_manifest(source_root)['identity']
+        if (delivered['id'], delivered['version']) != (identity['id'], identity['version']):
             raise ValueError('压缩离线包与所选核心身份或版本不一致')
-        from materialize_package import materialize
         if not materialize(source_root,check=True,profile='full'):
-            raise ValueError('压缩离线包内容锁不一致')
+            raise ValueError('压缩离线包内容校验不一致')
         encoded_source=source_root
     library=encoded_source or root
     if not encoded_source and storage(root).get('offline_media_optimization'):
@@ -89,8 +93,8 @@ def install(root=ROOT,cache=None,source_root=None):
     rows=[json.loads(s) for s in (library/'catalog/assets.jsonl').read_text().splitlines() if s.strip()]
     # Historical bytes remain archival; normal query/use still enforces withdrawal.
     wanted={part['path']:part for row in rows for part in row['payload']}
-    identity=index_identity(root)
-    installation=installation_identity(root)
+    core_digest = content_digest(root, package_paths(root))
+    installation = installation_identity(catalog_digest, core_digest, identity['version'])
     with locked(cache):
         before=inspect(root,cache)
         if before['installed_profiles']:
@@ -98,16 +102,10 @@ def install(root=ROOT,cache=None,source_root=None):
         offline=cache/'offline';offline.mkdir(exist_ok=True)
         with tempfile.TemporaryDirectory(prefix='.install-',dir=offline) as temporary:
             stage=Path(temporary)/'library';stage.mkdir()
-            manifest=read(library/'opl-package.json')
             # Retain callable tools and every source/review record independently.
-            for name in manifest['content_lock']['paths']+['opl-package.json']:
+            for name in package_paths(library, 'full', rows):
                 if name in wanted:continue
                 destination=contained(stage,name);destination.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(contained(library,name),destination)
-            # The installed carrier owns opl-package.json; repository-only
-            # projection metadata is not part of its content lock.
-            owner_manifest=stage/'contracts/opl_capability_package_manifest.json'
-            owner_manifest.parent.mkdir(parents=True,exist_ok=True)
-            shutil.copy2(library/'opl-package.json',owner_manifest)
             missing={};duplicates={}
             for name,item in wanted.items():
                 source=contained(library,name)
@@ -154,25 +152,23 @@ def install(root=ROOT,cache=None,source_root=None):
                 optimize(stage)
                 rows=[json.loads(line) for line in (stage/'catalog/assets.jsonl').read_text().splitlines() if line.strip()]
                 wanted={part['path']:part for row in rows for part in row['payload']}
-            # A complete standalone directory also carries its own full lock;
-            # the default catalog descriptor is never changed by this install.
+            # Record the full installation digest after preparing its final files.
             spec=storage(stage);spec['profile']='full'
             (stage/'catalog/media-storage.json').write_text(json.dumps(spec,ensure_ascii=False,indent=2)+'\n')
-            from materialize_package import materialize
             materialize(stage,profile='full')
-            receipt={'package_id':'mac-media-assets','profile':'offline','version':manifest['version'],
-                     'installation_fingerprint':installation,'core_content_digest':read(root/'opl-package.json')['content_lock'].get('digest'),
-                     'source_catalog_sha256':identity,'delivery_catalog_sha256':index_identity(stage),
+            receipt={'package_id':'mac-media-assets','profile':'offline','version':identity['version'],
+                     'installation_fingerprint':installation,'core_content_digest':core_digest,
+                     'source_catalog_sha256':catalog_digest,'delivery_catalog_sha256':index_identity(stage),
                      'source_library_root':str(root),
                      'delivery_policy':storage(stage).get('delivery_policy'),
                      'physical_media_bytes':sum(item['bytes'] for item in {p['sha256']:p for p in wanted.values()}.values()),
-                     'catalog_sha256':identity,'file_count':len(wanted),'size_bytes':sum(x['bytes'] for x in wanted.values()),
+                     'catalog_sha256':catalog_digest,'file_count':len(wanted),'size_bytes':sum(x['bytes'] for x in wanted.values()),
                      'verification':'all_registered_media_length_and_sha256','medical_review':'unchanged'}
             (stage/'offline-installation.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
             destination=offline/'versions'/installation;destination.parent.mkdir(exist_ok=True)
             if destination.exists():raise ValueError('同一索引已有离线目录，请先检查其安装记录')
             stage.rename(destination)
-            pointer=offline/'.current.tmp';pointer.write_text(json.dumps({'directory':'versions/'+installation,'catalog_sha256':identity})+'\n');pointer.replace(offline/'current.json')
+            pointer=offline/'.current.tmp';pointer.write_text(json.dumps({'directory':'versions/'+installation,'catalog_sha256':catalog_digest})+'\n');pointer.replace(offline/'current.json')
             for previous in before['installations']:
                 old=Path(previous['location'])
                 if old!=destination and old.is_relative_to(offline/'versions'):
@@ -200,7 +196,7 @@ def execute(request,root=ROOT,cache=None,source_root=None):
     if operation=='inspect':return inspect(root,cache)
     if request.get('profile','offline')!='offline':raise ValueError('未知的素材安装方式')
     if operation in {'install','update'}:
-        if request.get('version')!=read(Path(root)/'opl-package.json')['version']:raise ValueError('所选版本已变化')
+        if request.get('version')!=read_package_manifest(root)['identity']['version']:raise ValueError('所选版本已变化')
         return install(root,cache,source_root)
     if operation=='uninstall':return uninstall(root,cache,request.get('expected_revision'))
     raise ValueError('不支持的安装动作')
@@ -210,7 +206,7 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--stdin',action='store_true');parser.add_argument('--operation',default='inspect');parser.add_argument('--source-root',type=Path);parser.add_argument('--cache',type=Path)
     args=parser.parse_args()
     try:
-        request=json.load(sys.stdin) if args.stdin else {'operation':args.operation,'version':read(ROOT/'opl-package.json')['version']}
+        request=json.load(sys.stdin) if args.stdin else {'operation':args.operation,'version':read_package_manifest(ROOT)['identity']['version']}
         print(json.dumps(execute(request,cache=args.cache,source_root=args.source_root),ensure_ascii=False,indent=2))
     except (OSError,ValueError,KeyError,tarfile.TarError,ImportError,subprocess.CalledProcessError) as error:
         print(json.dumps({'package_id':'mac-media-assets','status':'diagnostic','installations':[], 'error':str(error)},ensure_ascii=False));raise SystemExit(2)

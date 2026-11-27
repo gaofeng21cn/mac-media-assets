@@ -30,9 +30,14 @@ class CompressionTests(unittest.TestCase):
             (root/'catalog').mkdir();(root/'catalog/assets.jsonl').write_text(json.dumps(row)+'\n')
             optimize_media.write(root/'catalog/media-storage.json',{'profile':'full'})
             optimize_media.write(root/'collections/example.json',{'asset_id':row['id'],'revision':'old','path':row['payload'][0]['path']})
-            for name in ['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json','app-contribution-adapter.json']:
+            for name in ['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json']:
                 optimize_media.write(root/name,{})
-            optimize_media.write(root/'contracts/opl_capability_package_manifest.json',{'version':'1.0.0'})
+            optimize_media.write(root/'opl-package.json',{'schema_version':'opl.package.v2','identity':{
+                'id':'mac-media-assets','version':'1.0.0','intent':'extension',
+                'name':{'zh-CN':'测试','en-US':'Test'},'summary':{'zh-CN':'测试','en-US':'Test'},
+                'publisher':'test'}})
+            optimize_media.write(root/'contracts/opl_capability_package_manifest.json',
+                                 json.loads((root/'opl-package.json').read_text()))
             report=optimize_media.optimize(root,1)
             changed=json.loads((root/'catalog/assets.jsonl').read_text());stored=media_store.read(root/changed['portable_record'])
             self.assertEqual(stored['revision'],optimize_media.canonical(stored))

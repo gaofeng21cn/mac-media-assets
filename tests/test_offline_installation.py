@@ -24,10 +24,18 @@ class OfflineTests(unittest.TestCase):
         (self.core/'catalog/media-storage.json').write_text(json.dumps({'source':{'repository':'https://github.com/owner/repo.git','revision':'a'*40}}))
         self.row['portable_record']='records/a/one/record.json'
         (self.core/'catalog/assets.jsonl').write_text(json.dumps(self.row)+'\n')
-        core_files=['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json','app-contribution-adapter.json',self.row['portable_record']]
+        core_files=['plugin.json','.codex-plugin/plugin.json','.agents/plugins/marketplace.json',self.row['portable_record']]
         for name in core_files:
             file=self.core/name;file.parent.mkdir(parents=True,exist_ok=True);file.write_text('{}')
-        descriptor={'package_id':'mac-media-assets','version':'1.0.0','content_lock':{'paths':['catalog/assets.jsonl','catalog/media-storage.json',*core_files]}}
+        descriptor={'schema_version':'opl.package.v2','identity':{
+            'id':'mac-media-assets','version':'1.0.0','intent':'extension',
+            'name':{'zh-CN':'测试素材库','en-US':'Test assets'},
+            'summary':{'zh-CN':'测试','en-US':'Test'},'publisher':'test'},
+            'provides':{'contribution_handler':{'kind':'cli','argv':['python3','tools/query_assets.py','--app-review'],
+                                                'transport':'stdin_json_stdout_json'}},
+            'ui':{'declarative':{'views':[{'id':'mac-media-assets.review','view_type':'list_detail',
+                'slot':'settings.section','title':{'zh-CN':'审看','en-US':'Review'},
+                'data_ref':'mac.media.v1#review'}]}}}
         (self.core/'opl-package.json').write_text(json.dumps(descriptor))
         p=self.source/self.item['path'];p.parent.mkdir(parents=True);p.write_bytes(self.body)
 
@@ -76,8 +84,6 @@ class OfflineTests(unittest.TestCase):
         spec=json.loads((encoded/'catalog/media-storage.json').read_text())
         spec.update(profile='full',delivery_policy='webp90-alpha100-aac192-or-flac-v1',source_catalog_sha256=offline.index_identity(self.core))
         (encoded/'catalog/media-storage.json').write_text(json.dumps(spec))
-        (encoded/'contracts').mkdir(exist_ok=True)
-        shutil.copy2(encoded/'opl-package.json',encoded/'contracts/opl_capability_package_manifest.json')
         materialize(encoded,profile='full')
         with patch('optimize_media.require_encoders',side_effect=AssertionError('prebuilt install must not encode')):
             result=offline.install(self.core,self.cache,encoded)
@@ -90,6 +96,9 @@ class OfflineTests(unittest.TestCase):
         with tarfile.open(archive,'w:gz') as output:output.add(encoded,arcname='mac-media-assets')
         other=offline.install(self.core,self.base/'archive-cache',archive)
         self.assertEqual(other['installed_profiles'],['offline'])
+        (encoded/'plugin.json').write_text('{"changed":true}')
+        with self.assertRaisesRegex(ValueError,'内容校验不一致'):
+            offline.install(self.core,self.cache,encoded)
         (self.core/'catalog/assets.jsonl').write_text((self.core/'catalog/assets.jsonl').read_text()+'\n')
         with self.assertRaisesRegex(ValueError,'索引不一致'):offline.install(self.core,self.cache,encoded)
 

@@ -144,6 +144,34 @@ def review(value, root=ROOT, workspace=None):
     return {'state': 'ready', 'data': json.loads(path.read_text(encoding='utf-8'))}
 
 
+def contribution_review(request, root=ROOT, workspace=None):
+    """Handle the native Framework contribution request and its optional package ID."""
+    if not isinstance(request, dict):
+        raise ValueError('输入必须为对象')
+    if request.get('package_id') not in (None, 'mac-media-assets'):
+        raise ValueError('素材库身份不一致')
+    if not any(key in request for key in ('schema_version', 'operation', 'ref', 'input')):
+        return review(request, root, workspace)
+    schema_version = request.get('schema_version')
+    if schema_version not in (None, 'opl-package-app-contribution-request.v1'):
+        raise ValueError('不支持的贡献请求版本')
+    operation = request.get('operation', 'read')
+    if operation != 'read' or request.get('ref') != 'mac.media.v1#review':
+        raise ValueError('不支持的素材库贡献视图')
+    try:
+        result = review(request.get('input'), root, workspace)
+    except (ValueError, OSError, KeyError, TypeError) as exc:
+        result = {'state': 'unavailable', 'reason': str(exc)}
+    return {
+        'schema_version': 'opl-package-app-contribution-response.v1',
+        'package_id': 'mac-media-assets',
+        'operation': operation,
+        'ref': request['ref'],
+        'ok': True,
+        'result': result,
+    }
+
+
 def maturity(root, row):
     record = load(root / row.get('portable_record', '__missing__'), {})
     review = record.get('review') or {}
@@ -385,7 +413,7 @@ def main():
     args = parser.parse_args()
     if args.app_review:
         try:
-            result = review(json.load(sys.stdin), workspace=os.environ.get('OPL_PROFILE_WORKSPACE'))
+            result = contribution_review(json.load(sys.stdin), workspace=os.environ.get('OPL_PROFILE_WORKSPACE'))
         except (ValueError, OSError, KeyError, TypeError) as exc:
             result = {'state': 'unavailable', 'reason': str(exc)}
         print(json.dumps(result, ensure_ascii=False))

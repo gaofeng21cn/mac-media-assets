@@ -1,6 +1,6 @@
 # 轻量安装、按需媒体与缓存
 
-标准 OPL 安装仍使用 `opl packages install med-autocast --json`，MAC 依赖本能力包。
+标准 OPL 安装使用 `opl pack install med-autocast --json`，MAC 依赖本能力包。
 默认内容锁采用轻量目录：工具、分类、全量精确版本记录和体积小的原创医学代码组件随包；已处理图像、声音和样片按需获取，原始母版留在仓库外。
 
 ## 三种使用方式
