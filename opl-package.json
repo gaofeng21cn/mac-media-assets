@@ -2,7 +2,7 @@
   "schema_version": "opl.package.v2",
   "identity": {
     "id": "mac-media-assets",
-    "version": "0.2.14",
+    "version": "0.2.15",
     "intent": "extension",
     "name": {
       "zh-CN": "Med Auto Cast Assets",
